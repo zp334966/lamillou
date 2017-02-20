@@ -19,7 +19,7 @@
 }
 
 footer.footer a {
-    font-weight: none;
+    font-weight: none !important;
 }
 
 .footer .contacts {
