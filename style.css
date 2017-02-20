@@ -33,7 +33,7 @@
     text-transform: uppercase;
     width: 300px;
     height: 60px;
-    font-weight: bold;
+    font-weight: bold !important;
 }
 .btn-lam-white {
     color: #16407d !important;
