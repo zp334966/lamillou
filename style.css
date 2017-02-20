@@ -9,7 +9,7 @@
     border: none;     
 }
 
-@media only screen and (max-width: 480px) .footer .row>div {
+@media only screen and (max-width: 480px) .footer .row {
     width: 33.33333333% !important;
 }
 
