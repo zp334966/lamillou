@@ -6,7 +6,8 @@
 }
 
 .gallery-grid.masonry .item {
-    border: none;     
+    border: none;   
+    background: white;
 }
 
 @media only screen and (max-width:480px){
@@ -45,6 +46,10 @@ footer.footer a {
     left: 0;
     right: 0;
     text-align: center;
+}
+
+.img-responsive {
+    padding-bottom: 15px;
 }
 .img-overlay:before {
     content:' ';
