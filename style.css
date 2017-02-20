@@ -16,6 +16,9 @@
 
 .footer {
     background-color: #16407d !important;
+}
+
+.footer a {
     font-weight: none;
 }
 
