@@ -53,6 +53,9 @@ footer.footer a {
     color: white !important;
 }
 
+.move-right .exit-off-canvas {
+    background: rgba(22, 64, 125, .2);
+}
 
 .img-wrapper {
     position: relative;
