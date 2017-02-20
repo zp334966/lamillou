@@ -19,7 +19,7 @@
 }
 
 footer.footer a {
-    font-weight: none !important;
+    font-weight: 600 !important;
 }
 
 .footer .contacts {
@@ -32,10 +32,6 @@ footer.footer a {
 
 .footer span {
     color: white !important;
-}
-
-.footer .mobile-navi {
-    font-weight: bold;
 }
 
 
