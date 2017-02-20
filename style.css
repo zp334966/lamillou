@@ -10,14 +10,17 @@
 }
 
 @media only screen and (max-width: 480px)
-.footer .row>div {
+.footer .row {
     width: none !important;
 }
 
 .footer {
     background-color: #16407d !important;
+}
+
+.footer .contacts {
     margin-left: 15px;
-    margin-right: 15px;
+    margin-right: 15px;    
 }
 
 .footer span {
