@@ -5,6 +5,11 @@
     color:#16407d;
 }
 
+.mobile-search .form-control {
+    border: none;
+    background: #ebebeb;
+}
+
 .gallery-grid.masonry .item {
     border: none;   
     background: white;
@@ -17,6 +22,12 @@
 
 .col-xs-5, .col-sm-5, .col-md-5 {
     width: 20%;
+}
+
+.center-block {
+   margin-left:auto;
+   margin-right:auto;
+   display:block;
 }
 
 .social-bar {
@@ -33,8 +44,7 @@ footer.footer a {
 
 .footer .contacts {
     margin-left: 15px;
-    margin-right: 15px;  
-    margin-bottom: none;
+    margin-right: 15px;
     padding-bottom: 15px;
     padding-top: 15px;
 }
