@@ -2,7 +2,7 @@
     border-bottom: none;
 }
 .mobile-navi a {
-    color:#515864;
+    color:#16407d;
 }
 
 .gallery-grid.masonry .item {
@@ -11,7 +11,7 @@
 
 
 .footer {
-    background-color: #515864 !important;
+    background-color: #16407d !important;
 }
 
 .footer span {
@@ -44,10 +44,10 @@
     font-weight: bold;
 }
 .btn-lam-white {
-    color: #515864 !important;
+    color: #16407d !important;
     background-color: white;
 }
 .btn-lam-blue {
     color: white;
-    background-color: #515864;
+    background-color: #16407d;
 }
