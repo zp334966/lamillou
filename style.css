@@ -5,6 +5,10 @@
     color:#475263;
 }
 
+.gallery-grid.masonry .item {
+    border: none;     
+}
+
 
 .footer {
     background-color: #16407d;
