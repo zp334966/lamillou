@@ -23,8 +23,8 @@
     margin-right: 15px;    
 }
 
-.lavina_paragraph_content span {
-    color: white;
+.footer span {
+    color: white !important;
 }
 
 .img-wrapper {
