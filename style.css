@@ -11,8 +11,7 @@
 
 
 .footer {
-    background-color: #16407d;
-    background: #16407d;
+    background-color: #16407d !important;
 }
 .img-wrapper {
     position: relative;
