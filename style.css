@@ -16,7 +16,7 @@
 }
 
 .col-xs-5, .col-sm-5, .col-md-5 {
-    width: inherit;
+    width: 20%;
 }
 
 .social-bar {
