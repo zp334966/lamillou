@@ -12,6 +12,8 @@
 
 @media only screen and (max-width:480px){
     .footer #insta_widget.row>div {width:33.33333333%}
+    .footer .row>div {width:inherit}
+    
 }
 
 
