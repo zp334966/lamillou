@@ -9,6 +9,11 @@
     border: none;     
 }
 
+@media only screen and (max-width: 480px)
+.footer .row>div {
+    width: none !important;
+}
+
 
 .footer {
     background-color: #16407d !important;
