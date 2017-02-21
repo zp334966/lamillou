@@ -4,7 +4,9 @@
 .mobile-navi a {
     color:#16407d;
 }
-
+.mobile-navi ul li span {
+    color:#16407d;
+}
 .mobile-search .form-control {
     border: none;
     background: #ebebeb;
