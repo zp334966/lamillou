@@ -12,11 +12,11 @@
 }
 
 .header .logo {
-    width: none;
+    width: 200px;
     color:#16407d;   
 }
 
-.header .logo h1 {
+.header .logo h2 {
     margin-bottom: -6px;   
 }
 
