@@ -130,10 +130,12 @@ footer.footer a {
 .btn-lam {
     font-size: 30px;
     text-align: center;
-    text-transform: uppercase;
-    width: 300px;
+    text-transform: uppercase;  
     height: 60px;
     font-weight: bold;
+}
+.btn-lam-width{
+    width: 300px;
 }
 .btn-lam-white {
     color: #16407d !important;
