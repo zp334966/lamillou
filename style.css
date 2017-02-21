@@ -88,7 +88,7 @@ footer.footer a {
 
 #nav-toggle.active span:before, #nav-toggle.active span:after {
     opacity: 1;
-    background-color: white!important;
+    background-color: white!important; /*nie widac*/
 }
 
 .img-wrapper {
