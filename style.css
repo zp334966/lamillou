@@ -19,6 +19,10 @@
     background: #ebebeb;
     border-radius: 2px;
 }
+.mobile-navi .lang a {
+    padding-right: 15px;
+    display: inline-block;
+}
 
 .header .inner {
     border-bottom: none;
