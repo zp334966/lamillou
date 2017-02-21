@@ -12,8 +12,11 @@
 }
 
 .header .logo {
-    width: 200px;
-    color:#16407d;   
+    width: 200px;    
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color:#16407d; 
 }
 
 .header .logo h2 {
