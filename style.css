@@ -11,7 +11,7 @@
     border:none;
 }
 .mobile-navi .mobile-search button[type=submit] {
-    right: none;
+    left: 12px;
     color:#16407d;   
 }
 .mobile-search .form-control {
