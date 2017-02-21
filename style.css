@@ -81,7 +81,14 @@ footer.footer a {
     background: rgba(22, 64, 125, .8);
 }
 
+#nav-toggle.left-off-canvas-toggle span {
+    background-color: #16407d;
+}
 #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+    background-color: #16407d!important;
+}
+
+#nav-toggle.active span, #nav-toggle.active span:before, #nav-toggle.active span:after {
     background-color: white!important;
 }
 
