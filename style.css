@@ -132,22 +132,17 @@ footer.footer a {
 .gallery-grid.masonry .item2 {
     position: relative;
     float: left;
-    width: 25%;
+   /* width: 25%;
     height: 300px;
     background: #2f8cea;
     border: 2px solid #fff;
-    overflow: hidden
+    overflow: hidden*/
 }
 
 .gallery-grid.masonry .item2 img {
-    display: block;
+    /*display: block;
     margin-left: -40%;
     width: auto;
-    max-width: none!important
+    max-width: none!important*/
 }
 
-.gallery-grid.masonry .item img {
-    width: 100.5%;
-    min-height: 300px;
-    margin-left: auto
-}
