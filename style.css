@@ -7,6 +7,13 @@
 .mobile-navi ul li span {
     color:#16407d;
 }
+.mobile-navi .mobile-search {
+    border:none;
+}
+.mobile-navi .mobile-search button[type=submit] {
+    right: none;
+    color:#16407d;   
+}
 .mobile-search .form-control {
     border: none;
     background: #ebebeb;
