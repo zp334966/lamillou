@@ -145,6 +145,10 @@ footer.footer a {
     background-color: #16407d;
 }
 
+.btn-lam-blue a {
+    color: white;
+}
+
 .gallery-grid.masonry .item2 {
     position: relative;
     float: left;
