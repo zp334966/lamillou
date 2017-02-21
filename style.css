@@ -121,6 +121,13 @@ footer.footer a {
     /* adjust 'height' to position overlay content vertically */
     height: 75%;
 }
+
+.btn-lam-wide {
+    margin-left:15px;
+    margin-right:15px;
+    display: block;
+}
+
 .btn-lam {
     font-size: 30px;
     text-align: center;
