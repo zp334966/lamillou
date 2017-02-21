@@ -11,6 +11,10 @@
     border-radius: 2px;
 }
 
+.header .inner {
+    border-bottom: none;
+}
+
 .header .logo {
     width: 200px !important;
     margin-top: 12px;
@@ -22,6 +26,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 .header .logo h2 {
     margin-bottom: -6px;   
+}
+
+.header {
+    z-index: inherit;
 }
 
 .gallery-grid.masonry .item {
@@ -67,6 +75,14 @@ footer.footer a {
 
 .move-right .exit-off-canvas {
     background: rgba(22, 64, 125, .8);
+}
+
+.move-right .exit-off-canvas:hover {
+    background: rgba(22, 64, 125, .8);
+}
+
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+    background-color: white!important;
 }
 
 .img-wrapper {
