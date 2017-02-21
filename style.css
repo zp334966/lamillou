@@ -132,10 +132,15 @@ footer.footer a {
     text-align: center;
     text-transform: uppercase;  
     height: 60px;
+    width: 300px;
     font-weight: bold;
 }
-.btn-lam-width{
-    width: 300px;
+.btn-lam-small{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;  
+    height: 30px;
+    font-weight: bold;
 }
 .btn-lam-white {
     color: #16407d !important;
