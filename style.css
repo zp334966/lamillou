@@ -11,6 +11,15 @@
     border-radius: 2px;
 }
 
+.header .logo {
+    width: none;
+    color:#16407d;   
+}
+
+.header .logo h1 {
+    margin-bottom: -6px;   
+}
+
 .gallery-grid.masonry .item {
     border: none;   
     background: white;
