@@ -189,6 +189,10 @@ footer.footer {
     vertical-align: middle;
 }
 
+.img-overlay .fa :before {
+    height: 20%;
+}
+
 .buttons-wide {
     margin-top: 35px;
     margin-bottom: 15px;
