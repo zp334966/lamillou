@@ -1,6 +1,10 @@
 body {
     font-family: .AppleSystemUIFont;   
 }
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 .mobile-navi ul li a {
     border-bottom: none;
