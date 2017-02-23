@@ -24,6 +24,14 @@
     display: inline-block;
 }
 
+.mobile-navi h4>span {
+    display: block;
+    margin-top: 8px;
+    width: 50px;
+    height: 1px;
+    background: #ebebeb;
+}
+
 .header .inner {
     border-bottom: none;
 }
