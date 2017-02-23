@@ -26,6 +26,7 @@ body {
 .mobile-navi .mobile-search button[type=submit] {
     color:#16407d;   
     width: 47px;
+    left: 13px;
 }
 .mobile-search .form-control {
     border: none;
