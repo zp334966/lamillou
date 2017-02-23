@@ -8,14 +8,14 @@ body {
 
 .mobile-navi ul li a {
     border-bottom: none;
-    padding: 10px 45px 10px 10px;
+    padding: 0px 45px 0px 0px;
 }
 .mobile-navi a {
     color:#16407d;
     letter-spacing: 0.38px;
     font-weight: normal;
     font-size: 15px;
-    line-height: 48px;
+    /*line-height: 48px;*/
 }
 .mobile-navi ul li span {
     color:#16407d;
@@ -126,8 +126,6 @@ footer.footer {
 }
 
 .footer .contacts {
-    margin-left: 10px;
-    margin-right: 10px;
     padding-bottom: 15px;
     padding-top: 15px;
 }
@@ -221,4 +219,9 @@ footer.footer {
 .gallery-grid.masonry .item2 {
     position: relative;
     float: left;
+}
+
+.row {
+    margin-left: 0px; 
+    margin-right: 0px;
 }
