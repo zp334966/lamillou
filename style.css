@@ -22,11 +22,13 @@ body {
 }
 .mobile-navi .mobile-search {
     border:none;
+    padding: 11px 12px 0 10px;
 }
 .mobile-navi .mobile-search button[type=submit] {
     color:#16407d;   
     width: 47px;
-    left: 13px;
+    left: 11px;
+    top: 15px;
 }
 .mobile-search .form-control {
     border: none;
