@@ -1,8 +1,14 @@
+body {
+    font-family: .AppleSystemUIFont;   
+}
+
 .mobile-navi ul li a {
     border-bottom: none;
 }
 .mobile-navi a {
     color:#16407d;
+    letter-spacing: 0.38px;
+    line-height: 48px;
 }
 .mobile-navi ul li span {
     color:#16407d;
