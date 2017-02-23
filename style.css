@@ -24,8 +24,8 @@ body {
     border:none;
 }
 .mobile-navi .mobile-search button[type=submit] {
-    left: 12px;
     color:#16407d;   
+    width: 47px;
 }
 .mobile-search .form-control {
     border: none;
