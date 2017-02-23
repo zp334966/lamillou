@@ -66,6 +66,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     text-align: left;
     font-size: 36px;
     letter-spacing: 0.9px;
+    line-height: 50px;
+    margin-bottom: 0px;
 }
 
 .page-heading h3>span {
