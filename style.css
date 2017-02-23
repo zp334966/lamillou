@@ -19,6 +19,14 @@
     background: #ebebeb;
     border-radius: 2px;
 }
+.form-control {
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+.mobile-navi .mobile-search .form-control {
+    padding-right: 9px;
+    padding-left: 47px;
+}
 .mobile-navi .lang a {
     padding-right: 15px;
     display: inline-block;
