@@ -32,6 +32,10 @@ body {
     background: #ebebeb;
     border-radius: 2px;
 }
+.mobile-navi-menu {
+    padding-left: 19px;
+    padding-right: 19px;
+}
 .form-control {
     padding-bottom: 4px;
     padding-top: 4px;
