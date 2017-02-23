@@ -151,12 +151,15 @@ footer.footer a {
 }
 
 .btn-lam {
-    font-size: 30px;
+    font-size: 15px;
     text-align: center;
     text-transform: uppercase;  
-    height: 60px;
-    width: 300px;
-    font-weight: bold;
+    height: 50px;
+    width: 240px;
+    font-family: .AppleSystemUIFont;
+    letter-spacing: 0.38px;
+    line-height: 48px;
+    
 }
 .btn-lam-small{
     font-size: 30px;
