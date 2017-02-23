@@ -34,7 +34,7 @@ body {
 }
 .mobile-navi-menu {
     padding-left: 19px;
-    padding-right: 19px;
+    padding-right: 22px;
 }
 .form-control {
     padding-bottom: 4px;
@@ -54,8 +54,6 @@ body {
     margin-top: 15px;
     height: 2px;
     background: #ebebeb;
-    margin-right: 15px;
-    margin-left: 15px;
 }
 
 .header .inner {
