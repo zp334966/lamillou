@@ -15,7 +15,7 @@ body {
     letter-spacing: 0.38px;
     font-weight: normal;
     font-size: 15px;
-    /*line-height: 48px;*/
+    line-height: 48px;
 }
 .mobile-navi ul li span {
     color:#16407d;
