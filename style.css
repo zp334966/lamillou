@@ -174,8 +174,8 @@ footer.footer {
 .move-right .exit-off-canvas {
     background: rgba(22, 64, 125, .8);
 }
-.move-right .exit-off-canvas .left-off-canvas-toggle {
-    background: rgba(22, 64, 125, 0);
+#nav-toggle.left-off-canvas-toggle {
+    background: rgba(22, 64, 125, 0) !important;
 }
 
 .move-right .exit-off-canvas:hover {
