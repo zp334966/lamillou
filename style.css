@@ -182,6 +182,9 @@ footer.footer {
     right: 0;
     text-align: center;
 }
+.img-overlay-fa-angle {
+    text-align: right;
+}
 
 .img-responsive {
     margin-bottom: 10px;
@@ -201,7 +204,6 @@ footer.footer {
 .img-overlay-fa-angle .fa {
     color: white;
     padding: 17px 17px 17px 17px;
-    float: right;
 }
 
 .buttons-wide {
