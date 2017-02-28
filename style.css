@@ -58,6 +58,8 @@ body {
 .mobile-navi .lang a {
     padding-right: 15px;
     display: inline-block;
+    font-size: 16px;
+    letter-spacing: -0.09px;
 }
 
 .mobile-navi h4>span {
