@@ -259,7 +259,11 @@ footer.footer {
     position: relative;
     float: left;
 }
-
+.gallery-grid.masonry .itemTwice {
+    position: relative;
+    float: left;
+    max-width: 50%;
+}
 .row {
     margin-left: 0px; 
     margin-right: 0px;
