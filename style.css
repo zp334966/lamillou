@@ -235,6 +235,11 @@ footer.footer {
     margin-bottom: 15px;
 }
 
+.btn {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
 .btn-lam {
     font-size: 15px;
     text-align: center;
