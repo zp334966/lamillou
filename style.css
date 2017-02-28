@@ -10,6 +10,13 @@ body {
     border-bottom: none;
     padding: 0px 45px 0px 0px;
 }
+.mobile-navi ul li ul.submenu li a {
+    color: #16407d;
+    font-size: 15px;
+    line-height: 44px;
+    letter-spacing: 0;
+    padding: 0px 0px 0px 0px;
+}
 .mobile-navi a {
     color:#16407d;
     letter-spacing: 0.38px;
