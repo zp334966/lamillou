@@ -173,9 +173,8 @@ footer.footer {
 }
 .move-right .exit-off-canvas {
     background: rgba(22, 64, 125, .8);
+    z-index: 1;
 }
-
-
 .move-right .exit-off-canvas:hover {
     background: rgba(22, 64, 125, .8);
 }
@@ -187,7 +186,10 @@ footer.footer {
 
 #nav-toggle.active span:before, #nav-toggle.active span:after {
     opacity: 1;
-    /*background-color: white!important; nie widac*/
+    background-color: white!important;
+}
+.header .inner.no-shadow {
+    background: rgba(22, 64, 125, 0);
 }
 
 .img-wrapper {
