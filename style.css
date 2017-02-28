@@ -106,6 +106,16 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     z-index: inherit;
 }
 
+#res-cart {
+    width: initial; 
+}
+#res-cart span {
+    opacity: 0.2;
+    font-family: .SFNSDisplay;
+    font-size: 20px;
+    letter-spacing: -0.48px;
+}
+
 .page-block {
     padding: 0 0 27px 0 !important;
 }
