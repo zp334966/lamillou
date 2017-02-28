@@ -114,6 +114,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: .SFNSDisplay;
     font-size: 20px;
     letter-spacing: -0.48px;
+    vertical-align: middle;
+}
+.fa-shopping-bag:before {
+    vertical-align: middle;
 }
 
 .page-block {
