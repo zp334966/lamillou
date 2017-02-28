@@ -194,7 +194,9 @@ footer.footer {
 }
 .img-overlay .fa {
     color: white;
-    padding-right: 20px;
+    padding-right: 0px;
+    padding: 10px 10px 10px 10px;
+    float: right;
 }
 
 .buttons-wide {
