@@ -159,6 +159,10 @@ footer.footer {
     padding-top: 15px;
 }
 
+.footer .mobile-navi {
+    margin-bottom: 28px;    
+}
+
 .footer span {
     color: white !important;
 }
@@ -221,6 +225,10 @@ footer.footer {
 .img-overlay-fa-angle .fa {
     color: white;
     padding: 18px 18px 18px 18px;
+}
+.fa-play-circle {
+  opacity: 0.9;
+  color: #16407D;
 }
 .buttons-wide {
     margin-top: 35px;
