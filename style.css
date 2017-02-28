@@ -203,7 +203,8 @@ footer.footer {
 }
 .img-overlay-fa-angle .fa {
     color: white;
-    padding: 17px 17px 17px 17px;
+    padding: 18px 18px 18px 18px;
+    vertical-align: middle;
 }
 
 .buttons-wide {
