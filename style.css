@@ -188,7 +188,7 @@ footer.footer {
 .img-wrapper {
     position: relative;
 }
-.img-overlay, .img-overlay-fa-angle {
+.img-overlay, .img-overlay-fa {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -209,7 +209,7 @@ footer.footer {
     /* adjust 'height' to position overlay content vertically */
     height: 70%;
 }
-.img-overlay-fa-angle:before {
+.img-overlay-fa:before {
     content: ' ';
     display: inline-block;
     vertical-align: middle;
