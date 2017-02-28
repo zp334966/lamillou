@@ -215,12 +215,13 @@ footer.footer {
     vertical-align: middle;
     height: 100%;  
 }
+.img-overlay-fa .fa {
+    vertical-align: middle;
+}
 .img-overlay-fa-angle .fa {
     color: white;
     padding: 18px 18px 18px 18px;
-    vertical-align: middle;
 }
-
 .buttons-wide {
     margin-top: 35px;
     margin-bottom: 15px;
