@@ -7,10 +7,12 @@ body {
     padding-right: 10px;
 }
 
-.mobile-navi ul li a {
+.mobile-navi ul li a, .mobile-navi ul li h5 {
     border-bottom: none;
+    display: block;
     padding: 0px 45px 0px 0px;
 }
+
 .mobile-navi ul li ul.submenu li a {
     color: #16407d;
     font-size: 15px;
@@ -22,12 +24,13 @@ body {
 .mobile-navi ul li ul.submenu li ul.sub-submenu li a {
     color: #16407d;    
 }
-.mobile-navi a {
+.mobile-navi a, .mobile-navi h5 {
     color:#16407d;
     letter-spacing: 0.38px;
     font-weight: normal;
     font-size: 15px;
     line-height: 48px;
+    cursor: pointer;
 }
 .mobile-navi ul li span {
     color:#16407d;
