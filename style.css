@@ -17,6 +17,7 @@ body {
     line-height: 44px;
     letter-spacing: 0;
     padding: 0px 9px 0px 11px;
+    text-transform: none;
 }
 .mobile-navi a {
     color:#16407d;
