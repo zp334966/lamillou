@@ -170,7 +170,9 @@ footer.footer {
 .footer .mobile-navi {
     margin-bottom: 28px;    
 }
-
+.footer .mobile-navi a:hover, .footer .mobile-navi a:focus {
+    color: white !important;   
+}
 .footer span {
     color: white !important;
 }
