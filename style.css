@@ -233,6 +233,11 @@ footer.footer {
     color: white;
     padding: 18px 18px 18px 18px;
 }
+@media only screen and (max-width:480px){
+    .img-overlay-fa-angle .fa {
+     padding: 10px 10px 10px 10px;
+    }
+}
 .fa-play-circle {
   opacity: 0.9;
   color: #16407D;
