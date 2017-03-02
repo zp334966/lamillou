@@ -13,13 +13,14 @@ body {
     padding: 0px 45px 0px 0px;
 }
 
-.mobile-navi ul li ul.submenu li a {
+.mobile-navi ul li ul.submenu li a, .mobile-navi ul li ul.submenu li h5 {
     color: #16407d;
     font-size: 15px;
     line-height: 44px;
     letter-spacing: 0;
     padding: 0px 9px 0px 11px;
     text-transform: none;
+    cursor: pointer;
 }
 .mobile-navi ul li ul.submenu li ul.sub-submenu li a {
     color: #16407d;    
