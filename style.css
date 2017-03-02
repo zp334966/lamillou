@@ -233,7 +233,7 @@ footer.footer {
     color: white;
     padding: 18px 18px 18px 18px;
 }
-@media (max-width: @screen-xs-max){
+@media (max-width: 480px){
     .img-overlay-fa-angle .fa {
      padding: 10px 10px 10px 10px;
     }
