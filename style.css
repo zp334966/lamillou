@@ -79,7 +79,12 @@ body {
     height: 2px;
     background: #ebebeb;
 }
-
+.headroom--pinned {
+    display: block;
+}
+.headroom--unpinned {
+    display: none;
+}
 .header .inner {
     border-bottom: none;
 }
