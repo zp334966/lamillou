@@ -247,6 +247,13 @@ footer.footer {
     height: 70%;
 }
 */
+.img-overlay-fa h5 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 30px;    
+}
 .img-overlay .btn {
     bottom: 0;
     position: absolute;
