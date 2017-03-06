@@ -169,6 +169,11 @@ footer.footer {
     padding-bottom: 15px;
     padding-top: 15px;
 }
+.footer .contacts p {
+    font-size: 15px;
+    line-height: 44px;
+    letter-spacing: 0;
+}
 .footer .contacts .glyphicon {
     font-size: 19px;
     padding: 0px 15px 0px 5px;
