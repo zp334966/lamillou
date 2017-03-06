@@ -58,7 +58,7 @@ body {
 .left-off-canvas-toggle #nav-toggle {
     padding: 10px 32px 16px 0;
 }
-#nav-toggle {
+.left-off-canvas-toggle .active #nav-toggle {
     padding: 3px 32px 16px 7px;
 }
 .form-control {
