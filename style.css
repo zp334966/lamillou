@@ -283,8 +283,10 @@ footer.footer {
     }
 }
 .fa-play-circle {
-  opacity: 0.9;
-  color: #16407D;
+    color: #16407D;
+    background: white;
+    line-height: 40px;
+    border-radius: 50%;
 }
 .buttons-wide {
     margin-top: 35px;
