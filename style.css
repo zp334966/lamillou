@@ -232,12 +232,23 @@ footer.footer {
 .img-responsive {
     margin-bottom: 10px;
 }
+/*
 .img-overlay:before {
     content:' ';
     display: block;
-    /* adjust 'height' to position overlay content vertically */
     height: 70%;
 }
+*/
+.img-overlay .btn {
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 40px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    left: 0;
+    right: 0;
+}
+
 .img-overlay-fa:before {
     content: ' ';
     display: inline-block;
