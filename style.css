@@ -70,7 +70,7 @@ body {
     padding-left: 47px;
 }
 .mobile-navi .lang a {
-    padding-right: 15px;
+    padding-right: 0px;
     display: inline-block;
     font-size: 16px;
     letter-spacing: -0.09px;
