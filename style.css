@@ -192,9 +192,11 @@ footer.footer {
     margin-bottom: 5px;
 }
 .footer .contacts p {
-    font-size: 15px;
-    line-height: 44px;
-    letter-spacing: 0;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0.35px;
+    line-height: 22px;
+    font-weight: 400;
 }
 .footer .contacts .glyphicon {
     font-size: 19px;
