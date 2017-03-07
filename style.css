@@ -175,6 +175,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .footer .contacts .social-bar a {
     display: table;
     margin: 0 auto;
+    line-height: 79px;
 }
 
 .footer {
@@ -197,7 +198,7 @@ footer.footer {
 }
 .footer .contacts .glyphicon {
     font-size: 19px;
-    padding: 0px 15px 0px 5px;
+    padding: 0px 12px 0px 2px;
 }
 .footer .mobile-navi {
     margin-top: 13px;   
@@ -220,10 +221,11 @@ footer.footer h3 {
 .footer h6 {
     font-family: 'Open Sans';
     font-size: 16px;
-    color: #FFFFFF;
     letter-spacing: 0.53px;
     line-height: 20px;
-    font-weight: 500;
+    font-weight: 500 !important;
+    margin-top: 2px;
+    margin-bottom: 10px;
 }
 .move-right .exit-off-canvas {
     background: rgba(22, 64, 125, .8);
