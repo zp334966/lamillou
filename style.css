@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     margin-bottom: -6px;   
 }
 .header .logo img {
-	width: unset;
+    width: 92px !important;
 }
 .header {
     z-index: 100;
