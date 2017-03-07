@@ -198,7 +198,9 @@ footer.footer {
     font-size: 19px;
     padding: 0px 15px 0px 5px;
 }
-
+.footer .mobile-navi {
+    margin-top: 13px;   
+}
 .footer .mobile-navi a:hover, .footer .mobile-navi a:focus {
     color: white !important;   
 }
