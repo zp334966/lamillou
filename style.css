@@ -1,4 +1,4 @@
-body, span {
+body {
     font-family: .AppleSystemUIFont, 'Open Sans', Helvetica, Arial, sans-serif;  
 }
 p {
@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     letter-spacing: -0.48px;
     vertical-align: middle;
     font-weight: 600;
-    font-family: .AppleSystemUIFont, 'Open Sans';
+    font-family: 'Open Sans';
 }
 .fa-shopping-bag:before {
     vertical-align: middle;
