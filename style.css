@@ -197,6 +197,7 @@ footer.footer {
     letter-spacing: 0.35px;
     line-height: 22px !important;
     font-weight: 400;
+    margin-top: 5px;
 }
 .footer .contacts .glyphicon {
     font-size: 19px;
