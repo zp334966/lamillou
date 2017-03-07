@@ -227,6 +227,7 @@ footer.footer {
     color: white !important;   
 }
 footer.footer .social-bar a:focus, footer.footer .social-bar a:hover {
+
     color: white !important;
     text-shadow: none !imporant;/*0 0 8px #fff !important*/
 }
@@ -258,7 +259,6 @@ footer.footer h3 {
 .move-right .exit-off-canvas:hover {
     background: rgba(22, 64, 125, .8);
 }
-
 
 #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
     background-color: #16407d!important;
@@ -328,7 +328,7 @@ footer.footer h3 {
     vertical-align: middle;
     cursor: pointer;
 }
-.img-overlay-fa .fa a:hover, .img-overlay-fa .fa a:focus{
+.img-overlay-fa .fa :hover, .img-overlay-fa .fa :focus{
     color: #16407D;
 }
 .img-overlay-fa-angle .fa {
