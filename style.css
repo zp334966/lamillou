@@ -372,6 +372,9 @@ footer.footer h3 {
 .btn-lam-blue:hover, .btn-lam-blue:focus, .btn-lam-blue:active{
     background-color: #16407d !important;
 }
+.btn-lam-dark-blue:hover, .btn-lam-dark-blue:focus, .btn-lam-dark-blue:active{
+    background-color: #04224c !important;
+}
 .btn-lam-white:hover, .btn-lam-white:focus, .btn-lam-white:active{
     background-color: white !important;
 }
