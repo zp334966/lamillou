@@ -4,6 +4,9 @@ body {
 p {
     font-size: 13px;
 }
+a:hover, a:focus {
+    color: #16407d !important;
+}
 .page {
     padding-top: 13px;
 }
