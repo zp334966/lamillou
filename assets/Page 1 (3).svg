@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="19px" viewBox="0 0 13 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="12.6178 0.00030788019 12.6178 18.1690863 0.000303021516 18.1690863 0.000303021516 0.00030788019 12.6178 0.00030788019"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-–-v2---iP6---footer" transform="translate(-17.000000, -3991.000000)">
+            <rect id="Rectangle-5" fill="#16407D" x="0" y="3275" width="375" height="788"></rect>
+            <rect id="Rectangle-5-Copy" fill="#16407D" x="0" y="3556" width="375" height="966"></rect>
+            <g id="Page-1" transform="translate(17.000000, 3991.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M9.23104,12.4495773 L8.38864,12.8736227 C7.54884,13.2968045 6.52357333,12.9617136 6.09890667,12.12485 L4.15150667,8.28512273 C3.72597333,7.44825909 4.06310667,6.42657727 4.90290667,6.00339545 L5.74617333,5.57935 C6.29910667,5.30039545 6.52184,4.62503182 6.24190667,4.07316818 L4.48690667,0.615168182 C4.14890667,-0.0532863636 3.26144,-0.205286364 2.70937333,0.300804545 C0.02444,2.75957727 -0.827493333,6.80485 0.893706667,10.1980773 L2.62184,13.6051227 C4.34304,16.99835 8.11737333,18.7126682 11.6967067,18.0157136 C12.4333733,17.87235 12.8355067,17.0708955 12.49664,16.4024409 L10.74164,12.9444409 C10.4617067,12.3925773 9.78570667,12.1706227 9.23104,12.4495773" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
