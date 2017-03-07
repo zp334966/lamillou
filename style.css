@@ -307,6 +307,7 @@ footer.footer h3 {
 }
 .img-overlay-fa .fa {
     vertical-align: middle;
+    cursor: pointer;
 }
 .img-overlay-fa-angle .fa {
     color: white;
@@ -365,7 +366,12 @@ footer.footer h3 {
 .btn-lam-blue a, .btn-lam-dark-blue a {
     color: white;
 }
-
+.btn-lam-blue:hover, .btn-lam-blue:focus, .btn-lam-blue:active{
+    background-color: #16407d !important;
+}
+.btn-lam-white:hover, .btn-lam-white:focus, .btn-lam-white:active{
+    background-color: white !important;
+}
 .gallery-grid.masonry .item2 {
     position: relative;
     float: left;
