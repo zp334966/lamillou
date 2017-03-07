@@ -151,6 +151,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 #res-cart span {
     opacity: 0.2;
+    color: #16407D;
     font-size: 20px;
     letter-spacing: -0.48px;
     vertical-align: middle;
