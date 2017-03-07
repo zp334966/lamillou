@@ -5,7 +5,7 @@ p {
     font-size: 13px;
 }
 .page {
-    padding-top: unset;
+    padding-top: 13px;
 }
 .container {
     padding-left: 10px;
@@ -151,6 +151,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     letter-spacing: -0.48px;
     vertical-align: middle;
     font-weight: 600;
+    font-family: .AppleSystemUIFont, 'Open Sans';
 }
 .fa-shopping-bag:before {
     vertical-align: middle;
