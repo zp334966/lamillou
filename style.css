@@ -58,7 +58,7 @@ body {
 #nav-toggle span, #nav-toggle span::before, #nav-toggle span::after {
     width: 25px;
 }
-.left-off-canvas-toggle #nav-toggle {
+#nav-toggle {
     padding: 20px 35px 22px 10px;
     top: 12px;
 }
