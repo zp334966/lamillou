@@ -133,11 +133,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .header .logo h2 {
     margin-bottom: -6px;   
 }
-
+.header .logo img {
+	width: unset;
+}
 .header {
     z-index: 100;
 }
-
 #res-cart {
     width: initial; 
 }
