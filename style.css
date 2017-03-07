@@ -27,6 +27,7 @@ p {
     font-size: 15px;
     line-height: 44px;
     letter-spacing: 0;
+    font-weight: 400;
     padding: 0px 9px 0px 11px;
     text-transform: none;
     cursor: pointer;
@@ -220,7 +221,7 @@ footer.footer {
 }
 footer.footer .social-bar a:focus, footer.footer .social-bar a:hover {
     color: white !important;
-    text-shadow: none;/*0 0 8px #fff !important*/
+    text-shadow: none !imporant;/*0 0 8px #fff !important*/
 }
 .footer span {
     color: white !important;
