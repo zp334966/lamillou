@@ -268,7 +268,7 @@ footer.footer {
     margin-left: auto !important;
     margin-right: auto !important;
     left: 0;
-    right: 0;
+    right: 0;   
 }
 
 .img-overlay-fa:before {
@@ -313,7 +313,9 @@ footer.footer {
     letter-spacing: 0.47px;
     line-height: 48px;
     font-family: Open Sans;
-    font-weight: bold;
+    font-weight: 600;
+    padding-top: 14px !important;
+    padding-bottom: 16px !important;
 }
 .btn-lam-small{
     font-size: 30px;
