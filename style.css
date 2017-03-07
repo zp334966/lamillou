@@ -306,7 +306,11 @@ footer.footer h3 {
     bottom: 0;
     left: 0;
     right: 0;
-    margin-bottom: 30px;    
+    margin-bottom: 6px; 
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.38px;
+    line-height: 44px;
 }
 .img-overlay .btn {
     bottom: 0;
