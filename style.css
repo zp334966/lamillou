@@ -4,7 +4,7 @@ body {
 p {
     font-size: 13px;
 }
-a:hover, a:focus {
+.fa a:hover, .fa a:focus {
     color: #16407d !important;
 }
 .page {
