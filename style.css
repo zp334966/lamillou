@@ -1,6 +1,9 @@
 body {
     font-family: .AppleSystemUIFont, Open Sans, Helvetica, Arial, sans-serif;  
 }
+p {
+    font-size: 13px;
+}
 
 .container {
     padding-left: 10px;
