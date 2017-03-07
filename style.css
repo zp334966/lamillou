@@ -310,8 +310,10 @@ footer.footer {
     text-align: center;
     text-transform: uppercase;  
     width: 240px;
-    letter-spacing: 0.38px;
+    letter-spacing: 0.47px;
     line-height: 48px;
+    font-family: Open Sans;
+    font-weight: bold;
 }
 .btn-lam-small{
     font-size: 30px;
