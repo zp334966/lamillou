@@ -256,6 +256,10 @@ footer.footer h3 {
 #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
     background-color: #16407d!important;
 }
+#nav-toggle span:hover, #nav-toggle span::before:hover, #nav-toggle span::after:hover,
+#nav-toggle span:focus, #nav-toggle span::before:focus, #nav-toggle span::after:focus {
+    background-color: #16407d!important;    
+}
 
 #nav-toggle.active span:before, #nav-toggle.active span:after {
     opacity: 1;
@@ -316,6 +320,9 @@ footer.footer h3 {
 .img-overlay-fa .fa {
     vertical-align: middle;
     cursor: pointer;
+}
+.img-overlay-fa .fa a:hover, .img-overlay-fa .fa a:focus{
+    color: #16407D;
 }
 .img-overlay-fa-angle .fa {
     color: white;
