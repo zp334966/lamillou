@@ -227,9 +227,8 @@ footer.footer {
     color: white !important;   
 }
 footer.footer .social-bar a:focus, footer.footer .social-bar a:hover {
-
     color: white !important;
-    text-shadow: none !imporant;/*0 0 8px #fff !important*/
+    text-shadow: none !important;/*0 0 8px #fff !important*/
 }
 .footer span {
     color: white !important;
@@ -251,6 +250,9 @@ footer.footer h3 {
     font-weight: 500 !important;
     margin-top: 2px;
     margin-bottom: 10px;
+}
+footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover, footer.footer .copyright p a:hover {
+    color: white !important;
 }
 .move-right .exit-off-canvas {
     background: rgba(22, 64, 125, .8);
