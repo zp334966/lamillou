@@ -59,8 +59,8 @@ body {
     width: 25px;
 }
 #nav-toggle {
-    padding: 20px 35px 22px 10px;
-    top: 12px;
+    padding: 20px 35px 22px 10px !important;
+    top: 12px !important;
 }
 .left-off-canvas-toggle .active #nav-toggle {
     padding: 3px 32px 16px 7px;
