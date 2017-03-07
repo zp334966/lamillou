@@ -200,7 +200,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 footer.footer {
-    margin-top: 13px;
+    margin-top: -46px;
 }
 
 .footer .contacts {
@@ -418,7 +418,9 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 }
 .icon-mobile {
     padding: 0px 14px 0px 7px;    
+    vertical-align: baseline;
 }
 .icon-mail {
-    padding: 0px 12px 0px 4px;    
+    padding: 0px 12px 0px 4px;   
+    vertical-align: baseline;
 }
