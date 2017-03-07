@@ -218,6 +218,10 @@ footer.footer {
 .footer .mobile-navi a:hover, .footer .mobile-navi a:focus {
     color: white !important;   
 }
+footer.footer .social-bar a:focus, footer.footer .social-bar a:hover {
+    color: white !important;
+    text-shadow: none;/*0 0 8px #fff !important*/
+}
 .footer span {
     color: white !important;
 }
