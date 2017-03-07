@@ -156,6 +156,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     vertical-align: middle;
     font-weight: 600;
     font-family: 'Open Sans';
+    margin-left: 10px;
+    margin-right: 7px;
+}
+#res-cart span:hover, #res-cart span:focus {
+    opacity: 0.2;
+    color: #16407D;
 }
 .fa-shopping-bag:before {
     vertical-align: middle;
