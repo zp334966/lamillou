@@ -267,7 +267,8 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     background-color: #16407d!important;
 }
 #nav-toggle span:hover, #nav-toggle span:hover:before, #nav-toggle span:hover:after, 
-#nav-toggle span:focus, #nav-toggle span:focus:before, #nav-toggle span:focus:after {
+#nav-toggle span:focus, #nav-toggle span:focus:before, #nav-toggle span:focus:after,
+#nav-toggle span:active, #nav-toggle span:active:before, #nav-toggle span:active:after{
     background-color: #16407d!important;    
 }
 
