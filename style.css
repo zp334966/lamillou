@@ -270,7 +270,9 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 #nav-toggle span:focus, #nav-toggle span::before:focus, #nav-toggle span::after:focus {
     background-color: #16407d!important;    
 }
-
+#nav-toggle span:hover {
+    background-color: #16407d!important;      
+}
 #nav-toggle.active span:before, #nav-toggle.active span:after {
     opacity: 1;
     background-color: white!important;
