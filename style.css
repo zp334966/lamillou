@@ -369,7 +369,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 }
 .buttons-wide a {
     letter-spacing: 0.47px;
-    line-height: 48px;
+    line-height: 20px;
     padding-top: 15px !important;
     padding-bottom: 15px !important;
 }
