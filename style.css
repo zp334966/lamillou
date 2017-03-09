@@ -436,6 +436,17 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 .btn-lam-white:hover, .btn-lam-white:focus, .btn-lam-white:active{
     background-color: white !important;
 }
+.btn-lam-link {
+    text-transform: uppercase;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 20px 20px 20px 20px;
+}
+.btn-lam-link span {
+    padding: 10px 10px 10px 10px;
+}
 .gallery-grid.masonry .item2 {
     position: relative;
     float: left;
