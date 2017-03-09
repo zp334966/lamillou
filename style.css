@@ -301,7 +301,9 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 .img-overlay-fa-angle {
     text-align: right;
 }
-
+.img-overlay-fa-angle span{
+    padding: 23px 14px 23px 14px;
+}
 .img-responsive {
     margin-bottom: 10px;
 }
@@ -365,7 +367,12 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     margin-top: 35.5px;
     margin-bottom: 15px;
 }
-
+.buttons-wide a {
+    letter-spacing: 0.47px;
+    line-height: 48px;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
 .btn {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
