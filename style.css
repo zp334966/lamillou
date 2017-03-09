@@ -336,13 +336,11 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     font-family: besom!important;
     font-size: 36px;
     letter-spacing: 0.9px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
     font-weight: 300;
     color: white;
-    text-align: center;
+    display: inline-block;
+    margin-bottom: 0px;
+    vertical-align: middle;
 }
 .img-overlay .btn {
     bottom: 0;
