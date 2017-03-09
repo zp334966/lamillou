@@ -266,13 +266,11 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
     background-color: #16407d!important;
 }
-#nav-toggle span:hover, #nav-toggle span::before:hover, #nav-toggle span::after:hover,
-#nav-toggle span:focus, #nav-toggle span::before:focus, #nav-toggle span::after:focus {
+#nav-toggle span:hover, #nav-toggle span:hover:before, #nav-toggle span:hover:after, 
+#nav-toggle span:focus, #nav-toggle span:focus:before, #nav-toggle span:focus:after {
     background-color: #16407d!important;    
 }
-#nav-toggle span:hover, #nav-toggle span:focus {
-    background-color: #16407d!important;      
-}
+
 #nav-toggle.active span:before, #nav-toggle.active span:after {
     opacity: 1;
     background-color: white!important;
