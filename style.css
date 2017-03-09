@@ -46,6 +46,7 @@ p {
 }
 .mobile-navi ul li span {
     color:#16407d;
+    width: 36px;
 }
 .mobile-navi .mobile-search {
     border:none;
@@ -235,9 +236,6 @@ footer.footer {
     margin-top: 13px;   
 }
 
-.footer .mobile-navi ul li span {
-    width: 36px;
-}
 .footer .mobile-navi a:hover, .footer .mobile-navi a:focus {
     color: white !important;   
 }
