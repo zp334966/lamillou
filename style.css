@@ -105,6 +105,9 @@ p {
     height: 2px;
     background: #ebebeb;
 }
+.mobile-navi ul li span:before {
+    content: initial;
+}
 .headroom--pinned {
     display: block;
 }
@@ -234,9 +237,6 @@ footer.footer {
 
 .footer .mobile-navi ul li span {
     width: 36px;
-}
-.footer .mobile-navi ul li span:before {
-    content: initial;
 }
 .footer .mobile-navi a:hover, .footer .mobile-navi a:focus {
     color: white !important;   
