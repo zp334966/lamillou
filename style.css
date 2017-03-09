@@ -330,6 +330,18 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     letter-spacing: 0.38px;
     line-height: 48px;
 }
+.img-overlay-fa h2 {
+    word-spacing: .15em;
+    text-transform: uppercase;
+    font-family: besom!important;
+    font-size: 36px;
+    letter-spacing: 0.9px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-weight: 300;
+}
 .img-overlay .btn {
     bottom: 0;
     position: absolute;
