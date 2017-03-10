@@ -203,6 +203,11 @@ div.page-heading.center {
     display: block;
 }
 
+.footer .row {
+    margin-left: 0px;
+    margin-right: 0px;   
+}
+
 .footer .contacts .social-bar a {
     display: table;
     margin: 0 auto;
