@@ -297,7 +297,21 @@ jQuery(document).ready(function($) {
       $(this).parent().toggleClass('active');
     }
   });
-  
+	
+  $('.mobile-navi ul li h5').click(function(){
+        if($(this).parent().hasClass('active')) {
+          $(this).siblings('ul').removeClass('open');
+          $(this).parent().removeClass('active');
+        } else {
+          $(this).parent().siblings('li').removeClass('active');
+          $(this).parent().siblings('li').find('ul').removeClass('open');
+          $(this).siblings('ul').toggleClass('open');
+          $(this).parent().toggleClass('active');
+        }
+  });   
+  $('.left-off-canvas-toggle').click(function(){ $('html, body').animate({ scrollTop: 0}, 
+      {duration: 0, easing: 'easeOutExpo'});
+  });
   
   //Add(+/-) Button Number Incrementers
   $(".incr-btn").on("click", function(e) {
