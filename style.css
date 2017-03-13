@@ -480,7 +480,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     vertical-align: baseline;
 }
 #rectangle { 
-    width: 200px; 
-    height: 100px; 
+    width: initial; 
+    height: 150px; 
     background: #16407d; 
 }
