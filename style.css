@@ -359,10 +359,6 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     right: 0;   
 }
 
-.img-overlay-rectangle h6 {
-    color:white;    
-}
-
 .img-overlay-fa:before {
     content: ' ';
     display: inline-block;
@@ -488,4 +484,6 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     height: 150px; 
     background: #16407d; 
     margin-bottom: 10px; 
+    text-align: center;
+    color:white; 
 }
