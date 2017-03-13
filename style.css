@@ -358,9 +358,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     left: 0;
     right: 0;   
 }
-.img-overlay-rectangle {
-    margin-bottom: 10px;    
-}
+
 .img-overlay-rectangle h6 {
     color:white;    
 }
@@ -489,4 +487,5 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     width: initial; 
     height: 150px; 
     background: #16407d; 
+    margin-bottom: 10px; 
 }
