@@ -485,5 +485,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     background: #16407d; 
     margin-bottom: 10px; 
     text-align: center;
-    color:white; 
+}
+#rectangle h6 {
+    color:white;     
 }
