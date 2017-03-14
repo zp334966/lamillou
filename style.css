@@ -68,6 +68,8 @@ p {
     color: #9AA1AC;
     letter-spacing: 0;
     font-family: 'Open Sans';
+    margin-left: 46px;
+    padding-left: 0px;
 }
 .mobile-navi-menu {
     padding-left: 19px;
