@@ -323,7 +323,7 @@ $('.search-trigger').on('click', function(e) {
    var that = $(this);
    
    $(this).toggleClass('active');
-   $('.search-wrapper').toggleClass('open');
+   $('.search-wrapper').toggleClass('off');
    /*
    $('.search-wrapper').one('click', function() {
       that.removeClass('active');
