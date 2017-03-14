@@ -85,8 +85,7 @@ p {
 #nav-toggle span, #nav-toggle span::before, #nav-toggle span::after {
     width: 25px;
 }
-.active #nav-toggle span, .active #nav-toggle span::before, .active #nav-toggle span::after,
-#back-search span, #back-search span::before, #back-search span::after{
+.active #nav-toggle span, .active #nav-toggle span::before, .active #nav-toggle span::after{
     width: 20.5px;
     height: 1.5px;
 }
@@ -101,21 +100,13 @@ p {
 .left-off-canvas-toggle .active #nav-toggle {
     padding: 3px 32px 16px 7px;
 }
-#back-search {
+.back-search {
     top: 9px;
-    position: absolute;
-    display: block;
     position: absolute;
     padding: 10px 32px 16px 0;
     cursor: pointer;
 }
-#back-search span, #back-search span::before, #back-search span::after {
-    position: absolute;
-    display: block;
-    content: '';
-    height: 2px;
-    background: #16407d;
-}
+
 .form-control {
     padding-bottom: 4px;
     padding-top: 4px;
