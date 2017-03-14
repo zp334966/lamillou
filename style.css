@@ -104,6 +104,17 @@ p {
 #back-search {
     top: 9px;
     position: absolute;
+    display: block;
+    position: absolute;
+    padding: 10px 32px 16px 0;
+    cursor: pointer;
+}
+#back-search span, #back-search span::before, #back-search span::after {
+    position: absolute;
+    display: block;
+    content: '';
+    height: 2px;
+    background: #16407d;
 }
 .form-control {
     padding-bottom: 4px;
