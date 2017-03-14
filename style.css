@@ -80,6 +80,7 @@ p {
 }
 #nav-toggle.active {
     padding: 22px 40.7px 24px 15.7px !important;
+    top: 9px!important;
 }
 .left-off-canvas-toggle .active #nav-toggle {
     padding: 3px 32px 16px 7px;
