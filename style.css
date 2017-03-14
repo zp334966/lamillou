@@ -448,8 +448,16 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     display: inline-block;
     position: absolute;
     bottom: 0;
-    right: 0;
-    padding: 20px 20px 20px 20px;
+    right: 0;  
+    padding: 8px 21px 8px 21px;
+    font-size: 15px;
+    color: #FFFFFF;
+    letter-spacing: 0.38px;
+    line-height: 48px;
+    font-weight: 600;
+}
+.btn-lam-link a:hover, .btn-lam-link a:focus, .btn-lam-link a:active{
+    color: white;    
 }
 .btn-lam-link span {
     padding: 10px 10px 10px 10px;
