@@ -72,6 +72,11 @@ p {
     display:inline-block;
     max-width: 200px;
 }
+.form-control:focus {
+    -webkit-box-shadow: unset;
+    -moz-box-shadow: unset;
+    box-shadow: unset;
+}
 .mobile-navi-menu {
     padding-left: 19px;
     padding-right: 20px;
