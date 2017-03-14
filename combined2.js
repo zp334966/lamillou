@@ -324,11 +324,11 @@ $('.search-trigger').on('click', function(e) {
    
    $(this).toggleClass('active');
    $('.search-wrapper').toggleClass('open');
-  /* 
+   
    $('.search-wrapper').one('click', function() {
       that.removeClass('active');
       $('.search-wrapper').toggleClass('open');
-      
+  /*    
       setTimeout(function() {
          $('.off-canvas-searchbar').addClass('hidden');
       }, 350);
