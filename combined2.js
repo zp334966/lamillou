@@ -323,7 +323,7 @@ $('.search-trigger').on('click', function(e) {
    var that = $(this);
    $(this).toggleClass('active');
    $('.search-wrapper').toggleClass('off');
-   $('.header .sticky').toggleClass('hidden');
+   $('#header-mobile-id').toggleClass('hidden');
    
    /*
    $('.search-wrapper').one('click', function() {
