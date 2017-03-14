@@ -109,6 +109,13 @@ p {
 .mobile-navi ul li span:before {
     content: initial;
 }
+.mobile-search {
+    position: absolute;
+    top: 9px;
+    cursor: pointer;
+    left: 55px;
+    padding: 10px 10px 10px 10px;
+}
 .headroom--pinned {
     display: block;
 }
