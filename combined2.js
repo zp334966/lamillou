@@ -318,10 +318,12 @@ $('.search-trigger').on('click', function(e) {
    if(e.currentTarget.className === 'search-trigger') {
       $('.off-canvas-searchbar').removeClass('hidden');
       $('.off-canvas-searchbar input').focus();
-   }
+   };
    
    var that = $(this);
+   $(this).toggleClass('active');
    $('.search-wrapper').toggleClass('off');
+   
    /*
    $('.search-wrapper').one('click', function() {
       that.removeClass('active');
