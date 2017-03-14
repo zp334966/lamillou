@@ -511,4 +511,5 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     font-size: 14px;
     letter-spacing: 0.44px;
     line-height:19px;
+    margin-bottom: 0;
 }
