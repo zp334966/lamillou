@@ -126,6 +126,10 @@ p {
     left: 55px;
     padding: 10px 10px 10px 10px;
 }
+.search-wrapper .off {
+    opacity: 0.8;
+    background: #16407D;    
+}
 .headroom--pinned {
     display: block;
 }
