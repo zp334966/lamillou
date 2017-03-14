@@ -312,6 +312,32 @@ jQuery(document).ready(function($) {
   $('.left-off-canvas-toggle').click(function(){ $('html, body').animate({ scrollTop: 0}, 
       {duration: 0, easing: 'easeOutExpo'});
   });
+
+	
+$('.search-trigger').on('click', function(e) {
+   if(e.currentTarget.className === 'search-trigger') {
+      $('.off-canvas-searchbar').removeClass('hidden');
+      $('.off-canvas-searchbar input').focus();
+   }
+   
+   var that = $(this);
+   
+   $(this).toggleClass('active');
+   $('.search-wrapper').toggleClass('open');
+   
+   $('.search-wrapper').one('click', function() {
+      that.removeClass('active');
+      $('.search-wrapper').toggleClass('open');
+      
+      setTimeout(function() {
+         $('.off-canvas-searchbar').addClass('hidden');
+      }, 350);
+   });
+   
+});
+	
+	
+	
   
   //Add(+/-) Button Number Incrementers
   $(".incr-btn").on("click", function(e) {
