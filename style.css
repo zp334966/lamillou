@@ -481,11 +481,22 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 }
 #rectangle { 
     width: initial; 
-    height: 150px; 
+    height: 114.6px; 
     background: #16407d; 
     margin-bottom: 10px; 
     text-align: center;
 }
+#img-courier {
+    padding-top: 21px;  
+    padding-bottom: 10px;
+}
+#img-paypal {
+    padding-top: 27px;  
+    padding-bottom: 9px;
+}
 #rectangle h6 {
-    color:white;     
+    color:white;    
+    font-size: 14px;
+    letter-spacing: 0.44px;
+    line-height:19px;
 }
