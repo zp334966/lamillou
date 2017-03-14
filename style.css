@@ -110,7 +110,7 @@ p {
 .mobile-navi ul li span:before {
     content: initial;
 }
-.mobile-search {
+.search-trigger {
     position: absolute;
     top: 9px;
     cursor: pointer;
