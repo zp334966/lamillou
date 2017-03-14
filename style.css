@@ -457,7 +457,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     font-weight: 600;
 }
 .btn-lam-link a:hover, .btn-lam-link a:focus, .btn-lam-link a:active{
-    color: white;    
+    color: white!important;    
 }
 .btn-lam-link span {
     padding: 10px 10px 10px 10px;
