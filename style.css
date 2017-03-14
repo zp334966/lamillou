@@ -85,7 +85,8 @@ p {
 #nav-toggle span, #nav-toggle span::before, #nav-toggle span::after {
     width: 25px;
 }
-.active #nav-toggle span, .active #nav-toggle span::before, .active #nav-toggle span::after {
+.active #nav-toggle span, .active #nav-toggle span::before, .active #nav-toggle span::after,
+#back-search span, #back-search span::before, #back-search span::after{
     width: 20.5px;
     height: 1.5px;
 }
@@ -99,6 +100,10 @@ p {
 }
 .left-off-canvas-toggle .active #nav-toggle {
     padding: 3px 32px 16px 7px;
+}
+#back-search {
+    top: 9px;
+    position: absolute;
 }
 .form-control {
     padding-bottom: 4px;
