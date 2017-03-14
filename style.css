@@ -455,8 +455,9 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     letter-spacing: 0.38px;
     line-height: 48px;
     font-weight: 600;
+    cursor: pointer;
 }
-.btn-lam-link a:hover, .btn-lam-link a:focus, .btn-lam-link a:active{
+.btn-lam-link:hover, .btn-lam-link:focus, .btn-lam-link:active {
     color: white!important;    
 }
 .btn-lam-link img {
@@ -495,6 +496,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     background: #16407d; 
     margin-bottom: 10px; 
     text-align: center;
+    cursor: pointer;
 }
 #img-courier {
     padding-top: 21px;  
