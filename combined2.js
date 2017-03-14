@@ -337,7 +337,12 @@ $('.search-trigger').on('click', function(e) {
    */
 });
 	
-	
+$('.back-search').on('click', function(e) {
+   $('.off-canvas-searchbar').toggleClass('hidden');
+   $('.search-trigger').toggleClass('active');
+   $('.search-wrapper').toggleClass('off');
+   $('#header-mobile-id').toggleClass('hidden');
+});	
 	
   
   //Add(+/-) Button Number Incrementers
