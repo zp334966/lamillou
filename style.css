@@ -100,11 +100,12 @@ p {
 .left-off-canvas-toggle .active #nav-toggle {
     padding: 3px 32px 16px 7px;
 }
-.back-search {
-    top: 9px;
+#nav-toggle.back-search {
     position: absolute;
     padding: 10px 32px 16px 0;
     cursor: pointer;
+    right: 0;
+    color: #16407d !important;
 }
 
 .form-control {
