@@ -587,6 +587,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     line-height: 18px;
     position: absolute;
     bottom: 23px;
+    left: 0;
     text-transform: uppercase;
 }
 .container-products .product_discount_price {
