@@ -570,10 +570,10 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     padding-right: 4.5px;
 }
 .container-products .item .title{
-    float: left;
+    
 }
 .container-products .item .subtitle{
-    float: left;
+    
 }
 .container-products .out img{
     opacity: 0.6;
