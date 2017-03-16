@@ -580,6 +580,10 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 #products_list_page .category-leaf {
     margin-bottom: 0px;
 }
+.catalog-grid.type-2 .item footer {
+    padding-top: 6px;
+    height: 87px;
+}
 
 
 .icon-mobile {
