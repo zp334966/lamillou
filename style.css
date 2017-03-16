@@ -105,8 +105,13 @@ p {
     padding: 10px 10px 10px 10px;
     cursor: pointer;
     right: 0;
+    top:20px;
 }
-
+.search-field {
+    display: block;
+    width: auto;
+    padding: 0px 20px 0px 20px;    
+}
 .form-control {
     padding-bottom: 4px;
     padding-top: 4px;
