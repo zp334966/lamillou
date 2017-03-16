@@ -567,15 +567,21 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     color: #16407D;
     letter-spacing: 0;
     line-height: 18px;
+    position: absolute;
+    top: 46px;
 }
 .container-products .product_discount_price {
     font-family: 'Open Sans';
     font-weight: 400;
-    font-size: 12px;
+    font-size: 12px !important;
     color: #787E87;
     letter-spacing: 0;
     line-height: 17px;
-    float: right;
+    margin-left: 0px;
+    position: absolute;
+    top: 47px;
+    right: 0;
+    
 }
 #products_list_page .category-leaf {
     margin-bottom: 0px;
