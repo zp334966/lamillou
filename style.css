@@ -69,8 +69,21 @@ p {
     letter-spacing: 0;
     font-family: 'Open Sans';
     padding-left: 0px;
-    display:inline-block;
-    max-width: 200px;
+    display:block;
+}
+#loupe.mobile-search {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+#back-search.mobile-search {
+    position: absolute;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    right: 0;
+    top:20px;
 }
 .form-control:focus {
     -webkit-box-shadow: unset;
@@ -99,13 +112,6 @@ p {
 }
 .left-off-canvas-toggle .active #nav-toggle {
     padding: 3px 32px 16px 7px;
-}
-.back-search {
-    position: absolute;
-    padding: 10px 10px 10px 10px;
-    cursor: pointer;
-    right: 0;
-    top:20px;
 }
 .search-field {
     display: block;
