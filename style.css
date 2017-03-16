@@ -603,7 +603,15 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     color: #787E87;
     letter-spacing: 0;
 }
-
+.category-leaf p {
+    font-family: 'Open Sans';
+    font-size: 14px !important;
+    color: #243C5E;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-top: 9px;
+    margin-bottom: 20px;
+}
 #products_list_page .category-leaf {
     margin-bottom: 0px;
 }
