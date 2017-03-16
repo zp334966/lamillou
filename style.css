@@ -533,7 +533,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     float: left;
     max-width: 50%;
 }
-.row {
+.small-container .row {
     margin-left: 5px; 
     margin-right: 5px;
 }
