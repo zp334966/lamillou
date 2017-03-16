@@ -560,6 +560,23 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 .container-products .out img{
     opacity: 0.6;
 }
+.container-products .product-price {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 13px;
+    color: #16407D;
+    letter-spacing: 0;
+    line-height: 18px;
+}
+.container-products .product_discount_price {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 12px;
+    color: #787E87;
+    letter-spacing: 0;
+    line-height: 17px;
+    float: right;
+}
 #products_list_page .category-leaf {
     margin-bottom: 0px;
 }
