@@ -568,7 +568,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     letter-spacing: 0;
     line-height: 18px;
     position: absolute;
-    top: 46px;
+    bottom: 23px;
 }
 .container-products .product_discount_price {
     font-family: 'Open Sans';
@@ -579,7 +579,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     line-height: 17px;
     margin-left: 0px;
     position: absolute;
-    top: 47px;
+    bottom: 23px;
     right: 0;
     
 }
@@ -588,7 +588,15 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 }
 .catalog-grid.type-2 .item footer {
     padding-top: 6px;
-    height: 87px;
+    height: 87px; 
+}
+.catalog-grid .category-icon {
+    padding-bottom: 4px;   
+}
+.catalog-grid .category-icon>img {
+    margin-top: 5px;
+    margin-right: 4px;
+    max-width: 48px;
 }
 
 
