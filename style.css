@@ -561,6 +561,8 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     line-height: 19px;
     margin-bottom: 23px;
     margin-top: 18px;
+    margin-left: 4.5px;
+    margin-right: 4.5px;
 }
 .container-products .item {
     margin: 0 0 0 0 !important;
@@ -593,6 +595,13 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     bottom: 23px;
     right: 0;
     text-transform: uppercase; 
+}
+.container-products .label-unavaible {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 12px;
+    color: #787E87;
+    letter-spacing: 0;
 }
 
 #products_list_page .category-leaf {
