@@ -71,14 +71,14 @@ p {
     padding-left: 0px;
     display:block;
 }
-#loupe.mobile-search {
+.mobile-search .loupe{
     position: absolute;
     left: 0;
     top: 20px;
     padding: 10px 10px 10px 10px;
     cursor: pointer;
 }
-#back-search.mobile-search {
+.mobile-search .back-search{
     position: absolute;
     padding: 10px 10px 10px 10px;
     cursor: pointer;
