@@ -572,7 +572,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 .container-products .item .title{
     float: left;
 }
-.container-products .item .title{
+.container-products .item .subtitle{
     float: left;
 }
 .container-products .out img{
