@@ -554,7 +554,8 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 }
 .container-products .item {
     margin: 0 0 0 0 !important;
-    padding: 4.5px;
+    padding-left: 4.5px;
+    padding-right: 4.5px;
 }
 
 #products_list_page .category-leaf {
