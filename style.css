@@ -571,10 +571,20 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     padding-right: 4.5px;
 }
 .container-products .item .title{
-    
+    font-family: 'Open Sans';
+    font-size: 13px;
+    color: #16407D;
+    letter-spacing: 0;
+    font-weight: 400;
+    line-height: 18px;
 }
 .container-products .item .subtitle{
-    
+    opacity: 0.8;
+    font-family: 'Open Sans';
+    font-size: 11px;
+    color: #16407D;
+    letter-spacing: 0;
+    line-height: 15px;
 }
 .container-products .out img{
     opacity: 0.6;
@@ -607,7 +617,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 .container-products .label-unavaible {
     font-family: 'Open Sans';
     font-weight: 400;
-    font-size: 12px;
+    font-size: 12px !important;
     color: #787E87;
     letter-spacing: 0;
 }
