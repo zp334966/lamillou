@@ -61,9 +61,8 @@ p {
 .mobile-search .form-control {
     border: none;
     background: #FFFFFF;
-    height: 56px;
-    padding-top: 4px;
-    padding-bottom: 5px;
+    height: 65px;
+    margin-bottom: -65px;
     font-size: 18px;
     color: #9AA1AC;
     letter-spacing: 0;
@@ -75,14 +74,14 @@ p {
     position: absolute;
     left: 0;
     top: 0;
-    padding: 18px 10px 10px 12px;
+    padding: 20px 10px 10px 12px;
 }
 .mobile-search .back-search{
     position: absolute;
     padding: 15px 15px 15px 15px;
     cursor: pointer;
-    right: 5.6px;
-    top: 1.6px;
+    right: 2px;
+    top: 8px;
 }
 .form-control:focus {
     -webkit-box-shadow: unset;
@@ -162,7 +161,7 @@ p {
     cursor: pointer;
     display: block;
     position: absolute;
-    top: 64px;
+    top: 65px;
     bottom: 0;
     left: 0;
     right: 0;
