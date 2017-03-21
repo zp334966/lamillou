@@ -637,7 +637,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     right: 0;
     text-transform: uppercase; 
 }
-.container-products .price-promotion {
+.price-promotion {
     color: #F1001D !important;
 }
 
@@ -697,7 +697,23 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 .post-title {
     border-bottom: none;
 }
-
+.product_details .price {
+    color: #16407D;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    line-height: 23px;
+}
+.block-devider {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: #243C5E;
+    letter-spacing: 0;
+    line-height: 20px;
+    border-bottom: none;
+}
 .advertisement {
     height: 51px;
     padding-top: 18px;
