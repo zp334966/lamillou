@@ -606,6 +606,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     bottom: 23px;
     left: 0;
     text-transform: uppercase;
+    font-weight: 500;
 }
 .container-products .product_discount_price {
     font-family: 'Open Sans';
