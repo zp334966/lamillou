@@ -690,6 +690,13 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     max-width: 187px;
     color: #16407D;
 }
+.product_title {
+    margin-bottom: 4px;
+    padding-bottom: 0px;
+}
+.post-title {
+    border-bottom: none;
+}
 
 .advertisement {
     height: 51px;
