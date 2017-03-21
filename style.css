@@ -580,6 +580,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     height: 18px;
     text-transform: capitalize;
     overflow: hidden;  
+    margin-bottom: 4px;
 }
 .container-products .item .subtitle{
     opacity: 0.8;
