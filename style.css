@@ -660,6 +660,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 .catalog-grid.type-2 .item footer {
     padding-top: 6px;
     height: 87px; 
+    z-index: inherit;
 }
 .catalog-grid .category-icon {
     padding-bottom: 4px;   
