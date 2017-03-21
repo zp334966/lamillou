@@ -706,7 +706,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     text-transform: uppercase;
     line-height: 23px;
 }
-.block-devider {
+.block-devider span, .block-devider p {
     font-family: 'Open Sans';
     font-size: 14px;
     color: #243C5E;
