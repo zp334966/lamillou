@@ -673,6 +673,24 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     margin-right: 4px;
     max-width: 48px;
 }
+.product_details .title {
+    font-family: 'Open Sans';
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22px;
+    color: #16407D;
+}
+.product_details .subtitle {
+    opacity: 0.8;
+    font-family: 'Open Sans';
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: 15px;
+    max-width: 187px;
+    color: #16407D;
+}
+
 .advertisement {
     height: 51px;
     padding-top: 18px;
