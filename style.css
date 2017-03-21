@@ -708,10 +708,10 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 }
 .block-devider span, .block-devider p {
     font-family: 'Open Sans';
-    font-size: 14px;
-    color: #243C5E;
-    letter-spacing: 0;
-    line-height: 20px;
+    font-size: 14px !important;
+    color: #243C5E !important;
+    letter-spacing: 0 !important;
+    line-height: 20px !important;
     border-bottom: none;
 }
 .block-devider h5 {
