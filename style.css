@@ -634,6 +634,10 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     right: 0;
     text-transform: uppercase; 
 }
+.container-products .price-promotion {
+    color: #F1001D !important;
+}
+
 .container-products .label-unavaible {
     font-family: 'Open Sans';
     font-weight: 400;
