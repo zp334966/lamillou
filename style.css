@@ -476,7 +476,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     border-radius: 5px;
 }
 .btn-lam {
-    font-size: 15px;
+    font-size: 15px !important;
     text-align: center;
     text-transform: uppercase;  
     width: 240px;
