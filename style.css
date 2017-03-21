@@ -269,7 +269,7 @@ div.page-heading.center {
 .footer .contacts .social-bar a {
     display: table;
     margin: 0 auto;
-    line-height: 79px;
+    margin-top: 23.5px;
 }
 
 .footer {
