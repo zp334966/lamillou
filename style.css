@@ -738,6 +738,10 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     margin-left: -10px;
     height: 280px;
 }
+.master-slider {
+    height: 280px;
+    margin-bottom: 23px !important;
+}
 .controls-cont, .ms-view, .ms-slide, .ms-slide-bgcont {
     height: 280px !important;
 }
@@ -747,8 +751,14 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     bottom: 60px;
 }
 .ms-thumbs-cont {
-    left: 10px !important;
+    left: 0px !important;
     width: inherit !important;
+}
+.ms-slide .ms-slide-bgcont img {
+    height: 280px !important;
+    margin-top: 0px !important;
+    width: unset !important;
+    text-align: center;
 }
 .ms-thumb-frame img {
     margin-left: 0px !important;
