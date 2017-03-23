@@ -221,9 +221,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .page-block .mobile-navi h5 {
     font-family: 'Open Sans';
     font-weight: 600;
-    font-size: 15px;
+    font-size: 15px !important;
+    text-transform: uppercase;
     color: #16407D;
     letter-spacing: 0.47px;
+    margin-bottom: 0px;
 }
 .page-block .mobile-navi li {
     font-family: 'Open Sans';
@@ -231,6 +233,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color: #243C5E;
     letter-spacing: 0;
     line-height: 20px;
+}
+.page-block .mobile-navi img {
+    height: 132px;
+    width: auto !important;
+    text-align: center;
+    display: block;
 }
 .header .logo h2 {
     margin-bottom: -6px;   
