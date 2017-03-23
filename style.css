@@ -744,7 +744,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 .ms-thumb-frame img, .ms-thumb-frame .ms-thumb-frame-selected {
     height: 45px !important;
     max-width: 45.8px !important;
-    margin-left: 0px;
+    margin-left: 0px !important;
 }
 .ms-thumb-frame-selected {
     border: 1px solid #16407D;
