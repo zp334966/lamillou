@@ -731,6 +731,13 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     line-height: 20px;
     text-transform: uppercase; 
 }
+
+.ms-container {
+    background: rgba(208,216,229,0.70);
+    margin-right: -10px;
+    margin-left: -10px;
+    height: 280px;
+}
 .advertisement {
     height: 51px;
     padding-top: 18px;
