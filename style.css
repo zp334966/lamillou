@@ -796,9 +796,11 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     font-size: 24px;
     color: #16407D !important;
     letter-spacing: 0.9px;
-    line-height: 50px;
+    line-height: 28px;
     text-align: left;
     margin-bottom: 15px;
+    padding-top: 11px;
+    padding-bottom: 11px;
 }
 .category_desc img {
     width: 30% !important;
