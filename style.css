@@ -47,7 +47,7 @@ p {
 }
 .mobile-navi ul li span {
     color:#16407d;
-    width: 36px;
+    width: 28px;
 }
 .mobile-navi .mobile-search {
     border:none;
@@ -643,10 +643,17 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 
 .container-products .label-unavaible {
     font-family: 'Open Sans';
-    font-weight: 400;
+    font-weight: 600;
     font-size: 12px !important;
     color: #787E87;
     letter-spacing: 0;
+    background: #9AA1AC;
+    color: #FFFFFF;
+    letter-spacing: 0.4px;
+    line-height: 17px;
+    padding: 3px 10px 3px 5px;
+    float: right;
+    bottom: 0;
 }
 .category-leaf p {
     font-family: 'Open Sans';
