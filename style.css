@@ -741,7 +741,17 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 .controls-cont, .ms-view, .ms-slide, .ms-slide-bgcont {
     height: 280px !important;
 }
-
+.ms-thumb-frame img, .ms-thumb-frame.ms-thumb-frame-selected {
+    height: 45px;
+    max-width: 45.8px;
+}
+.ms-thumb-frame-selected {
+    border: 1px solid #16407D;
+}
+.ms-thumb-frame {
+    border: 1px solid #D0D9E5;
+    margin: 0px 5px 10px 0px !important;
+}
 .advertisement {
     height: 51px;
     padding-top: 18px;
