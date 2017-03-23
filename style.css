@@ -742,15 +742,18 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     height: 280px !important;
 }
 .sp-slider .ms-thumb-list {
-    height: 50px!important;
-    margin-top: 0px; 
+    height: 53px!important;
+    margin-top: 0px !important; 
     bottom: 60px;
 }
 .ms-thumbs-cont {
-    left:10px;
+    left: 10px !important;
+    width: inherit !important;
 }
 .ms-thumb-frame img {
     margin-left: 0px !important;
+    height: 100% !important;
+    width: unset !important;
 }
 .sp-slider .ms-thumb-frame{
     height: 45px !important;
@@ -764,9 +767,11 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     height: 50px !important;
     max-width: 51px !important;
     margin-left: 0px !important;
-    border: 1px solid #16407D; 
+    border: 1px solid #16407D !important; 
 }
-
+.ms-skin-default .ms-nav-next, .ms-skin-default .ms-nav-prev {
+    display: none;    
+}
 .advertisement {
     height: 51px;
     padding-top: 18px;
