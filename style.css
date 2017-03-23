@@ -741,18 +741,23 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 .controls-cont, .ms-view, .ms-slide, .ms-slide-bgcont {
     height: 280px !important;
 }
-.ms-thumb-frame img, .sp-slider .ms-thumb-frame, .sp-slider .ms-thumb-frame-selected {
-    height: 45px !important;
-    max-width: 45.8px !important;
+.ms-thumb-frame img {
     margin-left: 0px !important;
 }
-.sp-slider .ms-thumb-frame-selected {
-    border: 1px solid #16407D;
-}
-.sp-slider .ms-thumb-frame {
+
+.sp-slider .ms-thumb-frame{
+    height: 45px !important;
+    max-width: 45.9px !important;
     border: 1px solid #D0D9E5;
-    margin: 0px 5px 10px 0px !important;
+    margin: 0px 5px 10px 0px !important;   
 }
+.sp-slider .ms-thumb-frame-selected {
+    height: 50px !important;
+    max-width: 51px !important;
+    margin-left: 0px !important;
+    border: 1px solid #16407D;  
+}
+
 .advertisement {
     height: 51px;
     padding-top: 18px;
