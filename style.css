@@ -233,6 +233,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color: #243C5E;
     letter-spacing: 0;
     line-height: 20px;
+    display: list-item;
+    overflow: visible;
+    list-style: disc outside none;
 }
 .page-block .mobile-navi .packing-info img {
     height: 132px;
