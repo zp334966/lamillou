@@ -236,6 +236,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     display: list-item;
     overflow: visible;
     list-style: disc outside none;
+    margin-left: 8px;
 }
 .page-block .mobile-navi .packing-info img {
     height: 132px;
