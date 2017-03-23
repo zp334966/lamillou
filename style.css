@@ -741,15 +741,15 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 .controls-cont, .ms-view, .ms-slide, .ms-slide-bgcont {
     height: 280px !important;
 }
-.ms-thumb-frame img, .ms-thumb-frame .ms-thumb-frame-selected {
+.ms-thumb-frame img, .sp-slider .ms-thumb-frame, .sp-slider .ms-thumb-frame-selected {
     height: 45px !important;
     max-width: 45.8px !important;
     margin-left: 0px !important;
 }
-.ms-thumb-frame-selected {
+.sp-slider .ms-thumb-frame-selected {
     border: 1px solid #16407D;
 }
-.ms-thumb-frame {
+.sp-slider .ms-thumb-frame {
     border: 1px solid #D0D9E5;
     margin: 0px 5px 10px 0px !important;
 }
