@@ -218,6 +218,20 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .page-block .container .page-heading h3 {
     display:none;   
 }
+.page-block .mobile-navi h5 {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 15px;
+    color: #16407D;
+    letter-spacing: 0.47px;
+}
+.page-block .mobile-navi li {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: #243C5E;
+    letter-spacing: 0;
+    line-height: 20px;
+}
 .header .logo h2 {
     margin-bottom: -6px;   
 }
