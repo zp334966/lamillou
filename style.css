@@ -739,7 +739,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     height: 280px;
 }
 .controls-cont, .ms-view, .ms-slide, .ms-slide-bgcont {
-    height: 280px;
+    height: 280px !important;
 }
 
 .advertisement {
