@@ -664,6 +664,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     color: #F1001D !important;
 }
 
+
 .container-products .label-unavaible {
     font-family: 'Open Sans';
     font-weight: 600;
@@ -736,6 +737,15 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     letter-spacing: 0;
     text-transform: uppercase;
     line-height: 23px;
+}
+.product_details .product_discount_price{
+    font-size: 14px;
+    color: #787E87;
+    letter-spacing: 0;
+     position: absolute;
+    left: 103px;
+    top: 0px;
+    margin-top: 4px;
 }
 .block-devider {
     border-bottom: none;
