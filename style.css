@@ -234,7 +234,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     letter-spacing: 0;
     line-height: 20px;
 }
-.page-block .mobile-navi img {
+.page-block .mobile-navi .packing-info img {
     height: 132px;
     width: auto !important;
     text-align: center;
