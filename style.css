@@ -813,6 +813,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 .post-toolbox {
     padding-top: 15px !important;
     padding-bottom: 25px !important;
+    text-align: center;
 }
 .category_desc h2 {
     font-family: Besom;
