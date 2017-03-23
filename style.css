@@ -791,6 +791,19 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     padding-top: 15px !important;
     padding-bottom: 25px !important;
 }
+.category_desc h2 {
+    font-family: Besom;
+    font-size: 24px;
+    color: #16407D !important;
+    letter-spacing: 0.9px;
+    line-height: 50px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.category_desc img {
+    width: 30% !important;
+    height: auto !important;
+}
 .advertisement {
     height: 51px;
     padding-top: 18px;
