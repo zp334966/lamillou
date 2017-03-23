@@ -714,6 +714,10 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     text-transform: uppercase;
     line-height: 23px;
 }
+.block-devider {
+    border-bottom: none;
+    margin-bottom: 0px;
+}
 .block-devider span, .block-devider p {
     font-family: 'Open Sans';
     font-size: 14px !important;
@@ -772,6 +776,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     border-radius: 0px;
     margin: 0px 5px 0px 0px !important; 
     opacity: 1;
+    vertical-align: middle;
 }
 .sp-slider .ms-thumb-frame-selected {
     height: 50px !important;
@@ -781,6 +786,10 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 }
 .ms-skin-default .ms-nav-next, .ms-skin-default .ms-nav-prev {
     display: none;    
+}
+.post-toolbox {
+    padding-top: 15px !important;
+    padding-bottom: 25px !important;
 }
 .advertisement {
     height: 51px;
