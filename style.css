@@ -742,7 +742,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     height: 280px !important;
 }
 .ms-thumb-frame img, .ms-thumb-frame.ms-thumb-frame-selected {
-    height: 45px;
+    height: 45px !important;
     max-width: 45.8px;
 }
 .ms-thumb-frame-selected {
