@@ -712,6 +712,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     letter-spacing: 0;
     line-height: 22px;
     color: #16407D;
+    margin-bottom: 3px;
 }
 .product_details .subtitle {
     opacity: 0.8;
@@ -745,7 +746,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
      position: absolute;
     left: 103px;
     top: 0px;
-    margin-top: 4px;
+    margin-top: 6px !important;
 }
 .block-devider {
     border-bottom: none;
