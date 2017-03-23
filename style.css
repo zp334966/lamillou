@@ -741,9 +741,10 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 .controls-cont, .ms-view, .ms-slide, .ms-slide-bgcont {
     height: 280px !important;
 }
-.ms-thumb-frame img, .ms-thumb-frame.ms-thumb-frame-selected {
+.ms-thumb-frame img, .ms-thumb-frame .ms-thumb-frame-selected {
     height: 45px !important;
-    max-width: 45.8px;
+    max-width: 45.8px !important;
+    margin-left: 0px;
 }
 .ms-thumb-frame-selected {
     border: 1px solid #16407D;
