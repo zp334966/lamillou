@@ -238,6 +238,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     list-style: disc outside none;
     margin-left: 8px;
 }
+.mobile-navi li.title {
+    overflow: hidden !important;
+}
 .page-block .mobile-navi .packing-info img {
     height: 132px;
     width: auto !important;
