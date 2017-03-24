@@ -227,7 +227,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     letter-spacing: 0.47px;
     margin-bottom: 0px;
 }
-.page-block .mobile-navi .packing-info li {
+.page-block .mobile-navi li {
     font-family: 'Open Sans';
     font-size: 14px;
     color: #243C5E;
