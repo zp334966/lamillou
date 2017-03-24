@@ -248,6 +248,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     display: block;
     margin-top: 27px;
 }
+.mobile-navi .packing-info {
+    display: none;    
+}
+.mobile-navi .open .packing-info {
+    display: block;    
+}
 .header .logo h2 {
     margin-bottom: -6px;   
 }
