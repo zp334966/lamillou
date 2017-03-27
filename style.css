@@ -644,9 +644,6 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     width: 100%;
     text-overflow: ellipsis;
 }
-.container-products .out img{
-    opacity: 0.6;
-}
 .container-products .product_price {
     font-family: 'Open Sans';
     font-weight: 400;
