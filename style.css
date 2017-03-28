@@ -953,4 +953,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     .col-sm-3 {
         width: 25%;
     }
+    #shop-banner {
+        display: none;    
+    }
 }
