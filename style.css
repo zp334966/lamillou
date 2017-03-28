@@ -42,7 +42,7 @@ p {
     font-weight: normal;
     font-size: 15px !important;
     line-height: 48px;
-    font-weight: 600;
+    font-weight: 700;
     cursor: pointer;
 }
 .mobile-navi ul li span {
@@ -387,7 +387,7 @@ footer.footer h3 {
     font-size: 16px;
     letter-spacing: 0.53px;
     line-height: 20px;
-    font-weight: 500 !important;
+    font-weight: 600 !important;
     margin-top: 2px;
     margin-bottom: 10px;
 }
@@ -533,7 +533,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     letter-spacing: 0.47px;
     line-height: 20px;
     font-family: 'Open Sans';
-    font-weight: 600;
+    font-weight: 700;
     padding-top: 14px !important;
     padding-bottom: 16px !important;
 }
@@ -577,7 +577,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     color: #FFFFFF;
     letter-spacing: 0.38px;
     line-height: 48px;
-    font-weight: 600;
+    font-weight: 700;
     cursor: pointer;
 }
 .btn-lam-link:hover, .btn-lam-link:focus, .btn-lam-link:active {
@@ -638,7 +638,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     font-size: 13px;
     color: #16407D;
     letter-spacing: 0;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 18px;
     height: 18px;
     text-transform: capitalize;
@@ -669,7 +669,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     bottom: 23px;
     left: 0;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 600;
 }
 .container-products .product_discount_price {
     font-family: 'Open Sans';
@@ -691,7 +691,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 
 .container-products .label-unavaible {
     font-family: 'Open Sans';
-    font-weight: 600;
+    font-weight: 700;
     font-size: 12px !important;
     color: #787E87;
     letter-spacing: 0;
@@ -932,4 +932,5 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     letter-spacing: 0.44px;
     line-height:19px;
     margin-bottom: 0;
+    font-weight: 600;
 }
