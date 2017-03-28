@@ -809,6 +809,13 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 .controls-cont, .ms-view, .ms-slide, .ms-slide-bgcont {
     height: 280px !important;
 }
+.sp-slider .category-icon {
+    position: absolute;
+    z-index: 1;
+}
+.sp-slider .category-icon img {
+    width: 60.9px;
+}
 .sp-slider .ms-thumb-list {
     height: 53px!important;
     margin-top: 0px !important; 
