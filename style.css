@@ -223,7 +223,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .page-block .mobile-navi h5 {
     font-family: 'Open Sans';
-    font-weight: 600;
+    font-weight: 700;
     font-size: 15px !important;
     text-transform: uppercase;
     color: #16407D;
@@ -673,7 +673,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 }
 .container-products .product_discount_price {
     font-family: 'Open Sans';
-    font-weight: 400;
+    font-weight: 600;
     font-size: 12px !important;
     color: #787E87;
     letter-spacing: 0;
@@ -731,7 +731,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 }
 .product_details .title {
     font-family: 'Open Sans';
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
     letter-spacing: 0;
     line-height: 22px;
@@ -757,7 +757,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 .product_details .price {
     color: #16407D;
     font-family: 'Open Sans';
-    font-weight: 500;
+    font-weight: 600;
     font-size: 17px;
     letter-spacing: 0;
     text-transform: uppercase;
@@ -765,9 +765,10 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 }
 .product_details .product_discount_price{
     font-size: 14px;
+    font-weight: 600 !important;
     color: #787E87;
     letter-spacing: 0;
-     position: absolute;
+    position: absolute;
     left: 103px;
     top: 0px;
     margin-top: 6px !important;
@@ -786,7 +787,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 }
 .block-devider h5 {
     font-family: 'Open Sans';
-    font-weight: 600;
+    font-weight: 700;
     font-size: 13px;
     color: #9AA1AC;
     letter-spacing: 0.84px;
