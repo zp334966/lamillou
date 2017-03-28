@@ -737,6 +737,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     line-height: 22px;
     color: #16407D;
     margin-bottom: 3px;
+    text-transform: capitalize;
 }
 .product_details .subtitle {
     opacity: 0.8;
