@@ -886,6 +886,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 .advertisement .img-courier {
     width: 20px;
     padding-bottom: 10px;
+    float: right;
 }
 .advertisement .exit {
     width: 11.7px;
