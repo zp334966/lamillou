@@ -812,6 +812,9 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 .sp-slider .category-icon {
     position: absolute;
     z-index: 1;
+    margin-top: 9px;
+    margin-right: 47px;
+    right: 0;
 }
 .sp-slider .category-icon img {
     width: 60.9px;
