@@ -248,6 +248,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .mobile-navi li.title {
     list-style: none;
 }
+.page-block .mobile-navi ul li.active>span {
+    margin-top: -7px;
+}
 .page-block .mobile-navi .packing-info img {
     height: 132px;
     width: auto !important;
@@ -257,6 +260,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .mobile-navi .packing-info {
     display: none;    
+    max-height: 1000px;
+    -webkit-transition: max-height .5s ease-in-out;
+    -moz-transition: max-height .5s ease-in-out;
+    transition: max-height .5s ease-in-out;
 }
 .mobile-navi .open .packing-info {
     display: block;    
