@@ -218,6 +218,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .page-block .container .page-heading h3 {
     display:none;   
 }
+.page-block .mobile-navi {
+    margin-bottom: 20px;
+}
 .page-block .mobile-navi h5 {
     font-family: 'Open Sans';
     font-weight: 600;
@@ -226,6 +229,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color: #16407D;
     letter-spacing: 0.47px;
     margin-bottom: 0px;
+    line-height: 20px;
+    padding: 10px 0 10px 0;
+    margin-left: -8px;
 }
 .page-block .mobile-navi li {
     font-family: 'Open Sans';
@@ -237,6 +243,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     overflow: visible;
     list-style: disc outside none;
     margin-left: 8px;
+    padding-bottom: 6px;
 }
 .mobile-navi li.title {
     list-style: none;
@@ -246,7 +253,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     width: auto !important;
     text-align: center;
     display: block;
-    margin-top: 27px;
+    margin-top: 21px;
 }
 .mobile-navi .packing-info {
     display: none;    
