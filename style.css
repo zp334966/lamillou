@@ -959,7 +959,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     margin-bottom: 0;
     font-weight: 600;
 }
-@media (min-width: 992px){
+@media (min-width: 1200px){
     .col-menu-footer {
         width: 60%;
         display: inline-block;
