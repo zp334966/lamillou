@@ -1012,13 +1012,15 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 }
 
 
-@media (min-width: 580px) {
+@media (min-width: 580px) and (max-width: 730px) {
     .col-sm-6 {
         width: 50%;
     }
     .col-sm-3 {
         width: 25%;
     }
+}
+@media (min-width: 580px) {
     #shop-banner {
         display: none;    
     }
