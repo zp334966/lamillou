@@ -616,6 +616,14 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     padding-left: 0px;
     padding-right: 0px;
 }
+.col-xs-6 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.small-container .col-xs-6 {
+    margin-left: -5px;
+    margin-right: -5px;
+}
 .container-products {
     margin-left: -4.5px;
     margin-right: -4.5px;
