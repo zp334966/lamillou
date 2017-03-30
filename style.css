@@ -986,9 +986,9 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         font-size: 24px !important;
         color: #FFFFFF;
         letter-spacing: 0.6px;
+        line-height: 50px;
     }
     .footer .submenu a {
-        font-family: OpenSans;
         font-size: 13px;
         color: #FFFFFF;
         letter-spacing: 0;
