@@ -123,8 +123,10 @@ p {
     padding: 22px 40.7px 24px 15.7px !important;
     top: 9px!important;
 }
-.left-off-canvas-toggle .active #nav-toggle {
-    padding: 3px 32px 16px 7px;
+@media (max-width: 335px) {
+    .left-off-canvas-toggle .active #nav-toggle {
+        left: 1px;
+    }
 }
 .search-field {
     display: block;
