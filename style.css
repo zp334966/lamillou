@@ -981,6 +981,13 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     .footer .submenu li {
         width: 100%;
     }
+    .footer h5, .footer h3 {
+        font-family: Besom;
+        font-size: 24px;
+        color: #FFFFFF;
+        letter-spacing: 0.6px;
+    }
+    
 }
 @media (min-width: 730px){
     .container {
