@@ -978,6 +978,9 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     .footer .mobile-navi span {
         display: none;    
     }
+    .footer .submenu li {
+        width: 100%;
+    }
 }
 @media (min-width: 730px){
     .container {
