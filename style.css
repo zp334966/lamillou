@@ -124,7 +124,7 @@ p {
     top: 9px!important;
 }
 @media (max-width: 335px) {
-    .left-off-canvas-toggle .active #nav-toggle {
+    #nav-toggle.active {
         left: 1px;
     }
 }
