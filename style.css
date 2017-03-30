@@ -959,7 +959,18 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     margin-bottom: 0;
     font-weight: 600;
 }
-
+@media (min-width: 992px){
+    .col-menu-footer {
+        width: 60%;
+        display: inline-block;
+        float: left;
+    }
+    .col-footer {
+        width: 20%;    
+        display: inline-block;
+        float: left;
+    }
+}
 @media (min-width: 730px){
     .container {
         padding-left: 8.5px;
@@ -972,6 +983,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     .img-responsive {
         margin-bottom: 17px;
     }
+
     #rectangle {
         display: none;    
     }
