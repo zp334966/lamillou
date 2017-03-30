@@ -970,6 +970,14 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         display: inline-block;
         float: left;
     }
+    .footer .mobile-navi li {
+        display: initial;
+        width: 33%;
+        float: left;
+    }
+    .footer .mobile-navi span {
+        display: none;    
+    }
 }
 @media (min-width: 730px){
     .container {
