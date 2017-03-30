@@ -984,13 +984,11 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     .footer h5, .footer h3 {
         font-family: Besom;
         font-size: 24px !important;
-        color: #FFFFFF;
         letter-spacing: 0.6px;
         line-height: 50px;
     }
     .footer .submenu a {
-        font-size: 13px;
-        color: #FFFFFF;
+        font-size: 13px !important;
         letter-spacing: 0;
     }
     
