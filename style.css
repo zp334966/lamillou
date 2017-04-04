@@ -981,6 +981,9 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     .footer .submenu li {
         width: 100%;
     }
+    .footer .mobile-navi {
+        margin-top: 34px;
+    }
     .footer .mobile-navi ul li h5, footer.footer h3 {
         font-family: Besom;
         font-size: 24px !important;
@@ -990,8 +993,14 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     .footer .mobile-navi ul li ul.submenu li a, .footer h6 {
         font-size: 13px !important;
         letter-spacing: 0;
-        font-weight: 400;
-    }   
+        font-weight: 400 !important;
+    }
+    .footer .contacts {
+        padding-bottom: 17px;
+        padding-top: 0px;
+        margin-top: 34px;
+        margin-bottom: 5px;
+    }
 }
 
 @media (min-width: 730px){
