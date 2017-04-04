@@ -987,7 +987,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         letter-spacing: 0.6px;
         line-height: 50px;
     }
-    .footer .mobile-navi ul li ul.submenu li a {
+    .footer .mobile-navi ul li ul.submenu li a, .footer h6 {
         font-size: 13px !important;
         letter-spacing: 0;
     }   
