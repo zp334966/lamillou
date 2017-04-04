@@ -347,14 +347,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .menu ul li.has-mega-menu div.subcategories a {
     font-size: 12px;
-    color: #0A1C00;
     letter-spacing: 0;
     line-height: 14px;
     padding: 4px 0 4px 0;
 }
 .menu ul li.has-mega-menu div.subcategories strong a {
     font-size: 13px;
-    color: #1640D7;
     letter-spacing: 0;
     line-height: 14px;
     padding: 4px 0 4px 0;
