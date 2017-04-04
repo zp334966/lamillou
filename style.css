@@ -1060,12 +1060,13 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         margin-left: 8.5px;
     }
     .cart {
-        border-left: 1px solid #D0D9E5;      
+        border-left: 2px solid #D0D9E5;      
         margin-left: 25px !important;
     }
     .cart img {
         width: 16px;
-        margin-top: -10px;
+        margin-top: -10px;        
+        margin-right: 4px;
     }
     
 }
