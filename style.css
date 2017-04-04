@@ -973,6 +973,9 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         display: inline-block;
         float: left;
     }
+    footer.footer {
+        margin-top: 50px;
+    }
     .footer .mobile-navi li {
         display: initial;
         width: 33%;
@@ -1004,18 +1007,25 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         margin-bottom: 0px;
     }
     .footer .contacts {
-        padding-bottom: 17px;
+        padding-bottom: 0px;
         padding-top: 0px;
         margin-top: 34px;
         margin-bottom: 5px;
     }
     .site-info p {
         text-align: left;
-        font-size: 11px;
-        letter-spacing: 0.27px;
+        font-size: 11px !importatnt;
+        letter-spacing: 0.27px !important;
     }
     #desktop-version {
         display: none;   
+    }
+    .social-bar .row {
+        margin-right: 10px;   
+    }
+    .footer .contacts .social-bar a {
+        margin-top: 10px;
+        font-size: 20px;
     }
 }
 
