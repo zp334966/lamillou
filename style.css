@@ -1061,7 +1061,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     }
     .cart {
         border-left: 1px solid #D0D9E5;      
-        margin-left: 25px;
+        margin-left: 25px !important;
     }
     .cart img {
         width: 16px;
