@@ -1009,7 +1009,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         margin-top: 34px;
         margin-bottom: 5px;
     }
-    .site-info {
+    .site-info p {
         text-align: left;
         font-size: 11px;
         letter-spacing: 0.27px;
