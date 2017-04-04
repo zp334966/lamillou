@@ -1,99 +1,5 @@
 @import "compass/css3";
 
-@media (min-width: 1200px){
-    .col-menu-footer {
-        width: 60%;
-        display: inline-block;
-        float: left;
-    }
-    .col-footer {
-        width: 20%;    
-        display: inline-block;
-        float: left;
-    }
-    .footer .mobile-navi li {
-        display: initial;
-        width: 33%;
-        float: left;
-    }
-    .footer .mobile-navi span {
-        display: none;    
-    }
-    .footer .submenu li {
-        width: 100%;
-    }
-    .footer h5, .footer h3 {
-        font-family: Besom;
-        font-size: 24px !important;
-        letter-spacing: 0.6px;
-        line-height: 50px;
-    }
-    .footer .submenu a {
-        font-size: 13px !important;
-        letter-spacing: 0;
-    }   
-}
-
-@media (min-width: 730px){
-    .container {
-        padding-left: 8.5px;
-        padding-right: 8.5px;
-    }    
-    .small-container-moonboard .col-sm-6, .small-container-moonboard .col-md-6, .small-container-moonboard .col-lg-6, .small-container-moonboard .col-xl-6 {
-        padding-left: 8.5px;
-        padding-right: 8.5px;
-    }
-    .img-responsive {
-        margin-bottom: 17px;
-    }
-
-    #rectangle {
-        display: none;    
-    }
-}
-
-
-@media (min-width: 580px) and (max-width: 730px) {
-    .col-sm-6 {
-        width: 50%;
-    }
-    .col-sm-3 {
-        width: 25%;
-    }
-}
-@media (min-width: 580px) {
-    #shop-banner {
-        display: none;    
-    }
-    .container {
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-    .container .gallery-grid .col-sm-6 {
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-    .container-left {
-        padding-left: 10px;    
-    }
-    .container-right {
-        padding-right: 10px;    
-    }
-    .small-container-moonboard {
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-    .item-narrow .img-responsive {
-        margin-bottom: 0px;
-    }
-    .page-heading h2 {
-        padding-left: 5px;    
-    }
-    .footer .container {
-        padding-left: 10px;
-        padding-right: 10px;
-    }   
-}
 body {
     font-family: .AppleSystemUIFont, 'Open Sans', Helvetica, Arial, sans-serif;  
 }
@@ -1052,4 +958,98 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     line-height:19px;
     margin-bottom: 0;
     font-weight: 600;
+}
+@media (min-width: 1200px){
+    .col-menu-footer {
+        width: 60%;
+        display: inline-block;
+        float: left;
+    }
+    .col-footer {
+        width: 20%;    
+        display: inline-block;
+        float: left;
+    }
+    .footer .mobile-navi li {
+        display: initial;
+        width: 33%;
+        float: left;
+    }
+    .footer .mobile-navi span {
+        display: none;    
+    }
+    .footer .submenu li {
+        width: 100%;
+    }
+    .footer .mobile-navi ul li h5, footer.footer h3 {
+        font-family: Besom;
+        font-size: 24px !important;
+        letter-spacing: 0.6px;
+        line-height: 50px;
+    }
+    .footer .mobile-navi ul li ul.submenu li a {
+        font-size: 13px !important;
+        letter-spacing: 0;
+    }   
+}
+
+@media (min-width: 730px){
+    .container {
+        padding-left: 8.5px;
+        padding-right: 8.5px;
+    }    
+    .small-container-moonboard .col-sm-6, .small-container-moonboard .col-md-6, .small-container-moonboard .col-lg-6, .small-container-moonboard .col-xl-6 {
+        padding-left: 8.5px;
+        padding-right: 8.5px;
+    }
+    .img-responsive {
+        margin-bottom: 17px;
+    }
+
+    #rectangle {
+        display: none;    
+    }
+}
+
+
+@media (min-width: 580px) and (max-width: 730px) {
+    .col-sm-6 {
+        width: 50%;
+    }
+    .col-sm-3 {
+        width: 25%;
+    }
+}
+@media (min-width: 580px) {
+    #shop-banner {
+        display: none;    
+    }
+    .container {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .container .gallery-grid .col-sm-6 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .container-left {
+        padding-left: 10px;    
+    }
+    .container-right {
+        padding-right: 10px;    
+    }
+    .small-container-moonboard {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .item-narrow .img-responsive {
+        margin-bottom: 0px;
+    }
+    .page-heading h2 {
+        padding-left: 5px;    
+    }
+    .footer .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }   
 }
