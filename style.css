@@ -201,11 +201,15 @@ p {
 .header.stuck {
     position: fixed !important;
 }
+.header-toolbar .tools li {
+    padding: 0px 0px 0px 25px;
+    margin: 10px 0px 10px 0px;
+}
 .header-toolbar .tools li a {
     text-transform: capitalize;
     font-size: 12px;
     font-weight: 600;
-    letter-spacing: 0.3px;
+    letter-spacing: 0.3px;   
 }/*dodac todo */
 .header-toolbar .tools .menu a {
     font-weight: 400;
@@ -1053,8 +1057,13 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         line-height: 18px;
         margin-left: 8.5px;
     }
+    .cart {
+        border-left: 1px solid #D0D9E5;      
+        margin-left: 25px;
+    }
     .cart img {
         width: 16px;
+        margin-top: -10px;
     }
     
 }
