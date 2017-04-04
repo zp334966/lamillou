@@ -201,7 +201,16 @@ p {
 .header.stuck {
     position: fixed !important;
 }
-
+.header-toolbar .tools li a {
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}/*dodac todo */
+.header-toolbar .tools .menu a {
+    font-weight: 400;
+    letter-spacing: -0.07px;   
+}
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color:#16407d; 
 }
@@ -1027,6 +1036,9 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     .footer .contacts .social-bar a {
         margin-top: 10px;
         font-size: 20px;
+    }
+    .search-trigger {
+        display: none;    
     }
 }
 
