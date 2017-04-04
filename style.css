@@ -333,7 +333,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .fa-shopping-bag:before {
     vertical-align: middle;
 }
-
+.mega-menu {
+    width: 100%;
+    left: 0%;
+}
+.mega-menu>.container  {
+    border:none;
+}
 .page-block {
     padding: 0 0 0 0 !important;
 }
