@@ -336,9 +336,28 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .mega-menu {
     width: 100%;
     left: 0%;
+    background: #F7F7F7;
 }
 .mega-menu>.container  {
     border:none;
+}
+.mega-menu>.container>.row {
+    margin: 0 0 0 0;
+    padding: 21px 20px 25px 29px;
+}
+.menu ul li.has-mega-menu div.subcategories a {
+    font-size: 12px;
+    color: #0A1C00;
+    letter-spacing: 0;
+    line-height: 14px;
+    padding: 4px 0 4px 0;
+}
+.menu ul li.has-mega-menu div.subcategories strong a {
+    font-size: 13px;
+    color: #1640D7;
+    letter-spacing: 0;
+    line-height: 14px;
+    padding: 4px 0 4px 0;
 }
 .page-block {
     padding: 0 0 0 0 !important;
