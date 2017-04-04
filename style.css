@@ -211,6 +211,11 @@ p {
     font-weight: 400;
     letter-spacing: -0.07px;   
 }
+#top_container {
+    text-align: left;
+    padding-left: 21px;
+    margin-bottom: -20px;
+}
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color:#16407d; 
 }
@@ -1040,6 +1045,18 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     .search-trigger {
         display: none;    
     }
+    .shop_cart_simple {
+        font-size: 13px;
+        font-weight: 700;
+        opacity: 0.2;
+        letter-spacing: -0.31px;
+        line-height: 18px;
+        margin-left: 8.5px;
+    }
+    .cart img {
+        width: 16px;
+    }
+    
 }
 
 @media (min-width: 730px){
