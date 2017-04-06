@@ -11,7 +11,7 @@
         <g id="Home-–-v2---iP6---footer" transform="translate(-20.000000, -87.000000)">
             <g id="Header-0" transform="translate(0.000000, 65.000000)">
                 <g id="Group-2">
-                    <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="375" height="64"></rect>
+                    <rect id="Rectangle" fill="none" x="0" y="0" width="375" height="64"></rect>
                     <g id="Page-1" transform="translate(20.000000, 22.000000)" fill="#16407D">
                         <polygon id="Fill-1" points="0 2 25 2 25 0 0 0"></polygon>
                         <polygon id="Fill-2" points="0 11 25 11 25 9 0 9"></polygon>
@@ -73,7 +73,7 @@
             </g>
             <g id="Header-0" transform="translate(0.000000, 65.000000)">
                 <g id="Group-2">
-                    <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="375" height="64"></rect>
+                    <rect id="Rectangle" fill="none" x="0" y="0" width="375" height="64"></rect>
                     <g id="Page-1" transform="translate(20.000000, 22.000000)" fill="#16407D">
                         <polygon id="Fill-1" points="0 2 25 2 25 0 0 0"></polygon>
                         <polygon id="Fill-2" points="0 11 25 11 25 9 0 9"></polygon>
