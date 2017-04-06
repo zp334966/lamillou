@@ -755,8 +755,15 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 .price-promotion {
     color: #F1001D !important;
 }
-
-
+.quantity {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    font-weight: 600;
+    font-size: 13px;
+    color: #DFB14C;
+    letter-spacing: 0;
+}
 .container-products .label-unavaible {
     font-family: 'Open Sans';
     font-weight: 700;
