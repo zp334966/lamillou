@@ -108,26 +108,15 @@ p {
     padding-right: 20px;
 }
 
-#nav-toggle span, #nav-toggle span::before, #nav-toggle span::after {
-    width: 25px;
-}
-.active #nav-toggle span, .active #nav-toggle span::before, .active #nav-toggle span::after{
-    width: 20.5px;
-    height: 1.5px;
-}
+
 #nav-toggle {
     padding: 10px 35px 22px 10px !important;
     top: 10px !important;
 }
 #nav-toggle.active {
-    padding: 22px 40.7px 24px 15.7px !important;
-    top: 9px!important;
+    display: none;
 }
-@media (max-width: 335px) {
-    #nav-toggle.active {
-        left: 1px;
-    }
-}
+
 #nav-toggle-exit {
     position: fixed;
     top: 20px;
