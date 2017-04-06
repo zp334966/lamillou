@@ -735,6 +735,22 @@ $('.back-search').on('click', function(e) {
       ]
     });
   }
+	
+	
+//Advertisement mobile
+  $('.exit').click(function() {
+	sessionStorage.setItem('advertisement', '0');
+  	var items = document.getElementsByClassName("advertisement");
+  	items[0].style.display = "none";
+    console.log(sessionStorage);
+  });  
+  $('.advertisement').each(function() {
+    console.log(sessionStorage);
+  	if ('advertisement' in sessionStorage){
+  		var items = document.getElementsByClassName("advertisement");
+  		items[0].style.display = "none";
+  	}
+  }); 
     
   ///////////////////////////////////////////////////////////////////////
   /////////  INTERNAL ANCHOR LINKS SCROLLING (NAVIGATION)  //////////////
