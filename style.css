@@ -974,6 +974,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     margin-right: -10px;
     background-color: #16407D;
     text-align: center;
+    line-height: 17px;
 }
 
 .advertisement h6 {
@@ -987,11 +988,18 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 }
 .advertisement .img-courier {
     width: 20px;
-    padding-bottom: 10px;
-    float: right;
+    float: left;
+    margin: 2px 7px 0px 19px;
 }
 .advertisement .exit {
     width: 11.7px;
+    float: right;
+    margin: 3px 19px 1px 9px;
+}
+@media (min-width: 400px){
+    .advertisement .img-courier {
+        display: none;
+    }
 }
 .icon-mobile {
     padding: 0px 14px 0px 7px;    
