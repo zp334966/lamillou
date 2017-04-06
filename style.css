@@ -764,6 +764,9 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     color: #DFB14C;
     letter-spacing: 0;
 }
+.product_right_tab .prod_price {
+    padding-bottom: 25px;    
+}
 .container-products .label-unavaible {
     font-family: 'Open Sans';
     font-weight: 700;
