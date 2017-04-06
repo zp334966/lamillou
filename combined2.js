@@ -779,24 +779,7 @@ $('.back-search').on('click', function(e) {
     $('html, body').animate({scrollTop : 0}, {duration: 700, easing:'easeOutExpo'});
   });
   
-  //Show label last products
-  $('.quantity').each(function() {
-  	var quantity = $(this).html();
-  	var q = parseInt(quantity);
-  	if (q == 1) {
-  		$(this).html('ZOSTAŁA 1 SZTUKA');
-  	}
-  	if (q > 1 && 5 > q) {
-  		$(this).html('ZOSTAŁY' + q + 'SZTUKI');
-  	}
-  	if (q == 5) {
-  		$(this).html('ZOSTAŁO 5 SZTUK');
-  	}  	
-  	if (q > 5 || q == 0) {
-  		$(this).html('');
-  	}
-  });
-  
+
   //Hiding Contact Form On Clicking Out
   $('.inner-wrap').click(function(){
     $qcForm.removeClass('visible');
