@@ -985,6 +985,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     font-weight: 400;
     line-height: 17px;
     margin-bottom: 0px;
+    display: inline-block;
 }
 .advertisement .img-courier {
     width: 20px;
@@ -999,6 +1000,11 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 @media (max-width: 400px){
     .advertisement .img-courier {
         display: none;
+    }
+}
+@media (max-width: 380px){
+    .advertisement h6 {
+        font-size: 11px;
     }
 }
 .icon-mobile {
