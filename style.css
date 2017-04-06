@@ -996,7 +996,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     float: right;
     margin: 3px 19px 1px 9px;
 }
-@media (min-width: 400px){
+@media (max-width: 400px){
     .advertisement .img-courier {
         display: none;
     }
