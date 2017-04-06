@@ -114,12 +114,12 @@ p {
     top: 10px !important;
 }
 #nav-toggle.active {
-    display: none;
+    opacity: 0;
 }
 
 #nav-toggle-exit {
     position: fixed;
-    top: 20px;
+    top: 22px;
     left: 23px;
 }
 @media (max-width: 335px) {
