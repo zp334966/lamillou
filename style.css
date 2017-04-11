@@ -997,7 +997,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 .product-extra img {
     max-height: 173px;
 }
-.product-extra .item a :hover {
+.product-extra .item h3>a{
     border: none;    
 }
 .product-extra h3 {
