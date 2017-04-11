@@ -1023,6 +1023,9 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     margin: 3px 19px 1px 9px;
     cursor: pointer;
 }
+.advertisement-desktop {
+    display: none;
+}
 
 @media (max-width: 400px){
     .advertisement .img-courier {
@@ -1192,7 +1195,9 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     .search {
         background-color: transparent;
     }
-    
+    .advertisement-desktop {
+        display: block;
+    }
 }
 
 @media (min-width: 730px){
