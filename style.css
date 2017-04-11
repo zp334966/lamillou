@@ -1048,12 +1048,15 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     font-weight: 600;
 }
 @media (min-width: 1200px){
+    .container {
+        width: 1138px;
+    }
     .header .inner {
         height: 60px;
-    }
+    }/*
     .header-toolbar {
         height: 60px;
-    }
+    }*/
     .header .navigation {
         float: right;
     }
