@@ -190,7 +190,6 @@ p {
 }
 .header .inner {
     border-bottom: none;
-    height: 64px;
 }
 
 .header .logo {
@@ -1076,7 +1075,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         width: 1158px;
     }
     .header .inner {
-        height: 60px;
+        height: 64px;
     }
     .header-toolbar {
         height: 56px;
