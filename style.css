@@ -1015,7 +1015,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 .advertisement .img-courier {
     width: 20px;
     float: left;
-    margin: 2px 7px 0px 19px;
+    margin: 0px 7px 0px 7px;
 }
 .advertisement .exit {
     width: 11.7px;
@@ -1026,10 +1026,26 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 .advertisement-desktop {
     display: none;
 }
+.advertisement-desktop h6 {
+    color: black;
+    font-size: 12px;
+    letter-spacing: 0;
+}
 .courier, .pay-pal, .despatch {
     display: inline-block;
 }
-
+.advertisement-desktop .courier {
+    padding-right: 52px;
+    border-right: 2px solid rgba(0,0,0,0.3);
+}
+.advertisement-desktop .pay-pal {
+    padding-left: 52px;
+    padding-right: 52px;
+    border-right: 2px solid rgba(0,0,0,0.3);
+}
+.advertisement-desktop .despatch {
+    padding-right: 52px;
+}
 @media (max-width: 400px){
     .advertisement .img-courier {
         display: none;
