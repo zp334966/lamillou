@@ -1051,6 +1051,9 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     .header .inner {
         height: 60px;
     }
+    .header-toolbar {
+        height: 60px;
+    }
     .header .navigation {
         float: right;
     }
