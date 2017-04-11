@@ -190,6 +190,7 @@ p {
 }
 .header .inner {
     border-bottom: none;
+    height: 64px;
 }
 
 .header .logo {
