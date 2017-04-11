@@ -224,6 +224,9 @@ p {
 .header-toolbar .tools li.user_not_logged_in.signup a {
     color: #00457b;
 }
+.header .search i {
+    content: url("https://rawcdn.githack.com/zp334966/lamillou/master/assets/lupa.svg");
+}
 #top_container {
     text-align: left;
     padding-left: 21px;
