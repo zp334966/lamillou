@@ -337,7 +337,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     left: 0%;
     width: 1138px;
     position: absolute;
-    left: -200px;
+    left: -216px;
     top: 50px;
 }
 .mega-menu>.container  {
@@ -1053,7 +1053,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 }
 @media (min-width: 1200px){
     .container {
-        width: 1138px;
+        width: 1158px;
     }
     .header .inner {
         height: 60px;
