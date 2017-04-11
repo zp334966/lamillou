@@ -350,11 +350,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .mega-open a {
     border-bottom: 5px solid #15407D;
 }
-.has-mega-menu a {
-    padding-top: 21px;
-    padding-bottom: 21px;
-    height: 64px;
-}
 .has-mega-menu a :hover {
     border-bottom: 5px solid #15407D;   
 }
@@ -1097,6 +1092,9 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         color: #16407D;
         font-weight: 700;
         letter-spacing: 0.32px;
+        padding-top: 21px;
+        padding-bottom: 21px;
+        height: 64px;
     }
     .col-menu-footer {
         width: 60%;
