@@ -1048,6 +1048,22 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     font-weight: 600;
 }
 @media (min-width: 1200px){
+    .header .inner {
+        height: 60px;
+    }
+    .header .navigation {
+        float: right;
+    }
+    .menu {
+        height: 60px;
+        padding-right: 50px;
+    }
+    .menu>ul>li.has-mega-menu>span>a {
+        font-size: 13px!important;
+        color: #16407D;
+        font-weight: 700;
+        letter-spacing: 0.32px;
+    }
     .col-menu-footer {
         width: 60%;
         display: inline-block;
