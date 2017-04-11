@@ -1026,6 +1026,9 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 .advertisement-desktop {
     display: none;
 }
+.courier, .pay-pal, .despatch {
+    display: inline-block;
+}
 
 @media (max-width: 400px){
     .advertisement .img-courier {
