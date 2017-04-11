@@ -338,7 +338,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     width: 1138px;
     position: absolute;
     left: -216px;
-    top: 50px;
+    top: 45px;
 }
 .mega-menu>.container  {
     border:none;
@@ -347,6 +347,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .mega-menu>.container>.row {
     margin: 0 0 0 0;
     padding: 21px 20px 25px 29px;
+}
+.mega-open a {
+    border-bottom: 5px solid #15407D;
+}
+.has-mega-menu a :hover {
+    border-bottom: 5px solid #15407D;   
 }
 .menu ul li.has-mega-menu div.subcategories a {
     font-size: 12px;
