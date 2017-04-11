@@ -980,6 +980,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     position: absolute;
     top: -20px;
     width: 100%;
+    padding: 0 0 0 0;
     
 }
 .product-extra .category-icon {
@@ -990,6 +991,10 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 }
 .product-extra .category-icon img {
     width: 53px;
+    margin: 4px 4px 4px 4px;
+}
+.product-extra .item a :hover {
+    border: none;    
 }
 .advertisement {
     height: 51px;
@@ -1115,7 +1120,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     }
     .menu>ul>li.has-mega-menu>span>a {
         font-size: 13px!important;
-        color: #16407D;
+        color: #16407D !important;
         font-weight: 700;
         letter-spacing: 0.32px;
         padding-top: 21px;
