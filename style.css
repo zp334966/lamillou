@@ -1122,7 +1122,8 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         padding-bottom: 21px;
         height: 64px;
     }
-    .menu>ul>li.has-mega-menu>span>a:focus, .menu>ul>li.has-mega-menu>span>a:hover, .menu>ul>li>a:focus, .menu>ul>li>a:hover {
+    .menu>ul>li.has-mega-menu>span>a:focus, .menu>ul>li.has-mega-menu>span>a:hover, .menu>ul>li>a:focus, .menu>ul>li>a:hover,
+    .menu>ul>li.has-mega-menu>span>a:active, .menu>ul>li>a:active {
         color: #16407D!important;
         border-bottom: 5px solid #15407D;
     }
