@@ -1000,6 +1000,21 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 .product-extra .item a :hover {
     border: none;    
 }
+.product-extra h3 {
+    float: left;    
+}
+.product-extra .title, .product-extra .subtitle  {
+    max-width: 173px;   
+}
+.product-extra .title {
+    margin-top: 6px;
+}
+.product-extra .subtitle {
+    margin-bottom: 3px;
+}
+.product-extra .product-price {
+    padding-left: 10px;
+}
 .advertisement {
     height: 51px;
     padding-top: 18px;
