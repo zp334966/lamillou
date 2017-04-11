@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="24px" viewBox="0 0 40 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-–-v2---iP6---footer" transform="translate(-257.000000, -3177.000000)">
+            <rect id="Rectangle-7" fill="none" x="192" y="3150" width="173" height="114.585938"></rect>
+            <g id="Page-1" transform="translate(257.000000, 3177.000000)" stroke="#000000" stroke-width="1.4">
+                <path d="M36.3951,22.5631 L9.6121,22.5631 C8.1571,22.5631 6.9771,21.3831 6.9771,19.9281 L6.9771,3.3341 C6.9771,1.8791 8.1571,0.7001 9.6121,0.7001 L36.3951,0.7001 C37.8501,0.7001 39.0301,1.8791 39.0301,3.3341 L39.0301,19.9281 C39.0301,21.3831 37.8501,22.5631 36.3951,22.5631 Z" id="Stroke-1"></path>
+                <path d="M6.9771,6.9468 L39.0301,6.9468" id="Stroke-3"></path>
+                <polyline id="Stroke-5" stroke-linecap="round" stroke-linejoin="round" points="13.5621 10.9888 17.2051 14.6318 13.5621 18.2738"></polyline>
+                <path d="M17.2047,14.6314 L0.6997,14.6314" id="Stroke-7" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M20.8746,12.2672 L34.2496,12.2672" id="Stroke-9" stroke-linecap="round"></path>
+                <path d="M27.5621,16.9957 L34.2491,16.9957" id="Stroke-11" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>
