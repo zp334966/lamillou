@@ -1201,6 +1201,9 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     .advertisement-mobile {
         display: none;
     }
+    #nav-toggle-exit {
+        display: none;    
+    }
 }
 
 @media (min-width: 730px){
