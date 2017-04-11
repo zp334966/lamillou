@@ -335,10 +335,14 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .mega-menu {
     width: 100%;
     left: 0%;
-    background: #F7F7F7;
+    width: 1138px;
+    position: absolute;
+    left: -200px;
+    top: 50px;
 }
 .mega-menu>.container  {
     border:none;
+    background: #F7F7F7!important;
 }
 .mega-menu>.container>.row {
     margin: 0 0 0 0;
