@@ -1133,6 +1133,9 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         margin-top: -10px;        
         margin-right: 4px;
     }
+    .search {
+        background-color: transparent;
+    }
     
 }
 
@@ -1151,6 +1154,9 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 
     #rectangle {
         display: none;    
+    }
+    .search {
+        background-color: transparent;
     }
 }
 
