@@ -734,7 +734,6 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 }
 .container-products .product_price {
     font-family: 'Open Sans';
-    font-weight: 400;
     font-size: 13px;
     color: #16407D;
     letter-spacing: 0;
@@ -974,7 +973,9 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 }
 .product-extra .item {
     position: absolute;
-    top: 0;
+    top: -20px;
+    width: 100%;
+    
 }
 .product-extra .category-icon {
     position: absolute;
