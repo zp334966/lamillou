@@ -1197,6 +1197,19 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     }
     .advertisement-desktop {
         display: block;
+        height: 40px;
+        background: #e9eaeb;
+        padding: 13px 0 10px 0;
+    }
+    .advertisement-desktop .exit {
+        width: 17.7px;
+        margin: -3px 10.6px 0px 0px;
+    }
+    .advertisement-desktop .img-courier {
+        width: unset;
+        height: 17px;
+        margin: 0px 7px 0px 19px;
+        float: none;
     }
     .advertisement-mobile {
         display: none;
