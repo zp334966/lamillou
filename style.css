@@ -1144,10 +1144,14 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     margin-bottom: 0;
     font-weight: 600;
 }
+
 @media (min-width: 1200px){
     .container {
         width: 1158px;
     }
+}
+
+@media (min-width: 1025px){
     .header .inner {
         height: 64px;
     }
