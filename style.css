@@ -794,10 +794,19 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     color: #FFFFFF;
     letter-spacing: 0.4px;
     line-height: 17px;
-    padding: 3px 10px 3px 5px;
+    padding: 3px 7.5px 3px 7.5px;
     float: right;
     bottom: 0;
     z-index: 1;
+}
+.pagination strong {
+    background: #16407D;
+    border-radius: 0;
+}
+.pagination a, .pagination strong, .pagination em.current {
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0;
 }
 .category-leaf p {
     font-family: 'Open Sans';
