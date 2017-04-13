@@ -1310,7 +1310,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 }
 
 
-@media (min-width: 580px) and (max-width: 730px) {
+@media (min-width: 580px) and (max-width: 770px) {
     .col-sm-6 {
         width: 50%;
     }
