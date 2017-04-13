@@ -313,9 +313,6 @@ jQuery(document).ready(function($) {
       {duration: 0, easing: 'easeOutExpo'});
   });
 	
-$('.left-off-canvas').on('click', function(e) {
-	$('#nav-toggle-exit').toggleClass('hidden');
-});
 	
 $('.search-trigger').on('click', function(e) {
    if(e.currentTarget.className === 'search-trigger') {
