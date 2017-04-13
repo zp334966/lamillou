@@ -809,12 +809,19 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     font-weight: 600;
     font-size: 15px;
     letter-spacing: 0;
+    margin-right: 10.7px;
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    line-height: 25px;
+    margin-bottom: 28px;
+    margin-top: 5px;
 }
 .pagination a {
     color: #16407D;
 }
-.pagination a :hover, .pagination a :focus {
-    background: none;
+.pagination a:focus, .pagination a:hover {
+    background-color: none;
     color: #16407D;
 }
 .category-leaf p {
