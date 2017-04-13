@@ -813,7 +813,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 .pagination a {
     color: #16407D;
 }
-.pagination a : hover {
+.pagination a :hover, .pagination a :focus {
     background: none;
     color: #16407D;
 }
