@@ -740,17 +740,19 @@ $('.back-search').on('click', function(e) {
 //Advertisement mobile
   $('.exit').click(function() {
 	sessionStorage.setItem('advertisement', '0');
-  	var items = document.getElementsByClassName("advertisement");
-	for (i = 0; i < items.length; i++) {
-  		items[i].style.display = "none";
-	}	
+  	var items = document.getElementsByClassName("advertisement-desktop");
+  	items[0].style.display = "none";
+	var items = document.getElementsByClassName("advertisement-mobile");
+  	items[0].style.display = "none";  	
     console.log(sessionStorage);
   });  
   $('.advertisement').each(function() {
     console.log(sessionStorage);
   	if ('advertisement' in sessionStorage){
-  		var items = document.getElementsByClassName("advertisement");
-  		items[0].style.display = "none";
+		var items = document.getElementsByClassName("advertisement-desktop");
+		items[0].style.display = "none";
+		var items = document.getElementsByClassName("advertisement-mobile");
+		items[0].style.display = "none";  
   	}
   }); 
     
