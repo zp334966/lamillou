@@ -750,9 +750,7 @@ $('.back-search').on('click', function(e) {
     console.log(sessionStorage);
   	if ('advertisement' in sessionStorage){
   		var items = document.getElementsByClassName("advertisement");
-  		for (i = 0; i < items.length; i++) {
-  			items[i].style.display = "none";
-		}
+  		items[0].style.display = "none";
   	}
   }); 
     
