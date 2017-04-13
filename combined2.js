@@ -312,7 +312,10 @@ jQuery(document).ready(function($) {
   $('.left-off-canvas-toggle').click(function(){ $('html, body').animate({ scrollTop: 0}, 
       {duration: 0, easing: 'easeOutExpo'});
   });
-
+	
+$('.left-off-canvas').on('click', function(e) {
+	$('#nav-toggle-exit').toggleClass('hidden');
+});
 	
 $('.search-trigger').on('click', function(e) {
    if(e.currentTarget.className === 'search-trigger') {
