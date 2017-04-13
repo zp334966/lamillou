@@ -741,14 +741,18 @@ $('.back-search').on('click', function(e) {
   $('.exit').click(function() {
 	sessionStorage.setItem('advertisement', '0');
   	var items = document.getElementsByClassName("advertisement");
-  	items[0].style.display = "none";
+	for (i = 0; i < items.length; i++) {
+  		items[i].style.display = "none";
+	}	
     console.log(sessionStorage);
   });  
   $('.advertisement').each(function() {
     console.log(sessionStorage);
   	if ('advertisement' in sessionStorage){
   		var items = document.getElementsByClassName("advertisement");
-  		items[0].style.display = "none";
+  		for (i = 0; i < items.length; i++) {
+  			items[i].style.display = "none";
+		}
   	}
   }); 
     
