@@ -802,11 +802,19 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 .pagination strong {
     background: #16407D;
     border-radius: 0;
+    color: #FFFFFF;
 }
 .pagination a, .pagination strong, .pagination em.current {
     font-weight: 600;
     font-size: 15px;
     letter-spacing: 0;
+}
+.pagination a {
+    color: #16407D;
+}
+.pagination a : hover {
+    background: none;
+    color: #16407D;
 }
 .category-leaf p {
     font-family: 'Open Sans';
