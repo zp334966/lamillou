@@ -821,7 +821,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     color: #16407D;
 }
 .pagination a:focus, .pagination a:hover {
-    background-color: none;
+    background-color: white;
     color: #16407D;
 }
 .category-leaf p {
