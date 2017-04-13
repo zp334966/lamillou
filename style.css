@@ -122,10 +122,10 @@ p {
     top: 22px;
     left: 23px;
 }
-#nav-toggle-exit.off-canvas-wrap{
+.off-canvas-wrap #nav-toggle-exit{
     display: none;
 }
-#nav-toggle-exit.off-canvas-wrap.move-right {
+.off-canvas-wrap.move-right #nav-toggle-exit{
     display: inline-block;
 }
 @media (max-width: 335px) {
