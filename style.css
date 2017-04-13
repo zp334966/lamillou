@@ -806,6 +806,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     color: #FFFFFF;
 }
 .pagination a, .pagination strong, .pagination em.current {
+    font-weight: 600;
     font-size: 15px;
     letter-spacing: 0;
     margin-right: 10.7px;
