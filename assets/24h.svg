@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="18px" viewBox="0 0 19 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 25</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="22.5886897 6.60524118 22.5886897 0.411847059 11 0.411847059 11 6.6542 22.5886897 6.6542 22.5886897 6.60524118 22.5887724 0.411888235 19.4029793 0.411888235 19.4029793 6.60524118 22.5886897 6.60524118"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-22" transform="translate(-990.000000, -12.000000)">
+            <g id="Group-25" transform="translate(991.000000, 12.000000)">
+                <path d="M17.3587045,9.03334614 C17.3587045,13.7706155 13.5489537,17.6110901 8.84958249,17.6110901 C4.15021133,17.6110901 0.340460526,13.7706155 0.340460526,9.03334614 C0.340460526,4.29574044 4.15021133,0.455602227 8.84958249,0.455602227" id="Stroke-1" stroke="#FFFFFF" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round"></path>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-6"></g>
+            </g>
+        </g>
+    </g>
+</svg>
