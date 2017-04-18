@@ -1152,10 +1152,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     margin-bottom: 0;
     font-weight: 600;
 }
-.container .gallery-grid .col-lg-6, .container .gallery-grid .col-xl-6, .small-container-moonboard .col-lg-6, .small-container-moonboard .col-xl-6{
-    padding-left: 9px;
-    padding-right: 9px;
-}
+
 @media (min-width: 1200px){
     .container {
         width: 1158px;
@@ -1300,6 +1297,10 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     }
     #nav-toggle-exit {
         display: none;    
+    }
+    .container .gallery-grid .col-lg-6, .container .gallery-grid .col-xl-6, .small-container-moonboard .col-lg-6, .small-container-moonboard .col-xl-6{
+        padding-left: 9px;
+        padding-right: 9px;
     }
 }
 
