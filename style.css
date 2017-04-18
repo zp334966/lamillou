@@ -1210,6 +1210,11 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     .img-responsive {
         margin-bottom: 18px;
     }
+    .item-narrow {
+        max-width: 100%;
+        max-height: 167px;
+        overflow: hidden;
+    }
 
     #rectangle {
         display: none;    
@@ -1374,6 +1379,11 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     }
     .btn-lam-link {
         padding: 11px 21px 11px 21px;
+    }
+    .item-narrow {
+        max-width: 100%;
+        max-height: 269px;
+        overflow: hidden;
     }
 }
 @media (min-width: 1200px){
