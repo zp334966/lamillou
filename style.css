@@ -1244,9 +1244,14 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     .header .navigation {
         float: right;
     }
+    .logo-big {
+        display: inline-block;   
+    }
     .menu {
         height: 60px;
         padding-right: 50px;
+        width: inherit;
+        float: right;
     }
     .menu>ul>li.has-mega-menu>span>a {
         font-size: 13px!important;
