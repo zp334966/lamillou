@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="14px" viewBox="0 0 9 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>disclose_arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="disclose_arrow" transform="translate(5.000000, 7.000000) rotate(-360.000000) translate(-5.000000, -7.000000) translate(2.000000, 2.000000)" stroke="#16407D" stroke-width="2">
+            <path d="M0,8.8817842e-16 L5,5" id="Line"></path>
+            <path d="M0,5 L5,10" id="Line-Copy" transform="translate(3.000000, 7.500000) scale(1, -1) translate(-3.000000, -7.500000) "></path>
+        </g>
+    </g>
+</svg>
