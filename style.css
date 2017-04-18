@@ -1384,13 +1384,14 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         max-height: 269px;
         overflow: hidden;
     }
+    .container .gallery-grid .col-lg-6, .container .gallery-grid .col-xl-6, .small-container-moonboard .col-lg-3, .small-container-moonboard .col-xl-3{
+        padding-left: 9px;
+        padding-right: 9px;
+    }
 }
 @media (min-width: 1200px){
     .container {
         width: 1158px;
     }
 }
-.container .gallery-grid .col-lg-6, .container .gallery-grid .col-xl-6, .small-container-moonboard .col-lg-3, .small-container-moonboard .col-xl-3{
-    padding-left: 9px;
-    padding-right: 9px;
-}
+
