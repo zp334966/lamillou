@@ -1196,6 +1196,10 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         padding-left: 10px;
         padding-right: 10px;
     }   
+    .item-narrow {
+        max-width: 100%;
+        overflow: hidden;
+    }
 }
 
 @media (min-width: 730px){
@@ -1209,10 +1213,6 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     }
     .img-responsive {
         margin-bottom: 18px;
-    }
-    .item-narrow {
-        max-width: 100%;
-        overflow: hidden;
     }
 
     #rectangle {
