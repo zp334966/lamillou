@@ -1179,6 +1179,17 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     .search {
         background-color: transparent;
     }
+    .container div.page-heading.center {
+        padding-left: 10px;
+    }  
+    .page-heading {
+        margin-bottom: 0px;
+    }
+    .page-heading h2 {
+        padding-left: 0px;
+        padding-top: 17px;
+        margin-bottom: 0;
+    } 
 }
 
 
@@ -1224,18 +1235,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     }   
 }
 
-@media (min-width: 1025px){
-    .container div.page-heading.center {
-        padding-left: 10px;
-    }
-    .page-heading {
-        margin-bottom: 0px;
-    }
-    .page-heading h2 {
-        padding-left: 0px;
-        padding-top: 17px;
-        margin-bottom: 0;
-    }    
+@media (min-width: 1025px){ 
     .header .inner {
         height: 64px;
     }
