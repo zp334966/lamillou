@@ -1243,9 +1243,12 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     }
     .header .navigation {
         float: right;
+        height: 60px;
     }
     .logo-big {
         display: inline-block;   
+        width: 101px;
+        margin: 0px 60px -20px 22px;
     }
     .menu {
         height: 60px;
@@ -1392,6 +1395,11 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     .container .gallery-grid .col-lg-6, .container .gallery-grid .col-xl-6, .small-container-moonboard .col-lg-3, .small-container-moonboard .col-xl-3{
         padding-left: 9px;
         padding-right: 9px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .header .navigation {
+        display: none;
     }
 }
 @media (min-width: 1200px){
