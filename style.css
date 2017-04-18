@@ -1397,11 +1397,12 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         padding-right: 9px;
     }
 }
+/*
 @media only screen and (max-width: 1200px) {
     .header .navigation {
         display: none;
     }
-}
+}*/
 @media (min-width: 1200px){
     .container {
         width: 1158px;
