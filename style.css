@@ -1153,44 +1153,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     font-weight: 600;
 }
 
-@media (min-width: 1200px){
-    .container {
-        width: 1158px;
-    }
-}
 
-
-@media (min-width: 730px){
-    .container {
-        padding-left: 9px;
-        padding-right: 9px;
-    }    
-    .small-container-moonboard .col-sm-6, .small-container-moonboard .col-md-6, .small-container-moonboard .col-lg-6, .small-container-moonboard .col-xl-6 {
-        padding-left: 9px;
-        padding-right: 9px;
-    }
-    .img-responsive {
-        margin-bottom: 18px;
-    }
-
-    #rectangle {
-        display: none;    
-    }
-    .search {
-        background-color: transparent;
-    }
-    .container div.page-heading.center {
-        padding-left: 10px;
-    }  
-    .page-heading {
-        margin-bottom: 0px;
-    }
-    .page-heading h2 {
-        padding-left: 0px;
-        padding-top: 17px;
-        margin-bottom: 0;
-    } 
-}
 
 
 @media (min-width: 580px) and (max-width: 770px) {
@@ -1233,6 +1196,38 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         padding-left: 10px;
         padding-right: 10px;
     }   
+}
+
+@media (min-width: 730px){
+    .container {
+        padding-left: 9px;
+        padding-right: 9px;
+    }    
+    .small-container-moonboard .col-sm-6, .small-container-moonboard .col-md-6, .small-container-moonboard .col-lg-6, .small-container-moonboard .col-xl-6 {
+        padding-left: 9px;
+        padding-right: 9px;
+    }
+    .img-responsive {
+        margin-bottom: 18px;
+    }
+
+    #rectangle {
+        display: none;    
+    }
+    .search {
+        background-color: transparent;
+    }
+    .container div.page-heading.center {
+        padding-left: 10px;
+    }  
+    .page-heading {
+        margin-bottom: 0px;
+    }
+    .page-heading h2 {
+        padding-left: 0px;
+        padding-top: 17px;
+        margin-bottom: 0;
+    } 
 }
 
 @media (min-width: 1025px){ 
@@ -1381,7 +1376,11 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         padding: 11px 21px 11px 21px;
     }
 }
-
+@media (min-width: 1200px){
+    .container {
+        width: 1158px;
+    }
+}
 .container .gallery-grid .col-lg-6, .container .gallery-grid .col-xl-6, .small-container-moonboard .col-lg-3, .small-container-moonboard .col-xl-3{
     padding-left: 9px;
     padding-right: 9px;
