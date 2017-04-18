@@ -1245,7 +1245,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         float: right;
         height: 60px;
     }
-    .logo-big {
+    .logo-big-header {
         display: inline-block;   
         width: 101px;
         margin: 0px 60px -20px 22px;
