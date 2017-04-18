@@ -1228,11 +1228,14 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     .container div.page-heading.center {
         padding-left: 10px;
     }
+    .page-heading {
+        margin-bottom: 0px;
+    }
     .page-heading h2 {
         padding-left: 0px;
         padding-top: 17px;
         margin-bottom: 0;
-    }
+    }    
     .header .inner {
         height: 64px;
     }
