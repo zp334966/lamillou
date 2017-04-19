@@ -1243,6 +1243,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         height: 48px;
         width: 500px;
         float: right;
+        margin-right: 15px;
     }
     .header-toolbar .tools {
         width: auto;
@@ -1254,14 +1255,15 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     .logo-big-header {
         display: inline-block;   
         width: 140px;
-        margin: 0px 60px -20px 22px;
+        margin: 0px 0px -20px 30px;
         float: left;
     }
     .menu {
         height: 60px;
-        padding-right: 50px;
+        padding-right: 45px;
         width: auto;
         float: right;
+        margin-right: 20px;
     }
     .menu>ul>li.has-mega-menu>span>a {
         font-size: 13px!important;
@@ -1271,6 +1273,8 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         padding-top: 21px;
         padding-bottom: 21px;
         height: 64px;
+        margin-left: 14px;
+        margin-right: 14px;
     }
     .menu>ul>li.has-mega-menu>span>a:focus, .menu>ul>li.has-mega-menu>span>a:hover, .menu>ul>li>a:focus, .menu>ul>li>a:hover,
     .menu>ul>li.has-mega-menu>span>a:active, .menu>ul>li>a:active {
