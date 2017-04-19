@@ -210,7 +210,7 @@ p {
     padding-top: 0px;
 }
 .header-toolbar .tools {
-    margin-top: 20px;
+    margin-top: 18px;
 }
 .header-toolbar .tools li {
     padding: 0px 0px 0px 25px;
@@ -223,6 +223,7 @@ p {
     letter-spacing: 0.3px;   
     padding: 0 0 0 0;
     line-height: 17px;
+    margin-top: 0px;
 }
 .header-toolbar .tools .top-menu a {
     font-weight: 400;
@@ -1239,13 +1240,12 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         height: 64px;
     }
     .header-toolbar {
-        height: 64px;
+        height: 48px;
         width: 500px;
         float: right;
     }
     .header-toolbar .tools {
         width: auto;
-        margin-top: 0px;
     }
     .header .navigation {
         height: inherit;
@@ -1253,7 +1253,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     }
     .logo-big-header {
         display: inline-block;   
-        width: 101px;
+        width: 140px;
         margin: 0px 60px -20px 22px;
         float: left;
     }
