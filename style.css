@@ -232,17 +232,14 @@ p {
 .header-toolbar .tools li.user_not_logged_in.signup a {
     color: #00457b;
 }
-.navigation .search i {
-    content: url("https://rawcdn.githack.com/zp334966/lamillou/master/assets/lupa.svg");
-    width: 18px;
-    padding-top: 11px;
-}
 #top_container {
     text-align: left;
     padding-left: 21px;
     margin-bottom: -20px;
 }
-
+.navigation .search i
+    padding: 10px 10px 10px 0px;
+}
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color:#16407d; 
 }
@@ -1102,6 +1099,12 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 }
 .advertisement-desktop .despatch {
     padding-left: 52px;
+}
+.flaticon-search100::before {
+    display: inline-block;
+    content: url("https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/lupa.svg");
+    transform: scale(0.8);
+    padding-top: 7px;
 }
 @media (max-width: 400px){
     .advertisement .img-courier {
