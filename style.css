@@ -1240,11 +1240,11 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     }
     .header-toolbar {
         height: 64px;
-    }/*
+    }
     .header-toolbar .tools {
         width: auto;
         margin-top: 0px;
-    }*/
+    }
     .header .navigation {
         float: right;
         height: 60px;
