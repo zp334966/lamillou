@@ -346,9 +346,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .mega-menu {
     width: 100%;
     left: 0%;
-    width: 1138px;
+    width: 1122px;
     position: absolute;
-    left: -216px;
+    left: -183px;
     top: 49px;
 }
 .mega-menu>.container  {
