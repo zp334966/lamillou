@@ -1290,6 +1290,18 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         color: #16407D!important;
         border-bottom: 5px solid #15407D;
     }
+    .headroom--pinned .header-toolbar  {
+        display:none;
+    }
+    .headroom--top .header-toolbar  {
+        display:block;
+    }
+    .headroom--pinned .logo-big-header {
+        width: 101px;
+    }
+    .headroom--top .logo-big-header {
+        width: 140px;
+    }
     .col-menu-footer {
         width: 60%;
         display: inline-block;
