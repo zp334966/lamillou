@@ -1253,6 +1253,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         display: inline-block;   
         width: 101px;
         margin: 0px 60px -20px 22px;
+        float: left;
     }
     .menu {
         height: 60px;
