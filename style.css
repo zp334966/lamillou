@@ -1105,6 +1105,8 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     display: inline-block;
     content: url("https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/lupa.svg");
     transform: scale(0.75);
+    -ms-transform: scale(0.75); /* IE 9 */
+    -webkit-transform: scale(0.75); /* Chrome, Safari, Opera */
     padding-top: 7px;
 }
 @media (max-width: 400px){
