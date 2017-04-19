@@ -1103,7 +1103,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 .flaticon-search100::before {
     display: inline-block;
     content: url("https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/lupa.svg");
-    transform: scale(0.8);
+    transform: scale(0.75);
     padding-top: 7px;
 }
 @media (max-width: 400px){
@@ -1263,10 +1263,10 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     }
     .menu {
         height: 60px;
-        padding-right: 45px;
+        padding-right: 43px;
         width: auto;
         float: right;
-        margin-right: 20px;
+        margin-right: 22px;
     }
     .menu>ul>li.has-mega-menu>span>a {
         font-size: 13px!important;
