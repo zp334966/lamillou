@@ -1042,6 +1042,9 @@ a.shop_description>.category-node {
     text-align: center;
     background: #D0D9E5;
 }
+.category-node .img-overlay .btn {
+    margin-bottom: 14px !important;
+}
 .product-extra .item {
     position: absolute;
     top: -20px;
