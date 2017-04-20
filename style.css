@@ -1316,7 +1316,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         border-bottom: 5px solid #15407D;
     }
     .header.stuck .header-toolbar  {
-        display:none;
+        display:none !important;
     }
     .headroom--at-top .header-toolbar, .headroom--top .header-toolbar  {
         display:block;
