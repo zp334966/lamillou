@@ -1315,10 +1315,10 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         color: #16407D!important;
         border-bottom: 5px solid #15407D;
     }
-    .headroom--pinned .header-toolbar  {
+    .header .stuck .header-toolbar  {
         display:none;
     }
-    .headroom--top .header-toolbar  {
+    .headroom--at-top .header-toolbar  {
         display:block;
     }
     .headroom--pinned .logo-big-header {
