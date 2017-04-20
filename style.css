@@ -1073,8 +1073,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 .product-extra .item h3>a, .product-extra .item a>img{
     border: none;    
 }
-.product-extra h3 {
-    float: left;   
+.product-extra h3 { 
     margin: 0 0 0 0;
 }
 .product-extra .item .title, .product-extra .item .subtitle  {
