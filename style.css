@@ -1275,7 +1275,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         height: inherit;
         width: inherit;
     }
-    .headroom--top {
+    .headroom--at-top {
         position: absolute !important;
         top: 0;
         left: 0;
