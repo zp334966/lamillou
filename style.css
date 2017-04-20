@@ -1059,7 +1059,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     padding-left: 6.3px;
     font-size: 11px;
 }
-.product-extra .product-price {
+.product-extra .product_price {
     padding-left: 6px;
     font-size: 13px;
 }
