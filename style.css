@@ -764,7 +764,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     width: 100%;
     text-overflow: ellipsis;
 }
-.container-products .product_price {
+.container-products .product_price, .product_price h3 {
     font-family: 'Open Sans';
     font-size: 13px;
     color: #16407D;
@@ -776,7 +776,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     text-transform: uppercase;
     font-weight: 600;
 }
-.container-products .product_discount_price {
+.container-products .product_discount_price, .product_discount_price h3 {
     font-family: 'Open Sans';
     font-weight: 600;
     font-size: 12px !important;
@@ -789,7 +789,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     right: 0;
     text-transform: uppercase; 
 }
-.price-promotion {
+.price-promotion,  .price-promotion h3{
     color: #F1001D !important;
 }
 .quantity {
