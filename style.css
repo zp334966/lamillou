@@ -1275,15 +1275,12 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         height: inherit;
         width: inherit;
     }
-    .headroom--at-top {
+    .headroom--at-top, .headroom--top {
         position: absolute !important;
         top: 0;
         left: 0;
         display: block;
-    }/*
-    .headroom--not-top {
-        
-    }*/
+    }
     .sticky-wrapper {
         height: 97px!important;
     }
