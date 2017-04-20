@@ -194,6 +194,12 @@ p {
 .headroom--unpinned {
     display: none;
 }
+.headroom--at-top {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    display: block;
+}
 .header .inner {
     border-bottom: none;
     height: 64px;
@@ -1274,12 +1280,6 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     .header .navigation {
         height: inherit;
         width: inherit;
-    }
-    .headroom--at-top {
-        position: absolute !important;
-        top: 0;
-        left: 0;
-        display: block;
     }
     .sticky-wrapper {
         height: 97px!important;
