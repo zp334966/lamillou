@@ -1335,10 +1335,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         color: #16407D!important;
         border-bottom: 5px solid #15407D;
     }
-    .product-extra .item a > img:focus, .product-extra .item a > img:hover, .product-extra .item a > img:active {
-        border: none;
-    }
-    .has-mega-menu>a>img:focus, .menu>ul>li.has-mega-menu>a>img:hover, .menu>ul>li.has-mega-menu>a>img:active {
+    .product-extra .item a:focus, .product-extra .item a:hover, .product-extra .item a:active {
         border: none;
     }
     .headroom--at-top .header-toolbar, .header.stuck.headroom--top .header-toolbar  {
