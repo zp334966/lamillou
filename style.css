@@ -534,6 +534,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     font-size: 15px;
     letter-spacing: 0.38px;
     line-height: 48px;
+    color: #16407D;
 }
 .img-overlay-fa h2 {
     word-spacing: .15em;
