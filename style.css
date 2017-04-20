@@ -587,6 +587,19 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     line-height: 40px;
     border-radius: 50%;
 }
+#pozbutton > span.fa-play, #pozbutton > span.fa-pause {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+#pozbutton {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    border-radius: 50%;
+    border: none;
+}
+#pozbutton:hover {
+    opacity: 1 !important;
+}
 .buttons-wide {
     margin-top: 35.5px;
     margin-bottom: 15px;
