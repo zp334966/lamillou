@@ -1076,7 +1076,6 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 .product-extra h3 {
     float: left;   
     margin: 0 0 0 0;
-    line-height: 0px;
 }
 .product-extra .item .title, .product-extra .item .subtitle  {
     max-width: 173px;   
