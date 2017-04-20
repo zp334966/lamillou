@@ -1045,20 +1045,23 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 .product-extra h3 {
     float: left;    
 }
-.product-extra .title, .product-extra .subtitle  {
+.product-extra .item .title, .product-extra .item .subtitle  {
     max-width: 173px;   
 }
-.product-extra .title {
+.product-extra .item .title {
     margin-top: 6px;
     float: left;
     padding-left: 7px;
+    font-size: 13px;
 }
-.product-extra .subtitle {
+.product-extra .item .subtitle {
     margin-bottom: 3px;
     padding-left: 6.3px;
+    font-size: 11px;
 }
 .product-extra .product-price {
     padding-left: 6px;
+    font-size: 13px;
 }
 .advertisement {
     height: 51px;
