@@ -597,8 +597,9 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     border-radius: 50%;
     border: none;
 }
-#pozbutton:hover {
+#pozbutton:hover, #pozbutton:active {
     opacity: 1 !important;
+    border: none !important;
 }
 .buttons-wide {
     margin-top: 35.5px;
