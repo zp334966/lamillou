@@ -1074,7 +1074,9 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     border: none;    
 }
 .product-extra h3 {
-    float: left;    
+    float: left;   
+    margin: 0 0 0 0;
+    line-height: 0px;
 }
 .product-extra .item .title, .product-extra .item .subtitle  {
     max-width: 173px;   
@@ -1093,6 +1095,10 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 .product-extra .product_price {
     padding-left: 6px;
     font-size: 13px;
+    position: static;
+}
+footer.product-extra {
+    text-align: left;    
 }
 .advertisement {
     height: 51px;
