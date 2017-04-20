@@ -1095,10 +1095,12 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     padding-left: 6px;
     position: static;
     width: 50%;
+    float: left;
 }
 .product-extra .product_price h3 {
     position: static;
     text-align: left;
+    margin-top: -5px;
 }
 .product-extra .product_discount_price h3 {
     text-align: right;
