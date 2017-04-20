@@ -1337,7 +1337,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         color: #16407D!important;
         border-bottom: 5px solid #15407D;
     }
-    .product-extra .item a:focus, .product-extra .item a:hover, .product-extra .item a:active {
+    .product-extra .item a, .product-extra .item a:focus, .product-extra .item a:hover, .product-extra .item a:active {
         border: none;
     }
     .headroom--at-top .header-toolbar, .header.stuck.headroom--top .header-toolbar  {
