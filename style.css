@@ -1038,6 +1038,10 @@ a.shop_description>.category-node {
     margin-bottom: 6px;
     margin-top: 31px;
 }
+.category-node .category-image {
+    text-align: center;
+    background: #D0D9E5;
+}
 .product-extra .item {
     position: absolute;
     top: -20px;
