@@ -1318,7 +1318,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     .header.stuck .header-toolbar  {
         display:none;
     }
-    .headroom--at-top .header-toolbar  {
+    .headroom--at-top .header-toolbar, .headroom--top .header-toolbar  {
         display:block;
     }
     .headroom--pinned .logo-big-header {
