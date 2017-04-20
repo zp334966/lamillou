@@ -384,8 +384,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .page-block {
     padding: 0 0 0 0 !important;
 }
-div.page-heading.center {
+div.page-heading.center, div.page-heading {
     padding-top: 17px;
+    padding-bottom: 0px;
+    margin: 0 0 0 0;
 }
 .gallery-grid.masonry .item {
     border: none;   
