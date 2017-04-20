@@ -1097,7 +1097,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     font-size: 13px;
     position: static;
 }
-footer.product-extra {
+.info.product-extra {
     text-align: left;    
 }
 .advertisement {
