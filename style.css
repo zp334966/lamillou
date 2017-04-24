@@ -381,6 +381,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     line-height: 14px;
     padding: 4px 0 4px 0;
 }
+.menu ul li.has-mega-menu div.subcategories {
+    margin-bottom: 17px;
+}
 .page-block {
     padding: 0 0 0 0 !important;
 }
@@ -1082,16 +1085,13 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 .product-extra .item .title {
     margin-top: 6px;
     float: left;
-    padding-left: 7px;
     font-size: 13px;
 }
 .product-extra .item .subtitle {
     margin-bottom: 3px;
-    padding-left: 6.3px;
     font-size: 11px;
 }
 .product-extra .product_price {
-    padding-left: 6px;
     position: static;
     width: 50%;
     float: left;
@@ -1103,6 +1103,10 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 }
 .product-extra .product_discount_price h3 {
     text-align: right;
+}
+.info.product-extra {
+    width: 173px;
+    float: right;
 }
 .advertisement {
     height: 51px;
