@@ -1086,18 +1086,15 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     margin-top: 6px;
     float: left;
     font-size: 13px;
-    padding-left: 7px;
 }
 .product-extra .item .subtitle {
     margin-bottom: 3px;
     font-size: 11px;
-    padding-left: 6.3px;
 }
 .product-extra .product_price {
     position: static;
     width: 50%;
     float: left;
-    padding-left: 6px;
 }
 .product-extra .product_price h3 {
     position: static;
