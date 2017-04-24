@@ -238,6 +238,9 @@ p {
 .header-toolbar .tools li.user_not_logged_in.signup a {
     color: #00457b;
 }
+.header .quick-search.open {
+    z-index: 3;
+}
 #top_container {
     text-align: left;
     padding-left: 21px;
@@ -368,7 +371,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .mega-open a {
     border-bottom: 5px solid #15407D;
 }
-
 .menu ul li.has-mega-menu div.subcategories a {
     font-size: 12px;
     letter-spacing: 0;
@@ -1172,6 +1174,9 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     -ms-transform: scale(0.75); /* IE 9 */
     -webkit-transform: scale(0.75); /* Chrome, Safari, Opera */
     padding-top: 7px;
+}
+.covered {
+    pointer-events: none;
 }
 @media (max-width: 400px){
     .advertisement .img-courier {
