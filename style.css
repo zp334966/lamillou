@@ -692,12 +692,16 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     bottom: 1px;
 }
 .btn img.arrow {
-    width: 9px;
+    height: initial;
+    width: initial;
+    margin-bottom: 2px;
+    margin-left: 7px;
 }
 .category-node .btn {
     width: 102px;
     padding-left: 14px!important;
     padding-right: 14px !important;
+    margin-right: 13px!important;
 }
 .gallery-grid.masonry .item2 {
     position: relative;
@@ -1061,7 +1065,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     background: #D0D9E5;
 }
 .category-node .img-overlay .btn {
-    margin-bottom: 14px !important;
+    margin-bottom: 9px !important;
 }
 .product-extra .item {
     position: absolute;
