@@ -1464,6 +1464,15 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     .container {
         width: 1158px;
     }
+    #res-cart {
+        display: none;
+    }
+    #nav-toggle {
+        display: none;
+    }
+    .search-trigger {
+        display: none;    
+    }
     .header .logo {
         display: none!important;
         float: none;
@@ -1535,9 +1544,6 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     }
     .product-extra .item a, .product-extra .item a:focus, .product-extra .item a:hover, .product-extra .item a:active {
         border: none;
-    }
-    .search-trigger {
-        display: none;    
     }
 }
 
