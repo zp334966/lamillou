@@ -238,7 +238,7 @@ p {
 .header-toolbar .tools li.user_not_logged_in.signup a {
     color: #00457b;
 }
-.header .quick-search.open {
+.header .quick-search{
     z-index: 5;
 }
 #top_container {
