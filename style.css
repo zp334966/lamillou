@@ -1444,6 +1444,9 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         display: inline-block!important;
         float: none;
     }
+    .header .container {
+        text-align: center;
+    }
     #nav-toggle {
         display: block;
     }
@@ -1460,6 +1463,10 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 @media (min-width: 1200px){
     .container {
         width: 1158px;
+    }
+    .header .logo {
+        display: none!important;
+        float: none;
     }
     .header .navigation {
         display: block;    
