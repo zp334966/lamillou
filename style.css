@@ -1310,72 +1310,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     } 
 }
 
-@media (min-width: 1025px){ 
-    .header .inner {
-        height: 64px;
-    }
-    .header-toolbar {
-        height: 48px;
-        width: 500px;
-        float: right;
-        margin-right: 15px;
-    }
-    .header-toolbar .tools {
-        width: auto;
-    }
-    .header .navigation {
-        height: inherit;
-        width: inherit;
-    }
-    .sticky-wrapper {
-        height: 97px!important;
-    }
-    .logo-big-header {
-        display: inline-block;   
-        width: 140px;
-        margin: 0px 0px -20px 30px;
-        float: left;
-        z-index: 100;
-        position: relative;
-    }
-    .menu {
-        height: 60px;
-        padding-right: 43px;
-        width: auto;
-        float: right;
-        margin-right: 22px;
-    }
-    .menu>ul>li.has-mega-menu>span>a {
-        font-size: 13px!important;
-        color: #16407D !important;
-        font-weight: 700;
-        letter-spacing: 0.32px;
-        padding-top: 21px;
-        padding-bottom: 21px;
-        height: 64px;
-        margin-left: 14px;
-        margin-right: 14px;
-    }
-    .menu>ul>li.has-mega-menu>span>a:focus, .menu>ul>li.has-mega-menu>span>a:hover, .menu>ul>li>a:focus, .menu>ul>li>a:hover,
-    .menu>ul>li.has-mega-menu>span>a:active, .menu>ul>li>a:active {
-        color: #16407D!important;
-        border-bottom: 5px solid #15407D;
-    }
-    .product-extra .item a, .product-extra .item a:focus, .product-extra .item a:hover, .product-extra .item a:active {
-        border: none;
-    }
-    .headroom--at-top .header-toolbar, .header.stuck.headroom--top .header-toolbar  {
-        display:block;
-    }    
-    .header.stuck .header-toolbar  {
-        display:none;
-    }
-    .headroom--pinned .logo-big-header {
-        width: 101px;
-    }
-    .headroom--top .logo-big-header {
-        width: 140px;
-    }
+@media (min-width: 1025px){     
     .col-menu-footer {
         width: 60%;
         display: inline-block;
@@ -1507,15 +1442,94 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         padding-right: 9px;
     }
 }
-/*
 @media only screen and (max-width: 1200px) {
-    .header .navigation {
-        display: none;
+    .header .logo {
+        display: inline-block!important;
     }
-}*/
+    #nav-toggle {
+        display: block;
+    }
+    .header .inner {
+        display: inline-block;
+    }
+    #res-cart {
+        display: block;
+    }
+    .header .navigation {
+        display: none;    
+    }
+}
 @media (min-width: 1200px){
     .container {
         width: 1158px;
+    }
+    .header .navigation {
+        display: block;    
+    }
+    .header .inner {
+        height: 64px;
+    }
+    .header-toolbar {
+        height: 48px;
+        width: 500px;
+        float: right;
+        margin-right: 15px;
+    }
+    .header-toolbar .tools {
+        width: auto;
+    }
+    .header .navigation {
+        height: inherit;
+        width: inherit;
+    }
+    .sticky-wrapper {
+        height: 97px!important;
+    }
+    .headroom--at-top .header-toolbar, .header.stuck.headroom--top .header-toolbar  {
+        display:block;
+    }    
+    .header.stuck .header-toolbar  {
+        display:none;
+    }
+    .headroom--pinned .logo-big-header {
+        width: 101px;
+    }
+    .headroom--top .logo-big-header {
+        width: 140px;
+    }
+    .logo-big-header {
+        display: inline-block;   
+        width: 140px;
+        margin: 0px 0px -20px 30px;
+        float: left;
+        z-index: 100;
+        position: relative;
+    }
+    .menu {
+        height: 60px;
+        padding-right: 43px;
+        width: auto;
+        float: right;
+        margin-right: 22px;
+    }
+    .menu>ul>li.has-mega-menu>span>a {
+        font-size: 13px!important;
+        color: #16407D !important;
+        font-weight: 700;
+        letter-spacing: 0.32px;
+        padding-top: 21px;
+        padding-bottom: 21px;
+        height: 64px;
+        margin-left: 14px;
+        margin-right: 14px;
+    }
+    .menu>ul>li.has-mega-menu>span>a:focus, .menu>ul>li.has-mega-menu>span>a:hover, .menu>ul>li>a:focus, .menu>ul>li>a:hover,
+    .menu>ul>li.has-mega-menu>span>a:active, .menu>ul>li>a:active {
+        color: #16407D!important;
+        border-bottom: 5px solid #15407D;
+    }
+    .product-extra .item a, .product-extra .item a:focus, .product-extra .item a:hover, .product-extra .item a:active {
+        border: none;
     }
 }
 
