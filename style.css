@@ -1187,8 +1187,8 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     -webkit-transform: scale(0.75); /* Chrome, Safari, Opera */
     padding-top: 7px;
 }
-.covered {
-    pointer-events: none;
+.less-space {
+    margin-top: -10px;
 }
 @media (max-width: 400px){
     .advertisement .img-courier {
