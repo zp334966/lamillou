@@ -691,6 +691,14 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     position: relative;
     bottom: 1px;
 }
+.btn .arrow img {
+    width: 9px;
+}
+.category-node .btn {
+    width: 102px;
+    padding-left: 14px!important;
+    padding-right: 14px !important;
+}
 .gallery-grid.masonry .item2 {
     position: relative;
     float: left;
