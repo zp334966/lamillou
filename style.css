@@ -239,7 +239,7 @@ p {
     color: #00457b;
 }
 .header .quick-search.open {
-    z-index: 3;
+    z-index: 5;
 }
 #top_container {
     text-align: left;
