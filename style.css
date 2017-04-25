@@ -1460,7 +1460,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         display: none;    
     }
 }
-@media only screen and (min-width: 1200px){
+@media (min-width: 1201px){
     .container {
         width: 1158px;
     }
