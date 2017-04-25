@@ -1380,9 +1380,6 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         margin-top: 10px;
         font-size: 20px;
     }
-    .search-trigger {
-        display: none;    
-    }
     .shop_cart_simple {
         font-size: 13px;
         font-weight: 700;
@@ -1445,6 +1442,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 @media only screen and (max-width: 1200px) {
     .header .logo {
         display: inline-block!important;
+        float: none;
     }
     #nav-toggle {
         display: block;
@@ -1530,6 +1528,9 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     }
     .product-extra .item a, .product-extra .item a:focus, .product-extra .item a:hover, .product-extra .item a:active {
         border: none;
+    }
+    .search-trigger {
+        display: none;    
     }
 }
 
