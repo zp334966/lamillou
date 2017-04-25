@@ -1146,16 +1146,25 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     display: inline-block;
 }
 .advertisement .img-courier {
-    width: 20px;
     float: left;
     margin: 0px 7px 0px 7px;
 }
 .advertisement .exit {
-    width: 11.7px;
     float: right;
     margin: 3px 19px 1px 9px;
     cursor: pointer;
 }
+.advertisement-mobile .img-courier {
+    height: 51px;
+    padding: 18px 0px 16px 18px;
+    margin: -18px 0px 0px 0px;
+}
+.advertisement-mobile .exit {
+    padding: 21px 19px 17.5px 10px;
+    height: 51px;
+    margin: -18px 0px 0px 0px;
+}
+
 .advertisement-desktop {
     display: none;
 }
