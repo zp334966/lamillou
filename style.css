@@ -298,6 +298,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     margin-left: 8px;
     padding-bottom: 6px;
 }
+.page-block .mobile-navi .packing-info {
+    margin-left: 2px;
+}
 .mobile-navi li.title {
     list-style: none;
 }
