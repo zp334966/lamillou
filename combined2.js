@@ -248,7 +248,35 @@ jQuery(document).ready(function($) {
       $transpHeader.find('.logo > img').attr('src', $logoAlt);
     }
   });
-    
+
+  /*Header Init
+  *******************************************/
+  var myElement = document.querySelector("header");
+  var headroom  = new Headroom(myElement, {
+    tolerance: 0,
+    offset : 0,
+  });
+  headroom.init(); 
+  var lastScrollTop = 0;
+  var maxT = 0;
+  if ($(window).width() >= 1200) {maxT = 94;}
+	
+  $(window).scroll(function(event){
+    var st = $(this).scrollTop();
+    if (st > lastScrollTop){
+      // downscroll code
+      $("header").addClass("headroom--at-top").removeClass("stuck");
+    } else {
+      // upscroll code
+      if (st > maxT) {
+        $("header").addClass("stuck").removeClass("headroom--at-top");
+      } else {
+      	$("header").addClass("headroom--at-top").removeClass("stuck");
+      }
+    }
+    lastScrollTop = st;
+  });
+	
   
   /*Navi Toggle Animation
   *******************************************/
