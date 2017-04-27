@@ -126,6 +126,12 @@ p {
 .off-canvas-wrap.move-right #nav-toggle-exit{
     display: inline-block;
 }
+.left-off-canvas-menu .mobile-navi {
+    overflow: auto;
+}
+.move-right>.inner-wrap {
+    position: fixed;
+}
 @media (max-width: 335px) {
     #nav-toggle-exit {
         left: 20px;
@@ -168,11 +174,7 @@ p {
     left: 55px;
     padding: 10px 10px 10px 10px;
 }
-/*
-.search-wrapper .off {
-    opacity: 0.8;
-    background: #16407D;    
-}*/
+
 .search-wrapper.off .search-off-canvas {
     background: rgba(22, 64, 125, .8);
     z-index: 1;
