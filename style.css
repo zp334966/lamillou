@@ -259,9 +259,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-size: 36px;
     letter-spacing: 0.9px;
     line-height: 38px;
-    padding: 6px 0 6px 0;
-    margin-bottom: 0px;
+    padding: 6px 0 6px 0 !important;
+    margin-bottom: 0px !important;
     color: #16407D;
+    border: none;
 }
 
 .page-heading h3>span {
