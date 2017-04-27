@@ -955,10 +955,6 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     text-transform: uppercase; 
 }
 
-.ms-container {
-    margin-right: -10px;
-    margin-left: -10px;
-}
 .master-slider {
     margin-bottom: 23px !important;
     height: unset;
@@ -990,8 +986,8 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 .ms-slide .ms-slide-bgcont img {
     height: unset !important;
     margin-top: 0px !important;
-    width: 100% !important;
     text-align: center;
+    overflow: hidden;
 }
 .ms-thumb-frame img {
     margin-left: 0px !important;
