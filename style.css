@@ -1140,13 +1140,13 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 }
 .advertisement {
     height: 51px;
-    padding-top: 18px;
-    padding-bottom: 16px;
+    padding-top: 19px;
+    padding-bottom: 20px;
     margin-left: -10px;
     margin-right: -10px;
     background-color: #16407D;
     text-align: center;
-    line-height: 17px;
+    line-height: 12px;
 }
 
 .advertisement h6 {
@@ -1155,7 +1155,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     font-size: 12px;
     letter-spacing: 0;
     font-weight: 400;
-    line-height: 17px;
+    line-height: 12px;
     margin-bottom: 0px;
     display: inline-block;
 }
@@ -1170,13 +1170,13 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 }
 .advertisement-mobile .img-courier {
     height: 51px;
-    padding: 18px 0px 16px 18px;
-    margin: -18px 0px 0px 0px;
+    padding: 19px 0px 16px 18px;
+    margin: -20px 0px 0px 0px;
 }
 .advertisement-mobile .exit {
-    padding: 21px 19px 17.5px 10px;
+    padding: 20px 19px 16.5px 10px;
     height: 51px;
-    margin: -18px 0px 0px 0px;
+    margin: -20px 0px 0px 0px;
 }
 
 .advertisement-desktop {
