@@ -324,6 +324,17 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .mobile-navi .open .packing-info {
     display: block;    
 }
+.page-block .mobile-navi .packing-info a {
+    padding: 0;
+    display: inline;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    font-size: 14px !important;
+    color: #243C5E;
+    letter-spacing: 0;
+    text-decoration: underline;
+}
 .header .logo h2 {
     margin-bottom: -6px;   
 }
