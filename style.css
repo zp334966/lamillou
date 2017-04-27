@@ -253,7 +253,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color:#16407d; 
 }
 
-.page-heading h2 {
+.page-heading h2, .category-node h1 {
     font-family: besom!important;
     text-align: left;
     font-size: 36px;
@@ -1057,7 +1057,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     padding-top: 11px;
     padding-bottom: 11px;
     margin-bottom: 7px;
-}
+}/*
 .category-node h1 {
     border: none;
     font-size: 36px;
@@ -1067,7 +1067,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     font-family: Besom;
     padding: 6px 0 6px 0 !important;
     margin-bottom: 0px !important;
-}
+}*/
 .category-node {
     margin-bottom: 10px;
     margin-top: 26px;
