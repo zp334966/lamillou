@@ -392,7 +392,27 @@ $('.back-search').on('click', function(e) {
     });
   });
   
-
+  /*Moodboard Rectangular image - resize
+  *******************************************/
+  $( document ).ready(function() {
+	  
+    $('.item-narrow').each(function() {
+      if ($(window).width() >= 580) {      
+        var h = $('.col-md-3 .img-responsive').css("height");
+        $('.item-narrow').css( "max-height", h);
+      }
+    });
+	  
+    $( window ).resize(function() {
+      if ($(window).width() >= 580) {      
+        var h = $('.col-md-3 .img-responsive').css("height");
+        $('.item-narrow').css( "max-height", h);
+        } else {
+          $('.item-narrow').css( "max-height", "unset");
+      	}
+    });
+	  
+  });  
   
   /*Quick Search Form Animation
   *******************************************/
