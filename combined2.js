@@ -284,6 +284,11 @@ jQuery(document).ready(function($) {
         });
       }
   });
+	
+  //Hamburger go visiable when click link
+  $( ".mobile-navi a" ).click(function() {
+      $( "#nav-toggle" ).toggleClass("active");
+  });
   
   //Submenu Toggles
   $mobSubmenuToggle.click(function(){
@@ -737,7 +742,8 @@ $('.back-search').on('click', function(e) {
   }
 	
 	
-//Advertisement mobile
+  /*Advertisement mobile 
+  ************************************************/
   $('.exit').click(function() {
 	sessionStorage.setItem('advertisement', '0');
   	var items = document.getElementsByClassName("advertisement-desktop");
@@ -755,7 +761,9 @@ $('.back-search').on('click', function(e) {
 		items[0].style.display = "none";  
   	}
   }); 
-    
+	
+	
+	
   ///////////////////////////////////////////////////////////////////////
   /////////  INTERNAL ANCHOR LINKS SCROLLING (NAVIGATION)  //////////////
   //////////////////////////////////////////////////////////////////////
