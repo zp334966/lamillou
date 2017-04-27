@@ -384,7 +384,17 @@ $('.back-search').on('click', function(e) {
    $('#header-mobile-id').toggleClass('hidden');
 });	
 	
-  
+  //Scroll only menu
+  function setMobileNaviHeight() {
+    $('.left-off-canvas-menu .mobile-navi').each(function() {
+      var h = $(window).height();
+      $(this).css("height", h);
+    });
+  }
+  $(document).ready (setMobileNaviHeight);
+  $( window ).resize (setMobileNaviHeight);  	
+	
+	
   //Add(+/-) Button Number Incrementers
   $(".incr-btn").on("click", function(e) {
     var $button = $(this);
