@@ -956,17 +956,17 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 }
 
 .ms-container {
-    background: rgba(208,216,229,0.70);
     margin-right: -10px;
     margin-left: -10px;
-    height: 280px;
 }
 .master-slider {
-    height: 280px;
     margin-bottom: 23px !important;
+    height: unset;
+    width: 100%;
 }
 .controls-cont, .ms-view, .ms-slide, .ms-slide-bgcont {
-    height: 280px !important;
+    height: unset;
+    width: 100% !important;
 }
 .sp-slider .category-icon {
     position: absolute;
@@ -988,9 +988,9 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     width: inherit !important;
 }
 .ms-slide .ms-slide-bgcont img {
-    height: 280px !important;
+    height: unset !important;
     margin-top: 0px !important;
-    width: unset !important;
+    width: 100% !important;
     text-align: center;
 }
 .ms-thumb-frame img {
