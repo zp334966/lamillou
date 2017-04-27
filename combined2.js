@@ -929,6 +929,13 @@ window.lightwidget||(window.lightwidget=function(){"use strict";var t=[],i=0,n=!
   var lastScrollTop = 0;
   var maxT = 0;
   if ($(window).width() >= 1200) {maxT = 94;}
+  $( window ).resize(function() {
+      if ($(window).width() >= 1200) {      
+        maxT = 94;
+      } else {
+        maxT = 0;
+      }
+  });
 	
   $(window).scroll(function(event){
     var st = $(this).scrollTop();
