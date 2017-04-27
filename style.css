@@ -1065,7 +1065,8 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     letter-spacing: 0.9px;
     line-height: 40px;
     font-family: Besom;
-    padding-bottom: 0px;
+    padding: 6px 0 6px 0 !important;
+    margin-bottom: 0px !important;
 }
 .category-node {
     margin-bottom: 10px;
