@@ -128,7 +128,12 @@ p {
 }
 .left-off-canvas-menu .mobile-navi {
     overflow: auto;
+    -ms-overflow-style: none;  /* IE 10+ */
 }
+.left-off-canvas-menu .mobile-navi::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
 .move-right>.inner-wrap {
     position: fixed;
 }
