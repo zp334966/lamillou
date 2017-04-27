@@ -937,7 +937,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     border-bottom: none;
     margin-bottom: 0px;
 }
-.block-devider span, .block-devider p {
+.block-devider span, .block-devider p, .block-devider .gmail_default {
     font-family: 'Open Sans';
     font-size: 14px !important;
     color: #243C5E !important;
