@@ -1009,7 +1009,7 @@ function properTitle(word) {
   if (l > d) {return true;}
   else {return false;}
 };
-/*
+
 $('.product-extra .info h3 a').each(function() {
   var full_name = $(this).html();
   var names = productNames( full_name );    
@@ -1017,7 +1017,7 @@ $('.product-extra .info h3 a').each(function() {
   if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
   else { subtitle = add(names.category, names.subtitle); }
   $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>'); 
-});*/
+});
 $('.product_details .product_title').each(function() { 
   var full_name = $(this).html();
   var names = productNames( full_name );    
