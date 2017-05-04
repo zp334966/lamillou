@@ -962,7 +962,7 @@ if ($(window).width() > 992) {
 function productNames(full_name) {
   var categories = ["KOCYK","PODUSIA","ZESTAW","OTULACZ","BLANKET","KOC","WINGS","BAG","PILLOW","KOMPLET","POŚCIEL",
 		    "ORGANIZER","OCHRANIACZ", "POZYTYWKA","HORN","PRZEŚCIERADŁO","PACK","TORBA","PASEK","PRZEWIJAK",
-		    "SASZETKA","KOLEKCJA","ŚPIWOREK","PAD","COVER","KURA","COMBO", "ZAWIESZKA", "ZABAWKA", "WOREK",
+		    "SASZETKA","ŚPIWOREK","PAD","COVER","KURA","COMBO", "ZAWIESZKA", "ZABAWKA", "WOREK",
                      "THERMO", "GRZECHOTKA","PLECAK","MAT","KAPELUSZ", "CHUSTKA", "APASZKA", "CZAPA", "HAT"];
   var category = "";
   var names = full_name.split('-');
@@ -1007,7 +1007,7 @@ function properTitle(word) {
   var d = countDigits(word);
   var l = countLetters(word) - d;
   if (l > d) {return true; }
-  else {return false; alert("false");}
+  else {return false;}
 };
 
 $('.product-extra .info h3 a').each(function() {
