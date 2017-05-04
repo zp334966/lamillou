@@ -1042,6 +1042,17 @@ $(document).ready(function(){
 	  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>'); 
 	});
 });
+
+/*Unavaible products label
+*************************************************/
+$(document).ready(function(){
+  $('.unavaible-products div').each(function() {
+    if (! $( '.unavaible-products a' ).length ){
+      $('.unavaible-products').css( "display", "none" );
+    }
+  });
+});
+
 /*Cart Color
 *************************************************/
 function updateCartColor() {
