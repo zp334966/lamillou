@@ -776,7 +776,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     padding-left: 4.5px;
     padding-right: 4.5px;
 }
-.container-products .item .title{
+.item .title{
     font-family: 'Open Sans';
     font-size: 13px;
     color: #16407D;
@@ -788,7 +788,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     overflow: hidden;  
     margin-bottom: 4px;
 }
-.container-products .item .subtitle{
+.item .subtitle{
     opacity: 0.8;
     font-family: 'Open Sans';
     font-size: 11px;
@@ -801,7 +801,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     width: 100%;
     text-overflow: ellipsis;
 }
-.container-products .product_price, .product_price h3 {
+.product_price, .product_price h3 {
     font-family: 'Open Sans';
     font-size: 13px;
     color: #16407D;
@@ -813,7 +813,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     text-transform: uppercase;
     font-weight: 600;
 }
-.container-products .product_discount_price, .product_discount_price h3 {
+.product_discount_price, .product_discount_price h3 {
     font-family: 'Open Sans';
     font-weight: 600;
     font-size: 12px !important;
