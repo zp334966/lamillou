@@ -974,7 +974,7 @@ function productNames(full_name) {
       if (categories.some(function(v) {return names[i].includes(v);})) {
         category = names[i];
       } else {
-        if ( !(title.match(/[a-z]/i)) && properTitle(names[i]) ) {
+        if ( !(title.match(/[a-z]/i)) /*&& properTitle(names[i]) */) {
           title = names[i];
         } else {
           subtitle = add (subtitle, names[i]);
@@ -992,7 +992,7 @@ function add(word1, word2) {
     return word1 + " | " + word2;
   } else return word2;
 };
-
+/*
 function countDigits(word) {
   word = word.replace(/\D+/g, "");
   return word.length;
@@ -1009,7 +1009,7 @@ function properTitle(word) {
   if (l > d) {return true;}
   else {return false;}
 };
-
+*/
 $('.product-extra .info h3 a').each(function() {
   var full_name = $(this).html();
   var names = productNames( full_name );    
