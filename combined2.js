@@ -1048,7 +1048,6 @@ $('.container-products .info h3 a').each(function() {
 function updateCartColor() {
   var c = $('span.shop_cart_simple').text();
   var cart = parseInt( c, 10);
-  alert(cart);
   if (cart > 0) {
     $('#res-cart span').css("opacity", "1");
   } else {
