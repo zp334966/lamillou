@@ -997,11 +997,6 @@ function countDigits(word) {
   word = word.replace(/\D+/g, "");
   return word.length;
 };
-function countLetters(word) {
-  word = word.toLowerCase();
-  word = word.replace(/[^a-z]/, "");
-  return word.length;
-};
 
 function properTitle(word) {
   var d = countDigits(word);
@@ -1034,7 +1029,7 @@ $('.relate_product .info h3 a').each(function() {
   else { subtitle = add(names.category, names.subtitle); }
   $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>'); 
 });
-$('.info h3 a').each(function() { 
+$('.container-products .info h3 a').each(function() { 
   var full_name = $(this).html();
   var names = productNames( full_name );    
   var subtitle = ""; 
