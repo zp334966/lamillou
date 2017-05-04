@@ -957,6 +957,37 @@ if ($(window).width() > 992) {
 }
 
 
+/*Name Product
+*************************************************/
+function productNames(full_name) {
+  var category = "";
+  var names = full_name.split('-');
+  var i = 0;
+  var title = "";
+  var subtitle = "";
+  while (names.length > i) {
+    if (names[i].match(/[a-z]/i)) {
+      if (categories.some(function(v) {return names[i].includes(v);})) {
+        category = names[i];
+      } else {
+        if (!(title.match(/[a-z]/i))) {
+          title = names[i];
+        } else {
+          subtitle = add (subtitle, names[i]);
+        }
+      }
+    }
+    i++;
+  } 
+  title = title.toLowerCase();
+  return { title: title.trim(), subtitle: subtitle.trim(), category: category.trim() }; 
+}  
+
+function add(word1, word2) {
+  if (word1.match(/[a-z]/i)) {
+    return word1 + " | " + word2;
+  } else return word2;
+};
 
 /************** instasive *********/
 window.lightwidget||(window.lightwidget=function(){"use strict";var t=[],i=0,n=!1,e=!1,o=function(t){return e=t},d=function(t,i){t.contentWindow&&t.contentWindow.postMessage("sizing:"+i,window.location.protocol+"//lightwidget.com")},c=function(i){if(i.origin==window.location.protocol+"//lightwidget.com"||i.origin==window.location.protocol+"//instansive.com"){var n=i.data.split(":");try{"sizing"==n[0]&&void 0!=t[parseInt(n[2])]&&(t[parseInt(n[2])].style.height=n[1]+"px")}catch(e){}}},s=function(t){e&&console.log(t);var i=t.origin.replace(/^https?\:\/\//i,"");if("lightwidget.com"==i||"instansive.com"==i){var n=t.data.split(":");e&&console.log(n);try{if("sizing_iid"==n[0]){var o=n[2];void 0!=document.getElementById(o)?document.getElementById(o).style.height=n[1]+"px":(o=o.replace("instansive","lightwidget"),void 0!=document.getElementById(o)&&(document.getElementById(o).style.height=n[1]+"px"))}}catch(d){e&&console.log(d)}}},g=function(){window.addEventListener?(window.addEventListener("message",c,!1),window.addEventListener("message",s,!1)):(window.attachEvent("onmessage",c),window.attachEvent("onmessage",s))};return g(),{refresh:function(){if(n)for(var e=0;i>e;e++)d(t[e],e)},reload:function(){g()},debug:function(t){return o(t)}}}()),window.lightwidget.refresh();
