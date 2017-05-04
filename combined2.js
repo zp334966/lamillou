@@ -962,7 +962,7 @@ function productNames(full_name) {
 		    "ORGANIZER","OCHRANIACZ", "POZYTYWKA","HORN","PRZEŚCIERADŁO","PACK","TORBA","PASEK","PRZEWIJAK",
 		    "SASZETKA","ŚPIWOREK","PAD","COVER","KURA","COMBO","ZAWIESZKA","ZABAWKA","WOREK","WOODY BUNNY",
                     "THERMO","GRZECHOTKA","PLECAK","MAT","KAPELUSZ","CHUSTKA","APASZKA","CZAPA","HAT","OPASKA",
-		    "PACIFIER"];
+		    "PACIFIER","CZAPKA","KARTY"];
   var category = "";
   var names = full_name.split('-');
   var i = 0;
