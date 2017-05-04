@@ -1060,8 +1060,3 @@ function updateCartColor() {
   return;
 };
 var intervalID = window.setInterval(updateCartColor, 200);
-/*
-$(window).bind("load", function () {
-  updateCartColor();
-});
-*/
