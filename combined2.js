@@ -974,7 +974,7 @@ function productNames(full_name) {
       if (categories.some(function(v) {return names[i].includes(v);})) {
         category = names[i];
       } else {
-        if ( !(title.match(/[a-z]/i)) /*&& properTitle(names[i]) */) {
+        if ( !(title.match(/[a-z]/i)) && properTitle(names[i]) ) {
           title = names[i];
         } else {
           subtitle = add (subtitle, names[i]);
