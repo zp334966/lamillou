@@ -963,7 +963,7 @@ function productNames(full_name) {
   var categories = ["KOCYK","PODUSIA","ZESTAW","OTULACZ","BLANKET","KOC","WINGS","BAG","PILLOW","KOMPLET","POŚCIEL",
 		    "ORGANIZER","OCHRANIACZ", "POZYTYWKA","HORN","PRZEŚCIERADŁO","PACK","TORBA","PASEK","PRZEWIJAK",
 		    "SASZETKA","KOLEKCJA","ŚPIWOREK","PAD","COVER","KURA","COMBO", "ZAWIESZKA", "ZABAWKA", "WOREK",
-                     "THERMO", "GRZECHOTKA","PLECAK","MAT","KAPELUSZ", "CHUSTKA"];
+                     "THERMO", "GRZECHOTKA","PLECAK","MAT","KAPELUSZ", "CHUSTKA", "APASZKA", "CZAPA", "HAT"];
   var category = "";
   var names = full_name.split('-');
   var i = 0;
@@ -974,7 +974,7 @@ function productNames(full_name) {
       if (categories.some(function(v) {return names[i].includes(v);})) {
         category = names[i];
       } else {
-        if (!(title.match(/[a-z]/i))) {
+        if ( !(title.match(/[a-z]/i)) && properTitle(names[i]) ) {
           title = names[i];
         } else {
           subtitle = add (subtitle, names[i]);
@@ -991,8 +991,25 @@ function add(word1, word2) {
   if (word1.match(/[a-z]/i)) {
     return word1 + " | " + word2;
   } else return word2;
-};  
-     
+};
+
+function countDigits(word) {
+  word = word.replace(/\D+/g, "");
+  return word.length;
+};
+function countLetters(word) {
+  word = word.toLowerCase();
+  word = word.replace(/[^a-z]/, "");
+  return word.length;
+};
+
+function properTitle(word) {
+  var d = countDigits(word);
+  var l = countLetters(word);
+  if (l > d) {return true;}
+  else {return false;}
+};
+
 $('.product-extra .info h3 a').each(function() {
   var full_name = $(this).html();
   var names = productNames( full_name );    
