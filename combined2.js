@@ -1005,7 +1005,7 @@ function properTitle(word) {
 
 $(document).ready(function(){
 	$('.product-extra .info h3 a').each(function() {
-	  var full_name = $(this).html();
+	  var full_name = $(this).text();
 	  var names = productNames( full_name );    
 	  var subtitle = ""; 
 	  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
@@ -1013,7 +1013,7 @@ $(document).ready(function(){
 	  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>'); 
 	});
 	$('.product_details .product_title').each(function() { 
-	  var full_name = $(this).html();
+	  var full_name = $(this).text();
 	  var names = productNames( full_name );    
 	  var subtitle = ""; 
 	  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
@@ -1021,7 +1021,7 @@ $(document).ready(function(){
 	  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>'); 
 	});
 	$('.relate_product .info h3 a').each(function() { 
-	  var full_name = $(this).html();
+	  var full_name = $(this).text();
 	  var names = productNames( full_name );    
 	  var subtitle = ""; 
 	  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
@@ -1029,7 +1029,7 @@ $(document).ready(function(){
 	  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>'); 
 	});
 	$('.container-products .info h3 a').each(function() { 
-	  var full_name = $(this).html();
+	  var full_name = $(this).text();
 	  var names = productNames( full_name );    
 	  var subtitle = ""; 
 	  if ($('.page-heading h2').html().includes("Wyszukiwanie")) {
