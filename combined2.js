@@ -1005,7 +1005,7 @@ function countLetters(word) {
 
 function properTitle(word) {
   var d = countDigits(word);
-  var l = countLetters(word);
+  var l = countLetters(word) - d;
   if (l > d) {return true; }
   else {return false; alert("false");}
 };
