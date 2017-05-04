@@ -1060,6 +1060,6 @@ function updateCartColor() {
   return;
 };
 
-window.bind("load", function () {
+$(window).bind("load", function () {
   updateCartColor();
 });
