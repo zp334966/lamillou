@@ -962,8 +962,8 @@ if ($(window).width() > 992) {
 function productNames(full_name) {
   var categories = ["KOCYK","PODUSIA","ZESTAW","OTULACZ","BLANKET","KOC","WINGS","BAG","PILLOW","KOMPLET","POŚCIEL",
 		    "ORGANIZER","OCHRANIACZ", "POZYTYWKA","HORN","PRZEŚCIERADŁO","PACK","TORBA","PASEK","PRZEWIJAK",
-		    "SASZETKA","ŚPIWOREK","PAD","COVER","KURA","COMBO", "ZAWIESZKA", "ZABAWKA", "WOREK",
-                     "THERMO", "GRZECHOTKA","PLECAK","MAT","KAPELUSZ", "CHUSTKA", "APASZKA", "CZAPA", "HAT"];
+		    "SASZETKA","ŚPIWOREK","PAD","COVER","KURA","COMBO", "ZAWIESZKA", "ZABAWKA", "WOREK", "COLLECTION",
+                    "THERMO", "GRZECHOTKA","PLECAK","MAT","KAPELUSZ", "CHUSTKA", "APASZKA", "CZAPA", "HAT"];
   var category = "";
   var names = full_name.split('-');
   var i = 0;
