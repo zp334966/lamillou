@@ -1066,4 +1066,6 @@ $(window).bind("load", function () {
 $('.btn').each(function() {
   $(this).on( "click", updateCartColor() );
 });
-
+$('.fa').each(function() {
+  $(this).on( "click", updateCartColor() );
+});
