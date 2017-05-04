@@ -1059,13 +1059,9 @@ function updateCartColor() {
   }        
   return;
 };
-
+var intervalID = window.setInterval(updateCartColor, 1000);
+/*
 $(window).bind("load", function () {
   updateCartColor();
 });
-$('.btn').each(function() {
-  $(this).on( "click", updateCartColor() );
-});
-$('.fa').each(function() {
-  $(this).on( "click", updateCartColor() );
-});
+*/
