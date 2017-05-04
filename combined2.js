@@ -1003,44 +1003,45 @@ function properTitle(word) {
   else {return false;}
 };
 
-$('.product-extra .info h3 a').each(function() {
-  var full_name = $(this).html();
-  var names = productNames( full_name );    
-  var subtitle = ""; 
-  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
-  else { subtitle = add(names.category, names.subtitle); }
-  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>'); 
+$(document).ready(function(){
+	$('.product-extra .info h3 a').each(function() {
+	  var full_name = $(this).html();
+	  var names = productNames( full_name );    
+	  var subtitle = ""; 
+	  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
+	  else { subtitle = add(names.category, names.subtitle); }
+	  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>'); 
+	});
+	$('.product_details .product_title').each(function() { 
+	  var full_name = $(this).html();
+	  var names = productNames( full_name );    
+	  var subtitle = ""; 
+	  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
+	  else { subtitle = add(names.category, names.subtitle); }
+	  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>'); 
+	});
+	$('.relate_product .info h3 a').each(function() { 
+	  var full_name = $(this).html();
+	  var names = productNames( full_name );    
+	  var subtitle = ""; 
+	  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
+	  else { subtitle = add(names.category, names.subtitle); }
+	  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>'); 
+	});
+	$('.container-products .info h3 a').each(function() { 
+	  var full_name = $(this).html();
+	  var names = productNames( full_name );    
+	  var subtitle = ""; 
+	  if ($('.page-heading h2').html().includes("Wyszukiwanie")) {
+	    if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
+	    else { subtitle = add(names.category, names.subtitle); }
+	  } else {
+	    if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
+	    else { subtitle = names.subtitle; }  
+	  }
+	  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>'); 
+	});
 });
-$('.product_details .product_title').each(function() { 
-  var full_name = $(this).html();
-  var names = productNames( full_name );    
-  var subtitle = ""; 
-  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
-  else { subtitle = add(names.category, names.subtitle); }
-  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>'); 
-});
-$('.relate_product .info h3 a').each(function() { 
-  var full_name = $(this).html();
-  var names = productNames( full_name );    
-  var subtitle = ""; 
-  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
-  else { subtitle = add(names.category, names.subtitle); }
-  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>'); 
-});
-$('.container-products .info h3 a').each(function() { 
-  var full_name = $(this).html();
-  var names = productNames( full_name );    
-  var subtitle = ""; 
-  if ($('.page-heading h2').html().includes("Wyszukiwanie")) {
-    if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
-    else { subtitle = add(names.category, names.subtitle); }
-  } else {
-    if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
-    else { subtitle = names.subtitle; }  
-  }
-  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>'); 
-});
-
 /*Cart Color
 *************************************************/
 function updateCartColor() {
