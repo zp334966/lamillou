@@ -964,7 +964,7 @@ function productNames(full_name) {
                     "THERMO","GRZECHOTKA","PLECAK","MAT","KAPELUSZ","CHUSTKA","APASZKA","CZAPA","HAT","OPASKA",
 		    "PACIFIER","CZAPKA","KARTY"];
   var category = "";
-  full_name = full_name.replace('–', '-');
+  full_name = full_name.replace(/\–/g, '-');
   var names = full_name.split('-');
   var i = 0;
   var title = "";
