@@ -1056,7 +1056,7 @@ function updateCartColor() {
   }        
   return;
 };
-$(document).ready(function() {
+$(window).load(function(){
   updateCartColor();
 });
 
