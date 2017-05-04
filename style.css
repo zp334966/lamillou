@@ -1210,7 +1210,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 .less-space-top {
     margin-top: -8px;
 }
-@media (max-width: 400px){
+@media (max-width: 425px){
     .advertisement .img-courier {
         display: none;
     }
