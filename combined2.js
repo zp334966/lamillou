@@ -964,6 +964,7 @@ function productNames(full_name) {
                     "THERMO","GRZECHOTKA","PLECAK","MAT","KAPELUSZ","CHUSTKA","APASZKA","CZAPA","HAT","OPASKA",
 		    "PACIFIER","CZAPKA","KARTY"];
   var category = "";
+  full_name = full_name.replace('–', '-');
   var names = full_name.split('-');
   var i = 0;
   var title = "";
@@ -1014,8 +1015,8 @@ $(document).ready(function(){
 	  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>'); 
 	});
 	$('.product_details .product_title').each(function() { 
-	  var full_name = $(this).text(); alert(full_name);
-	  var names = productNames( full_name );    alert(names.title); alert(names.subtitle); alert(names.category);
+	  var full_name = $(this).text(); 
+	  var names = productNames( full_name ); 
 	  var subtitle = ""; 
 	  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
 	  else { subtitle = add(names.category, names.subtitle); }
