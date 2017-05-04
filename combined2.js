@@ -1059,4 +1059,4 @@ function updateCartColor() {
   }        
   return;
 };
-var intervalID = window.setInterval(updateCartColor, 200);
+var intervalID = $(window).setInterval(updateCartColor, 200);
