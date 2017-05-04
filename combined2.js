@@ -1063,3 +1063,7 @@ function updateCartColor() {
 $(window).bind("load", function () {
   updateCartColor();
 });
+$('.btn').each(function() {
+  $(this).on( "click", updateCartColor() );
+});
+
