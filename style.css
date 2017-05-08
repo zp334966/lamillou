@@ -1201,7 +1201,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 }
 .flaticon-search100::before {
     display: inline-block;
-    content: url("https://cdn.rawgit.com/zp334966/lamillou/79f58533/assets/lupa.svg");
+    content: url("https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/loupe.svg");
     transform: scale(0.75);
     -ms-transform: scale(0.75); /* IE 9 */
     -webkit-transform: scale(0.75); /* Chrome, Safari, Opera */
