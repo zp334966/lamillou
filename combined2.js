@@ -1087,7 +1087,7 @@ $(document).ready(function(){
 /*Placeholder
 *************************************************/
 function putPlaceholder(a) {
-  a.src='https://cdn.rawgit.com/zp334966/lamillou/a74856f9/assets/placeholder.svg'; 
+  a.src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/placeholder.svg'; 
   a.style.width='47%';
 }
 
