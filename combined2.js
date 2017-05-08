@@ -1075,10 +1075,10 @@ $(document).ready(function(){
   $('.pagination a').each(function() {
     var t = $(this).html();
     if (t.localeCompare('→') == 0 ){
-      $(this).html("<img src='https://cdn.rawgit.com/zp334966/lamillou/ea3fa21d/assets/arrow%20right.svg'/>");                      
+      $(this).html("<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/arrow_right.svg'/>");                      
     }
     if (t.localeCompare('←') == 0 ){
-      $(this).html("<img src='https://cdn.rawgit.com/zp334966/lamillou/ea3fa21d/assets/arrow%20left.svg'/>");                      
+      $(this).html("<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/arrow_left.svg'/>");                      
     }              
   });  			
 });
