@@ -714,10 +714,16 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 .btn-lam-link:hover, .btn-lam-link:focus, .btn-lam-link:active {
     color: white!important;    
 }
+.btn-lam-link-blue:hover, .btn-lam-link-blue:focus, .btn-lam-link-blue:active {
+    color: #16407d !important;    
+}
 .btn-lam-link img {
     padding-left: 5px;
     position: relative;
     bottom: 1px;
+}
+.btn-lam-link-blue img {
+    content: url('https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/arrow_left.svg');
 }
 .btn img.arrow {
     height: initial;
