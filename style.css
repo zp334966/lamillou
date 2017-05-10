@@ -10,7 +10,7 @@ p {
 .page {
     padding-top: 13px;
 }
-.container {
+.container, .container-text {
     padding-left: 10px;
     padding-right: 10px;
 }
