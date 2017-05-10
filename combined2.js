@@ -1096,7 +1096,8 @@ function putPlaceholder(a) {
 *************************************************/
 $(document).ready(function(){
   $('.mobile-navi-menu .submenu li a').each(function() {
-    $(this).toLowerCase().capitalize();
+    $(this).html().toLowerCase();
+    //$(this).html(t); 
   });
 });
 
