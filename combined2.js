@@ -1095,9 +1095,9 @@ function putPlaceholder(a) {
 /*Capitalize menu subcategories
 *************************************************/
 $(document).ready(function(){
-  $('.mobile-navi-menu .submenu li a').each(function() {
-    $(this).html().toLowerCase();
-    //$(this).html(t); 
+  $('.mobile-navi-menu .submenu a').each(function() {
+    var t = $(this).text().toLowerCase();
+    $(this).text(t); 
   });
 });
 
