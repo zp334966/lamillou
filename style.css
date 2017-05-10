@@ -18,7 +18,7 @@ p {
 .mobile-navi ul li a, .mobile-navi ul li h5 {
     border-bottom: none;
     display: block;
-    padding: 0px 45px 0px 0px;
+    padding: 14px 45px 14px 0px;
     font-weight: 700;
 }
 
@@ -41,7 +41,7 @@ p {
     letter-spacing: 0.38px;
     font-weight: normal;
     font-size: 15px !important;
-    line-height: 48px;
+    line-height: 20px;
     font-weight: 700;
     cursor: pointer;
 }
