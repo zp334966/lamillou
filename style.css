@@ -708,6 +708,9 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     font-weight: 700;
     cursor: pointer;
 }
+.btn-lam-link-blue {
+    color: #16407d;    
+}
 .btn-lam-link:hover, .btn-lam-link:focus, .btn-lam-link:active {
     color: white!important;    
 }
