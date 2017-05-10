@@ -16,7 +16,8 @@ p {
 }
 .container-text {
     margin: 0;
-    padding: 0;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 .mobile-navi ul li a, .mobile-navi ul li h5 {
     border-bottom: none;
