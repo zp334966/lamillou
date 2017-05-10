@@ -1099,16 +1099,16 @@ var pozstate = 0;
 function pozplay() {
   poz.play();
   pozstate = 1;
-  $('#pozbutton > span').removeClass('fa-play').addClass('fa-pause');
+  $('#pozbutton > span').removeClass('fa-play-circle').addClass('fa-pause-circle');
 }
 function pozpause() {
   poz.pause();
   pozstate = 0;
-  $('#pozbutton > span').removeClass('fa-pause').addClass('fa-play');
+  $('#pozbutton > span').removeClass('fa-pause-circle').addClass('fa-play-circle');
 }
 function pozreset() {
   pozstate = 0;
-  $('#pozbutton > span').removeClass('fa-pause').addClass('fa-play');
+  $('#pozbutton > span').removeClass('fa-pause-circle').addClass('fa-play-circle');
 }
 function pozaction() {
   if (pozstate == 0) {
