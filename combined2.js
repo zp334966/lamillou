@@ -1119,6 +1119,7 @@ function pozaction() {
 }
 poz.addEventListener('ended', function(){
   pozreset();
+  pozaction();
 });
 
 
