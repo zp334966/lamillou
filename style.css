@@ -616,7 +616,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
      padding: 9px 9px 9px 9px;
     }
 }
-.fa-play-circle {
+.fa-play-circle, .fa-pause-circle {
     color: #16407D;
     background: white;
     line-height: 40px;
