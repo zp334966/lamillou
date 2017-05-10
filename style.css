@@ -722,9 +722,6 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     position: relative;
     bottom: 1px;
 }
-.btn-lam-link-blue img {
-    content: url('https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/arrow_left.svg');
-}
 .btn img.arrow {
     height: initial;
     width: initial;
