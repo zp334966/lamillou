@@ -10,11 +10,14 @@ p {
 .page {
     padding-top: 13px;
 }
-.container, .container-text {
+.container {
     padding-left: 10px;
     padding-right: 10px;
 }
-
+.container-text {
+    margin: 0;
+    padding: 0;
+}
 .mobile-navi ul li a, .mobile-navi ul li h5 {
     border-bottom: none;
     display: block;
