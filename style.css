@@ -770,6 +770,9 @@ form label {
 div.field_with_errors > input {
     border: 1px solid #f1001d !important;
 }
+div.checkbox.WithErrors > label {
+    color: #f1001d;
+}
 .cms_register.container .new_button.btn.btn-primary, #login_curtain .cms_buttons .submit {
     font-size: 15px !important;
     text-align: center;
