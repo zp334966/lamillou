@@ -767,6 +767,9 @@ form label {
     margin-top: 5px;
     margin-bottom: 5px !important;
 }
+div.field_with_errors > input {
+    border: 1px solid #f1001d !important;
+}
 .cms_register.container .new_button.btn.btn-primary, #login_curtain .cms_buttons .submit {
     font-size: 15px !important;
     text-align: center;
