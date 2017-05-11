@@ -1062,8 +1062,10 @@ function updateCartColor() {
   var cart = parseInt( c, 10);
   if (cart > 0) {
     $('#res-cart span').css("opacity", "1");
+    $('#lm-cart span').css("opacity", "1");
   } else {
     $('#res-cart span').css("opacity", "0.2");
+    $('#lm-cart span').css("opacity", "0.2");
   }        
   return;
 };
