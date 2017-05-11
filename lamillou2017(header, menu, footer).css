@@ -387,6 +387,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     -webkit-transform: scale(0.75); /* Chrome, Safari, Opera */
     padding-top: 7px;
 }
+@media (min-width: 730px){
+    .search {
+        background-color: transparent;
+    }    
+}
 @media (min-width: 1025px){
     #desktop-version {
         display: none;   
