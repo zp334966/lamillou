@@ -335,7 +335,7 @@ div.page-heading.center, div.page-heading {
     padding-left: 4.5px;
     padding-right: 4.5px;
 }
-.item .title{
+.container-products .item .title, .product-extra .item .title {
     font-family: 'Open Sans';
     font-size: 13px;
     color: #16407D;
@@ -349,7 +349,7 @@ div.page-heading.center, div.page-heading {
     white-space: nowrap;
     text-overflow: ellipsis;
 }
-.item .subtitle{
+.container-products .item .subtitle, .product-extra .item .subtitle {
     opacity: 0.8;
     font-family: 'Open Sans';
     font-size: 11px;
