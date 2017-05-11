@@ -740,7 +740,20 @@ form label {
     letter-spacing: 0;
     line-height: 20px;
 }
-
+.cms_register.container .new_button.btn.btn-primary {
+    font-size: 15px !important;
+    text-align: center;
+    text-transform: uppercase;  
+    width: 240px;
+    letter-spacing: 0.47px;
+    line-height: 20px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    padding-top: 14px !important;
+    padding-bottom: 16px !important;
+    color: white;
+    background-color: #16407d;
+}
 .advertisement {
     height: 51px;
     padding-top: 19px;
