@@ -702,7 +702,7 @@ section.catalog-grid {
     width: 173px;
     float: right;
 }
-.cms_register {
+.page>.container.cms_register {
     margin-top: 0px!important;
     border-top: 1px solid #D0D9E5;
     padding-top: 19px;
@@ -714,7 +714,7 @@ section.catalog-grid {
     color: #16407D;
     letter-spacing: 0.38px;
     line-height: 18px;
-    padding: 16px 0px 16px 0px;
+    padding: 16px 0px 8px 0px;
     text-align: left;
     margin-bottom: 0px;
 }
@@ -729,6 +729,16 @@ form label {
     border: 1px solid #D0D9E5;
     height: 42px;
     color: #243C5E;
+}
+#new_user label {
+    margin-top: 10px;
+}
+.form_accept_checks {
+    font-family: 'Open Sans';
+    font-size: 13px;
+    color: #16407D;
+    letter-spacing: 0;
+    line-height: 20px;
 }
 
 .advertisement {
