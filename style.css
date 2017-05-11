@@ -1096,7 +1096,7 @@ section.catalog-grid {
 .category-node .img-overlay .btn {
     margin-bottom: 9px !important;
 }
-.product-extra {
+.col-sm-2.product-extra {
     height: 208px;
 }
 .product-extra .item {
