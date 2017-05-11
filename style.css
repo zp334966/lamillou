@@ -755,6 +755,11 @@ form label {
 #login_curtain input.text {
     width: 100% !important;
 }
+.errorExplanation {
+    font-family: 'Open Sans';
+    font-size: 13px;
+    color: #16407D;    
+}
 .cms_register.container .new_button.btn.btn-primary, #login_curtain .cms_buttons .submit {
     font-size: 15px !important;
     text-align: center;
