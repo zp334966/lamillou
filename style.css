@@ -800,7 +800,6 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     margin-bottom: 4px;
     overflow: hidden;
     white-space: nowrap;
-    width: 100%;
     text-overflow: ellipsis;
 }
 .item .subtitle{
