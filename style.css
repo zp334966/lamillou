@@ -768,6 +768,11 @@ form label {
     padding-bottom: 16px !important;
     color: white;
     background-color: #16407d;
+    margin: 0px !important;
+}
+.cms_register.container .cms_buttons.row {
+    margin-bottom: 40px;
+    padding: 0px;
 }
 .advertisement {
     height: 51px;
