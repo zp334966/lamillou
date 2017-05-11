@@ -728,7 +728,7 @@ form label {
     letter-spacing: 0;
     padding: 5px 0px 5px 0px;
 }
-.form-control {
+.form-control, #login_curtain #password {
     border: 1px solid #D0D9E5;
     height: 42px;
     color: #243C5E;
@@ -746,7 +746,16 @@ form label {
 .form_accept_checks a {
     text-decoration: underline;
 }
-.cms_register.container .new_button.btn.btn-primary {
+.specialty-page {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+}
+#login_curtain input.text {
+    width: 100% !important;
+}
+.cms_register.container .new_button.btn.btn-primary, #login_curtain .cms_buttons .submit {
     font-size: 15px !important;
     text-align: center;
     text-transform: uppercase;  
