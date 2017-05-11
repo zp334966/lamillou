@@ -755,7 +755,7 @@ form label {
 #login_curtain input.text {
     width: 100% !important;
 }
-.errorExplanation {
+.errorExplanation p, .errorExplanation li {
     font-family: 'Open Sans';
     font-size: 13px;
     color: #16407D;    
