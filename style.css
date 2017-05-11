@@ -1096,12 +1096,14 @@ section.catalog-grid {
 .category-node .img-overlay .btn {
     margin-bottom: 9px !important;
 }
+.product-extra {
+    height: 208px;
+}
 .product-extra .item {
     position: absolute;
     top: -20px;
     width: 100%;
-    padding: 0 0 0 0;
-    
+    padding: 0 0 0 0;    
 }
 .product-extra .category-icon {
     position: absolute;
