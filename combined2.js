@@ -391,6 +391,7 @@ $('.back-search').on('click', function(e) {
       $(this).css("height", h);
     });
   }
+  setMobileNaviHeight();
   $(document).ready (setMobileNaviHeight);
   $( window ).resize (setMobileNaviHeight);  	
 	
