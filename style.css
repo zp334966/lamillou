@@ -4,6 +4,9 @@ body {
 p {
     font-size: 13px;
 }
+a:focus, a:hover {
+    color: unset;
+}
 .fa a:hover, .fa a:focus {
     background-color: #16407d !important;
 }
@@ -739,6 +742,9 @@ form label {
     color: #16407D;
     letter-spacing: 0;
     line-height: 20px;
+}
+.form_accept_checks a {
+    text-decoration: underline;
 }
 .cms_register.container .new_button.btn.btn-primary {
     font-size: 15px !important;
