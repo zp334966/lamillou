@@ -779,7 +779,8 @@ div.field_with_errors > input {
 div.checkbox.WithErrors > label {
     color: #f1001d;
 }
-.cms_register.container .new_button.btn.btn-primary, #login_curtain .cms_buttons .submit {
+.cms_register.container .new_button.btn.btn-primary, #login_curtain .cms_buttons .submit,
+.restore_password .submit {
     font-size: 15px !important;
     text-align: center;
     text-transform: uppercase;  
@@ -817,6 +818,9 @@ div.checkbox.WithErrors > label {
     font-size: 13px;
     color: #B6C3D4;
     letter-spacing: 0;
+}
+#new_password_container #password, #new_password_container #password_confirmation, .restore_password #login {
+    width: 100% !important;
 }
 .separate-buttons {
     font-family: 'Open Sans';
