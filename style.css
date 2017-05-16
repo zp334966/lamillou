@@ -805,6 +805,7 @@ div.checkbox.WithErrors > label {
 }
 #login_curtain .login_bottom span.sign-up {
     padding: 0px;
+    margin-bottom: 30px;
 }
 .login_bottom div.forgot {
     text-align: left;
