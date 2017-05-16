@@ -51,7 +51,7 @@ $(document).ready(function(){
     $('.restore_password input.submit.btn')[0].nextSibling.remove();
     $('.restore_password input.submit.btn')[0].nextSibling.remove();
     $('.restore_password input.submit.btn').after("<p class='cancel'>Lub kliknij <a href='/login'>anuluj.</a></p>");
-          
+    $('.restore_password .header h2').after("<p class='help'>Podaj adres e-mail użyty podczas zakładania konta.</p>");     
 
 
 });
