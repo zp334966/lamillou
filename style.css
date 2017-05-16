@@ -707,7 +707,7 @@ section.catalog-grid {
     width: 173px;
     float: right;
 }
-.page>.container.cms_register, #login_curtain.specialty-page, .container.restore_password {
+.page>.container.cms_register, #login_curtain.specialty-page, .container.restore_password, #thank_you_for_ordering {
     margin-top: 0px!important;
     border-top: 1px solid #D0D9E5;
     padding-top: 19px;
