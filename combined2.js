@@ -1073,7 +1073,7 @@ function updateCartColor() {
 
 
 /*Pagination
-*************************************************/
+*************************************************/ /*
 $(document).ready(function(){
   $('.pagination a').each(function() {
     var t = $(this).html();
@@ -1085,7 +1085,7 @@ $(document).ready(function(){
     }              
   });  			
 });
-
+*/
 
 /*Placeholder
 *************************************************/
