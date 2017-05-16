@@ -751,11 +751,14 @@ form label {
 .container.restore_password .cms_buttons .col-sm-6 {
     text-align: center;
 }
-.restore_password .cancel, .restore_password .help {
+.restore_password .cancel, .restore_password .help, .restore_password .col-sm-6 {
     font-family: 'Open Sans';
     font-size: 13px;
     color: #B6C3D4;
     letter-spacing: 0;
+}
+.restore_password .help {
+    margin: 14px 0px 0px 0px;
 }
 .restore_password .cancel {
     margin: 22px 0px 0px 0px;  
