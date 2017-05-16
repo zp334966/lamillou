@@ -22,7 +22,9 @@ a:focus, a:hover {
     padding-top: 0;
     padding-bottom: 0;
 }
-
+.page>.container {
+    padding-top: 0px;
+}
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: #9AA1AC;
 }
