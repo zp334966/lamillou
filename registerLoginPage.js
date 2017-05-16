@@ -21,7 +21,7 @@ $(document).ready(function(){
     }); 
     
     $('.login_bottom .forgot').each(function() {      
-      $('.login_bottom .cms_buttons').before("<a class='forgot' href='/user/forgot_password'>Zapomniałeś hasła?</a>");
+      $('.login_bottom .cms_buttons').before("<div class='forgot'><a class='forgot' href='/user/forgot_password'>Zapomniałeś hasła?</a></div>");
       $(this).remove();
     });
       
