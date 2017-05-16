@@ -1008,8 +1008,8 @@ function properTitle(word) {
   if (l > d) {return true; }
   else {return false;}
 };
-/*
-$(document).ready(function(){
+/*slider nie dzialal wtedy
+$(document).ready(function(){ */
 	$('.product-extra .info h3 a').each(function() {
 	  var full_name = $(this).text();
 	  var names = productNames( full_name );    
@@ -1047,8 +1047,8 @@ $(document).ready(function(){
 	  }
 	  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>'); 
 	});
-});
-*/
+/*});*/
+
 /*Unavaible products label
 *************************************************/ 
 $(document).ready(function(){
