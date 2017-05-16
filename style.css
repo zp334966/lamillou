@@ -492,7 +492,7 @@ section.catalog-grid {
     font-size: 11px;
     letter-spacing: 0;
     line-height: 15px;
-    max-width: 187px;
+    max-width: 100%;
     color: #16407D;
 }
 .product_title {
