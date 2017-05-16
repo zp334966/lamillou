@@ -29,7 +29,7 @@ $(document).ready(function(){
     });   
     
     $(function(){
-		  $('#login').focus();
+      $('#login').focus();
     });
 
     $('.login_bottom .form-group label').each(function() {      
