@@ -748,6 +748,16 @@ form label {
 .container.restore_password .cms_buttons .col-sm-6 {
     text-align: center;
 }
+.restore_password .cancel {
+    font-family: 'Open Sans';
+    font-size: 13px;
+    color: #B6C3D4;
+    letter-spacing: 0;
+    margin: 22px 0px 0px 0px;
+}
+.restore_password .cancel a {
+    text-decoration: underline;
+}
 .form_accept_checks {
     font-family: 'Open Sans';
     font-size: 13px;
