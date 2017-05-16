@@ -794,6 +794,11 @@ div.checkbox.WithErrors > label {
     margin-bottom: 40px;
     padding: 0px;
 }
+#login_curtain .login_bottom a.forgot, #login_curtain .login_bottom span.sign-up {
+    text-transform: none;
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
 .advertisement {
     height: 51px;
     padding-top: 19px;
