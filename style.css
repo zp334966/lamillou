@@ -805,6 +805,9 @@ form input[type=submit]:focus, form input[type=submit]:hover {
     color: white !important;
     background-color: #16407d;
 }
+#thank_you_for_ordering .buttons.panel a:focus, #order_last_step .buttons.panel a:focus, #shop_order_form .buttons.panel a:focus, #thank_you_for_ordering .buttons.panel a:hover, #order_last_step .buttons.panel a:hover, #shop_order_form .buttons.panel a:hover {
+    background-color: #16407d;
+}
 .cms_register.container .cms_buttons.row {
     margin-bottom: 40px;
     padding: 0px;
