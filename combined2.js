@@ -1050,17 +1050,17 @@ $(document).ready(function(){
 });
 */
 /*Unavaible products label
-*************************************************/ /*
+*************************************************/ 
 $(document).ready(function(){
   $('.unavaible-products div').each(function() {
     if (! $( '.unavaible-products a' ).length ){
       $('.unavaible-products').css( "display", "none" );
     }
   });
-});*/
+})
 
 /*Cart Color
-*************************************************/ /*
+*************************************************/ 
 function updateCartColor() {
   var c = $('span.shop_cart_simple').text();
   var cart = parseInt( c, 10);
@@ -1072,11 +1072,11 @@ function updateCartColor() {
     $('#lm-cart span').css("opacity", "0.2");
   }        
   return;
-};*/
+};
 
 
 /*Pagination
-*************************************************/ /*
+*************************************************/ 
 $(document).ready(function(){
   $('.pagination a').each(function() {
     var t = $(this).html();
@@ -1088,19 +1088,19 @@ $(document).ready(function(){
     }              
   });  			
 });
-*/
+
 
 /*Placeholder
-*************************************************/ /*
+*************************************************/ 
 function putPlaceholder(a) {
   a.src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/placeholder.svg'; 
   a.style.width='47%';
 };
-*/
+
 
 /*Pozytywka
 *************************************************/
-/*
+
 var poz = document.getElementById("pozytywka");
 var pozstate = 0;
 function pozplay() {
@@ -1128,4 +1128,4 @@ poz.addEventListener('ended', function(){
   pozreset();
   pozaction();
 });
-*/
+
