@@ -19,9 +19,10 @@ $(document).ready(function(){
         $(this).val("Zaloguj się");   
       }     
     }); 
-
+    
     $('.login_bottom .forgot').each(function() {      
-      $(this).text("Zapomniałeś hasła?"); 
+      $('.login_bottom .cms_buttons').before("<a class='forgot' href='/user/forgot_password'>Zapomniałeś hasła?</a>");
+      $(this).remove();
     });
       
     $('.login_bottom .sign-up').each(function() {      
@@ -39,7 +40,7 @@ $(document).ready(function(){
     $('.login_bottom .form-group input').each(function() {      
       $(this).attr("placeholder", "");
     });
-
+    $('.login_bottom .cms_buttons').after("<p class='separate-buttons'>LUB</p>");
 
 
 });
