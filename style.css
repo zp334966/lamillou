@@ -745,6 +745,9 @@ form label {
 .container.restore_password .col-sm-6 {
     text-align: left;
 }
+.container.restore_password .cms_buttons .col-sm-6 {
+    text-align: center;
+}
 .form_accept_checks {
     font-family: 'Open Sans';
     font-size: 13px;
