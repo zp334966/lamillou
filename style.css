@@ -806,6 +806,14 @@ div.checkbox.WithErrors > label {
 #login_curtain .login_bottom span.sign-up {
     padding: 0px;
 }
+.separate-buttons {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 13px;
+    color: #D0D9E5;
+    letter-spacing: 0.51px;
+    margin: 7px 0px 15px 0px;
+}
 .advertisement {
     height: 51px;
     padding-top: 19px;
