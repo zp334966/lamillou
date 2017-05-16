@@ -758,7 +758,8 @@ form label {
     letter-spacing: 0;
 }
 .restore_password .help {
-    margin: 14px 0px 0px 0px;
+    margin-top: 14px;
+    margin-bottom: 2px;
 }
 .restore_password .cancel {
     margin: 22px 0px 0px 0px;  
