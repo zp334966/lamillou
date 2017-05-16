@@ -798,18 +798,6 @@ div.errorExplanation {
     padding-top: 14px;
     padding-bottom: 3px;
 }
-.errorExplanation p, .errorExplanation li {
-    font-family: 'Open Sans';
-    font-size: 13px;
-    color: #16407D;    
-}
-.errorExplanation ul {
-    margin-bottom: 0px;
-}
-.errorExplanation p {
-    margin-top: 5px;
-    margin-bottom: 5px !important;
-}
 div.field_with_errors > input {
     border: 1px solid #f1001d !important;
 }
