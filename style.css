@@ -737,6 +737,7 @@ form label {
 }
 .form-group {
     text-align: left;
+    margin-bottom: 0px;
 }
 #new_user label {
     margin-top: 10px;
