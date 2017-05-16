@@ -707,7 +707,7 @@ section.catalog-grid {
     width: 173px;
     float: right;
 }
-.page>.container.cms_register {
+.page>.container.cms_register, #login_curtain.specialty-page {
     margin-top: 0px!important;
     border-top: 1px solid #D0D9E5;
     padding-top: 19px;
@@ -734,6 +734,9 @@ form label {
     border: 1px solid #D0D9E5;
     height: 42px;
     color: #243C5E;
+}
+.form-group {
+    text-align: left;
 }
 #new_user label {
     margin-top: 10px;
@@ -798,6 +801,9 @@ div.checkbox.WithErrors > label {
     text-transform: none;
     font-family: 'Open Sans';
     font-weight: 400;
+}
+#login_curtain .login_bottom span.sign-up {
+    padding: 0px;
 }
 .advertisement {
     height: 51px;
