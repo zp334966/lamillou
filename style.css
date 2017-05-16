@@ -806,6 +806,17 @@ div.checkbox.WithErrors > label {
 #login_curtain .login_bottom span.sign-up {
     padding: 0px;
 }
+.login_bottom div.forgot {
+    text-align: left;
+    padding-top: 11px;
+    padding-bottom: 2px;
+}
+.login_bottom .forgot a {
+    font-family: 'Open Sans';
+    font-size: 13px;
+    color: #B6C3D4;
+    letter-spacing: 0;
+}
 .separate-buttons {
     font-family: 'Open Sans';
     font-weight: 700;
