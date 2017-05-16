@@ -1008,7 +1008,7 @@ function properTitle(word) {
   if (l > d) {return true; }
   else {return false;}
 };
-
+/*
 $(document).ready(function(){
 	$('.product-extra .info h3 a').each(function() {
 	  var full_name = $(this).text();
@@ -1048,7 +1048,7 @@ $(document).ready(function(){
 	  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>'); 
 	});
 });
-
+*/
 /*Unavaible products label
 *************************************************/ /*
 $(document).ready(function(){
@@ -1091,12 +1091,12 @@ $(document).ready(function(){
 */
 
 /*Placeholder
-*************************************************/
+*************************************************/ /*
 function putPlaceholder(a) {
   a.src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/placeholder.svg'; 
   a.style.width='47%';
 };
-
+*/
 
 /*Pozytywka
 *************************************************/
