@@ -47,6 +47,7 @@ $(document).ready(function(){
         $(this).text("Email");   
       }  
     });
+    $('.restore_password input.submit.btn').attr("value", "Prześlij");
 
 
 });
