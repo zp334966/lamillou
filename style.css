@@ -801,6 +801,10 @@ div.checkbox.WithErrors > label {
     background-color: #16407d;
     margin: 0px !important;
 }
+form input[type=submit]:focus, form input[type=submit]:hover {
+    color: white !important;
+    background-color: #16407d;
+}
 .cms_register.container .cms_buttons.row {
     margin-bottom: 40px;
     padding: 0px;
