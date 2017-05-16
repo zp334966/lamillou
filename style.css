@@ -723,6 +723,9 @@ section.catalog-grid {
     text-align: left;
     margin-bottom: 0px;
 }
+.cms_buttons a:focus, .cms_buttons a:hover {
+    color: unset;
+}
 form label {
     font-family: 'Open Sans';
     font-size: 13px;
@@ -756,6 +759,7 @@ form label {
     margin: 22px 0px 0px 0px;
 }
 .restore_password .cancel a {
+    color: #B6C3D4;    
     text-decoration: underline;
 }
 .form_accept_checks {
