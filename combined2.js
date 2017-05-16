@@ -1097,6 +1097,7 @@ function putPlaceholder(a) {
 
 /*Pozytywka
 *************************************************/
+/*
 var poz = document.getElementById("pozytywka");
 var pozstate = 0;
 function pozplay() {
@@ -1124,7 +1125,7 @@ poz.addEventListener('ended', function(){
   pozreset();
   pozaction();
 });
-
+*/
 
 
 /************** instasive *********/
