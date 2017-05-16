@@ -767,6 +767,17 @@ form label {
 #login_curtain input.text {
     width: 100% !important;
 }
+div.errorExplanation {
+    font-family: 'Open Sans';
+    font-size: 13px;
+    color: #B6C3D4;
+    letter-spacing: 0;
+    line-height: 20px;
+    font-weight: 400;
+    text-align: left;
+    padding-top: 14px;
+    padding-bottom: 3px;
+}
 .errorExplanation p, .errorExplanation li {
     font-family: 'Open Sans';
     font-size: 13px;
