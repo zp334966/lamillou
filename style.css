@@ -759,7 +759,7 @@ form label {
 }
 .restore_password .help {
     margin-top: 14px;
-    margin-bottom: 2px;
+    margin-bottom: 2px !important;
 }
 .restore_password .cancel {
     margin: 22px 0px 0px 0px;  
