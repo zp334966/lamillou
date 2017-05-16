@@ -41,6 +41,12 @@ $(document).ready(function(){
       $(this).attr("placeholder", "");
     });
     $('.login_bottom .cms_buttons').after("<p class='separate-buttons'>LUB</p>");
+    
+    $('.restore_password label').each(function() {      
+      if ($(this).text() === "Podaj e-mail lub login" ){
+        $(this).text("Email");   
+      }  
+    });
 
 
 });
