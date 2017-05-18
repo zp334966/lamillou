@@ -727,12 +727,25 @@ section.catalog-grid {
     text-align: left;
     margin-bottom: 0px;
 }
+#thank_you_for_ordering h3 {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: #16407D;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+#thank_you_for_ordering h3 b {
+    font-weight: 600;
+}
 #thank_you_for_ordering h4 {
     font-family: 'Open Sans';
     font-size: 14px;
     color: #16407D;
     letter-spacing: 0.35px;
     line-height: 20px;
+}
+#thank_you_for_ordering .dark-blue {
+    color: #243C5E;    
 }
 .cms_buttons a:focus, .cms_buttons a:hover {
     color: unset;
