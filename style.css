@@ -738,7 +738,9 @@ section.catalog-grid {
     line-height: 20px;
     margin-bottom: 0px;
 }
-
+#thank_you_for_ordering h3 b {
+    font-weight: 600;    
+}
 #thank_you_for_ordering h4 {
     font-family: 'Open Sans';
     font-size: 14px;
