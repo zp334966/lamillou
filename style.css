@@ -296,16 +296,20 @@ div.page-heading.center, div.page-heading {
 }
 .footer-subscribe-widget.light-version.notify_prod {
     background-color: #fff !important;
+    text-align: center;
 }
 .footer-subscribe-widget.light-version.notify_prod p {
     font-size: 16px;
     color: #16407D !important;
     letter-spacing: 0;
+    font-weight: 600;
 }
 .footer-subscribe-widget input#notif_email {
     border: 1px solid #D0D9E5 !important;
     height: 42px;
     color: #243C5E !important;
+    width: 240px;
+    border-radius: 5px;
 }
 .gallery-grid.masonry .item2 {
     position: relative;
