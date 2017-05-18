@@ -791,12 +791,17 @@ section.catalog-grid {
 }
 #shop_order_payment .totals_summary .table-row {
     color: #243C5E;
+    font-size: 14px;
+    letter-spacing: 0.35px;
+}
+#shop_order_payment .totals_summary .table-row .nowrap{
+    font-weight: 600;
 }
 #shop_order_payment .table-cell strong {
     font-size: 16px;
     color: #16407D;
     letter-spacing: 0.4px;
-    border-top: 1px solid #D0D9E5;
+//    border-top: 1px solid #D0D9E5;
 }
 #shop_order_payment .space-top {
     margin-top: 0px;   
