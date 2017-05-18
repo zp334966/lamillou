@@ -712,7 +712,11 @@ section.catalog-grid {
     border-top: 1px solid #D0D9E5;
     padding-top: 19px;
 }
-.cms_register.container h3, .restore_password h2, #login_curtain h1, #new_password_container h2 {
+#thank_you_for_ordering {
+    text-align: left;   
+}
+.cms_register.container h3, .restore_password h2, #login_curtain h1, #new_password_container h2, 
+#thank_you_for_ordering h2 {
     font-family: 'Open Sans';
     font-weight: 700;
     font-size: 15px;
@@ -722,6 +726,13 @@ section.catalog-grid {
     padding: 16px 0px 8px 0px;
     text-align: left;
     margin-bottom: 0px;
+}
+#thank_you_for_ordering h4 {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: #16407D;
+    letter-spacing: 0.35px;
+    line-height: 20px;
 }
 .cms_buttons a:focus, .cms_buttons a:hover {
     color: unset;
