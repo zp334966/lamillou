@@ -84,9 +84,6 @@ a:focus, a:hover {
     margin-left: 8px;
     padding-bottom: 6px;
 }
-.bolder {
-    font-weight: 600!important;
-}
 .page-block .mobile-navi .packing-info {
     margin-left: 2px;
 }
@@ -733,6 +730,9 @@ section.catalog-grid {
 #thank_you_for_ordering h2{
     padding-bottom: 3px;    
 }
+#thank_you_for_ordering #order-number h2 {
+    padding-top: 0px;
+}
 #thank_you_for_ordering h3 {
     font-family: 'Open Sans';
     font-size: 14px;
@@ -753,6 +753,10 @@ section.catalog-grid {
 }
 #thank_you_for_ordering .dark-blue {
     color: #243C5E;    
+}
+
+#thank_you_for_ordering .bolder {
+    font-weight: 700!important;
 }
 .cms_buttons a:focus, .cms_buttons a:hover {
     color: unset;
