@@ -84,6 +84,9 @@ a:focus, a:hover {
     margin-left: 8px;
     padding-bottom: 6px;
 }
+.bolder {
+    font-weight: 600!important;
+}
 .page-block .mobile-navi .packing-info {
     margin-left: 2px;
 }
