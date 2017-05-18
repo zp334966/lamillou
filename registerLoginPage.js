@@ -1,22 +1,28 @@
-$(document).ready(function(){
-    $('.cms_register .cms_buttons input').each(function() {      
-      if ($(this).val() === "Zarejestruj się" ){
-        $(this).val("Stwórz konto");   
-      }     
-    }); 
-    $('.cms_register h3').each(function() {      
-      if ($(this).text() === "Rejestracja" ){
-        $(this).text("Stwórz konto");              
-      }     
-    });  
-    $('.cms_register .cms_buttons input').each(function() {      
-      $(this)[0].nextSibling.remove();
-      $(this)[0].nextSibling.remove();
-    }); 
-            
+/**** Funkcje zmieniajace pliki html ***/
 
+function cmsRegister () {
+  if ( $( ".cms_register" ).length ) { 
+    $(document).ready(function(){
+        $('.cms_register .cms_buttons input').each(function() {      
+          if ($(this).val() === "Zarejestruj się" ){
+            $(this).val("Stwórz konto");   
+          }     
+        }); 
+        $('.cms_register h3').each(function() {      
+          if ($(this).text() === "Rejestracja" ){
+            $(this).text("Stwórz konto");              
+          }     
+        });  
+        $('.cms_register .cms_buttons input').each(function() {      
+          $(this)[0].nextSibling.remove();
+          $(this)[0].nextSibling.remove();
+        });     
+    });
+  }    
+  return;
+};
+cmsRegister ();
 
-});
 
 function loginBottom () {
   if ( $( ".login_bottom" ).length ) { 
