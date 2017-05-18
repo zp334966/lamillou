@@ -789,7 +789,7 @@ section.catalog-grid {
 #shop_order_payment .totals_summary {
     border:none;    
 }
-#shop_order_payment .totals_summary .table-row {
+#shop_order_payment .totals_summary .table-row p {
     color: #243C5E;
     font-size: 14px;
     letter-spacing: 0.35px;
