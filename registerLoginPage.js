@@ -41,20 +41,27 @@ $(document).ready(function(){
       $(this).attr("placeholder", "");
     });
     $('.login_bottom .cms_buttons').after("<p class='separate-buttons'>LUB</p>");
-    
-    $('.restore_password label').each(function() {      
-      if ($(this).text() === "Podaj e-mail lub login" ){
-        $(this).text("Email");   
-      }  
-    });
-    $('.restore_password input.submit.btn').attr("value", "Prześlij");
-    $('.restore_password input.submit.btn')[0].nextSibling.remove();
-    $('.restore_password input.submit.btn')[0].nextSibling.remove();
-    $('.restore_password input.submit.btn').after("<p class='cancel'>Lub kliknij <a href='/login'>anuluj.</a></p>");
-    $('.restore_password .header h2').after("<p class='help'>Podaj adres e-mail użyty podczas zakładania konta.</p>");  
-    
 
 });
+
+function restorePassword () {
+  if ( $( ".restore_password" ).length ) { 
+    $(document).ready(function(){
+        $('.restore_password label').each(function() {      
+          if ($(this).text() === "Podaj e-mail lub login" ){
+            $(this).text("Email");   
+          }  
+        });
+        $('.restore_password input.submit.btn').attr("value", "Prześlij");
+        $('.restore_password input.submit.btn')[0].nextSibling.remove();
+        $('.restore_password input.submit.btn')[0].nextSibling.remove();
+        $('.restore_password input.submit.btn').after("<p class='cancel'>Lub kliknij <a href='/login'>anuluj.</a></p>");
+        $('.restore_password .header h2').after("<p class='help'>Podaj adres e-mail użyty podczas zakładania konta.</p>");     
+    });
+  }    
+  return;
+};
+restorePassword ();
 
 function thankForOrder () {
   if ( $( "#thank_you_for_ordering" ).length ) { 
