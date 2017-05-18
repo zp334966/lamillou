@@ -751,10 +751,15 @@ section.catalog-grid {
     letter-spacing: 0.35px;
     line-height: 20px;
 }
+#thank_you_for_ordering #order-number {
+    margin-bottom: 28px;
+}
 #thank_you_for_ordering .dark-blue {
     color: #243C5E;    
 }
-
+#thank_you_for_ordering .panel {
+    margin-bottom: 0px;   
+}
 #thank_you_for_ordering .bolder {
     font-weight: 700!important;
 }
@@ -772,16 +777,27 @@ section.catalog-grid {
     text-transform: uppercase;    
 }
 #shop_order_payment h4 {
-    color: #243C5E;
-    font-size: 14px;
+    color: #16407D;
+    font-size: 15px;
     line-height: 28px;
     font-weight: 700;
+    letter-spacing: 0.38px;
     padding-bottom: 10px;  
     text-transform: uppercase;
     text-align: left;
 }
 #shop_order_payment .totals_summary {
     border:none;
+    color: #243C5E;
+}
+#shop_order_payment .table-cell strong {
+    font-size: 16px;
+    color: #16407D;
+    letter-spacing: 0.4px;
+    border-top: 1px solid #D0D9E5;
+}
+#shop_order_payment .space-top {
+    margin-top: 0px;   
 }
 .cms_buttons a:focus, .cms_buttons a:hover {
     color: unset;
