@@ -14,35 +14,46 @@ $(document).ready(function(){
       $(this)[0].nextSibling.remove();
     }); 
             
-    $('.login_bottom .cms_buttons input').each(function() {      
-      if ($(this).val() === "Zaloguj" ){
-        $(this).val("Zaloguj się");   
-      }     
-    }); 
-    
-    $('.login_bottom .forgot').each(function() {      
-      $('.login_bottom .cms_buttons').before("<div class='forgot'><a class='forgot' href='/user/forgot_password'>Zapomniałeś hasła?</a></div>");
-      $(this).remove();
-    });
-      
-    $('.login_bottom .sign-up').each(function() {      
-      $(this).html("<a href='/signup' class='btn btn-lam btn-lam-dark-blue'>Stwórz konto</a><div class='note'></div>");    
-    });   
-    
-    $(function(){
-      $('#login').focus();
-    });
 
-    $('.login_bottom .form-group label').each(function() {      
-      $(this).removeClass( "sr-only" ).addClass( "form-label" );
-    });
-
-    $('.login_bottom .form-group input').each(function() {      
-      $(this).attr("placeholder", "");
-    });
-    $('.login_bottom .cms_buttons').after("<p class='separate-buttons'>LUB</p>");
 
 });
+
+function loginBottom () {
+  if ( $( ".login_bottom" ).length ) { 
+    $(document).ready(function(){
+        $('.login_bottom .cms_buttons input').each(function() {      
+          if ($(this).val() === "Zaloguj" ){
+            $(this).val("Zaloguj się");   
+          }     
+        }); 
+
+        $('.login_bottom .forgot').each(function() {      
+          $('.login_bottom .cms_buttons').before("<div class='forgot'><a class='forgot' href='/user/forgot_password'>Zapomniałeś hasła?</a></div>");
+          $(this).remove();
+        });
+
+        $('.login_bottom .sign-up').each(function() {      
+          $(this).html("<a href='/signup' class='btn btn-lam btn-lam-dark-blue'>Stwórz konto</a><div class='note'></div>");    
+        });   
+
+        $(function(){
+          $('#login').focus();
+        });
+
+        $('.login_bottom .form-group label').each(function() {      
+          $(this).removeClass( "sr-only" ).addClass( "form-label" );
+        });
+
+        $('.login_bottom .form-group input').each(function() {      
+          $(this).attr("placeholder", "");
+        });
+        $('.login_bottom .cms_buttons').after("<p class='separate-buttons'>LUB</p>");     
+    });
+  }    
+  return;
+};
+loginBottom ();
+
 
 function restorePassword () {
   if ( $( ".restore_password" ).length ) { 
