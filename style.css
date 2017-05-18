@@ -286,6 +286,27 @@ div.page-heading.center, div.page-heading {
     padding-right: 14px !important;
     margin-right: 13px!important;
 }
+.btn.availability_not_available {
+    margin: 0 !important;
+    background: #D0D9E5;
+    opacity: 1;
+    border: none;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.footer-subscribe-widget.light-version.notify_prod {
+    background-color: #fff !important;
+}
+.footer-subscribe-widget.light-version.notify_prod p {
+    font-size: 16px;
+    color: #16407D !important;
+    letter-spacing: 0;
+}
+.footer-subscribe-widget input#notif_email {
+    border: 1px solid #D0D9E5 !important;
+    height: 42px;
+    color: #243C5E !important;
+}
 .gallery-grid.masonry .item2 {
     position: relative;
     float: left;
