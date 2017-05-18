@@ -51,8 +51,15 @@ $(document).ready(function(){
     $('.restore_password input.submit.btn')[0].nextSibling.remove();
     $('.restore_password input.submit.btn')[0].nextSibling.remove();
     $('.restore_password input.submit.btn').after("<p class='cancel'>Lub kliknij <a href='/login'>anuluj.</a></p>");
-    $('.restore_password .header h2').after("<p class='help'>Podaj adres e-mail użyty podczas zakładania konta.</p>");     
-
+    $('.restore_password .header h2').after("<p class='help'>Podaj adres e-mail użyty podczas zakładania konta.</p>");  
+    
+    //thank you for ordering
+    $('#thank_you_for_ordering').children()[0].remove();
+    $('#thank_you_for_ordering h2').text("DZIĘKUJEMY,");
+    $('#thank_you_for_ordering h2').after("<h4>Twoja zamówienie zostało przyjęte.<br/>Potwierdzenie zamówienia zostanie wysłane na podany numer telefonu.</h4>");
+    $('#thank_you_for_ordering h4')[1].remove();
+    $('#thank_you_for_ordering h4').after("<h4><br/>Prosimy o wpłatę na podane konto:<br/></h4><h2 class='dark-blue'>PRZELEW KRAJOWY</h2><h3><b class='dark-blue'>Numer rachunku</b></h3><h3 class='dark-blue'>30 1930 1419 2300 0347 6837 0002</h3><h2 class='dark-blue'>PRZELEW ZAGRANICZNY W EURO</h2><h3><b class='dark-blue'>Numer rachunku</b></h3><h3 class='dark-blue'>46 1930 1419 2300 0347 6837 0005</h3><br/><h4>W tytule przelewu prosimy o podanie numeru zamówienia.</h4><br/>");
+  
 
 });
 
