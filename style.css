@@ -758,6 +758,31 @@ section.catalog-grid {
 #thank_you_for_ordering .bolder {
     font-weight: 700!important;
 }
+#shop_order_payment {
+    border: 0;
+    font-family: 'Open Sans';
+    background-color: #F7F7F7;
+    margin: 0;
+    padding: 25px 15px 25px 10px;
+    color: #00457b;
+    text-align: left;
+    text-transform: none;
+    margin-left: -10px;
+    margin-right: -10px;
+    text-transform: uppercase;    
+}
+#shop_order_payment h4 {
+    color: #243C5E;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 700;
+    padding-bottom: 10px;  
+    text-transform: uppercase;
+    text-align: left;
+}
+#shop_order_payment .totals_summary {
+    border:none;
+}
 .cms_buttons a:focus, .cms_buttons a:hover {
     color: unset;
 }
