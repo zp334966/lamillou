@@ -1073,6 +1073,20 @@ form input[type=submit]:focus, form input[type=submit]:hover {
     letter-spacing: 0;
     line-height: 20px;
 }
+#pp_newsletter img {
+    width: 90%;
+}
+#fancybox-close {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: #16407D;
+    content: url(https://cdn.rawgit.com/zp334966/lamillou/eceb78bc/assets/whiteX.svg);
+    padding: 10px;
+    width: 38px;
+    height: 38px;
+    margin: 9px;
+}
 .less-space-top {
     margin-top: -8px;
 }
