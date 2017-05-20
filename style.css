@@ -1055,6 +1055,24 @@ form input[type=submit]:focus, form input[type=submit]:hover {
     width: 100% !important;
     height: 100% !important;
 }
+#pp_newsletter .row {
+    max-width: 100%;
+}
+#pp_newsletter h3 {
+    font-family: Besom;
+    font-size: 36px;
+    color: #16407D;
+    letter-spacing: 0.9px;
+    line-height: 40px;
+    text-align: center;
+}
+#pp_newsletter p {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: #243C5E;
+    letter-spacing: 0;
+    line-height: 20px;
+}
 .less-space-top {
     margin-top: -8px;
 }
