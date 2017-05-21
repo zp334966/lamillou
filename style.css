@@ -1157,6 +1157,13 @@ form input[type=submit]:focus, form input[type=submit]:hover {
     color: #D0D9E5;
     letter-spacing: 0;
 }
+#pp_newsletter .pp_notes small {
+    font-family: 'Open Sans';
+    font-size: 13px;
+    color: #D0D9E5;
+    letter-spacing: 0;
+    line-height: 20px;
+}
 .less-space-top {
     margin-top: -8px;
 }
