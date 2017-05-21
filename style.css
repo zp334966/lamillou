@@ -295,6 +295,10 @@ div.page-heading.center, div.page-heading {
     padding-right: 0px !important;
 }
 .footer-subscribe-widget.light-version.notify_prod {
+    padding-bottom: 0px;
+    padding-top: 4px;
+}
+.footer-subscribe-widget.light-version.notify_prod {
     background-color: #fff !important;
     text-align: center;
 }
@@ -303,13 +307,43 @@ div.page-heading.center, div.page-heading {
     color: #16407D !important;
     letter-spacing: 0;
     font-weight: 600;
+    max-width: 261px;
+    margin: auto;
+    margin-bottom: 11px !important;
 }
 .footer-subscribe-widget input#notif_email {
     border: 1px solid #D0D9E5 !important;
-    height: 42px;
+    height: 50px;
     color: #243C5E !important;
     width: 240px;
     border-radius: 5px;
+    margin: auto;
+}
+.footer-subscribe-widget .btn {
+    background-color: #16407d;
+    padding-top: 14px !important;
+    padding-bottom: 16px !important;
+    margin: 20px 0 33px 0 !important;
+}
+.footer-subscribe-widget input#notif_email::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 14px;
+    color: #D0D9E5;
+    letter-spacing: 0;
+}
+.footer-subscribe-widget input#notif_email::-moz-placeholder { /* Firefox 19+ */
+    font-size: 14px;
+    color: #D0D9E5;
+    letter-spacing: 0;
+}
+.footer-subscribe-widget input#notif_email:-ms-input-placeholder { /* IE 10+ */
+    font-size: 14px;
+    color: #D0D9E5;
+    letter-spacing: 0;
+}
+.footer-subscribe-widget input#notif_email:-moz-placeholder { /* Firefox 18- */
+    font-size: 14px;
+    color: #D0D9E5;
+    letter-spacing: 0;
 }
 .gallery-grid.masonry .item2 {
     position: relative;
