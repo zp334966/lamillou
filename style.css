@@ -1084,6 +1084,7 @@ form input[type=submit]:focus, form input[type=submit]:hover {
     height: 100% !important;
     background: #fff;
     border: 10px solid rgba(22, 64, 125, 0.8);
+    overflow: hidden;
 }
 #fancybox-content {
     width: 100% !important;
@@ -1100,15 +1101,22 @@ form input[type=submit]:focus, form input[type=submit]:hover {
     line-height: 40px;
     text-align: center;
 }
+#pp_newsletter {
+    padding: 2px 20px 5px 20px;
+}
 #pp_newsletter p {
     font-family: 'Open Sans';
     font-size: 14px;
     color: #243C5E;
     letter-spacing: 0;
-    line-height: 20px;
+    line-height: 20px !important;
+    text-align: center;
+    max-width: 240px;
+    margin: auto;
 }
 #pp_newsletter img {
     width: 90%;
+    max-height: 315px;
 }
 #fancybox-close {
     position: absolute;
@@ -1120,6 +1128,34 @@ form input[type=submit]:focus, form input[type=submit]:hover {
     width: 38px;
     height: 38px;
     margin: 9px;
+}
+#pp_newsletter input.text {
+    border: 1px solid #D0D9E5 !important;
+    height: 50px;
+    color: #243C5E !important;
+    width: 240px;
+    border-radius: 5px;
+    margin: auto;
+}
+#pp_newsletter input.text::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 14px;
+    color: #D0D9E5;
+    letter-spacing: 0;
+}
+#pp_newsletter input.text::-moz-placeholder { /* Firefox 19+ */
+    font-size: 14px;
+    color: #D0D9E5;
+    letter-spacing: 0;
+}
+#pp_newsletter input.text:-ms-input-placeholder { /* IE 10+ */
+    font-size: 14px;
+    color: #D0D9E5;
+    letter-spacing: 0;
+}
+#pp_newsletter input.text:-moz-placeholder { /* Firefox 18- */
+    font-size: 14px;
+    color: #D0D9E5;
+    letter-spacing: 0;
 }
 .less-space-top {
     margin-top: -8px;
