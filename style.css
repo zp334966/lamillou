@@ -1100,6 +1100,7 @@ form input[type=submit]:focus, form input[type=submit]:hover {
     letter-spacing: 0.9px;
     line-height: 40px;
     text-align: center;
+    margin-bottom: 0px;
 }
 #pp_newsletter {
     padding: 2px 20px 5px 20px;
@@ -1117,6 +1118,7 @@ form input[type=submit]:focus, form input[type=submit]:hover {
 #pp_newsletter img {
     width: 90%;
     max-height: 315px;
+    margin-bottom: 0px;
 }
 #fancybox-close {
     position: absolute;
@@ -1157,6 +1159,9 @@ form input[type=submit]:focus, form input[type=submit]:hover {
     color: #D0D9E5;
     letter-spacing: 0;
 }
+#pp_newsletter .pp_notes {
+    text-align: center;
+}
 #pp_newsletter .pp_notes small {
     font-family: 'Open Sans';
     font-size: 13px;
@@ -1170,9 +1175,12 @@ form input[type=submit]:focus, form input[type=submit]:hover {
     padding-bottom: 16px !important;
     margin: 20px 0 33px 0 !important;
     font-size: 15px;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     letter-spacing: 0.47px;
     font-weight: 700;
+}
+.cms_newsletter_form {
+    text-align: center;
 }
 .less-space-top {
     margin-top: -8px;
