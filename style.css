@@ -1160,6 +1160,7 @@ form input[type=submit]:focus, form input[type=submit]:hover {
 }
 #pp_newsletter .pp_notes {
     text-align: center;
+    padding-top: 0px;
 }
 #pp_newsletter .pp_notes small {
     font-family: 'Open Sans';
