@@ -1116,7 +1116,6 @@ form input[type=submit]:focus, form input[type=submit]:hover {
     margin: auto;
 }
 #pp_newsletter img {
-    width: 90%;
     max-height: 315px;
     margin-bottom: 0px;
 }
@@ -1168,6 +1167,10 @@ form input[type=submit]:focus, form input[type=submit]:hover {
     color: #D0D9E5;
     letter-spacing: 0;
     line-height: 20px;
+}
+#pp_newsletter .pp_notes a {
+    color: #D0D9E5;
+    text-decoration: underline;
 }
 #pp_newsletter form input[type=submit] {
     background-color: #16407d;
