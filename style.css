@@ -1164,6 +1164,16 @@ form input[type=submit]:focus, form input[type=submit]:hover {
     letter-spacing: 0;
     line-height: 20px;
 }
+#pp_newsletter form input[type=submit] {
+    background-color: #16407d;
+    padding-top: 14px !important;
+    padding-bottom: 16px !important;
+    margin: 20px 0 33px 0 !important;
+    font-size: 15px;
+    color: #FFFFFF;
+    letter-spacing: 0.47px;
+    font-weight: 700;
+}
 .less-space-top {
     margin-top: -8px;
 }
