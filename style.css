@@ -1085,7 +1085,6 @@ form input[type=submit]:focus, form input[type=submit]:hover {
 #fancybox-outer {
     position: absolute;
     width: 100% !important;
-    height: 100% !important;
     background: #fff;
     border: 10px solid rgba(22, 64, 125, 0.8);
     overflow: hidden;
