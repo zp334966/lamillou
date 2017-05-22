@@ -1094,6 +1094,9 @@ form input[type=submit]:focus, form input[type=submit]:hover {
     width: 100% !important;
     height: 100% !important;
 }
+#fancybox-overlay {
+    z-index: -1;
+}
 #pp_newsletter .row {
     max-width: 100%;
 }
