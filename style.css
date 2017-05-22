@@ -231,6 +231,8 @@ div.page-heading.center, div.page-heading {
     background: white;
     line-height: 40px;
     border-radius: 50%;
+    -webkit-border-radius: 50%; 
+    -moz-border-radius: 50%; 
 }
 #pozbutton > span.fa-play, #pozbutton > span.fa-pause {
     padding: 0 0 0 0!important;
@@ -240,6 +242,8 @@ div.page-heading.center, div.page-heading {
     padding: 0 0 0 0!important;
     margin: 0 0 0 0!important;
     border-radius: 50%;
+    -webkit-border-radius: 50%; 
+    -moz-border-radius: 50%; 
     border: none;
 }
 #pozbutton:hover, #pozbutton:active {
