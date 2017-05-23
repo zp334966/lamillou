@@ -544,6 +544,7 @@ section.catalog-grid {
 .catalog-grid .item .thumb {
     padding-bottom: 100%;
     height: 0px;
+    overflow: hidden;
 }
 .product_details.product_right_tab {
     margin-top: -54px;
