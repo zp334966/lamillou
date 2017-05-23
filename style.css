@@ -55,7 +55,7 @@ a:focus, a:hover {
 section.catalog-grid p.not-found {
     width: 198px;
     margin: auto;
-    padding-bottom: 43px;
+    padding-bottom: 43px !important;
     font-size: 13px !important;
 }
 section.catalog-grid .nothing-found {
