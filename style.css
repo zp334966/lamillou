@@ -49,6 +49,9 @@ a:focus, a:hover {
     color: #16407D;
     border: none;
 }
+.category-node > div:first-child {
+    padding-right: 0px;
+}
 
 .page-heading h3>span {
     display: none;    
