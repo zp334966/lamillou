@@ -541,6 +541,10 @@ section.catalog-grid {
     margin-right: 4px;
     max-width: 48px;
 }
+.catalog-grid .item .thumb {
+    padding-bottom: 100%;
+    height: 0px;
+}
 .product_details.product_right_tab {
     margin-top: -54px;
 }
