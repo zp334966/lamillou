@@ -777,6 +777,24 @@ section.catalog-grid {
     width: 173px;
     float: right;
 }
+.pop-up-added-to-cart {
+    width: 273px;
+    height: 140px;
+    float: right;
+}
+.pop-up-added-to-cart h5 {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 15px;
+    color: #16407D;
+    letter-spacing: 0.46px;
+    line-height: 50px;
+    margin: 0;
+}
+.pop-up-added-to-cart img {
+    width: 74px;
+    height: auto;
+}
 .page>.container.cms_register, #login_curtain.specialty-page, .container.restore_password, #thank_you_for_ordering {
     margin-top: 0px!important;
     border-top: 1px solid #D0D9E5;
