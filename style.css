@@ -52,7 +52,15 @@ a:focus, a:hover {
 .category-node > div:first-child {
     padding-right: 0px;
 }
-
+section.catalog-grid p.not-found {
+    width: 198px;
+    margin: auto;
+    padding-bottom: 43px;
+    font-size: 13px !important;
+}
+section.catalog-grid .nothing-found {
+    height: 120px !important;
+}
 .page-heading h3>span {
     display: none;    
 }
