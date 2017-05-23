@@ -1181,7 +1181,7 @@ form input[type=submit]:focus, form input[type=submit]:hover {
     margin-bottom: 0px;
 }
 #pp_newsletter {
-    padding: 2px 20px 25px 20px;
+    padding: 2px 0px 25px 0px;
 }
 #pp_newsletter p {
     font-family: 'Open Sans';
@@ -1194,7 +1194,7 @@ form input[type=submit]:focus, form input[type=submit]:hover {
     margin: auto;
 }
 #pp_newsletter img {
-    height: 315px;
+    max-height: 315px;
     width: auto;
     margin-bottom: 0px;
 }
