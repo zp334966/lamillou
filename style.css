@@ -781,6 +781,8 @@ section.catalog-grid {
     width: 273px;
     height: 140px;
     float: right;
+    border-left: 1px solid #D0D9E5;
+    border-bottom: 1px solid #D0D9E5;
 }
 .pop-up-added-to-cart h5 {
     font-family: 'Open Sans';
