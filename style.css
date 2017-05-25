@@ -1123,7 +1123,22 @@ form input[type=submit]:focus, form input[type=submit]:hover {
 #empty-cart img {
     margin-bottom: 24px;
 }
-#order_last_step {
+#show_my_cart .cart_product_remove_button {
+    position: absolute;
+    left: 0;
+    width: 40px;
+    text-align: left;
+    margin-left: 2px;
+    font-weight: 400;
+    z-index: 1;    
+}
+#show_my_cart h3 {
+    line-height: 45px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: -14px;
+}
+#order_last_step, #show_my_cart {
     border-top: 1px solid #D0D9E5;
 }
 #order_last_step .shipping_information_title {
@@ -1135,7 +1150,13 @@ form input[type=submit]:focus, form input[type=submit]:hover {
 div#shop_order_addresses p.item {
     padding: 0;
 }
-
+#order_last_step .subtitle {
+    font-weight: 400;
+}
+#show_order_products_block .item {
+    padding-left: 0px;
+    padding-right: 0px;
+}
 .advertisement h6 {
     color: white;
     font-family: 'Open Sans';
