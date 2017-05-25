@@ -1176,11 +1176,14 @@ div#shop_order_addresses p.item {
 #shop_order_shipping_form h4 {
     display: inline-block;
 }
-#shop_order_shipping_form label {
+#shop_order_shipping_form #shop_order_show_shipping_address label {
     position: absolute;
     top: 0;
     right: 0;
     margin-top: -10px;
+}
+#shop_order_shipping_form .new_button:hover {
+    background-color: unset;
 }
 #shop_order_shipping_form span.new_button {
     text-transform: capitalize;
