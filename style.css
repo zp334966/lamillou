@@ -1123,6 +1123,9 @@ form input[type=submit]:focus, form input[type=submit]:hover {
 #empty-cart img {
     margin-bottom: 24px;
 }
+#show_my_cart .product_price_tota.nowrap {
+    font-weight: 600;
+}
 div#show_my_cart section.shopping-cart .cart_product_remove_button {
     position: absolute;
     left: 0;
@@ -1131,6 +1134,7 @@ div#show_my_cart section.shopping-cart .cart_product_remove_button {
     margin-left: 2px;
     font-weight: 400;
     z-index: 1;    
+    padding-top: 3px;
 }
 div#show_my_cart div.page-heading h3 {
     line-height: 45px;
@@ -1150,7 +1154,7 @@ div#show_my_cart div.page-heading h3 {
 div#shop_order_addresses p.item {
     padding: 0;
 }
-#order_last_step .subtitle {
+#order_last_step .subtitle, #show_my_cart .subtitle {
     font-weight: 400;
 }
 #show_order_products_block .item {
