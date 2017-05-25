@@ -1142,6 +1142,9 @@ div#show_my_cart div.page-heading h3 {
     padding: 0;
     margin-bottom: -14px;
 }
+div#show_my_cart section#cart-totals, div#order_last_step section#cart-totals {
+    padding: 25px 10px 38px 10px;
+}
 #order_last_step, #show_my_cart {
     border-top: 1px solid #D0D9E5;
 }
