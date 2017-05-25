@@ -1199,6 +1199,9 @@ div#shop_order_addresses p.item {
     margin-right: 0px;
     margin-left: 15px;
 }
+#shop_order_form .buttons.panel {
+   margin-bottom: 38px;    
+}
 .advertisement h6 {
     color: white;
     font-family: 'Open Sans';
