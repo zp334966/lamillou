@@ -1126,6 +1126,16 @@ form input[type=submit]:focus, form input[type=submit]:hover {
 #order_last_step {
     border-top: 1px solid #D0D9E5;
 }
+.shipping_information_title {
+    line-height: 45px;
+    padding-top: 9px;
+    margin: 0;
+    padding-bottom: 0px;
+}
+div#shop_order_addresses p.item {
+    padding: 0;
+}
+
 .advertisement h6 {
     color: white;
     font-family: 'Open Sans';
