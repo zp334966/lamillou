@@ -960,7 +960,7 @@ window.lightwidget||(window.lightwidget=function(){"use strict";var t=[],i=0,n=!
 
 
 /*Pop up add to cart
-*************************************************/
+*************************************************/ /*
 $(document).ready(function(){  
   var inCart;
   $( ".add_to_cart_button .add" ).click(function() {
@@ -977,7 +977,7 @@ $(document).ready(function(){
     }
   });
 });  
-
+*/
 
 /*Name Product
 *************************************************/
