@@ -1032,6 +1032,7 @@ function properTitle(word) {
 
 /*slider nie dzialal wtedy
 $(document).ready(function(){ */
+  if ($( '.product-extra .info h3 a' ).length ){
 	$('.product-extra .info h3 a').each(function() {
 	  var full_name = $(this).text();
 	  var names = productNames( full_name );    
@@ -1040,6 +1041,7 @@ $(document).ready(function(){ */
 	  else { subtitle = add(names.category, names.subtitle); }
 	  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>'); 
 	});
+  };
 	$('.product_details .product_title').each(function() { 
 	  var full_name = $(this).text(); 
 	  var names = productNames( full_name ); 
