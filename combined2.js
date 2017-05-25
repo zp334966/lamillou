@@ -1100,7 +1100,6 @@ function putPlaceholder(a) {
 
 /*Pozytywka
 *************************************************/
-
 var poz = document.getElementById("pozytywka");
 var pozstate = 0;
 function pozplay() {
@@ -1128,4 +1127,24 @@ poz.addEventListener('ended', function(){
   pozreset();
   pozaction();
 });
+
+
+/*Pop up add to cart
+*************************************************/
+$(document).ready(function(){  
+  var inCart;
+  $( ".add_to_cart_button .add" ).click(function() {
+    var c = $('span.shop_cart_simple').text();
+    c = parseInt( c, 10);
+    if (isNaN(inCart)) {
+        $( ".pop-up-added-to-cart" ).show().delay( 5000 ).hide( 400 );
+        inCart = c;
+    } else {
+      if (c > inCart) {
+        $( ".pop-up-added-to-cart" ).show().delay( 5000 ).hide( 400 );
+        inCart = c;
+      }
+    }
+  });
+});  
 
