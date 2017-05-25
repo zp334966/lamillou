@@ -1324,6 +1324,9 @@ div#shop_order_addresses p.item {
     height: 38px;
     margin: 9px;
 }
+#fancybox-close::after {
+    content: url(https://cdn.rawgit.com/zp334966/lamillou/eceb78bc/assets/whiteX.svg);    
+}
 #pp_newsletter input.text {
     border: 1px solid #D0D9E5 !important;
     height: 50px;
