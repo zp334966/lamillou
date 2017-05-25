@@ -1123,7 +1123,7 @@ form input[type=submit]:focus, form input[type=submit]:hover {
 #empty-cart img {
     margin-bottom: 24px;
 }
-#show_my_cart .cart_product_remove_button {
+#show_my_cart .shopping-cart .cart_product_remove_button {
     position: absolute;
     left: 0;
     width: 40px;
@@ -1132,7 +1132,7 @@ form input[type=submit]:focus, form input[type=submit]:hover {
     font-weight: 400;
     z-index: 1;    
 }
-#show_my_cart h3 {
+#show_my_cart .page-heading h3 {
     line-height: 45px;
     margin: 0;
     padding: 0;
