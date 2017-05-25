@@ -1081,6 +1081,7 @@ form input[type=submit]:focus, form input[type=submit]:hover {
     letter-spacing: 0.51px;
     margin: 7px 0px 15px 0px;
 }
+
 .advertisement {
     height: 51px;
     padding-top: 19px;
@@ -1091,7 +1092,32 @@ form input[type=submit]:focus, form input[type=submit]:hover {
     text-align: center;
     line-height: 12px;
 }
-
+#empty-cart .page-heading h3 {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 15px;
+    color: #16407D;
+    letter-spacing: 0.38px;
+    line-height: 50px;
+    text-align: left;
+    margin-bottom: 28px;
+}
+#empty-cart div.page-heading.center, div.page-heading {
+    padding-top: 8px;
+    padding-bottom: 65px;
+}
+#empty-cart .page-heading h5 {
+    font-family: 'Open Sans';
+    font-size: 13px;
+    color: #B8C1CE;
+    letter-spacing: 0;
+    line-height: 20px;
+    width: 241px;
+    margin: auto;
+}
+#empty-cart img {
+    margin-bottom: 24px;
+}
 .advertisement h6 {
     color: white;
     font-family: 'Open Sans';
