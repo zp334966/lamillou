@@ -545,7 +545,9 @@ section.catalog-grid {
     z-index: inherit;
 }
 .catalog-grid .category-icon {
-    padding-bottom: 4px;   
+    text-align: right;
+    top: 0;
+    bottom: auto;  
 }
 .catalog-grid .category-icon>img {
     margin-top: 5px;
