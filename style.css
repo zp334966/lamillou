@@ -649,6 +649,8 @@ section.catalog-grid {
     height: 53px!important;
     margin-top: 12px !important; 
     margin-left: 0px;
+    margin-right: -10px;
+    width: unset;
 }
 .ms-thumbs-cont {
     left: 0px !important;
