@@ -124,6 +124,12 @@ div.jGrowl div.jGrowl-notification div.close {
 	font-weight: 			bold;
 	font-size: 			12px;
 	cursor:				pointer;
+	background: 			#16407D;
+        content: 			url(https://cdn.rawgit.com/zp334966/lamillou/eceb78bc/assets/whiteX.svg);
+        padding: 			10px;
+        width:				38px;
+        height: 			38px;
+        margin: 			0px;
 }
 
 div.jGrowl div.jGrowl-closer {
@@ -135,3 +141,10 @@ div.jGrowl div.jGrowl-closer {
 	font-weight: 			bold;
 	text-align: 			center;
 }
+div.jGrowl div.jGrowl-notification div.close:hover {
+	color: unset;
+        border-color: unset;
+        background-color: unset;
+}
+
+
