@@ -144,6 +144,12 @@ div.jGrowl div.jGrowl-closer {
 	font-weight: 			bold;
 	text-align: 			center;
 }
+
+div.jGrowl div.jGrowl-notification div.close::after {
+	position: 			absolute;
+	right: 				13px;	
+}
+
 div.jGrowl div.jGrowl-notification div.close:hover {
 	color: unset;
         border-color: unset;
