@@ -662,6 +662,7 @@ section.catalog-grid {
 }
 .ms-thumb-frame img {
     margin-left: 0px !important;
+    margin-top: 0px !important;
     height: 100% !important;
     width: unset !important;
 }
