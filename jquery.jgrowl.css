@@ -1,13 +1,13 @@
 
 div.jGrowl {
-	padding: 			10px;
+	padding: 			0px;
 	z-index: 			9999;
 }
 
 html body div.jGrowl div{
-	background: transparent;
-	background-image:none;
-	border: 0;
+	background: 			transparent;
+	background-image:		none;
+	border: 			0;
 	color: 				#fff;
 
 }
@@ -85,20 +85,20 @@ div.center div.jGrowl-notification, div.center div.jGrowl-closer {
 
 div.jGrowl div.jGrowl-notification, div.jGrowl div.jGrowl-closer {
 	background-color: 		#000;
-	color: 					#fff;
-	opacity: 				.85;
-	filter: 				alpha(opacity = 85);
-	zoom: 					1;
-	width: 					235px;
-	padding: 				10px;
+	color: 				#fff;
+	opacity: 			.85;
+	filter: 			alpha(opacity = 85);
+	zoom: 				1;
+	width: 				100%;
+	padding: 			10px;
 	margin-top: 			5px;
-	margin-bottom: 			5px;
-	font-family: 			Tahoma, Arial, Helvetica, sans-serif;
-	font-size: 				12px;
+	margin-bottom: 			0px;
+	font-family: 			'Sans Open';
+	font-size: 			12px;
 	text-align: 			left;
-	display: 				none;
-	-moz-border-radius: 	5px;
-	-webkit-border-radius:	5px;
+	display: 			none;
+	-moz-border-radius: 		5px;
+	-webkit-border-radius:		5px;
 }
 
 div.jGrowl div.jGrowl-notification {
@@ -106,31 +106,31 @@ div.jGrowl div.jGrowl-notification {
 }
 
 div.jGrowl div.jGrowl-notification .message{
-	background: transparent;
-	border:0;
-	padding:0;
-	margin:0;
+	background: 			transparent;
+	border:				0;
+	padding:			0;
+	margin:				0;
 }
 
 
 div.jGrowl div.jGrowl-notification div.header {
 	font-weight: 			bold;
-	font-size:				10px;
+	font-size:			10px;
 }
 
 div.jGrowl div.jGrowl-notification div.close {
-	float: 					right;
+	float: 				right;
 	font-weight: 			bold;
-	font-size: 				12px;
-	cursor:					pointer;
+	font-size: 			12px;
+	cursor:				pointer;
 }
 
 div.jGrowl div.jGrowl-closer {
-	height: 				15px;
+	height: 			15px;
 	padding-top: 			4px;
 	padding-bottom: 		4px;
-	cursor: 				pointer;
-	font-size:				11px;
+	cursor: 			pointer;
+	font-size:			11px;
 	font-weight: 			bold;
 	text-align: 			center;
 }
