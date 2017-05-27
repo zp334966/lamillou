@@ -794,6 +794,7 @@ section.catalog-grid {
     margin-left: -10px;
     margin-right: -10px;
     border-top: 1px solid #D0D9E5;
+    padding-bottom: 14px;
 }
 .par_content h2 {
     text-align: center; 
@@ -826,14 +827,22 @@ section.catalog-grid {
 .par_content .content {
     text-align: center;
 }
+.par_content .content .info {
+    margin: 19px 0 19px 0;
+}
 .par_content .block {
     margin-bottom: 41px;
 }
 .par_content #contact .content img {
-    margin: 16px 0 21px 0;
+    margin: 13px 0 18px 0;
 }
 .par_content #contact {
     padding-top: 16px;
+}
+.par_spacer {
+    margin-bottom: 0px;
+    width: none;
+    height: 0px;
 }
 .pop-up-added-to-cart {
     width: 273px;
