@@ -836,7 +836,7 @@ section.catalog-grid {
 .par_content #contact .content img {
     margin: 13px 0 18px 0;
 }
-.par_content #contact .content .photo img {
+.par_content #contact .content img.photo {
     max-height: 154px;
     margin: 16px 0 4px 0;
 }
