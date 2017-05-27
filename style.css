@@ -790,6 +790,11 @@ section.catalog-grid {
     width: 173px;
     float: right;
 }
+.par_content {
+    margin-left: -10px;
+    margin-right: -10px;
+    border-top: 1px solid #D0D9E5;
+}
 .par_content h2 {
     text-align: center; 
 }
@@ -801,6 +806,7 @@ section.catalog-grid {
     letter-spacing: 0;
     line-height: 20px;
     text-transform: none;
+    margin: 0;
 }
 .par_content p {
     font-family: 'Open Sans';
@@ -809,11 +815,18 @@ section.catalog-grid {
     letter-spacing: 0;
     line-height: 20px;  
 }
+.par_content h5 a {
+    text-decoration: underline;
+    color: #58dfca;
+}
 .par_content .page-heading {
     padding: 0;
 }
 .par_content .content {
     text-align: center;
+}
+.par_content #contact .content img {
+    margin: 16px 0 21px 0;
 }
 .pop-up-added-to-cart {
     width: 273px;
