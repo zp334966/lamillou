@@ -41,12 +41,12 @@ a:focus, a:hover {
 .page-heading h2, .category-node h1 {
     font-family: besom!important;
     text-align: left;
-    font-size: 36px;
+    font-size: 36px !important;
     letter-spacing: 0.9px;
     line-height: 38px;
     padding: 6px 0 6px 0 !important;
     margin-bottom: 0px !important;
-    color: #16407D;
+    color: #16407D !important;
     border: none;
 }
 .category-node > div:first-child {
@@ -789,6 +789,15 @@ section.catalog-grid {
 .info.product-extra {
     width: 173px;
     float: right;
+}
+.par_content h2 {
+    text-align: center; 
+}
+.par_content .page-heading {
+    padding: 0;
+}
+.par_content .content {
+    text-align: center;
 }
 .pop-up-added-to-cart {
     width: 273px;
