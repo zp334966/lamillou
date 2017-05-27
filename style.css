@@ -836,6 +836,10 @@ section.catalog-grid {
 .par_content #contact .content img {
     margin: 13px 0 18px 0;
 }
+.par_content #contact .content .photo img {
+    max-height: 154px;
+    margin: 16px 0 4px 0;
+}
 .par_content #contact {
     padding-top: 16px;
 }
