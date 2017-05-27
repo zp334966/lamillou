@@ -1147,6 +1147,17 @@ div#show_my_cart section#cart-totals, div#order_last_step section#cart-totals {
 #order_last_step, #show_my_cart {
     border-top: 1px solid #D0D9E5;
 }
+div#order_last_step {
+    margin-left: 0px;
+    padding: 0px 10px 0px 10px;
+}
+div#order_last_step div#show_order_products_block {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+div#order_last_step div#show_order_products_block div.item div.table-cell.desc {
+    margin-left: 108px;
+}
 #order_last_step .shipping_information_title {
     line-height: 45px;
     padding-top: 9px;
