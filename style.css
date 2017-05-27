@@ -813,7 +813,8 @@ section.catalog-grid {
     font-size: 14px;
     color: #16407D;
     letter-spacing: 0;
-    line-height: 20px;  
+    line-height: 20px !important;  
+    margin: 0 !important;
 }
 .par_content h5 a {
     text-decoration: underline;
@@ -825,8 +826,14 @@ section.catalog-grid {
 .par_content .content {
     text-align: center;
 }
+.par_content .block {
+    margin-bottom: 41px;
+}
 .par_content #contact .content img {
     margin: 16px 0 21px 0;
+}
+.par_content #contact {
+    padding-top: 16px;
 }
 .pop-up-added-to-cart {
     width: 273px;
