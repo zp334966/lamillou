@@ -793,6 +793,22 @@ section.catalog-grid {
 .par_content h2 {
     text-align: center; 
 }
+.par_content h5 {
+    font-family: 'Open Sans' !important;
+    font-weight: 600;
+    font-size: 14px;
+    color: #16407D;
+    letter-spacing: 0;
+    line-height: 20px;
+    text-transform: none;
+}
+.par_content p {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: #16407D;
+    letter-spacing: 0;
+    line-height: 20px;  
+}
 .par_content .page-heading {
     padding: 0;
 }
