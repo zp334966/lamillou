@@ -795,6 +795,8 @@ section.catalog-grid {
     margin-right: -10px;
     border-top: 1px solid #D0D9E5;
     padding-bottom: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .par_content h2 {
     text-align: center; 
