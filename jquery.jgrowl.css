@@ -152,8 +152,8 @@ div.jGrowl div.jGrowl-closer {
 
 div.jGrowl div.jGrowl-notification div.close::after {
 	position: 			absolute;
-	right: 				13px;
-	top: 				20px;
+	right: 				2.8px;
+	top: 				10px;
 }
 
 div.jGrowl div.jGrowl-notification div.close:hover {
