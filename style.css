@@ -702,6 +702,7 @@ section.catalog-grid {
     width: 78px;
     top: 0;
     right: 0;
+    left: unset;
     padding: 20px 23px 23px 23px; 
     cursor: pointer;
 }
