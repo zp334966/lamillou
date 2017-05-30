@@ -811,6 +811,17 @@ section.catalog-grid {
     text-transform: none;
     margin: 0;
 }
+.par_content h3 {
+    font-family: 'Open Sans' !important;
+    font-weight: 600;
+    font-size: 14px;
+    color: #16407D;
+    letter-spacing: 0.44px;
+    line-height: 20px;
+    text-transform: none;
+    margin: 0;
+    margin-bottom: 10px;
+}
 .par_content p {
     font-family: 'Open Sans';
     font-size: 14px;
@@ -843,12 +854,21 @@ section.catalog-grid {
     margin: 16px 0 4px 0;
 }
 .par_content #contact {
-    padding-top: 16px;
+    padding-top: 17px;
 }
 .par_spacer {
     margin-bottom: 0px;
     width: none;
     height: 0px;
+}
+.par_content #delivery {
+    padding-top: 17px;
+}
+.par_content #delivery .content {
+    padding-top: 19px;
+}
+.par_content #delivery img {
+    margin-bottom: 10px;
 }
 .pop-up-added-to-cart {
     width: 273px;
