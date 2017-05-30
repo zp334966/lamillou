@@ -692,9 +692,6 @@ section.catalog-grid {
     margin-right: -4px;
     text-align: center;
 }
-.unvisible {
-    visibility: hidden;
-}
 .post-toolbox {
     padding-top: 15px !important;
     padding-bottom: 25px !important;
