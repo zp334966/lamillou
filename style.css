@@ -693,7 +693,14 @@ section.catalog-grid {
     text-align: center;
 }
 .photo-view #exit-photo-view {
-    display: inline-block !important;    
+    display: inline-block !important;
+    z-index: 9999;
+    visibility: visible;
+    position: absolute;
+    width: 86px;
+    top: 0;
+    right: 0;
+    padding: 27px 29px 27px 27px;    
 }
 .post-toolbox {
     padding-top: 15px !important;
