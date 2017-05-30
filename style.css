@@ -905,6 +905,9 @@ section.catalog-grid {
 .par_content #delivery img {
     margin-bottom: 10px;
 }
+.par_content h1, .par_content h2, .par_content h3, .par_content h4, .par_content h5, .par_content h6 {
+    color: #16407D !important;
+}
 .pop-up-added-to-cart {
     width: 273px;
     height: auto;
