@@ -687,7 +687,7 @@ section.catalog-grid {
     display: none;    
 }
 .photo-view {
-    position: fixed;
+    position: fixed !important;
     top: 0;   
     left: 0;
     right: 0;
