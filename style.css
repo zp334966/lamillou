@@ -706,6 +706,10 @@ section.catalog-grid {
     padding: 20px 23px 23px 23px; 
     cursor: pointer;
 }
+.site-layout.unvisible {
+    visibility: hidden;
+    position: fixed;
+}
 .post-toolbox {
     padding-top: 15px !important;
     padding-bottom: 25px !important;
