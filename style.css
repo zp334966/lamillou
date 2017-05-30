@@ -843,6 +843,11 @@ section.catalog-grid {
 }
 .par_content .content {
     text-align: center;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: #243c5e;
+    letter-spacing: 0;
+    line-height: 20px;  
 }
 .par_content .content .info {
     margin: 19px 0 19px 0;
