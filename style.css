@@ -834,7 +834,7 @@ section.catalog-grid {
 .par_content p b {
     font-weight: 600;
 }
-.par_content h5 a, .par_content p a {
+.par_content h5 a, .par_content p a, .par_content a {
     text-decoration: underline;
     color: #58dfca;
 }
