@@ -692,6 +692,9 @@ section.catalog-grid {
     margin-right: -4px;
     text-align: center;
 }
+.photo-view #exit-photo-view {
+    display: inline-block;    
+}
 .post-toolbox {
     padding-top: 15px !important;
     padding-bottom: 25px !important;
