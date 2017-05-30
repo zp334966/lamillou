@@ -703,6 +703,7 @@ section.catalog-grid {
     top: 0;
     right: 0;
     padding: 20px 23px 23px 23px; 
+    cursor: pointer;
 }
 .post-toolbox {
     padding-top: 15px !important;
