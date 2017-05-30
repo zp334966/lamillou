@@ -693,7 +693,7 @@ section.catalog-grid {
     text-align: center;
 }
 .photo-view #exit-photo-view {
-    display: inline-block;    
+    display: inline-block !important;    
 }
 .post-toolbox {
     padding-top: 15px !important;
