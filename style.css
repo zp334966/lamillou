@@ -699,10 +699,10 @@ section.catalog-grid {
     z-index: 9;
     visibility: visible;
     position: absolute;
-    width: 86px;
+    width: 78px;
     top: 0;
     right: 0;
-    padding: 27px 29px 27px 27px;    
+    padding: 20px 23px 23px 23px; 
 }
 .post-toolbox {
     padding-top: 15px !important;
