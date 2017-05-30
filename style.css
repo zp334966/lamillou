@@ -694,7 +694,7 @@ section.catalog-grid {
     margin: 6px;
     text-align: center;
 }
-.photo-view #exit-photo-view {
+#exit-photo-view.photo-view {
     display: inline-block !important;
     z-index: 9;
     visibility: visible;
