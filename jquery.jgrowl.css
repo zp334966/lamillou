@@ -90,7 +90,7 @@ div.jGrowl div.jGrowl-notification, div.jGrowl div.jGrowl-closer {
 	filter: 			alpha(opacity = 85);
 	zoom: 				1;
 	width: 				100%;
-	padding: 			10.2px 13px 11.8px 13px;
+	padding: 			11px 13px 11px 13px;
 	margin-top: 			5px;
 	margin-bottom: 			0px;
 	font-family: 			OpenSans;
@@ -112,7 +112,10 @@ div.jGrowl div.jGrowl-notification .message{
 	margin-right: 			43px;
 	font-family: 			'Open Sans';
 }
-
+div.jGrowl div.jGrowl-notification .message a {
+	color: 				#fff;
+	text-decoration:		underline;
+}
 
 div.jGrowl div.jGrowl-notification div.header {
 	font-weight: 			bold;
@@ -121,7 +124,6 @@ div.jGrowl div.jGrowl-notification div.header {
 
 div.jGrowl div.jGrowl-notification div.close, 
 div.jGrowl div.jGrowl-notification div.close::after {
-	float: 				right;
 	font-weight: 			bold;
 	font-size: 			12px;
 	cursor:				pointer;
@@ -132,6 +134,9 @@ div.jGrowl div.jGrowl-notification div.close::after {
         height: 			38px;
         margin: 			0px;
 	border:				none;
+	position: 			absolute;
+        right: 				2.8px;
+        top: 				10px;
 }
 
 
