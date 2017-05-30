@@ -687,14 +687,16 @@ section.catalog-grid {
     display: none;    
 }
 .photo-view {
-    margin-top: -59px;
-    margin-left: -4px;
-    margin-right: -4px;
+    position: fixed;
+    top: 0;   
+    left: 0;
+    right: 0;
+    margin: 6px;
     text-align: center;
 }
 .photo-view #exit-photo-view {
     display: inline-block !important;
-    z-index: 9999;
+    z-index: 9;
     visibility: visible;
     position: absolute;
     width: 86px;
