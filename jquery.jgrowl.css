@@ -101,7 +101,7 @@ div.jGrowl div.jGrowl-notification, div.jGrowl div.jGrowl-closer {
 }
 
 div.jGrowl div.jGrowl-notification {
-	min-height: 			40px;
+	min-height: 			50px;
 }
 
 div.jGrowl div.jGrowl-notification .message{
@@ -153,7 +153,7 @@ div.jGrowl div.jGrowl-closer {
 div.jGrowl div.jGrowl-notification div.close::after {
 	position: 			absolute;
 	right: 				2.8px;
-	top: 				10px;
+	top: 				0px;
 }
 
 div.jGrowl div.jGrowl-notification div.close:hover {
