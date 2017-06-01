@@ -1379,11 +1379,12 @@ div#show_my_cart section.shopping-cart div.item div.table-cell.desc div.qnt-coun
     font-weight: 400;
     color: #D0D9E5 !important;
 }
-#shipping_payments_terms #payment_kind_selector label.payment-gateway-payu img.payu {
-    content: url(https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/logo_PayU.svg);
-}
+#shipping_payments_terms #payment_kind_selector label.payment-gateway-payu img.payu,
 #shipping_payments_terms #payment_kind_selector label.payment-gateway-payu img.payu::after {
     content: url(https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/logo_PayU.svg);
+}
+#shipping_payments_terms #payment_kind_selector label.payment-gateway-payu img.payu::before {
+    content: "";
 }
 .advertisement h6 {
     color: white;
