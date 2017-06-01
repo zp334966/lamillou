@@ -1346,6 +1346,9 @@ div#shop_order_addresses p.item {
 #shop_order_shipping_form h4 {
     display: inline-block;
 }
+#shop_order_shipping_form {
+    margin-left: 0px;
+}
 #shop_order_shipping_form #shop_order_show_shipping_address label {
     position: absolute;
     top: 0;
