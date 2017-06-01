@@ -7,8 +7,8 @@
     vertical-align: middle;
     margin: 0;
     padding: 0;
-    width: 18px;
-    height: 18px;
+    width: 26px;
+    height: 26px;
     background: url(https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/Checkbox_1x.png) no-repeat;
     border: none;
     cursor: pointer;
@@ -18,34 +18,34 @@
     background-position: 0 0;
 }
     .icheckbox_minimal-blue.hover {
-        background-position: -20px 0;
+        background-position: -26px 0;
     }
     .icheckbox_minimal-blue.checked {
-        background-position: -40px 0;
+        background-position: -52px 0;
     }
     .icheckbox_minimal-blue.disabled {
-        background-position: -60px 0;
+        background-position: -78px 0;
         cursor: default;
     }
     .icheckbox_minimal-blue.checked.disabled {
-        background-position: -80px 0;
+        background-position: -104px 0;
     }
 
 .iradio_minimal-blue {
-    background-position: -100px 0;
+    background-position: -130px 0;
 }
     .iradio_minimal-blue.hover {
-        background-position: -120px 0;
+        background-position: -156px 0;
     }
     .iradio_minimal-blue.checked {
-        background-position: -140px 0;
+        background-position: -182px 0;
     }
     .iradio_minimal-blue.disabled {
-        background-position: -160px 0;
+        background-position: -208px 0;
         cursor: default;
     }
     .iradio_minimal-blue.checked.disabled {
-        background-position: -180px 0;
+        background-position: -234px 0;
     }
 
 /* HiDPI support */
@@ -53,7 +53,7 @@
     .icheckbox_minimal-blue,
     .iradio_minimal-blue {
         background-image: url(https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/Checkbox_2x.png);
-        -webkit-background-size: 200px 20px;
-        background-size: 200px 20px;
+        -webkit-background-size: 260px 26px;
+        background-size: 260px 26px;
     }
 }
