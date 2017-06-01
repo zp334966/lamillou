@@ -10,42 +10,34 @@
     background: url(https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/Checkbox_2x.png) no-repeat;
     border: none;
     cursor: pointer;   
-}
-.icheckbox_minimal-blue {
-    width: 25px;
-    height: 25px;
-    background-size: 260px 26px;
-    -webkit-background-size: 260px 26px;
-}
-.iradio_minimal-blue {
     width: 28px;
     height: 28px;
     background-size: 280px 28px;
-    -webkit-background-size: 280px 28px;    
+    -webkit-background-size: 280px 28px;     
 }
 
 .icheckbox_minimal-blue {
     background-position: 0 0;
 }
     .icheckbox_minimal-blue.hover {
-        background-position: -25px 0;
+        background-position: -28px 0;
     }
     .icheckbox_minimal-blue.checked {
-        background-position: -50px 0;
+        background-position: -56px 0;
     }
     .icheckbox_minimal-blue.disabled {
-        background-position: -78px 0;
+        background-position: -84px 0;
         cursor: default;
     }
     .icheckbox_minimal-blue.checked.disabled {
-        background-position: -103px 0;
+        background-position: -110px 0;
     }
 
 .iradio_minimal-blue {
     background-position: -135px 0;
 }
     .iradio_minimal-blue.hover {
-        background-position: -165px 0;
+        background-position: -166px 0;
     }
     .iradio_minimal-blue.checked {
         background-position: -193px 0;
