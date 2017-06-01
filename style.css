@@ -1340,6 +1340,14 @@ div#shop_order_addresses p.item {
 #order_last_step .subtitle, #show_my_cart .subtitle {
     font-weight: 400;
 }
+#order-steps {
+    margin-top: 0px;
+    margin-bottom: 11px;
+}
+#order-steps div.active {
+    padding-bottom: 4px;
+    border-bottom: 2.5px solid #15407D;
+}
 #show_order_products_block .item {
     padding-left: 0px;
     padding-right: 0px;
