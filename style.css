@@ -1375,7 +1375,7 @@ div#show_my_cart section.shopping-cart div.item div.table-cell.desc div.qnt-coun
 #shop_order_form .buttons.panel {
    margin-bottom: 38px;    
 }
-#shop_order_delivery_form label span {
+#shop_order_delivery_form label span, #shipping_payments_terms #payment_kind_selector label.payment-gateway-payu {
     font-weight: 400;
     color: #D0D9E5 !important;
 }
