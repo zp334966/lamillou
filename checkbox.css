@@ -12,6 +12,8 @@
     background: url(https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/Checkbox_2x.png) no-repeat;
     border: none;
     cursor: pointer;
+    background-size: 260px 26px;
+    -webkit-background-size: 260px 26px;
 }
 
 .icheckbox_minimal-blue {
