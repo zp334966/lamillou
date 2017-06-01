@@ -1265,6 +1265,12 @@ div#show_my_cart div.page-heading h3 {
 div#show_my_cart section#cart-totals, div#order_last_step section#cart-totals {
     padding: 25px 10px 38px 10px;
 }
+#show_my_cart .shopping-cart .qnt-count a.incr-btn:first-child {
+    content: url(https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/ico_minus_bl.svg);
+}
+#show_my_cart .shopping-cart .qnt-count a.incr-btn:last-child {
+    content: url(https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/ico_plus_bl.svg);
+}
 #order_last_step, #show_my_cart {
     border-top: 1px solid #D0D9E5;
 }
