@@ -1376,9 +1376,7 @@ div#show_my_cart section.shopping-cart div.item div.table-cell.desc div.qnt-coun
    margin-bottom: 38px;    
 }
 #shop_order_delivery_form label span {
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: 20px;
+    font-weight: 400;
 }
 .advertisement h6 {
     color: white;
