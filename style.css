@@ -1370,7 +1370,11 @@ div#shop_order_addresses p.item {
 }
 #shop_order_form #shop_order_user_comment_field {
     margin-right: 0px;
-    margin-left: 15px;
+    margin-left: 0px;
+}
+#shop_order_form .col-sm-6 {
+    padding-left: 0px;
+    padding-right: 0px;
 }
 div#show_my_cart section.shopping-cart div.item div.table-cell.desc div.qnt-count a.incr-btn {
     background-size: unset;
