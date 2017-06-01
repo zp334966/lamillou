@@ -876,6 +876,9 @@ section.catalog-grid {
 .par_content .content .info {
     margin: 19px 0 19px 0;
 }
+.par_content .content .info.last {
+    margin: 19px 0 0 0;
+}
 .par_content .block {
     margin-bottom: 41px;
 }
@@ -888,7 +891,6 @@ section.catalog-grid {
 }
 .par_content #contact {
     padding-top: 17px;
-    padding-bottom: 0px;
 }
 .par_spacer {
     margin-bottom: 0px;
