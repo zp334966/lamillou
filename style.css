@@ -1268,13 +1268,15 @@ div#show_my_cart section#cart-totals, div#order_last_step section#cart-totals {
 div#show_my_cart section.shopping-cart div.item div.table-cell.desc div.qnt-count a.incr-btn:first-child, 
 div#show_my_cart div#show_order_products_block div.item div.table-cell.desc div.qnt-count a.incr-btn:first-child, 
 div#order_last_step section.shopping-cart div.item div.table-cell.desc div.qnt-count a.incr-btn:first-child, 
-div#order_last_step div#show_order_products_block div.item div.table-cell.desc div.qnt-count a.incr-btn:first-child,
+div#order_last_step div#show_order_products_block div.item div.table-cell.desc div.qnt-count a.incr-btn:first-child {
+    content: url(https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/ico_minus_bl.svg);
+    padding: 9px;  
+}
 div#show_my_cart section.shopping-cart div.item div.table-cell.desc div.qnt-count a.incr-btn:first-child:after, 
 div#show_my_cart div#show_order_products_block div.item div.table-cell.desc div.qnt-count a.incr-btn:first-child:after, 
 div#order_last_step section.shopping-cart div.item div.table-cell.desc div.qnt-count a.incr-btn:first-child:after, 
 div#order_last_step div#show_order_products_block div.item div.table-cell.desc div.qnt-count a.incr-btn:first-child:after {
     content: url(https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/ico_minus_bl.svg);
-    padding: 9px;
 }
 div#show_my_cart section.shopping-cart div.item div.table-cell.desc div.qnt-count a.incr-btn:last-child, 
 div#show_my_cart div#show_order_products_block div.item div.table-cell.desc div.qnt-count a.incr-btn:last-child, 
