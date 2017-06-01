@@ -42,16 +42,16 @@
     }
 
 .iradio_minimal-blue {
-    background-position: -140px 0;
+    background-position: -135px 0;
 }
     .iradio_minimal-blue.hover {
-        background-position: -168px 0;
+        background-position: -165px 0;
     }
     .iradio_minimal-blue.checked {
-        background-position: -196px 0;
+        background-position: -193px 0;
     }
     .iradio_minimal-blue.disabled {
-        background-position: -224px 0;
+        background-position: -221px 0;
         cursor: default;
     }
     .iradio_minimal-blue.checked.disabled {
