@@ -11,7 +11,8 @@ a:focus, a:hover {
     background-color: #16407d !important;
 }
 .page {
-    padding-top: 15px;
+    padding-top: 0px;
+    margin-top: 15px;
 }
 .container {
     padding-left: 10px;
