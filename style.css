@@ -888,6 +888,7 @@ section.catalog-grid {
 }
 .par_content #contact {
     padding-top: 17px;
+    padding-bottom: 0px;
 }
 .par_spacer {
     margin-bottom: 0px;
