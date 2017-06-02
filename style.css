@@ -963,6 +963,17 @@ section.catalog-grid {
     float: right;
 }
 
+#before-loading {
+    margin-top: 15px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-size: 50px;
+    border-top: 1px solid #D0D9E5;
+}
+#before-loading .fa {
+    color: #D0D9E5;    
+}
 .page>.container.cms_register, #login_curtain.specialty-page, .container.restore_password, #thank_you_for_ordering {
     margin-top: 0px!important;
     border-top: 1px solid #D0D9E5;
