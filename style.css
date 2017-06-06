@@ -684,22 +684,11 @@ section.catalog-grid {
     margin-left: 0px !important;
     border: 1px solid #16407D !important; 
 }
-.sp-slider-photo-view {
-    width: 100%;
-    z-index: 1;
-    position: absolute;
-    height: 0px;
-}
 .ms-skin-default .ms-nav-next, .ms-skin-default .ms-nav-prev {
     display: none;    
 }
 .photo-view {
-    position: fixed !important;
-    top: 0;   
-    left: 0;
-    right: 0;
-    margin: 6px;
-    text-align: center;
+
 }
 #exit-photo-view.photo-view {
     display: inline-block !important;
