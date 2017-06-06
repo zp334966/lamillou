@@ -137,3 +137,24 @@ if ($( '#order-steps' ).length ){
     }
   });   
 };
+
+
+function hideInHeader() {
+  $("#nav-toggle").hide();
+  $(".search-trigger").hide();
+  $("#res-cart").hide();
+};  
+if ($( '#shop_order_form' ).length ){
+  hideInHeader();
+}; 
+
+
+$( document ).ready(function() {
+    $( '.field_with_errors .icheckbox_minimal-blue' ).addClass("checked disabled");
+});
+
+
+$( "[for=shop_order_edit_shipping_address]" ).click(function() {
+    $("#shop_order_show_shipping_address").hide();
+    $("#shop_order_edit_shipping_address_form").slideDown(500)    
+}); 
