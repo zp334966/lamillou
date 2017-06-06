@@ -112,6 +112,7 @@ div.jGrowl div.jGrowl-notification .message{
 	text-align: 			left;
 	font-family: 			'Open Sans';
 	vertical-align:			middle;
+	display: 			inline-block;
 }
 div.jGrowl div.jGrowl-notification .message a {
 	color: 				#fff;
@@ -137,7 +138,7 @@ div.jGrowl div.jGrowl-notification div.close::after {
 	border:				none;
 	position: 			absolute;
         right: 				2.8px;
-        top: 				10px;
+        top: 				13px;
 }
 
 
