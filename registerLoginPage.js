@@ -61,8 +61,8 @@ function loginBottom () {
         });
         $('.login_bottom .cms_buttons').after("<p class='separate-buttons'>LUB</p>");   
         $('#registration_link').each(function() {      
-          if ($(this).val() === "Zarejestruj się" ){
-            $(this).val("Stwórz konto");   
+          if ($(this).text() === "Zarejestruj się" ){
+            $(this).text("Stwórz konto");   
           }     
         }); 
     });
