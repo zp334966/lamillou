@@ -1024,6 +1024,10 @@ if ( $('.sp-slider-photo-view').length ) {
 	    var h = $( '.ms-view.ms-fade-view' ).height();
 	    $( '.sp-slider-photo-view' ).height(h);
 	});  
+	$(window).on('resize', function(){
+	    var h = $( '.ms-view.ms-fade-view' ).height();
+	    $( '.sp-slider-photo-view' ).height(h);
+	});
 };
 
 
