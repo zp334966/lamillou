@@ -3,6 +3,11 @@
 function cmsRegister () {
   if ( $( ".cms_register" ).length ) { 
     $(document).ready(function(){
+        $('form#new_user.new_user #user_login').parent().hide();  
+        $('form#new_user.new_user').submit(function() { 
+           var email = $('form#new_user.new_user #user_email').val();
+          $('form#new_user.new_user #user_login').val(email);
+        });        
         $('.cms_register .cms_buttons input').each(function() {      
           if ($(this).val() === "Zarejestruj się" ){
             $(this).val("Stwórz konto");   
