@@ -33,7 +33,7 @@ cmsRegister ();
 function loginBottom () {
   if ( $( ".login_bottom" ).length ) { 
     $(document).ready(function(){
-        $('.login_bottom .cms_buttons input').each(function() {      
+        $('.login_bottom input').each(function() {      
           if ($(this).val() === "Zaloguj" ){
             $(this).val("Zaloguj się");   
           }     
