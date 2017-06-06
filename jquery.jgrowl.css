@@ -93,10 +93,7 @@ div.jGrowl div.jGrowl-notification, div.jGrowl div.jGrowl-closer {
 	padding: 			11px 13px 11px 13px;
 	margin-top: 			5px;
 	margin-bottom: 			0px;
-	font-family: 			OpenSans;
-	font-size: 			10px;
-	line-height:			14px;
-	text-align: 			left;
+	line-height:			28px;
 	display: 			none;
 }
 
@@ -110,7 +107,11 @@ div.jGrowl div.jGrowl-notification .message{
 	padding:			0;
 	margin:				0;
 	margin-right: 			43px;
+	font-size: 			10px;
+	line-height:			14px;
+	text-align: 			left;
 	font-family: 			'Open Sans';
+	vertical-align:			middle;
 }
 div.jGrowl div.jGrowl-notification .message a {
 	color: 				#fff;
