@@ -694,7 +694,7 @@ section.catalog-grid {
     height: 0px;
 }
 .photo-view {
-
+    margin: -9px -4px -4px -4px;
 }
 #exit-photo-view.photo-view {
     display: inline-block !important;
