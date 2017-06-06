@@ -99,6 +99,12 @@ function thankForOrder () {
 };
 thankForOrder ();
 
+function loginBox () {
+  if ( $( "#login_box" ).length ) { 
+    $(".form-label[for='Login']").text('E-mail');
+  }
+};
+loginBox ();
 
 function emptyCart() {
   var b = $( '.page-heading h3' ).text();
