@@ -101,10 +101,10 @@ thankForOrder ();
 
 function loginBox () {
   if ( $( "#login_box" ).length ) { 
-    $(".form-label[for='Login']").text('E-mail');
+    $('.login_bottom label[for="Login"]').text('E-mail');
   }
 };
-loginBox ();
+loginBox (); 
 
 function emptyCart() {
   var b = $( '.page-heading h3' ).text();
