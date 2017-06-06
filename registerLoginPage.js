@@ -59,7 +59,12 @@ function loginBottom () {
         $('.login_bottom .form-group input').each(function() {      
           $(this).attr("placeholder", "");
         });
-        $('.login_bottom .cms_buttons').after("<p class='separate-buttons'>LUB</p>");     
+        $('.login_bottom .cms_buttons').after("<p class='separate-buttons'>LUB</p>");   
+        $('#registration_link').each(function() {      
+          if ($(this).val() === "Zarejestruj się" ){
+            $(this).val("Stwórz konto");   
+          }     
+        }); 
     });
   }    
   return;
