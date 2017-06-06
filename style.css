@@ -687,6 +687,12 @@ section.catalog-grid {
 .ms-skin-default .ms-nav-next, .ms-skin-default .ms-nav-prev {
     display: none;    
 }
+.sp-slider-photo-view {
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    height: 0px;
+}
 .photo-view {
 
 }
