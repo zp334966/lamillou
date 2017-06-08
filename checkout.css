@@ -3,26 +3,32 @@
   font-family: 'Open Sans'; 
 }
 
-.checkout-header, div#show_my_cart div.page-heading h3, div#order_last_step div.page-heading h3, #shop_order_form h2, div#order_last_step h4, #login_box h2, #login_box h3 {
+.checkout-header, #show_my_cart .page-heading h3, #order_last_step .page-heading h3, #shop_order_form h2, 
+#order_last_step h4, #login_box h2, #login_box h3 {
   font-weight: 700;
   font-size: 15px;
   text-align: left;
-  color: #16407d; }
+  color: #16407d; 
+}
 
 .checkout-strong-label {
   font-size: 16px;
   letter-spacing: 0;
   line-height: 20px;
-  color: #16407d; }
+  color: #16407d; 
+}
 
-.checkout-button-proceed, #shop_order_form .buttons.panel a.continue_with_order, div#order_last_step a.continue_with_order {
+.checkout-button-proceed, #shop_order_form .buttons.panel a.continue_with_order, #order_last_step a.continue_with_order {
   font-size: 15px !important;
   font-weight: 700 !important;
   width: 240px !important;
   float: none !important;
-  margin-right: 0 !important; }
+  margin-right: 0 !important; 
+}
 
-.checkout-button-proceed-big, div#show_my_cart a.btn, div#show_my_cart a.btn.btn-left.btn-primary, div#order_last_step a.btn, div#order_last_step a.btn.btn-left.btn-primary, #login_box input[type=submit].submit, #login_box a.just_order, #login_box h2.big_link a, div#registration_form .cms_buttons input[type=submit] {
+.checkout-button-proceed-big, #show_my_cart a.btn, #show_my_cart a.btn.btn-left.btn-primary, #order_last_step a.btn, 
+#order_last_step a.btn.btn-left.btn-primary, #login_box input[type=submit].submit, 
+#login_box a.just_order, #login_box h2.big_link a, #registration_form .cms_buttons input[type=submit] {
   font-size: 15px !important;
   font-weight: 700;
   background-color: #16407d;
@@ -31,14 +37,22 @@
   padding-bottom: 16px !important;
   margin: 15px auto 0 auto !important;
   text-transform: uppercase;
-  display: block; }
+  display: block; 
+}
 
-.checkout-product-title, div#show_my_cart section.shopping-cart div.item div.table-cell.desc .title, div#show_my_cart div#show_order_products_block div.item div.table-cell.desc .title, div#order_last_step section.shopping-cart div.item div.table-cell.desc .title, div#order_last_step div#show_order_products_block div.item div.table-cell.desc .title {
+.checkout-product-title, #show_my_cart section.shopping-cart .item .table-cell.desc .title, 
+#show_my_cart #show_order_products_block .item .table-cell.desc .title, 
+#order_last_step section.shopping-cart .item .table-cell.desc .title, 
+#order_last_step #show_order_products_block .item .table-cell.desc .title {
   text-transform: capitalize;
   font-size: 14px;
-  padding-bottom: 5px; }
+  padding-bottom: 5px; 
+}
 
-.checkout-product-subtitle, div#show_my_cart section.shopping-cart div.item div.table-cell.desc .subtitle, div#show_my_cart div#show_order_products_block div.item div.table-cell.desc .subtitle, div#order_last_step section.shopping-cart div.item div.table-cell.desc .subtitle, div#order_last_step div#show_order_products_block div.item div.table-cell.desc .subtitle {
+.checkout-product-subtitle, #show_my_cart section.shopping-cart .item .table-cell.desc .subtitle, 
+#show_my_cart #show_order_products_block .item .table-cell.desc .subtitle, 
+#order_last_step section.shopping-cart .item .table-cell.desc .subtitle, 
+#order_last_step #show_order_products_block .item .table-cell.desc .subtitle {
   opacity: 0.8;
   font-size: 13px;
   letter-spacing: 0;
@@ -46,17 +60,20 @@
   max-width: 187px;
   overflow: visible;
   white-space: normal;
-  color: #16407d; }
+  color: #16407d; 
+}
 
 .checkout-error label, #shop_order_form .field_with_errors label, form.new_user .field_with_errors label {
   font-size: 13px;
-  color: #16407d !important; }
+  color: #16407d !important; 
+}
 .checkout-error .validation-error, #shop_order_form .field_with_errors .validation-error, form.new_user .field_with_errors .validation-error {
   font-size: 13px;
   font-weight: 400;
   color: #F1001D;
   margin-top: 10px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px; 
+}
 
 div#show_my_cart, div#order_last_step {
   padding-left: 0;
