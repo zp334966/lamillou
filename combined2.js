@@ -808,13 +808,16 @@ $(window).on('load', function(){
 	
   /*Advertisement mobile 
   ************************************************/
-  $('.exit').click(function() {
-	sessionStorage.setItem('advertisement', '0');
-  	var items = document.getElementsByClassName("advertisement-desktop");
-  	items[0].style.display = "none";
-	var items = document.getElementsByClassName("advertisement-mobile");
-  	items[0].style.display = "none";  	
-    console.log(sessionStorage);
+  $('.exit').click(function() {      
+    var items = document.getElementsByClassName("advertisement-desktop");
+    items[0].style.display = "none";
+    var items = document.getElementsByClassName("advertisement-mobile");
+    items[0].style.display = "none";  
+    try {
+       sessionStorage.setItem('advertisement', '0');
+    } finally {
+       console.log(sessionStorage);
+    }      
   });  
   $('.advertisement').each(function() {
     console.log(sessionStorage);
