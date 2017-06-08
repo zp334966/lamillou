@@ -209,11 +209,6 @@ form.new_user .field_with_errors .validation-error {
 #order_last_step section.shopping-cart .item .table-cell.desc .qnt-count a.incr-btn, 
 #order_last_step #show_order_products_block .item .table-cell.desc .qnt-count a.incr-btn {
       background-color: #fff;
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: 13px 13px;
-      content: " ";
-      background-color: #fff;
       width: 31px;
       height: 31px;
       border: 1px solid #16407d;
