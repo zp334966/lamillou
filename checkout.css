@@ -3,7 +3,7 @@
   font-family: 'Open Sans'; 
 }
 
-.checkout-header, #show_my_cart .page-heading h3, #order_last_step .page-heading h3, #shop_order_form h2, 
+.checkout-header, #show_my_cart div.page-heading h3, #order_last_step .page-heading h3, #shop_order_form h2, 
 #order_last_step h4, #login_box h2, #login_box h3 {
   font-weight: 700;
   font-size: 15px;
