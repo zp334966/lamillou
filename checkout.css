@@ -910,6 +910,7 @@ form label {
     color: #243C5E;
     outline: none;
     outline-offset: unset;
+    -webkit-appearance: none;
 }
 .form-group {
     text-align: left;
