@@ -594,7 +594,7 @@ div#order_last_step div#show_order_products_block div.item div.table-cell.desc {
 }
 #shop_order_delivery_form label span, #shipping_payments_terms #payment_kind_selector label.payment-gateway-payu {
     font-weight: 400;
-    color: #D0D9E5 !important;
+    color: #B8C1CE !important;
 }
 
 #order_space label {
@@ -862,7 +862,7 @@ form.new_user .form_accept_checks:nth-last-of-type(2) {
   margin-bottom: 30px !important; 
 }
 #login_box a.forgot {
-  color: #d0d9e5;
+  color: #B8C1CE;
   font-size: 13px;
   text-decoration: underline;
   margin-bottom: 30px; 
@@ -876,7 +876,7 @@ form.new_user .form_accept_checks:nth-last-of-type(2) {
   margin-top: 17px;
   margin-bottom: 15px;
   font-weight: 700;
-  color: #d0d9e5; 
+  color: #B8C1CE; 
 }
 #login_box div.login_info {
   width: initial; 
