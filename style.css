@@ -993,9 +993,6 @@ section.catalog-grid {
     text-align: left;
     margin-bottom: 0px;
 }
-.cms_register .form_accept_checks label::after{
-    line-height: 20px;
-}
 #thank_you_for_ordering h2{
     padding-bottom: 3px;    
 }
