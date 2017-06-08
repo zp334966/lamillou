@@ -222,6 +222,10 @@ div#show_my_cart div.page-heading h3 {
      top: 0; 
      width: 95px;
      padding-right: 10px;
+     display: block;
+     position: absolute;
+     margin-right: 0;
+     text-align: right!important;
 }
 #show_my_cart section.shopping-cart .item .table-cell.thumb a, 
 #show_my_cart #show_order_products_block .item .table-cell.thumb a, 
