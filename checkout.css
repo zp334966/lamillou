@@ -216,6 +216,8 @@ div#show_my_cart div.page-heading h3 {
 #order_last_step #show_order_products_block .item .table-cell.thumb {
      left: 0;
      top: 0; 
+     width: 95px;
+     padding-right: 10px;
 }
 #show_my_cart section.shopping-cart .item .table-cell.thumb a, 
 #show_my_cart #show_order_products_block .item .table-cell.thumb a, 
@@ -237,7 +239,7 @@ div#show_my_cart div.page-heading h3 {
 #show_my_cart #show_order_products_block .item .table-cell.desc, 
 #order_last_step section.shopping-cart .item .table-cell.desc, 
 #order_last_step #show_order_products_block .item .table-cell.desc {
-     margin-left: 92px;
+     margin-left: 105px;
      padding-right: 0;
      position: relative;
 }
@@ -368,6 +370,7 @@ div#show_my_cart div.page-heading h3 {
 #show_my_cart section.shopping-cart .item, #show_my_cart #show_order_products_block .item, 
 #order_last_step section.shopping-cart .item, #order_last_step #show_order_products_block .item {
       position: relative; 
+      padding: 0 2px 12px 0;
 }
 #show_my_cart section.shopping-cart .cart_product_remove_button, 
 #show_my_cart #show_order_products_block .cart_product_remove_button, 
@@ -390,6 +393,9 @@ div#show_my_cart div.page-heading h3 {
     font-weight: 400;
     z-index: 1;    
     padding-top: 3px;
+}
+#show_order_products_block .item .table-cell, .shopping-cart .item .table-cell {
+    vertical-align: top;
 }
 #order_last_step, #show_my_cart {
     border-top: 1px solid #D0D9E5;
