@@ -153,11 +153,12 @@ if ($( '#shop_order_form' ).length ){
   hideInHeader();
 }; 
 
-if ($( '.field_with_errors .icheckbox_minimal-blue' ).length ) {
-  $( document ).ready(function() {
+
+$( document ).ready(function() {
+  if ($( '.field_with_errors .icheckbox_minimal-blue' ).length ) {
     $( '.field_with_errors .icheckbox_minimal-blue' ).addClass("checked disabled");
-  });
-};
+  } 
+});
 
 
 $( "[for=shop_order_edit_shipping_address]" ).click(function() {
