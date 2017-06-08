@@ -11,7 +11,24 @@
 }
 #before-loading .square-spin>div  {
     margin: auto;
-    background: #16407d; 
+}
+@keyframes square-spin {
+  25% {
+      background: #243C5E;
+      transform: perspective(100px) rotateX(180deg) rotateY(0);
+  }
+  50% {
+      background: #16407d;
+      transform: perspective(100px) rotateX(180deg) rotateY(180deg);
+  }
+  75% {
+      background: #243C5E;
+      transform: perspective(100px) rotateX(0) rotateY(180deg);
+  }
+  100% {
+      background: #16407d;
+      transform: perspective(100px) rotateX(0) rotateY(0);
+  }
 }
 .page>.container.cms_register, #login_curtain.specialty-page, .container.restore_password, #thank_you_for_ordering {
     margin-top: 0px!important;
