@@ -82,39 +82,39 @@
 
 .checkout-header, #show_my_cart div.page-heading h3, #order_last_step .page-heading h3, #shop_order_form h2, 
 #order_last_step h4, #login_box h2, #login_box h3 {
-  font-weight: 700;
-  font-size: 15px;
-  text-align: left;
-  color: #16407d; 
+    font-weight: 700;
+    font-size: 15px;
+    text-align: left;
+    color: #16407d; 
 }
 
 .checkout-strong-label {
-  font-size: 16px;
-  letter-spacing: 0;
-  line-height: 20px;
-  color: #16407d; 
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 20px;
+    color: #16407d; 
 }
 
 .checkout-button-proceed, #shop_order_form .buttons.panel a.continue_with_order, #order_last_step a.continue_with_order {
-  font-size: 15px !important;
-  font-weight: 700 !important;
-  width: 240px !important;
-  float: none !important;
-  margin-right: 0 !important; 
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    width: 240px !important;
+    float: none !important;
+    margin-right: 0 !important; 
 }
 
 .checkout-button-proceed-big, #show_my_cart a.btn, #show_my_cart a.btn.btn-left.btn-primary, #order_last_step a.btn, 
 #order_last_step a.btn.btn-left.btn-primary, #login_box input[type=submit].submit, 
 #login_box a.just_order, #login_box h2.big_link a, #registration_form .cms_buttons input[type=submit] {
-  font-size: 15px !important;
-  font-weight: 700;
-  background-color: #16407d;
-  width: 240px;
-  padding-top: 14px !important;
-  padding-bottom: 16px !important;
-  margin: 15px auto 0 auto !important;
-  text-transform: uppercase;
-  display: block; 
+    font-size: 15px !important;
+    font-weight: 700;
+    background-color: #16407d;
+    width: 240px;
+    padding-top: 14px !important;
+    padding-bottom: 16px !important;
+    margin: 15px auto 0 auto !important;
+    text-transform: uppercase;
+    display: block; 
 }
 
 .checkout-product-title, #show_my_cart section.shopping-cart .item .table-cell.desc .title, 
@@ -154,6 +154,9 @@ form.new_user .field_with_errors .validation-error {
   color: #F1001D;
   margin-top: 10px;
   margin-bottom: 10px; 
+}
+#shop_order_form #shop_order_acceptations_block .field_with_errors {
+    display: none;  
 }
 
 #empty-cart.page {
