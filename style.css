@@ -1239,7 +1239,7 @@ form input[type=submit]:focus, form input[type=submit]:hover {
     text-align: left;
     margin-bottom: 28px;
 }
-#empty-cart div.page-heading.center, div.page-heading {
+#empty-cart div.page-heading.center {
     padding-top: 9px;
     padding-bottom: 65px;
 }
