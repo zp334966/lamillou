@@ -909,6 +909,7 @@ form label {
     height: 42px;
     color: #243C5E;
     outline: none;
+    outline-offset: unset;
 }
 .form-group {
     text-align: left;
