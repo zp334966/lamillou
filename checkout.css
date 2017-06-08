@@ -911,6 +911,7 @@ form label {
     outline: none;
     outline-offset: unset;
     -webkit-appearance: none;
+    -moz-appearance: none;
 }
 .form-group {
     text-align: left;
