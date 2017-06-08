@@ -386,10 +386,12 @@ form.new_user .field_with_errors .validation-error {
   margin-top: -3px;
   margin-bottom: 20px; 
 }
-#shop_order_delivery_form label[for='shop_order[delivery_option_id]'], #shop_order_form .credit_cards label[for='shop_order[delivery_option_id]'] {
+#shop_order_delivery_form label[for='shop_order[delivery_option_id]'], 
+#shop_order_form .credit_cards label[for='shop_order[delivery_option_id]'] {
   margin-top: -2px; 
 }
-#shop_order_delivery_form label[for='shop_order[delivery_option_id]'] span, #shop_order_form .credit_cards label[for='shop_order[delivery_option_id]'] span {
+#shop_order_delivery_form label[for='shop_order[delivery_option_id]'] span, 
+#shop_order_form .credit_cards label[for='shop_order[delivery_option_id]'] span {
     color: #9aa1ac; 
 }
 
@@ -411,14 +413,8 @@ form.new_user .field_with_errors .validation-error {
 #shipping_payments_terms #payment_kind_selector label.payment-gateway-payu {
     margin-top: -7px; 
 }
-#shipping_payments_terms #payment_kind_selector label.payment-gateway-payu img.payu {
-      content: url(assets/logo-payu.svg); }
-
 #shipping_payments_terms #payment_kind_selector label.payment-gateway-paypal {
     margin-top: -2px; 
-}
-#shipping_payments_terms #payment_kind_selector label.payment-gateway-paypal img.paypal {
-      content: url(assets/logo-paypal.png); 
 }
 #shipping_payments_terms #payment_kind_selector:after {
     display: none; 
