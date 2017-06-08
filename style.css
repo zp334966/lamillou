@@ -1328,3 +1328,17 @@ section.catalog-grid {
     }
 }
 
+@keyframes square-spin {
+  25% {
+        background: #16407d;
+  }
+  50% {
+        background: #16407d;
+  }
+  75% {
+        background: black;
+  }
+  100% {
+        background: #16407d;
+  }
+}
