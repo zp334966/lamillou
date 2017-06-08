@@ -122,6 +122,10 @@
   white-space: normal;
   color: #16407d; 
 }
+#show_order_products_block .item .table-cell, .shopping-cart .item .table-cell {
+    display: block;
+    clear: both;
+}
 
 .checkout-error label, #shop_order_form .field_with_errors label, form.new_user .field_with_errors label {
   font-size: 13px;
@@ -239,7 +243,7 @@ div#show_my_cart div.page-heading h3 {
 #show_my_cart #show_order_products_block .item .table-cell.desc, 
 #order_last_step section.shopping-cart .item .table-cell.desc, 
 #order_last_step #show_order_products_block .item .table-cell.desc {
-     margin-left: 105px;
+     padding-left: 105px;
      padding-right: 0;
      position: relative;
 }
@@ -307,6 +311,7 @@ div#show_my_cart div.page-heading h3 {
 #order_last_step #show_order_products_block .item .table-cell.desc .qnt-count {
       position: absolute;
       bottom: 0; 
+      right: 50%;
 }
 #show_my_cart section.shopping-cart .item .table-cell.desc .qnt-count a.incr-btn, 
 #show_my_cart #show_order_products_block .item .table-cell.desc .qnt-count a.incr-btn, 
