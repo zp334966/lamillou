@@ -533,7 +533,9 @@ div#order_last_step div#show_order_products_block div.item div.table-cell.desc {
     margin: 0 !important;
 }
 
-
+.new_form div span {
+    display: inline;
+}
 #shop_order_form #country_list {
   display: none; 
 }
@@ -947,6 +949,11 @@ form label {
 }
 .form_accept_checks a {
     text-decoration: underline;
+}
+.form_accept_checks span {
+    position: absolute;
+    left: 36px;
+    padding-top: 15px;
 }
 form input[type=submit]:focus, form input[type=submit]:hover {
     color: white !important;
