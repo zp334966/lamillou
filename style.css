@@ -369,6 +369,8 @@ div.page-heading.center, div.page-heading {
     text-align: center;
     padding-top: 11px;
     padding-bottom: 36px;
+    width: 285px;
+    margin: auto;
 }
 .footer-subscribe-widget-submitted p {
     font-size: 16px;
