@@ -129,7 +129,18 @@ function emptyCart() {
     $('#empty-cart .page-heading h2').remove();
   }
 };
-  
+
+function showMyCart () {
+  $( document ).ready(function() {
+    if ($( '#cart-totals' ).length ) {
+      $( ' #cart-totals .btn' ).detach().insertAfter( "#cart-totals" );
+      $( ' #show_my_cart .btn' ).text("Zamawiam");
+    } 
+  });
+};
+showMyCart();
+
+
 if ($( '.page-heading h3' ).length ){
   $(document).ready(emptyCart);
   $("html").ajaxStop(emptyCart);
