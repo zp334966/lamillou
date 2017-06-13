@@ -106,7 +106,7 @@
 .checkout-button-proceed-big, #show_my_cart a.btn, #show_my_cart a.btn.btn-left.btn-primary, #order_last_step a.btn, 
 #order_last_step a.btn.btn-left.btn-primary, #login_box input[type=submit].submit, 
 #login_box a.just_order, #login_box h2.big_link a, #registration_form .cms_buttons input[type=submit],
-#order_last_step .buttons.panel a {
+#order_last_step .buttons.panel a.continue_with_order.right {
     font-size: 15px !important;
     font-weight: 700;
     background-color: #16407d;
@@ -276,7 +276,6 @@ div#show_my_cart div.page-heading h3 {
 #order_last_step section.shopping-cart .item .table-cell.desc .row, 
 #order_last_step #show_order_products_block .item .table-cell.desc .row {
      position: relative;
-     min-height: 135px; 
 }
 #show_my_cart section.shopping-cart .item .table-cell.desc .row > div:first-child, 
 #show_my_cart #show_order_products_block .item .table-cell.desc .row > div:first-child, 
@@ -439,9 +438,6 @@ div#order_last_step {
 div#order_last_step div#show_order_products_block {
     padding-left: 0px;
     padding-right: 0px;
-}
-div#order_last_step div#show_order_products_block div.item div.table-cell.desc {
-    margin-left: 108px;
 }
 
 #show_my_cart #cart_summary_info, #order_last_step #cart_summary_info {
