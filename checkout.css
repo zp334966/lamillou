@@ -454,7 +454,7 @@ div#order_last_step div#show_order_products_block {
 #show_my_cart #cart_summary_info, #order_last_step #cart_summary_info {
     display: none; 
 }
-#show_my_cart #cart-totals, #order_last_step #cart-totals {
+#show_my_cart #cart-totals, #order_last_step #cart-totals, #shop_order_payment {
     border: 0;
     background-color: #F7F7F7;
     margin: 0;
@@ -798,20 +798,6 @@ div#shop_order_addresses p.item {
     bottom: auto !important; 
 }
 
-
-#shop_order_payment {
-    border: 0;
-    font-family: 'Open Sans';
-    background-color: #F7F7F7;
-    margin: 0;
-    padding: 20px 15px 25px 10px;
-    color: #00457b;
-    text-align: left;
-    text-transform: none;
-    margin-left: -10px;
-    margin-right: -10px;
-    text-transform: uppercase;    
-}
 #shop_order_payment h4 {
     color: #16407D;
     font-size: 15px;
