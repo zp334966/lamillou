@@ -1032,15 +1032,15 @@ $( '.canvas-photo-view' ).click(HidePhotoView);
 if ( $('.sp-slider-photo-view').length ) {
 	$(window).load ( function () {
 	    var h = $( '.ms-view.ms-fade-view' ).height();
-	    var hWindow = $( window ).height();  alert(hWindow);
-	    var h2 = $('.sp-slider').height() + 27; alert(h2);
+	    var hWindow = $( window ).height();
+	    var h2 = $('.sp-slider').height();
 	    $( '.sp-slider-photo-view' ).height(h);
 	    $( '.canvas-photo-view' ).height(hWindow - h2);
 	});  
 	$(window).on('resize', function(){
 	    var h = $( '.ms-view.ms-fade-view' ).height();
  	    var hWindow = $( window ).height();
-	    var h2 = $('.sp-slider').height() + 27;
+	    var h2 = $('.sp-slider').height();
 	    $( '.sp-slider-photo-view' ).height(h);
 	    $( '.canvas-photo-view' ).height(hWindow - h2);
 	});
