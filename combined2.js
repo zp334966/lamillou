@@ -988,7 +988,8 @@ var advertDesVisible = 'none';
   
 function photoDisplay() {
   $('.sp-slider').addClass("photo-view");
-  $('#exit-photo-view').addClass("photo-view");    
+  $('#exit-photo-view').addClass("photo-view");   
+  $('sp-slider-photo-view').addClass("active"); 
 };
 function photoHideLayout() {
   $('.sticky-wrapper').hide();
@@ -1010,6 +1011,7 @@ function photoView() {
 function HidePhotoView() {
   $('.sp-slider').removeClass("photo-view");
   $('#exit-photo-view').removeClass("photo-view");
+  $('sp-slider-photo-view').removeClass("active"); 
   $('.sticky-wrapper').show();
   $('.advertisement-mobile').css('display', advertMobVisible);
   $('.advertisement-desktop').css('display', advertDesVisible);
