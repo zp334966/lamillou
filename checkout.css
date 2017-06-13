@@ -422,6 +422,9 @@ div#show_my_cart div.page-heading h3 {
     z-index: 1;    
     padding-top: 3px;
 }
+#show_my_cart a.btn {
+    margin: 29px auto 19px auto !important;
+}
 #show_order_products_block .item .table-cell, .shopping-cart .item .table-cell {
     vertical-align: top;
 }
@@ -447,7 +450,7 @@ div#order_last_step div#show_order_products_block div.item div.table-cell.desc {
     border: 0;
     background-color: #F7F7F7;
     margin: 0;
-    padding: 25px 10px 38px 10px;
+    padding: 9px 10px 0px 10px;
 }
 #show_my_cart #cart-totals div, #order_last_step #cart-totals div {
       padding: 0; 
@@ -465,7 +468,8 @@ div#order_last_step div#show_order_products_block div.item div.table-cell.desc {
       color: #16407d;
       font-size: 15px;
       font-weight: 700;
-      padding-bottom: 10px; 
+      padding-bottom: 22px;
+      padding-top: 10px;
 }
 #show_my_cart #cart-totals .row.sum, #order_last_step #cart-totals .row.sum {
       border-top: 1px solid #d0d9e5;
