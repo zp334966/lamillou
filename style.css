@@ -364,6 +364,26 @@ div.page-heading.center, div.page-heading {
     color: #D0D9E5;
     letter-spacing: 0;
 }
+.footer-subscribe-widget-submitted {
+    display: none;
+    text-align: center;
+    padding-top: 11px;
+    padding-bottom: 36px;
+}
+.footer-subscribe-widget-submitted p {
+    font-size: 16px;
+    color: #16407D;
+    letter-spacing: 0;
+    line-height: 20px;
+    font-weight: 600;
+    margin-bottom: 14px !important;
+}
+.footer-subscribe-widget-submitted span {
+    font-size: 14px;
+    color: #243C5E;
+    letter-spacing: 0;
+    line-height: 20px;
+}
 .gallery-grid.masonry .item2 {
     position: relative;
     float: left;
