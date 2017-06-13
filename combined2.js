@@ -1008,6 +1008,8 @@ function photoView() {
   if (! $(this).hasClass("active")) {
     photoHideLayout();
     photoDisplay();
+  } else {
+    HidePhotoView();  
   }
 };
 
@@ -1028,7 +1030,6 @@ function HidePhotoView() {
 
 $( '.sp-slider-photo-view' ).click(photoView);
 $( '#exit-photo-view' ).click(HidePhotoView);
-$( '.sp-slider-photo-view.active' ).click(HidePhotoView);
 $( '.canvas-photo-view' ).click(HidePhotoView);
 
 if ( $('.sp-slider-photo-view').length ) {
