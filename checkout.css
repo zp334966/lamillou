@@ -443,39 +443,40 @@ div#order_last_step div#show_order_products_block div.item div.table-cell.desc {
 #show_my_cart #cart_summary_info, #order_last_step #cart_summary_info {
     display: none; 
 }
-#show_my_cart section#cart-totals, #order_last_step section#cart-totals {
+#show_my_cart #cart-totals, #order_last_step #cart-totals {
     border: 0;
     background-color: #F7F7F7;
     margin: 0;
     padding: 25px 10px 38px 10px;
 }
-#show_my_cart section#cart-totals div, #order_last_step section#cart-totals div {
+#show_my_cart #cart-totals div, #order_last_step #cart-totals div {
       padding: 0; 
 }
-#show_my_cart section#cart-totals div.totals, #order_last_step section#cart-totals div.totals {
+#show_my_cart #cart-totals .totals, #order_last_step #cart-totals .totals {
       padding: 0; 
 }
-#show_my_cart section#cart-totals div.cart-totals div, div#order_last_step section#cart-totals div.cart-totals div {
+#show_my_cart #cart-totals .cart-totals div, #order_last_step #cart-totals .cart-totals div {
       color: #243C5E;
       font-size: 14px;
       line-height: 28px; 
 }
-#show_my_cart section#cart-totals .row.sum, #order_last_step section#cart-totals .row.sum {
-      border-top: 1px solid #d0d9e5;
-      margin-top: 10px;
-      padding-top: 10px; 
-}
-#show_my_cart section#cart-totals .row.sum div, #order_last_step section#cart-totals .row.sum div {
-        font-size: 15px;
-        font-weight: 700;
-        line-height: 30px; 
-}
-#show_my_cart section#cart-totals div.cart-totals-label, #order_last_step section#cart-totals div.cart-totals-label {
+#show_my_cart #cart-totals .cart-totals-label, #order_last_step #cart-totals .cart-totals-label {
       color: #16407d;
       font-size: 15px;
       font-weight: 700;
       padding-bottom: 10px; 
 }
+#show_my_cart #cart-totals .row.sum, #order_last_step #cart-totals .row.sum {
+      border-top: 1px solid #d0d9e5;
+      margin-top: 10px;
+      padding-top: 10px; 
+}
+#show_my_cart #cart-totals .row.sum div, #order_last_step #cart-totals .row.sum div {
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 30px; 
+}
+
 #show_my_cart #order-steps, #order_last_step #order-steps {
     display: none; 
 }
