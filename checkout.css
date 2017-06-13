@@ -428,7 +428,7 @@ div#show_my_cart div.page-heading h3 {
 #show_order_products_block .item .table-cell, .shopping-cart .item .table-cell {
     vertical-align: top;
 }
-#order_last_step, #show_my_cart {
+#show_my_cart {
     border-top: 1px solid #D0D9E5;
 }
 div#order_last_step {
@@ -714,7 +714,7 @@ p.refund-info a {
 #order_last_step {
   margin-left: 10px; 
 }
-#order_last_step #order_number_block {
+#order_last_step #order_number_block h2 {
     font-weight: 700;
     font-size: 16px;
     color: #16407D;
