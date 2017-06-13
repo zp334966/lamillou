@@ -1005,9 +1005,10 @@ function photoHideLayout() {
 };
   
 function photoView() {
-  if ($(this).hasClass("active")) alert('fdfdf');
-  photoHideLayout();
-  photoDisplay();
+  if (! $(this).hasClass("active")) {
+    photoHideLayout();
+    photoDisplay();
+  }
 };
 
 function HidePhotoView() {
