@@ -276,6 +276,7 @@ div#show_my_cart div.page-heading h3 {
 #order_last_step section.shopping-cart .item .table-cell.desc .row, 
 #order_last_step #show_order_products_block .item .table-cell.desc .row {
      position: relative;
+     min-height: 95px;
 }
 #show_my_cart section.shopping-cart .item .table-cell.desc .row > div:first-child, 
 #show_my_cart #show_order_products_block .item .table-cell.desc .row > div:first-child, 
@@ -396,9 +397,13 @@ div#show_my_cart div.page-heading h3 {
       display: none; 
 }
 #show_my_cart section.shopping-cart .item, #show_my_cart #show_order_products_block .item, 
-#order_last_step section.shopping-cart .item, #order_last_step #show_order_products_block .col-sm-12 {
+#order_last_step section.shopping-cart .item {
       position: relative; 
       padding: 0 2px 12px 0;
+}
+#order_last_step #show_order_products_block .col-sm-12 {
+      padding: 0 2px 22px 0;
+      margin-top: 22px;
 }
 #show_my_cart section.shopping-cart .cart_product_remove_button, 
 #show_my_cart #show_order_products_block .cart_product_remove_button, 
@@ -427,6 +432,13 @@ div#show_my_cart div.page-heading h3 {
 }
 #show_order_products_block .item .table-cell, .shopping-cart .item .table-cell {
     vertical-align: top;
+}
+#show_order_products_block .item .money {
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 0px !important;
+    left: 0;
+    right: 0;
 }
 #show_my_cart {
     border-top: 1px solid #D0D9E5;
@@ -767,8 +779,9 @@ div#shop_order_addresses p.item {
 
 
 #show_order_products_block .item {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 0;
+    margin: 0;
+    height: 95px;
 }
 #show_order_products_block p.cart_product_quantity_form {
   display: none; 
