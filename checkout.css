@@ -198,7 +198,7 @@ form.new_user .field_with_errors .validation-error {
   font-family: 'Open Sans';
   margin-bottom: 0; 
 }
-#show_my_cart .page-heading, #order_last_step .page-heading {
+#show_my_cart .page-heading {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 0; 
@@ -482,7 +482,7 @@ div#order_last_step div#show_order_products_block div.item div.table-cell.desc {
         line-height: 30px; 
 }
 
-#show_my_cart #order-steps, #order_last_step #order-steps {
+#show_my_cart #order-steps {
     display: none; 
 }
 
