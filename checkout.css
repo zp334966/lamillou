@@ -286,8 +286,7 @@ div#show_my_cart div.page-heading h3 {
 }
 #show_my_cart section.shopping-cart .item .table-cell.desc .row > div.money, 
 #show_my_cart #show_order_products_block .item .table-cell.desc .row > div.money, 
-#order_last_step section.shopping-cart .item .table-cell.desc .row > div.money, 
-#order_last_step #show_order_products_block .item .table-cell.desc .row > div.money {
+#order_last_step section.shopping-cart .item .table-cell.desc .row > div.money {
      text-align: right !important;
      margin-bottom: 55px;
      position: initial; 
