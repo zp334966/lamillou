@@ -170,16 +170,18 @@ $( document ).ready(function() {
     $( '.field_with_errors .icheckbox_minimal-blue' ).addClass("checked disabled");
   } 
 });
-/*
-$( document ).ready(function() {
-  $( ".form_accept_checks" ).each(function() {
-    var f = $(this).html();
-    var f2 = f.replace("</label>", "</label><span>");
-    var f3 = f2.replace("</a>.", "</a>.</span>");
-    $( this ).html(f3);
+
+if ($( '.form_accept_checks' ).length ) {
+  $( document ).ready(function() {
+    $( ".form_accept_checks" ).each(function() {
+      var f = $(this).html();
+      var f2 = f.replace("</label>", "</label><span>");
+      var f3 = f2.replace("</a>.", "</a>.</span>");
+      $( this ).html(f3);
+    });
   });
-});
-*/
+};
+
 $( "[for=shop_order_edit_shipping_address]" ).click(function() {
     $("#shop_order_show_shipping_address").hide();
     $("#shop_order_edit_shipping_address_form").slideDown(500)    
