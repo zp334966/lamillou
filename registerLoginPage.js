@@ -131,12 +131,12 @@ function emptyCart() {
 };
 
 function showMyCart () {
-  $( document ).ready(function() {
-    if ($( '#cart-totals' ).length ) {
+  if ($( '#cart-totals' ).length ) {  
+    $( document ).ready(function() {
       $( ' #cart-totals .btn' ).detach().insertAfter( "#cart-totals" );
       $( ' #show_my_cart .btn' ).text("Zamawiam");
-    } 
-  });
+    });
+  }     
 };
 showMyCart();
 
