@@ -1024,6 +1024,13 @@ function HidePhotoView() {
 
 $( '.sp-slider-photo-view' ).click(photoView);
 $( '#exit-photo-view' ).click(HidePhotoView);
+
+$('.sp-slider.photo-view').bind('click', function(e) {
+  if($(e.target).is('.ms-thumb-list')) {
+    alert('tal');
+  }
+});
+
 if ( $('.sp-slider-photo-view').length ) {
 	$(window).load ( function () {
 	    var h = $( '.ms-view.ms-fade-view' ).height();
