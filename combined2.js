@@ -1025,7 +1025,7 @@ function HidePhotoView() {
 $( '.sp-slider-photo-view' ).click(photoView);
 $( '#exit-photo-view' ).click(HidePhotoView);
 
-$('.sp-slider.photo-view').bind('click', function(e) {
+$(body).bind('click', function(e) {
   if($(e.target).is('.ms-thumb-list')) {
     alert('tal');
   }
