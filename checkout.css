@@ -960,6 +960,9 @@ form input[type=submit]:focus, form input[type=submit]:hover {
     background-color: #16407d;
 }
 
+.container.restore_password .header {
+    z-index: 1;
+}
 .container.restore_password .col-sm-6 {
     text-align: left;
     color: #F1001D;  
