@@ -172,7 +172,7 @@ $( ".form_accept_checks" ).each(function() {
 });
 $( document ).ready(function() {
   if ($( '.field_with_errors .icheckbox_minimal-blue' ).length ) {
-    $( '.field_with_errors .icheckbox_minimal-blue' ).addClass("checked disabled");
+    $( '.field_with_errors .icheckbox_minimal-blue' ).addClass("obligatory");
   } 
 });
 
