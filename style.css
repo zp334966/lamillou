@@ -707,6 +707,9 @@ section.catalog-grid {
     padding: 20px 23px 23px 23px; 
     cursor: pointer;
 }
+.sp-slider.photo-view .master-slider {
+    margin: 0px !important;
+}
 .site-layout.unvisible {
     visibility: hidden;
     position: fixed;
