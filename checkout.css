@@ -966,6 +966,9 @@ form input[type=submit]:focus, form input[type=submit]:hover {
 .container.restore_password .cms_buttons .col-sm-6 {
     text-align: center;
 }
+.restore_password .col-sm-6 {
+    color: #F1001D;
+}
 .restore_password .cancel, .restore_password .help, .restore_password .col-sm-6 {
     font-family: 'Open Sans';
     font-size: 13px;
