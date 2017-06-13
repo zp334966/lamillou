@@ -674,14 +674,14 @@ section.catalog-grid {
     max-width: 56px !important;
     border: 1px solid #D0D9E5;
     border-radius: 0px;
-    margin: 0px 8px 0px 0px !important; 
+    margin: 2px 8px 0px 0px !important; 
     opacity: 1;
     vertical-align: middle;
 }
 .sp-slider .ms-thumb-frame-selected {
     height: 60px !important;
     max-width: 60px !important;
-    margin-left: 0px !important;
+    margin: 0px 8px 0px 0px !important; 
     border: 1px solid #16407D !important; 
 }
 .ms-skin-default .ms-nav-next, .ms-skin-default .ms-nav-prev {
