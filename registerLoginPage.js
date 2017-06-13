@@ -129,7 +129,7 @@ function emptyCart() {
     $('#empty-cart .page-heading h2').remove();
   }
 };
-
+/*
 function showMyCart () {
   if ($( '#cart-totals' ).length ) {  
     $( document ).ready(function() {
@@ -184,3 +184,4 @@ $( "[for=shop_order_edit_shipping_address]" ).click(function() {
     $("#shop_order_show_shipping_address").hide();
     $("#shop_order_edit_shipping_address_form").slideDown(500)    
 }); 
+*/
