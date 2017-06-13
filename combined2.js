@@ -1005,6 +1005,7 @@ function photoHideLayout() {
 };
   
 function photoView() {
+  if ($(this).hasClass("active")) alert('fdfdf');
   photoHideLayout();
   photoDisplay();
 };
@@ -1035,14 +1036,14 @@ if ( $('.sp-slider-photo-view').length ) {
 	    var hWindow = $( window ).height();
 	    var h2 = $('.sp-slider').height();
 	    $( '.sp-slider-photo-view' ).height(h);
-	    $( '.canvas-photo-view' ).height(hWindow - h2);
+	    $( '.canvas-photo-view' ).height(hWindow - h2 - 1);
 	});  
 	$(window).on('resize', function(){
 	    var h = $( '.ms-view.ms-fade-view' ).height();
  	    var hWindow = $( window ).height();
 	    var h2 = $('.sp-slider').height();
 	    $( '.sp-slider-photo-view' ).height(h);
-	    $( '.canvas-photo-view' ).height(hWindow - h2);
+	    $( '.canvas-photo-view' ).height(hWindow - h2 - 1);
 	});
 };
 
