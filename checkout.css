@@ -825,6 +825,7 @@ div#shop_order_addresses p.item {
 }
 #shop_order_payment .totals_summary .table-row .nowrap{
     font-weight: 600;
+    text-transform: lowercase;
 }
 #shop_order_payment .table-cell strong {
     font-size: 16px;
