@@ -493,14 +493,22 @@ div#order_last_step div#show_order_products_block {
       padding-bottom: 22px;
       padding-top: 10px;
 }
+#order_last_step #shop_order_payment .totals_summary  p {
+      line-height: 26px;
+}
+#order_last_step #shop_order_payment .totals_summary div:first-last p {
+      padding-bottom: 19px;
+}
 #order_last_step #shop_order_payment .item.totals_summary {
       border-collapse: collapse;
       margin-bottom: 26px;
+      font-weight: 600;
 }
 #show_my_cart #cart-totals .row.sum, #order_last_step #cart-totals .row.sum, 
 #order_last_step #shop_order_payment .totals_summary .table-row.sum  {
       border-top: 1px solid #d0d9e5;
       margin-top: 10px;
+      font-weight: 700;
 }
 #show_my_cart #cart-totals .row.sum div, #order_last_step #cart-totals .row.sum div {
         font-size: 15px;
