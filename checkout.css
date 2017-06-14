@@ -316,6 +316,12 @@ div#show_my_cart div.page-heading h3 {
      font-size: 15px;
      font-weight: 700; 
 }
+#order_last_step #show_order_products_block .item .table-cell.desc .product_price_total span {
+     font-weight: 600;
+     font-size: 13px;
+     color: #243C5E;
+     letter-spacing: 0.32px;
+}
 #show_my_cart .product_price_total.nowrap {
     font-weight: 600;
 }
@@ -773,6 +779,9 @@ p.refund-info a {
     line-height: 45px;
     margin: 0;
     padding-bottom: 11px;
+}
+#order_last_step .shipping_information_title {
+    margin-top: 19px;
 }
 #order_last_step .item.table.totals_summary>div.table-row>p.table-cell:last-of-type,
 #order_last_step .item.table.totals_summary>div.table-row:first-of-type>p.table-cell {
