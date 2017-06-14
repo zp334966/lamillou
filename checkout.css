@@ -751,11 +751,8 @@ p.refund-info a {
 #order_last_step a.continue_shopping {
     display: none; 
 }
-#order_last_step div.item {
+#order_last_step #show_order_products_block div.item {
     border: none; 
-}
-#order_last_step div.item p {
-      padding-left: 0 !important; 
 }
 #order_last_step #order_confirmation_clause p {
     font-size: 13px;
@@ -786,16 +783,20 @@ p.refund-info a {
      margin-bottom: 29px !important;
 }
 #shop_order_addresses p.item, #shop_order_delivery .item, #shop_order_payment_type .item {
-    font-size: 14px;
-    color: #243C5E;
-    letter-spacing: 0;
-    line-height: 20px;
     padding: 0 0 29px 0;
     margin: 0 0 12px 0 !important;
     border-bottom: 1px solid #d0d9e5;
 }
 #shop_order_payment_type .item {
     border: none;
+}
+#shop_order_addresses p.item, #shop_order_delivery .item p, #shop_order_payment_type .item p {
+    font-size: 14px;
+    color: #243C5E;
+    letter-spacing: 0;
+    line-height: 20px;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 #show_order_products_block .item {
