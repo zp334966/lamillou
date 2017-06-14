@@ -495,12 +495,12 @@ div#order_last_step div#show_order_products_block {
 }
 #order_last_step #shop_order_payment .item.totals_summary {
       border-collapse: collapse;
+      margin-bottom: 26px;
 }
 #show_my_cart #cart-totals .row.sum, #order_last_step #cart-totals .row.sum, 
 #order_last_step #shop_order_payment .totals_summary .table-row.sum  {
       border-top: 1px solid #d0d9e5;
       margin-top: 10px;
-      padding-top: 10px; 
 }
 #show_my_cart #cart-totals .row.sum div, #order_last_step #cart-totals .row.sum div {
         font-size: 15px;
@@ -797,6 +797,10 @@ p.refund-info a {
 }
 #order_last_step .item.table.totals_summary>div.table-row>p.table-cell:first-of-type {
     padding: 0px;
+}
+#order_last_step .item.table.totals_summary .sum p {
+    height: 45px;
+    vertical-align: middle;
 }
 #order_last_step #button-with-price {
      margin-top: 12px !important;
