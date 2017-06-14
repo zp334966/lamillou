@@ -484,6 +484,7 @@ div#order_last_step div#show_order_products_block {
       color: #243C5E;
       font-size: 14px;
       line-height: 28px; 
+      font-weight: 600;
 }
 #show_my_cart #cart-totals div.cart-totals-label, #order_last_step #cart-totals div.cart-totals-label,
 #show_my_cart #cart-totals .cart-totals .sum div, #order_last_step #cart-totals .cart-totals .sum div {
