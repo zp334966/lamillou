@@ -170,6 +170,20 @@ function orderLastStep () {
     $( "#shop_order_delivery div" ).removeClass("col-xs-6 col-sm-4 col-md-6 col-lg-4");
     $( "#shop_order_payment_type div" ).removeClass("col-xs-6 col-sm-4 col-md-6 col-lg-4");
   };
+  $('#order_last_step h4').each(function() {      
+          if ($(this).text() === "Zamówione artykuły" ){
+            $(this).text("TWOJE ZAMÓWIENIE");              
+          }  
+          if ($(this).text() === "Adres dostawy" ){
+            $(this).text("DANE ADRESOWE");              
+          } 
+          if ( $(this).text().indexOf("Dostawa") != -1 ){
+            $(this).text("SPOSÓB DOSTAWY");              
+          } 
+          if ( $(this).text().indexOf("Płatność") != -1 ){
+            $(this).text("SPOSÓB PŁATNOŚCI");              
+          } 
+  });   
 };
 orderLastStep();
 
