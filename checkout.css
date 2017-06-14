@@ -455,6 +455,7 @@ div#order_last_step {
 div#order_last_step div#show_order_products_block {
     padding-left: 0px;
     padding-right: 0px;
+    margin-top: -8px;
 }
 
 #show_my_cart #cart_summary_info, #order_last_step #cart_summary_info {
@@ -789,7 +790,7 @@ p.refund-info a {
 }
 #order_last_step #button-with-price {
      margin-top: 12px !important;
-     margin-bottom: 29px !important;
+     margin-bottom: 13px !important;
 }
 #shop_order_addresses p.item, #shop_order_delivery .item, #shop_order_payment_type .item {
     padding: 0 0 29px 0;
