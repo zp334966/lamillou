@@ -537,6 +537,10 @@ div#order_last_step div#show_order_products_block {
     right: 0;
     margin-top: -10px;
 }
+#shop_order_show_shipping_address {
+    margin-top: 10px;
+    margin-left: 0px;
+}
 #shop_order_shipping_form .new_button:hover {
     background-color: unset;
 }
