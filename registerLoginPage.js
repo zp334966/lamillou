@@ -152,7 +152,7 @@ function orderLastStep () {
             $(this).text("DOSTAWA");              
           } 
           if ($(this).text() === "Razem:" ){
-            $(this).text("SUMA:");              
+            $(this).text("SUMA");              
           } 
     });  
   };  
