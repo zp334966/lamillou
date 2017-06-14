@@ -169,6 +169,13 @@ function orderLastStep () {
     $( "#order_last_step #shop_order_payment .row div.col-xs-6:nth-child(2)" ).clone().appendTo("#shop_order_payment_type");
     $( "#shop_order_delivery div" ).removeClass("col-xs-6 col-sm-4 col-md-6 col-lg-4");
     $( "#shop_order_payment_type div" ).removeClass("col-xs-6 col-sm-4 col-md-6 col-lg-4");
+    $('#order_last_step #show_order_products_block .item .money div.price.nowrap').each(function() {      
+	     $(this).hide();
+    });
+    $('#order_last_step #show_order_products_block .item .money div.product_price_total').each(function() {      
+	     var total = $(this).find("span").clone();
+       $(this).html(total);
+    }); 
   };
   $('#order_last_step h4').each(function() {      
           if ($(this).text() === "Zamówione artykuły" ){
@@ -183,7 +190,7 @@ function orderLastStep () {
           if ( $(this).text().indexOf("Płatność") != -1 ){
             $(this).text("SPOSÓB PŁATNOŚCI");              
           } 
-  });   
+  });     
 };
 orderLastStep();
 
