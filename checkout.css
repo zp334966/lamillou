@@ -117,7 +117,10 @@
     text-transform: uppercase;
     display: block; 
 }
-
+#order_last_step form .buttons.panel {
+    margin-bottom: 40px;
+    margin-top: 34px;
+}
 .checkout-product-title, #show_my_cart section.shopping-cart .item .table-cell.desc .title, 
 #show_my_cart #show_order_products_block .item .table-cell.desc .title, 
 #order_last_step section.shopping-cart .item .table-cell.desc .title, 
@@ -491,6 +494,9 @@ div#order_last_step div#show_order_products_block {
       padding-top: 10px;
 }
 #show_my_cart #cart-totals .row.sum, #order_last_step #cart-totals .row.sum, 
+#order_last_step #shop_order_payment .item.totals_summary {
+      border-collapse: collapse;
+}
 #order_last_step #shop_order_payment .totals_summary .table-row.sum  {
       border-top: 1px solid #d0d9e5;
       margin-top: 10px;
