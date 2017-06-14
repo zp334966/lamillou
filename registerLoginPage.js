@@ -124,9 +124,9 @@ function emptyCart() {
     $( '#empty-cart .page-heading h3' ).text('TWOJE ZAMÓWIENIE');
     $( '#empty-cart .page-heading h3' ).after("<img src='https://cdn.rawgit.com/zp334966/lamillou/f45ff1bf/assets/koszyk.svg'/>");
     $( '#empty-cart .page-heading img' ).after("<h5>W Twoim koszyku nie ma jeszcze żadnych produktów.</h5>");  
-    $('#empty-cart .page-heading .btn').remove();
+    $('#empty-cart .page-heading .btn').hide();
     $('#empty-cart br').remove();
-    $('#empty-cart .page-heading h2').remove();
+    $('#empty-cart .page-heading h2').hide();
   }
 };
 
