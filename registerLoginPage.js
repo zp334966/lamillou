@@ -191,6 +191,7 @@ function orderLastStep () {
             $(this).text("SPOSÓB PŁATNOŚCI");              
           } 
   });     
+  hideInHeader()
 };
 orderLastStep();
 
