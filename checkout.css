@@ -772,17 +772,19 @@ p.refund-info a {
 #order_last_step .subtitle, #show_my_cart .subtitle {
     font-weight: 400;
 }
-#order_last_step .shipping_information_title {
+#order_last_step .shipping_information_title, #order_last_step #shop_order_delivery, #order_last_step #shop_order_payment_type {
     line-height: 45px;
-    padding-top: 9px;
     margin: 0;
-    padding-bottom: 0px;
+    padding-bottom: 11px;
 }
 #order_last_step .item.table.totals_summary>div.table-row>p.table-cell:last-of-type,
 #order_last_step .item.table.totals_summary>div.table-row:first-of-type>p.table-cell {
     padding-right: 0px;
 }
-
+#order_last_step #button-with-price {
+     margin-top: 12px !important;
+     margin-bottom: 29px !important;
+}
 div#shop_order_addresses p.item {
     padding: 0;
 }
