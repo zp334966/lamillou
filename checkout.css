@@ -863,6 +863,8 @@ p.refund-info a {
     padding-bottom: 10px;  
     text-transform: uppercase;
     text-align: left;
+    margin-top: 12px;
+    margin-bottom: 17px;
 }
 #shop_order_payment .totals_summary {
     border:none;    
