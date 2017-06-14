@@ -876,6 +876,7 @@ p.refund-info a {
 }
 #shop_order_payment .totals_summary .table-row.sum p {
     font-size: 15px;
+    color: #16407D;
 }
 #shop_order_payment .totals_summary .table-row .nowrap{
     font-weight: 600;
