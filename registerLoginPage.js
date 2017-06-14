@@ -141,6 +141,24 @@ function showMyCart () {
 showMyCart();
 
 
+function orderLastStep () {
+  if ( $( "#order_last_step #shop_order_payment" ).length ) {
+    $( "#order_last_step #shop_order_payment div.totals_summary div.table-row:nth-child(3)" ).addClass("sum"); 
+    $('#shop_order_payment .totals_summary .table-row p').each(function() {      
+          if ($(this).text() === "Wartość zamówienia:" ){
+            $(this).text("RAZEM");              
+          }  
+          if ($(this).text() === "Cena wysyłki:" ){
+            $(this).text("DOSTAWA");              
+          } 
+          if ($(this).text() === "Razem:" ){
+            $(this).text("SUMA:");              
+          } 
+    });  
+  };  
+};
+orderLastStep();
+
 if ($( '.page-heading h3' ).length ){
   $(document).ready(emptyCart);
   $("html").ajaxStop(emptyCart);
