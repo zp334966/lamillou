@@ -493,10 +493,7 @@ div#order_last_step div#show_order_products_block {
       padding-bottom: 22px;
       padding-top: 10px;
 }
-#order_last_step #shop_order_payment .totals_summary  p {
-      line-height: 26px;
-}
-#order_last_step #shop_order_payment .totals_summary div:first-last p {
+#order_last_step #shop_order_payment .totals_summary div.table-row:first-child p {
       padding-bottom: 19px;
 }
 #order_last_step #shop_order_payment .item.totals_summary {
