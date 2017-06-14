@@ -20,8 +20,8 @@ function cmsRegister () {
           }     
         });  
         $('.cms_register .cms_buttons input').each(function() {      
-          $(this)[0].nextSibling.hide();
-          $(this)[1].nextSibling.hide();
+          $(this)[0].nextSibling.attr('style','display:none !important');
+          $(this)[1].nextSibling.attr('style','display:none !important');
         });     
     });
   }    
