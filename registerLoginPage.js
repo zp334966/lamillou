@@ -176,6 +176,7 @@ function orderLastStep () {
 	     var total = $(this).find("span").clone();
        $(this).html(total);
     }); 
+    hideInHeader();
   };
   $('#order_last_step h4').each(function() {      
           if ($(this).text() === "Zamówione artykuły" ){
@@ -191,7 +192,6 @@ function orderLastStep () {
             $(this).text("SPOSÓB PŁATNOŚCI");              
           } 
   });     
-  hideInHeader()
 };
 orderLastStep();
 
