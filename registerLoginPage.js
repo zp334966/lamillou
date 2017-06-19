@@ -267,6 +267,14 @@ function userProfile() {
 };
 userProfile();
 
+
+function showOrders() {
+  if ( $( '#order_last_step #order_number_block.panel .shipping_information_title' ).length ){
+    $('#order_last_step').addClass("order-show");
+  };
+};
+showOrders();
+
 function hideInHeader() {
   $("#nav-toggle").hide();
   $(".search-trigger").hide();
