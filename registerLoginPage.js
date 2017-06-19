@@ -117,6 +117,13 @@ function loginBox () {
 };
 loginBox (); 
 
+function showOrders() {
+  if ( $( '#order_last_step #order_number_block.panel .shipping_information_title' ).length ){
+    $('#order_last_step').addClass("order-show");
+  };
+};
+showOrders();
+
 function emptyCart() {
   var b = $( '.page-heading h3' ).text();
   if (b === 'Koszyk jest pusty') {
@@ -176,7 +183,9 @@ function orderLastStep () {
 	     var total = $(this).find("span").clone();
        $(this).html(total);
     }); 
-    hideInHeader();
+    if  (! $( ".order-show" ).length ) {
+      hideInHeader();
+    }
   };
   $('#order_last_step h4').each(function() {      
           if ($(this).text() === "Zamówione artykuły" ){
@@ -267,13 +276,6 @@ function userProfile() {
 };
 userProfile();
 
-
-function showOrders() {
-  if ( $( '#order_last_step #order_number_block.panel .shipping_information_title' ).length ){
-    $('#order_last_step').addClass("order-show");
-  };
-};
-showOrders();
 
 function hideInHeader() {
   $("#nav-toggle").hide();
