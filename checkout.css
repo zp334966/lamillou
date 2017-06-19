@@ -1007,6 +1007,10 @@ p.refund-info a {
 .cms_user_profile .list-group-item {
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-left: none;
+    border-right: none;
     border-top: 1px solid #d0d9e5;
     border-bottom: 1px solid #d0d9e5;
     margin-left: -10px;
@@ -1026,7 +1030,7 @@ p.refund-info a {
 .cms_user_profile .list-group-item a {
     font-weight: 600;
 }
-.cms_user_profile .list-group-item span strong {
+.cms_user_profile .list-group-item .was_filed_on strong {
     font-weight: 400;
 }
 .cms_user_profile .order_list .historyList li>div a {
@@ -1038,6 +1042,7 @@ p.refund-info a {
     color: #16407D !important;
     letter-spacing: 0;
     text-decoration: underline !important;
+    font-weight: 400;
 }
 
 #confirmation_order_clause {
