@@ -238,6 +238,31 @@ function userProfile() {
     $("<div class='logout'></div>" ).appendTo(".cms_user_profile"); 
     $('.cms_user_profile .cms_user_details .btn-group a:nth-child(3)' ).detach().appendTo(".logout");
     $('.cms_user_profile .logout' ).prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/logout_ico.svg'/>" );
+    $('.cms_user_profile h5').each(function() {      
+          if ( $(this).text().indexOf("Zamówienia w sklepie") != -1 ){
+            $(this).text("ZAMÓWIENIA");              
+          } 
+    }); 
+    $('.cms_user_profile .btn.btn-default').each(function() {      
+          if ( $(this).text().indexOf("Zobacz wszystkie") != -1 ){
+            $(this).text("ZAŁADUJ WIĘCEJ");              
+          } 
+    });
+    $('.order_list.order_history .list-group-item .waiting_for_payment').each(function() {      
+          if ( $(this).text().indexOf("Oczek. na płatność") != -1 ){
+            $(this).text("Oczekuje na płatność");   
+            $(this).parent().prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/pending_ico.svg'/>" );
+          } 
+    });
+    $('.cms_user_profile .order_list.order_history i.fa.fa-shopping-cart').each(function() {      
+          $(this).hide();              
+    });
+    $('.cms_user_profile .order_list.order_history .list-group-item').each(function() {      
+          var d = $(this).find("div").html();
+          $(this).find("div").hide(); 
+          $(this).prepend("<div class='status'>" + d + "</div>");
+         
+    });    
   };  
 };
 userProfile();
