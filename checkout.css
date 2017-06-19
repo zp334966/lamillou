@@ -1004,6 +1004,41 @@ p.refund-info a {
     line-height: 20px;
     text-decoration: underline;
 }
+.cms_user_profile .list-group-item {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top: 1px solid #d0d9e5;
+    border-bottom: 1px solid #d0d9e5;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+    font-size: 13px;
+    color: #16407D;
+    letter-spacing: 0;
+}
+.cms_user_profile .list-group-item .status {
+    margin-bottom: 21px;
+}
+.cms_user_profile .list-group-item .status img {
+    margin-bottom: 4px;
+}
+.cms_user_profile .list-group-item a {
+    font-weight: 600;
+}
+.cms_user_profile .list-group-item span strong {
+    font-weight: 400;
+}
+.cms_user_profile .order_list .historyList li>div a {
+    padding: 0 !important;
+    border: none;
+    top: 11px;
+    right: 9px;
+    font-size: 13px !important;
+    color: #16407D !important;
+    letter-spacing: 0;
+    text-decoration: underline !important;
+}
 
 #confirmation_order_clause {
   display: none; 
