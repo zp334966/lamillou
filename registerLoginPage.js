@@ -255,6 +255,11 @@ function userProfile() {
     $("<div class='logout'></div>" ).appendTo(".cms_user_profile"); 
     $('.cms_user_profile .cms_user_details .btn-group a:nth-child(3)' ).detach().appendTo(".logout");
     $('.cms_user_profile .logout' ).prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/logout_ico.svg'/>" );
+    $('.cms_user_profile .logout a').each(function() {      
+          if ( $(this).text().indexOf("Wyloguj") != -1 ){
+            $(this).text("Wyloguj się");              
+          } 
+    }); 
     $('.cms_user_profile h5').each(function() {      
           if ( $(this).text().indexOf("Zamówienia w sklepie") != -1 ){
             $(this).text("ZAMÓWIENIA");              
