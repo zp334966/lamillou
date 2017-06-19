@@ -989,7 +989,7 @@ p.refund-info a {
     margin-bottom: 29px;
 }
 .cms_user_profile .btn {
-    margin: 0 0 25px 0 !important;  
+    margin: 24px 0 25px 0 !important;  
 }
 .cms_user_profile .logout {
     margin-bottom: 35px;
@@ -1004,6 +1004,9 @@ p.refund-info a {
     line-height: 20px;
     text-decoration: underline;
 }
+.cms_user_profile h5 {
+    margin-bottom: -2px;
+}
 .cms_user_profile .list-group-item {
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
@@ -1015,7 +1018,7 @@ p.refund-info a {
     border-bottom: 1px solid #d0d9e5;
     margin-left: -10px;
     margin-right: -10px;
-    padding: 10px 10px 10px 10px;
+    padding: 13px 10px 13px 10px;
     text-align: left;
     font-size: 13px;
     color: #16407D;
@@ -1034,15 +1037,16 @@ p.refund-info a {
     font-weight: 400;
 }
 .cms_user_profile .order_list .historyList li>div a {
-    padding: 0 !important;
     border: none;
-    top: 11px;
+    top: 0px;
     right: 9px;
     font-size: 13px !important;
     color: #16407D !important;
     letter-spacing: 0;
     text-decoration: underline !important;
     font-weight: 400;
+    margin: 0px !important;
+    padding: 15px 0 15px 10px !important;
 }
 
 #confirmation_order_clause {
