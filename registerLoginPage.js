@@ -208,6 +208,39 @@ if ($( '#order-steps' ).length ){
   });   
 };
 
+function userProfile() {
+  if ( $( '.panel_header.clearfix.cms_user_main' ).length ){
+    $('.panel_header.clearfix.cms_user_main').hide();
+  };	
+  if ( $( '.cms_user_profile' ).length ){
+    $('.cms_user_profile .cms_user_photo' ).hide();
+    $('.cms_user_profile .cms_user_details h4' ).hide();
+    $('.cms_user_profile div.cms_user_details p:nth-child(2)' ).hide();
+    $('.cms_user_profile div.cms_user_details p:nth-child(3)' ).hide();
+    var email = $('.cms_user_profile div.cms_user_details p:nth-child(3) strong' ).html();
+    $('.cms_user_profile div.cms_user_details' ).prepend( "<h6>" + email + "</h6>" );
+    $('.cms_user_profile div.cms_user_details' ).prepend( "<h5>MOJE KONTO</h5>" );
+    $('.cms_user_profile div.cms_user_details' ).prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/myprofile_ico.svg'/>" );
+
+    $('.cms_user_profile .cms_user_details .btn-group a' ).removeClass("btn btn-default"); 
+    $('.cms_user_profile .cms_user_details .btn-group a:nth-child(1)' ).addClass("edit-profile");   
+    $('.cms_user_profile .cms_user_details .btn-group a:nth-child(2)' ).addClass("edit-address"); 
+    $('.cms_user_profile .cms_user_details .btn-group a').each(function() {      
+          if ( $(this).text().indexOf("Edycja profilu") != -1 ){
+            $(this).text("Mój profil");              
+          } 
+          if ( $(this).text().indexOf("Edycja adresów") != -1 ){
+            $(this).text("Mój adres");              
+          } 
+    });  
+    $('.cms_user_profile .cms_user_details .btn-group .edit-profile').prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/profile_ico.svg'/>" );  
+    $('.cms_user_profile .cms_user_details .btn-group .edit-address').prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/edit_adress_ico.svg'/>" );
+    $("<div class='logout'></div>" ).appendTo(".cms_user_profile"); 
+    $('.cms_user_profile .cms_user_details .btn-group a:nth-child(3)' ).detach().appendTo(".logout");
+    $('.cms_user_profile .logout' ).prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/logout_ico.svg'/>" );
+  };  
+};
+userProfile();
 
 function hideInHeader() {
   $("#nav-toggle").hide();
