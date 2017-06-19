@@ -262,7 +262,8 @@ function userProfile() {
     }); 
     $('.cms_user_profile .btn.btn-default').each(function() {      
           if ( $(this).text().indexOf("Zobacz wszystkie") != -1 ){
-            $(this).text("ZAŁADUJ WIĘCEJ");              
+            $(this).text("ZAŁADUJ WIĘCEJ"); 
+	    $(this).removeClass('btn-default').addClass('btn-lam btn-lam-blue');
           } 
     });
     $('.order_list.order_history .list-group-item .waiting_for_payment').each(function() {      
