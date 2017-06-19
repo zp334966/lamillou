@@ -929,6 +929,7 @@ p.refund-info a {
   margin-right: -10px;
   padding-left: 10px;
   padding-right: 10px;
+  text-align: center;
 }
 .cms_user_profile .cms_user_details {
   padding-top: 16px;
@@ -985,9 +986,24 @@ p.refund-info a {
     right: 13px;
 }
 .cms_user_profile .btn-toolbar {
+    margin-bottom: 29px;
+}
+.cms_user_profile .btn {
+    margin: 0 0 25px 0 !important;  
+}
+.cms_user_profile .logout {
     margin-bottom: 35px;
 }
-
+.cms_user_profile .logout img {
+    margin-right: 4px;
+}
+.cms_user_profile .logout a {
+    font-size: 13px;
+    color: #16407D;
+    letter-spacing: 0;
+    line-height: 20px;
+    text-decoration: underline;
+}
 
 #confirmation_order_clause {
   display: none; 
