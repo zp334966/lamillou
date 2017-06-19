@@ -941,6 +941,7 @@ p.refund-info a {
     font-weight: 700;
     margin: 0;
     padding-top: 6px;
+    text-align: center;
 }
 .cms_user_profile .cms_user_details h6 {
     font-size: 15px;
@@ -961,19 +962,22 @@ p.refund-info a {
     line-height: 50px;
     width: 100%;
     padding: 5px 0 17px 0 !important;
-    margin: 0 !important;
+    margin: 0 0 8px 0 !important;
     line-height: 30px;
+    position: relative;
 }
 .cms_user_profile .btn-toolbar .btn-group .edit-profile {
     border-bottom: 1px solid #d0d9e5;
 }
 .cms_user_profile .btn-toolbar .btn-group .icon {
-    position: absolute;
-    left: 2px;
+    margin: 0 11px 3px 2px;
+}
+.cms_user_profile .btn-toolbar .btn-group .edit-profile .icon {
+    margin-bottom: 10px;
 }
 .cms_user_profile .btn-toolbar .btn-group .arrow {
     position: absolute;
-    top: 14px;
+    top: 13px;
     right: 13px;
 }
 .cms_user_profile .btn-toolbar {
