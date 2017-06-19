@@ -242,10 +242,10 @@ function userProfile() {
     $('.cms_user_profile .cms_user_details .btn-group a:nth-child(2)' ).addClass("edit-address"); 
     $('.cms_user_profile .cms_user_details .btn-group a').each(function() {      
           if ( $(this).text().indexOf("Edycja profilu") != -1 ){
-            $(this).text("Mój profil");              
+            $(this).text("Mój Profil");              
           } 
           if ( $(this).text().indexOf("Edycja adresów") != -1 ){
-            $(this).text("Mój adres");              
+            $(this).text("Mój Adres");              
           } 
     });  
     $('.cms_user_profile .cms_user_details .btn-group .edit-profile').prepend( "<img class='icon' src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/profile_ico.svg'/>" );  
