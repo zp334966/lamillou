@@ -930,7 +930,39 @@ p.refund-info a {
   padding-left: 10px;
   padding-right: 10px;
 }
-
+.cms_user_profile .cms_user_details {
+  padding-top: 16px;
+  text-align: center;
+}
+.cms_user_profile .cms_user_details h5 {
+    font-size: 15px;
+    color: #16407D;
+    letter-spacing: 0.38px;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 6px;
+}
+.cms_user_profile .cms_user_details h6 {
+    font-size: 15px;
+    color: #243C5E;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+.cms_user_profile .btn-toolbar>.btn-group {
+    margin-left: 0px;
+    width: 100%;
+}
+.cms_user_profile .btn-toolbar .btn-group a {
+    background: transparent;
+    font-weight: 600;
+    font-size: 15px !important;
+    color: #16407D !important;
+    letter-spacing: 0.38px;
+    line-height: 50px;
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+}
 
 #confirmation_order_clause {
   display: none; 
