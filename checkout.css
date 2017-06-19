@@ -960,9 +960,14 @@ p.refund-info a {
     letter-spacing: 0.38px;
     line-height: 50px;
     width: 100%;
-    padding: 0 !important;
+    padding: 5px 0 17px 0 !important;
     margin: 0 !important;
+    line-height: 30px;
 }
+.cms_user_profile .btn-toolbar .btn-group .edit-profile {
+    border-bottom: 1px solid #d0d9e5;
+}
+
 
 #confirmation_order_clause {
   display: none; 
