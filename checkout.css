@@ -81,7 +81,7 @@
 }
 
 .checkout-header, #show_my_cart div.page-heading h3, #order_last_step .page-heading h3, #shop_order_form h2, 
-#order_last_step h4, #login_box h2, #login_box h3 {
+#order_last_step h4, #login_box h2, #login_box h3, #cms_user_profile h5 {
     font-weight: 700;
     font-size: 15px;
     text-align: left;
@@ -966,6 +966,18 @@ p.refund-info a {
 }
 .cms_user_profile .btn-toolbar .btn-group .edit-profile {
     border-bottom: 1px solid #d0d9e5;
+}
+.cms_user_profile .btn-toolbar .btn-group .edit-profile .icon {
+    position: absolute;
+    left: 2px;
+}
+.cms_user_profile .btn-toolbar .btn-group .edit-profile .arrow {
+    position: absolute;
+    top: 14px;
+    right: 13px;
+}
+.cms_user_profile .btn-toolbar {
+    margin-bottom: 35px;
 }
 
 
