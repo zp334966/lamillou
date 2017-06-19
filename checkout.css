@@ -902,6 +902,28 @@ p.refund-info a {
   font-size: 15px; 
 }
 
+#order_last_step.order-show .shipping_information_title {
+  text-transform: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 0;
+  margin-top: 12px;
+}
+#order_last_step.order-show .shipping_information_title img {
+  margin-right: 9px;
+  margin-bottom: 2px;
+}
+#order_last_step.order-show #order_number_block {
+  text-align: left;
+  margin-top: 0px;
+}
+#order_last_step.order-show #order_number_block h2 {
+  line-height: 24px;
+  padding: 10px 0 10px 0;  
+}
+
+
 #confirmation_order_clause {
   display: none; 
 }
