@@ -965,6 +965,7 @@ p.refund-info a {
     margin: 0 0 8px 0 !important;
     line-height: 30px;
     position: relative;
+    text-align: left;
 }
 .cms_user_profile .btn-toolbar .btn-group .edit-profile {
     border-bottom: 1px solid #d0d9e5;
@@ -974,6 +975,9 @@ p.refund-info a {
 }
 .cms_user_profile .btn-toolbar .btn-group .edit-profile .icon {
     margin-bottom: 10px;
+}
+.cms_user_profile .btn-toolbar .btn-group .edit-address .icon {
+    margin-right: 6px;
 }
 .cms_user_profile .btn-toolbar .btn-group .arrow {
     position: absolute;
