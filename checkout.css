@@ -1030,7 +1030,7 @@ p.refund-info a {
 .cms_user_profile .list-group-item a {
     font-weight: 600;
 }
-.cms_user_profile .list-group-item .was_filed_on strong {
+.cms_user_profile .list-group-item strong {
     font-weight: 400;
 }
 .cms_user_profile .order_list .historyList li>div a {
