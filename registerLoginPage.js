@@ -278,6 +278,8 @@ function userProfile() {
 	    $(this).removeClass('btn-default').addClass('btn-lam btn-lam-blue');
           } 
     });
+  };
+  if ( $( '.order_list.order_history' ).length ){
     $('.order_list.order_history .list-group-item .waiting_for_payment').each(function() {      
           if ( $(this).text().indexOf("Oczek. na płatność") != -1 ){
             $(this).text("Oczekuje na płatność");   
