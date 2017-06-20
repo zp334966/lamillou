@@ -1083,6 +1083,9 @@ p.refund-info a {
 .cms_edit_profile .form_accept_checks span {
     padding-left: 7px;
 }
+.cms_edit_profile .form_accept_checks:nth-of-type(2) {
+    margin-bottom: 7px;
+}
 .cms_edit_profile .cms_buttons {
     padding-bottom: 30px;
 }
