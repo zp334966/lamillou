@@ -926,7 +926,7 @@ p.refund-info a {
   padding: 10px 0 10px 0;  
 }
 
-.cms_user_profile {
+.cms_user_profile, .cms_edit_profile {
   border-top: 1px solid #D0D9E5;
   margin-left: -10px;
   margin-right: -10px;
