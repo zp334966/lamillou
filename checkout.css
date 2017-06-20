@@ -172,7 +172,7 @@ form.new_user .field_with_errors .validation-error {
     border-top: 1px solid #D0D9E5;
     padding-top: 0px;
 }
-#empty-cart .page-heading h3 {
+#empty-cart .page-heading h3, .order_list.order_history.col-sm-12 h2 {
     font-family: 'Open Sans';
     font-weight: 700;
     font-size: 15px;
@@ -1105,6 +1105,17 @@ p.refund-info a {
 #billing_address {
     padding: 0 10px 10px 10px;
     margin-top: 10px;
+}
+.order_list.order_history.col-sm-12 {
+    margin-top: 9px;
+    border-top: 1px solid #D0D9E5;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-left: 10px;
+    padding-right: 10px;
+} 
+.order_list.order_history.col-sm-12 .list-group-item:last-child {
+    border:none; 
 }
 
 #confirmation_order_clause {
