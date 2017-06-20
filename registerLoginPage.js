@@ -223,6 +223,13 @@ if ($( '#order-steps' ).length ){
   });   
 };
 
+$( ".form_accept_checks" ).each(function() {
+  var f = $(this).html();
+  var f2 = f.replace("</label>", "</label><span>");
+  var f3 = f2.replace("</a>.", "</a>.</span>");
+  $( this ).html(f3);
+}); 
+
 function userProfile() {
   if ( $( '.panel_header.clearfix.cms_user_main' ).length ){
     $('.panel_header.clearfix.cms_user_main').hide();
@@ -359,12 +366,7 @@ if ($( '#shop_order_form' ).length ){
   hideInHeader();
 }; 
 
-$( ".form_accept_checks" ).each(function() {
-  var f = $(this).html();
-  var f2 = f.replace("</label>", "</label><span>");
-  var f3 = f2.replace("</a>.", "</a>.</span>");
-  $( this ).html(f3);
-});
+
 $( document ).ready(function() {
   if ($( '.field_with_errors .icheckbox_minimal-blue' ).length ) {
     $( '.field_with_errors .icheckbox_minimal-blue' ).addClass("obligatory");
