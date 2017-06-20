@@ -1086,12 +1086,18 @@ p.refund-info a {
 .cms_edit_profile .cms_buttons {
     padding-bottom: 30px;
 }
+.cms_edit_profile .new_form .label_inline {
+    margin-top: 31px !important;
+}
 .cms_edit_profile .label_inline label {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 16px !important;
   color: #16407D;
   letter-spacing: 0;
   line-height: 20px; 
+  padding: 0px 0px 0px 10px;
+  margin: 0;
+  vertical-align: middle;
 }
 
 
