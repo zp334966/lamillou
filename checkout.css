@@ -1102,7 +1102,10 @@ p.refund-info a {
   margin: 0;
   vertical-align: middle;
 }
-
+#billing_address {
+    padding: 0 10px 10px 10px;
+    margin-top: 10px;
+}
 
 #confirmation_order_clause {
   display: none; 
