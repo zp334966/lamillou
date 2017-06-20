@@ -181,6 +181,7 @@ form.new_user .field_with_errors .validation-error {
     line-height: 50px;
     text-align: left;
     margin-bottom: 28px;
+    text-transform: uppercase;
 }
 #empty-cart div.page-heading.center {
     padding-top: 9px;
@@ -1107,15 +1108,20 @@ p.refund-info a {
     margin-top: 10px;
 }
 .order_list.order_history.col-sm-12 {
-    margin-top: 9px;
+    margin-top: 0px;
     border-top: 1px solid #D0D9E5;
     margin-left: -10px;
     margin-right: -10px;
     padding-left: 10px;
     padding-right: 10px;
+    padding-top: 9px;
 } 
+.order_list.order_history.col-sm-12 h2 {
+    margin-bottom: 8px;
+}
 .order_list.order_history.col-sm-12 .list-group-item:last-child {
-    border:none; 
+    border-bottom: none; 
+    margin-bottom: 40px;
 }
 
 #confirmation_order_clause {
