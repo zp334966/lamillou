@@ -349,8 +349,8 @@ function editProfile() {
     };
     $( '.cms_edit_profile').prepend("<a class='cms_user_details' href='" + back + "' >" + 
        "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/myprofile_ico.svg'/>" +
-       "<img class='arrow' src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/arrow_left.svg'/><h5>MOJE KONTO</h5></a>" +
-       "<h6>" + email + "</h6>");
+       "<img class='arrow' src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/arrow_left.svg'/><h5>MOJE KONTO</h5>" +
+       "<h6>" + email + "</h6></a>");
     $( '.cms_edit_profile .cms_buttons a').hide(); 
     $($( '.cms_edit_profile .cms_buttons input')[0].nextSibling).remove();
   };	
