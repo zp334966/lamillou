@@ -733,6 +733,7 @@ section.catalog-grid {
 }
 .sp-slider.photo-view .master-slider {
     margin: 0px !important;
+    text-align: center;
 }
 .site-layout.unvisible {
     visibility: hidden;
