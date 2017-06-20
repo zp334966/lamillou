@@ -985,8 +985,13 @@ h2.post-title.no-space-top {
 .sidebar .widget.rposts .rpost .rpost-text h4 a {
     font-size: 13px;
 }
-
-
+.pagination {
+    margin: 0;
+}
+.sidebar {
+    border: none;
+    padding-top: 0px;
+}
 .pop-up-added-to-cart {
     width: 273px;
     height: auto;
