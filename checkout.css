@@ -631,7 +631,7 @@ div#order_last_step div#show_order_products_block {
 }
 
 #shop_order_delivery_form label, #shop_order_form .credit_cards label {
-  font-size: 16px;
+  font-size: 16px !important;
   font-weight: 600;
   padding-left: 10px;
   width: 80%;
