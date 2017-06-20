@@ -286,10 +286,10 @@ function userProfile() {
             $(this).parent().prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/pending_ico.svg'/>" );
           } 
     });
-    $('.cms_user_profile .order_list.order_history i.fa.fa-shopping-cart').each(function() {      
+    $('.order_list.order_history i.fa.fa-shopping-cart').each(function() {      
           $(this).hide();              
     });
-    $('.cms_user_profile .order_list.order_history .list-group-item').each(function() {      
+    $('.order_list.order_history .list-group-item').each(function() {      
           var d = $(this).find("div").html();
           $(this).find("div").hide(); 
           $(this).prepend("<div class='status'>" + d + "</div>");
