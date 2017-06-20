@@ -43,6 +43,15 @@ a:focus, a:hover {
 :-moz-placeholder { /* Firefox 18- */
   color: #9AA1AC;
 }
+.form-control {
+    border: 1px solid #D0D9E5;
+    height: 42px;
+    color: #243C5E;
+    outline: none;
+    outline-offset: unset;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
 
 .page-heading h2, .category-node h1, .par_content h1, h2.post-title {
     font-family: besom!important;
