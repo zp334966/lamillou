@@ -1061,8 +1061,16 @@ p.refund-info a {
 .cms_edit_profile .cms_user_details .arrow {
     height: 20px;
     position: absolute;
-    left: 0px;
+    left: 10px;
     top: 60px;
+}
+.cms_edit_profile h3 {
+    font-weight: 600;
+    font-size: 15px;
+    color: #16407D;
+    letter-spacing: 0.38px;
+    line-height: 50px;
+    margin-bottom: -31px;
 }
 .cms_edit_profile .row, .cms_edit_profile .form_accept_checks, .cms_edit_profile .new_form {
     text-align: left;
