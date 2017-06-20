@@ -290,6 +290,65 @@ function userProfile() {
 };
 userProfile();
 
+function editProfile() {
+  if ( $( '.cms_edit_profile #user_avatar' ).length ){
+    $( '.cms_edit_profile label[for="user_avatar"]' ).hide();
+    $( '.cms_edit_profile #user_avatar' ).hide();  
+    $( '.cms_edit_profile label[for="user_login"]' ).hide();
+    $( '.cms_edit_profile #user_login' ).hide(); 
+    $( '.cms_edit_profile label[for="user_date_of_birth"]' ).hide();
+    $( '.cms_edit_profile #user_date_of_birth' ).hide(); 
+    $( '.cms_edit_profile label[for="user_city"]' ).hide();
+    $( '.cms_edit_profile #user_city' ).hide(); 
+    $( '.cms_edit_profile .forum_options.btn' ).hide();
+    $( '.cms_edit_profile #user_last_name' ).parent().detach().prependTo(".cms_edit_profile .edit_user .row:eq(1)"); 
+    $( '.cms_edit_profile #user_first_name' ).parent().detach().prependTo(".cms_edit_profile .edit_user .row:eq(1)");
+    $( '.cms_edit_profile .form_accept_checks [for="shop_order_personal_data_clause"]').each(function() {      
+      if ( $(this).next().text().indexOf("przetwarzanie moich danych osobowych") != -1 ){
+        $(this).next().text("Wyrażam zgodę na przetwarzanie moich danych osobowych zgodnie z Ustawą z dnia 29.08.1997 r.");              
+      } 
+    });  
+    $( '.cms_edit_profile h3').each(function() {      
+     if ( $(this).text().indexOf("Edycja profilu") != -1 ){
+       $(this).text("Mój profil");              
+     } 
+    });   
+  };
+  if ( $( '.cms_edit_profile #user_shipping_addresses_attributes_0_id' ).length ){
+    $( '.cms_edit_profile .form_accept_checks').each(function() {      
+       $(this).hide();
+    });   
+    $( '.cms_edit_profile h3').each(function() {      
+       if ( $(this).text().indexOf("Edycja profilu") != -1 ){
+         $(this).text("Mój adres");              
+       } 
+    }); 
+    $( '.cms_edit_profile .new_form h4').hide();  
+    $( '.cms_edit_profile .label_inline label').each(function() {      
+       if ( $(this).text().indexOf("Chcę fakturę VAT") != -1 ){
+         $(this).text("Adres faktury VAT");              
+       } 
+    }); 
+  };   
+  if ( $( '.cms_edit_profile' ).length ){
+    $( '.cms_edit_profile .form_accept_checks [for="shop_order_marketing_clause"]').parent().hide();
+    var back = $( '.cms_edit_profile .cms_buttons a' ).attr("href");
+    var email;
+    if ( $( '#user_shipping_addresses_attributes_0_email' ).length ){
+      email = $( '#user_shipping_addresses_attributes_0_email').val();
+    };
+    if ( $( '#user_email' ).length ){
+      email = $( '#user_email').val();
+    };
+    $( '.cms_edit_profile').prepend("<a class='cms_user_details' href='" + back + "' >" + 
+       "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/myprofile_ico.svg'/>" +
+       "<img class='arrow' src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/arrow_left.svg'/><h5>MOJE KONTO</h5></a>" +
+       "<h6>" + email + "</h6>");
+    $( '.cms_edit_profile .cms_buttons a').hide(); 
+    $($( '.cms_edit_profile .cms_buttons input')[0].nextSibling).remove();
+  };	
+};
+editProfile();
 
 function hideInHeader() {
   $("#nav-toggle").hide();
