@@ -926,12 +926,12 @@ p.refund-info a {
   padding: 10px 0 10px 0;  
 }
 
-.cms_user_profile, .cms_edit_profile {
+.cms_user_profile {
   border-top: 1px solid #D0D9E5;
   margin-left: -10px;
   margin-right: -10px;
-  padding-left: 10px !important;
-  padding-right: 10px !important;
+  padding-left: 10px;
+  padding-right: 10px;
   text-align: center;
 }
 .cms_user_profile .cms_user_details {
@@ -1053,9 +1053,15 @@ p.refund-info a {
 }
 .cms_edit_profile {
     margin-top: 0px;
+    border-top: 1px solid #D0D9E5; 
+    text-align: center;  
 }
-.cms_edit_profile .row {
+.cms_edit_profile .row, .cms_edit_profile .form_accept_checks {
     text-align: left;
+}
+.cms_edit_profile .edit_user .row .col-sm-6 {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
 }
 
 #confirmation_order_clause {
