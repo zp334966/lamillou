@@ -1012,7 +1012,7 @@ p.refund-info a {
 .cms_user_profile h5 {
     margin-bottom: -2px;
 }
-.cms_user_profile .list-group-item {
+.order_list.order_history .list-group-item {
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -1029,19 +1029,19 @@ p.refund-info a {
     color: #16407D;
     letter-spacing: 0;
 }
-.cms_user_profile .list-group-item .status {
+.order_list.order_history .list-group-item .status {
     margin-bottom: 21px;
 }
-.cms_user_profile .list-group-item .status img {
+.order_list.order_history .list-group-item .status img {
     margin-bottom: 4px;
 }
-.cms_user_profile .list-group-item a {
+.order_list.order_history .list-group-item a {
     font-weight: 600;
 }
-.cms_user_profile .list-group-item strong {
+.order_list.order_history .list-group-item strong {
     font-weight: 400;
 }
-.cms_user_profile .order_list .historyList li>div a {
+.order_list.order_history .historyList li>div a {
     border: none;
     top: 0px;
     right: 9px;
