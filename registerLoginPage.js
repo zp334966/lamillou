@@ -336,6 +336,13 @@ function editProfile() {
          $(this).text("Adres faktury VAT");              
        } 
     }); 
+    setInterval(function(){
+      if ( $(".label_inline .icheckbox_minimal-blue").hasClass('checked') ){
+       $("#billing_address").show();
+      } else {
+        $("#billing_address").hide();     
+      }
+    }, 1);
   };   
   if ( $( '.cms_edit_profile' ).length ){
     $( '.cms_edit_profile .form_accept_checks [for="shop_order_marketing_clause"]').parent().hide();
