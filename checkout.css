@@ -117,6 +117,9 @@
     text-transform: uppercase;
     display: block; 
 }
+.btn-outlined.btn-primary:hover {
+    background: transparent;
+}
 #order_last_step form .buttons.panel {
     margin-bottom: 40px;
     margin-top: 34px;
