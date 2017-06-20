@@ -1056,7 +1056,7 @@ p.refund-info a {
     border-top: 1px solid #D0D9E5; 
     text-align: center;  
 }
-.cms_edit_profile .row, .cms_edit_profile .form_accept_checks {
+.cms_edit_profile .row, .cms_edit_profile .form_accept_checks, .cms_edit_profile .new_form {
     text-align: left;
 }
 .cms_edit_profile .edit_user .row .col-sm-6 {
