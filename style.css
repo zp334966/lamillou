@@ -3,9 +3,14 @@ body {
 }
 p {
     font-size: 13px;
+    color: #243c5e;
 }
 a:focus, a:hover {
     color: unset;
+}
+a {
+    color: #243c5e;
+    text-decoration: underline;
 }
 .fa a:hover, .fa a:focus {
     background-color: #16407d !important;
@@ -943,6 +948,13 @@ section.catalog-grid {
 .par_content h1, h2.post-title {
     text-align: left !important;
     margin-top: 18px;
+}
+h2.post-title.no-space-top {
+    margin-top: 0 !important;
+    padding: 18px 10px 0 10px !important;
+    border-top: 1px solid #D0D9E5;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 .pop-up-added-to-cart {
     width: 273px;
