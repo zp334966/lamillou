@@ -39,7 +39,7 @@ a:focus, a:hover {
   color: #9AA1AC;
 }
 
-.page-heading h2, .category-node h1, .par_content h1, .par_content h2 {
+.page-heading h2, .category-node h1, .par_content h1, h2.post-title {
     font-family: besom!important;
     text-align: left;
     font-size: 36px !important;
@@ -940,7 +940,7 @@ section.catalog-grid {
 .par_content h1, .par_content h2, .par_content h3, .par_content h4, .par_content h5, .par_content h6 {
     color: #16407D !important;    
 }
-.par_content h1, .par_content h2 {
+.par_content h1, h2.post-title {
     text-align: left !important;
     margin-top: 18px;
 }
