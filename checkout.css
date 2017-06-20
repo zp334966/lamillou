@@ -106,7 +106,7 @@
 .checkout-button-proceed-big, #show_my_cart a.btn, #show_my_cart a.btn.btn-left.btn-primary, #order_last_step a.btn, 
 #order_last_step a.btn.btn-left.btn-primary, #login_box input[type=submit].submit, 
 #login_box a.just_order, #login_box h2.big_link a, #registration_form .cms_buttons input[type=submit],
-#order_last_step .buttons.panel a.continue_with_order.right {
+#order_last_step .buttons.panel a.continue_with_order.right, form input[type=submit] {
     font-size: 15px !important;
     font-weight: 700;
     background-color: #16407d;
@@ -1079,6 +1079,10 @@ p.refund-info a {
     padding-left: 0px!important;
     padding-right: 0px!important;
 }
+.cms_edit_profile .form_accept_checks span {
+    padding-left: 7px;
+}
+
 
 #confirmation_order_clause {
   display: none; 
