@@ -118,7 +118,8 @@
     text-transform: uppercase;
     display: block; 
 }
-.btn-outlined.btn-primary:hover {
+.btn-outlined.btn-primary:hover, .btn-outlined.btn-primary:active, .btn-outlined.btn-primary:focus, 
+.btn-outlined.btn-primary:visited {
     background: transparent;
 }
 #order_last_step form .buttons.panel {
