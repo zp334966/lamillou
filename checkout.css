@@ -930,8 +930,8 @@ p.refund-info a {
   border-top: 1px solid #D0D9E5;
   margin-left: -10px;
   margin-right: -10px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
   text-align: center;
 }
 .cms_user_profile .cms_user_details {
@@ -1050,6 +1050,12 @@ p.refund-info a {
     font-weight: 400;
     margin: 0px !important;
     padding: 15px 0 15px 10px !important;
+}
+.cms_edit_profile {
+    margin-top: 0px;
+}
+.cms_edit_profile .row {
+    text-align: left;
 }
 
 #confirmation_order_clause {
