@@ -934,11 +934,11 @@ p.refund-info a {
   padding-right: 10px;
   text-align: center;
 }
-.cms_user_profile .cms_user_details {
+.cms_user_profile .cms_user_details, .cms_edit_profile .cms_user_details {
   padding-top: 16px;
   text-align: center;
 }
-.cms_user_profile .cms_user_details h5 {
+.cms_user_profile .cms_user_details h5, .cms_edit_profile .cms_user_details h5 {
     font-size: 15px;
     color: #16407D;
     letter-spacing: 0.38px;
@@ -947,7 +947,7 @@ p.refund-info a {
     padding-top: 6px;
     text-align: center;
 }
-.cms_user_profile .cms_user_details h6 {
+.cms_user_profile .cms_user_details h6, .cms_edit_profile .cms_user_details h6 {
     font-size: 15px;
     color: #243C5E;
     letter-spacing: 0;
