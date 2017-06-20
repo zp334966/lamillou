@@ -957,6 +957,27 @@ h2.post-title.no-space-top {
     margin-left: -10px;
     margin-right: -10px;
 }
+.list-view .row.post {
+    border-bottom: 1px solid #D0D9E5;
+    margin-bottom: 25px!important;
+}
+.list-view .row.post h3 {
+    font-weight: 600;
+    text-decoration: none;
+    color: #16407D;
+    margin: 10px 0 5px 0;
+}
+.widget.rposts h3 {
+    font-weight: 700;
+    font-size: 15px;
+    text-align: left;
+    color: #16407d;
+}
+.sidebar .widget.rposts .rpost .rpost-text h4 a {
+    font-size: 13px;
+}
+
+
 .pop-up-added-to-cart {
     width: 273px;
     height: auto;
