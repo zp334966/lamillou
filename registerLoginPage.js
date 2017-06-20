@@ -348,6 +348,47 @@ function editProfile() {
 };
 editProfile();
 
+function thankForOrder () {
+  if ( $( "#thank_you_for_ordering" ).length ) { 
+    $('#thank_you_for_ordering h2').each(function() {      
+          if ($(this).text() === "" ){
+            $(this).hide();            
+          }     
+          if ( $(this).text().indexOf("Dziękujemy") != -1 ){
+            $(this).text("DZIĘKUJEMY,");  
+            $(this).after("<h4>Twoja zamówienie zostało przyjęte.<br/>Potwierdzenie zamówienia zostanie wysłane na podany numer telefonu.</h4>");
+          } 
+    });     
+    $('#thank_you_for_ordering p').each(function() {       
+          if ( $(this).text().indexOf("Szczegółowe informacje") != -1 ){
+            $(this).hide();  
+          } 
+    });  
+    $('#thank_you_for_ordering h4').each(function() {       
+          if ( $(this).text().indexOf("PRZELEWY KRAJOWE") != -1 ){
+            var p = $(this).html(); 
+            p = p.replace(/\<br>/g, '');
+            p = p.replace("PRZELEWY KRAJOWE", "<h2 class='dark-blue'>PRZELEW KRAJOWY</h2>");
+            p = p.replace("nr rachunku:", "<h3><b class='dark-blue'>Numer rachunku</b></h3>");
+            p = p.replace("30 1930 1419 2300 0347 6837 0002", "<h3 class='dark-blue'>30 1930 1419 2300 0347 6837 0002</h3>");
+            p = p.replace("PRZELEWY ZAGRANICZNE W EURO", "<h2 class='dark-blue'>PRZELEW ZAGRANICZNY W EURO</h2>");
+            p = p.replace("nr rachunku:", "<h3><b class='dark-blue'>Numer rachunku</b></h3>");    
+            p = p.replace("46 1930 1419 2300 0347 6837 0005", "<h3 class='dark-blue'>46 1930 1419 2300 0347 6837 0005</h3><br/>");
+            $(this).html(p); 
+          } 
+    });     
+    var order = $('#thank_you_for_ordering .buttons a').attr('href');
+    $('#thank_you_for_ordering .buttons .continue_shopping').hide();
+    $('#thank_you_for_ordering .buttons').append("<div id='order-number'></div>");
+    $('#thank_you_for_ordering .buttons').append("<div id='summary'></div>");
+    $('#thank_you_for_ordering #order-number').load(order + ' #order_number_block h2');  
+    $('#thank_you_for_ordering #summary').load(order + ' #shop_order_payment'); 
+     
+  }
+  return;
+};
+thankForOrder ();
+
 function hideInHeader() {
   $("#nav-toggle").hide();
   $(".search-trigger").hide();
