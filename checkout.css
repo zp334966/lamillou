@@ -631,7 +631,7 @@ div#order_last_step div#show_order_products_block {
 }
 
 #shop_order_delivery_form label, #shop_order_form .credit_cards label {
-  font-size: 16px !important;
+  font-size: 16px;
   font-weight: 600;
   padding-left: 10px;
   width: 80%;
@@ -1103,6 +1103,9 @@ p.refund-info a {
   margin: 0;
   vertical-align: middle;
 }
+.cms_edit_profile form label {
+    font-size: 13px;
+}
 #billing_address {
     padding: 0 10px 10px 10px;
     margin-top: 10px;
@@ -1213,7 +1216,7 @@ form.new_user .form_accept_checks:nth-last-of-type(2) {
 }
 form label {
     font-family: 'Open Sans';
-    font-size: 13px !important;
+    font-size: 13px;
     color: #16407D;
     letter-spacing: 0;
     padding: 5px 0px 5px 0px;
