@@ -15,10 +15,6 @@ a:focus, a:hover {
     padding-top: 0px;
     margin-top: 15px;
 }
-.page a {
-    color: #243c5e;
-    text-decoration: underline;
-}
 .container {
     padding-left: 10px;
     padding-right: 10px;
@@ -994,6 +990,12 @@ section.catalog-grid {
 .par_content h1, .par_content h2, .par_content h3, .par_content h4, .par_content h5, .par_content h6 {
     color: #16407D !important;    
 }
+/*
+.page a { cos innego tu
+    color: #243c5e;
+    text-decoration: underline;
+}
+*/
 h2.post-title.no-space-top {
     margin-top: 0 !important;
     padding: 18px 10px 0 10px !important;
