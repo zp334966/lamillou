@@ -1011,9 +1011,9 @@ h2.post-title.no-space-top {
     color: #16407D;
     margin: 10px 0 5px 0;
 }
-.row.post p span, .row.post p span span {
+.row.post span, .row.post span span {
     font-size: 13px !important;
-    color: #243c5e;
+    color: #243c5e !important;
     font-family: "Open Sans" !important;   
 }
 .widget.rposts h3 {
