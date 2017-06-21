@@ -61,6 +61,18 @@ form label {
     margin-top: 10px;
     margin-bottom: 0px;
 }
+form input[type="submit"] {
+    font-size: 15px !important;
+    font-weight: 700;
+    background-color: #16407d;
+    color: white !important;
+    width: 240px;
+    padding-top: 14px !important;
+    padding-bottom: 16px !important;
+    margin: 15px auto 25px auto !important;
+    text-transform: uppercase;
+    display: block;
+}
 .page-heading h2, .category-node h1 {
     font-family: besom!important;
     text-align: left;
