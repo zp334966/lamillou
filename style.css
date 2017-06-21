@@ -52,7 +52,13 @@ a:focus, a:hover {
     -webkit-appearance: none;
     -moz-appearance: none;
 }
-
+form label {
+    font-family: 'Open Sans';
+    font-size: 13px;
+    color: #16407D;
+    letter-spacing: 0;
+    padding: 5px 0px 5px 0px;
+}
 .page-heading h2, .category-node h1 {
     font-family: besom!important;
     text-align: left;
@@ -903,7 +909,7 @@ section.catalog-grid {
     font-size: 14px !important;
     line-height: 20px !important;  
 }
-.par_content p {
+.par_content p, div.form_description {
     font-family: 'Open Sans';
     font-size: 14px;
     color: #243c5e;
@@ -1001,6 +1007,8 @@ h2.post-title.no-space-top {
     border: none;
     padding-top: 0px;
 }
+
+
 .pop-up-added-to-cart {
     width: 273px;
     height: auto;
