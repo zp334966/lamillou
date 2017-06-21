@@ -59,6 +59,7 @@ form label {
     letter-spacing: 0;
     padding: 5px 0px 5px 0px;
     margin-top: 10px;
+    margin-bottom: 0px;
 }
 .page-heading h2, .category-node h1 {
     font-family: besom!important;
