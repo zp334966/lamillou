@@ -223,7 +223,7 @@ function userProfile() {
     $('.cms_user_profile div.cms_user_details p:nth-child(3)' ).hide();
     var email = $('.cms_user_profile div.cms_user_details p:nth-child(3) strong' ).html();
     $('.cms_user_profile div.cms_user_details' ).prepend( "<h6>" + email + "</h6>" );
-    $('.cms_user_profile div.cms_user_details' ).prepend( "<h5>MOJE KONTO</h5>" );
+    $('.cms_user_profile div.cms_user_details' ).prepend( "<h5>TWOJE KONTO</h5>" );
     $('.cms_user_profile div.cms_user_details' ).prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/myprofile_ico.svg'/>" );
 
     $('.cms_user_profile .cms_user_details .btn-group a' ).removeClass("btn btn-default"); 
@@ -231,10 +231,10 @@ function userProfile() {
     $('.cms_user_profile .cms_user_details .btn-group a:nth-child(2)' ).addClass("edit-address"); 
     $('.cms_user_profile .cms_user_details .btn-group a').each(function() {      
           if ( $(this).text().indexOf("Edycja profilu") != -1 ){
-            $(this).text("Mój Profil");              
+            $(this).text("Twój Profil");              
           } 
           if ( $(this).text().indexOf("Edycja adresów") != -1 ){
-            $(this).text("Mój Adres");              
+            $(this).text("Twój Adres");              
           } 
     });  
     $('.cms_user_profile .cms_user_details .btn-group .edit-profile').prepend( "<img class='icon' src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/profile_ico.svg'/>" );  
@@ -301,7 +301,7 @@ function editProfile() {
     });  
     $( '.cms_edit_profile h3').each(function() {      
      if ( $(this).text().indexOf("Edycja profilu") != -1 ){
-       $(this).text("Mój profil");              
+       $(this).text("Twój profil");              
      } 
     });   
   };
@@ -311,7 +311,7 @@ function editProfile() {
     });   
     $( '.cms_edit_profile h3').each(function() {      
        if ( $(this).text().indexOf("Edycja profilu") != -1 ){
-         $(this).text("Mój adres");              
+         $(this).text("Twój adres");              
        } 
     }); 
     $( '.cms_edit_profile .new_form h4').hide();  
@@ -340,7 +340,7 @@ function editProfile() {
     };
     $( '.cms_edit_profile').prepend("<a class='cms_user_details' href='" + back + "' >" + 
        "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/myprofile_ico.svg'/>" +
-       "<img class='arrow' src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/arrow_left.svg'/><h5>MOJE KONTO</h5>" +
+       "<img class='arrow' src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/arrow_left.svg'/><h5>TWOJE KONTO</h5>" +
        "<h6>" + email + "</h6></a>");
     $( '.cms_edit_profile .cms_buttons a').hide(); 
     $($( '.cms_edit_profile .cms_buttons input')[0].nextSibling).remove();
