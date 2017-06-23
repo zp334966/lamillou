@@ -305,7 +305,7 @@ function editProfile() {
      } 
     });   
   };
-  if ( $( '.cms_edit_profile #user_shipping_addresses_attributes_0_id' ).length ){
+  if ( $( '.cms_edit_profile #address' ).length ){
     $( '.cms_edit_profile .form_accept_checks').each(function() {      
        $(this).hide();
     });   
