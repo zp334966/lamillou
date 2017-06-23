@@ -1251,7 +1251,7 @@ form label {
 .form_accept_checks span {
     position: absolute;
     left: 36px;
-    padding-top: 15px;
+    padding-top: 17px;
 }
 form input[type=submit]:focus, form input[type=submit]:hover {
     color: white !important;
