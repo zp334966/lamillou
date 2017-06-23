@@ -880,7 +880,8 @@ section.catalog-grid {
     padding-bottom: 14px;
     padding-left: 10px;
     padding-right: 10px;
-}
+} 
+/* to jest w produkt detail
 .par_content h1, h2.post-title {
     margin-top: 0px;
     margin-bottom: 0;
@@ -895,6 +896,7 @@ section.catalog-grid {
     color: #16407D !important;
     border-top: 1px solid #D0D9E5;
 }
+*/
 .par_content h2 {
     text-align: center; 
 }
