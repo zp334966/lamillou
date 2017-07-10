@@ -399,6 +399,26 @@ if ($( '#shop_order_form' ).length ){
 }; 
 
 
+/** Placeholder **/
+function IsImageOk(img) {
+    if (!img.complete) {
+        return false;
+    }
+    if (typeof img.naturalWidth !== "undefined" && img.naturalWidth === 0) {
+        return false;
+    }
+    return true;
+};
+  
+$(document).ready(function () {
+  $( "img" ).each(function() {
+    if (! IsImageOk(this)) {
+      this.src = "https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/placeholder.svg";
+    };
+  });
+});
+/*********************/
+
 $( document ).ready(function() {
   if ($( '.field_with_errors .icheckbox_minimal-blue' ).length ) {
     $( '.field_with_errors .icheckbox_minimal-blue' ).addClass("obligatory");
