@@ -152,12 +152,16 @@
     left: 55px;
     padding: 10px 10px 10px 10px;
 }
-
+.search-wrapper .search-off-canvas {
+    background: rgba(22, 64, 125, .8);
+    position: absolute;
+    top: 100%;
+}
 .search-wrapper.off .search-off-canvas {
     background: rgba(22, 64, 125, .8);
     z-index: 1;
     -webkit-backface-visibility: hidden;
-    transition: background 300ms ease;
+    transition: background 700ms ease;
     cursor: pointer;
     display: block;
     position: absolute;
