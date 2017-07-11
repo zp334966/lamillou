@@ -363,6 +363,7 @@ $('.search-trigger').on('click', function(e) {
    var that = $(this);
    $(this).toggleClass('active');
    $('.search-wrapper').toggleClass('off');
+   $('.search-wrapper').toggleClass('on');
    $('#header-mobile-id').toggleClass('hidden');
    
    /*
@@ -381,6 +382,7 @@ $('.back-search').on('click', function(e) {
    $('.off-canvas-searchbar').toggleClass('hidden');
    $('.search-trigger').toggleClass('active');
    $('.search-wrapper').toggleClass('off');
+   $('.search-wrapper').toggleClass('on');
    $('#header-mobile-id').toggleClass('hidden');
 });	
 	
