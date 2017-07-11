@@ -909,7 +909,8 @@ p.refund-info a {
 }
 
 #shop_order_payment_info {
-  margin-top: 35px;
+  margin-top: 34px;
+  margin-bottom: 2px;
 }
 #shop_order_payment_info a {
   color: #58dfca;
