@@ -318,7 +318,16 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .menu ul li.has-mega-menu div.subcategories {
     margin-bottom: 17px;
 }
-
+.exit-off-canvas {
+    background: rgba(22, 64, 125, .8);
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 100%;
+    right: 0;  
+    display: block;
+    position: absolute;
+}
 .move-right .exit-off-canvas {
     background: rgba(22, 64, 125, .8);
     z-index: 1;
