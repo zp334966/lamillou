@@ -134,7 +134,7 @@ function showMyCart () {
   } 
   if ($( '#show_my_cart' ).length ) {  
     $(document).ready(function () {
-      $( "img" ).each(function() {
+      $( ".shopping-cart img" ).each(function() {
        if (! IsImageOk(this)) {
         this.src = "https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/placeholder.svg";
        };
@@ -148,7 +148,7 @@ showMyCart();
 function showOrderProductsBlock() {
   if ($( '#show_order_products_block' ).length ) {  
     $(document).ready(function () {
-      $( "img" ).each(function() {
+      $( "#show_order_products_block img" ).each(function() {
        if (! IsImageOk(this)) {
         this.src = "https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/placeholder.svg";
        };
