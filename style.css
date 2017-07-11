@@ -813,6 +813,7 @@ section.catalog-grid {
 .category-node .category-image {
     text-align: center;
     background: #F2F5F9;
+    max-width: 561px;
 }
 .category-node .img-overlay .btn {
     margin-bottom: 9px !important;
