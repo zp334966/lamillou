@@ -122,6 +122,7 @@ div.jGrowl div.jGrowl-notification .message a {
 div.jGrowl div.jGrowl-notification div.header {
 	font-weight: 			bold;
 	font-size:			10px;
+	display:                        none;
 }
 
 div.jGrowl div.jGrowl-notification div.close, 
