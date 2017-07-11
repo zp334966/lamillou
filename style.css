@@ -851,6 +851,7 @@ section.catalog-grid {
     margin-top: 6px;
     float: left;
     font-size: 13px;
+    text-align: left;
 }
 .product-extra .item .subtitle {
     margin-bottom: 3px;
