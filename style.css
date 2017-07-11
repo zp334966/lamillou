@@ -142,15 +142,17 @@ section.catalog-grid .nothing-found {
     display: block;
     margin-top: 21px;
 }
-.mobile-navi .packing-info {
-    display: none;    
-    max-height: 1000px;
-    -webkit-transition: max-height .5s ease-in-out;
-    -moz-transition: max-height .5s ease-in-out;
-    transition: max-height .5s ease-in-out;
+.mobile-navi .packing-info {   
+    max-height: 0px;
+    overflow: hidden;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
 }
 .mobile-navi .open .packing-info {
-    display: block;    
+    display: block; 
+    max-height: 1000px;
 }
 .page-block .mobile-navi .packing-info a {
     padding: 0;
