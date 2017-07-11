@@ -175,6 +175,7 @@
     -o-transition: all 1s ease;
 }
 .search-wrapper.on .search-off-canvas {
+    z-index: 1;
     background: rgba(22, 64, 125, .8);
     position: absolute;
     bottom: 100%;
