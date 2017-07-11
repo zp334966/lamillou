@@ -131,7 +131,16 @@ function showMyCart () {
       $( ' #cart-totals .btn' ).detach().insertAfter( "#cart-totals" );
       $( ' #show_my_cart .btn' ).text("Zamawiam");
     });
-  }     
+  } 
+  if ($( '#show_my_cart' ).length ) {  
+    $(document).ready(function () {
+      $( "img" ).each(function() {
+       if (! IsImageOk(this)) {
+        this.src = "https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/placeholder.svg";
+       };
+      });
+    });
+  }
 };
 showMyCart();
 
@@ -409,14 +418,6 @@ function IsImageOk(img) {
     }
     return true;
 };
-  
-$(document).ready(function () {
-  $( "img" ).each(function() {
-    if (! IsImageOk(this)) {
-      this.src = "https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/placeholder.svg";
-    };
-  });
-});
 /*********************/
 
 $( document ).ready(function() {
