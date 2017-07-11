@@ -145,6 +145,20 @@ function showMyCart () {
 showMyCart();
 
 
+function showOrderProductsBlock() {
+  if ($( '#show_order_products_block' ).length ) {  
+    $(document).ready(function () {
+      $( "img" ).each(function() {
+       if (! IsImageOk(this)) {
+        this.src = "https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/placeholder.svg";
+       };
+      });
+    });
+  }		
+};
+showOrderProductsBlock();
+
+
 function orderLastStep () {
   if ( $( "#order_last_step #shop_order_payment" ).length ) {
     $( "#order_last_step #shop_order_payment div.totals_summary div.table-row:nth-child(3)" ).addClass("sum"); 
