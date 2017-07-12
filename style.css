@@ -813,7 +813,6 @@ section.catalog-grid {
 .category-node .category-image {
     text-align: center;
     background: #F2F5F9;
-    max-width: 561px;
 }
 .category-node .img-overlay .btn {
     margin-bottom: 9px !important;
@@ -1417,7 +1416,10 @@ h2.post-title.no-space-top {
     } 
 }
 
-@media (min-width: 1025px){  
+@media (min-width: 1025px){ 
+    .category-node .category-image {
+        max-width: 561px;
+    }
     .advertisement-desktop {
         display: block;
         height: 40px;
