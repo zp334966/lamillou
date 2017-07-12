@@ -1524,9 +1524,11 @@ h2.post-title.no-space-top {
         color: #16407D;
         letter-spacing: 0.41px;
         opacity: 0.8;
+        margin-right: 40px; 
+        cursor: pointer;
     }
     .page-block .menu-packing .title.active h5 {
-        text-decoration: underline;
+        border-bottom: 2.5px solid #16407D;
         opacity: 1;
     }
     .page-block .menu-packing .packing-info.active {
@@ -1537,6 +1539,13 @@ h2.post-title.no-space-top {
         position: relative;
         float: left;
         overflow: hidden;
+    }
+    .menu-packing .packing-info li {
+        font-size: 14px;
+        color: #243C5E;
+        letter-spacing: 0;
+        line-height: 22px;
+        margin-bottom: 15px;
     }
 }
 
