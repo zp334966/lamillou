@@ -1441,12 +1441,41 @@ h2.post-title.no-space-top {
 }
 
 @media (min-width: 992px){
+    .product_details .title {
+        font-size: 18px;
+        line-height: 29px;
+    }
+    .product_details .subtitle {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .product_details .price {
+        font-size: 18px;        
+    }
+    .proposed-products h2 {
+        font-size: 36px;
+        line-height: 50px;
+        padding: 0;
+        margin-bottom: 3px;
+    }
     .product_details.product_right_tab {
         padding-left: 48px;
         overflow: hidden;
     }
     .sp-slider .ms-thumb-list {
         margin-right: 0;
+    }
+    .sp-slider .ms-thumb-list {
+        height: 90px!important;
+        margin-top: 17px !important;
+    }
+    .sp-slider .ms-thumb-frame {
+        height: 82px !important;
+        max-width: 82px !important;
+    }
+    .sp-slider .ms-thumb-frame-selected {
+        height: 86px !important;
+        max-width: 86px !important;
     }
     .category_desc img {
         max-height: 247px;
