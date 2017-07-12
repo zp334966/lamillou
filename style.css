@@ -1539,7 +1539,6 @@ h2.post-title.no-space-top {
         display: none;
         position: relative;
         float: left;
-        overflow: hidden;
     }
     .menu-packing .packing-info li {
         font-size: 14px;
@@ -1547,12 +1546,11 @@ h2.post-title.no-space-top {
         letter-spacing: 0;
         line-height: 22px;
         margin-bottom: 15px;
+        width: 450px;
     }
-    .menu-packing .packing-info .col-sm-6:nth-child(1) {
-        padding-right: 60px;
-    }
-    .menu-packing .packing-info .col-sm-6:nth-child(2) {
-        padding-left: 60px;
+    .menu-packing .packing-info img {
+        margin-left: 115px;
+        max-width: 514px;
     }
 }
 
