@@ -1453,6 +1453,9 @@ h2.post-title.no-space-top {
     .product_details .price {
         font-size: 18px;        
     }
+    .post-toolbox {
+        text-align: left;
+    }
     .proposed-products h2, .category_desc h2 {
         font-size: 36px;
         line-height: 50px;
