@@ -1104,11 +1104,11 @@ h2.post-title.no-space-top {
     height: 51px;
     padding-top: 19px;
     padding-bottom: 20px;
-    margin-left: -10px;
-    margin-right: -10px;
     background-color: #16407D;
     text-align: center;
     line-height: 12px;
+    width: 100vw;
+    margin-left: calc(-1 * ((100vw - 100%) / 2));
 }
 .advertisement h6 {
     color: white;
