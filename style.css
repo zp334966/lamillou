@@ -1437,6 +1437,22 @@ h2.post-title.no-space-top {
     } 
 }
 
+@media (min-width: 902px){
+    .product_details.product_right_tab {
+        padding-left: 48px;
+        overflow: hidden;
+    }
+    .sp-slider .ms-thumb-list {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 902px) and (max-width: 1024px) {
+    .container .product_details .title {
+        margin-top: 10px;
+    }
+}
+
 @media (min-width: 1025px){ 
     .category-node .category-image {
         max-width: 561px;
