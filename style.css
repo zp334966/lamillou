@@ -1513,7 +1513,28 @@ h2.post-title.no-space-top {
     #products_list_page .category-leaf {
         margin-top: 30px;
     }
-    .page-block .mobile-navi ul li span {
+    .page-block .menu-packing {
+        position: relative;    
+    }
+    .page-block .menu-packing .title h5 {
+        display: inline-block;   
+        font-weight: 700;
+        font-size: 13px;
+        text-transform: uppercase;
+        color: #16407D;
+        letter-spacing: 0.41px;
+        opacity: 0.8;
+    }
+    .page-block .menu-packing .title.active h5 {
+        text-decoration: underline;
+        opacity: 1;
+    }
+    .page-block .menu-packing .packing-info.active {
+        display: block;    
+    }
+    .page-block .menu-packing .packing-info {
+        position: absolute;
+        top: 30px;
         display: none;
     }
 }
