@@ -1526,6 +1526,7 @@ h2.post-title.no-space-top {
         opacity: 0.8;
         margin-right: 40px; 
         cursor: pointer;
+        margin-bottom: 21px;
     }
     .page-block .menu-packing .title.active h5 {
         border-bottom: 2.5px solid #16407D;
@@ -1546,6 +1547,12 @@ h2.post-title.no-space-top {
         letter-spacing: 0;
         line-height: 22px;
         margin-bottom: 15px;
+    }
+    .menu-packing .packing-info .col-sm:nth-child(1) {
+        padding-right: 60px;
+    }
+    .menu-packing .packing-info .col-sm:nth-child(2) {
+        padding-left: 60px;
     }
 }
 
