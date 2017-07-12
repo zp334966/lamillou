@@ -1533,9 +1533,10 @@ h2.post-title.no-space-top {
         display: block;    
     }
     .page-block .menu-packing .packing-info {
-        position: absolute;
-        top: 30px;
         display: none;
+        position: relative;
+        float: left;
+        overflow: hidden;
     }
 }
 
