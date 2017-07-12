@@ -145,7 +145,9 @@
 .mobile-navi ul li span:before {
     content: initial;
 }
-
+.sidebar li, .sidebar .submenu li {
+    display: inline-block;
+}
 .sidebar ul li a, .sidebar ul li h5 {
     border-bottom: none;
     display: block;
@@ -172,7 +174,9 @@
     cursor: pointer;
     margin-bottom: 24px;
 }
-
+.sidebar:before {
+    background: none;
+}
 .search-trigger {
     position: absolute;
     top: 9px;
