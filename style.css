@@ -1452,7 +1452,7 @@ h2.post-title.no-space-top {
     .product_details .price {
         font-size: 18px;        
     }
-    .proposed-products h2 {
+    .proposed-products h2, .category_desc h2 {
         font-size: 36px;
         line-height: 50px;
         padding: 0;
@@ -1483,6 +1483,10 @@ h2.post-title.no-space-top {
     }
     .category_desc h2 {
         text-align: center;
+        margin-bottom: 9px;
+    }
+    .category_desc p {
+        margin-bottom: 0px!important;
     }
     .category-node {
         margin-top: 38px;
