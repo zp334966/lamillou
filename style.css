@@ -1478,6 +1478,9 @@ h2.post-title.no-space-top {
         height: 86px !important;
         max-width: 86px !important;
     }
+    .master-slider {
+        margin-bottom: 75px !important;
+    }
     .category_desc img {
         max-height: 247px;
         width: auto !important;
@@ -1495,6 +1498,9 @@ h2.post-title.no-space-top {
     }
     #products_list_page .category-leaf {
         margin-top: 30px;
+    }
+    .page-block .mobile-navi ul li span {
+        display: none;
     }
 }
 
