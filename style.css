@@ -1163,6 +1163,22 @@ h2.post-title.no-space-top {
 .advertisement-desktop .despatch {
     padding-left: 52px;
 }
+.advertisement-desktop {
+    height: 40px;
+    background: #e9eaeb;
+    padding: 13px 0 10px 0;
+    margin: 0 0 0 0;
+}
+.advertisement-desktop .exit {
+    width: 17.7px;
+    margin: -3px 10.6px 0px 0px;
+}
+.advertisement-desktop .img-courier {
+    width: unset;
+    height: 18px;
+    margin: 0px 7px 0px 7px;
+    float: none;
+}
 #fancybox-wrap {
     width: 100% !important;
     height: 100% !important;
@@ -1426,20 +1442,6 @@ h2.post-title.no-space-top {
     }
     .advertisement-desktop {
         display: block;
-        height: 40px;
-        background: #e9eaeb;
-        padding: 13px 0 10px 0;
-        margin: 0 0 0 0;
-    }
-    .advertisement-desktop .exit {
-        width: 17.7px;
-        margin: -3px 10.6px 0px 0px;
-    }
-    .advertisement-desktop .img-courier {
-        width: unset;
-        height: 18px;
-        margin: 0px 7px 0px 7px;
-        float: none;
     }
     .advertisement-mobile {
         display: none;
