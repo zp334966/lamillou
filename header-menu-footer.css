@@ -145,12 +145,19 @@
 .mobile-navi ul li span:before {
     content: initial;
 }
+.sidebar {
+    margin-top: 42px;    
+}
+.sidebar:before {
+    background: none;
+}
 .sidebar li, .sidebar .submenu li {
     display: block;
     margin: 0;  
 }
 .sidebar ul.submenu {
-    padding-left: 13px;    
+    padding-left: 13px;   
+    margin-bottom: 17px;
 }
 .sidebar h5 {
     color: #16407d;
@@ -171,9 +178,7 @@
     text-transform: none;
     cursor: pointer;
 }
-.sidebar:before {
-    background: none;
-}
+
 .search-trigger {
     position: absolute;
     top: 9px;
