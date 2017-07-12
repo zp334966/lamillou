@@ -1459,6 +1459,7 @@ h2.post-title.no-space-top {
     .footer-subscribe-widget.light-version.notify_prod p {
         margin: 0;
         text-align: center;
+        max-width: 240px;
     }
     .footer-subscribe-widget.light-version.notify_prod {
         text-align: left;
