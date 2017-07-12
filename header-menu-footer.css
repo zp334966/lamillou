@@ -146,8 +146,11 @@
     content: initial;
 }
 .sidebar li, .sidebar .submenu li {
-    display: inline-block;
+    display: block;
     margin: 0;  
+}
+.sidebar ul.submenu {
+    padding-left: 13px;    
 }
 .sidebar h5 {
     color: #16407d;
@@ -156,6 +159,8 @@
     line-height: 20px;
     font-weight: 700;
     cursor: pointer;
+    margin: 0;
+    padding-left: 13px;
 }
 .sidebar .submenu li a{
     color: #16407d;
