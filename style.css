@@ -1475,7 +1475,10 @@ h2.post-title.no-space-top {
     }
     .product_details.product_right_tab {
         padding-left: 48px;
-        overflow: hidden;
+        overflow: hidden;       
+    }
+    .product_right_tab .prod_details_desc {
+        max-width: 472px;
     }
     .sp-slider .ms-thumb-list {
         margin-right: 0;
