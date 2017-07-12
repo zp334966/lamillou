@@ -1534,6 +1534,7 @@ h2.post-title.no-space-top {
     }
     .page-block .menu-packing .packing-info.active {
         display: block;    
+        margin-bottom: 41px;
     }
     .page-block .menu-packing .packing-info {
         display: none;
@@ -1551,6 +1552,8 @@ h2.post-title.no-space-top {
     .menu-packing .packing-info img {
         margin-left: 115px;
         max-width: 514px;
+        max-height: 223px;
+        width: unset;
     }
 }
 
