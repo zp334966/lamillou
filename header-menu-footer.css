@@ -148,31 +148,23 @@
 .sidebar li, .sidebar .submenu li {
     display: inline-block;
 }
-.sidebar ul li a, .sidebar ul li h5 {
-    border-bottom: none;
-    display: block;
-    padding: 14px 45px 14px 0px;
-    font-weight: 700;
-}
-.sidebar a, .sidebar h5 {
+.sidebar h5 {
     color: #16407d;
     letter-spacing: 0.38px;
     font-weight: normal;
-    font-size: 15px !important;
+    font-size: 13px;
     line-height: 20px;
     font-weight: 700;
     cursor: pointer;
 }
-.sidebar ul li ul.submenu li a, .sidebar ul li ul.submenu li h5 {
+.sidebar .submenu li a{
     color: #16407d;
-    font-size: 15px !important;
-    line-height: 20px;
+    font-size: 12px;
+    line-height: 22px;
     letter-spacing: 0;
     font-weight: 400;
-    padding: 0px 9px 0px 11px;
     text-transform: none;
     cursor: pointer;
-    margin-bottom: 24px;
 }
 .sidebar:before {
     background: none;
