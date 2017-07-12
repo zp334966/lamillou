@@ -1553,7 +1553,7 @@ h2.post-title.no-space-top {
         margin-left: 115px;
         max-width: 514px;
         max-height: 223px;
-        width: unset;
+        width: unset !important;
     }
 }
 
