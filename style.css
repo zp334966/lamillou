@@ -127,7 +127,8 @@ section.catalog-grid .nothing-found {
     padding-bottom: 6px;
 }
 .page-block .mobile-navi .packing-info {
-    margin-left: 2px;
+    padding-left: 10px;
+    margin-left: -7px;
 }
 .mobile-navi li.title {
     list-style: none;
