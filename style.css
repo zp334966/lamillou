@@ -817,6 +817,9 @@ div.page-heading.center, div.page-heading {
     max-width: 561px;
     margin: auto;
 }
+.catalog-grid .shop_description {
+    margin-top: 0px;
+}
 .col-sm-2.product-extra {
     height: 208px;
 }
@@ -1451,6 +1454,10 @@ h2.post-title.no-space-top {
     }
     .category_desc h2 {
         text-align: center;
+    }
+    .category-node {
+        margin-top: 38px;
+        padding-bottom: 10px;
     }
 }
 
