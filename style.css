@@ -1456,6 +1456,16 @@ h2.post-title.no-space-top {
     .post-toolbox {
         text-align: left;
     }
+    .footer-subscribe-widget.light-version.notify_prod p {
+        margin: 0;
+        text-align: center;
+    }
+    .footer-subscribe-widget.light-version.notify_prod {
+        text-align: left;
+    }
+    .footer-subscribe-widget input#notif_email {
+        margin: 0;
+    }
     .proposed-products h2, .category_desc h2 {
         font-size: 36px;
         line-height: 50px;
