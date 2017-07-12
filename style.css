@@ -144,7 +144,6 @@ section.catalog-grid .nothing-found {
 }
 .mobile-navi .packing-info {   
     max-height: 0px;
-    overflow: hidden;
     -webkit-transition: all 500ms ease-in-out;
     -moz-transition: all 500ms ease-in-out;
     -o-transition: all 500ms ease-in-out;
