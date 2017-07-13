@@ -556,7 +556,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         display: inline-block;
         float: left;
     }
-    .col-footer {
+    .main-footer .col-footer {
         width: 20%;    
         display: inline-block;
         float: left;
