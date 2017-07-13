@@ -157,7 +157,7 @@ section.catalog-grid .nothing-found {
 }
 .mobile-navi .open .packing-info {
     display: block; 
-    max-height: 1000px;
+    max-height: 1500px;
 }
 .page-block .mobile-navi .packing-info a {
     padding: 0;
