@@ -777,6 +777,9 @@ div.page-heading.center, div.page-heading {
     padding-bottom: 25px !important;
     text-align: center;
 }
+.category_desc {
+    margin-bottom: 12px;
+}
 .category_desc h2 {
     font-family: Besom;
     font-size: 24px;
