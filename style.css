@@ -1586,8 +1586,8 @@ h2.post-title.no-space-top {
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
-    .container .product_details .title {
-        margin-top: 10px;
+    .container {
+        width: unset;
     }
 }
 
