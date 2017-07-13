@@ -19,6 +19,10 @@ a:focus, a:hover {
     padding-left: 10px;
     padding-right: 10px;
 }
+.container.container-products {
+    padding-left: 0px;
+    padding-right: 0px;
+}
 .container-text {
     margin: 0;
     padding-top: 0;
