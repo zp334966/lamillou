@@ -1580,8 +1580,6 @@ h2.post-title.no-space-top {
     .menu-packing .packing-info img {
         padding-left: 100px;
         max-width: 580px;
-        max-height: 223px;
-        width: unset !important;
     }
 }
 
