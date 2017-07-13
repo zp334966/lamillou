@@ -1473,6 +1473,9 @@ h2.post-title.no-space-top {
         padding: 0;
         margin-bottom: 3px;
     }
+    #same-tag-products.proposed-products {
+        margin-bottom: 62px;
+    }
     .product_details.product_right_tab {
         padding-left: 48px;
         overflow: hidden;       
