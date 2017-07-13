@@ -1251,9 +1251,8 @@ function activeMenuPacking(i) {
        }
   });
 };     
-$(document).ready(function(){
-  $('.menu-packing .menu-title .title').on("click", function(e) {
-      var i = $(this).index();
-      activeMenuPacking(i);
-  });
+$('.menu-packing .menu-title .title').on("click", function(e) {
+    var i = $(this).index();
+    activeMenuPacking(i);
 });
+
