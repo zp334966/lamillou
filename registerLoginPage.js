@@ -323,6 +323,7 @@ function editProfile() {
     $( '.cms_edit_profile .forum_options.btn' ).hide();
     $( '.cms_edit_profile #user_last_name' ).parent().detach().prependTo(".cms_edit_profile .edit_user .row:eq(1)"); 
     $( '.cms_edit_profile #user_first_name' ).parent().detach().prependTo(".cms_edit_profile .edit_user .row:eq(1)");
+    $( '.cms_edit_profile .form_accept_checks [for="shop_order_personal_data_clause"]').parent().hide();
 	  /*
     $( '.cms_edit_profile .form_accept_checks [for="shop_order_personal_data_clause"]').each(function() {      
       if ( $(this).next().text().indexOf("przetwarzanie moich danych osobowych") != -1 ){
