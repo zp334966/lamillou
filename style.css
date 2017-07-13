@@ -1499,6 +1499,9 @@ h2.post-title.no-space-top {
         margin-bottom: 62px;
         float: left;
     }
+    #same-tag-products .load-more-products {
+        margin: 10px 0 0 0 !important;
+    }
     .product_details.product_right_tab {
         padding-left: 48px;
         overflow: hidden;       
@@ -1534,6 +1537,7 @@ h2.post-title.no-space-top {
     }
     .category_desc p {
         margin-bottom: 0px!important;
+        text-align: center;
     }
     .category-node {
         margin-top: 38px;
@@ -1544,6 +1548,7 @@ h2.post-title.no-space-top {
     }
     .page-block .menu-packing {
         position: relative;    
+        float: left;
     }
     .page-block .menu-packing .title h5 {
         display: inline-block;   
