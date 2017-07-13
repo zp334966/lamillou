@@ -197,10 +197,12 @@ function orderLastStep () {
     if  (! $( ".order-show" ).length ) {
       hideInHeader();
     }
-    $( "#shop_order_payment" ).after("<div id='shop_order_payment_info'><p>" + 
-      "Masz prawo do odstąpienia od umowy w terminie 14 dni. Koszty zwrotu zamówienia ponosi zamawiający.<br/>" +
-      "<a href='/regulamin'>Przeczytaj więcej</a></p>" + 
-      "<p>Złożenie zamówienia wiąże się z obowiązkiem zapłaty.</p></div>");
+    if (! $( "#order_number_block .shipping_information_title" ).length ) {  
+      $( "#shop_order_payment" ).after("<div id='shop_order_payment_info'><p>" + 
+        "Masz prawo do odstąpienia od umowy w terminie 14 dni. Koszty zwrotu zamówienia ponosi zamawiający.<br/>" +
+        "<a href='/regulamin'>Przeczytaj więcej</a></p>" + 
+        "<p>Złożenie zamówienia wiąże się z obowiązkiem zapłaty.</p></div>");
+    }  
   };
   $('#order_last_step h4').each(function() {      
           if ($(this).text() === "Zamówione artykuły" ){
