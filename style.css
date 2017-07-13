@@ -1479,6 +1479,10 @@ h2.post-title.no-space-top {
     .footer-subscribe-widget input#notif_email {
         margin: 0;
     }
+    .footer-subscribe-widget-submitted {
+        width: 240px;
+        margin: 0;
+    }
     .proposed-products h2, .category_desc h2 {
         font-size: 36px;
         line-height: 50px;
