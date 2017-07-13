@@ -323,11 +323,12 @@ function editProfile() {
     $( '.cms_edit_profile .forum_options.btn' ).hide();
     $( '.cms_edit_profile #user_last_name' ).parent().detach().prependTo(".cms_edit_profile .edit_user .row:eq(1)"); 
     $( '.cms_edit_profile #user_first_name' ).parent().detach().prependTo(".cms_edit_profile .edit_user .row:eq(1)");
+	  /*
     $( '.cms_edit_profile .form_accept_checks [for="shop_order_personal_data_clause"]').each(function() {      
       if ( $(this).next().text().indexOf("przetwarzanie moich danych osobowych") != -1 ){
         $(this).next().text("Wyrażam zgodę na przetwarzanie moich danych osobowych zgodnie z Ustawą z dnia 29.08.1997 r.");              
       } 
-    });  
+    });  */
     $( '.cms_edit_profile h3').each(function() {      
      if ( $(this).text().indexOf("Edycja profilu") != -1 ){
        $(this).text("Twój profil");              
