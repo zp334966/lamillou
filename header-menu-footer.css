@@ -707,12 +707,17 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     }
     .header-toolbar {
         height: 48px;
-        width: 500px;
+        width: 900px;
         float: right;
-        margin-right: 15px;
+        margin-right: 24px;
     }
     .header-toolbar .tools {
         width: auto;
+    }
+    #lm-tools {
+        right: unset !important;
+        width: 900px;
+        text-align: right;
     }
     .logo-big-header {
         display: inline-block;   
