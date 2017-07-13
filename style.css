@@ -1452,6 +1452,12 @@ h2.post-title.no-space-top {
     } 
 }
 
+@media (min-width: 768px) and (max-width: 830px) {
+    .container {
+        width: unset; 
+    }
+}
+
 @media (min-width: 992px){
     .product_details .title {
         font-size: 18px;
