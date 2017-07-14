@@ -1515,7 +1515,9 @@ h2.post-title.no-space-top {
     }
     .sp-slider .ms-thumb-list {
         height: 90px!important;
-        margin-top: 17px !important;
+        margin-top: 0px !important;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     .sp-slider .ms-thumb-frame {
         height: 82px !important;
@@ -1529,26 +1531,25 @@ h2.post-title.no-space-top {
         margin-bottom: 75px !important;
     }
     .ms-skin-default .ms-nav-next, .ms-skin-default .ms-nav-prev {
-        display: block !important;
+        display: inline !important;
         opacity: 1 !important;
         position: relative;        
         z-index: 1;
         width: 9px;
         height: 14px;
-        background-position: center, left top !important;
-        background-repeat: no-repeat !important
+        background-position: left !important;
+        background-repeat: no-repeat !important;
+        top: 56px;
+        padding: 30px 17px 30px 0px;
     }
     .ms-skin-default .ms-nav-next {
-        left: 100%;    
-        top: 101px;
+        left: 100%;            
         background: url('https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/arrow_right.svg');
-        padding: 15px 0px 15px 15px;
+        margin-left: -8px;
     }
     .ms-skin-default .ms-nav-prev {
         left: 0;
-        top: 80px;
         background: url('https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/arrow_left.svg');
-        padding: 15px 15px 15px 0px;
     }
     .category_desc img {
         max-height: 247px;
