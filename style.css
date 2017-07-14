@@ -1179,10 +1179,11 @@ h2.post-title.no-space-top {
     background: #e9eaeb;
     padding: 13px 0 10px 0;
     margin: 0 0 0 0;
+    width: 100%;
 }
 .advertisement-desktop .exit {
     width: 17.7px;
-    margin: -1px 17px 0px 0px;
+    margin: -1px 17px 0px 9px;
 }
 .advertisement-desktop .img-courier {
     width: unset;
