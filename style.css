@@ -1528,6 +1528,20 @@ h2.post-title.no-space-top {
     .master-slider {
         margin-bottom: 75px !important;
     }
+    .ms-skin-default .ms-nav-next, .ms-skin-default .ms-nav-prev {
+        display: block;
+        opacity: 1 !important;
+        position: relative;
+        top: 80px;
+        opacity: 1 !important;
+        z-index: 1;
+    }
+    .ms-skin-default .ms-nav-next {
+        left: 100%;        
+    }
+    .ms-skin-default .ms-nav-prev {
+        left: 0;
+    }
     .category_desc img {
         max-height: 247px;
         width: auto !important;
