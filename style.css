@@ -1548,7 +1548,7 @@ h2.post-title.no-space-top {
         background-position: right !important;
     }
     .ms-skin-default .ms-nav-prev {
-        left: -10px;
+        left: 0px;
         top: 55px;
         background: url('https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/arrow_left.svg');         
         background-position: left !important;
