@@ -1536,20 +1536,22 @@ h2.post-title.no-space-top {
         position: relative;        
         z-index: 1;
         width: 9px;
-        height: 14px;
-        background-position: left !important;
-        background-repeat: no-repeat !important;
-        top: 56px;
+        height: 14px;       
+        background-repeat: no-repeat !important;      
         padding: 30px 17px 30px 0px;
     }
     .ms-skin-default .ms-nav-next {
-        left: 100%;            
+        left: 100%;      
+        top: 56px;      
         background: url('https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/arrow_right.svg');
-        margin-left: -8px;
+        margin-left: -16px;
+        background-position: right !important;
     }
     .ms-skin-default .ms-nav-prev {
-        left: 0;
-        background: url('https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/arrow_left.svg');
+        left: -10px;
+        top: 55px;
+        background: url('https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/arrow_left.svg');         
+        background-position: left !important;
     }
     .category_desc img {
         max-height: 247px;
