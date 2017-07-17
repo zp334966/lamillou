@@ -1705,5 +1705,13 @@ h2.post-title.no-space-top {
     .category-list {
         margin: 0;
     }
+    #products_list_page {
+        padding-right: 4px;
+    }
+    .container .container-detail-product {
+        padding-left: 9px;
+        padding-right: 9px;
+    }
+
 }
 
