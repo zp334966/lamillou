@@ -1210,9 +1210,9 @@ h2.post-title.no-space-top {
 }
 #fancybox-outer {
     position: absolute;
-    width: 100% !important;
+    width: unset !important;
     background: #fff;
-    border: 10px solid rgba(22, 64, 125, 0.8);
+    margin: 10px;
     overflow: hidden;
     height: auto;
 }
@@ -1220,7 +1220,7 @@ h2.post-title.no-space-top {
     width: 100% !important;
 }
 #fancybox-overlay {
-    margin-top: 64px;
+    margin-top: 0px;
     background: rgba(22, 64, 125, .8) !important;
     opacity: 1 !important;
 }
@@ -1459,6 +1459,14 @@ h2.post-title.no-space-top {
         padding-top: 17px;
         margin-bottom: 0;
     } 
+    #fancybox-outer {
+        max-width: 721px;
+        margin: auto;
+    }
+    #fancybox-wrap {
+        left: unset !important;
+        top: 25% !important;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 830px) {
