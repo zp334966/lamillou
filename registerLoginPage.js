@@ -211,6 +211,9 @@ function orderLastStep () {
           if ($(this).text() === "Adres dostawy" ){
             $(this).text("DANE ADRESOWE");              
           } 
+          if ($(this).text() === "Adres" ){
+            $(this).text("DANE ADRESOWE");              
+          } 
           if ( $(this).text().indexOf("Dostawa") != -1 ){
             $(this).text("SPOSÓB DOSTAWY");              
           } 
