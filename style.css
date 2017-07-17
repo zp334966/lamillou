@@ -1518,6 +1518,7 @@ h2.post-title.no-space-top {
         line-height: 22px;
         cursor: pointer;
         padding-bottom: 22px;
+        font-weight: 700;
     }
     .sp-slider .ms-thumb-list {
         margin-right: 0;
