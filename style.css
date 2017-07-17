@@ -1191,6 +1191,14 @@ h2.post-title.no-space-top {
     margin: 0px 7px 0px 7px;
     float: none;
 }
+.advertisement-desktop .img-payU {
+    padding-bottom: 3px;
+    padding-left: 3px;
+    height: 20px;
+}
+.advertisement-desktop .img-paypal {
+    margin: 0 0 -2px 2px;
+}
 #fancybox-wrap {
     width: 100% !important;
     height: 100% !important;
