@@ -1701,7 +1701,7 @@ h2.post-title.no-space-top {
         padding-right: 9px;
     }
 }
-@media (min-width: 1200px){ 
+@media (min-width: 1201px){ 
     .category-list {
         margin: 0;
     }
