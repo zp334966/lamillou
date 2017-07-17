@@ -1509,6 +1509,15 @@ h2.post-title.no-space-top {
     }
     .product_right_tab .prod_details_desc {
         max-width: 472px;
+        padding-bottom: 22px;
+    }
+    .product_right_tab #learn-more {
+        font-size: 14px;
+        color: #16407D;
+        letter-spacing: 0;
+        line-height: 22px;
+        cursor: pointer;
+        padding-bottom: 22px;
     }
     .sp-slider .ms-thumb-list {
         margin-right: 0;
