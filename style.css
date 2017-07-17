@@ -1510,6 +1510,10 @@ h2.post-title.no-space-top {
     .product_right_tab .prod_details_desc {
         max-width: 472px;
     }
+    .product_right_tab .tab-pane  {
+        overflow: hidden;
+        margin-bottom: 22px;
+    }
     .product_right_tab #learn-more {
         font-size: 14px;
         color: #16407D;
@@ -1517,7 +1521,6 @@ h2.post-title.no-space-top {
         line-height: 22px;
         cursor: pointer;
         padding-bottom: 22px;
-        padding-top: 22px;
         font-weight: 700;
     }
     .product_right_tab #learn-more img {
