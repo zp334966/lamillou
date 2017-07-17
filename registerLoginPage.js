@@ -218,11 +218,6 @@ function orderLastStep () {
             $(this).text("SPOSÓB PŁATNOŚCI");              
           } 
   });    
-  $('#order_last_step #shop_order_addresses h4').each(function() {      
-          if ( $(this).text().indexOf("Adres") != -1 ){
-            $(this).text("DANE ADRESOWE");              
-          } 
-  }); 
 };
 orderLastStep();
 
