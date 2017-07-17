@@ -1648,6 +1648,16 @@ h2.post-title.no-space-top {
     }
     #pp_newsletter img {
         max-height: 338px;
+        margin: 16px 0 0 8px;
+    }
+    .cms_newsletter_form {
+        margin: 82px 7px 0 0;
+    }
+    #pp_newsletter .pp_notes {
+        padding: 0 50px 0 50px;
+    }
+    #pp_newsletter form input[type="submit"] {
+        margin-bottom: 34px !important;
     }
 }
 
