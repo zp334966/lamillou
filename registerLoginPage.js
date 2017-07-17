@@ -211,16 +211,18 @@ function orderLastStep () {
           if ($(this).text() === "Adres dostawy" ){
             $(this).text("DANE ADRESOWE");              
           } 
-          if ($(this).text() === "Adres" ){
-            $(this).text("DANE ADRESOWE");              
-          } 
           if ( $(this).text().indexOf("Dostawa") != -1 ){
             $(this).text("SPOSÓB DOSTAWY");              
           } 
           if ( $(this).text().indexOf("Płatność") != -1 ){
             $(this).text("SPOSÓB PŁATNOŚCI");              
           } 
-  });     
+  });    
+  $('#order_last_step #shop_order_addresses h4').each(function() {      
+          if ( $(this).text().indexOf("Adres") != -1 ){
+            $(this).text("DANE ADRESOWE");              
+          } 
+  }); 
 };
 orderLastStep();
 
