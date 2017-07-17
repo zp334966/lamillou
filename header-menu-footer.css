@@ -642,7 +642,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         display: none;    
     }
 }
-@media only screen and (max-width: 1199px) {
+@media only screen and (max-width: 1200px) {
     .header .logo {
         display: inline-block!important;
         float: none;
@@ -663,7 +663,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         display: none;    
     }
 }
-@media (min-width: 1200px){
+@media (min-width: 1201px){
     .container {
         width: 1158px;
     }
