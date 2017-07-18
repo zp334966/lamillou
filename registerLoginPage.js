@@ -227,14 +227,6 @@ if ($( '.page-heading h3' ).length ){
   $("html").ajaxStop(emptyCart);
 };
 
-if ($( '#order-steps' ).length ){
-  $( document ).ready(function() {
-    if ($("#order-steps").css("display") != "none" ) {
-      $(".page").css("border-top", "1px solid #D0D9E5");
-    }
-  });   
-};
-
 $( ".form_accept_checks" ).each(function() {
   var f = $(this).html();
   var f2 = f.replace("</label>", "</label><span>");
