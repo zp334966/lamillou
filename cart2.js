@@ -41,10 +41,6 @@ function onShowOrder() {
         var $title = $('h4 a .title', $(this));
         $title.text(qty + 'x ' + $title.text());
     });
-    
-    // remove space before comma in ship adr.    
-    var $ship_adr = $('#order_last_step p.item');
-    //$ship_adr.html($ship_adr.html().replace(/\s+\,/g, ','));    
 }
 
 function showCheckoutProgress()
