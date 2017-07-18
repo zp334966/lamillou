@@ -273,6 +273,9 @@
 .header-toolbar .tools li.user_not_logged_in.signup a {
     color: #00457b;
 }
+.header-toolbar .tools #current_user_login {
+    font-weight: 400;
+}
 .header .quick-search.open{
     z-index: 5;
 }
