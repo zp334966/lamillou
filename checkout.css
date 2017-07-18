@@ -1365,7 +1365,7 @@ div.checkbox.WithErrors > label {
 #page-content-1 .page {
     border-top: 1px solid #D0D9E5;
 }
-@media (min-width: 1201px){ 
+@media (min-width: 1200px){ 
     #page-content-1 .page {
         border-top: none;
     }
