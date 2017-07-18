@@ -890,7 +890,7 @@ div.page-heading.center, div.page-heading {
 }
 #border-before-content {
     height: 1px;
-    width: 100vw;
+    width: 200vw;
     margin-left: calc(-1 * ((100vw - 100%) / 2));
     display: block;
     background-color: #D0D9E5;
@@ -1720,6 +1720,8 @@ h2.post-title.no-space-top {
         padding-left: 9px;
         padding-right: 26px;
     }
-
+    #border-before-content {
+        display: none;
+    }
 }
 
