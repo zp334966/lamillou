@@ -30,6 +30,12 @@
       transform: perspective(100px) rotateX(0) rotateY(0);
   }
 }
+nav.menu {
+    display: none;  
+}
+#lm-tools .top-menu {
+    display: none;
+}
 .page>.container.cms_register, #login_curtain.specialty-page, .container.restore_password, #thank_you_for_ordering {
     margin-top: 0px!important;
     padding-top: 19px;
