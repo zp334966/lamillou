@@ -1362,3 +1362,11 @@ div.checkbox.WithErrors > label {
 #order_last_step .buttons.panel a:hover, #shop_order_form .buttons.panel a:hover {
     background-color: #16407d;
 }
+#page-content-1 .page {
+    border-top: 1px solid #D0D9E5;
+}
+@media (min-width: 1201px){ 
+    #page-content-1 .page {
+        border-top: 1px solid #D0D9E5;
+    }
+}
