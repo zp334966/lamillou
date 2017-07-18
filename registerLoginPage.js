@@ -249,7 +249,7 @@ function shopOrderForm () {
     });   	  
   }
 };
-
+shopOrderForm ();
 
 if ($( '.page-heading h3' ).length ){
   $(document).ready(emptyCart);
