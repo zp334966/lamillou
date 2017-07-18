@@ -43,9 +43,12 @@
     color: #16407D;
     letter-spacing: 0.38px;
     line-height: 18px;
-    padding: 16px 0px 8px 0px;
+    padding: 0;
     text-align: left;
     margin-bottom: 0px;
+}
+.cms_register.container h3, .restore_password h2, #new_password_container h2, #thank_you_for_ordering h2 {
+    padding: 16px 0px 8px 0px;  
 }
 .cms_register.container .new_button.btn.btn-primary, #login_curtain .cms_buttons .submit,
 .restore_password .submit, #shop_order_form .buttons.panel a.continue_with_order.right {
