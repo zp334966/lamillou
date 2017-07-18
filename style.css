@@ -1673,7 +1673,12 @@ h2.post-title.no-space-top {
         width: unset;
     }
 }
-
+@media (min-width: 1025px) and (max-width: 1050px) {
+    .advertisement-desktop .pay-pal {
+        padding-left: 43px;
+        padding-right: 43px;
+    }
+}
 @media (min-width: 1025px){ 
     .category-node .category-image {
         max-width: 561px;
