@@ -889,12 +889,7 @@ div.page-heading.center, div.page-heading {
     float: right;
 }
 .par_content #delivery, .par_content #contact {
-    margin-left: -10px;
-    margin-right: -10px;
-    border-top: 1px solid #D0D9E5;
     padding-bottom: 14px;
-    padding-left: 10px;
-    padding-right: 10px;
 } 
 /* to jest w produkt detail
 .par_content h1, h2.post-title {
