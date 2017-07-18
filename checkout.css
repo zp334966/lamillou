@@ -1378,4 +1378,7 @@ div.checkbox.WithErrors > label {
     #page-content-1 .page {
         border-top: none;
     }
+    #before-loading {
+        border-top: none;
+    }
 }
