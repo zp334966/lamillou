@@ -180,7 +180,6 @@ function orderLastStep () {
     var price = $( "#order_last_step #shop_order_payment .totals_summary .sum p.nowrap strong" ).html();
     var withPrice = "ZAMAWIAM ZA " + price;
     $(document).ready(function(){ $( "#button-with-price" ).text(withPrice); });
-	  /*
     $( '#shop_order_addresses' ).detach().insertAfter( "#show_order_products_block" );
     $( '#shop_order_addresses' ).after("<div id='shop_order_delivery'></div>");
     $( '#shop_order_delivery' ).after("<div id='shop_order_payment_type'></div>");
@@ -218,9 +217,9 @@ function orderLastStep () {
           if ( $(this).text().indexOf("Płatność") != -1 ){
             $(this).text("SPOSÓB PŁATNOŚCI");              
           } 
-  });    */
+  });    
 };
-orderLastStep();
+//orderLastStep();
 
 if ($( '.page-heading h3' ).length ){
   $(document).ready(emptyCart);
