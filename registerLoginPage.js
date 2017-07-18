@@ -453,15 +453,9 @@ $( "[for=shop_order_edit_shipping_address]" ).click(function() {
     $("#shop_order_show_shipping_address").hide();
     $("#shop_order_edit_shipping_address_form").slideDown(500)    
 }); 
+
 $("#shop_order_delivery_form").on("click", "label", function(){
     var $position = $('#shop_order_delivery_form label').index($(this)); 
     $("#shop_order_delivery_form div").eq($position-1).find("ins").trigger( "click" );
 });
-$("#shop_order_delivery_form").on("mouseenter", "label", function(){
-    var $position = $('#shop_order_delivery_form label').index($(this)); 
-    $("#shop_order_delivery_form div").eq($position-1).find("ins").trigger( "mouseenter" );
-});
-$("#shop_order_delivery_form").on("mouseover", "label", function(){
-    var $position = $('#shop_order_delivery_form label').index($(this)); 
-    $("#shop_order_delivery_form div").eq($position-1).find("ins").trigger( "mouseover" );
-});
+
