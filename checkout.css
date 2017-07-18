@@ -36,6 +36,9 @@ nav.menu {
 #lm-tools .top-menu {
     display: none;
 }
+.advertisement-desktop {
+    display: none;
+}
 .page>.container.cms_register, #login_curtain.specialty-page, .container.restore_password, #thank_you_for_ordering {
     margin-top: 0px!important;
     padding-top: 19px;
