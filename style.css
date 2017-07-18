@@ -888,6 +888,13 @@ div.page-heading.center, div.page-heading {
     width: 173px;
     float: right;
 }
+#border-before-content {
+    height: 1px;
+    width: 100vw;
+    margin-left: calc(-1 * ((100vw - 100%) / 2));
+    display: block;
+    color: #D0D9E5;
+}
 .par_content #delivery, .par_content #contact {
     padding-bottom: 14px;
 } 
