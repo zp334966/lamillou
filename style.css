@@ -950,14 +950,9 @@ div.page-heading.center, div.page-heading {
     color: #243c5e;
     letter-spacing: 0;
     line-height: 20px !important;  
-    margin: 0 !important;
 }
 .par_content p b {
     font-weight: 600;
-}
-.par_content h5 a, .par_content p a, .par_content a {
-    text-decoration: underline;
-    color: #58dfca;
 }
 .par_content .page-heading {
     padding: 0;
@@ -1035,10 +1030,6 @@ h2.post-title.no-space-top {
     font-size: 13px !important;
     color: #243c5e !important;
     font-family: "Open Sans" !important;   
-}
-.row.post div {
-    margin-bottom: 13px;  
-    line-height: 20.8px;
 }
 .widget.rposts h3 {
     font-weight: 700;
