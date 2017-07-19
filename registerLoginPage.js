@@ -65,6 +65,8 @@ function loginBottom () {
             $(this).text("Stwórz konto");   
           }     
         }); 
+	//w htmlu jest 15px important
+	$("#login_box input[type=submit].submit").attr('style', 'margin-top: 30px !important');
     });
   }    
   return;
