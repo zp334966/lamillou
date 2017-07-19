@@ -1154,7 +1154,7 @@ h2.post-title.no-space-top {
 }
 
 .advertisement-desktop {
-    display: none;
+    display: none !important;
 }
 .advertisement-desktop h6 {
     color: black;
@@ -1689,7 +1689,7 @@ h2.post-title.no-space-top {
         display: block;
     }
     .advertisement-mobile {
-        display: none;
+        display: none !important;
     }
     .img-overlay-fa h5 {
         margin-bottom: 52px;
