@@ -1140,8 +1140,8 @@ $(document).ready(function(){ */
 	$('.container-products .info h3 a').each(function() { 
 	  var full_name = $(this).text();
 	  var names = productNames( full_name );    
-	  var subtitle = ""; 
-	  if ($('.page-heading h2').html().includes("Wyszukiwanie")) {
+	  var subtitle = "";
+	  if ($('.page-heading h2').html().indexOf("Wyszukiwanie") != -1 ) {
 	    if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
 	    else { subtitle = add(names.category, names.subtitle); }
 	  } else {
