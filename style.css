@@ -1075,6 +1075,7 @@ h2.post-title.no-space-top {
     line-height: 50px;
     margin: 0;
     padding-left: 10px;
+    display: inline-block;
 }
 .pop-up-added-to-cart img {
     width: 74px;
