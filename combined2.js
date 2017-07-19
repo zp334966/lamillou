@@ -1125,7 +1125,7 @@ $(document).ready(function(){ */
 	  else { subtitle = add(names.category, names.subtitle); }
 	  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>'); 
 	});
-  };
+  };/*
   if ($( '.relate_product .info h3 a' ).length ){
 	$('.relate_product .info h3 a').each(function() { 
 	  var full_name = $(this).text();
@@ -1135,7 +1135,7 @@ $(document).ready(function(){ */
 	  else { subtitle = add(names.category, names.subtitle); }
 	  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>'); 
 	});
-  };
+  };*/
   if ($( '.container-products .info h3 a' ).length ){
 	$('.container-products .info h3 a').each(function() { 
 	  var full_name = $(this).text();
