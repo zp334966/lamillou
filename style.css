@@ -1062,9 +1062,12 @@ h2.post-title.no-space-top {
 .pop-up-added-to-cart .product_details, .pop-up-lack .info {
     float: left;
     width: 178px;
-    padding-left: 9px;
+    padding-left: 10px;
     padding-bottom: 12px;
     padding-right: 5px;
+    color: #16407D;
+    letter-spacing: 0;
+    font-weight: 600;
 }
 .pop-up-added-to-cart h5, .pop-up-lack h5 {
     font-family: 'Open Sans';
@@ -1082,6 +1085,10 @@ h2.post-title.no-space-top {
     height: auto;
     float: left;
     padding-bottom: 18px;
+}
+.pop-up-lack img {
+    padding: 20px 2px 29px 13.5px;
+    float: left;
 }
 .pop-up-added-to-cart .product_details .title {
     font-size: 13px;
