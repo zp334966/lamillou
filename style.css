@@ -891,7 +891,7 @@ div.page-heading.center, div.page-heading {
 #border-before-content {
     height: 1px;
     width: 200vw;
-    margin-left: calc(-1 * ((100vw - 100%) / 2));
+    margin-left: calc(-1 * ((200vw - 100%) / 2));
     display: block;
     background-color: #D0D9E5;
 }
