@@ -170,7 +170,8 @@ if ( $('.sp-slider-photo-view').length ) {
 };
 
 /*Pop up add to cart
-*************************************************/ 
+*************************************************/
+/*
 $(document).ready(function(){  
   var inCart;
   $( ".add_to_cart_button .add" ).click(function() {
@@ -187,3 +188,4 @@ $(document).ready(function(){
     }
   });
 }); 
+*/
