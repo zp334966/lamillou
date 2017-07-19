@@ -1044,7 +1044,7 @@ h2.post-title.no-space-top {
     margin: 0;
 }
 
-.pop-up-added-to-cart {
+.pop-up-added-to-cart, .pop-up-lack {
     width: 273px;
     height: auto;
     border-left: 1px solid #D0D9E5;
@@ -1059,14 +1059,14 @@ h2.post-title.no-space-top {
 .pop-up-added-to-cart .content {
     padding: 0 10px 0 10px;
 }
-.pop-up-added-to-cart .product_details {
+.pop-up-added-to-cart .product_details, .pop-up-lack .info {
     float: left;
     width: 178px;
     padding-left: 9px;
     padding-bottom: 12px;
     padding-right: 5px;
 }
-.pop-up-added-to-cart h5 {
+.pop-up-added-to-cart h5, .pop-up-lack h5 {
     font-family: 'Open Sans';
     font-weight: 700;
     font-size: 15px;
