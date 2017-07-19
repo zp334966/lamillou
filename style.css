@@ -1103,6 +1103,9 @@ h2.post-title.no-space-top {
     letter-spacing: 0;
     float: right;
 }
+.pop-up-added-to-cart .prod_price {
+    padding: 0;
+}
 
 .separate-buttons {
     font-family: 'Open Sans';
@@ -1479,6 +1482,9 @@ h2.post-title.no-space-top {
     .pop-up-added-to-cart.desktop {
         display: none !important;
     }
+    .pop-up-lack.desktop {
+        display: none !important;
+    }
 }
 @media (min-width: 992px){
     .product_details .title {
@@ -1675,9 +1681,20 @@ h2.post-title.no-space-top {
     .pop-up-added-to-cart.mobile {
         display: none !important;
     }
+    .pop-up-lack.mobile {
+        display: none !important;
+    }
     .pop-up-added-to-cart.desktop {
         right: 0;
         margin: 0;
+    }
+    .pop-up-added-to-cart .product_details .title {
+        line-height: 22px;
+        margin: 0;
+    }
+    .pop-up-added-to-cart .product_details .subtitle {
+        font-size: 11px;
+        line-height: 15px;
     }
 }
 
