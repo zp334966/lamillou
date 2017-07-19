@@ -1141,12 +1141,14 @@ $(document).ready(function(){ */
 	  var full_name = $(this).text();
 	  var names = productNames( full_name );    
 	  var subtitle = "";
-	  if ($('.page-heading h2').html().indexOf("Wyszukiwanie") != -1 ) {
-	    if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
-	    else { subtitle = add(names.category, names.subtitle); }
-	  } else {
-	    if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
-	    else { subtitle = names.subtitle; }  
+	  if ( $('.page-heading h2').length ) {
+	    if ($('.page-heading h2').html().indexOf("Wyszukiwanie") != -1 ) {
+	      if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
+	      else { subtitle = add(names.category, names.subtitle); }
+	    } else {
+	      if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
+	      else { subtitle = names.subtitle; }  
+	    }
 	  }
 	  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>'); 
 	});
