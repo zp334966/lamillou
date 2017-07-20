@@ -436,7 +436,21 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     border-bottom: 1px solid #D0D9E5;
     padding-top: 11px;
 }
-
+#cart-dropdown .cart-prod-name {
+    float: left;
+}
+#cart-dropdown .cart-prod-price {
+    font-size: 13px;
+    float: left;
+}
+#cart-dropdown .cart-prod-total-price  {
+    display: none;    
+}
+#cart-dropdown .cart-prod-quantity {
+    font-size: 12px;
+    float: right;
+    margin: 0 0 12px 0;
+}
 .buttons-wide {
     margin-top: 35.5px;
     margin-bottom: 15px;
