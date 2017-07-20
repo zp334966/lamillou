@@ -287,6 +287,9 @@
 .header-toolbar .tools li:hover a i, .header-toolbar .tools li:hover a {
     color: #00457b;
 }
+.header-toolbar .tools li ul {
+    border: 1px solid #D0D9E5;
+}
 .header .quick-search.open {
     z-index: 5;
 }
