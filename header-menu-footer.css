@@ -450,8 +450,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     padding-top: 11px;
     width: 243px;
     margin-left: 21px;
-}
-#cart-dropdown a:last-child {
+} 
+#cart-dropdown a.row:last-child {/*todo nie dziala */
     border: none;
 }
 #cart-dropdown .cart-prod-name {
@@ -504,7 +504,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 #cart-dropdown .totals .row:last-child {
     background: none;
 }
-
+#cart-dropdown .row.sum::before { /*test*/
+      content: "";
+      background: #ccc;
+      width: 1px;
+}
+    
 .buttons-wide {
     margin-top: 35.5px;
     margin-bottom: 15px;
