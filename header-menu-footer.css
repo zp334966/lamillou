@@ -421,6 +421,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     margin: 2px 9px 8px 22px;
     padding: 0;
 }
+#cart-dropdown .cart-dropdown-image img {
+    width: 74px;
+    margin: 0;
+}
 #cart-dropdown .cart-prod-details {
     width: 162px;
     padding: 0;
