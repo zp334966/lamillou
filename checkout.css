@@ -1129,7 +1129,7 @@ p.refund-info a {
     font-size: 13px;
 }
 .cms_edit_profile #user_email_change {
-    display: none;
+    display: none !important;
 }
 #billing_address {
     padding: 0 10px 10px 10px;
