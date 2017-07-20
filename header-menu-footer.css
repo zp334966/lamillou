@@ -513,10 +513,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
       width: 20px;
       height: 2px;
 }
-#cart-dropdown .totals .row div {
+#cart-dropdown .totals .row div:first-child {
     padding-left: 21px;
+} 
+#cart-dropdown .totals .row div:second-child {
     padding-right: 21px;
-}    
+} 
 .buttons-wide {
     margin-top: 35.5px;
     margin-bottom: 15px;
