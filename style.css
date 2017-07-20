@@ -344,7 +344,7 @@ div.page-heading.center, div.page-heading {
 }
 .btn.availability_not_available {
     margin: 0 !important;
-    background: #D0D9E5;
+    background: #B8C1CE;
     opacity: 1;
     border: none;
     padding-left: 0px !important;
@@ -383,22 +383,22 @@ div.page-heading.center, div.page-heading {
 }
 .footer-subscribe-widget input#notif_email::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     font-size: 14px;
-    color: #D0D9E5;
+    color: #B8C1CE;
     letter-spacing: 0;
 }
 .footer-subscribe-widget input#notif_email::-moz-placeholder { /* Firefox 19+ */
     font-size: 14px;
-    color: #D0D9E5;
+    color: #B8C1CE;
     letter-spacing: 0;
 }
 .footer-subscribe-widget input#notif_email:-ms-input-placeholder { /* IE 10+ */
     font-size: 14px;
-    color: #D0D9E5;
+    color: #B8C1CE;
     letter-spacing: 0;
 }
 .footer-subscribe-widget input#notif_email:-moz-placeholder { /* Firefox 18- */
     font-size: 14px;
-    color: #D0D9E5;
+    color: #B8C1CE;
     letter-spacing: 0;
 }
 .footer-subscribe-widget-submitted {
@@ -1116,7 +1116,7 @@ h2.post-title.no-space-top {
     font-family: 'Open Sans';
     font-weight: 700;
     font-size: 13px;
-    color: #D0D9E5;
+    color: #B8C1CE;
     letter-spacing: 0.51px;
     margin: 7px 0px 15px 0px;
 }
@@ -1281,7 +1281,7 @@ h2.post-title.no-space-top {
     top: 9px;
 }
 #pp_newsletter input.text {
-    border: 1px solid #D0D9E5 !important;
+    border: 1px solid #B8C1CE !important;
     height: 50px;
     color: #243C5E !important;
     width: 240px;
@@ -1290,22 +1290,22 @@ h2.post-title.no-space-top {
 }
 #pp_newsletter input.text::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     font-size: 14px;
-    color: #D0D9E5;
+    color: #B8C1CE;
     letter-spacing: 0;
 }
 #pp_newsletter input.text::-moz-placeholder { /* Firefox 19+ */
     font-size: 14px;
-    color: #D0D9E5;
+    color: #B8C1CE;
     letter-spacing: 0;
 }
 #pp_newsletter input.text:-ms-input-placeholder { /* IE 10+ */
     font-size: 14px;
-    color: #D0D9E5;
+    color: #B8C1CE;
     letter-spacing: 0;
 }
 #pp_newsletter input.text:-moz-placeholder { /* Firefox 18- */
     font-size: 14px;
-    color: #D0D9E5;
+    color: #B8C1CE;
     letter-spacing: 0;
 }
 #pp_newsletter .pp_notes {
@@ -1317,12 +1317,12 @@ h2.post-title.no-space-top {
 #pp_newsletter .pp_notes small {
     font-family: 'Open Sans';
     font-size: 13px;
-    color: #D0D9E5;
+    color: #B8C1CE;
     letter-spacing: 0;
     line-height: 20px;
 }
 #pp_newsletter .pp_notes a {
-    color: #D0D9E5;
+    color: #B8C1CE;
     text-decoration: underline;
 }
 #pp_newsletter form input[type=submit] {
