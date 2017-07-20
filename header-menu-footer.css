@@ -451,6 +451,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     width: 243px;
     margin-left: 21px;
 } 
+#cart-dropdown a.row:focus, #cart-dropdown a.row:hover {
+    background-color: unset;
+}
 #cart-dropdown a.row:last-child {/*todo nie dziala */
     border: none;
 }
@@ -507,9 +510,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 #cart-dropdown .row.sum::before { /*test*/
       content: "";
       background: #ccc;
-      width: 1px;
+      width: 20px;
+      height: 2px;
 }
-    
+#cart-dropdown .totals .row div {
+    padding-left: 21px;
+    padding-right: 21px;
+}    
 .buttons-wide {
     margin-top: 35.5px;
     margin-bottom: 15px;
