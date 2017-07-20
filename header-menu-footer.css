@@ -494,7 +494,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-size: 14px;
     letter-spacing: 0.35px;
 }
-
+#cart-dropdown .totals .row {
+    background: #F7F7F7;
+}
+#cart-dropdown .totals .row:last-child {
+    background: none;
+}
 
 .buttons-wide {
     margin-top: 35.5px;
