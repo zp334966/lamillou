@@ -507,6 +507,7 @@ div.page-heading.center, div.page-heading {
 #cart-dropdown .subtitle {
     height: unset;
     white-space: unset;
+    font-weight: 400;
 }
 .product_price, .product_price h3 {
     font-family: 'Open Sans';
