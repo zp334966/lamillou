@@ -421,7 +421,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 #cart-dropdown .cart-dropdown-image {
     width: 74px;
-    margin: 2px 9px 8px 22px;
+    margin: 2px 7px 8px 0;
     padding: 0;
 }
 #cart-dropdown .cart-dropdown-image img {
@@ -435,6 +435,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 #cart-dropdown a.row {
     border-bottom: 1px solid #D0D9E5;
     padding-top: 11px;
+    width: 243px;
+    margin-left: 21px;
 }
 #cart-dropdown .cart-prod-name {
     float: left;
@@ -451,6 +453,27 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     float: right;
     margin: 0 0 12px 0;
 }
+#cart-dropdown .btn {
+    display: none;    
+}
+#cart-dropdown .btn.inverse {
+    display: block; 
+    font-size: 15px !important;
+    text-align: center;
+    text-transform: uppercase;
+    width: 190px;
+    letter-spacing: 0.47px;
+    line-height: 20px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    padding-top: 14px !important;
+    padding-bottom: 16px !important;
+    margin: auto !important;
+    color: white !important;
+    background-color: #16407d !important;
+    border: none !important;
+}
+
 .buttons-wide {
     margin-top: 35.5px;
     margin-bottom: 15px;
