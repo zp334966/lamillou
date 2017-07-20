@@ -275,6 +275,7 @@
 }
 .header-toolbar .tools #current_user_login {
     font-weight: 400;
+    text-transform: none;
 }
 .header-toolbar .tools li:focus a i, .header-toolbar .tools li:focus a, 
 .header-toolbar .tools li:hover a i, .header-toolbar .tools li:hover a {
