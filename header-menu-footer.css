@@ -516,7 +516,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 #cart-dropdown .totals .row div:first-child {
     padding-left: 21px;
 } 
-#cart-dropdown .totals .row div:second-child {
+#cart-dropdown .totals .row div:nth-child(2) {
     padding-right: 21px;
 } 
 .buttons-wide {
