@@ -276,7 +276,11 @@
 .header-toolbar .tools #current_user_login {
     font-weight: 400;
 }
-.header .quick-search.open{
+.header-toolbar .tools li:focus a i, .header-toolbar .tools li:focus a, 
+.header-toolbar .tools li:hover a i, .header-toolbar .tools li:hover a {
+    color: #00457b;
+}
+.header .quick-search.open {
     z-index: 5;
 }
 #top_container {
