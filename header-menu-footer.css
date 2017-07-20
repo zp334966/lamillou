@@ -177,7 +177,7 @@
     text-transform: none;
     cursor: pointer;
 }
-.sidebar .submenu li a:hover, .sidebar .submenu li a:focus {
+.sidebar a h5:hover, .sidebar a h5:focus, .sidebar .submenu li a:hover, .sidebar .submenu li a:focus {
     color: #69B4B0;    
 }
 .nav>li>a:hover, .nav>li>a:focus {
