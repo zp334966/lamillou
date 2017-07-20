@@ -419,6 +419,15 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 #cart-dropdown div {
     padding: 0;
 }
+#cart-dropdown h4 {
+    text-align: left;
+    font-size: 15px;
+    color: #16407D;
+    letter-spacing: 0.46px;
+    font-weight: 700;
+    padding: 15px 0 4px 0;
+    margin: 0 0 0 21px;
+}
 #cart-dropdown .cart-dropdown-image {
     width: 74px;
     margin: 2px 7px 8px 0;
