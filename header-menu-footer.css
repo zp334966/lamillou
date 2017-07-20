@@ -475,7 +475,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 #cart-dropdown .btn {
     display: none;    
 }
-#cart-dropdown .btn.inverse {
+#cart-dropdown .btn.inverse, #cart-dropdown .btn.inverse:hover, #cart-dropdown .btn.inverse:focus {
     display: block; 
     font-size: 15px !important;
     text-align: center;
@@ -500,6 +500,14 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 #cart-dropdown .totals .row {
     background: #F7F7F7;
+    margin: 0;
+    border: none;
+}
+#cart-dropdown .totals .row div {
+    font-weight: 600;
+    font-size: 14px;
+    color: #243C5E;
+    letter-spacing: 0.35px;
 }
 #cart-dropdown .totals .row:first-child {
     padding-top: 34px;
@@ -507,11 +515,19 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 #cart-dropdown .totals .row:last-child {
     background: none;
 }
+#cart-dropdown .row.sum div {
+    font-family: 700;
+    font-size: 15px;
+    color: #16407D;
+    letter-spacing: 0.38px;
+    line-height: 50px;
+}
 #cart-dropdown .row.sum::before { /*test*/
-      content: "";
-      background: #ccc;
-      width: 20px;
-      height: 2px;
+    content: "";
+    background: #D0D9E5;
+    width: 241px;
+    height: 1px;
+    margin-left: 21px;
 }
 #cart-dropdown .totals .row div:first-child {
     padding-left: 21px;
