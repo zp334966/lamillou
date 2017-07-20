@@ -451,7 +451,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     width: 243px;
     margin-left: 21px;
 }
-#cart-dropdown a.row:last-child {
+#cart-dropdown a:last-child {
     border: none;
 }
 #cart-dropdown .cart-prod-name {
@@ -488,14 +488,18 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color: white !important;
     background-color: #16407d !important;
     border: none !important;
+    margin-top: 27px !important;
 }
 #cart-dropdown .totals {
-    padding: 34px 0 28px 0;
+    padding: 0 0 28px 0;
     font-size: 14px;
     letter-spacing: 0.35px;
 }
 #cart-dropdown .totals .row {
     background: #F7F7F7;
+}
+#cart-dropdown .totals .row:first-child {
+    padding-top: 34px;
 }
 #cart-dropdown .totals .row:last-child {
     background: none;
