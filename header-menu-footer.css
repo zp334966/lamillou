@@ -56,13 +56,13 @@
     display:block;
 }
 
-.mobile-search .loupe{
+.mobile-search .loupe {
     position: absolute;
     left: 0;
     top: 0;
     padding: 20px 10px 10px 12px;
 }
-.mobile-search .back-search{
+.mobile-search .back-search {
     position: absolute;
     padding: 15px 15px 15px 15px;
     cursor: pointer;
@@ -93,10 +93,10 @@
     top: 22px;
     left: 23px;
 }
-.off-canvas-wrap #nav-toggle-exit{
+.off-canvas-wrap #nav-toggle-exit {
     display: none;
 }
-.off-canvas-wrap.move-right #nav-toggle-exit{
+.off-canvas-wrap.move-right #nav-toggle-exit {
     display: inline-block;
 }
 .left-off-canvas-menu .mobile-navi {
@@ -169,7 +169,7 @@
     margin: 0;
     padding-left: 13px;
 }
-.sidebar .submenu li a{
+.sidebar .submenu li a {
     color: #16407d;
     font-size: 12px;
     line-height: 22px;
