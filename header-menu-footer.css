@@ -165,7 +165,6 @@
     font-size: 13px;
     line-height: 20px;
     font-weight: 700;
-    cursor: pointer;
     margin: 0;
     padding-left: 13px;
 }
@@ -178,7 +177,7 @@
     text-transform: none;
     cursor: pointer;
 }
-.sidebar li h5:hover, .sidebar li h5:focus, .sidebar .submenu li:hover, .sidebar .submenu li:focus {
+.sidebar .submenu li a:hover, .sidebar .submenu li a:focus {
     color: #69B4B0;    
 }
 .nav>li>a:hover, .nav>li>a:focus {
