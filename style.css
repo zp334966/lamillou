@@ -182,6 +182,10 @@ div.page-heading.center, div.page-heading {
     border: none;   
     background: white;
 }
+.nav>li>a:hover, .nav>li>a:focus {
+    background-color: unset;
+    color: #69B4B0;
+}
 
 .col-xs-5, .col-sm-5, .col-md-5 {
     width: 20%;
@@ -503,9 +507,6 @@ div.page-heading.center, div.page-heading {
     white-space: nowrap;
     width: 100%;
     text-overflow: ellipsis;
-}
-.product-extra h3:hover {
-    color: #00457b;
 }
 .product_price, .product_price h3 {
     font-family: 'Open Sans';
