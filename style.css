@@ -504,6 +504,9 @@ div.page-heading.center, div.page-heading {
     width: 100%;
     text-overflow: ellipsis;
 }
+.product-extra h3:hover {
+    color: #00457b;
+}
 .product_price, .product_price h3 {
     font-family: 'Open Sans';
     font-size: 13px;
