@@ -450,6 +450,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     width: 243px;
     margin-left: 21px;
 }
+#cart-dropdown a.row:last-child {
+    border: none;
+}
 #cart-dropdown .cart-prod-name {
     float: left;
 }
