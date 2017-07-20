@@ -406,6 +406,22 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .header .inner.no-shadow {
     background: rgba(22, 64, 125, 0);
 }
+#cart-dropdown {
+    width: 285px;
+}
+#cart-dropdown .cart-dropdown-image {
+    width: 74px;
+    margin: 2px 9px 8px 22px;
+    padding: 0;
+}
+#cart-dropdown .cart-prod-details {
+    width: 162px;
+    padding: 0;
+}
+#cart-dropdown a.row {
+    border-bottom: 1px solid #D0D9E5;
+    padding-top: 11px;
+}
 .buttons-wide {
     margin-top: 35.5px;
     margin-bottom: 15px;
