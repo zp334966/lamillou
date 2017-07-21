@@ -1136,11 +1136,6 @@ p.refund-info a {
 }
 .order_list.order_history.col-sm-12 {
     margin-top: 0px;
-    border-top: 1px solid #D0D9E5;
-    margin-left: -10px;
-    margin-right: -10px;
-    padding-left: 10px;
-    padding-right: 10px;
     padding-top: 9px;
 } 
 .order_list.order_history.col-sm-12 h2 {
@@ -1372,6 +1367,9 @@ div.checkbox.WithErrors > label {
 #shop_order_form .buttons.panel a:focus, #thank_you_for_ordering .buttons.panel a:hover, 
 #order_last_step .buttons.panel a:hover, #shop_order_form .buttons.panel a:hover {
     background-color: #16407d;
+}
+#page-content-1 .page {
+    border-top: 1px solid #D0D9E5;
 }
 @media (min-width: 1200px){ 
     #page-content-1 .page {
