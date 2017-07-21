@@ -865,7 +865,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     .header-toolbar .tools {
         width: auto;
     }
-    .header-toolbar .tools a:focus, .header-toolbar .tools a:hover, .header-toolbar .tools a:hover span {
+    .header-toolbar .tools a:focus, .header-toolbar .tools a:hover, .header-toolbar #lm-cart a:hover span {
         color: #69B4B0!important;
     }
     #lm-tools {
