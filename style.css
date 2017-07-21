@@ -514,8 +514,6 @@ div.page-heading.center, div.page-heading {
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
-
-    height: 40px;/* Fallback for non-webkit */
 }
 .product_price, .product_price h3 {
     font-family: 'Open Sans';
