@@ -810,7 +810,8 @@ $(window).on('load', function(){
 	
   /*Advertisement mobile 
   ************************************************/
-  $('.exit').click(function() {      
+  $('.exit').click(function() { 
+    $('.site-layout').removeClass("advertisement-active");
     var items = document.getElementsByClassName("advertisement-desktop");
     items[0].style.display = "none";
     var items = document.getElementsByClassName("advertisement-mobile");
@@ -823,7 +824,9 @@ $(window).on('load', function(){
   });  
   $('.advertisement').each(function() {
     console.log(sessionStorage);
+    $('.site-layout').addClass("advertisement-active");
   	if ('advertisement' in sessionStorage){
+		$('.site-layout').removeClass("advertisement-active");
 		var items = document.getElementsByClassName("advertisement-desktop");
 		items[0].style.display = "none";
 		var items = document.getElementsByClassName("advertisement-mobile");
