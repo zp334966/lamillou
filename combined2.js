@@ -1076,6 +1076,22 @@ $(document).ready(function(){ */
 	  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>'); 
 	});
   };
+  /* Cart Dropdown */
+  function updateCartProduct() {
+    if ($( '#cart-dropdown span.cart-prod-name' ).length &&  !$( '#cart-dropdown span.cart-prod-name .title' ).length ){
+	$('#cart-dropdown span.cart-prod-name').each(function() { 
+	  var full_name = $(this).text(); console.log(full_name);
+	  var names = productNames( full_name );    
+	  var subtitle = ""; 
+	  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
+	  else { subtitle = add(names.category, names.subtitle); }
+	  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>'); 
+	});
+    };
+  };
+  $(window).load(function() {
+    $('#cart-dropdown').prepend( "<h4>ZAWARTOŚĆ KOSZYKA</h4>" );
+  });
 /*});*/
 
 /*Unavaible products label
