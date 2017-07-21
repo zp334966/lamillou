@@ -296,6 +296,11 @@
     border-left: 2px solid #D0D9E5;
     padding-left: 25px;
 }
+.header-toolbar .user_logged_in li a {
+    font-weight: 400;
+    text-transform: initial;
+    letter-spacing: -0.07px;
+}
 .header .quick-search.open {
     z-index: 5;
 }
@@ -545,6 +550,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 #cart-dropdown .totals .row div:nth-child(2) {
     padding-right: 21px;
 } 
+    
 .buttons-wide {
     margin-top: 35.5px;
     margin-bottom: 15px;
