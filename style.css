@@ -1068,7 +1068,7 @@ h2.post-title.no-space-top {
     position: absolute;
     background: white;
     right: 0;
-    margin-right: calc(-1 * ((100vw - 100%) / 2));
+    margin-right: calc(-1 * ((100vw - 100%) / 2) + 2px);
 }
 .pop-up-added-to-cart .content {
     padding: 0 10px 0 10px;
