@@ -1166,10 +1166,6 @@ h2.post-title.no-space-top {
     height: 51px;
     margin: -20px 0px 0px 0px;
 }
-
-.advertisement-desktop {
-    display: none;
-}
 .advertisement-desktop h6 {
     color: black;
     font-size: 12px;
@@ -1706,6 +1702,11 @@ h2.post-title.no-space-top {
     .advertisement-desktop .pay-pal {
         padding-left: 43px;
         padding-right: 43px;
+    }
+}
+@media (max-width: 1024px){ 
+    .advertisement-desktop {
+        display: none !important;
     }
 }
 @media (min-width: 1025px){ 
