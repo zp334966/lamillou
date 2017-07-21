@@ -291,6 +291,9 @@
 .header-toolbar .tools li ul {
     border: 1px solid #D0D9E5;
 }
+.header-toolbar #lm-cart {
+    margin-right: 3px;
+}
 .header-toolbar #lm-cart .cart-img {
     margin: 10px 0px 11px 0px;
     border-left: 2px solid #D0D9E5;
