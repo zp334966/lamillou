@@ -1767,6 +1767,10 @@ h2.post-title.no-space-top {
         border-right: 1px solid #D0D9E5;
         right: 0;
         margin: 0;
+        position: fixed;
+        z-index: 100;
+        top: 62px;
+        margin-right: calc(1 * ((100vw - 1123px) / 2) - 11px);
     }
 }
 
