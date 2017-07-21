@@ -504,6 +504,9 @@ div.page-heading.center, div.page-heading {
     width: 100%;
     text-overflow: ellipsis;
 }
+ #cart-dropdown .title, #cart-dropdown .subtitle {
+     width: 162px;
+}
 #cart-dropdown .subtitle {
     height: 34px;
     white-space: normal;
