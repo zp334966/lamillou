@@ -311,7 +311,6 @@ div#show_my_cart div.page-heading h3 {
 #show_my_cart #show_order_products_block .item .table-cell.desc .row > div.money, 
 #order_last_step section.shopping-cart .item .table-cell.desc .row > div.money {
      text-align: right !important;
-     margin-bottom: 55px;
      position: initial; 
 }
 #show_my_cart section.shopping-cart .item .table-cell.desc .price, 
@@ -1373,9 +1372,6 @@ div.checkbox.WithErrors > label {
 #shop_order_form .buttons.panel a:focus, #thank_you_for_ordering .buttons.panel a:hover, 
 #order_last_step .buttons.panel a:hover, #shop_order_form .buttons.panel a:hover {
     background-color: #16407d;
-}
-#page-content-1 .page {
-    border-top: 1px solid #D0D9E5;
 }
 @media (min-width: 1200px){ 
     #page-content-1 .page {
