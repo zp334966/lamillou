@@ -505,9 +505,17 @@ div.page-heading.center, div.page-heading {
     text-overflow: ellipsis;
 }
 #cart-dropdown .subtitle {
-    height: 40px;
-    white-space: unset;
+    height: 34px;
+    white-space: normal;
     font-weight: 400;
+    display: -webkit-box;
+    margin-bottom: 6px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    height: 40px;/* Fallback for non-webkit */
 }
 .product_price, .product_price h3 {
     font-family: 'Open Sans';
