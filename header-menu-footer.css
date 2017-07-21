@@ -282,6 +282,7 @@
 .header-toolbar .tools #current_user_login {
     font-weight: 400;
     text-transform: none;
+    padding-bottom: 11px;
 }
 .header-toolbar .tools li:focus a i, .header-toolbar .tools li:focus a, 
 .header-toolbar .tools li:hover a i, .header-toolbar .tools li:hover a {
@@ -458,7 +459,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 #cart-dropdown a.row:focus, #cart-dropdown a.row:hover {
     background-color: unset;
 }
-#cart-dropdown a.row:first-child {/*todo nie dziala */
+#cart-dropdown a.row:last-of-type {
     border: none;
 }
 #cart-dropdown .cart-prod-name {
