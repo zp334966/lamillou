@@ -553,7 +553,35 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 #cart-dropdown .totals .row div:nth-child(2) {
     padding-right: 21px;
 } 
-    
+
+.quick-search {
+    width: 1122px;
+    margin: auto;
+    position: relative;
+    top: -5px;    
+    padding: 0;
+    height: 40px;
+    border: none;
+}
+.quick-search .overlay {
+    display: none;
+}
+.quick-search .search-field.form-control {
+    position: relative;
+    top: -44px;
+    height: 40px;
+    float: right;
+    border: 1px solid #D0D9E5;
+    background: white;
+    opacity: 1;
+    color: #16407D;
+    font-size: 15px;
+    letter-spacing: 0;
+}
+.quick-search span {
+    display: none;
+}
+
 .buttons-wide {
     margin-top: 35.5px;
     margin-bottom: 15px;
