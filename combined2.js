@@ -1091,10 +1091,13 @@ $(document).ready(function(){ */
 	  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>'); 
 	});
     };
-  };
+    if ( !$( '#cart-dropdown h4' ).length ){
+      $('#cart-dropdown').prepend( "<h4>ZAWARTOŚĆ KOSZYKA</h4>" );   
+    };
+  }; /*
   $(window).load(function() {
     $('#cart-dropdown').prepend( "<h4>ZAWARTOŚĆ KOSZYKA</h4>" );
-  });
+  });*/
 /*});*/
 
 /*Unavaible products label
