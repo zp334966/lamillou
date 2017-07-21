@@ -453,7 +453,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 #cart-dropdown a.row:focus, #cart-dropdown a.row:hover {
     background-color: unset;
 }
-#cart-dropdown a.row:last-child {/*todo nie dziala */
+#cart-dropdown a.row:first-child {/*todo nie dziala */
     border: none;
 }
 #cart-dropdown .cart-prod-name {
