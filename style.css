@@ -1772,5 +1772,8 @@ h2.post-title.no-space-top {
         top: 62px;
         margin-right: calc(1 * ((100vw - 1123px) / 2) - 11px);
     }
+    .advertisement-active .pop-up-added-to-cart.desktop, .advertisement-active .pop-up-lack.desktop {
+        top: 102px;
+    }
 }
 
