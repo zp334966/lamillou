@@ -591,6 +591,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     border-radius: 0 4px 4px 0;
     font-size: 13px !important;
     letter-spacing: 0.41px;
+    background-color: #16407d;
+    color: white !important;
 }
 
 
