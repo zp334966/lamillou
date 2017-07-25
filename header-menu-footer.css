@@ -595,7 +595,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     background-color: #16407d;
     color: white !important;
 }
-
+.quick-search img {
+    position: relative;
+    top: 0;
+    z-index: 5;
+    left: 38px;
+    float: left;
+}
 
 .buttons-wide {
     margin-top: 35.5px;
