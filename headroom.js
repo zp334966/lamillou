@@ -115,6 +115,14 @@
     return t === Object(t) ? t : { down : t, up : t };
   }
   
+  /*MOJE */
+  function pastOffset (h) {
+    if ($(window).width() >= 1201 && h <= 94 ) return true;
+    if ($(window).width() < 1201 && h < 0 ) return true;
+    return false;
+  }
+  
+  
   /**
    * UI enhancement for fixed headers.
    * Hides header when scrolling down
@@ -381,9 +389,9 @@
      */
     shouldUnpin : function (currentScrollY, toleranceExceeded) {
       var scrollingDown = currentScrollY > this.lastKnownScrollY,
-        pastOffset = currentScrollY >= this.offset;
+        /*pastOffset = currentScrollY >= this.offset;*/
   
-      return scrollingDown && pastOffset && toleranceExceeded;
+      return scrollingDown && pastOffset(currentScrollY) && toleranceExceeded;
     },
   
     /**
@@ -394,9 +402,9 @@
      */
     shouldPin : function (currentScrollY, toleranceExceeded) {
       var scrollingUp  = currentScrollY < this.lastKnownScrollY,
-        pastOffset = currentScrollY <= this.offset;
+        /*pastOffset = currentScrollY <= this.offset;*/
   
-      return (scrollingUp && toleranceExceeded) || pastOffset;
+      return (scrollingUp && toleranceExceeded) || pastOffset(currentScrollY);
     },
   
     /**
