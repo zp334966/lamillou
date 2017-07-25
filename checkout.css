@@ -282,6 +282,10 @@ div#show_my_cart div.page-heading h3 {
      height: 95px;
      max-width: initial !important;
      max-height: initial !important; 
+     background: url(https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/placeholder.svg);
+     text-indent: -999px;
+     background-size: 95px;
+     text-align: center;
 }
 #show_my_cart section.shopping-cart .item .table-cell.desc, 
 #show_my_cart #show_order_products_block .item .table-cell.desc, 
