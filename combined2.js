@@ -256,7 +256,7 @@ jQuery(document).ready(function($) {
     tolerance: 0,
     offset : 0,
   });
-  headroom.init(); 
+  headroom.init(); /*
   var lastScrollTop = 0;
   var maxT = 0;
   if ($(window).width() >= 1200) {maxT = 94;}
@@ -283,7 +283,7 @@ jQuery(document).ready(function($) {
     }
     lastScrollTop = st;
   });
-	
+	*/
 	
   /*Navi Toggle Animation
   *******************************************/
