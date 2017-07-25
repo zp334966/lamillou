@@ -229,11 +229,17 @@
     -ms-transition: all 200ms ease;
     -o-transition: all 200ms ease;
 }
+/*.headroom--at-top,*/ .headroom--top {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    display: block;
+}
 .headroom--pinned {
     display: block;
 }
 .headroom--pinned /*.header.stuck */{
-    position: fixed;
+    position: fixed !important;
     display: block;
     left: 0;
     top: 0;
@@ -241,12 +247,7 @@
 .headroom--unpinned {
     display: none;
 }
-/*.headroom--at-top,*/ .headroom--top {
-    position: absolute !important;
-    top: 0;
-    left: 0;
-    display: block;
-}
+
 .header .inner {
     border-bottom: none;
     height: 64px;
