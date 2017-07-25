@@ -270,7 +270,7 @@ jQuery(document).ready(function($) {
 	
   $(window).scroll(function(event){
     var st = $(this).scrollTop();
-    if (st > lastScrollTop + 25){
+    if (st > lastScrollTop + 60){
       // downscroll code
       $("header").addClass("headroom--at-top").removeClass("stuck");
     } else {
