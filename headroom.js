@@ -118,7 +118,7 @@
   /*MOJE */
   function countOffset () {
     if ($(window).width() >= 1201) {
-      if ( $(".advertisement-desktop").length/*style.display === 'block'*/) {
+      if ( $(".advertisement-desktop").css('display') == 'block') {
         return 95;
       } else { 
         return 55;
