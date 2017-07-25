@@ -581,13 +581,15 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     position: relative;
     top: -50px;
     height: 40px;
-    float: right;
     border: 1px solid #D0D9E5 !important;
     background: white;
     opacity: 1;
     color: #16407D;
     font-size: 15px !important;
     letter-spacing: 0;
+    max-width: 840px;
+    float: left;
+    margin-left: 32px;
 }
 
 
