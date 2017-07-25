@@ -117,8 +117,8 @@
   
   /*MOJE */
   function pastOffset (h) {
-    if ($(window).width() >= 1201 && h <= 94 ) return true;
-    if ($(window).width() < 1201 && h < 0 ) return true;
+    if ($(window).width() >= 1201 && h > 94 ) return true;
+    if ($(window).width() < 1201 && h > 0 ) return true;
     return false;
   }
   
