@@ -311,6 +311,11 @@
 }
 .header .quick-search.open {
     z-index: 5;
+    position: relative;
+    top: 0;
+    padding: 0;
+    height: 48px;
+    border: none;
 }
 #top_container {
     text-align: left;
@@ -560,32 +565,31 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 } 
 
 .quick-search {
+    display: none !important; /*
     width: 1122px;
     margin: auto;
     position: relative;
     top: -5px;    
     padding: 0;
     height: 40px;
-    border: none;
+    border: none;*/
 }
-.quick-search .overlay {
-    display: none;
+.quick-search .overlay, .quick-search span {
+    display: none !important;
 }
 .quick-search .search-field.form-control {
     position: relative;
-    top: -44px;
+    top: -50px;
     height: 40px;
     float: right;
-    border: 1px solid #D0D9E5;
+    border: 1px solid #D0D9E5 !important;
     background: white;
     opacity: 1;
     color: #16407D;
-    font-size: 15px;
+    font-size: 15px !important;
     letter-spacing: 0;
 }
-.quick-search span {
-    display: none;
-}
+
 
 .buttons-wide {
     margin-top: 35.5px;
