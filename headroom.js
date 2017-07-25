@@ -126,7 +126,9 @@
     }
     if ($(window).width() < 1201) return 0;
   }
-  
+  function countOffsetTop () {
+    return 140;
+  }  
   
   /**
    * UI enhancement for fixed headers.
@@ -424,7 +426,7 @@
         return;
       }
   
-      if (currentScrollY <= countOffset ()/*this.offset*/ ) {
+      if (currentScrollY <= countOffsetTop()/*this.offset*/ ) {
         this.top();
       } else {
         this.notTop();
