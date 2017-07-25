@@ -133,20 +133,20 @@ function showMyCart () {
       $( ' #cart-totals .btn' ).detach().insertAfter( "#cart-totals" );
       $( ' #show_my_cart .btn' ).text("Zamawiam");
     });
-  } 
+  } /*
   if ($( '#show_my_cart' ).length ) {  
-    $(document).ready(function () {
+    $(document).ready(function () { 
       $( ".shopping-cart img" ).each(function() {
        if (! IsImageOk(this)) {
         this.src = "https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/placeholder.svg";
        };
       });
     });
-  }
+  } */
 };
 showMyCart();
 
-
+/*
 function showOrderProductsBlock() {
   if ($( '#show_order_products_block' ).length ) {  
     $(document).ready(function () {
@@ -159,7 +159,7 @@ function showOrderProductsBlock() {
   }		
 };
 showOrderProductsBlock();
-
+*/
 
 function orderLastStep () {
   if ( $( "#order_last_step #shop_order_payment" ).length ) {
