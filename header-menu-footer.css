@@ -252,6 +252,7 @@
 }
 .header.stuck {
     position: fixed;
+    display: block;
 }
 .header-toolbar {
     padding-top: 0px;
