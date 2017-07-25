@@ -118,10 +118,10 @@
   /*MOJE */
   function countOffset () {
     if ($(window).width() >= 1201) {
-      if ( $(".advertisement-desktop").css('display') == 'block') {
-        return 95;
-      } else { 
+      if ( $(".advertisement-desktop").css('display') == 'none') {
         return 55;
+      } else { 
+        return 95;
       }
     }
     if ($(window).width() < 1201) return 0;
