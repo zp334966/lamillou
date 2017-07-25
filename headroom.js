@@ -418,7 +418,7 @@
         return;
       }
   
-      if (currentScrollY <= this.offset ) {
+      if (currentScrollY <= countOffset ()/*this.offset*/ ) {
         this.top();
       } else {
         this.notTop();
