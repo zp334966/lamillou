@@ -127,7 +127,7 @@
     if ($(window).width() < 1201) return 0;
   }
   function countOffsetTop () {
-    return 140;
+    return 180;
   }  
   
   /**
