@@ -11,6 +11,12 @@ a:focus, a:hover {
 .fa a:hover, .fa a:focus {
     background-color: #16407d !important;
 }
+.bolder {
+    font-weight: 600!important;
+}
+.bold {
+    font-weight: 700!important;    
+}
 .page {
     padding-top: 0px;
     margin-top: 15px;
