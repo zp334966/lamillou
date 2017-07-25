@@ -563,17 +563,16 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 #cart-dropdown .totals .row div:nth-child(2) {
     padding-right: 21px;
 } 
-
+/*
 .quick-search {
-    display: none !important; /*
     width: 1122px;
     margin: auto;
     position: relative;
     top: -5px;    
     padding: 0;
     height: 40px;
-    border: none;*/
-}
+    border: none;
+}*/
 .quick-search .overlay, .quick-search span {
     display: none !important;
 }
