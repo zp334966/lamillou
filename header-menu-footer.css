@@ -456,6 +456,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 #cart-dropdown .cart-dropdown-image img {
     width: 74px;
     margin: 0;
+    background: url(https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/placeholder.svg);
+    text-indent: -9999px;
+    min-height: 74px;
+    background-size: 74px;
 }
 #cart-dropdown .cart-prod-details {
     width: 162px;
