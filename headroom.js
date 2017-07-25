@@ -116,10 +116,9 @@
   }
   
   /*MOJE */
-  function pastOffset (h) {
-    if ($(window).width() >= 1201 && h > 94 ) return true;
-    if ($(window).width() < 1201 && h > 0 ) return true;
-    return false;
+  function countOffset () {
+    if ($(window).width() >= 1201) return 94;
+    if ($(window).width() < 1201) return 0;
   }
   
   
@@ -389,9 +388,9 @@
      */
     shouldUnpin : function (currentScrollY, toleranceExceeded) {
       var scrollingDown = currentScrollY > this.lastKnownScrollY,
-        pastOffsetVar = pastOffset(currentScrollY);/*currentScrollY >= this.offset;*/
+        pastOffset = currentScrollY >= countOffset();/*this.offset;*/
   
-      return scrollingDown && pastOffsetVar && toleranceExceeded;
+      return scrollingDown && pastOffset && toleranceExceeded;
     },
   
     /**
@@ -402,9 +401,9 @@
      */
     shouldPin : function (currentScrollY, toleranceExceeded) {
       var scrollingUp  = currentScrollY < this.lastKnownScrollY,
-        pastOffsetVar = pastOffset(currentScrollY);/*currentScrollY <= this.offset;*/
+        pastOffset = currentScrollY <= countOffset();/*this.offset;*/
   
-      return (scrollingUp && toleranceExceeded) || pastOffsetVar;
+      return (scrollingUp && toleranceExceeded) || pastOffset;
     },
   
     /**
