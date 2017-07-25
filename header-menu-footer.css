@@ -233,7 +233,7 @@
 .headroom--pinned {
     display: block;
 }
-.headroom--pinned, .headroom--pinned.headroom--top  /*.header.stuck */{
+.headroom--pinned /*.header.stuck */{
     position: fixed !important;
     display: block;
     left: 0;
