@@ -389,9 +389,9 @@
      */
     shouldUnpin : function (currentScrollY, toleranceExceeded) {
       var scrollingDown = currentScrollY > this.lastKnownScrollY,
-        /*pastOffset = currentScrollY >= this.offset;*/
+        pastOffsetVar = pastOffset(currentScrollY);/*currentScrollY >= this.offset;*/
   
-      return scrollingDown && pastOffset(currentScrollY) && toleranceExceeded;
+      return scrollingDown && pastOffsetVar && toleranceExceeded;
     },
   
     /**
@@ -402,9 +402,9 @@
      */
     shouldPin : function (currentScrollY, toleranceExceeded) {
       var scrollingUp  = currentScrollY < this.lastKnownScrollY,
-        /*pastOffset = currentScrollY <= this.offset;*/
+        pastOffsetVar = pastOffset(currentScrollY);/*currentScrollY <= this.offset;*/
   
-      return (scrollingUp && toleranceExceeded) || pastOffset(currentScrollY);
+      return (scrollingUp && toleranceExceeded) || pastOffsetVar;
     },
   
     /**
