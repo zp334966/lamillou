@@ -117,7 +117,7 @@
   
   /*MOJE */
   function countOffset () {
-    if ($(window).width() >= 1201) { return 140;/*
+    if ($(window).width() >= 1201) { return 94;/*
       if ( $(".advertisement-desktop").css('display') == 'none') {
         return 55;
       } else { 
@@ -395,10 +395,11 @@
      * @return {bool} true if should unpin, false otherwise
      */
     shouldUnpin : function (currentScrollY, toleranceExceeded) {
+      var scrollingUp  = currentScrollY < this.lastKnownScrollY;
       var scrollingDown = currentScrollY > this.lastKnownScrollY,
         pastOffset = currentScrollY >= countOffset();/*this.offset;*/
   
-      return scrollingDown && pastOffset && toleranceExceeded;
+      return (scrollingDown && pastOffset && toleranceExceeded) || (scrollingUp && currentScrollY < countOffset());
     },
   
     /**
@@ -411,7 +412,7 @@
       var scrollingUp  = currentScrollY < this.lastKnownScrollY,
         pastOffset = currentScrollY <= countOffset();/*this.offset;*/
   
-      return (scrollingUp && toleranceExceeded) || pastOffset;
+      return (scrollingUp && toleranceExceeded && currentScrollY >= pastOffset) || pastOffset;
     },
   
     /**
