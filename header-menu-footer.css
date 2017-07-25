@@ -582,7 +582,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     float: left;
     margin-left: 32px;
 }
-.quick-search input[type="submit"] {
+.quick-search input[type="submit"], .quick-search input[type="submit"]:focus, .quick-search input[type="submit"]:hover {
     position: relative;
     width: 117px;
     padding: 11px 0 11px 0 !important;
