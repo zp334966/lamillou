@@ -128,9 +128,9 @@
   }
   function countOffsetTop () {
     if ( $(".advertisement-desktop").css('display') == 'none') {
-      return 40;
+      return 50;
     } else { 
-      return 80;
+      return 90;
     } 
   } 
   
@@ -444,7 +444,7 @@
         this.notBottom();
       }*/
       /*czy scrollowanie w dol*/
-      if(scrollDirection === 'down' || currentScrollY < 20) {
+      if(scrollDirection === 'down') {
         this.bottom();
       }
       else {
