@@ -891,9 +891,6 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     .search-trigger {
         display: none;    
     }
-    .header {
-        position: relative;
-    }
     .header .logo {
         display: none!important;
         float: none;
