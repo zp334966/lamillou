@@ -948,9 +948,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     .headroom--pinned .logo-big-header {
         display: inline-block;
         width: 101px;
-        margin-left: -500px;
-        transition: width 1s;
-        -webkit-transition: width 1s; 
+        margin-left: -550px;
     }
     .headroom--top .logo-big-header {
         display: inline-block;
@@ -958,13 +956,6 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         transition: width 1s;
         -webkit-transition: width 1s; 
     }
-    .headroom--bottom .logo-big-header {
-        display: inline-block;
-        width: 101px;
-        position: absolute;
-        transition: width 1s;
-        -webkit-transition: width 1s; 
-    } 
     .headroom--bottom.headroom--top .logo-big-header {
         position: absolute;
         width: 140px;
