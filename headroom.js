@@ -399,7 +399,7 @@
       var scrollingDown = currentScrollY > this.lastKnownScrollY,
         pastOffset = currentScrollY >= countOffset();/*this.offset;*/
   
-      return (scrollingDown && pastOffset && toleranceExceeded) || (scrollingUp && currentScrollY < countOffset());
+      return (scrollingDown /*&& pastOffset*/ && toleranceExceeded) || (scrollingUp && !pastOffset);
     },
   
     /**
@@ -410,9 +410,9 @@
      */
     shouldPin : function (currentScrollY, toleranceExceeded) {
       var scrollingUp  = currentScrollY < this.lastKnownScrollY,
-        pastOffset = currentScrollY <= countOffset();/*this.offset;*/
+        pastOffset = currentScrollY >= countOffset();/*this.offset;*/
   
-      return (scrollingUp && toleranceExceeded && currentScrollY >= pastOffset) || pastOffset;
+      return (scrollingUp && toleranceExceeded && pastOffset) /* || pastOffset*/;
     },
   
     /**
