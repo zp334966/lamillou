@@ -340,6 +340,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .header {
     z-index: 100;
+    position: absolute;
 }
 #res-cart {
     width: initial; 
@@ -896,6 +897,9 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     }
     .search-trigger {
         display: none;    
+    }
+    .header {
+        position: relative;
     }
     .header .logo {
         display: none!important;
