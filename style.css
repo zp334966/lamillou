@@ -17,10 +17,6 @@ a:focus, a:hover {
 .bold {
     font-weight: 700!important;    
 }
-.page {
-    padding-top: 0px;
-    margin-top: 15px;
-}
 .container {
     padding-left: 10px;
     padding-right: 10px;
@@ -178,6 +174,8 @@ section.catalog-grid .nothing-found {
 }
 .page-block {
     padding: 0 0 0 0 !important;
+    float: left;
+    margin-top: -36px;
 }
 div.page-heading.center, div.page-heading {
     padding-top: 17px;
