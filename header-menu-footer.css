@@ -938,7 +938,8 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         -webkit-transition: width 0.3s; 
     }*/
     .logo-big-header {
-        display: inline-block;   
+        display: inline-block; 
+        position: fixed;
         width: 140px;
         margin: auto;
         margin-left: -550px;
@@ -946,7 +947,6 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     }
     .headroom--pinned .logo-big-header {
         display: inline-block;
-        position: fixed;
         width: 101px;
         transition: width 1s;
         -webkit-transition: width 1s; 
@@ -956,7 +956,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     }
     .headroom--top .logo-big-header {
         display: inline-block;
-        width: 101px; 
+        width: 140px; 
         transition: width 1s;
         -webkit-transition: width 1s; 
     }
