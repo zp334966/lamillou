@@ -117,12 +117,12 @@
   
   /*MOJE */
   function countOffset () {
-    if ($(window).width() >= 1201) { return 93;/*
+    if ($(window).width() >= 1201) {
       if ( $(".advertisement-desktop").css('display') == 'none') {
-        return 55;
+        return 52;
       } else { 
-        return 95;
-      } */
+        return 92;
+      } 
     }
     if ($(window).width() < 1201) return 0;
   }
