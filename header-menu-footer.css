@@ -962,6 +962,9 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     .headroom--bottom .logo-big-header {
         position: absolute;
     }
+    .headroom--unpinned.headroom--bottom .logo-big-header {
+        width: 140px;
+    }
     .headroom--bottom.headroom--top .logo-big-header {
         position: absolute;
         width: 140px;
