@@ -740,6 +740,7 @@ div#order_last_step div#show_order_products_block {
 h3.quick-contacts-header {
   margin-top: 20px;
   line-height: 36px !important; 
+  text-align: center;
 }
 h3.quick-contacts-header span.larger {
     font-family: Besom;
@@ -749,6 +750,7 @@ h3.quick-contacts-header span.larger {
 p.refund-info {
   font-size: 15px;
   margin-bottom: 36px !important; 
+  text-align: center;
 }
 p.refund-info a {
     text-decoration: underline; 
