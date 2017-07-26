@@ -242,7 +242,7 @@
       
       if(!classList.contains(classes.top)) {
         classList.add(classes.top);
-        classList.remove(classes.notTop);
+        //classList.remove(classes.notTop);
         this.onTop && this.onTop.call(this);
       }
     },
@@ -256,7 +256,7 @@
       
       if(!classList.contains(classes.notTop)) {
         classList.add(classes.notTop);
-        classList.remove(classes.top);
+        //classList.remove(classes.top);
         this.onNotTop && this.onNotTop.call(this);
       }
     },
@@ -439,7 +439,7 @@
       */
       if (currentScrollY <= 40 ) {
         this.top();
-      }
+      } 
       if (currentScrollY <= countOffset()) {
         this.notTop();
       }
