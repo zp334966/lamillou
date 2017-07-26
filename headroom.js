@@ -455,7 +455,7 @@
         this.notTop();
       }
       */
-      if (currentScrollY <= 40 ) {
+      if (currentScrollY <= 60 ) {
         this.top();
       } else {
         this.nieTop(); 
