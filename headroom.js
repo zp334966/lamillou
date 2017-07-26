@@ -117,7 +117,7 @@
   
   /*MOJE */
   function countOffset () {
-    if ($(window).width() >= 1201) { return 100;/*
+    if ($(window).width() >= 1201) { return 110;/*
       if ( $(".advertisement-desktop").css('display') == 'none') {
         return 55;
       } else { 
@@ -126,9 +126,7 @@
     }
     if ($(window).width() < 1201) return 0;
   }
-  function countOffsetTop () {
-    return 140;
-  }  
+ 
   
   /**
    * UI enhancement for fixed headers.
@@ -427,7 +425,7 @@
         return;
       }
   
-      if (currentScrollY <= countOffsetTop()/*this.offset*/ ) {
+      if (currentScrollY <= countOffset()/*this.offset*/ ) {
         this.top();
       } else {
         this.notTop();
