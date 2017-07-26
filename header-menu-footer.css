@@ -945,6 +945,9 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         margin-left: -550px;
         z-index: 100;
     }
+    .headroom--unpinned .logo-big-header {
+        width: 101px;
+    }
     .headroom--pinned .logo-big-header {
         display: inline-block;
         width: 101px;
