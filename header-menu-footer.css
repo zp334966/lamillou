@@ -240,14 +240,18 @@
     top: 0;
 }
 .headroom--unpinned {
-    display: none;
-}
-/*.headroom--at-top,*/ .headroom--top {
+    /*display: none;*/
     position: absolute !important;
     top: 0;
     left: 0;
     display: block;
 }
+/*.headroom--at-top, .headroom--top {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    display: block;
+}*/
 
 .header .inner {
     border-bottom: none;
