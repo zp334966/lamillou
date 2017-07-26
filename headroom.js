@@ -437,7 +437,7 @@
         this.notTop();
       }
       */
-      if (currentScrollY < 1 ) {
+      if (currentScrollY < 5 ) {
         this.top();
       }
       if (currentScrollY <= countOffset()) {
