@@ -241,7 +241,7 @@
 }
 .headroom--unpinned {
     /*display: none;*/
-    position: absolute !important;
+    position: relative !important;
     top: 0;
     left: 0;
     display: block;
