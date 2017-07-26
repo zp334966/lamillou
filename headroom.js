@@ -444,7 +444,7 @@
         this.notBottom();
       }*/
       /*czy scrollowanie w dol*/
-      if(scrollDirection === 'down') {
+      if(scrollDirection === 'down' || currentScrollY < 20) {
         this.bottom();
       }
       else {
