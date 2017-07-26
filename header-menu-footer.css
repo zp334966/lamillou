@@ -948,10 +948,11 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     .headroom--pinned .logo-big-header {
         display: inline-block;
         width: 101px;
+        margin-left: -500px;
         transition: width 1s;
         -webkit-transition: width 1s; 
     }
-    .headroom--unpinned .logo-big-header {
+    .headroom--unpinned.headroom--bottom .logo-big-header {
         display: none;
     }
     .headroom--top .logo-big-header {
