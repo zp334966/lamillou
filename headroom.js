@@ -430,13 +430,19 @@
       if(this.isOutOfBounds(currentScrollY)) { // Ignore bouncy scrolling in OSX
         return;
       }
-  
-      if (currentScrollY <= countOffsetTop()/*this.offset*/ ) {
+     /*
+      if (currentScrollY <= this.offset ) {
         this.top();
       } else {
         this.notTop();
       }
-  
+      */
+      if (currentScrollY == 0 ) {
+        this.top();
+      }
+      if (currentScrollY <= countOffset()) {
+        this.notTop();
+      }
       /*if(currentScrollY + this.getViewportHeight() >= this.getScrollerHeight()) {
         this.bottom();
       }
@@ -476,7 +482,7 @@
       pinned : 'headroom--pinned',
       unpinned : 'headroom--unpinned',
       top : 'headroom--top',
-      notTop : 'headroom--not-top',
+      notTop : 'headroom--in-offset',
       bottom : 'headroom--bottom',
       notBottom : 'headroom--not-bottom',
       initial : 'headroom'
