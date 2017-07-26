@@ -119,9 +119,9 @@
   function countOffset () {
     if ($(window).width() >= 1201) {
       if ( $(".advertisement-desktop").css('display') == 'none') {
-        return 52;
+        return 51;
       } else { 
-        return 92;
+        return 91;
       } 
     }
     if ($(window).width() < 1201) return 0;
