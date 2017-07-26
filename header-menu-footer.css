@@ -917,11 +917,16 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     .headroom--pinned .header-toolbar {
         display:none;
     }
-    .headroom--pinned .logo-big-header {
+   /* .headroom--pinned .logo-big-header */
+    .headroom--not-top .logo-big-header {
         width: 101px;
+        transition: width 3s;
+        -webkit-transition: width 3s; /* dla Google Chrome, Safari, Opera 15+ */
     }
     .headroom--top .logo-big-header {
         width: 140px;
+        transition: width 3s;
+        -webkit-transition: width 3s; /* dla Google Chrome, Safari, Opera 15+ */
     }
     .header-toolbar {
         height: 48px;
