@@ -948,6 +948,12 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     .headroom--unpinned .logo-big-header {
         width: 101px;
     }
+    .headroom--unpinned.headroom--in-offset .logo-big-header {
+        margin-top: -40px;
+    }
+    .headroom--unpinned.headroom--top .logo-big-header {
+        margin-top: 0px;
+    }
     .headroom--pinned .logo-big-header {
         display: inline-block;
         width: 101px;
@@ -964,6 +970,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     }
     .headroom--unpinned.headroom--bottom .logo-big-header {
         width: 140px;
+        margin-top: 0;
     }
     .headroom--bottom.headroom--top .logo-big-header {
         position: absolute;
