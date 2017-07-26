@@ -952,9 +952,6 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         transition: width 1s;
         -webkit-transition: width 1s; 
     }
-    .headroom--unpinned.headroom--bottom .logo-big-header {
-        display: none;
-    }
     .headroom--top .logo-big-header {
         display: inline-block;
         width: 140px; 
@@ -963,11 +960,15 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     }
     .headroom--bottom .logo-big-header {
         display: inline-block;
-        width: 140px;
+        width: 101px;
         position: absolute;
         transition: width 1s;
         -webkit-transition: width 1s; 
     } 
+    .headroom--bottom.headroom--top .logo-big-header {
+        position: absolute;
+        width: 140px;
+    }
     /**koniec testu todo**/
     
     .header-toolbar {
