@@ -956,6 +956,9 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         transition: width 1s;
         -webkit-transition: width 1s; 
     }
+    .headroom--bottom .logo-big-header {
+        position: absolute;
+    }
     .headroom--bottom.headroom--top .logo-big-header {
         position: absolute;
         width: 140px;
