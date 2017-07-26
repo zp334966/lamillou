@@ -11,6 +11,10 @@ a:focus, a:hover {
 .fa a:hover, .fa a:focus {
     background-color: #16407d !important;
 }
+.page {
+    float: left;
+    position: relative;
+}
 .bolder {
     font-weight: 600!important;
 }
@@ -174,8 +178,6 @@ section.catalog-grid .nothing-found {
 }
 .page-block {
     padding: 0 0 0 0 !important;
-    float: left;
-    margin-top: -36px;
 }
 div.page-heading.center, div.page-heading {
     padding-top: 17px;
