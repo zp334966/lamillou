@@ -12,7 +12,6 @@ a:focus, a:hover {
     background-color: #16407d !important;
 }
 .page {
-    float: left;
     position: relative;
 }
 .bolder {
