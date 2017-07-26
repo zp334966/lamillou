@@ -437,7 +437,14 @@
         this.notTop();
       }
   
-      if(currentScrollY + this.getViewportHeight() >= this.getScrollerHeight()) {
+      /*if(currentScrollY + this.getViewportHeight() >= this.getScrollerHeight()) {
+        this.bottom();
+      }
+      else {
+        this.notBottom();
+      }*/
+      /*czy scrollowanie w dol*/
+      if(scrollDirection === 'down') {
         this.bottom();
       }
       else {
