@@ -269,7 +269,7 @@
         this.onNotTop && this.onNotTop.call(this);
       }
     },
-    nienottop : function() {
+    nieNotTop : function() {
       var classList = this.elem.classList,
         classes = this.classes;
       
@@ -458,12 +458,12 @@
       if (currentScrollY <= 40 ) {
         this.top();
       } else {
-        this.nietop(); 
+        this.nieTop(); 
       }
       if (currentScrollY <= countOffset()) {
         this.notTop();
       } else {
-        this.nienotTop();
+        this.nieNotTop();
       }
       /*if(currentScrollY + this.getViewportHeight() >= this.getScrollerHeight()) {
         this.bottom();
