@@ -246,7 +246,16 @@
         this.onTop && this.onTop.call(this);
       }
     },
-  
+    nieTop : function() {
+      var classList = this.elem.classList,
+        classes = this.classes;
+      
+      if(!classList.contains(classes.notTop)) {
+        //classList.add(classes.notTop);
+        classList.remove(classes.top);
+        this.onNotTop && this.onNotTop.call(this);
+      }
+    },  
     /**
      * Handles the not top state
      */
@@ -260,7 +269,16 @@
         this.onNotTop && this.onNotTop.call(this);
       }
     },
-  
+    nienottop : function() {
+      var classList = this.elem.classList,
+        classes = this.classes;
+      
+      if(!classList.contains(classes.top)) {
+        //classList.add(classes.top);
+        classList.remove(classes.notTop);
+        this.onTop && this.onTop.call(this);
+      }
+    },  
     bottom : function() {
       var classList = this.elem.classList,
         classes = this.classes;
@@ -439,9 +457,13 @@
       */
       if (currentScrollY <= 40 ) {
         this.top();
-      } 
+      } else {
+        this.nietop(); 
+      }
       if (currentScrollY <= countOffset()) {
         this.notTop();
+      } else {
+        this.nienotTop();
       }
       /*if(currentScrollY + this.getViewportHeight() >= this.getScrollerHeight()) {
         this.bottom();
