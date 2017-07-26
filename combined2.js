@@ -253,37 +253,11 @@ jQuery(document).ready(function($) {
 *******************************************/
   var myElement = document.querySelector("header");
   var headroom  = new Headroom(myElement, {
-    tolerance: 0,
+    tolerance: 30,
     offset : 0,
   });
-  headroom.init(); /*
-  var lastScrollTop = 0;
-  var maxT = 0;
-  if ($(window).width() >= 1200) {maxT = 94;}
-  $( window ).resize(function() {
-      if ($(window).width() >= 1200) {      
-        maxT = 94;
-      } else {
-        maxT = 0;
-      }
-  });
-	
-  $(window).scroll(function(event){
-    var st = $(this).scrollTop();
-    if (st > lastScrollTop){
-      // downscroll code
-      $("header").addClass("headroom--at-top").removeClass("stuck");
-    } else {
-      // upscroll code
-      if (st > maxT) {
-        $("header").addClass("stuck").removeClass("headroom--at-top");
-      } else {
-      	$("header").addClass("headroom--at-top").removeClass("stuck");
-      }
-    }
-    lastScrollTop = st;
-  });
-	*/
+  headroom.init(); 
+
 	
   /*Navi Toggle Animation
   *******************************************/
@@ -343,8 +317,6 @@ jQuery(document).ready(function($) {
           $(this).siblings('ul').removeClass('open');
           $(this).parent().removeClass('active');
         } else {
-          //$(this).parent().siblings('li').removeClass('active');
-          //$(this).parent().siblings('li').find('ul').removeClass('open');
           $(this).siblings('ul').toggleClass('open');
           $(this).parent().toggleClass('active');
         }
@@ -366,16 +338,6 @@ $('.search-trigger').on('click', function(e) {
    $('.search-wrapper').toggleClass('on');
    $('#header-mobile-id').toggleClass('hidden');
    
-   /*
-   $('.search-wrapper').one('click', function() {
-      that.removeClass('active');
-      $('.search-wrapper').toggleClass('open');
-      
-      setTimeout(function() {
-         $('.off-canvas-searchbar').addClass('hidden');
-      }, 350);
-   });
-   */
 });
 	
 $('.back-search').on('click', function(e) {
