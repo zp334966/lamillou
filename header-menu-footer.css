@@ -909,10 +909,10 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     }
     .sticky-wrapper {
         height: 97px!important;
-    }
+    }/*
     .headroom--at-top .header-toolbar, .header.stuck.headroom--top .header-toolbar  {
         display:block;
-    }    
+    }    */
     .header.stuck .header-toolbar  {
         display:none;
     }
