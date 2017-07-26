@@ -1753,7 +1753,7 @@ h2.post-title.no-space-top {
 }
 @media (min-width: 1201px){ 
     .page {
-        padding-top: 0;
+        padding-top: 112px;
     }
     .category-list {
         margin: 0;
