@@ -909,11 +909,13 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     }
     .sticky-wrapper {
         height: 97px!important;
-    }/*
-    .headroom--at-top .header-toolbar, .header.stuck.headroom--top .header-toolbar  {
+    }
+    .headroom--unpinned .header-toolbar
+    /*.headroom--at-top .header-toolbar, .header.stuck.headroom--top .header-toolbar*/  {
         display:block;
-    }    */
-    .header.stuck .header-toolbar  {
+    }    
+    /*.header.stuck .header-toolbar*/
+    .headroom--pinned .header-toolbar {
         display:none;
     }
     .headroom--pinned .logo-big-header {
