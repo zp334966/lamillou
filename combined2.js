@@ -253,7 +253,7 @@ jQuery(document).ready(function($) {
 *******************************************/
   var myElement = document.querySelector("header");
   var headroom  = new Headroom(myElement, {
-    tolerance: 30,
+    tolerance: 15,
     offset : 0,
   });
   headroom.init(); 
