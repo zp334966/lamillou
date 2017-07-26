@@ -914,9 +914,6 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     .sticky-wrapper {
         height: 97px!important;
     }
-    .headroom--unpinned {
-        position: relative !important;
-    }
     .headroom--unpinned .header-toolbar  {
         display:block;
     }    
@@ -960,7 +957,6 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         width: auto;
         float: right;
         margin-right: 22px;
-        margin-bottom: -36px;
     }
     .menu>ul>li.has-mega-menu>span>a {
         font-size: 13px!important;
