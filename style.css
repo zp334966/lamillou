@@ -1752,6 +1752,9 @@ h2.post-title.no-space-top {
     }
 }
 @media (min-width: 1201px){ 
+    .page {
+        padding-top: 0;
+    }
     .category-list {
         margin: 0;
     }
