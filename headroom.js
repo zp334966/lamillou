@@ -240,21 +240,21 @@
       var classList = this.elem.classList,
         classes = this.classes;
       
-      if(!classList.contains(classes.top)) {
+     // if(!classList.contains(classes.top)) {
         classList.add(classes.top);
         //classList.remove(classes.notTop);
         this.onTop && this.onTop.call(this);
-      }
+     // }
     },
     nieTop : function() {
       var classList = this.elem.classList,
         classes = this.classes;
       
-      if(!classList.contains(classes.notTop)) {
+      //if(!classList.contains(classes.notTop)) {
         //classList.add(classes.notTop);
         classList.remove(classes.top);
         this.onNotTop && this.onNotTop.call(this);
-      }
+      //}
     },  
     /**
      * Handles the not top state
@@ -263,21 +263,21 @@
       var classList = this.elem.classList,
         classes = this.classes;
       
-      if(!classList.contains(classes.notTop)) {
+      //if(!classList.contains(classes.notTop)) {
         classList.add(classes.notTop);
         //classList.remove(classes.top);
         this.onNotTop && this.onNotTop.call(this);
-      }
+      //}
     },
     nieNotTop : function() {
       var classList = this.elem.classList,
         classes = this.classes;
       
-      if(!classList.contains(classes.top)) {
+     // if(!classList.contains(classes.top)) {
         //classList.add(classes.top);
         classList.remove(classes.notTop);
         this.onTop && this.onTop.call(this);
-      }
+      //}
     },  
     bottom : function() {
       var classList = this.elem.classList,
