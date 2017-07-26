@@ -700,7 +700,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .footer {
     background-color: #16407d !important;
 }
-
+footer.footer.main-footer {
+    position: relative;
+    float: left;
+}
 footer.footer {
     margin-top: 0.4px;
 }
