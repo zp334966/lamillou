@@ -572,6 +572,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 } 
 
 .header .quick-search {
+    display: none;
     z-index: 5;
     position: relative;
     top: 5px;
@@ -909,6 +910,9 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     .header .navigation {
         height: inherit;
         width: inherit;
+    }
+    .header .quick-search {
+        display: block;
     }
     .sticky-wrapper {
         height: 97px!important;
