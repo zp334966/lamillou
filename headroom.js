@@ -128,9 +128,9 @@
   }
   function countOffsetTop () {
     if ( $(".advertisement-desktop").css('display') == 'none') {
-      return 50;
+      return 30;
     } else { 
-      return 90;
+      return 70;
     } 
   } 
   
