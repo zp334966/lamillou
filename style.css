@@ -729,6 +729,7 @@ div.page-heading.center, div.page-heading {
     margin-left: 0px;
     margin-right: -10px;
     width: unset;
+    margin-bottom: 12px;
 }
 .ms-thumbs-cont {
     left: 0px !important;
@@ -781,7 +782,7 @@ div.page-heading.center, div.page-heading {
     display: inline-block !important;
     z-index: 9;
     visibility: visible;
-    position: absolute;
+    position: fixed;
     width: 78px;
     top: 0;
     left: 0;
@@ -802,6 +803,11 @@ div.page-heading.center, div.page-heading {
 .photo-view-active .canvas-photo-view {
     display: block;
 }
+.photo-view-active .col-lg-9, .photo-view-active .product_left_tab {
+    width: 100% !important;
+}
+
+
 .site-layout.unvisible {
     visibility: hidden;
     position: fixed;
