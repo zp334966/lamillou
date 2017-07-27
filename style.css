@@ -771,7 +771,7 @@ div.page-heading.center, div.page-heading {
     height: 0px;
 }
 .photo-view-active .sp-slider {
-    margin: -9px -4px -4px -4px;
+    margin: 7px -4px -4px -4px;
 }
 .photo-view-active .sp-slider .master-slider {
     margin: 0px !important;
