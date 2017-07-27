@@ -571,7 +571,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     padding-right: 21px;
 } 
 
-.header .quick-search {
+.header .search-desktop {
     display: none;
     z-index: 5;
     position: relative;
@@ -580,10 +580,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     height: 48px;
     border: none;
 }
-.quick-search .overlay, .quick-search span {
-    display: none !important;
-}
-.quick-search .search-field.form-control {
+.search-desktop .search-field.form-control {
     position: relative;
     top: -50px;
     height: 40px;
@@ -598,7 +595,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     margin-left: 32px;
     text-align: left;
 }
-.quick-search input[type="submit"], .quick-search input[type="submit"]:focus, .quick-search input[type="submit"]:hover {
+.search-desktop input[type="submit"], .search-desktop input[type="submit"]:focus, 
+.search-desktop input[type="submit"]:hover {
     position: relative;
     width: 117px;
     padding: 11px 0 11px 0 !important;
@@ -610,7 +608,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     background-color: #16407d;
     color: white !important;
 }
-.quick-search img {
+.search-desktop img {
     position: relative;
     top: 0;
     z-index: 5;
@@ -910,9 +908,6 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     .header .navigation {
         height: inherit;
         width: inherit;
-    }
-    .header .quick-search {
-        display: block;
     }
     .sticky-wrapper {
         height: 97px!important;
