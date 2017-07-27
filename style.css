@@ -788,6 +788,14 @@ div.page-heading.center, div.page-heading {
     margin: 0px !important;
     text-align: center;
 }
+.photo-view-active header, .photo-view-active .product_details.product_right_tab, 
+.photo-view-active .category_desc, .photo-view-active .page-block,
+.photo-view-active .small-container, .photo-view-active footer {
+    display: none!important;
+}
+.photo-view-active .page {
+    padding-top: 0px;
+}
 .site-layout.unvisible {
     visibility: hidden;
     position: fixed;
