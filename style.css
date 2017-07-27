@@ -1635,7 +1635,8 @@ h2.post-title.no-space-top {
         height: 14px;   
         background: url('https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/arrow_left.svg');         
         background-position: left;
-        background-repeat: no-repeat; 
+        background-repeat: no-repeat;
+        float: left;
     } 
     .master-slider .ms-next {
         display: inline;
@@ -1645,6 +1646,7 @@ h2.post-title.no-space-top {
         background: url('https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/arrow_right.svg');        
         background-position: left;
         background-repeat: no-repeat; 
+        float: left;
     }
     
     .category_desc img {
