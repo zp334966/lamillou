@@ -1,12 +1,3 @@
-function mobileVersion () {
-  if ($(window).width() >= 1201) {
-    return false;	  
-  } else {
-    return true;  
-  }
-};
-
-
 /* Relate products display
 /**********************************************/
 var items = document.getElementsByClassName("relate_product"); 
