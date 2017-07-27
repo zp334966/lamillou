@@ -773,7 +773,11 @@ div.page-heading.center, div.page-heading {
 .photo-view {
     margin: -9px -4px -4px -4px;
 }
-#exit-photo-view.photo-view {
+.sp-slider.photo-view .master-slider {
+    margin: 0px !important;
+    text-align: center;
+}
+.photo-view-active #exit-photo-view {
     display: inline-block !important;
     z-index: 9;
     visibility: visible;
@@ -783,10 +787,6 @@ div.page-heading.center, div.page-heading {
     left: 0;
     padding: 20px 23px 23px 23px; 
     cursor: pointer;
-}
-.sp-slider.photo-view .master-slider {
-    margin: 0px !important;
-    text-align: center;
 }
 .photo-view-active header, .photo-view-active .product_details.product_right_tab, 
 .photo-view-active .category_desc, .photo-view-active .page-block,
