@@ -105,6 +105,7 @@ $('#learn-more').on("click", function(e) {
 *************************************************/
 var advertMobVisible = 'none';
 var advertDesVisible = 'none';
+
   
 function photoDisplay() {
   $('.sp-slider').addClass("photo-view");
@@ -112,7 +113,8 @@ function photoDisplay() {
   $('.sp-slider-photo-view').addClass("active"); 
   $('.canvas-photo-view').show();
 };
-function photoHideLayout() {	
+function photoHideLayout() {
+  $('header').hide();
   $('.sticky-wrapper').hide();
   advertMobVisible = $('.advertisement-mobile').css('display');
   advertDesVisible = $('.advertisement-desktop').css('display');
@@ -138,6 +140,7 @@ function HidePhotoView() {
   $('#exit-photo-view').removeClass("photo-view");
   $('.sp-slider-photo-view').removeClass("active"); 
   $('.canvas-photo-view').hide();
+  $('header').show();
   $('.sticky-wrapper').show();
   $('.advertisement-mobile').css('display', advertMobVisible);
   $('.advertisement-desktop').css('display', advertDesVisible);
