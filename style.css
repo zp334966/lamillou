@@ -791,7 +791,7 @@ div.page-heading.center, div.page-heading {
 }
 .photo-view-active header, .photo-view-active .product_details.product_right_tab, 
 .photo-view-active .category_desc, .photo-view-active .page-block,
-.photo-view-active .small-container, .photo-view-active footer {
+.photo-view-active .small-container, .photo-view-active footer, .photo-view-active .category-icon {
     display: none!important;
 }
 .photo-view-active .page {
