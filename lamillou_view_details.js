@@ -137,6 +137,7 @@ function HidePhotoView() {
   $('.advertisement-mobile').css('display', advertMobVisible);
   $('.advertisement-desktop').css('display', advertDesVisible);
   $(window).trigger('resize');
+  $(window).trigger('resize');
 };
 
 $( '.sp-slider-photo-view' ).click(photoView);
