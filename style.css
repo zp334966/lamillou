@@ -1627,7 +1627,26 @@ h2.post-title.no-space-top {
         top: 55px;
         background: url('https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/arrow_left.svg');         
         background-position: left !important;
+    } /*todo*/
+    .master-slider .ms-prev {
+        display: inline;
+        position: relative; 
+        width: 9px;
+        height: 14px;   
+        background: url('https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/arrow_left.svg');         
+        background-position: left;
+        background-repeat: no-repeat; 
+    } 
+    .master-slider .ms-next {
+        display: inline;
+        position: relative; 
+        width: 9px;
+        height: 14px;   
+        background: url('https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/arrow_right.svg');        
+        background-position: left;
+        background-repeat: no-repeat; 
     }
+    
     .category_desc img {
         max-height: 247px;
         width: auto !important;
