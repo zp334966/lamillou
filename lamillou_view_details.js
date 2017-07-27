@@ -114,6 +114,7 @@ var advertDesVisible = 'none';
 function photoDisplay() {
   $('.site-layout').addClass("photo-view-active");
   $('.sp-slider-photo-view').addClass("active"); 
+  $(window).trigger('resize');
 };
 function photoHideLayout() {
   advertMobVisible = $('.advertisement-mobile').css('display');
@@ -135,6 +136,7 @@ function HidePhotoView() {
   $('.sp-slider-photo-view').removeClass("active"); 
   $('.advertisement-mobile').css('display', advertMobVisible);
   $('.advertisement-desktop').css('display', advertDesVisible);
+  $(window).trigger('resize');
 };
 
 $( '.sp-slider-photo-view' ).click(photoView);
