@@ -796,7 +796,12 @@ div.page-heading.center, div.page-heading {
 .photo-view-active .page {
     padding-top: 0px;
 }
-
+.canvas-photo-view {
+    display: none;
+}
+.photo-view-active .canvas-photo-view {
+    display: block;
+}
 .site-layout.unvisible {
     visibility: hidden;
     position: fixed;
