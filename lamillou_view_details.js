@@ -1,3 +1,8 @@
+function putPlaceholderProduct(a) {
+  a.src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/placeholder.svg'; 
+  a.style.paddingTop= 'calc((100% - 175px)/2)';
+};
+
 /* Relate products display
 /**********************************************/
 var items = document.getElementsByClassName("relate_product"); 
