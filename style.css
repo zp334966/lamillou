@@ -770,10 +770,10 @@ div.page-heading.center, div.page-heading {
     position: absolute;
     height: 0px;
 }
-.photo-view-active.sp-slider {
+.photo-view-active .sp-slider {
     margin: -9px -4px -4px -4px;
 }
-.photo-view-active.sp-slider .master-slider {
+.photo-view-active .sp-slider .master-slider {
     margin: 0px !important;
     text-align: center;
 }
