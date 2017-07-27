@@ -321,8 +321,11 @@
     padding-left: 21px;
     margin-bottom: -20px;
 }
-.navigation .search i {
-    padding: 10px 10px 10px 0px;
+.navigation .search-trigger-desktop {
+    padding: 12px 3px 20px 19px;
+}
+.navigation .search-trigger-desktop img { 
+    height: 18px;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color:#16407d; 
