@@ -1,3 +1,11 @@
+function mobileVersion () {
+  if ($(window).width() >= 1201) {
+    return false;	  
+  } else {
+    return true;  
+  }
+};
+
 
 /* Relate products display
 /**********************************************/
@@ -108,6 +116,7 @@ var advertDesVisible = 'none';
 
   
 function photoDisplay() {
+  $('.site-layout').addClass("photo-view-active");
   $('.sp-slider').addClass("photo-view");
   $('#exit-photo-view').addClass("photo-view");   
   $('.sp-slider-photo-view').addClass("active"); 
@@ -136,6 +145,7 @@ function photoView() {
 };
 
 function HidePhotoView() {
+  $('.site-layout').removeClass("photo-view-active");
   $('.sp-slider').removeClass("photo-view");
   $('#exit-photo-view').removeClass("photo-view");
   $('.sp-slider-photo-view').removeClass("active"); 
@@ -171,6 +181,7 @@ if ( $('.sp-slider-photo-view').length ) {
 	    $( '.canvas-photo-view' ).height(hWindow - h2 - 5);
 	});
 };
+
 
 /*Pop up add to cart
 *************************************************/
