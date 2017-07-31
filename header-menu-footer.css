@@ -895,6 +895,11 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     .search-trigger {
         display: none;    
     }
+    .search-wrapper.off .search-off-canvas {
+        background: transparent;
+        bottom: 0;
+        top: 0;
+    }
     .header .logo {
         display: none!important;
         float: none;
