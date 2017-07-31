@@ -39,6 +39,10 @@ nav.menu {
 .advertisement-desktop {
     display: none;
 }
+#page-content-1 .container div.page-heading.center {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
 .page>.container.cms_register, #login_curtain.specialty-page, .container.restore_password, #thank_you_for_ordering {
     margin-top: 0px!important;
     padding-top: 19px;
@@ -485,10 +489,6 @@ div#order_last_step div#show_order_products_block {
     padding-left: 0px;
     padding-right: 0px;
     margin-top: -8px;
-}
-#order_last_step .container div.page-heading.center {
-    padding-left: 0px !important;
-    padding-right: 0px !important;
 }
 #order_last_step .container {
     width: unset !important;
