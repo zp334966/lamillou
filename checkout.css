@@ -1370,6 +1370,11 @@ div.checkbox.WithErrors > label {
 #page-content-1 .page {
     border-top: 1px solid #D0D9E5;
 }
+@media (min-width: 831px){ 
+  #show_my_cart #cart-totals, #order_last_step #cart-totals, #shop_order_payment {
+      padding: 9px 20px 0px 20px;
+  }
+}
 @media (min-width: 1200px){ 
     #page-content-1 .page {
         border-top: none;
