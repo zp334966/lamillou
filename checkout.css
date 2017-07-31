@@ -98,7 +98,10 @@ nav.menu {
     text-align: left;
     color: #16407d; 
 }
-
+#shop_order_form h2.shop_order_payment_title, #shop_order_form h2.shop_order_delivery_title  {
+    margin-bottom: 28px;
+}
+  
 .checkout-strong-label {
     font-size: 16px;
     letter-spacing: 0;
@@ -647,7 +650,7 @@ div#order_last_step div#show_order_products_block {
   width: 80%;
   vertical-align: top;
   margin-top: -3px;
-  margin-bottom: 20px; 
+  margin-bottom: 25px; 
 }
 #shop_order_delivery_form label[for='shop_order[delivery_option_id]'], 
 #shop_order_form .credit_cards label[for='shop_order[delivery_option_id]'] {
