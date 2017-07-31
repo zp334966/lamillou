@@ -600,7 +600,7 @@ div#order_last_step div#show_order_products_block {
 #shop_order_form #country_list {
   display: none; 
 }
-#shop_order_form label {
+#shop_order_form label, #shop_order_form label[for=shop_order_comment] {
   font-family: "Open Sans";
   font-size: 13px;
   color: #16407d;
