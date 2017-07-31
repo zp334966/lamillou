@@ -1374,6 +1374,12 @@ div.checkbox.WithErrors > label {
   #show_my_cart #cart-totals, #order_last_step #cart-totals, #shop_order_payment {
       padding: 9px 20px 0px 20px;
   }
+  #shop_order_delivery_form label, #shop_order_form .credit_cards label {
+      font-size: 14px;
+  }
+  #shipping_payments_terms label[for='shop_order_wants_invoice'] {
+      font-size: 14px;
+  }
 }
 @media (min-width: 1200px){ 
     #page-content-1 .page {
