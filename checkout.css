@@ -101,7 +101,15 @@ nav.menu {
 #shop_order_form h2.shop_order_payment_title, #shop_order_form h2.shop_order_delivery_title  {
     margin-bottom: 28px;
 }
-  
+#shop_order_form h2.shop_order_payment_title {
+    margin-top: -49px;
+    border-top: 1px solid #d0d9e5;
+    padding-top: 28px;
+}
+#shop_order_form h2.shop_order_delivery_title {
+   margin-top: 9px;
+}
+
 .checkout-strong-label {
     font-size: 16px;
     letter-spacing: 0;
@@ -650,7 +658,7 @@ div#order_last_step div#show_order_products_block {
   width: 80%;
   vertical-align: top;
   margin-top: -3px;
-  margin-bottom: 25px; 
+  margin-bottom: 29px; 
 }
 #shop_order_delivery_form label[for='shop_order[delivery_option_id]'], 
 #shop_order_form .credit_cards label[for='shop_order[delivery_option_id]'] {
