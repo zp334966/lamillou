@@ -179,11 +179,6 @@ form.new_user .field_with_errors .validation-error {
     display: none;  
 }
 
-#empty-cart.page {
-    margin-top: 14px;
-    border-top: 1px solid #D0D9E5;
-    padding-top: 0px;
-}
 #empty-cart .page-heading h3, .order_list.order_history.col-sm-12 h2 {
     font-family: 'Open Sans';
     font-weight: 700;
