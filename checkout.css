@@ -486,6 +486,13 @@ div#order_last_step div#show_order_products_block {
     padding-right: 0px;
     margin-top: -8px;
 }
+#order_last_step .container div.page-heading.center {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+#order_last_step .container {
+    width: unset !important;
+}
 
 #show_my_cart #cart_summary_info, #order_last_step #cart_summary_info {
     display: none; 
