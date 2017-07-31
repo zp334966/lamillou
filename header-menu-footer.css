@@ -895,13 +895,13 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     .search-trigger {
         display: none;    
     }
-    .search-wrapper.on .search-off-canvas {
+    .search-wrapper.on.desktop .search-off-canvas {
         -moz-transition: none;
         -webkit-transition: none;
         -o-transition: color 0 ease-in;
         transition: none; 
     }
-    .search-wrapper.off .search-off-canvas {
+    .search-wrapper.off.desktop .search-off-canvas {
         background: transparent;
         bottom: 0;
         top: 0;
