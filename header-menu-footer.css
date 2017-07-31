@@ -328,7 +328,7 @@
 .navigation .search-trigger-desktop img { 
     height: 18px;
 }
-.navigation .search-trigger-desktop.active {
+.search-wrapper.off .navigation .search-trigger-desktop {
     position: absolute;
     padding: 0;
     z-index: 1;
