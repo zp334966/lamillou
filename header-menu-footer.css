@@ -582,7 +582,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .search-desktop .search-field.form-control {
     position: relative;
-    top: -50px;
     height: 40px;
     border: 1px solid #D0D9E5 !important;
     background: white;
@@ -601,20 +600,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     width: 117px;
     padding: 11px 0 11px 0 !important;
     margin: 0 !important;
-    top: -50px;
     border-radius: 0 4px 4px 0;
     font-size: 13px !important;
     letter-spacing: 0.41px;
     background-color: #16407d;
     color: white !important;
 }
-.search-desktop img {
-    position: relative;
-    top: 0;
-    z-index: 5;
-    left: 38px;
-    float: left;
-}
+
 
 .buttons-wide {
     margin-top: 35.5px;
