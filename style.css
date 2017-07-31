@@ -13,7 +13,7 @@ a:focus, a:hover {
 }
 .page {
     position: relative;
-    margin-top: 64px;
+    padding-top: 64px;
 }
 .bolder {
     font-weight: 600!important;
@@ -1772,7 +1772,7 @@ h2.post-title.no-space-top {
 }
 @media (min-width: 1201px){ 
     .page {
-        margin-top: 112px;
+        padding-top: 112px;
     }
     .category-list {
         margin: 0;
