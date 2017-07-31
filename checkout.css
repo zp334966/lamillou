@@ -173,7 +173,6 @@ form.new_user .field_with_errors .validation-error {
   font-weight: 400;
   color: #F1001D;
   margin-top: 10px;
-  margin-bottom: 10px; 
 }
 .form_accept_checks .field_with_errors .validation-error {
     display: none;  
