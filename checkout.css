@@ -1379,6 +1379,9 @@ div.checkbox.WithErrors > label {
 #thank_you_for_ordering .bolder {
     font-weight: 700!important;
 }
+#thank_you_for_ordering .totals_summary .table-row:last-of-type p {
+    border-top: 1px solid #D0D9E5;
+}
 #thank_you_for_ordering .buttons.panel a:focus, #order_last_step .buttons.panel a:focus, 
 #shop_order_form .buttons.panel a:focus, #thank_you_for_ordering .buttons.panel a:hover, 
 #order_last_step .buttons.panel a:hover, #shop_order_form .buttons.panel a:hover {
