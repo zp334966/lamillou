@@ -328,7 +328,7 @@
 .navigation .search-trigger-desktop img { 
     height: 18px;
 }
-.search-wrapper.off-desktop .navigation .search-trigger-desktop {
+.navigation .search-trigger-desktop.active {
     position: absolute;
     padding: 0;
     z-index: 1;
@@ -614,7 +614,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     background-color: #16407d;
     color: white !important;
 }
-
+.search-desktop .overlay {
+    position: absolute;
+    top: 0;
+    padding: 2000px;
+    left: -1000px
+}
 
 .buttons-wide {
     margin-top: 35.5px;
@@ -894,27 +899,6 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     }
     .search-trigger {
         display: none;    
-    }
-    .search-wrapper.on .search-off-canvas {
-        -moz-transition: none;
-        -webkit-transition: none;
-        -o-transition: color 0 ease-in;
-        transition: none; 
-    }
-    .search-wrapper.off-desktop .search-off-canvas {
-        z-index: 1;
-        cursor: pointer;
-        display: block;
-        position: absolute;
-        background: transparent;
-        bottom: 0;
-        top: 0;
-        left: 0;
-        right: 0;        
-        -moz-transition: none;
-        -webkit-transition: none;
-        -o-transition: color 0 ease-in;
-        transition: none;
     }
     .header .logo {
         display: none!important;
