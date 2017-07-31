@@ -1386,7 +1386,9 @@ div.checkbox.WithErrors > label {
 #thank_you_for_ordering #shop_order_payment h4 {
     margin-bottom: 3px !important;
 }
-
+#thank_you_for_ordering #shop_order_payment .table-cell.text-left strong {
+    font-size: 16px;
+}
 #thank_you_for_ordering .buttons.panel a:focus, #order_last_step .buttons.panel a:focus, 
 #shop_order_form .buttons.panel a:focus, #thank_you_for_ordering .buttons.panel a:hover, 
 #order_last_step .buttons.panel a:hover, #shop_order_form .buttons.panel a:hover {
