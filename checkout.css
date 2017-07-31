@@ -1342,8 +1342,8 @@ div.checkbox.WithErrors > label {
 #thank_you_for_ordering {
     text-align: left;   
 }
-#thank_you_for_ordering h2{
-    padding-bottom: 3px;    
+#thank_you_for_ordering h2 {
+    padding: 16px 0px 2px 0px;
 }
 #thank_you_for_ordering #order-number h2 {
     padding-top: 0px;
@@ -1365,6 +1365,7 @@ div.checkbox.WithErrors > label {
     color: #16407D;
     letter-spacing: 0.35px;
     line-height: 20px;
+    margin-bottom: 24px;
 }
 #thank_you_for_ordering #order-number {
     margin-bottom: 6px;
@@ -1372,10 +1373,6 @@ div.checkbox.WithErrors > label {
 }
 #thank_you_for_ordering .dark-blue {
     color: #243C5E;    
-}
-#thank_you_for_ordering .panel {
-    margin-bottom: 0px;  
-    margin-top: 30px;
 }
 #thank_you_for_ordering .bolder {
     font-weight: 700!important;
