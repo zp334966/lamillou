@@ -1406,11 +1406,14 @@ div.checkbox.WithErrors > label {
       font-size: 14px;
   }
 }
-@media (min-width: 1200px){ 
+@media (min-width: 1201px){ 
     #page-content-1 .page {
         border-top: none;
     }
     #before-loading {
         border-top: none;
+    }
+    .logo-big-header {
+      width: 140px !important;
     }
 }
