@@ -82,7 +82,7 @@ var originalHeight;
 function learnMore() { 
   originalHeight = $(".product_right_tab .block-devider .tab-pane").outerHeight();  
   $('.product_right_tab .block-devider .tab-pane').css('visibility', 'hidden');
-  var hRight = $('.product_right_tab').outerHeight(); 
+  var hRight = $('.product_right_tab').outerHeight(); alert($('.product_right_tab').outerHeight());
   var hLeft = $('.sp-slider').height(); 
   if ($(window).width() >= 992 && hRight > hLeft) {
     $('#learn-more').show();
