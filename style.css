@@ -432,6 +432,7 @@ div.page-heading.center, div.page-heading {
 .gallery-grid.masonry .item2 {
     position: relative;
     float: left;
+    width: 100%;
 }
 .gallery-grid.masonry .itemTwice {
     position: relative;
