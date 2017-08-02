@@ -104,7 +104,10 @@ $('#learn-more').on("click", function(e) {
     $('#learn-more').hide();
     $('#learn-more-undo').show();
     //$('.product_right_tab .block-devider .tab-pane').height('auto');
-    $('.product_right_tab .block-devider .tab-pane').animate({ height: auto }, 300);
+    $('.product_right_tab .block-devider .tab-pane').animate({
+    	height: $('#first').get(0).scrollHeight }, 300, function(){
+    	$(this).height('auto');
+    });	
     close = false;
 });
 $('#learn-more-undo').on("click", function(e) {
