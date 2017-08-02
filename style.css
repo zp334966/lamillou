@@ -1582,10 +1582,11 @@ h2.post-title.no-space-top {
         padding-bottom: 22px;
         font-weight: 700;
     }
-    .product_right_tab #learn-more img, .product_right_tab #learn-more-undo img {
+    .product_right_tab #learn-more img {
         padding-left: 12px;
     }
     .product_right_tab #learn-more-undo img {
+        padding-right: 12px;
         -o-transform: rotate(180deg);
         -webkit-transform: rotate(180deg);
         -moz-transform: rotate(180deg);
