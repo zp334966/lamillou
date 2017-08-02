@@ -79,7 +79,7 @@ $('.menu-packing .menu-title .title').on("click", function(e) {
 *************************************************/ 
 var heightAtStart = 0;
 var originalHeight = $('.product_right_tab .block-devider .tab-pane').height(); 
-function learnMore() {
+function learnMore() { alert($(".product_right_tab .block-devider .tab-pane").outerHeight());
   $('.product_right_tab .block-devider .tab-pane').css('visibility', 'hidden');
   var hRight = $('.product_right_tab').height(); 
   var hLeft = $('.sp-slider').height(); 
