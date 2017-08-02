@@ -105,7 +105,7 @@ $('#learn-more').on("click", function(e) {
     $('.product_right_tab .block-devider .tab-pane').height('auto');
     close = false;
 });
-$('#learn-more').on("click", function(e) {
+$('#learn-more-undo').on("click", function(e) {
     $('#learn-more-undo').hide();
     $('#learn-more').show();
     $('.product_right_tab .block-devider .tab-pane').height(heightAtStart);
