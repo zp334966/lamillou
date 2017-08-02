@@ -82,11 +82,11 @@ var originalHeight;
 function learnMore() { 
   originalHeight = $(".product_right_tab .block-devider .tab-pane").outerHeight();  
   $('.product_right_tab .block-devider .tab-pane').css('visibility', 'hidden');
-  var hRight = $('.product_right_tab').outerHeight(); alert($('.product_right_tab').outerHeight());
+  var hBlockDevider = $('.product_right_tab .block-devider .tab-pane').outerHeight();
+  var hRight = $('.product_right_tab').height() - $('.product_right_tab .block-devider .tab-pane').height() + hBlockDevider;
   var hLeft = $('.sp-slider').height(); 
   if ($(window).width() >= 992 && hRight > hLeft) {
-    $('#learn-more').show();
-    var hBlockDevider = $('.product_right_tab .block-devider .tab-pane').outerHeight();
+    $('#learn-more').show();    
     heightAtStart = hBlockDevider - (hRight - hLeft) - 60; 
     $('.product_right_tab .block-devider .tab-pane').height(heightAtStart);    
   } else {
