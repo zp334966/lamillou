@@ -77,16 +77,17 @@ $('.menu-packing .menu-title .title').on("click", function(e) {
 
 /* Load more relate products
 *************************************************/ 
+/*
 var heightAtStart = 0;
 var originalHeight;
+
 function learnMore() { 
   originalHeight = $(".product_right_tab .block-devider .tab-pane").outerHeight();  
-  $('.product_right_tab .block-devider .tab-pane').css('visibility', 'hidden');
-  var hBlockDevider = $('.product_right_tab .block-devider .tab-pane').outerHeight();
-  var hRight = $('.product_right_tab').height() - $('.product_right_tab .block-devider .tab-pane').height() + hBlockDevider;
-  alert(hBlockDevider); alert(originalHeight);	
+  $('.product_right_tab .block-devider .tab-pane').css('visibility', 'hidden');  
+  var hRight = $('.product_right_tab').height();
   var hLeft = $('.sp-slider').height(); 
   if ($(window).width() >= 992 && hRight > hLeft) {
+    var hBlockDevider = $('.product_right_tab .block-devider .tab-pane').height();
     $('#learn-more').show();    
     heightAtStart = hBlockDevider - (hRight - hLeft) - 60; 
     $('.product_right_tab .block-devider .tab-pane').height(heightAtStart);    
@@ -113,7 +114,7 @@ $('#learn-more-undo').on("click", function(e) {
     $('#learn-more').show();
     $('.product_right_tab .block-devider .tab-pane').animate({ height: heightAtStart }, 300);
 });
-
+*/
 /*PhotoView
 *************************************************/
 var advertMobVisible = 'none';
