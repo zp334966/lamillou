@@ -561,6 +561,9 @@ div.page-heading.center, div.page-heading {
     color: #DFB14C;
     letter-spacing: 0;
 }
+.product_details.product_right_tab {
+    margin-bottom: 30px;
+}
 .product_right_tab .prod_price {
     padding-bottom: 25px;    
 }
