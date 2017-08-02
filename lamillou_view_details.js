@@ -78,14 +78,15 @@ $('.menu-packing .menu-title .title').on("click", function(e) {
 /* Load more relate products
 *************************************************/ 
 var heightAtStart = 0;
-var originalHeight = $('.product_right_tab .block-devider .tab-pane').height(); 
-function learnMore() { alert($(".product_right_tab .block-devider .tab-pane").outerHeight());
+var originalHeight;
+function learnMore() { 
+  originalHeight = $(".product_right_tab .block-devider .tab-pane").outerHeight();  
   $('.product_right_tab .block-devider .tab-pane').css('visibility', 'hidden');
-  var hRight = $('.product_right_tab').height(); 
+  var hRight = $('.product_right_tab').outerHeight(); 
   var hLeft = $('.sp-slider').height(); 
   if ($(window).width() >= 992 && hRight > hLeft) {
     $('#learn-more').show();
-    var hBlockDevider = $('.product_right_tab .block-devider .tab-pane').height();
+    var hBlockDevider = $('.product_right_tab .block-devider .tab-pane').outerHeight();
     heightAtStart = hBlockDevider - (hRight - hLeft) - 60; 
     $('.product_right_tab .block-devider .tab-pane').height(heightAtStart);    
   } else {
