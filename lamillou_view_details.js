@@ -77,19 +77,19 @@ $('.menu-packing .menu-title .title').on("click", function(e) {
 
 /* Load more relate products
 *************************************************/ 
-/*
 var heightAtStart = 0;
-var originalHeight;
-
-function learnMore() { 
-  originalHeight = $(".product_right_tab .block-devider .tab-pane").outerHeight();  
-  $('.product_right_tab .block-devider .tab-pane').css('visibility', 'hidden');  
-  var hRight = $('.product_right_tab').height();
-  var hLeft = $('.sp-slider').height(); 
-  if ($(window).width() >= 992 && hRight > hLeft) {
-    var hBlockDevider = $('.product_right_tab .block-devider .tab-pane').height();
-    $('#learn-more').show();    
-    heightAtStart = hBlockDevider - (hRight - hLeft) - 60; 
+var originalHeight; 
+  
+function learnMore() {  
+  $('.product_right_tab .block-devider .tab-pane').css('visibility', 'hidden'); 
+  $('.product_right_tab .block-devider .tab-pane').height('auto');  
+  originalHeight = $(".product_right_tab .block-devider .tab-pane").height();
+  var hRight = $('.product_right_tab').height(); 
+  var hLeft = $('.sp-slider').height();
+  if (/*$(window).width() >= 992*/ 0.6 > ($('.product_right_tab').width() / $('.product_details').width()) && hRight > hLeft) { 
+    $('#learn-more').show();
+    $('#learn-more-undo').hide();
+    heightAtStart = hLeft - (hRight - originalHeight) - 35;
     $('.product_right_tab .block-devider .tab-pane').height(heightAtStart);    
   } else {
     $('#learn-more').hide();
@@ -97,6 +97,8 @@ function learnMore() {
     $('.product_right_tab .block-devider .tab-pane').height('auto');
   }
   $('.product_right_tab .block-devider .tab-pane').css('visibility', 'visible');
+  $('#learn-more').css('visibility', 'visible');
+  $('#learn-more-undo').css('visibility', 'visible');
 };
   
 if ( $('#learn-more').length ) {
@@ -113,8 +115,9 @@ $('#learn-more-undo').on("click", function(e) {
     $('#learn-more-undo').hide();
     $('#learn-more').show();
     $('.product_right_tab .block-devider .tab-pane').animate({ height: heightAtStart }, 300);
-});
-*/
+}); 
+
+
 /*PhotoView
 *************************************************/
 var advertMobVisible = 'none';
