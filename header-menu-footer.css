@@ -372,12 +372,15 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     left: 0%;
     width: 1122px;
     position: absolute;
-    left: -19.9%;
+    left: 0;
+    right: 0;
     top: 49px;
+    margin-left: auto;
 }
 .mega-menu>.container  {
     border:none;
     background: #F7F7F7!important;
+    margin-left: -3px;
 }
 .mega-menu>.container>.row {
     margin: 0 0 0 0;
