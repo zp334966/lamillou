@@ -1801,5 +1801,8 @@ div.page-heading.center, div.page-heading {
     .advertisement-active .pop-up-added-to-cart.desktop, .advertisement-active .pop-up-lack.desktop {
         top: 102px;
     }
+    .about-us h2.post-title.no-space-top {
+        margin-top: 7px !important;
+    }
 }
 
