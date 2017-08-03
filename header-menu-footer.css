@@ -247,7 +247,9 @@
     left: 0;
     display: block;
 }
-
+.headroom--top {
+    position: absolute !important;
+}
 
 .header .inner {
     border-bottom: none;
