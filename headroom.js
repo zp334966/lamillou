@@ -124,7 +124,14 @@
         return 90;
       } 
     }
-    if ($(window).width() < 1201) return 0;
+    if ($(window).width() >= 1025) {
+      if ( $(".advertisement-desktop").css('display') == 'none') {
+        return 0;
+      } else { 
+        return 40;
+      } 
+    }
+    if ($(window).width() < 1025) return 0;
   }
   function countOffsetTop () {
     if ( $(".advertisement-desktop").css('display') == 'none') {
