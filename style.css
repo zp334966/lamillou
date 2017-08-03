@@ -1032,10 +1032,12 @@ div.page-heading.center, div.page-heading {
     color: #16407D !important;    
 }
 .about-us h2.post-title.no-space-top {
-    margin: auto !important;
-    padding: 15px 0 25px 0 !important;
     font-size: 36px !important;
     font-family: besom!important;
+    line-height: 38px;
+    padding: 6px 0 6px 0 !important;
+    margin-top: 23px !important;
+    margin-bottom: 20px;
 }
 .about-us .post-meta {
     border-top: none;
