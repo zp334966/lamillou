@@ -128,9 +128,9 @@
   }
   function countOffsetTop () {
     if ( $(".advertisement-desktop").css('display') == 'none') {
-      return 20;
+      return 0;
     } else { 
-      return 60;
+      return 40;
     } 
   } 
   
@@ -455,7 +455,7 @@
         this.notTop();
       }
       */
-      if (currentScrollY <= 60 ) {
+      if (currentScrollY <= countOffsetTop() ) {
         this.top();
       } else {
         this.nieTop(); 
