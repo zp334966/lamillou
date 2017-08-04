@@ -542,7 +542,7 @@ div#order_last_step div#show_order_products_block {
 #order_last_step #shop_order_payment .totals_summary div.table-row:nth-child(2) {
       height: 30px;
 }
-#order_last_step #shop_order_payment .item.totals_summary {
+#order_last_step #shop_order_payment .item.totals_summary, #thank_you_for_ordering #shop_order_payment .item.totals_summary {
       border-collapse: collapse;
       margin-bottom: 11px;
       font-weight: 600;
