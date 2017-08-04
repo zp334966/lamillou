@@ -251,20 +251,20 @@ div#show_my_cart div.page-heading h3 {
 #order_last_step section.shopping-cart h4, #order_last_step #show_order_products_block h4 {
     font-weight: 600; 
 }
-#show_my_cart section.shopping-cart .real-item, #show_my_cart #show_order_products_block .item, 
+#show_my_cart section.shopping-cart .item, #show_my_cart #show_order_products_block .item, 
 #order_last_step section.shopping-cart .item, #order_last_step #show_order_products_block .col-sm-12 {
     border: 0;
     border-bottom: 1px solid #d0d9e5;
     padding-top: 0;
     padding-right: 5px; 
 }
-#show_my_cart section.shopping-cart .item.real-item:last-of-type {
-     border-bottom: none;
-}
-#show_my_cart section.shopping-cart .real-item:last-of-type, #show_my_cart #show_order_products_block .item:last-of-type, 
+#show_my_cart section.shopping-cart .item:last-of-type, #show_my_cart #show_order_products_block .item:last-of-type, 
 #order_last_step section.shopping-cart .item:last-of-type, #order_last_step #show_order_products_block .col-sm-12:last-of-type {
      border-bottom: 0;
      margin-bottom: 10px; 
+}
+#show_my_cart section.shopping-cart div.item.real-item:last-of-type {
+     border-bottom: none;
 }
 #show_my_cart section.shopping-cart .item .table-cell.thumb, 
 #show_my_cart #show_order_products_block .item .table-cell.thumb, 
@@ -492,6 +492,9 @@ div#order_last_step div#show_order_products_block {
     padding-left: 0px;
     padding-right: 0px;
     margin-top: -8px;
+}
+#order_last_step #order_confirmation_clause {
+    display: none;
 }
 #order_last_step .container {
     width: unset !important;
