@@ -202,6 +202,10 @@ div.page-heading.center, div.page-heading {
 }
 .img-wrapper {
     position: relative;
+    padding-bottom: 100%;
+    height: 0px;
+    overflow: hidden;
+    margin-bottom: 10px;
 }
 .img-overlay, .img-overlay-fa {
     position: absolute;
@@ -1482,7 +1486,7 @@ div.page-heading.center, div.page-heading {
         padding-left: 9px;
         padding-right: 9px;
     }
-    .img-responsive {
+    .img-responsive, .img-wrapper {
         margin-bottom: 18px;
     }
 
