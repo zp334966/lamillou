@@ -898,7 +898,7 @@ p.refund-info a {
     bottom: auto !important; 
 }
 
-#shop_order_payment h4 {
+#thank_you_for_ordering #shop_order_payment h4, #shop_order_payment h4 {
     color: #16407D;
     font-size: 15px;
     line-height: 28px;
@@ -917,6 +917,7 @@ p.refund-info a {
     color: #243C5E;
     font-size: 14px;
     letter-spacing: 0.35px;
+    font-weight: 600;
 }
 #shop_order_payment .totals_summary .table-row.sum p {
     font-size: 16px;
@@ -1392,9 +1393,6 @@ div.checkbox.WithErrors > label {
 }
 #thank_you_for_ordering #shop_order_payment h4 {
     margin-bottom: 3px !important;
-}
-#thank_you_for_ordering #shop_order_payment .table-cell.text-left strong {
-    font-size: 16px;
 }
 #thank_you_for_ordering .buttons.panel a:focus, #order_last_step .buttons.panel a:focus, 
 #shop_order_form .buttons.panel a:focus, #thank_you_for_ordering .buttons.panel a:hover, 
