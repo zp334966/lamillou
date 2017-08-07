@@ -1720,11 +1720,6 @@ div.page-heading.center, div.page-heading {
     }
 }
 
-@media (min-width: 992px) and (max-width: 1024px) {
-    .container {
-        width: unset;
-    }
-}
 @media (min-width: 1025px) and (max-width: 1050px) {
     .advertisement-desktop .pay-pal {
         padding-left: 43px;
