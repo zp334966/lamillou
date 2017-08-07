@@ -1406,6 +1406,12 @@ div.checkbox.WithErrors > label {
 #page-content-1 .page {
     border-top: 1px solid #D0D9E5;
 }
+@media (min-width: 580px) {
+  order_list order_history col-sm-12 {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
 @media (min-width: 831px){ 
   #show_my_cart #cart-totals, #order_last_step #cart-totals, #shop_order_payment {
       padding: 9px 20px 0px 20px;
@@ -1427,7 +1433,7 @@ div.checkbox.WithErrors > label {
     .logo-big-header {
       width: 140px !important;
     }
-    #empty-cart .page-heading h3 {
+    #empty-cart .page-heading h3, .order_list.order_history.col-sm-12 h2 {
       margin-top: 22px;
     }
 }
