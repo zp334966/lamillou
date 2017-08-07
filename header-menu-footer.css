@@ -85,15 +85,20 @@
     top: 10px !important;
     padding: 10px 10px 22px 10px !important;
 }
-@media (max-width: 1199px) and (min-width: 1025px){
-    .header .inner .container {
-        width: 970px;
-    }
-}
 @media (width: 1200px){
     .header .inner .container {
         padding-left: 27px;
         padding-right: 27px;
+    }
+    .search-trigger {
+        left: 75px!important;
+    }
+}
+@media (max-width: 1199px) and (min-width: 1025px){
+    .header .inner .container {
+        width: 970px;
+        padding-left: 18px;
+        padding-right: 18px;
     }
 }
 @media (max-width: 1024px) and (min-width: 992px){
