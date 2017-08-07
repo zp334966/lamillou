@@ -118,7 +118,13 @@
         padding-right: 14px;
     }
 }
-@media (max-width: 830px) and (min-width: 580px){
+@media (max-width: 830px) and (min-width: 730px){
+    .header .inner .container {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+}
+@media (max-width: 729px) and (min-width: 580px){
     .header .inner .container {
         padding-left: 10px;
         padding-right: 10px;
