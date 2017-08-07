@@ -1471,6 +1471,7 @@ div.page-heading.center, div.page-heading {
     .item-narrow {
         max-width: 100%;
         overflow: hidden;
+        height: calc((((100vw - 26px)/2) - 20px)/2);
     }
     section.catalog-grid {
         padding-right: 5px;
@@ -1487,10 +1488,10 @@ div.page-heading.center, div.page-heading {
         padding-left: 9px;
         padding-right: 9px;
     }
-    .page-heading.title-moodboard h2 {
-        padding-left: 9px !important;
+    .item-narrow {
+        height: calc((((100vw - 36px)/2) - 20px)/2);
     }
-
+    
     #rectangle {
         display: none;    
     }
@@ -1508,8 +1509,15 @@ div.page-heading.center, div.page-heading {
         width: unset; 
     }
 }
-
+@media (min-width: 831px) {
+    .item-narrow {
+        height: calc((((732px)/2) - 20px)/2);
+    }
+}
 @media (min-width: 992px){
+    .item-narrow {
+        height: calc((((952px)/2) - 20px)/2);
+    }
     .product_details .title {
         font-size: 18px;
         line-height: 29px;
