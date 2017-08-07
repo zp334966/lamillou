@@ -85,13 +85,11 @@
     top: 10px !important;
     padding: 10px 10px 22px 10px !important;
 }
+/* Szerokosc glownego menu */
 @media (width: 1200px){
     .header .inner .container {
         padding-left: 27px;
         padding-right: 27px;
-    }
-    .search-trigger {
-        left: 75px!important;
     }
 }
 @media (max-width: 1199px) and (min-width: 1025px){
@@ -99,9 +97,6 @@
         width: 970px;
         padding-left: 18px;
         padding-right: 18px;
-    }
-    .search-trigger {
-        left: 65px!important;
     }
 }
 @media (max-width: 1024px) and (min-width: 992px){
@@ -128,6 +123,27 @@
     .header .inner .container {
         padding-left: 10px;
         padding-right: 10px;
+    }
+}
+/* Hamburger - lupa */
+@media (width: 1200px){
+    .search-trigger {
+        left: 74px!important;
+    }
+}
+@media (max-width: 1199px) and (min-width: 1025px){
+    .search-trigger {
+        left: 65px!important;
+    }
+}
+@media (max-width: 1024px) and (min-width: 730px){
+    .search-trigger {
+        left: 61px!important;
+    }
+}
+@media (max-width: 729px) {
+    .search-trigger {
+        left: 57px!important;
     }
 }
 #nav-toggle.active {
