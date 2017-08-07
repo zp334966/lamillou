@@ -81,11 +81,18 @@
     padding-left: 19px;
     padding-right: 20px;
 }
-
-
 #nav-toggle {
-    padding: 10px 10px 22px 10px !important;
     top: 10px !important;
+}
+@media (max-width: 579px){
+    #nav-toggle {
+        padding: 10px 10px 22px 0px !important;
+    }
+}
+@media (max-width: 830px) and (min-width: 580px){
+    #nav-toggle {
+        padding: 10px 10px 22px 5px !important;
+    }
 }
 #nav-toggle.active {
     opacity: 0;
