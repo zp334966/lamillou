@@ -533,7 +533,7 @@ div#order_last_step div#show_order_products_block {
       padding-bottom: 22px;
       padding-top: 10px;
 }
-#show_my_cart #extra_info, #show_my_cart .cart_extras {
+#show_my_cart #extra_info, #show_my_cart .cart_extras, #show_my_cart #extra_info2 {
       display: none;
 }
 #order_last_step #shop_order_payment .totals_summary div.table-row:first-child {
