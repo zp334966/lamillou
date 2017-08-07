@@ -1465,8 +1465,8 @@ div.page-heading.center, div.page-heading {
     .item-narrow .img-responsive {
         margin-bottom: 0px;
     }
-    .page-heading h2, .page-heading.title-moodboard h2 {
-        padding-left: 5px;    
+    .page-heading.title-moodboard h2 {
+        padding-left: 5px !important;    
     }  
     .item-narrow {
         max-width: 100%;
@@ -1498,7 +1498,6 @@ div.page-heading.center, div.page-heading {
         margin-bottom: 0px;
     }
     .page-heading h2 {
-        padding-left: 0px;
         padding-top: 17px;
         margin-bottom: 0;
     } 
