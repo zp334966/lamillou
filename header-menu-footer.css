@@ -88,8 +88,8 @@
 @media (max-width: 1200px) and (min-width: 992px){
     .header .inner .container {
         width: 970px;
-        padding-left: 9px;
-        padding-right: 9px;
+        padding-left: 18px;
+        padding-right: 18px;
     }
 }
 #nav-toggle.active {
