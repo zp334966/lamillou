@@ -1487,9 +1487,6 @@ div.page-heading.center, div.page-heading {
         padding-left: 9px;
         padding-right: 9px;
     }
-    .img-responsive, .img-wrapper {
-        margin-bottom: 18px;
-    }
 
     #rectangle {
         display: none;    
