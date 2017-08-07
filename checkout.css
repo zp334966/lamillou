@@ -1167,6 +1167,8 @@ p.refund-info a {
 .order_list.order_history.col-sm-12 {
     margin-top: 0px;
     padding-top: 9px;
+    padding-left: 5px;
+    padding-right: 5px;
 } 
 .order_list.order_history.col-sm-12 h2 {
     margin-bottom: 8px;
