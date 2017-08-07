@@ -110,6 +110,12 @@
         padding-right: 14px;
     }
 }
+@media (max-width: 830px) and (min-width: 580px){
+    .header .inner .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
 #nav-toggle.active {
     opacity: 0;
 }
