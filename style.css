@@ -1743,6 +1743,9 @@ div.page-heading.center, div.page-heading {
     .category-node .category-image {
         max-width: 561px;
     }
+    .page-heading.title-moodboard h2 {
+        padding-left: 9px !important;
+    }
     .advertisement-desktop {
         display: block;
     }
