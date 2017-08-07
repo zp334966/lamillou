@@ -1763,6 +1763,9 @@ div.page-heading.center, div.page-heading {
         padding-left: 9px;
         padding-right: 9px;
     }
+    .img-responsive, .img-wrapper-big {
+        margin-bottom: 18px;
+    }
 }
 
 @media (max-width: 1200px){
