@@ -88,6 +88,10 @@
 @media (max-width: 1199px) and (min-width: 1025px){
     .header .inner .container {
         width: 970px;
+    }
+}
+@media (max-width: 1200px) and (min-width: 1025px){
+    .header .inner .container {
         padding-left: 18px;
         padding-right: 18px;
     }
