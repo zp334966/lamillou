@@ -201,13 +201,13 @@ div.page-heading.center, div.page-heading {
     text-align: center;
 }
 .img-wrapper {
-    position: relative;
-    margin-bottom: 10px;
+    position: relative;   
 }
 .img-wrapper-big {
     padding-bottom: 100%;
     height: 0px;
-    overflow: hidden;    
+    overflow: hidden;  
+    margin-bottom: 10px;
 }
 .img-overlay, .img-overlay-fa {
     position: absolute;
