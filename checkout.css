@@ -193,9 +193,6 @@ form.new_user .field_with_errors .validation-error {
     display: none;  
 }
 
-#empty-cart.page {
-    margin-top: 22px;
-}
 #empty-cart .page-heading h3, .order_list.order_history.col-sm-12 h2 {
     font-family: 'Open Sans';
     font-weight: 700;
@@ -1425,5 +1422,8 @@ div.checkbox.WithErrors > label {
     }
     .logo-big-header {
       width: 140px !important;
+    }
+    #empty-cart .page-heading h3 {
+      margin-top: 22px;
     }
 }
