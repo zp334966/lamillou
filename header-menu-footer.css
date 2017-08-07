@@ -660,6 +660,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .search-desktop input[type="submit"], .search-desktop input[type="submit"]:focus, 
 .search-desktop input[type="submit"]:hover {
+    float: right;
     position: relative;
     width: 117px;
     padding: 10px 0 10px 0 !important;
