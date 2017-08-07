@@ -1487,6 +1487,9 @@ div.page-heading.center, div.page-heading {
         padding-left: 9px;
         padding-right: 9px;
     }
+    .page-heading.title-moodboard h2 {
+        padding-left: 9px !important;
+    }
 
     #rectangle {
         display: none;    
