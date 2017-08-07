@@ -1787,6 +1787,9 @@ div.page-heading.center, div.page-heading {
         padding-left: 9px;
         padding-right: 26px;
     }
+    .item-narrow {
+        height: calc((((1140px)/2) - 36px)/2);
+    }
     #border-before-content {
         display: none;
     }
