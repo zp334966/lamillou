@@ -1491,9 +1491,6 @@ div.page-heading.center, div.page-heading {
     #rectangle {
         display: none;    
     }
-    .container div.page-heading.center {
-        padding-left: 10px;
-    }  
     .page-heading {
         margin-bottom: 0px;
     }
