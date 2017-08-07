@@ -90,10 +90,10 @@
         width: 970px;
     }
 }
-@media (max-width: 1200px) and (min-width: 1025px){
+@media (width: 1200px){
     .header .inner .container {
-        padding-left: 18px;
-        padding-right: 18px;
+        padding-left: 27px;
+        padding-right: 27px;
     }
 }
 @media (max-width: 1024px) and (min-width: 992px){
@@ -112,8 +112,8 @@
 }
 @media (max-width: 830px) and (min-width: 580px){
     .header .inner .container {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 #nav-toggle.active {
