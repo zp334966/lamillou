@@ -1819,4 +1819,11 @@ div.page-heading.center, div.page-heading {
         margin-top: 7px !important;
     }
 }
-
+/********** IE ***********/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    /* Podwojne strzalki w menu mobilnym */
+    .mobile-navi ul li span::before {
+        content: none!important;
+    }
+}
+/*************************/
