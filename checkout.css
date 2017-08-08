@@ -398,6 +398,7 @@ div#show_my_cart div.page-heading h3 {
 }
 /************IE*************/
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    /* +/- */
     #show_my_cart section.shopping-cart .qnt-count a.incr-btn:first-child, 
     #show_my_cart #show_order_products_block .qnt-count a.incr-btn:first-child, 
     #order_last_step section.shopping-cart .qnt-count a.incr-btn:first-child, 
@@ -426,6 +427,13 @@ div#show_my_cart div.page-heading h3 {
     #order_last_step section.shopping-cart .qnt-count a.incr-btn:last-child:after, 
     #order_last_step #show_order_products_block .qnt-count a.incr-btn:last-child:after {
         content: none!important;
+    }
+  /* Razem */
+    #show_my_cart section.shopping-cart .item .table-cell.desc .row > div.money, 
+    #show_my_cart #show_order_products_block .item .table-cell.desc .row > div.money, 
+    #order_last_step section.shopping-cart .item .table-cell.desc .row > div.money {
+      position: absolute;
+      bottom: 68px;
     }
 }
 /*************************/
