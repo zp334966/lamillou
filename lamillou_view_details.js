@@ -201,3 +201,21 @@ function checkPopUp() {
 $( ".add_to_cart_button .add" ).click(function() {
   setTimeout(checkPopUp, 500);
 });
+
+
+/*Notify when available
+*************************************************/
+function addNotif() {
+  if ( $( ".jGrowl-notification .message" ).length ) {
+    $( ".jGrowl-notification .message" ).each(function() {
+      if ( $(this).text().indexOf("Zły adres") != -1 ){
+        $('#notify-email-field').addClass('field_with_errors');
+      }
+    });
+  }
+};
+  
+  
+$( "#add_notif" ).click(function() {
+  setTimeout(addNotif, 500);
+}); 
