@@ -410,9 +410,22 @@ div#show_my_cart div.page-heading h3 {
     #show_my_cart #show_order_products_block .qnt-count a.incr-btn:last-child, 
     #order_last_step section.shopping-cart .qnt-count a.incr-btn:last-child, 
     #order_last_step #show_order_products_block .qnt-count a.incr-btn:last-child {
-        background: url(https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/ico_plus_bl.svg);
+        background: url(https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/ico_plus_bl.svg) no-repeat;
         background-position-x: 8px;
         background-position-y: 7px;
+    }
+
+    #show_my_cart section.shopping-cart .qnt-count a.incr-btn:first-child:after, 
+    #show_my_cart #show_order_products_block .qnt-count a.incr-btn:first-child:after, 
+    #order_last_step section.shopping-cart .qnt-count a.incr-btn:first-child:after, 
+    #order_last_step #show_order_products_block .qnt-count a.incr-btn:first-child:after {
+        content: none!important;
+    }
+    #show_my_cart section.shopping-cart .qnt-count a.incr-btn:last-child:after, 
+    #show_my_cart #show_order_products_block .qnt-count a.incr-btn:last-child:after, 
+    #order_last_step section.shopping-cart .qnt-count a.incr-btn:last-child:after, 
+    #order_last_step #show_order_products_block .qnt-count a.incr-btn:last-child:after {
+        content: none!important;
     }
 }
 /*************************/
