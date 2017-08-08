@@ -947,6 +947,7 @@ $( ".search-desktop .overlay" ).on( "click",  hideSearchDesktop );
 *************************************************/
 function productNames(full_name) {
  if (!String.prototype.includes) {
+     console.log("prototype function");
      String.prototype.includes = function() {
          'use strict';
          return String.prototype.indexOf.apply(this, arguments) !== -1;
