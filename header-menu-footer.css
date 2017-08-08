@@ -158,6 +158,13 @@
 .off-canvas-wrap #nav-toggle-exit {
     display: none;
 }
+/*****************IE*********************/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .off-canvas-wrap.move-right #nav-toggle-exit {
+        position: relative;
+    }
+}
+/****************************************/
 .off-canvas-wrap.move-right #nav-toggle-exit {
     display: inline-block;
 }
