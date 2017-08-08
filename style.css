@@ -1378,7 +1378,7 @@ div.page-heading.center, div.page-heading {
     letter-spacing: 0.47px;
     font-weight: 700;
 }
-.cms_newsletter_form {
+.newsletter_text {
     text-align: center;
 }
 .products_in_category_number {
@@ -1726,7 +1726,7 @@ div.page-heading.center, div.page-heading {
         max-height: 338px;
         margin: 16px 0 0 8px;
     }
-    .cms_newsletter_form {
+    .newsletter_text {
         margin: 82px 7px 0 0;
     }
     #pp_newsletter .pp_notes {
