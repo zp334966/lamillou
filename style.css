@@ -1377,6 +1377,7 @@ div.page-heading.center, div.page-heading {
     color: #FFFFFF !important;
     letter-spacing: 0.47px;
     font-weight: 700;
+    float: none;
 }
 .newsletter_text {
     text-align: center;
