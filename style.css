@@ -1565,6 +1565,9 @@ div.page-heading.center, div.page-heading {
         width: 240px;
         margin: 0;
     }
+    .footer-subscribe-widget #notify-email-field.field_with_errors .validation-error {
+        margin: 0;
+    }
     .proposed-products h2, .category_desc h2 {
         font-size: 36px;
         line-height: 50px;
