@@ -413,6 +413,22 @@ div.page-heading.center, div.page-heading {
     color: #B8C1CE;
     letter-spacing: 0;
 }
+.footer-subscribe-widget #notify-email-field .validation-error {
+    display: none;
+}
+.footer-subscribe-widget #notify-email-field.field_with_errors input {
+    border: 1px solid #F1001D !important;
+}
+.footer-subscribe-widget #notify-email-field.field_with_errors .validation-error {
+    display: block;
+    font-size: 13px;
+    color: #F1001D;
+    letter-spacing: 0;
+    text-align: left;
+    width: 240px;
+    margin: auto;
+    padding-top: 11px;
+}
 .footer-subscribe-widget-submitted {
     display: none;
     text-align: center;
@@ -435,6 +451,7 @@ div.page-heading.center, div.page-heading {
     letter-spacing: 0;
     line-height: 20px;
 }
+
 .gallery-grid.masonry .item2 {
     position: relative;
     float: left;
