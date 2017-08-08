@@ -396,6 +396,24 @@ div#show_my_cart div.page-heading h3 {
       border: 1px solid #16407d;
       border-radius: 4px; 
 }
+/************IE*************/
+.ie #show_my_cart section.shopping-cart .qnt-count a.incr-btn:first-child, 
+#show_my_cart #show_order_products_block .qnt-count a.incr-btn:first-child, 
+#order_last_step section.shopping-cart .qnt-count a.incr-btn:first-child, 
+#order_last_step #show_order_products_block .qnt-count a.incr-btn:first-child {
+    background: url(https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/ico_minus_bl.svg) no-repeat;
+    background-position-x: 8px;
+    background-position-y: 14px;
+}
+.ie #show_my_cart section.shopping-cart .qnt-count a.incr-btn:last-child, 
+#show_my_cart #show_order_products_block .qnt-count a.incr-btn:last-child, 
+#order_last_step section.shopping-cart .qnt-count a.incr-btn:last-child, 
+#order_last_step #show_order_products_block .qnt-count a.incr-btn:last-child {
+    background: url(https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/ico_plus_bl.svg);
+    background-position-x: 8px;
+    background-position-y: 7px;
+}
+/*************************/
 #show_my_cart section.shopping-cart .qnt-count a.incr-btn:first-child, 
 #show_my_cart #show_order_products_block .qnt-count a.incr-btn:first-child, 
 #order_last_step section.shopping-cart .qnt-count a.incr-btn:first-child, 
