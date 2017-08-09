@@ -750,9 +750,13 @@ $(document).ready(function(){
   $('.exit').click(function() { 
     $('.site-layout').removeClass("advertisement-active");
     var items = document.getElementsByClassName("advertisement-desktop");
-    items[0].style.display = "none";
+    if (items != null) {
+      items[0].style.display = "none";
+    }
     var items = document.getElementsByClassName("advertisement-mobile");
-    items[0].style.display = "none";  
+    if (items != null) {
+      items[0].style.display = "none";  
+    }
     try {
        sessionStorage.setItem('advertisement', '0');
     } finally {
