@@ -728,6 +728,7 @@ div#order_last_step div#show_order_products_block {
   border: 1px solid #d0d9e5;
   resize: none; 
   padding-top: 12px!important;
+  padding-bottom: 12px!important;
 }
 #shop_order_form .buttons.panel a.continue_shopping {
   display: none; 
