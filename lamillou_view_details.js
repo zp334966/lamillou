@@ -73,7 +73,13 @@ $('.menu-packing .menu-title .title').on("click", function(e) {
     var i = $(this).index();
     activeMenuPacking(i);
 });
-
+$( document ).ready(function() {
+  if ( $('.menu-packing').length ) {
+    if (! $('.menu-packing .menu-title .title.active').length ) {
+      $('.menu-packing .menu-title .title').first().addClass('active');
+    }
+  }
+});
 
 /* Load more relate products
 *************************************************/ 
