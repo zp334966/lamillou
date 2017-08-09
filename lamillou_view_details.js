@@ -77,6 +77,7 @@ $( document ).ready(function() {
   if ( $('.menu-packing').length ) {
     if (! $('.menu-packing .menu-title .title.active').length ) {
       $('.menu-packing .menu-title .title').first().addClass('active');
+      $('.menu-packing .packing-info').first().addClass('active');
     }
   }
 });
