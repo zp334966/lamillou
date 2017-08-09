@@ -101,6 +101,7 @@ section.catalog-grid p.not-found {
 }
 section.catalog-grid .nothing-found {
     height: 120px !important;
+    margin-top: 35px;
 }
 .page-heading h3>span {
     display: none;    
