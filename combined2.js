@@ -1148,6 +1148,7 @@ if (poz != null) {
 
 /*Newsletter
 *************************************************/
+/*
 var intervalNewsletter;
 function newsletterValid() {
   $( "#pp_newsletter .newsletter_text" ).each(function() {
@@ -1170,5 +1171,6 @@ function newsletterValid() {
 $( "#pp_newsletter input[type=submit]" ).click(function() {
   intervalNewsletter = setInterval(newsletterValid, 50);
 }); 
+*/
 
 
