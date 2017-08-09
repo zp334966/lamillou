@@ -407,7 +407,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     width: 92px !important;
 }
 .header {
-    z-index: 100;
+    z-index: 1;
     position: absolute;
 }
 /************ IE *************/
@@ -1011,7 +1011,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
     .logo-big-header {
         display: inline-block;   
         width: 140px;
-        z-index: 100;
+        z-index: 2;
         margin-left: -540px;
         left: 50%;
         top:0;
