@@ -1510,6 +1510,8 @@ div.checkbox.WithErrors > label {
     }
     #before-loading {
         border-top: none;
+        padding-top: 200px;
+        margin-top: 0px;
     }
     .logo-big-header {
       width: 140px !important;
