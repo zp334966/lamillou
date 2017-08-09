@@ -202,6 +202,7 @@ function checkPopUp() {
       $(this).show().delay( 5000 ).hide( 400 ); 
     });
   }
+  $( "#cart-dropdown" ).removeClass('open');
 };
   
   
