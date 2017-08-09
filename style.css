@@ -1308,6 +1308,12 @@ div.page-heading.center, div.page-heading {
     width: auto;
     margin-bottom: 0px;
 }
+#pp_newsletter .field_with_errors input[type="text"]{
+    border: 1px solid #F1001D !important;
+}
+#pp_newsletter .field_with_errors span {
+    display: none;
+}
 #fancybox-close {
     position: absolute;
     top: 0px;
