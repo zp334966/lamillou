@@ -193,16 +193,17 @@ function checkPopUp() {
         });
       } else {
         $( ".pop-up-added-to-cart" ).each(function() {
+	  $( "#cart-dropdown" ).removeClass('open');
           $(this).show().delay( 5000 ).hide( 400 ); 
         });
       }
     });
   } else {
     $( ".pop-up-added-to-cart" ).each(function() {
+      $( "#cart-dropdown" ).removeClass('open');
       $(this).show().delay( 5000 ).hide( 400 ); 
     });
   }
-  $( "#cart-dropdown" ).removeClass('open');
 };
   
   
