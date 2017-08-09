@@ -1393,7 +1393,7 @@ div.page-heading.center, div.page-heading {
 #pp_newsletter .newsletter_text.submitted .cms_newsletter_form {
     display: none;
 }
-#pp_newsletter .reply p {
+#pp_newsletter p.reply {
     font-weight: 600;
     color: #16407D;
     margin-bottom: 35px;
