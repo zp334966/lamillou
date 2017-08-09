@@ -222,32 +222,6 @@ jQuery(document).ready(function($) {
   ///////////////////  Header / Navigation  /////////////////////////////
   //////////////////////////////////////////////////////////////////////
   
-  /*Sticky Header todo
-  *******************************************/
-  /*$(window).on('load', function(){
-    $stickyHeader.waypoint('sticky');
-    $scrollHeader.waypoint('sticky');
-  });*/
-  
-  /*Transparent Header
-  *******************************************/
-  /*$(window).on('load', function(){
-    if($transpHeader.length > 0) {
-      var $logoAlt = $transpHeader.find('.logo > img').data('logo-alt');
-      $transpHeader.find('.logo > img').attr('src', $logoAlt);
-    }
-  });
-  $(window).on('scroll', function(){
-    var $logoAlt = $transpHeader.find('.logo > img').data('logo-alt');
-    var $logoDefault = $transpHeader.find('.logo > img').data('logo-default');
-    if($(window).scrollTop() > $(window).height()) {
-      $transpHeader.addClass('opaque');
-      $transpHeader.find('.logo > img').attr('src', $logoDefault);
-    } else {
-      $transpHeader.removeClass('opaque');
-      $transpHeader.find('.logo > img').attr('src', $logoAlt);
-    }
-  });*/
 	
 /*Headroom Init
 *******************************************/
