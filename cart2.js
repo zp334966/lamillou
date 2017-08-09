@@ -60,7 +60,7 @@ function showCheckoutProgress()
         var $address_active = 'active';
         var $summary_active = '';     
     }
-    $('#order-steps').html('<div class="step-address '+$address_active+'">1. Adres</div>\
+    $('#order-steps').html('<div class="step-address '+$address_active+'"><a href="javascript:history.back()">1. Adres</a></div>\
                             <div class="step-summary '+$summary_active+'">2. Podsumowanie</div>');   
 }
 
