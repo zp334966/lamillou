@@ -750,11 +750,11 @@ $(document).ready(function(){
   $('.exit').click(function() { 
     $('.site-layout').removeClass("advertisement-active");
     var items = document.getElementsByClassName("advertisement-desktop");
-    if (items != null && items != undefined) {
+    if (items != null && items.length != 0) {
       items[0].style.display = "none";
     }
     var items = document.getElementsByClassName("advertisement-mobile");
-    if (items != null && items != undefined) {
+    if (items != null && items.length != 0) {
       items[0].style.display = "none";  
     }
     try {
@@ -769,11 +769,11 @@ $(document).ready(function(){
   	if ('advertisement' in sessionStorage){
 		$('.site-layout').removeClass("advertisement-active");
 		var items = document.getElementsByClassName("advertisement-desktop");
-		if (items != null && items != undefined) {
+		if (items != null && items.length != 0) {
 		  items[0].style.display = "none";
 		}
 		var items = document.getElementsByClassName("advertisement-mobile");
-		if (items != null && items != undefined) {
+		if (items != null && items.length != 0) {
 		  items[0].style.display = "none"; 
 		}
   	}
