@@ -833,7 +833,7 @@ footer.footer h3 {
     font-size: 24px;
     letter-spacing: 0.6px;
 }
-.footer h6 {
+.footer h6, .footer h6 a {
     font-family: 'Open Sans';
     font-size: 16px;
     letter-spacing: 0.53px;
@@ -898,7 +898,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         line-height: 50px;
         padding: 0;
     }
-    .footer .mobile-navi ul li ul.submenu li a, .footer h6 {
+    .footer .mobile-navi ul li ul.submenu li a, .footer h6, .footer h6 a {
         font-size: 13px !important;
         letter-spacing: 0;
         font-weight: 400 !important;
