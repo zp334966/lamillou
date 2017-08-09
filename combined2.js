@@ -1130,8 +1130,10 @@ function pozaction() {
     pozpause();
   }
 }
-poz.addEventListener('ended', function(){
-  pozreset();
-  pozaction();
-});
+if (poz != null) {
+  poz.addEventListener('ended', function(){
+    pozreset();
+    pozaction();
+  });
+};
 
