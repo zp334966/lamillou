@@ -1294,7 +1294,7 @@ div.page-heading.center, div.page-heading {
 #pp_newsletter {
     padding: 2px 0px 25px 0px;
 }
-#pp_newsletter p, #pp_newsletter .newsletter_text.submitted .cms_newsletter_form {
+#pp_newsletter p {
     font-family: 'Open Sans';
     font-size: 14px;
     color: #243C5E;
@@ -1390,10 +1390,10 @@ div.page-heading.center, div.page-heading {
     float: none;
     margin: 15px auto 25px auto !important;
 }
-#pp_newsletter .newsletter_text.submitted form {
+#pp_newsletter .newsletter_text.submitted .cms_newsletter_form {
     display: none;
 }
-#pp_newsletter .newsletter_text.submitted .cms_newsletter_form {
+#pp_newsletter .submitted p {
     font-weight: 600;
     color: #16407D;
     margin-bottom: 35px;
