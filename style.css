@@ -1232,7 +1232,7 @@ div.page-heading.center, div.page-heading {
 .advertisement-desktop {
     height: 40px;
     background: #e9eaeb;
-    padding: 13px 0 10px 0;
+    padding: 11.5px 0 11.5px 0;
     margin: 0 0 0 0;
     width: 100%;
 }
@@ -1242,17 +1242,16 @@ div.page-heading.center, div.page-heading {
 }
 .advertisement-desktop .img-courier {
     width: unset;
-    height: 18px;
+    height: 17px;
     margin: 0px 7px 0px 7px;
     float: none;
 }
 .advertisement-desktop .img-payU {
-    padding-bottom: 3px;
-    padding-left: 3px;
-    height: 20px;
+    height: 17px;
+    margin-top: -2px;
 }
 .advertisement-desktop .img-paypal {
-    margin: 0 0 0px 2px;
+    margin: 0 0 -1px 2px;
 }
 #fancybox-wrap {
     width: 100% !important;
