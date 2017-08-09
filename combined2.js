@@ -1047,7 +1047,7 @@ $(document).ready(function(){ */
   function updateCartProduct() {
     if ($( '#cart-dropdown span.cart-prod-name' ).length &&  !$( '#cart-dropdown span.cart-prod-name .title' ).length ){
 	$('#cart-dropdown span.cart-prod-name').each(function() { 
-	  var full_name = $(this).text(); console.log(full_name);
+	  var full_name = $(this).text();
 	  var names = productNames( full_name );    
 	  var subtitle = ""; 
 	  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
