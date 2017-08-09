@@ -1378,8 +1378,7 @@ div.page-heading.center, div.page-heading {
     letter-spacing: 0.47px;
     font-weight: 700;
     float: none;
-    margin-left: auto!important;
-    margin-right: auto !important;
+    margin: 15px auto 25px auto !important;
 }
 .newsletter_text {
     text-align: center;
