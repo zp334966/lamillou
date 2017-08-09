@@ -420,7 +420,7 @@ div.page-heading.center, div.page-heading {
 .footer-subscribe-widget #notify-email-field.field_with_errors input {
     border: 1px solid #F1001D !important;
 }
-.footer-subscribe-widget #notify-email-field.field_with_errors .validation-error {
+.footer-subscribe-widget #notify-email-field.field_with_errors .validation-error, #pp_newsletter .validation-error {
     display: block;
     font-size: 13px;
     color: #F1001D;
@@ -1315,6 +1315,7 @@ div.page-heading.center, div.page-heading {
 #pp_newsletter .cms_newsletter_form span {
     display: none;
 }
+
 #fancybox-close {
     position: absolute;
     top: 0px;
