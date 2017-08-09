@@ -1851,10 +1851,10 @@ div.page-heading.center, div.page-heading {
         position: fixed;
         z-index: 100;
         top: 62px;
-        margin-right: calc(1 * ((100vw - 1123px) / 2) - 8px);
+        margin-right: calc(1 * ((100vw - 1123px) / 2) - 7px);
     }
     .advertisement-active .pop-up-added-to-cart.desktop, .advertisement-active .pop-up-lack.desktop {
-        top: 102px;
+        top: 97px;
     }
     .about-us h2.post-title.no-space-top {
         margin-top: 7px !important;
