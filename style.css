@@ -1311,7 +1311,7 @@ div.page-heading.center, div.page-heading {
 #pp_newsletter .field_with_errors input[type="text"]{
     border: 1px solid #F1001D !important;
 }
-#pp_newsletter .field_with_errors span {
+#pp_newsletter .cms_newsletter_form span {
     display: none;
 }
 #fancybox-close {
