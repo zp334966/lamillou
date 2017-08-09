@@ -276,7 +276,7 @@ div#show_my_cart div.page-heading h3 {
 #order_last_step section.shopping-cart .item .table-cell.thumb, 
 #order_last_step #show_order_products_block .item .table-cell.thumb {
      left: 0;
-     top: 0; 
+     top: 10px; 
      width: 95px;
      padding-right: 10px;
      display: block;
@@ -506,7 +506,7 @@ div#show_my_cart div.page-heading h3 {
 #show_my_cart section.shopping-cart .item, #show_my_cart #show_order_products_block .item, 
 #order_last_step section.shopping-cart .item {
       position: relative; 
-      padding: 0 2px 12px 0;
+      padding: 0 2px 0 0;
 }
 #order_last_step #show_order_products_block .col-sm-12 {
       padding: 0 2px 22px 0;
