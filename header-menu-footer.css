@@ -465,16 +465,16 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     border-bottom: 5px solid #15407D;
 }
 .menu ul li.has-mega-menu div.subcategories a {
-    font-size: 12px;
+    font-size: 12px!important;
     letter-spacing: 0;
-    line-height: 14px;
-    padding: 4px 0 4px 0;
+    line-height: 18px!important;
+    padding: 2px 0 2px 0!important;
 }
 .menu ul li.has-mega-menu div.subcategories strong a {
-    font-size: 13px;
+    font-size: 13px!important;
     letter-spacing: 0;
-    line-height: 14px;
-    padding: 4px 0 4px 0;
+    line-height: 18px;
+    padding: 2px 0 2px 0!important;
 }
 .menu ul li.has-mega-menu div.subcategories {
     margin-bottom: 17px;
