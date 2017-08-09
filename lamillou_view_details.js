@@ -215,7 +215,7 @@ $( "#lm-cart" ).hover(function() {
   $( ".pop-up-lack" ).each(function() {
     $(this).hide(); 
   }); 
-  $( "#lm-cart" ).trigger('hover');
+  $( "#lm-cart" ).trigger('mouseenter');
 });
 
 /*Notify when available
