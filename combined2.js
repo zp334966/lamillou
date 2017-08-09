@@ -1148,7 +1148,6 @@ if (poz != null) {
 
 /*Newsletter
 *************************************************/
-/*
 var intervalNewsletter;
 function newsletterValid() {
   $( "#pp_newsletter .newsletter_text" ).each(function() {
@@ -1156,10 +1155,11 @@ function newsletterValid() {
         $('#pp_newsletter .newsletter_text').addClass('field_with_errors');
         $('#pp_newsletter .newsletter_text input[type=text]').after("<div class='validation-error'>Podaj prawidłowy adres e-mail</div>");
     }
-    if ( $(this).text().indexOf("E-mail został dodany") != -1 ){
+    if ( $(this).text().indexOf("E-mail został dodany") != -1  && ! $('#pp_newsletter .reply').length ){
         $('#pp_newsletter .newsletter_text').removeClass('field_with_errors');
-        $('#pp_newsletter .newsletter_text').addClass('submitted'); 
+        $('#pp_newsletter .newsletter_text').addClass('submitted');
         clearInterval(intervalNewsletter);
+        $('#pp_newsletter .newsletter_text .cms_newsletter_form').after("<p class='reply'>Dziękujemy!</p>");
         setTimeout(function () { $("#fancybox-close").trigger('click');}, 1200);
     }
   });
@@ -1171,6 +1171,5 @@ function newsletterValid() {
 $( "#pp_newsletter input[type=submit]" ).click(function() {
   intervalNewsletter = setInterval(newsletterValid, 50);
 }); 
-*/
 
 
