@@ -746,6 +746,7 @@ $(window).on('load', function(){
 	
   /*Advertisement mobile 
   ************************************************/
+$(document).ready(function(){
   $('.exit').click(function() { 
     $('.site-layout').removeClass("advertisement-active");
     var items = document.getElementsByClassName("advertisement-desktop");
@@ -769,7 +770,7 @@ $(window).on('load', function(){
 		items[0].style.display = "none";  
   	}
   }); 
-	
+});	
 	
 	
   ///////////////////////////////////////////////////////////////////////
