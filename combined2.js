@@ -222,16 +222,16 @@ jQuery(document).ready(function($) {
   ///////////////////  Header / Navigation  /////////////////////////////
   //////////////////////////////////////////////////////////////////////
   
-  /*Sticky Header
+  /*Sticky Header todo
   *******************************************/
-  $(window).on('load', function(){
+  /*$(window).on('load', function(){
     $stickyHeader.waypoint('sticky');
     $scrollHeader.waypoint('sticky');
-  });
+  });*/
   
   /*Transparent Header
   *******************************************/
-  $(window).on('load', function(){
+  /*$(window).on('load', function(){
     if($transpHeader.length > 0) {
       var $logoAlt = $transpHeader.find('.logo > img').data('logo-alt');
       $transpHeader.find('.logo > img').attr('src', $logoAlt);
@@ -247,7 +247,7 @@ jQuery(document).ready(function($) {
       $transpHeader.removeClass('opaque');
       $transpHeader.find('.logo > img').attr('src', $logoAlt);
     }
-  });
+  });*/
 	
 /*Headroom Init
 *******************************************/
