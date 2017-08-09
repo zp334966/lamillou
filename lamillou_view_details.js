@@ -211,6 +211,7 @@ $( ".add_to_cart_button .add" ).click(function() {
   setTimeout(checkPopUp, 500);
 });
 $( "#lm-cart" ).hover(function() {
+  $( "#cart-dropdown" ).removeClass('open');
   $( ".pop-up-added-to-cart" ).each(function() {
     $(this).hide(); 
   }); 
