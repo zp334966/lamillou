@@ -1315,7 +1315,9 @@ div.page-heading.center, div.page-heading {
 #pp_newsletter .cms_newsletter_form span {
     display: none;
 }
-
+#pp_newsletter .validation-error {
+    padding-bottom: 5px;
+}
 #fancybox-close {
     position: absolute;
     top: 0px;
