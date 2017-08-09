@@ -769,9 +769,13 @@ $(document).ready(function(){
   	if ('advertisement' in sessionStorage){
 		$('.site-layout').removeClass("advertisement-active");
 		var items = document.getElementsByClassName("advertisement-desktop");
-		items[0].style.display = "none";
+		if (items != null) {
+		  items[0].style.display = "none";
+		}
 		var items = document.getElementsByClassName("advertisement-mobile");
-		items[0].style.display = "none";  
+		if (items != null) {
+		  items[0].style.display = "none"; 
+		}
   	}
   }); 
 });	
