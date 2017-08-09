@@ -1146,3 +1146,29 @@ if (poz != null) {
   });
 };
 
+/*Newsletter
+*************************************************/
+var intervalNewsletter;
+function newsletterValid() {
+  $( "#pp_newsletter .newsletter_text" ).each(function() {
+    if ( $(this).text().indexOf("Błędny e-mail") != -1 && ! $('#pp_newsletter .newsletter_text .validation-error').length){
+        $('#pp_newsletter .newsletter_text').addClass('field_with_errors');
+        $('#pp_newsletter .newsletter_text input[type=text]').after("<div class='validation-error'>Podaj prawidłowy adres e-mail</div>");
+    }
+    if ( $(this).text().indexOf("E-mail został dodany") != -1 ){
+        $('#pp_newsletter .newsletter_text').removeClass('field_with_errors');
+        $('#pp_newsletter .newsletter_text').addClass('submitted'); 
+        clearInterval(intervalNewsletter);
+        setTimeout(function () { $("#fancybox-close").trigger('click');}, 1200);
+    }
+  });
+  if ( $("#pp_newsletter input[value=Zapisz]").length ){
+       $("#pp_newsletter input[value=Zapisz]").val("Prześlij");
+  }
+};
+  
+$( "#pp_newsletter input[type=submit]" ).click(function() {
+  intervalNewsletter = setInterval(newsletterValid, 50);
+}); 
+
+
