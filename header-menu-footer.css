@@ -1053,7 +1053,7 @@ footer.footer a:focus img, footer.footer a:hover img {
     .logo-big-header {
         display: inline-block;   
         width: 140px;
-        z-index: 2;
+        z-index: 6;
         margin-left: -540px;
         left: 50%;
         top:0;
