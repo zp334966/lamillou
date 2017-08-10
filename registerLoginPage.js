@@ -403,14 +403,7 @@ function thankForOrder () {
             p = p.replace("W tytule przelewu prosimy o podanie numeru zamówienia.", "<h3><br>W tytule przelewu prosimy o podanie numeru zamówienia.</h3>");
             $(this).html(p); 
           } 
-    });
-	  
-    $('#wants_invoice_checkbox label').each(function() {
-	  console.log('each');
-          var p = $(this).html(); 
-          p = p.replace("Chcę otrzymać fakturę VAT", "Dane do faktury VAT");
-	  $(this).html(p);     
-    });     
+    });    
 	  
     var order = $('#thank_you_for_ordering .buttons a').attr('href');
     $('#thank_you_for_ordering .buttons .continue_shopping').hide();
