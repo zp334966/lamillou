@@ -127,12 +127,7 @@
     }
 }
 /* Hamburger - lupa */
-@media (width: 1200px){
-    .search-trigger {
-        left: 74px!important;
-    }
-}
-@media (max-width: 1199px) and (min-width: 1025px){
+@media (max-width: 1200px) and (min-width: 1025px){
     .search-trigger {
         left: 65px!important;
     }
