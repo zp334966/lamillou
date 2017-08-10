@@ -823,11 +823,13 @@ footer.footer {
 }
 
 .footer .mobile-navi a:hover, .footer .mobile-navi a:focus {
-    color: white !important;   
+    color: white !important;  
+    opacity: var(--opacity-hover);
 }
 footer.footer .social-bar a:focus, footer.footer .social-bar a:hover {
     color: white !important;
-    text-shadow: none !important;/*0 0 8px #fff !important*/
+    text-shadow: none !important;
+    opacity: var(--opacity-hover);
 }
 .footer span {
     color: white !important;
@@ -852,6 +854,7 @@ footer.footer h3 {
 }
 footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover, footer.footer .copyright p a:hover {
     color: white !important;
+    opacity: var(--opacity-hover);
 }
 @media (min-width: 580px) {
     .footer .container {
