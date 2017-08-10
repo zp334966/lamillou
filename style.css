@@ -1558,7 +1558,7 @@ div.page-heading.center, div.page-heading {
         height: calc((((732px)/2) - 20px)/2);
     }
     .pop-up-lack.pop-up-cart {
-        margin-right: calc(((100vw - 750px) / 2) + 10px);
+        margin-right: calc(((100vw - 750px) / 2));
         border-right: 1px solid #D0D9E5;
     }
 }
@@ -1778,7 +1778,7 @@ div.page-heading.center, div.page-heading {
         line-height: 15px;
     }
     .pop-up-lack.pop-up-cart {
-        margin-right: calc(((100vw - 970px) / 2));
+        margin-right: calc(((100vw - 970px) / 2) - 7px);
     }
 }
 
@@ -1870,7 +1870,7 @@ div.page-heading.center, div.page-heading {
         margin-right: calc(1 * ((100vw - 1123px) / 2) - 7px);
     }
     .pop-up-lack.pop-up-cart {
-        margin-right: calc(((100vw - 1158px) / 2) + 18px);
+        margin-right: calc(((100vw - 1158px) / 2) + 11px);
         border-top: 1px solid #D0D9E5;
         margin-top: -55px;
     }
