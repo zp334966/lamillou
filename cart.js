@@ -64,22 +64,6 @@ function showCheckoutProgress()
                             <div class="step-summary '+$summary_active+'">2. Podsumowanie</div>');   
 }
 
-
-/*Pop up add to cart
-*************************************************/
-var intervalPopUp;
-function checkPopUp() {
-  if ( $( ".jGrowl-notification .message" ).length ) {
-    $( ".jGrowl-notification .message" ).each(function() {
-      if ( $(this).text().indexOf("Niestety w magazynie brakuje") != -1 ){
-        $( ".pop-up-lack" ).each(function() {
-          clearInterval(intervalPopUp);
-          $(this).show().delay( 5000 ).hide( 400 );
-        });
-      }
-    });
-  }
-};
   
   
 
@@ -193,11 +177,6 @@ $( document ).ready(function() {
     $('.page').show();
     
     
-    /*Pop up add to cart
-    *************************************************/
-    $( "#show_my_cart .shopping-cart .qnt-count a.incr-btn" ).click(function() {
-      intervalPopUp = setInterval(checkPopUp, 100);
-    });
 });
 
 
