@@ -876,6 +876,10 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
 footer.footer a:focus img, footer.footer a:hover img {
     color: white !important;
     opacity: var(--opacity-hover);
+    transition: unset;
+    -webkit-transition: unset;
+    -moz-transition: unset;
+    transition: unset;
 }
 @media (min-width: 580px) {
     .footer .container {
