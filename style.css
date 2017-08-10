@@ -266,13 +266,20 @@ div.page-heading.center, div.page-heading {
 .img-overlay .btn {
     bottom: 0;
     position: absolute;
-    margin-bottom: 60px !important;
+    margin-bottom: 126px !important;
     margin-left: auto !important;
     margin-right: auto !important;
     left: 0;
     right: 0;   
 }
-
+.img-overlay .item-narrow .btn-lam {
+    left: unset;
+    width: 102px;
+    padding-left: 14px!important;
+    padding-right: 14px !important;
+    margin-right: 25px!important;
+    margin-bottom: 25px !important;
+}
 .img-overlay-fa:before {
     content: ' ';
     display: inline-block;
