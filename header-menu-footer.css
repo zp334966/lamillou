@@ -102,7 +102,7 @@
 }
 @media (max-width: 1024px) and (min-width: 992px){
     .header .inner .container {
-        width: unset;
+        width: 970px;
         padding-left: 14px;
         padding-right: 14px;
     }
