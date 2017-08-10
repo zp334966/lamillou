@@ -483,6 +483,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .menu ul li.has-mega-menu div.subcategories {
     margin-bottom: 17px;
 }
+.menu ul li.has-mega-menu .mega-categories a:focus, .menu ul li.has-mega-menu .mega-categories a:hover {
+    color: var(--color-hover);
+}
 .exit-off-canvas {
     background: rgba(22, 64, 125, .8);
     top: 0;
