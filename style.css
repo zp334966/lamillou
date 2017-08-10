@@ -580,6 +580,9 @@ div.page-heading.center, div.page-heading {
 .price-promotion,  .price-promotion h3{
     color: #F1001D !important;
 }
+#products .item .info h3, #same-tag-products .item h3:hover, #same-tag-products .item h3:focus {
+    color: var(--color-hover);
+}
 .quantity {
     position: absolute;
     top: 0;
@@ -1719,6 +1722,9 @@ div.page-heading.center, div.page-heading {
         margin-right: 40px; 
         cursor: pointer;
         margin-bottom: 21px;
+    }
+    .page-block .menu-packing .title h5:hover, .page-block .menu-packing .title h5:focus {
+        color: var(--color-hover);
     }
     .page-block .menu-packing .title.active h5 {
         border-bottom: 2.5px solid #16407D;
