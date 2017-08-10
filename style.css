@@ -280,7 +280,7 @@ div.page-heading.center, div.page-heading {
     margin-right: 25px!important;
     margin-bottom: 25px !important;
 }
-.item-narrow .img-overlay .btn-lam:hover, .item-narrow .img-overlay .btn-lam:focus {
+.img-overlay .btn-lam-blue:hover, .img-overlay .btn-lam-blue:focus {
     color: #16407d !important;
     background-color: white !important;
 }
