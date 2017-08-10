@@ -282,7 +282,7 @@ div.page-heading.center, div.page-heading {
 }
 .item-narrow .img-overlay .btn-lam:hover, .item-narrow .img-overlay .btn-lam:focus {
     color: #16407d !important;
-    background-color: white;
+    background-color: white !important;
 }
 .item-narrow .img-overlay .btn-lam:hover img, .item-narrow .img-overlay .btn-lam:focus img {
     content: url(https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/arrow_right.svg);
