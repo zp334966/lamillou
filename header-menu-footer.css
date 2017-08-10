@@ -872,7 +872,8 @@ footer.footer h3 {
     margin-top: 2px;
     margin-bottom: 10px;
 }
-footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover, footer.footer .copyright p a:hover {
+footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover, footer.footer .copyright p a:hover,
+footer.footer a:focus img, footer.footer a:hover img {
     color: white !important;
     opacity: var(--opacity-hover);
 }
