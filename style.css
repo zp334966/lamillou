@@ -272,7 +272,7 @@ div.page-heading.center, div.page-heading {
     left: 0;
     right: 0;   
 }
-.img-overlay .item-narrow .btn-lam {
+.item-narrow .img-overlay .btn-lam {
     left: unset;
     width: 102px;
     padding-left: 14px!important;
