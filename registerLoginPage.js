@@ -405,7 +405,7 @@ function thankForOrder () {
           } 
     });
 	  
-    $('#wants_invoice_checkbox').each(function() {       
+    $('#wants_invoice_checkbox label').each(function() {       
           var p = $(this).html(); 
           p = p.replace(/\<br>/g, '');
           p = p.replace("Chcę otrzymać fakturę VAT", "Dane do faktury VAT");
