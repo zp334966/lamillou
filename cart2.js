@@ -64,6 +64,25 @@ function showCheckoutProgress()
                             <div class="step-summary '+$summary_active+'">2. Podsumowanie</div>');   
 }
 
+
+/*Pop up add to cart
+*************************************************/
+var intervalPopUp;
+function checkPopUp() {
+  if ( $( ".jGrowl-notification .message" ).length ) {
+    $( ".jGrowl-notification .message" ).each(function() {
+      if ( $(this).text().indexOf("Niestety w magazynie brakuje") != -1 ){
+        $( ".pop-up-lack" ).each(function() {
+          clearInterval(intervalPopUp);
+          $(this).show().delay( 5000 ).hide( 400 );
+        });
+      }
+    });
+  }
+};
+  
+  
+
 $( document ).ready(function() {   
 
     $('#cart-totals .cart-totals').html('<div class="row cart-totals-label">PODSUMOWANIE</div>' + $('#cart-totals .cart-totals').html());
@@ -143,20 +162,6 @@ $( document ).ready(function() {
         increaseArea: '20%'
     });
 
-//   
-//    $('input:checkbox').on('ifChecked', function (event){        
-//        $('#invoice_data').show();
-//    });
-//    $('input:checkbox').on('ifUnchecked', function (event) {
-//        $('#invoice_data').hide();
-//    });
-//    
-//    var checkbox = $('#shop_order_wants_invoice');
-//    checkbox.attr('id', 'shop_order_wants_invoice_icheck');
-//    if (checkbox.is(":checked")) 
-//        $('#invoice_data').show();
-//    else
-//        $('#invoice_data').hide();
     
 
     $('label[for="shop_order[delivery_option_id]"]:nth-last-of-type(2)').html('<strong>Kurier GLS</strong><br><span>na terenie Polski (14 zł)</span>');
@@ -168,7 +173,6 @@ $( document ).ready(function() {
     $payu.addClass('payment-gateway-payu');
     $payu.html('<img class="payu" alt="PayU"><br>Online / karta płatnicza'); 
 
-    //var $paypal = $('label[for="shop_order[payment_kind]"]:nth-of-type(3)');
     var $paypal = $('#payment_kind_selector input[value=paypal]').parent().next();
 
     $paypal.addClass('payment-gateway-paypal');
@@ -187,4 +191,13 @@ $( document ).ready(function() {
     $('a.continue_with_order').text('Zamawiam');
     
     $('.page').show();
+    
+    
+    /*Pop up add to cart
+    *************************************************/
+    $( "#show_my_cart .shopping-cart .qnt-count a.incr-btn" ).click(function() {
+      intervalPopUp = setInterval(checkPopUp, 100);
+    });
 });
+
+
