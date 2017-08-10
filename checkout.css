@@ -1377,8 +1377,11 @@ form label {
 .form_accept_checks a {
     text-decoration: underline;
 }
+.new_user .form_accept_checks span {
+  position: absolute!important;
+}
 .form_accept_checks span {
-    position: absolute;
+    position: static;
     left: 36px;
     padding-top: 17px;
 }
