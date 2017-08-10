@@ -5,6 +5,9 @@ p {
     font-size: 13px;
     color: #243c5e;
 }
+body {
+  --color-hover: #4578C4;
+}
 a:focus, a:hover {
     color: unset;
 }
