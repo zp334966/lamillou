@@ -1053,7 +1053,7 @@ footer.footer a:focus, footer.footer .copyright p a:focus, footer.footer a:hover
         width: auto;
     }
     .header-toolbar .tools a:focus, .header-toolbar .tools a:hover, .header-toolbar .cart-img a:hover span {
-        color: #69B4B0!important;
+        color: var(--color-hover)!important;
     }
     #lm-tools {
         right: auto !important;
