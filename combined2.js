@@ -1058,6 +1058,11 @@ $(document).ready(function(){ */
     if ( !$( '#cart-dropdown h4' ).length ){
       $('#cart-dropdown').prepend( "<h4>ZAWARTOŚĆ KOSZYKA</h4>" );   
     };
+    if ( $('#cart-dropdown').text().indexOf("Koszyk jest pusty") != -1 ){
+      $('#cart-dropdown span').hide();
+      $('#cart-dropdown p').append("<img src='https://cdn.rawgit.com/zp334966/lamillou/f45ff1bf/assets/koszyk.svg'>");
+      $('#cart-dropdown p').append("<h5>W Twoim koszyku nie ma jeszcze żadnych produktów.</h5>");
+    };
   }; /*
   $(window).load(function() {
     $('#cart-dropdown').prepend( "<h4>ZAWARTOŚĆ KOSZYKA</h4>" );
