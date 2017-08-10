@@ -399,8 +399,8 @@ function thankForOrder () {
             p = p.replace("30 1930 1419 2300 0347 6837 0002", "<h3 class='dark-blue'>30 1930 1419 2300 0347 6837 0002</h3>");
             p = p.replace("PRZELEWY ZAGRANICZNE W EURO", "<h2 class='dark-blue'>PRZELEW ZAGRANICZNY W EURO</h2>");
             p = p.replace("nr rachunku:", "<h3><b class='dark-blue'>Numer rachunku</b></h3>");    
-            p = p.replace("46 1930 1419 2300 0347 6837 0005", "<h3 class='dark-blue'>46 1930 1419 2300 0347 6837 0005</h3><br/>");
-            p = p.replace("W tytule przelewu prosimy o podanie numeru zamówienia.", "<h3>W tytule przelewu prosimy o podanie numeru zamówienia.</h3><br/>");
+            p = p.replace("46 1930 1419 2300 0347 6837 0005", "<h3 class='dark-blue'>46 1930 1419 2300 0347 6837 0005</h3><br>");
+            p = p.replace("W tytule przelewu prosimy o podanie numeru zamówienia.", "<h3>W tytule przelewu prosimy o podanie numeru zamówienia.</h3>");
             $(this).html(p); 
           } 
     });     
