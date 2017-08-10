@@ -88,8 +88,9 @@
 /* Szerokosc glownego menu */
 @media (width: 1200px){
     .header .inner .container {
-        padding-left: 27px;
-        padding-right: 27px;
+        padding-left: 18px;
+        padding-right: 18px;
+        width: 970px;
     }
 }
 @media (max-width: 1199px) and (min-width: 1025px){
