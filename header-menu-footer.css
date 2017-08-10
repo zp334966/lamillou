@@ -347,6 +347,10 @@
     margin-top: 0px;
     padding-bottom: 11px;
 }
+.header-toolbar .tools li:focus a i, .header-toolbar .tools li:focus a, 
+.header-toolbar .tools li:hover a i, .header-toolbar .tools li:hover a {
+    color: var(--color-hover);
+}
 .header-toolbar .tools .top-menu a {
     font-weight: 400;
     letter-spacing: -0.07px;   
