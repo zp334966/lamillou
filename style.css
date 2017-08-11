@@ -263,10 +263,19 @@ div.page-heading.center, div.page-heading {
     vertical-align: middle;
     padding-top: 5px;
 }
+@media (min-width: 580) {
+    .img-overlay .btn {
+        margin-bottom: 106px !important;
+    }
+}
+@media (max-width: 579) {
+    .img-overlay .btn {
+        margin-bottom: 60px !important;
+    }
+}
 .img-overlay .btn {
     bottom: 0;
     position: absolute;
-    margin-bottom: 106px !important;
     margin-left: auto !important;
     margin-right: auto !important;
     left: 0;
