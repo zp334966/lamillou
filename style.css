@@ -1948,7 +1948,12 @@ div.page-404 p {
        margin-bottom: 80px!important;
     }
 }
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1200px) {
+   div.page-404 a.btn-404 span {
+       margin-bottom: 40px!important;
+    }
+}
+@media (min-width: 1201px) {
    div.page-404 a.btn-404 span {
        margin-bottom: 100px!important;
     }
