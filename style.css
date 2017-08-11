@@ -287,6 +287,7 @@ div.page-heading.center, div.page-heading {
 .page-404 .btn-lam-blue:hover, .page-404 .btn-lam-blue:focus {
     color: #16407d !important;
     background-color: white !important;
+    border: solid 3px #16407d;
 }
 .item-narrow .img-overlay .btn-lam:hover img, .item-narrow .img-overlay .btn-lam:focus img {
     content: url(https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/arrow_right.svg);
