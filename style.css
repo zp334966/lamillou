@@ -1936,7 +1936,7 @@ div.page-404 p {
     margin-bottom: 65px!important;
 }
 @media (max-width: 991px) {
-   div.page-404 a.btn-404 {
-       margin-bottom: 40px;
+   div.page-404 a.btn-404 span {
+       margin-bottom: 40px!important;
     }
 }
