@@ -1924,3 +1924,15 @@ div.page-heading.center, div.page-heading {
     }
 }
 /*************************/
+/* 404 page */
+div.page-404 h1 p {
+    color: #B8C1CE;
+    max-width: 241px;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: 20px!important;
+    font-weight: lighter;
+    margin: 0 auto;
+    margin-top: 24px!important;
+    margin-bottom: 65px!important;
+}
