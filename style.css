@@ -284,12 +284,20 @@ div.page-heading.center, div.page-heading {
     color: #16407d !important;
     background-color: white !important;
 }
-/* hover 404 */
-.page-404 .btn-lam-blue:hover, .page-404 .btn-lam-blue:focus {
+/* hover 404, zamowienie bez logowania */
+.page-404 .btn-lam-blue:hover, .page-404 .btn-lam-blue:focus,
+#shop_order_form .buttons.panel a.continue_with_order.right:hover, #shop_order_form .buttons.panel a.continue_with_order.right:focus {
     color: #16407d !important;
     background-color: white !important;
     border: solid 2px #16407d;
     padding: 12px 24px 14px 24px!important;
+}
+/* hover cart */
+#show_my_cart a.btn:hover, #show_my_cart a.btn:focus {
+    color: #16407d !important;
+    background-color: white !important;
+    border: solid 2px #16407d;
+    padding: 12px 3px 14px 3px!important;
 }
 /**/
 .item-narrow .img-overlay .btn-lam:hover img, .item-narrow .img-overlay .btn-lam:focus img {
