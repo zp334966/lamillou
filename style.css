@@ -294,11 +294,11 @@ div.page-heading.center, div.page-heading {
     color: #16407d !important;
     background-color: white !important;
     border: solid 3px #16407d;
-    margin-top: 37px!important;
+    margin-top: -3px!important;
 }
 @media (max-width: 991px) {
     .page-404 .btn-lam-blue:hover, .page-404 .btn-lam-blue:focus {
-        margin-bottom: -3px!important;
+        margin-bottom: 37px!important;
     }
 }
 /**/
