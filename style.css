@@ -1933,6 +1933,5 @@ div.page-404 p {
     line-height: 20px!important;
     font-weight: lighter;
     margin: 0 auto;
-    margin-top: 24px!important;
-    margin-bottom: 65px!important;
+    margin-bottom: 65px;
 }
