@@ -1935,3 +1935,8 @@ div.page-404 p {
     margin: 0 auto;
     margin-bottom: 65px!important;
 }
+@media (max-width: 991px) {
+   div.page-404 a.btn-404 {
+       margin-bottom: 40px;
+    }
+}
