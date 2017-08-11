@@ -372,10 +372,10 @@ div.page-heading.center, div.page-heading {
     top: 1px;
     left: 7px;
 }
-.btn span.arrow svg g g {
+.btn span.arrow svg g {
     stroke: white;
 }
-.btn:hover span.arrow svg g g, .btn:focus span.arrow svg g g {
+.btn:hover span.arrow svg g, .btn:focus span.arrow svg g {
     stroke: #16407d;
 }
 .category-node .btn {
