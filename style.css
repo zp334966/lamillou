@@ -288,8 +288,8 @@ div.page-heading.center, div.page-heading {
 .page-404 .btn-lam-blue:hover, .page-404 .btn-lam-blue:focus {
     color: #16407d !important;
     background-color: white !important;
-    border: solid 1px #16407d;
-    padding: 13px 25px 15px 25px!important;
+    border: solid 2px #16407d;
+    padding: 12px 24px 14px 24px!important;
 }
 /**/
 .item-narrow .img-overlay .btn-lam:hover img, .item-narrow .img-overlay .btn-lam:focus img {
@@ -1950,6 +1950,6 @@ div.page-404 p {
 }
 @media (min-width: 992px) {
    div.page-404 a.btn-404 span {
-       margin-bottom: 40px!important;
+       margin-bottom: 100px!important;
     }
 }
