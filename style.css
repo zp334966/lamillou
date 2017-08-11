@@ -263,23 +263,14 @@ div.page-heading.center, div.page-heading {
     vertical-align: middle;
     padding-top: 5px;
 }
-@media (min-width: 580px) {
-    .img-overlay .btn {
-        margin-bottom: 106px !important;
-    }
-}
-@media (max-width: 579px) {
-    .img-overlay .btn {
-        margin-bottom: 60px !important;
-    }
-}
 .img-overlay .btn {
     bottom: 0;
-    position: absolute;
+    position: inherit;
     margin-left: auto !important;
     margin-right: auto !important;
     left: 0;
-    right: 0;   
+    right: 0;
+    margin-bottom: 22%!important;
 }
 .item-narrow .img-overlay .btn-lam {
     left: unset;
