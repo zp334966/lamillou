@@ -289,7 +289,7 @@ div.page-heading.center, div.page-heading {
     background-color: white !important;
     border: solid 3px #16407d;
     margin-bottom: 37px!important;
-    margin-top: 3px!important;
+    margin-top: -3px!important;
 }
 .item-narrow .img-overlay .btn-lam:hover img, .item-narrow .img-overlay .btn-lam:focus img {
     content: url(https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/arrow_right.svg);
