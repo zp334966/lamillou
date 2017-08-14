@@ -134,13 +134,12 @@ nav.menu {
 #login_box a.just_order, #login_box h2.big_link a, #registration_form .cms_buttons input[type=submit],
 #order_last_step .buttons.panel a.continue_with_order.right, form input[type=submit] {
     font-size: 15px !important;
-    font-weight: 700;
+    font-weight: 700!important;
     background-color: #16407d;
     color: white !important; 
     width: 240px!important;
-    height: 5px;
-    padding-top: 14px !important;
-    padding-bottom: 16px !important;
+    height: 50px;
+    padding: 14px 26px 16px 26px!important;
     margin: 15px auto 0 auto !important;
     text-transform: uppercase;
     display: block; 
