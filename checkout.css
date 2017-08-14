@@ -153,7 +153,8 @@ nav.menu {
 }
 #login_box a.just_order:focus, #login_box a.just_order:hover,
 #login_box input[type=submit].submit:focus, #login_box input[type=submit].submit:hover,
-#login_box h2.big_link a:hover, #login_box h2.big_link a:focus {
+#login_box h2.big_link a:hover, #login_box h2.big_link a:focus,
+form input[type=submit]:focus, form input[type=submit]:hover {
     background-color: white !important;
     border: solid 2px #16407d!important;
     padding: 12px 24px 14px 24px!important;
@@ -162,7 +163,8 @@ nav.menu {
     transition-property: color!important;
 }
 #login_box a.just_order:focus, #login_box a.just_order:hover,
-#login_box input[type=submit].submit:focus, #login_box input[type=submit].submit:hover {
+#login_box input[type=submit].submit:focus, #login_box input[type=submit].submit:hover,
+form input[type=submit]:focus, form input[type=submit]:hover {
     color: #16407d!important;
 }
 #login_box h2.big_link a:hover, #login_box h2.big_link a:focus {
