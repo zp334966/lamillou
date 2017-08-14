@@ -619,6 +619,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     background-color: #16407d !important;
     padding-top: 14px !important;
     padding-bottom: 16px !important;
+    transition: unset;
 }
 #cart-dropdown .totals {
     padding: 0 0 11px 0;
