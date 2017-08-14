@@ -284,6 +284,8 @@ div.page-heading.center, div.page-heading {
 .img-overlay .btn-lam-blue:hover, .img-overlay .btn-lam-blue:focus {
     color: #16407d !important;
     background-color: white !important;
+    border: none!important;
+    padding: 14px 26px 16px 26px!important;
 }
 /* hover 404 */
 .page-404 .btn-lam-blue:hover, .page-404 .btn-lam-blue:focus {
