@@ -78,6 +78,7 @@ nav.menu {
     color: white !important;
     background-color: #16407d;
     margin: 0px !important;
+    transition: unset;
 }
 .cms_register.container .cms_buttons.row {
     margin-bottom: 40px;
@@ -1486,7 +1487,9 @@ div.checkbox.WithErrors > label {
 #thank_you_for_ordering .buttons.panel a:focus, #order_last_step .buttons.panel a:focus, 
 #shop_order_form .buttons.panel a:focus, #thank_you_for_ordering .buttons.panel a:hover, 
 #order_last_step .buttons.panel a:hover, #shop_order_form .buttons.panel a:hover {
-    background-color: #16407d;
+    transition-property: color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
 }
 #page-content-1 .page {
     border-top: 1px solid #D0D9E5;
