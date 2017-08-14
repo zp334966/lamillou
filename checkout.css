@@ -78,7 +78,9 @@ nav.menu {
     color: white !important;
     background-color: #16407d;
     margin: 0px !important;
-    transition: unset;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-property: color;
 }
 .cms_register.container .cms_buttons.row {
     margin-bottom: 40px;
@@ -144,7 +146,10 @@ nav.menu {
     padding: 14px 26px 16px 26px!important;
     margin: 15px auto 0 auto !important;
     text-transform: uppercase;
-    display: block; 
+    display: block;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-property: color;
 }
 .btn-outlined.btn-primary:hover, .btn-outlined.btn-primary:active, .btn-outlined.btn-primary:focus, 
 .btn-outlined.btn-primary:visited {
