@@ -779,14 +779,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     transition-duration: 0.2s;
     transition-timing-function: ease;
 }
-.btn-lam:hover .btn-lam:focus {
-    border-width: 2px!important;
-    border-style: solid!important;
-    padding: 12px 24px 14px 24px!important;
-    transition-property: color;
-    transition-duration: 0.2s;
-    transition-timing-function: ease;
-}
 .btn-lam-small{
     font-size: 30px;
     text-align: center;
@@ -804,11 +796,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color: white;
     background-color: #04224c;
 }
-.btn-lam-dark-blue:hover, .btn-lam-dark-blue:focus {
-    color: #04224c!important;
-    background-color: white!important;
-    border-color: #04224c!important;
-}
 .btn-lam-blue a, .btn-lam-dark-blue a {
     color: white;
 }
@@ -816,7 +803,15 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     background-color: #16407d !important;
 }
 .btn-lam-dark-blue:hover, .btn-lam-dark-blue:focus, .btn-lam-dark-blue:active{
-    background-color: #04224c !important;
+    color: #04224c!important;
+    background-color: white!important;
+    border-color: #04224c!important;
+    border-width: 2px!important;
+    border-style: solid!important;
+    padding: 12px 24px 14px 24px!important;
+    transition-property: color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
 }
 .btn-lam-white:hover, .btn-lam-white:focus, .btn-lam-white:active{
     background-color: white !important;
