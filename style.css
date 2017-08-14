@@ -286,7 +286,12 @@ div.page-heading.center, div.page-heading {
 }
 /* hover 404, zamowienie bez logowania */
 .page-404 .btn-lam-blue:hover, .page-404 .btn-lam-blue:focus,
-#shop_order_form .buttons.panel a.continue_with_order.right:hover, #shop_order_form .buttons.panel a.continue_with_order.right:focus,
+#shop_order_form .buttons.panel a.continue_with_order.right:hover, #shop_order_form .buttons.panel a.continue_with_order.right:focus {
+    color: #16407d !important;
+    background-color: white !important;
+    border: solid 2px #16407d!important;
+    padding: 12px 24px 14px 24px!important;
+}
 #order_last_step .buttons.panel a.continue_with_order.right:hover, #order_last_step .buttons.panel a.continue_with_order.right:focus {
     color: #16407d !important;
     background-color: white !important;
