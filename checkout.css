@@ -137,7 +137,8 @@ nav.menu {
     font-weight: 700;
     background-color: #16407d;
     color: white !important; 
-    width: 240px;
+    width: 240px!important;
+    height: 5px;
     padding-top: 14px !important;
     padding-bottom: 16px !important;
     margin: 15px auto 0 auto !important;
