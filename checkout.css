@@ -151,6 +151,23 @@ nav.menu {
     transition-timing-function: ease;
     transition-property: color;
 }
+#login_box a.just_order:focus, #login_box a.just_order:hover,
+#login_box input[type=submit].submit:focus, #login_box input[type=submit].submit:hover,
+#login_box h2.big_link a:hover, #login_box h2.big_link a:focus {
+    background-color: white !important;
+    border: solid 2px #16407d!important;
+    padding: 12px 24px 14px 24px!important;
+    transition-duration: 0.2s!important;
+    transition-timing-function: ease!important;
+    transition-property: color!important;
+}
+#login_box a.just_order:focus, #login_box a.just_order:hover,
+#login_box input[type=submit].submit:focus, #login_box input[type=submit].submit:hover {
+    color: #16407d!important;
+}
+#login_box h2.big_link a:hover, #login_box h2.big_link a:focus {
+    color: #243C5E!important;
+}
 .btn-outlined.btn-primary:hover, .btn-outlined.btn-primary:active, .btn-outlined.btn-primary:focus, 
 .btn-outlined.btn-primary:visited {
     background: transparent;
