@@ -775,6 +775,17 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-weight: 700;
     padding-top: 14px !important;
     padding-bottom: 16px !important;
+    transition-property: color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+}
+.btn-lam:hover .btn-lam:focus {
+    border-width: 2px!important;
+    border-style: solid!important;
+    padding: 12px 24px 14px 24px!important;
+    transition-property: color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
 }
 .btn-lam-small{
     font-size: 30px;
@@ -792,6 +803,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .btn-lam-dark-blue {
     color: white;
     background-color: #04224c;
+}
+.btn-lam-dark-blue:hover, .btn-lam-dark-blue:focus {
+    color: #04224c!important;
+    background-color: white!important;
+    border-color: #04224c!important;
 }
 .btn-lam-blue a, .btn-lam-dark-blue a {
     color: white;
