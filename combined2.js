@@ -321,6 +321,13 @@ $('.back-search').on('click', function(e) {
    $('.search-wrapper').toggleClass('on');
    $('#header-mobile-id').toggleClass('hidden');
 });	
+$('.search-off-canvas').on('click', function(e) {
+   $('.off-canvas-searchbar').toggleClass('hidden');
+   $('.search-trigger').toggleClass('active');
+   $('.search-wrapper').toggleClass('off');
+   $('.search-wrapper').toggleClass('on');
+   $('#header-mobile-id').toggleClass('hidden');
+});
 	
   //Scroll only menu
   function setMobileNaviHeight() {
