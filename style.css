@@ -285,9 +285,12 @@ div.page-heading.center, div.page-heading {
     color: #16407d !important;
     background-color: white !important;
     border: none!important;
+    padding-top: 14px!important;
+    padding-bottom: 16px!important;
 }
 .img-wrapper-big .img-overlay .btn-lam-blue:hover, .img-wrapper-big .img-overlay .btn-lam-blue:focus {
-    padding: 14px 26px 16px 26px!important;
+    padding-right: 26px!important;
+    padding-left: 26px!important;
 }
 /* hover 404 */
 .page-404 .btn-lam-blue:hover, .page-404 .btn-lam-blue:focus {
