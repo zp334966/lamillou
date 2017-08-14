@@ -800,7 +800,15 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color: white;
 }
 .btn-lam-blue:hover, .btn-lam-blue:focus, .btn-lam-blue:active{
-    background-color: #16407d !important;
+    color: #16407d!important;
+    background-color: white!important;
+    border-color: #16407d!important;
+    border-width: 2px!important;
+    border-style: solid!important;
+    padding: 12px 24px 14px 24px!important;
+    transition-property: color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
 }
 .btn-lam-dark-blue:hover, .btn-lam-dark-blue:focus, .btn-lam-dark-blue:active{
     color: #04224c!important;
