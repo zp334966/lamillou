@@ -67,7 +67,8 @@ nav.menu {
     font-size: 15px !important;
     text-align: center;
     text-transform: uppercase;  
-    width: 240px;
+    width: 240px!important;
+    height: 50px;
     letter-spacing: 0.47px;
     line-height: 20px;
     font-family: 'Open Sans';
