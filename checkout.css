@@ -154,7 +154,8 @@ nav.menu {
 #login_box a.just_order:focus, #login_box a.just_order:hover,
 #login_box input[type=submit].submit:focus, #login_box input[type=submit].submit:hover,
 #login_box h2.big_link a:hover, #login_box h2.big_link a:focus,
-form input[type=submit]:focus, form input[type=submit]:hover {
+form input[type=submit]:focus, form input[type=submit]:hover,
+.cms_register.container .new_button.btn.btn-primary:hover, .cms_register.container .new_button.btn.btn-primary:focus {
     background-color: white !important;
     border: solid 2px #16407d!important;
     padding: 12px 24px 14px 24px!important;
@@ -164,7 +165,8 @@ form input[type=submit]:focus, form input[type=submit]:hover {
 }
 #login_box a.just_order:focus, #login_box a.just_order:hover,
 #login_box input[type=submit].submit:focus, #login_box input[type=submit].submit:hover,
-form input[type=submit]:focus, form input[type=submit]:hover {
+form input[type=submit]:focus, form input[type=submit]:hover,
+.cms_register.container .new_button.btn.btn-primary:hover, .cms_register.container .new_button.btn.btn-primary:focus {
     color: #16407d!important;
 }
 #login_box h2.big_link a:hover, #login_box h2.big_link a:focus {
