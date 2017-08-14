@@ -917,6 +917,7 @@ function searchDesktop() {
   $( ".has-mega-menu" ).hide();
   $( "form.search-desktop" ).show("slide", { direction: "right" }, 200);
   $( ".search-trigger-desktop" ).addClass('active');
+  $("#query").focus();
 };
 function hideSearchDesktop() {  
   $( "form.search-desktop" ).hide("slide", { direction: "right" }, 200);
