@@ -1411,11 +1411,6 @@ form label {
     left: 36px;
     padding-top: 17px;
 }
-form input[type=submit]:focus, form input[type=submit]:hover {
-    color: white !important;
-    background-color: #16407d;
-}
-
 .container.restore_password .header {
     z-index: 1;
 }
