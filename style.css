@@ -1619,10 +1619,10 @@ div.page-heading.center, div.page-heading {
     }
     #add_notif {
         margin: 0!important;
-        border-left: none!important;
         border-bottom-left-radius: 0!important;
         border-top-left-radius: 0!important;
         height: 50px;
+        border: solid 2px #16407d;
     }
     .footer-subscribe-widget input#notif_email {
         width: 100%;
