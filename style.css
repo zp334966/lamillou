@@ -1610,6 +1610,15 @@ div.page-heading.center, div.page-heading {
         border-right: 1px solid #D0D9E5;
     }
 }
+@media (min-width: 1201px){
+    .footer-subscribe-widget.light-version.notify_prod div p {
+        max-width: 100%!important;
+    }
+    .footer-subscribe-widget.light-version.notify_prod div div {
+        max-width: 50%;
+        margin: 0!important;
+    }
+}
 @media (min-width: 992px){
     .item-narrow {
         height: calc((((952px)/2) - 20px)/2);
@@ -1632,7 +1641,7 @@ div.page-heading.center, div.page-heading {
     .footer-subscribe-widget.light-version.notify_prod p {
         margin: 0;
         text-align: left;
-        max-width: 240px;
+        max-width: 100%;
     }
     .footer-subscribe-widget.light-version.notify_prod {
         text-align: left;
