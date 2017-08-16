@@ -1187,5 +1187,8 @@ function newsletterValid() {
 $( "#pp_newsletter input[type=submit]" ).click(function() {
   intervalNewsletter = setInterval(newsletterValid, 50);
 }); 
-
+$(document).ready(function(){
+	/* : po Powiadom kiedy dostepny */
+    	$('.footer-subscribe-widget.light-version.notify_prod p').append(":");
+});
 
