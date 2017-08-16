@@ -1610,6 +1610,7 @@ div.page-heading.center, div.page-heading {
         border-right: 1px solid #D0D9E5;
     }
 }
+/*
 @media (min-width: 1201px){
     .footer-subscribe-widget.light-version.notify_prod div p {
         max-width: 100%!important;
@@ -1629,8 +1630,10 @@ div.page-heading.center, div.page-heading {
         border-right: none!important;
         border-bottom-right-radius: 0!important;
         border-top-right-radius: 0!important;
+        margin-bottom: 33px!important;
     }
 }
+*/
 @media (min-width: 992px){
     .item-narrow {
         height: calc((((952px)/2) - 20px)/2);
