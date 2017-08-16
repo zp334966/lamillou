@@ -1771,6 +1771,9 @@ div.page-heading.center, div.page-heading {
     .page-block .menu-packing .title h5:hover, .page-block .menu-packing .title h5:focus {
         color: var(--color-hover);
     }
+    .page-block .menu-packing .title.active h5:hover, .page-block .menu-packing .title.active h5:focus {
+        color: #16407D;
+    }
     .page-block .menu-packing .title.active h5 {
         border-bottom: 2.5px solid #16407D;
         opacity: 1;
