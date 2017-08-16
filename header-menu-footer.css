@@ -712,7 +712,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .search-desktop input[type="submit"] {
     padding: 10px 0 10px 0 !important;
-    margin: 0 !important;
     background-color: #16407d;
     color: white !important;
 }
@@ -725,11 +724,14 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-size: 13px !important;
     letter-spacing: 0.41px;
     z-index: 2;
+    margin: 0 !important;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-property: color;
 }
 .search-desktop input[type="submit"]:focus, 
 .search-desktop input[type="submit"]:hover {
     padding: 8px 0 8px 0 !important;
-    margin: 0 -2px 0 -2px !important;
     background-color: white !important;
     color: #16407d !important;
     border: solid 2px #16407d!important;
