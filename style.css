@@ -1632,6 +1632,9 @@ div.page-heading.center, div.page-heading {
         border-top-right-radius: 0!important;
         margin-bottom: 33px!important;
     }
+    .footer-subscribe-widget.light-version.notify_prod p {
+        max-width: 100%;
+    }
 }
 */
 @media (min-width: 992px){
@@ -1656,7 +1659,6 @@ div.page-heading.center, div.page-heading {
     .footer-subscribe-widget.light-version.notify_prod p {
         margin: 0;
         text-align: left;
-        max-width: 100%;
     }
     .footer-subscribe-widget.light-version.notify_prod {
         text-align: left;
