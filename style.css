@@ -1624,7 +1624,7 @@ div.page-heading.center, div.page-heading {
         border-top-left-radius: 0!important;
         height: 50px;
     }
-    #notif_email {
+    .footer-subscribe-widget input#notif_email {
         width: 100%;
         border-right: none!important;
         border-bottom-right-radius: 0!important;
