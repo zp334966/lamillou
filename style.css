@@ -1631,7 +1631,7 @@ div.page-heading.center, div.page-heading {
     }
     .footer-subscribe-widget.light-version.notify_prod p {
         margin: 0;
-        text-align: center;
+        text-align: left;
         max-width: 240px;
     }
     .footer-subscribe-widget.light-version.notify_prod {
