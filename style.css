@@ -1616,7 +1616,19 @@ div.page-heading.center, div.page-heading {
     }
     .footer-subscribe-widget.light-version.notify_prod div div {
         max-width: 50%;
+    }
+    #add_notif {
         margin: 0!important;
+        border-left: none!important;
+        border-bottom-left-radius: 0!important;
+        border-top-left-radius: 0!important;
+        height: 50px;
+    }
+    #notif_email {
+        width: 100%;
+        border-right: none!important;
+        border-bottom-right-radius: 0!important;
+        border-top-right-radius: 0!important;
     }
 }
 @media (min-width: 992px){
