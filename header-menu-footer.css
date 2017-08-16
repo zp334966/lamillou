@@ -710,19 +710,29 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     padding: 0px 35px 0px 35px;
     z-index: 2;
 }
+.search-desktop input[type="submit"] {
+    padding: 10px 0 10px 0 !important;
+    margin: 0 !important;
+    background-color: #16407d;
+    color: white !important;
+}
 .search-desktop input[type="submit"], .search-desktop input[type="submit"]:focus, 
 .search-desktop input[type="submit"]:hover {
     float: right;
     position: relative;
     width: 117px;
-    padding: 10px 0 10px 0 !important;
-    margin: 0 !important;
     border-radius: 0 4px 4px 0;
     font-size: 13px !important;
     letter-spacing: 0.41px;
-    background-color: #16407d;
-    color: white !important;
     z-index: 2;
+}
+.search-desktop input[type="submit"]:focus, 
+.search-desktop input[type="submit"]:hover {
+    padding: 8px 0 8px 0 !important;
+    margin: 0 -2px 0 -2px !important;
+    background-color: white !important;
+    color: #16407d !important;
+    border: solid 2px #16407d!important;
 }
 .search-desktop img {
     height: 18px;
