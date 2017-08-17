@@ -146,6 +146,7 @@ function photoView() {
   if (! $(this).hasClass("active")) {
     photoHideLayout();
     photoDisplay();
+    arrows();
   } else {
     HidePhotoView();  
   }
@@ -235,4 +236,23 @@ function addNotif() {
   
 $( "#add_notif" ).click(function() {
   setTimeout(addNotif, 500);
-}); 
+});
+
+function arrows() {
+	var $totalWidth = $('div.ms-thumb-list').css('width');
+	console.log($totalWidth);
+	var $howMany = $('div.ms-thumb-frame').length;
+	console.log($howMany);
+	var $divsWidth = $('div.ms-thumbs-cont div.ms-thumb-frame').first().css('width');
+	console.log($divsWidth);
+	if($howMany * $divsWidth < $totalWidth) {
+		console.log("TRUE");
+		$('.ms-skin-default .ms-nav-next').hide();
+		$('.ms-skin-default .ms-nav-prev').hide();
+	}
+	else {
+		console.log("FALSE");
+		$('.ms-skin-default .ms-nav-next').show();
+		$('.ms-skin-default .ms-nav-prev').show();
+	}
+}
