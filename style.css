@@ -1728,7 +1728,7 @@ div.page-heading.center, div.page-heading {
     }
     .product_right_tab #learn-more:hover, .product_right_tab #learn-more-undo:hover, 
     .product_right_tab #learn-more:focus, .product_right_tab #learn-more-undo:focus {
-        opacity: 0.6!important;
+        opacity: var(--opacity-hover)!important;
     }
     .product_right_tab #learn-more img {
         padding-left: 12px;
@@ -1779,7 +1779,7 @@ div.page-heading.center, div.page-heading {
     }
     .ms-skin-default .ms-nav-next:hover, .ms-skin-default .ms-nav-next:focus,
     .ms-skin-default .ms-nav-prev:focus, .ms-skin-default .ms-nav-prev:hover {
-        opacity: 0.6!important;
+        opacity: var(--opacity-hover)!important;
     }
     .ms-skin-default .ms-nav-prev {
         background: url('https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/arrow_left.svg');         
