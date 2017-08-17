@@ -892,7 +892,7 @@ footer.footer {
 
 .footer .mobile-navi a:hover, .footer .mobile-navi a:focus {
     color: white !important;  
-    opacity: var(--opacity-hover);
+    opacity: 0.6;
 }
 footer.footer .social-bar a:focus, footer.footer .social-bar a:hover {
     color: white !important;
