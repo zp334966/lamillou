@@ -1190,5 +1190,9 @@ $( "#pp_newsletter input[type=submit]" ).click(function() {
 $(document).ready(function(){
 	/* : po Powiadom kiedy dostepny */
     	$('.footer-subscribe-widget.light-version.notify_prod p').append(":");
+	/* pusta przestrzen podglad obrazka */
+	if($('#exit-photo-view').length) {
+        	$('.canvas-photo-view').hide();
+    	}
 });
 
