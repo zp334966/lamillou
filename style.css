@@ -718,7 +718,7 @@ div.page-heading.center, div.page-heading {
     text-align: center;
 }
 .catalog-grid .item .thumb:focus, .catalog-grid .item .thumb:hover {
-    opacity: 0.8;
+    opacity: 0.7;
 }
 .product_details .title {
     font-family: 'Open Sans';
@@ -1726,6 +1726,10 @@ div.page-heading.center, div.page-heading {
         padding-bottom: 22px;
         font-weight: 700;
     }
+    .product_right_tab #learn-more, .product_right_tab #learn-more-undo:hover, 
+    .product_right_tab #learn-more, .product_right_tab #learn-more-undo:focus {
+        opacity: 0.6!important;
+    }
     .product_right_tab #learn-more img {
         padding-left: 12px;
     }
@@ -1772,6 +1776,10 @@ div.page-heading.center, div.page-heading {
         background: url('https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/arrow_right.svg');
         background-position: right !important;
         float: right;
+    }
+    .ms-skin-default .ms-nav-next:hover, .ms-skin-default .ms-nav-next:focus,
+    .ms-skin-default .ms-nav-prev:focus .ms-skin-default .ms-nav-prev:hover {
+        opacity: 0.6!important;
     }
     .ms-skin-default .ms-nav-prev {
         background: url('https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/arrow_left.svg');         
