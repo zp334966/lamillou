@@ -1191,7 +1191,7 @@ $(document).ready(function(){
 	/* : po Powiadom kiedy dostepny */
     	$('.footer-subscribe-widget.light-version.notify_prod p').append(":");
 	/* pusta przestrzen podglad obrazka */
-	if($('.photo-view-active #exit-photo-view').length) {
+	if($('#form1 div.sp-slider-photo-view.active').length) {
         	$('.canvas-photo-view').hide();
     	}
 });
