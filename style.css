@@ -891,9 +891,11 @@ div.page-heading.center, div.page-heading {
 .canvas-photo-view {
     display: none;
 }
+/*
 .photo-view-active .canvas-photo-view {
     display: block;
 }
+*/
 .photo-view-active .col-lg-9, .photo-view-active .product_left_tab {
     width: 100% !important;
 }
