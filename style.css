@@ -866,6 +866,9 @@ div.page-heading.center, div.page-heading {
     margin: 0px !important;
     text-align: center;
 }
+.photo-view-active #exit-photo-view:focus, .photo-view-active #exit-photo-view:hover {
+    opacity: var(--opacity-hover)!important;   
+}
 .photo-view-active #exit-photo-view {
     display: inline-block !important;
     z-index: 9;
