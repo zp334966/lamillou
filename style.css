@@ -2012,3 +2012,7 @@ div.page-404 p {
        margin-bottom: 100px!important;
     }
 }
+/* usuniecie cienia z ramki wybrane zdjecie */
+.sp-slider .ms-thumb-frame.ms-thumb-frame-selected {
+    box-shadow: 0 0 0 0!important;
+}
