@@ -1449,6 +1449,17 @@ div.page-heading.center, div.page-heading {
     font-weight: 700;
     float: none;
     margin: 15px auto 25px auto !important;
+    transition-property: color;
+    transition-timing-function: ease;
+    transition-duration: 0.2s;
+}
+#pp_newsletter form input[type=submit]:hover, #pp_newsletter form input[type=submit]:focus {
+    color: #16407d!important;
+    padding-top: 12px!important;
+    padding-bottom: 14px!important;
+    transition-property: color;
+    transition-timing-function: ease;
+    transition-duration: 0.2s;
 }
 #pp_newsletter .newsletter_text.submitted .cms_newsletter_form {
     display: none;
