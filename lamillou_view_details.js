@@ -241,6 +241,7 @@ $( "#add_notif" ).click(function() {
 function arrows() {
 	var $totalWidth = parseInt($('div.ms-thumb-list').outerWidth(), 10);
 	console.log($totalWidth);
+	consol.log("edit");
 	var $howMany = parseInt($('div.ms-thumb-frame').length, 10);
 	console.log($howMany);
 	var $divsWidth = parseInt($('div.ms-thumbs-cont div.ms-thumb-frame').first().outerWidth(true), 10);
