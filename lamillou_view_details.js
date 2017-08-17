@@ -239,7 +239,7 @@ $( "#add_notif" ).click(function() {
 });
 
 function arrows() {
-	console.log("EDIT");
+	console.log("EDIT2");
 	var $totalWidth = parseInt($('div.ms-thumb-list').outerWidth(), 10);
 	console.log($totalWidth);
 	var $howMany = parseInt($('div.ms-thumb-frame').length, 10);
