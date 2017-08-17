@@ -717,6 +717,9 @@ div.page-heading.center, div.page-heading {
     background-color: #F2F5F9;
     text-align: center;
 }
+.catalog-grid .item .thumb:focus, .catalog-grid .item .thumb:hover {
+    opacity: 0.8;
+}
 .product_details .title {
     font-family: 'Open Sans';
     font-weight: 600;
