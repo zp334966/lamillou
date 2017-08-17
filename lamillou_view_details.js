@@ -248,12 +248,12 @@ function arrows() {
 	console.log($divsWidth);
 	if($howMany * $divsWidth < $totalWidth) {
 		console.log("TRUE");
-		$('.ms-skin-default .ms-nav-next').hide();
-		$('.ms-skin-default .ms-nav-prev').hide();
+		$('.ms-skin-default .ms-nav-next').attr('style','display:none !important');
+		$('.ms-skin-default .ms-nav-prev').attr('style','display:none !important');
 	}
 	else {
 		console.log("FALSE");
-		$('.ms-skin-default .ms-nav-next').show();
-		$('.ms-skin-default .ms-nav-prev').show();
+		$('.ms-skin-default .ms-nav-next').attr('style','display:block !important');
+		$('.ms-skin-default .ms-nav-prev').attr('style','display:block !important');
 	}
 }
