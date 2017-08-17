@@ -1726,8 +1726,8 @@ div.page-heading.center, div.page-heading {
         padding-bottom: 22px;
         font-weight: 700;
     }
-    .product_right_tab #learn-more, .product_right_tab #learn-more-undo:hover, 
-    .product_right_tab #learn-more, .product_right_tab #learn-more-undo:focus {
+    .product_right_tab #learn-more:hover, .product_right_tab #learn-more-undo:hover, 
+    .product_right_tab #learn-more:focus, .product_right_tab #learn-more-undo:focus {
         opacity: 0.6!important;
     }
     .product_right_tab #learn-more img {
@@ -1778,7 +1778,7 @@ div.page-heading.center, div.page-heading {
         float: right;
     }
     .ms-skin-default .ms-nav-next:hover, .ms-skin-default .ms-nav-next:focus,
-    .ms-skin-default .ms-nav-prev:focus .ms-skin-default .ms-nav-prev:hover {
+    .ms-skin-default .ms-nav-prev:focus, .ms-skin-default .ms-nav-prev:hover {
         opacity: 0.6!important;
     }
     .ms-skin-default .ms-nav-prev {
