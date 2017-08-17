@@ -239,11 +239,11 @@ $( "#add_notif" ).click(function() {
 });
 
 function arrows() {
-	var $totalWidth = $('div.ms-thumb-list').css('width');
+	var $totalWidth = parseInt($('div.ms-thumb-list').css('width'), 10);
 	console.log($totalWidth);
-	var $howMany = $('div.ms-thumb-frame').length;
+	var $howMany = parseInt($('div.ms-thumb-frame').length, 10);
 	console.log($howMany);
-	var $divsWidth = $('div.ms-thumbs-cont div.ms-thumb-frame').first().css('width');
+	var $divsWidth = parseInt($('div.ms-thumbs-cont div.ms-thumb-frame').first().css('width'), 10);
 	console.log($divsWidth);
 	if($howMany * $divsWidth < $totalWidth) {
 		console.log("TRUE");
