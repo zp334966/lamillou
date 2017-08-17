@@ -874,10 +874,10 @@ div.page-heading.center, div.page-heading {
     z-index: 9;
     visibility: visible;
     position: fixed;
-    width: 78px;
+    width: 98px;
     top: 0;
     left: 0;
-    padding: 20px 23px 23px 23px; 
+    padding: 30px 23px 23px 33px; 
     cursor: pointer;
 }
 .photo-view-active header, .photo-view-active .product_details.product_right_tab, 
