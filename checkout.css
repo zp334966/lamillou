@@ -1540,6 +1540,7 @@ div.checkbox.WithErrors > label {
         border-top: none;
         padding-top: 200px;
         margin-top: 0px;
+        padding-bottom: 150px;
     }
     .logo-big-header {
       width: 140px !important;
@@ -1548,3 +1549,18 @@ div.checkbox.WithErrors > label {
       margin-top: 22px;
     }
 }
+@media (min-width: 992px) and (max-width: 1200px){
+    #before-loading {
+        padding-top: 177px;
+        margin-top: 0px;
+        padding-bottom: 80px;
+    }
+}
+@media (max-width: 991px){
+    #before-loading {
+        padding-top: 127px;
+        margin-top: 0px;
+        padding-bottom: 80px;
+    }
+}
+
