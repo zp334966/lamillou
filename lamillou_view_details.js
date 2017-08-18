@@ -239,7 +239,7 @@ $( "#add_notif" ).click(function() {
 });
 
 function arrows() {
-	console.log("EDIT2");
+	console.log("EDIT3");
 	var $totalWidth = parseInt($('div.ms-thumb-list').outerWidth(), 10);
 	console.log($totalWidth);
 	var $howMany = parseInt($('div.ms-thumb-frame').length, 10);
@@ -248,12 +248,12 @@ function arrows() {
 	console.log($divsWidth);
 	if($howMany * $divsWidth < $totalWidth) {
 		console.log("TRUE");
-		$('.ms-skin-default .ms-nav-next').css('display', 'none !important');
-		$('.ms-skin-default .ms-nav-prev').css('display', 'none !important');
+		$('.ms-skin-default .ms-nav-next').css('visibility','hidden!important');
+		$('.ms-skin-default .ms-nav-prev').css('visibility','hidden!important');
 	}
 	else {
 		console.log("FALSE");
-		$('.ms-skin-default .ms-nav-next').css('display', 'block !important');
-		$('.ms-skin-default .ms-nav-prev').css('display', 'block !important');
+		$('.ms-skin-default .ms-nav-next').css('visibility','visible!important');
+		$('.ms-skin-default .ms-nav-prev').css('visibility','visible!important');
 	}
 }
