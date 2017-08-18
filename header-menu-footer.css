@@ -345,7 +345,8 @@
 }
 .header-toolbar .tools li:focus a i, .header-toolbar .tools li:focus a, 
 .header-toolbar .tools li:hover a i, .header-toolbar .tools li:hover a {
-    color: var(--color-hover);
+    /*color: var(--color-hover);*/
+    opacity: var(--opacity-hover)!important;
 }
 .header-toolbar .tools .top-menu a {
     font-weight: 400;
@@ -381,7 +382,8 @@
 }
 .header-toolbar .tools a:focus, .header-toolbar .tools a:hover, .header-toolbar .cart-img a:hover span,
 .header-toolbar .tools li ul li a:hover {
-  color: var(--color-hover)!important;
+  /*color: var(--color-hover)!important;*/
+    opacity: var(--opacity-hover)!important;
 }
 
 #top_container {
