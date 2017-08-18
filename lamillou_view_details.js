@@ -51,7 +51,7 @@ $('.load-more-products').on("click", function(e) {
 });
 */
 $('.load-more-products').on("click", function(e) {
-	console.log("KLIK2");
+	console.log("KLIK3");
 	allProducts = true;
     	for (var i = 0; items.length > i; i++) {
 		items[i].style.opacity = 0;
@@ -60,7 +60,7 @@ $('.load-more-products').on("click", function(e) {
 	$('.load-more-products').fadeOut("slow");
 	$('.load-more-products').hide();
 	for (var i = 0; items.length > i; i++) {
-		setTimeout(items[i].fadeIn('slow'), i*600);
+		setTimeout($(items[i]).fadeIn('slow'), i*600);
     	};
 });
 $('.sidebar').hide();
