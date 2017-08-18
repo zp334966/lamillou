@@ -51,7 +51,7 @@ $('.load-more-products').on("click", function(e) {
 });
 */
 $('.load-more-products').on("click", function(e) {
-	console.log("KLIK3");
+	console.log("KLIK33");
 	allProducts = true;
     	for (var i = 0; items.length > i; i++) {
 		items[i].style.opacity = 0;
