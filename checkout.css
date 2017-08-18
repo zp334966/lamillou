@@ -1437,7 +1437,7 @@ form label {
     margin: 22px 0px 0px 0px;  
 }
 .restore_password .cancel a {
-    color: #B6C3D4;    
+    color: var(--gray-text);    
     text-decoration: underline;
 }
 
