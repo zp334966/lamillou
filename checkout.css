@@ -516,7 +516,10 @@ div#show_my_cart div.page-heading h3 {
     padding-left: 9px; 
     padding-right: 9px;
 }
-
+#show_my_cart section.shopping-cart .qnt-count a.incr-btn:last-child:focus,
+#show_my_cart section.shopping-cart .qnt-count a.incr-btn:last-child:hover {
+    content: url(https://cdn.rawgit.com/joanna16/lamillou/c9b2bf5d/button_plus.svg);
+}
 #show_my_cart section.shopping-cart .qnt-count a.incr-btn:last-child:after, 
 #show_my_cart #show_order_products_block .qnt-count a.incr-btn:last-child:after, 
 #order_last_step section.shopping-cart .qnt-count a.incr-btn:last-child:after, 
