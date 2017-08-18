@@ -446,22 +446,22 @@ div.page-heading.center, div.page-heading {
 }
 .footer-subscribe-widget input#notif_email::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     font-size: 14px;
-    color: #B8C1CE;
+    color: var(--gray-text);
     letter-spacing: 0;
 }
 .footer-subscribe-widget input#notif_email::-moz-placeholder { /* Firefox 19+ */
     font-size: 14px;
-    color: #B8C1CE;
+    color: var(--gray-text);
     letter-spacing: 0;
 }
 .footer-subscribe-widget input#notif_email:-ms-input-placeholder { /* IE 10+ */
     font-size: 14px;
-    color: #B8C1CE;
+    color: var(--gray-text);
     letter-spacing: 0;
 }
 .footer-subscribe-widget input#notif_email:-moz-placeholder { /* Firefox 18- */
     font-size: 14px;
-    color: #B8C1CE;
+    color: var(--gray-text);
     letter-spacing: 0;
 }
 .footer-subscribe-widget #notify-email-field .validation-error {
