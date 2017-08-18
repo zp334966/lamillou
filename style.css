@@ -800,6 +800,7 @@ div.page-heading.center, div.page-heading {
 .controls-cont, .ms-view, .ms-slide, .ms-slide-bgcont {
     height: unset;
     width: 100% !important;
+    cursor:pointer;
 }
 .sp-slider .category-icon {
     position: absolute;
