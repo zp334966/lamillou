@@ -1334,7 +1334,7 @@ form.new_user .form_accept_checks:nth-last-of-type(2) {
   margin-top: 17px;
   margin-bottom: 15px;
   font-weight: 700;
-  color: #B8C1CE; 
+  color: var(--gray-text); 
 }
 #login_box div.login_info {
   width: initial; 
