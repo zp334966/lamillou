@@ -1035,7 +1035,10 @@ footer.footer a:focus img, footer.footer a:hover img {
 }
 @media (min-width: 1025px){
     .header-toolbar .tools li ul li a:focus, .header-toolbar .tools li ul li a:hover {
-        color: var(--color-hover)!important;
+        color: inherit!important;
+    }
+    .header-toolbar .tools li:hover a {
+        color: inherit!important;
     }
 }
 @media only screen and (max-width: 1200px) {
