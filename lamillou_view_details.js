@@ -240,7 +240,7 @@ $( "#add_notif" ).click(function() {
 
 function arrows() {
 	$(document).ready(function(){
-	console.log("EDIT3");
+	console.log("EDIT4");
 	var $totalWidth = parseInt($('div.ms-thumb-list').outerWidth(), 10);
 	console.log($totalWidth);
 	var $howMany = parseInt($('div.ms-thumb-frame').length, 10);
@@ -249,7 +249,7 @@ function arrows() {
 	console.log($divsWidth);
 	if($howMany * $divsWidth < $totalWidth) {
 		console.log("TRUE");
-		$('.ms-skin-default .ms-nav-next').ready().css('visibility','hidden!important');
+		$('.ms-skin-default .ms-nav-next').css('visibility','hidden!important');
 		$('.ms-skin-default .ms-nav-prev').css('visibility','hidden!important');
 	}
 	else {
