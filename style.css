@@ -828,7 +828,6 @@ div.page-heading.center, div.page-heading {
     margin-top: 0px !important;
     text-align: center;
     overflow: hidden;
-    cursor: pointer;
 }
 .ms-thumb-frame img {
     margin-left: 0px !important;
@@ -858,10 +857,11 @@ div.page-heading.center, div.page-heading {
     width: 100%;
     z-index: 1;
     position: absolute;
+    cursor: pointer;
 }
 @media (min-width: 992px) {
     .sp-slider-photo-view {
-        height: 714px;
+        height: 714px!important;
     }
 }
 .photo-view-active .sp-slider {
