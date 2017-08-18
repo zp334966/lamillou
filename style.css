@@ -858,7 +858,6 @@ div.page-heading.center, div.page-heading {
     width: 100%;
     z-index: 1;
     position: absolute;
-    cursor:pointer;
 }
 @media (min-width: 992px) {
     .sp-slider-photo-view {
