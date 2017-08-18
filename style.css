@@ -1240,7 +1240,7 @@ div.page-heading.center, div.page-heading {
     font-family: 'Open Sans';
     font-weight: 700;
     font-size: 13px;
-    color: #B8C1CE;
+    color: var(--gray-text);
     letter-spacing: 0.51px;
     margin: 7px 0px 15px 0px;
 }
