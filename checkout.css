@@ -520,7 +520,7 @@ div#show_my_cart div.page-heading h3 {
     content: url(https://cdn.rawgit.com/joanna16/lamillou/63b57146/ico_plus_bl.svg);
     background-color: #16407d!important;
 }
-#show_my_cart section.shopping-cart .qnt-count a.incr-btn:first-child:hover {
+#show_my_cart section.shopping-cart .qnt-count:not(.inactive) a.incr-btn:first-child:hover {
     content: url(https://cdn.rawgit.com/joanna16/lamillou/63b57146/ico_minus_gr.svg);
     background-color: #16407d!important;
 }
