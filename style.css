@@ -7,7 +7,7 @@ p {
 }
 body {
   --color-hover: #69B4B0;
-  --opacity-hover: 0.8;
+  --opacity-hover: 0.6;
   --gray-text: #9AA1AC;
 }
 a:focus, a:hover {
