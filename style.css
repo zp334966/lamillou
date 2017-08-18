@@ -828,6 +828,7 @@ div.page-heading.center, div.page-heading {
     margin-top: 0px !important;
     text-align: center;
     overflow: hidden;
+    cursor: pointer;
 }
 .ms-thumb-frame img {
     margin-left: 0px !important;
