@@ -858,8 +858,12 @@ div.page-heading.center, div.page-heading {
     width: 100%;
     z-index: 1;
     position: absolute;
-    height: 0px;
     cursor:pointer;
+}
+@media (min-width: 992px) {
+    .sp-slider-photo-view {
+        height: 714px;
+    }
 }
 .photo-view-active .sp-slider {
     margin: 7px -4px -4px -4px;
