@@ -860,7 +860,7 @@ div.page-heading.center, div.page-heading {
     cursor: pointer;
 }
 @media (min-width: 992px) {
-    .sp-slider-photo-view {
+    .photo-view-active .sp-slider-photo-view {
         height: 714px!important;
     }
 }
