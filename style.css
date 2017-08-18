@@ -481,7 +481,7 @@ div.page-heading.center, div.page-heading {
 }
 .footer-subscribe-widget-submitted {
     display: none;
-    text-align: center;
+    text-align: left;
     padding-top: 11px;
     padding-bottom: 36px;
     width: 285px;
