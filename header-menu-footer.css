@@ -1040,6 +1040,9 @@ footer.footer a:focus img, footer.footer a:hover img {
     .header-toolbar .tools li:hover a {
         color: inherit!important;
     }
+    #cart-dropdown a:focus, #cart-dropdown a:hover {
+        opacity: 1.0!important;
+    }
 }
 @media only screen and (max-width: 1200px) {
     .header .logo {
