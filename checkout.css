@@ -581,6 +581,10 @@ div#show_my_cart div.page-heading h3 {
     z-index: 1;    
     padding-top: 3px;
 }
+#show_my_cart section.shopping-cart .cart_product_remove_button:focus,
+#show_my_cart section.shopping-cart .cart_product_remove_button:hover {
+    color: #16407D !important;
+}
 #show_my_cart a.btn {
     margin: 29px auto 40px auto !important;
 }
@@ -1169,6 +1173,9 @@ p.refund-info a {
     line-height: 20px;
     text-decoration: underline;
 }
+.cms_user_profile .logout a:hover, .cms_user_profile .logout a:focus {
+    opacity: var(--opacity-hover);
+}
 .cms_user_profile h5 {
     margin-bottom: -2px;
 }
@@ -1212,6 +1219,9 @@ p.refund-info a {
     font-weight: 400;
     margin: 0px !important;
     padding: 15px 0 15px 10px !important;
+}
+.order_list.order_history .historyList li>div a:hover, .order_list.order_history .historyList li>div a:focus {
+    opacity: var(--opacity-hover);
 }
 .cms_edit_profile {
     margin-top: 0px;
