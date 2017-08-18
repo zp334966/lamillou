@@ -243,7 +243,7 @@ form.new_user .field_with_errors .validation-error {
 #empty-cart .page-heading h5 {
     font-family: 'Open Sans';
     font-size: 13px;
-    color: #B8C1CE;
+    color: var(--gray-text);
     letter-spacing: 0;
     line-height: 20px;
     width: 241px;
