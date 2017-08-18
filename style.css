@@ -764,7 +764,7 @@ div.page-heading.center, div.page-heading {
 .product_details .product_discount_price{
     font-size: 14px;
     font-weight: 600 !important;
-    color: #787E87;
+    color: var(--gray-text);
     letter-spacing: 0;
     position: absolute;
     left: 103px;
