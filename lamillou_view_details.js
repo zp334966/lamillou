@@ -239,6 +239,7 @@ $( "#add_notif" ).click(function() {
 });
 
 function arrows() {
+	$(document).ready(function(){
 	console.log("EDIT3");
 	var $totalWidth = parseInt($('div.ms-thumb-list').outerWidth(), 10);
 	console.log($totalWidth);
@@ -248,7 +249,7 @@ function arrows() {
 	console.log($divsWidth);
 	if($howMany * $divsWidth < $totalWidth) {
 		console.log("TRUE");
-		$('.ms-skin-default .ms-nav-next').css('visibility','hidden!important');
+		$('.ms-skin-default .ms-nav-next').ready().css('visibility','hidden!important');
 		$('.ms-skin-default .ms-nav-prev').css('visibility','hidden!important');
 	}
 	else {
@@ -256,4 +257,5 @@ function arrows() {
 		$('.ms-skin-default .ms-nav-next').css('visibility','visible!important');
 		$('.ms-skin-default .ms-nav-prev').css('visibility','visible!important');
 	}
+	});
 }
