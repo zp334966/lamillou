@@ -51,7 +51,7 @@ $('.load-more-products').on("click", function(e) {
 });
 */
 $('.load-more-products').on("click", function(e) {
-	console.log("KLIK7");
+	console.log("KLIK8");
 	allProducts = true;
     	for (var i = 0; items.length > i; i++) {
 		items[i].style.opacity = 0;
@@ -59,8 +59,8 @@ $('.load-more-products').on("click", function(e) {
     	};
 	setTimeout(function(){ $('.load-more-products').fadeOut("slow"); }, 1000);
 	for (var i = 0; items.length > i; i++) {
-		setTimeout(function(){ items[i].style.opacity = 1; }, i*600);
-		console.log(i*600);
+		setTimeout(function(items, i){ items[i].style.opacity = 1; }, i*300);
+		console.log(i*300);
     	};
 });
 $('.sidebar').hide();
