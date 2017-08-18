@@ -41,7 +41,7 @@ if ( $('.relate_product').length) {
 	$(window).load(numberProducts);  
 	$(window).on('resize', numberProducts);
 };
-/*
+
 $('.load-more-products').on("click", function(e) {
     allProducts = true;
 	$('.load-more-products').hide();
@@ -49,7 +49,7 @@ $('.load-more-products').on("click", function(e) {
       items[i].style.display = "block";
     };
 });
-*/
+/*
 $('.load-more-products').on("click", function(e) {
 	console.log("KLIK8");
 	allProducts = true;
@@ -62,7 +62,7 @@ $('.load-more-products').on("click", function(e) {
 		setTimeout(items[i].style.opacity = 1;, i*300);
 		console.log(i*300);
     	};
-});
+});*/
 $('.sidebar').hide();
 
 /* Menu Packing
