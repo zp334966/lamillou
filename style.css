@@ -8,6 +8,7 @@ p {
 body {
   --color-hover: #69B4B0;
   --opacity-hover: 0.8;
+  --gray-text: #9AA1AC;
 }
 a:focus, a:hover {
     color: unset;
