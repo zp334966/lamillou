@@ -1452,7 +1452,9 @@ form label {
     color: var(--gray-text);    
     text-decoration: underline;
 }
-
+.restore_password .cancel a:hover, .restore_password .cancel a:focus {
+    opacity: 0.6;
+}
 div.errorExplanation {
     font-family: 'Open Sans';
     font-size: 13px;
