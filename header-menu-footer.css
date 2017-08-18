@@ -680,7 +680,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 #cart-dropdown .empty-cart h5 {
     font-family: 'Open Sans';
     font-size: 13px;
-    color: #B8C1CE;
+    color: var(--gray-text);
     letter-spacing: 0;
     line-height: 20px;
     width: 241px;
