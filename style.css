@@ -290,8 +290,8 @@ div.page-heading.center, div.page-heading {
     padding-bottom: 16px!important;
 }
 .img-wrapper-big .img-overlay .btn-lam-blue:hover, .img-wrapper-big .img-overlay .btn-lam-blue:focus {
-    padding-right: 26px!important;
-    padding-left: 26px!important;
+    padding: 12px 24px 14px 24px!important;
+    border: solid 2px #16407d!important;
 }
 /* hover 404 */
 .page-404 .btn-lam-blue:hover, .page-404 .btn-lam-blue:focus {
