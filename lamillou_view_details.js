@@ -60,7 +60,7 @@ $('.load-more-products').on("click", function(e) {
 	$('.load-more-products').fadeOut("slow");
 	$('.load-more-products').hide();
 	for (var i = 0; items.length > i; i++) {
-		items[i].delay(i*600).fadeIn('slow');
+		items[i].fadeIn('slow').delay(i*600);
     	};
 });
 $('.sidebar').hide();
