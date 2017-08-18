@@ -343,8 +343,8 @@
     margin-top: 0px;
     padding-bottom: 11px;
 }
-.header-toolbar .tools li:focus a i, .header-toolbar .tools li:focus a, 
-.header-toolbar .tools li:hover a i, .header-toolbar .tools li:hover a {
+.header-toolbar .tools li:focus a i, .header-toolbar .tools li:focus #current_user_login, 
+.header-toolbar .tools li:hover a i, .header-toolbar .tools li:hover #current_user_login {
     color: inherit;
     opacity: var(--opacity-hover)!important;
 }
