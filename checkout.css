@@ -733,7 +733,9 @@ div#order_last_step div#show_order_products_block {
     padding: 5px 0px 5px 10px !important;
     margin: 0 !important;
 }
-
+#shop_order_shipping_form span.new_button:hover, #shop_order_shipping_form span.new_button:focus {
+    opacity: var(--opacity-hover);
+}
 .new_form div span {
     display: inline;
 }
