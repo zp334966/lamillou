@@ -285,9 +285,8 @@ div.page-heading.center, div.page-heading {
 .img-overlay .btn-lam-blue:hover, .img-overlay .btn-lam-blue:focus {
     color: #16407d !important;
     background-color: white !important;
-    border: none!important;
-    padding-top: 14px!important;
-    padding-bottom: 16px!important;
+    border: solid 2px #16407d;
+    padding: 12px 12px 14px 12px!important;
 }
 .img-wrapper-big .img-overlay .btn-lam-blue:hover, .img-wrapper-big .img-overlay .btn-lam-blue:focus {
     padding: 12px 24px 14px 24px!important;
