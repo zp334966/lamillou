@@ -2037,6 +2037,7 @@ div.page-404 p {
 .sp-slider .ms-thumb-frame.ms-thumb-frame-selected {
     box-shadow: 0 0 0 0!important;
 }
-.open {
-    height: 100%;
+/* Szerokość produktu product details */
+.five-products {
+    width: 20%;
 }
