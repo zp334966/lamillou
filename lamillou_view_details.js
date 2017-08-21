@@ -50,17 +50,30 @@ $('.load-more-products').on("click", function(e) {
     };
 });
 */
-function loadPhoto(item) {
-	item.style.opacity = 1;
+var fade_out_from = 1;
+function fadeIn(i) {
+    moving = true;
+    var newSetting = fade_out_from / 10;
+    items[i].style.opacity = newSetting;
+    fade_out_from++;
+    if(fade_out_from == 10){
+        target[i].style.opacity = 1;
+        clearTimeout(loopTimer);
+        fade_out_from = 1;
+        moving = false;
+        return false;
+    }
+    var loopTimer = window.setTimeout(fadeIn, 10, i);
 }
 $('.load-more-products').on("click", function(e) {
-	console.log("KLIK");
+	console.log("KLIK11");
 	allProducts = true;
     	for (var i = 0; items.length > i; i++) {
 		items[i].style.opacity = 0;
       		items[i].style.display = "block";
     	};
 	$('.load-more-products').fadeOut(3000);
+	fadeIn(0);
 	/*
 	for (var i = 0; items.length > i; i++) {
 		setTimeout(loadPhoto(items[i]), i*300);
