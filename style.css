@@ -2056,6 +2056,8 @@ div.page-404 p {
     box-shadow: 0 0 0 0!important;
 }
 /* Szerokość produktu product details */
-.five-products {
-    width: 20%;
+@media (min-width: 992px) {
+    .five-products {
+        width: 20%;
+    }
 }
