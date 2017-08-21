@@ -50,8 +50,7 @@ $('.load-more-products').on("click", function(e) {
     };
 });
 */
-var fade_out_from = 1;
-function fadeIn(i) {
+function fadeIn(i, fade_out_from) {
     moving = true;
     var newSetting = fade_out_from / 10;
     items[i].style.opacity = newSetting;
@@ -63,17 +62,17 @@ function fadeIn(i) {
         moving = false;
         return false;
     }
-    var loopTimer = window.setTimeout(fadeIn, 100, i);
+    var loopTimer = window.setTimeout(fadeIn, 10, i, fade_out_from);
 }
 $('.load-more-products').on("click", function(e) {
-	console.log("KLIK11");
+	console.log("KLIK2");
 	allProducts = true;
     	for (var i = 0; items.length > i; i++) {
 		items[i].style.opacity = 0;
       		items[i].style.display = "block";
     	};
 	$('.load-more-products').fadeOut(3000);
-	fadeIn(0);
+	fadeIn(0, 1);
 	/*
 	for (var i = 0; items.length > i; i++) {
 		setTimeout(loadPhoto(items[i]), i*300);
