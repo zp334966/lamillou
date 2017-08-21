@@ -51,15 +51,15 @@ $('.load-more-products').on("click", function(e) {
 });
 */
 $('.load-more-products').on("click", function(e) {
-	console.log("KLIK1");
+	console.log("KLIK2");
 	allProducts = true;
     	for (var i = 0; items.length > i; i++) {
 		items[i].style.opacity = 0;
       		items[i].style.display = "block";
     	};
-	setTimeout($('.load-more-products').fadeOut("slow");, 1000);
+	setTimeout($('.load-more-products').fadeOut("slow"), 5000);
 	for (var i = 0; items.length > i; i++) {
-		setTimeout(items[i].style.opacity = 1;, i*300);
+		setTimeout(items[i].style.opacity = 1, i*300);
 		console.log(i*300);
     	};
 })
