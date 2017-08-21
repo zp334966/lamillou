@@ -71,7 +71,7 @@ $('.load-more-products').on("click", function(e) {
 		items[i].style.opacity = 0;
       		items[i].style.display = "block";
     	};
-	$('.load-more-products').fadeOut(3000);
+	$('.load-more-products').fadeOut(1500);
 	for (var i = 6; items.length > i; i++) {
 		var time = Math.sqrt((i-6)*10000);
 		window.setTimeout(fadeIn, time, i, 1);
