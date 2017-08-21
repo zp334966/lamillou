@@ -73,7 +73,8 @@ $('.load-more-products').on("click", function(e) {
     	};
 	$('.load-more-products').fadeOut(3000);
 	for (var i = 6; items.length > i; i++) {
-		window.setTimeout(fadeIn, (i-6)*300, i, 1);
+		var time = Math.sqrt((i-6)*10000);
+		window.setTimeout(fadeIn, time, i, 1);
 	}
 })
 $('.sidebar').hide();
