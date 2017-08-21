@@ -293,5 +293,5 @@ function arrows() {
 }
 
 /* sklad i sposob pielegnacji */
-$('.page-block .menu-packing').before('<h2 class="washing">SKŁAD I SPOSÓB PIELĘGNACJI</h2>');
+$('.page-block .mobile-navi').before('<h2 class="washing">SKŁAD I SPOSÓB PIELĘGNACJI</h2>');
 	
