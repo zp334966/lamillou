@@ -774,12 +774,12 @@ div.page-heading.center, div.page-heading {
     border-bottom: none;
     margin-bottom: 0px;
 }
-.block-devider span, .block-devider p, .block-devider .gmail_default {
-    font-family: 'Open Sans';
+.block-devider span, .block-devider p, .block-devider .gmail_default, .product_right_tab .prod_details_desc p * {
+    font-family: 'Open Sans'!important;
     font-size: 14px !important;
     color: #243C5E !important;
     letter-spacing: 0 !important;
-    line-height: 20px !important;
+    line-height: 22px !important;
     border-bottom: none;
 }
 .block-devider h5 {
