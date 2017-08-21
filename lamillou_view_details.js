@@ -50,17 +50,19 @@ $('.load-more-products').on("click", function(e) {
     };
 });
 */
+function loadPhoto(item) {
+	item.style.opacity = 1;
+}
 $('.load-more-products').on("click", function(e) {
-	console.log("KLIK2");
+	console.log("KLIK3");
 	allProducts = true;
     	for (var i = 0; items.length > i; i++) {
 		items[i].style.opacity = 0;
       		items[i].style.display = "block";
     	};
-	setTimeout($('.load-more-products').fadeOut("slow"), 5000);
+	//setTimeout($('.load-more-products').fadeOut("slow"), 5000);
 	for (var i = 0; items.length > i; i++) {
-		setTimeout(items[i].style.opacity = 1, i*300);
-		console.log(i*300);
+		setTimeout(loadPhoto(items[i]), i*300);
     	};
 })
 $('.sidebar').hide();
