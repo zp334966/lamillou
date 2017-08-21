@@ -69,10 +69,10 @@ function showBlock(i) {
       	items[i].style.display = "block";
 }
 $('.load-more-products').on("click", function(e) {
-	console.log("KLIK3");
+	console.log("KLIK4");
 	allProducts = true;
     	for (var i = 6; items.length > i; i++) {
-		var time = Math.sqrt((i-6)*8000);
+		var time = Math.sqrt((i-6)*4000);
 		window.setTimeout(showBlock, time, i);
     	};
 	$('.load-more-products').fadeOut(2000);
@@ -291,3 +291,7 @@ function arrows() {
 	}
 	});
 }
+
+/* sklad i sposob pielegnacji */
+$('.page-block .menu-packing').before("<h2>SKŁAD I SPOSÓB PIELĘGNACJI</h2>");
+	
