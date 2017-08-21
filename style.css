@@ -933,16 +933,16 @@ div.page-heading.center, div.page-heading {
     height: auto !important;
 }
 @media (max-width: 991px) {
-    .proposed-products h2, .category_desc h2, .mobile-navi .washing {
+    .proposed-products h2, .category_desc h2, .page-block .washing {
         text-align: left!important;
     }
 }
 @media (min-width: 992px) {
-    .proposed-products h2, .category_desc h2, .mobile-navi .washing {
+    .proposed-products h2, .category_desc h2, .page-block .washing {
         text-align: center!important;
     }
 }
-.proposed-products h2, .mobile-navi .washing {
+.proposed-products h2, .page-block .washing {
     font-family: Besom;
     font-size: 24px;
     color: #16407D !important;
