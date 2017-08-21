@@ -64,14 +64,18 @@ function fadeIn(i, fade_out_from) {
     }
     var loopTimer = window.setTimeout(fadeIn, 10, i, fade_out_from);
 }
+function showBlock(i) {
+	items[i].style.opacity = 0;
+      	items[i].style.display = "block";
+}
 $('.load-more-products').on("click", function(e) {
-	console.log("KLIK8");
+	console.log("KLIK");
 	allProducts = true;
     	for (var i = 6; items.length > i; i++) {
-		items[i].style.opacity = 0;
-      		items[i].style.display.delay(Math.sqrt((i-6)*5000)) = "block";
+		var time = Math.sqrt((i-6)*8000);
+		window.setTimeout(showBlock, time, i);
     	};
-	$('.load-more-products').fadeOut(1500);
+	$('.load-more-products').fadeOut(2000);
 	for (var i = 6; items.length > i; i++) {
 		var time = Math.sqrt((i-6)*10000);
 		window.setTimeout(fadeIn, time, i, 1);
