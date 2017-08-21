@@ -65,7 +65,7 @@ function fadeIn(i, fade_out_from) {
     var loopTimer = window.setTimeout(fadeIn, 10, i, fade_out_from);
 }
 $('.load-more-products').on("click", function(e) {
-	console.log("KLIK6");
+	console.log("KLIK7");
 	allProducts = true;
     	for (var i = 6; items.length > i; i++) {
 		items[i].style.opacity = 0;
