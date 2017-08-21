@@ -65,14 +65,16 @@ function fadeIn(i, fade_out_from) {
     var loopTimer = window.setTimeout(fadeIn, 10, i, fade_out_from);
 }
 $('.load-more-products').on("click", function(e) {
-	console.log("KLIK2");
+	console.log("KLIK3");
 	allProducts = true;
-    	for (var i = 0; items.length > i; i++) {
+    	for (var i = 6; items.length > i; i++) {
 		items[i].style.opacity = 0;
       		items[i].style.display = "block";
     	};
 	$('.load-more-products').fadeOut(3000);
-	fadeIn(0, 1);
+	for (var i = 6; items.length > i; i++) {
+		setTimeout(fadeIn(i, 1), (i-6)*300);
+	}
 	/*
 	for (var i = 0; items.length > i; i++) {
 		setTimeout(loadPhoto(items[i]), i*300);
