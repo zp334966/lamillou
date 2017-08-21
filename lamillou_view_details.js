@@ -69,7 +69,7 @@ function showBlock(i) {
       	items[i].style.display = "block";
 }
 $('.load-more-products').on("click", function(e) {
-	console.log("KLIK1");
+	console.log("KLIK2");
 	allProducts = true;
     	for (var i = 6; items.length > i; i++) {
 		var time = Math.sqrt((i-6)*8000);
@@ -77,7 +77,7 @@ $('.load-more-products').on("click", function(e) {
     	};
 	$('.load-more-products').fadeOut(2000);
 	for (var i = 6; items.length > i; i++) {
-		var time = 2000 + Math.sqrt((i-6)*10000);
+		var time = 1000 + Math.sqrt((i-6)*10000);
 		window.setTimeout(fadeIn, time, i, 1);
 	}
 })
