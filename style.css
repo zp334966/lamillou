@@ -1711,7 +1711,7 @@ div.page-heading.center, div.page-heading {
     .footer-subscribe-widget #notify-email-field.field_with_errors .validation-error {
         margin: 0;
     }
-    .proposed-products h2, .category_desc h2 {
+    .proposed-products h2, .category_desc h2, .page-block .washing {
         font-size: 36px;
         line-height: 50px;
         padding: 0;
