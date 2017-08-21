@@ -57,13 +57,13 @@ function fadeIn(i) {
     items[i].style.opacity = newSetting;
     fade_out_from++;
     if(fade_out_from == 10){
-        target[i].style.opacity = 1;
+        items[i].style.opacity = 1;
         clearTimeout(loopTimer);
         fade_out_from = 1;
         moving = false;
         return false;
     }
-    var loopTimer = window.setTimeout(fadeIn, 10, i);
+    var loopTimer = window.setTimeout(fadeIn, 100, i);
 }
 $('.load-more-products').on("click", function(e) {
 	console.log("KLIK11");
