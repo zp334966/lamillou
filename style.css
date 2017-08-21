@@ -554,8 +554,8 @@ div.page-heading.center, div.page-heading {
 }
 .container-products .item {
     margin: 0 0 0 0 !important;
-    padding-left: 4.5px;
-    padding-right: 4.5px;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 .container-products .item .title, .product-extra .item .title, #cart-dropdown .title {
     font-family: 'Open Sans';
@@ -924,7 +924,6 @@ div.page-heading.center, div.page-heading {
     color: #16407D !important;
     letter-spacing: 0.9px;
     line-height: 28px;
-    text-align: left;
     margin-bottom: 15px;
     padding-top: 11px;
     padding-bottom: 11px;
@@ -933,13 +932,22 @@ div.page-heading.center, div.page-heading {
     width: 30% !important;
     height: auto !important;
 }
+@media (max-width: 991px) {
+    .proposed-products h2, .category_desc h2 {
+        text-align: left!important;
+    }
+}
+@media (min-width: 992px) {
+    .proposed-products h2, .category_desc h2 {
+        text-align: center!important;
+    }
+}
 .proposed-products h2 {
     font-family: Besom;
     font-size: 24px;
     color: #16407D !important;
     letter-spacing: 0.9px;
     line-height: 28px;
-    text-align: left;
     padding-top: 11px;
     padding-bottom: 11px;
     margin-bottom: 7px;
