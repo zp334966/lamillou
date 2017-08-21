@@ -552,10 +552,20 @@ div.page-heading.center, div.page-heading {
     margin-left: 4.5px;
     margin-right: 4.5px;
 }
+@media (min-width: 992px) {
+    .container-products .item {
+        padding-left: 4.5px;
+        padding-right: 4.5px;
+    }
+}
+@media (max-width: 992px) {
+    .container-products .item {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
 .container-products .item {
     margin: 0 0 0 0 !important;
-    padding-left: 12px;
-    padding-right: 12px;
 }
 .container-products .item .title, .product-extra .item .title, #cart-dropdown .title {
     font-family: 'Open Sans';
