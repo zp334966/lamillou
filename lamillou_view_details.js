@@ -18,7 +18,7 @@ function numberProducts() {
   var p;  
   if (!allProducts) {
     if ($(window).width() >= 768) {
-      p = 6;
+      p = 5;
     } else {
       p = 4;
     }
@@ -34,7 +34,7 @@ function numberProducts() {
     }
   }
 };
-if (6 >= items.length) {  
+if (5 >= items.length) {  
   $('.load-more-products').hide();
 };
 if ( $('.relate_product').length) {
@@ -69,7 +69,7 @@ function showBlock(i) {
       	items[i].style.display = "block";
 }
 $('.load-more-products').on("click", function(e) {
-	console.log("KLIK2");
+	console.log("KLIK3");
 	allProducts = true;
     	for (var i = 6; items.length > i; i++) {
 		var time = Math.sqrt((i-6)*8000);
@@ -77,7 +77,7 @@ $('.load-more-products').on("click", function(e) {
     	};
 	$('.load-more-products').fadeOut(2000);
 	for (var i = 6; items.length > i; i++) {
-		var time = 1000 + Math.sqrt((i-6)*10000);
+		var time = 700 + Math.sqrt((i-6)*10000);
 		window.setTimeout(fadeIn, time, i, 1);
 	}
 })
