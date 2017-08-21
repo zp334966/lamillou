@@ -65,11 +65,11 @@ function fadeIn(i, fade_out_from) {
     var loopTimer = window.setTimeout(fadeIn, 10, i, fade_out_from);
 }
 $('.load-more-products').on("click", function(e) {
-	console.log("KLIK7");
+	console.log("KLIK8");
 	allProducts = true;
     	for (var i = 6; items.length > i; i++) {
 		items[i].style.opacity = 0;
-      		items[i].style.display = "block";
+      		items[i].style.display.delay(Math.sqrt((i-6)*5000);) = "block";
     	};
 	$('.load-more-products').fadeOut(1500);
 	for (var i = 6; items.length > i; i++) {
