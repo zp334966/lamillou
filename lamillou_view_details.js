@@ -54,16 +54,17 @@ function loadPhoto(item) {
 	item.style.opacity = 1;
 }
 $('.load-more-products').on("click", function(e) {
-	console.log("KLIK3");
+	console.log("KLIK");
 	allProducts = true;
     	for (var i = 0; items.length > i; i++) {
 		items[i].style.opacity = 0;
       		items[i].style.display = "block";
     	};
-	//setTimeout($('.load-more-products').fadeOut("slow"), 5000);
+	$('.load-more-products').fadeOut(3000);
+	/*
 	for (var i = 0; items.length > i; i++) {
 		setTimeout(loadPhoto(items[i]), i*300);
-    	};
+    	};*/
 })
 $('.sidebar').hide();
 
