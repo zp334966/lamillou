@@ -226,28 +226,11 @@ jQuery(document).ready(function($) {
 /*Headroom Init
 *******************************************/
 var myElement = document.querySelector("header");
-/*var headroom  = new Headroom(myElement, {
+var headroom  = new Headroom(myElement, {
 	tolerance: 5,
 	offset : 205,
 });
-headroom.init(); */
-
-(function($) {
-	var ost = 0;
-	$(window).scroll(function() {
-	var cOst = $(this).scrollTop();
-		
-	if(cOst > ost) {
-		$('header').addClass('fixed').removeClass('headroom--pinned');
-	}
-	else {
-		$('header').addClass('default').removeClass('headroom--unpinned');
-	}
-
-	ost = cOst;
-  });
-
-})(jQuery);
+headroom.init(); 
 	
   /*Navi Toggle Animation
   *******************************************/
