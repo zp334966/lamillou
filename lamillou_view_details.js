@@ -69,13 +69,13 @@ function showBlock(i) {
       	items[i].style.display = "block";
 }
 $('.load-more-products').on("click", function(e) {
-	console.log("KLIK5");
+	console.log("KLIK6");
 	allProducts = true;
     	for (var i = 6; items.length > i; i++) {
 		var time = Math.sqrt((i-6)*1000);
 		window.setTimeout(showBlock, time, i);
     	};
-	$('.load-more-products').fadeOut(2000);
+	$('.load-more-products').fadeOut(1000);
 	for (var i = 6; items.length > i; i++) {
 		var time = 300 + Math.sqrt((i-6)*10000);
 		window.setTimeout(fadeIn, time, i, 1);
