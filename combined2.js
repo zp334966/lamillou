@@ -227,12 +227,12 @@ jQuery(document).ready(function($) {
 *******************************************/
 var myElement = document.querySelector("header");
 var headroom  = new Headroom(myElement, {
-	tolerance: 15,
-	offset : 0,
-	classes : {
-            initial : "slide",
-            pinned : "slide--reset",
-            unpinned : "slide--down"
+	tolerance: 5,
+	offset : 205,
+	classes: {
+          initial: "animated",
+          pinned: "slideDown",
+          unpinned: "slideUp"
         }
 });
 headroom.init(); 
