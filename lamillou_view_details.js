@@ -13,6 +13,7 @@ if (items.length >= 4) {
     items[i].style.display = "none";
   };
 };
+console.log($(window).width());
 
 function numberProducts() {
   var p;  
@@ -69,7 +70,7 @@ function showBlock(i) {
       	items[i].style.display = "block";
 }
 $('.load-more-products').on("click", function(e) {
-	console.log("KLIK");
+	console.log("KLIK1");
 	allProducts = true;
     	for (var i = 6; items.length > i; i++) {
 		var time = Math.sqrt((i-6)*1000);
