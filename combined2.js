@@ -229,10 +229,10 @@ var myElement = document.querySelector("header");
 var headroom  = new Headroom(myElement, {
 	tolerance: 15,
 	offset : 0,
-	classes: {
-          initial: "animated",
-          pinned: "slideDown",
-          unpinned: "slideUp"
+	classes : {
+            initial : "slide",
+            pinned : "slide--reset",
+            unpinned : "slide--down"
         }
 });
 headroom.init(); 
