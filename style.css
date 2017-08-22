@@ -943,7 +943,7 @@ div.page-heading.center, div.page-heading {
     width: 30% !important;
     height: auto !important;
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     .catalog-grid.grid-sm .item {
         width: 173px;
         box-sizing: content-box;
