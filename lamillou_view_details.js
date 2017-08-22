@@ -18,7 +18,7 @@ console.log($(window).width());
 function numberProducts() {
   var p;  
   if (!allProducts) {
-    if ($(window).width() >= 768) {
+    if ($(window).width() >= 753) {
       p = 5;
     } else {
       p = 4;
