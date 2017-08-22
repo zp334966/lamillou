@@ -552,13 +552,13 @@ div.page-heading.center, div.page-heading {
     margin-left: 4.5px;
     margin-right: 4.5px;
 }
-@media (min-width: 992px) {
+@media (max-width: 991px) {
     .container-products .item {
         padding-left: 4.5px;
         padding-right: 4.5px;
     }
 }
-@media (max-width: 992px) {
+@media (min-width: 992px) {
     .container-products .item {
         padding-left: 12px;
         padding-right: 12px;
@@ -857,7 +857,7 @@ div.page-heading.center, div.page-heading {
 .sp-slider .ms-thumb-frame-selected {
     height: 60px !important;
     max-width: 60px !important;
-    margin: 0px 8px 0px 0px !important; 
+    margin: 0px 10px 0px 0px !important; 
     border: 1px solid #16407D !important; 
 }
 .ms-skin-default .ms-nav-next, .ms-skin-default .ms-nav-prev {
@@ -937,10 +937,17 @@ div.page-heading.center, div.page-heading {
     margin-bottom: 15px;
     padding-top: 11px;
     padding-bottom: 11px;
+    margin-top: 5px;
 }
 .category_desc img {
     width: 30% !important;
     height: auto !important;
+}
+@media (max-width: 767px) {
+    .catalog-grid.grid-sm .item {
+        width: 173px;
+        box-sizing: content-box;
+    }
 }
 @media (max-width: 991px) {
     .proposed-products h2, .category_desc h2, .page-block .washing {
