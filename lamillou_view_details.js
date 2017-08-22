@@ -306,7 +306,7 @@ $('.page-block .mobile-navi').before('<h2 class="washing" style="margin-top: 20p
 /* Carousel avove a fold */
 function carouselUp() {
 	var height = $(window).height();
-	console.log(heigth);
+	console.log(height);
 	if (height < 640) {
 		$('.sp-slider .ms-thumb-list').css('bottom', 600 - height);
 	}
