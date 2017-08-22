@@ -312,7 +312,11 @@
 .headroom--top {
     position: absolute !important;
 }
-
+header {
+     transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+}
 .header .inner {
     border-bottom: none;
     height: 64px;
