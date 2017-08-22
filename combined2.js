@@ -225,12 +225,20 @@ jQuery(document).ready(function($) {
 	
 /*Headroom Init
 *******************************************/
-  var myElement = document.querySelector("header");
-  var headroom  = new Headroom(myElement, {
-    tolerance: 15,
-    offset : 0,
-  });
-  headroom.init(); 
+var myElement = document.querySelector("header");
+var headroom  = new Headroom(myElement, {
+	tolerance: 15,
+	offset : 0,
+	// callback when pinned, `this` is headroom object
+	onPin : function() {
+		this.slideDown(200);
+	},
+	// callback when unpinned, `this` is headroom object
+	onUnpin : function() {
+		this.slideUp(200);
+	},
+});
+headroom.init(); 
 
 	
   /*Navi Toggle Animation
