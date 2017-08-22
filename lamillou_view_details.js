@@ -182,7 +182,8 @@ function photoView() {
     photoDisplay();
     arrows();
   } else {
-    HidePhotoView();  
+    HidePhotoView();
+    showArrows();
   }
 };
 
@@ -293,7 +294,12 @@ function arrows() {
 	}
 	});
 }
-
+function showArrows() {
+	$(document).ready(function(){
+		$('.ms-skin-default .ms-nav-next').attr('style', 'visibility:visible!important');
+		$('.ms-skin-default .ms-nav-prev').attr('style', 'visibility:visible!important');
+	});
+}
 /* sklad i sposob pielegnacji */
 $('.page-block .mobile-navi').before('<h2 class="washing" style="margin-top: 20px;">SKŁAD I SPOSÓB PIELĘGNACJI</h2>');
 	
