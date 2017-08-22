@@ -302,12 +302,6 @@
     display: block;
     left: 0;
     top: 0;
-    -webkit-animation: mymove 5s; /* Safari 4.0 - 8.0 */
-    animation: mymove 5s;
-}
-@keyframes mymove {
-    0%   {display: none;}
-    100% {display: block;}
 }
 .headroom--unpinned {
     position: absolute !important;
