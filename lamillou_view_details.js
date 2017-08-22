@@ -303,3 +303,12 @@ function showArrows() {
 /* sklad i sposob pielegnacji */
 $('.page-block .mobile-navi').before('<h2 class="washing" style="margin-top: 20px;">SKŁAD I SPOSÓB PIELĘGNACJI</h2>');
 	
+/* Carousel avove a fold */
+function carouselUp() {
+	var height = $(window).height();
+	console.log(heigth);
+	if (height < 640) {
+		$('.sp-slider .ms-thumb-list').css('bottom', 600 - height);
+	}
+}
+$(window).on('resize', carouselUp);
