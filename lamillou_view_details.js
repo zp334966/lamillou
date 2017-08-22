@@ -69,7 +69,7 @@ function showBlock(i) {
       	items[i].style.display = "block";
 }
 $('.load-more-products').on("click", function(e) {
-	console.log("KLIK6");
+	console.log("KLIK");
 	allProducts = true;
     	for (var i = 6; items.length > i; i++) {
 		var time = Math.sqrt((i-6)*1000);
@@ -293,5 +293,5 @@ function arrows() {
 }
 
 /* sklad i sposob pielegnacji */
-$('.page-block .mobile-navi').before('<h2 class="washing">SKŁAD I SPOSÓB PIELĘGNACJI</h2>');
+$('.page-block .mobile-navi').before('<h2 class="washing" style="margin-top: 30px;">SKŁAD I SPOSÓB PIELĘGNACJI</h2>');
 	
