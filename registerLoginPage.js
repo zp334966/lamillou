@@ -446,16 +446,7 @@ function shopOrderForm () {
     $("#payment_kind_selector").on("mouseleave", "label", function(){
        var $position = $('#payment_kind_selector label').index($(this));
        $("#payment_kind_selector div").eq($position).find("ins").trigger( "mouseleave" );
-    }); 
-	
-$("#shop_order_delivery_form").on("focus", "label", function(){
-	var $position = $('#shop_order_delivery_form label').index($(this)); 
-	$("#shop_order_delivery_form div").eq($position-1).find("ins").trigger( "mouseenter" );
-});
-$("#payment_kind_selector").on("focus", "label", function(){
-       var $position = $('#payment_kind_selector label').index($(this));
-       $("#payment_kind_selector div").eq($position).find("ins").trigger( "mouseenter" );
-}); 	  
+    });  
     var p = $("#promocode_box").html();
     p = $("#promocode_box").html().replace(":", "");
     $("#promocode_box").html(p);
