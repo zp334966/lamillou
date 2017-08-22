@@ -229,14 +229,11 @@ var myElement = document.querySelector("header");
 var headroom  = new Headroom(myElement, {
 	tolerance: 15,
 	offset : 0,
-	// callback when pinned, `this` is headroom object
-	onPin : function() {
-		this.slideDown(200);
-	},
-	// callback when unpinned, `this` is headroom object
-	onUnpin : function() {
-		this.slideUp(200);
-	},
+	classes: {
+          initial: "animated",
+          pinned: "slideDown",
+          unpinned: "slideUp"
+        }
 });
 headroom.init(); 
 
