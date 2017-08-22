@@ -18,8 +18,8 @@ console.log($(window).width());
 function numberProducts() {
   var p;  
   if (!allProducts) {
-	  // 753
-    if ($(window).width() >= 730) {
+	  // 580
+    if ($(window).width() >= 565) {
       p = 5;
     } else {
       p = 4;
