@@ -2037,6 +2037,9 @@ div.page-heading.center, div.page-heading {
     .proposed-products h2 {
         text-transform: uppercase;
     }
+    .ms-thumb-frame img {
+        width: auto!important;
+    }
 }
 /*************************/
 /* 404 page */
