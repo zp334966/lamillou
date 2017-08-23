@@ -2034,6 +2034,9 @@ div.page-heading.center, div.page-heading {
     .sp-slider .ms-thumb-list {
         width: auto;
     }
+    .proposed-products h2 {
+        text-transform: uppercase;
+    }
 }
 /*************************/
 /* 404 page */
