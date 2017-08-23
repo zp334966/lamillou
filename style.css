@@ -2031,6 +2031,9 @@ div.page-heading.center, div.page-heading {
     .mobile-navi ul li span::before {
         content: none!important;
     }
+    .sp-slider .ms-thumb-list {
+        width: auto;
+    }
 }
 /*************************/
 /* 404 page */
