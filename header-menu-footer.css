@@ -1181,10 +1181,3 @@ footer.footer a:focus img, footer.footer a:hover img {
         border: none;
     }
 }
-/*****************IE*********************/
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    .search-desktop .search-field.form-control {
-        box-shadow: none;
-    }
-}
-/****************************************/
