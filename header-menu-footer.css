@@ -1086,7 +1086,7 @@ footer.footer a:focus img, footer.footer a:hover img {
         display: none;
     }
     #nav-toggle {
-        display: none;
+        display: none!important;
     }
     .search-trigger {
         display: none;    
