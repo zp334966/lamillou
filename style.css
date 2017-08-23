@@ -2040,6 +2040,9 @@ div.page-heading.center, div.page-heading {
     .ms-thumb-frame img {
         width: auto!important;
     }
+    .search-desktop .search-field.form-control {
+        box-shadow: none;
+    }
 }
 /*************************/
 /* 404 page */
