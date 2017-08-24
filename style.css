@@ -169,11 +169,7 @@ section.catalog-grid .nothing-found {
 }
 .mobile-navi .open .packing-info {
     display: block; 
-    max-height: 1500px;
-}
-
-.mobile-navi .open .packing-info .row div {
-    position: static;
+    max-height: 1600px;
 }
 .page-block .mobile-navi .packing-info a {
     padding: 0;
