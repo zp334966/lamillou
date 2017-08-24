@@ -11,10 +11,10 @@
     background: url(https://cdn.rawgit.com/joanna16/lamillou/30f1c5b8/checkbox1.png) no-repeat;
     border: none;
     cursor: pointer;   
-    width: 28px;
-    height: 28px;
-    background-size: 280px 28px;
-    -webkit-background-size: 280px 28px;     
+    width: 30px;
+    height: 30px;
+    background-size: 329px 30px;
+    -webkit-background-size: 329px 30px;     
 }
 
 .icheckbox_minimal-blue {
@@ -34,20 +34,23 @@
         background-position: -107px 0;
     }
 .iradio_minimal-blue {
-    background-position: -135px 0;
+    background-position: -144px 0;
 }
     .iradio_minimal-blue.hover {
-        background-position: -164px 0;
+        background-position: -175px 0;
     }
     .iradio_minimal-blue.checked {
-        background-position: -193px 0;
+        background-position: -206px 0;
     }
     .iradio_minimal-blue.disabled {
-        background-position: -220px 0;
+        background-position: -144px 0;
         cursor: default;
     }
     .iradio_minimal-blue.checked.disabled {
-        background-position: -247px 0;
+        background-position: -237px 0;
+    }
+    .iradio_minimal-blue.focus.checked {
+        background-position: -299px 0;
     }
 
 /* HiDPI support 
