@@ -1189,5 +1189,6 @@ $( "#pp_newsletter input[type=submit]" ).click(function() {
 $(document).ready(function(){
 	/* : po Powiadom kiedy dostepny */
     	$('.footer-subscribe-widget.light-version.notify_prod p').append(":");
+	/* koszyk */
+	$('#cart-dropdown a').wrapAll( "<div class='scroll-menu' />");
 });
-
