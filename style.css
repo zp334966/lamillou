@@ -172,7 +172,7 @@ section.catalog-grid .nothing-found {
     max-height: 1500px;
 }
 
-.mobile-navi .open .packing-info row div:last-child {
+.mobile-navi .open .packing-info row div:last-of-type {
     position: static;
 }
 .page-block .mobile-navi .packing-info a {
