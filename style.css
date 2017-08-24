@@ -721,11 +721,9 @@ div.page-heading.center, div.page-heading {
     max-width: 48px;
 }
 .catalog-grid .item .thumb {
-    background: white;
     padding-bottom: 100%;
     height: 0px;
     overflow: hidden;
-    background-color: #F2F5F9;
     text-align: center;
 }
 .catalog-grid .item .thumb:focus, .catalog-grid .item .thumb:hover {
