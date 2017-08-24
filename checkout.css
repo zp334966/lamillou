@@ -774,6 +774,9 @@ div#order_last_step div#show_order_products_block {
   padding-top: 12px!important;
   padding-bottom: 12px!important;
 }
+#shop_order_form #shop_order_comment:focus {
+  border-color: #16407d;
+}
 #shop_order_form .buttons.panel a.continue_shopping {
   display: none; 
 }
