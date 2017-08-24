@@ -947,6 +947,8 @@ div.page-heading.center, div.page-heading {
 @media (max-width: 372px) {
     .catalog-grid.grid-sm .item {
         box-sizing: content-box;
+        width: 90%;
+        background-color: white;
     }
 }
 @media (max-width: 991px) and (min-width: 373px){
