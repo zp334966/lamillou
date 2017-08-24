@@ -18,16 +18,16 @@
 }
 
 .icheckbox_minimal-blue {
-    background-position: 1px 0;
+    background-position: 3px 0;
 }
     .icheckbox_minimal-blue.hover, .icheckbox_minimal-blue.obligatory.hover {
         background-position: -26px 0;
     }
     .icheckbox_minimal-blue.checked, .icheckbox_minimal-blue.obligatory.checked {
-        background-position: -53px 0;
+        background-position: -55px 0;
     }
     .icheckbox_minimal-blue.disabled {
-        background-position: -80px 0;
+        background-position: -84px 0;
         cursor: default;
     }
     .icheckbox_minimal-blue.obligatory {
