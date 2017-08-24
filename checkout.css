@@ -760,6 +760,9 @@ div#order_last_step div#show_order_products_block {
   border: 1px solid #d0d9e5;
   height: 42px; 
 }
+#shop_order_form input:focus {
+  border-color: #15407D;
+}
 #shop_order_form #shop_order_user_comment_field {
   margin-right: 15px;
   margin-left: 15px; 
