@@ -1169,8 +1169,8 @@ footer.footer a:focus img, footer.footer a:hover img {
         padding-top: 21px;
         padding-bottom: 21px;
         height: 64px;
-        margin-left: 14px;
-        margin-right: 14px;
+        margin-left: 22px;
+        margin-right: 22px;
     }
     .menu>ul>li.has-mega-menu>span>a:focus, .menu>ul>li.has-mega-menu>span>a:hover, .menu>ul>li>a:focus, .menu>ul>li>a:hover,
     .menu>ul>li.has-mega-menu>span>a:active, .menu>ul>li>a:active {
