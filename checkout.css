@@ -516,6 +516,7 @@ div#show_my_cart div.page-heading h3 {
     padding-left: 9px; 
     padding-right: 9px;
 }
+/*
 #show_my_cart section.shopping-cart .qnt-count a.incr-btn:last-child:hover {
     content: url(https://cdn.rawgit.com/joanna16/lamillou/63b57146/ico_plus_bl.svg);
     background-color: #16407d!important;
@@ -523,6 +524,10 @@ div#show_my_cart div.page-heading h3 {
 #show_my_cart section.shopping-cart .qnt-count a.incr-btn:last-child:active {
     content: url(https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/ico_plus_bl.svg);
     background-color: #fff!important;
+}*/
+#show_my_cart section.shopping-cart .qnt-count a.incr-btn:last-child:focus {
+    content: url(https://cdn.rawgit.com/joanna16/lamillou/63b57146/ico_plus_bl.svg);
+    background-color: #16407d!important;
 }
 #show_my_cart section.shopping-cart .qnt-count a.incr-btn:not(.inactive):first-child:hover {
     content: url(https://cdn.rawgit.com/joanna16/lamillou/63b57146/ico_minus_gr.svg);
