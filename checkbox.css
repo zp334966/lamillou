@@ -20,7 +20,7 @@
 .icheckbox_minimal-blue {
     background-position: 3px 0;
 }
-    .icheckbox_minimal-blue.hover, .icheckbox_minimal-blue.obligatory.hover, .icheckbox_minimal-blue.focus {
+    .icheckbox_minimal-blue.hover, .icheckbox_minimal-blue.obligatory.hover, .icheckbox_minimal-blue.focus, .icheckbox_minimal-blue.obligatory.focus {
         background-position: -26px 0;
     }
     .icheckbox_minimal-blue.checked, .icheckbox_minimal-blue.obligatory.checked {
