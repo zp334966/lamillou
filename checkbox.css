@@ -13,14 +13,14 @@
     cursor: pointer;   
     width: 30px;
     height: 30px;
-    background-size: 329px 30px;
-    -webkit-background-size: 329px 30px;     
+    background-size: 358px 30px;
+    -webkit-background-size: 358px 30px;     
 }
 
 .icheckbox_minimal-blue {
     background-position: 3px 0;
 }
-    .icheckbox_minimal-blue.hover, .icheckbox_minimal-blue.obligatory.hover {
+    .icheckbox_minimal-blue.hover, .icheckbox_minimal-blue.obligatory.hover, .icheckbox_minimal-blue.focus {
         background-position: -26px 0;
     }
     .icheckbox_minimal-blue.checked, .icheckbox_minimal-blue.obligatory.checked {
@@ -31,26 +31,29 @@
         cursor: default;
     }
     .icheckbox_minimal-blue.obligatory {
-        background-position: -107px 0;
+        background-position: -113px 0;
+    }
+    .icheckbox_minimal-blue.checked.focus {
+        background-position: -142px 0;
     }
 .iradio_minimal-blue {
-    background-position: -144px 0;
+    background-position: -173px 0;
 }
     .iradio_minimal-blue.hover {
-        background-position: -175px 0;
+        background-position: -204px 0;
     }
     .iradio_minimal-blue.checked {
-        background-position: -206px 0;
+        background-position: -235px 0;
     }
     .iradio_minimal-blue.disabled {
-        background-position: -144px 0;
+        background-position: -173px 0;
         cursor: default;
     }
     .iradio_minimal-blue.checked.disabled {
-        background-position: -237px 0;
+        background-position: -266px 0;
     }
     .iradio_minimal-blue.focus.checked {
-        background-position: -299px 0;
+        background-position: -328px 0;
     }
 
 /* HiDPI support 
