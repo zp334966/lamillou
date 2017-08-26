@@ -759,7 +759,7 @@ div.page-heading.center, div.page-heading {
     .post-title {
         margin-top: 30px;
     }
-    .pop-up-added-to-cart.mobile, .pop-up-lack.mobile .content .post-title {
+    .pop-up-added-to-cart.mobile .content .post-title {
         margin-top: 0px;
     }
 }
