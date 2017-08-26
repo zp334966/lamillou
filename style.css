@@ -759,6 +759,9 @@ div.page-heading.center, div.page-heading {
     .post-title {
         margin-top: 30px;
     }
+    .pop-up-added-to-cart.mobile, .pop-up-lack.mobile .content .post-title {
+        margin-top: 0px;
+    }
 }
 .product_details .price {
     color: #16407D;
