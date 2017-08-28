@@ -151,6 +151,10 @@ nav.menu {
     transition-timing-function: ease;
     transition-property: color;
 }
+#registration_form .cms_buttons input.register_button:hover {
+    color: #16407d!important;
+    padding: 12px 24px 14px 24px!important;
+}
 #login_box a.just_order:focus, #login_box a.just_order:hover,
 #login_box input[type=submit].submit:focus, #login_box input[type=submit].submit:hover,
 #login_box h2.big_link a:hover, #login_box h2.big_link a:focus,
