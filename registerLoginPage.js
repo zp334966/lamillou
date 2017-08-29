@@ -27,7 +27,7 @@ function cmsRegister () {
 
 		for(i=(index+1);i<aElements.length;i++) {
 			//('#'+$(aElements.get(i)).attr('id')).remove();
-			console.log('#'+$(aElements.get(i));
+			console.log('#'+$(aElements.get(i)));
 		}
 	}
 	else {
