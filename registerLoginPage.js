@@ -18,11 +18,22 @@ function cmsRegister () {
           if ($(this).text() === "Rejestracja" ){
             $(this).text("Stwórz konto");              
           }     
-        });  
-        $('.cms_register .cms_buttons input').each(function() {      
-          $(this)[0].nextSibling.remove();
-          $(this)[0].nextSibling.remove();
-        });     
+        });
+	var ua = window.navigator.userAgent;
+    	var msie = ua.indexOf("MSIE ");
+
+    	if (msie > 0) {// If Internet Explorer, return version number
+		console.log("ie");
+		$('.cms_register .cms_buttons input')[0].nextSibling.remove();
+		$('.cms_register .cms_buttons input')[0].nextSibling.remove();
+	}
+	else {
+		console.log("not ie");
+		$('.cms_register .cms_buttons input').each(function() {      
+		  $(this)[0].nextSibling.remove();
+		  $(this)[0].nextSibling.remove();
+		});
+	}
     });
   }    
   return;
