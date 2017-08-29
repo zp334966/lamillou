@@ -23,11 +23,11 @@ function cmsRegister () {
 		console.log("ie");
 		var $element = $('.cms_register .cms_buttons input');
 		$element.nextAll().remove();
-		$(function () {
-		    $('.cms_register .cms_buttons input').contents().filter(function () {
-			return this.nodeType != 1;
-		    }).replaceWith("");
-		});
+		$('.cms_register .cms_buttons input').each(function() {
+			var p = $(this).html(); 
+			p = p.replace("lub", "");
+			$(this).html(p);
+		}
 	}
 	else {
 		console.log("not ie");
