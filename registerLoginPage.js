@@ -24,8 +24,10 @@ function cmsRegister () {
 
     	if (msie > 0) {// If Internet Explorer, return version number
 		console.log("ie");
-		$('.cms_register .cms_buttons input')[0].nextSibling.remove();
-		$('.cms_register .cms_buttons input')[0].nextSibling.remove();
+		if ($('.cms_register .cms_buttons input').length ) {
+			$('.cms_register .cms_buttons input')[0].nextSibling.remove();
+			$('.cms_register .cms_buttons input')[0].nextSibling.remove();
+		}
 	}
 	else {
 		console.log("not ie");
