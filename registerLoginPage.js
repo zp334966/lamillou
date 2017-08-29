@@ -21,8 +21,13 @@ function cmsRegister () {
         });
     	if (navigator.appName == 'Microsoft Internet Explorer' ||  !!(navigator.userAgent.match(/Trident/) || navigator.userAgent.match(/rv:11/)) || (typeof $.browser !== "undefined" && $.browser.msie == 1)) {
 		console.log("ie");
-		if ($('.cms_register .cms_buttons input').length ) {
-			console.log($('.cms_register .cms_buttons input').length );
+		var element = $('.cms_register .cms_buttons input');
+		var aElements = $(div, element.parent());
+		var index = (aElements.index(element));
+
+		for(i=(index+1);i<aElements.length;i++) {
+			//('#'+$(aElements.get(i)).attr('id')).remove();
+			console.log('#'+$(aElements.get(i));
 		}
 	}
 	else {
