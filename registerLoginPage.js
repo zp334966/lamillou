@@ -27,7 +27,7 @@ function cmsRegister () {
 			var p = $(this).html(); 
 			p = p.replace("lub", "");
 			$(this).html(p);
-		}
+		});
 	}
 	else {
 		console.log("not ie");
