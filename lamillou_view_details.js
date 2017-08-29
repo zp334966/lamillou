@@ -304,8 +304,9 @@ function showArrows() {
 /* sklad i sposob pielegnacji */
 $('.page-block .mobile-navi').before('<h2 class="washing" style="margin-top: 20px;">SKŁAD I SPOSÓB PIELĘGNACJI</h2>');
 $('.product_details .title').each(function() {
+	console.log("here");
 	var str = $(this).innerHTML; 
-	var res = str.replace(" Z ", "<span> z </span>");
+	var res = str.replace(" z ", "<span> z </span>");
 	$(this).innerHTML = res;
 });
 
