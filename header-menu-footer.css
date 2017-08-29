@@ -76,6 +76,7 @@
     -webkit-box-shadow: unset;
     -moz-box-shadow: unset;
     box-shadow: unset;
+    border-color: #16407d;
 }
 .mobile-navi-menu {
     padding-left: 19px;
