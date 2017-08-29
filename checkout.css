@@ -517,6 +517,15 @@ div#show_my_cart div.page-heading h3 {
     top: 21px;
     left: 9px;
 }
+#show_my_cart section.shopping-cart .qnt-count a.incr-btn:first-child:after:hover, 
+#show_my_cart #show_order_products_block .qnt-count a.incr-btn:first-child:after:hover, 
+#order_last_step section.shopping-cart .qnt-count a.incr-btn:first-child:after:hover, 
+#order_last_step #show_order_products_block .qnt-count a.incr-btn:first-child:after:hover {
+    content: url(https://cdn.rawgit.com/joanna16/lamillou/373d3d83/ico_minus_gr.svg);
+    position: absolute;
+    top: 21px;
+    left: 9px;
+}
 #show_my_cart section.shopping-cart .qnt-count a.incr-btn:last-child, 
 #show_my_cart #show_order_products_block .qnt-count a.incr-btn:last-child, 
 #order_last_step section.shopping-cart .qnt-count a.incr-btn:last-child, 
