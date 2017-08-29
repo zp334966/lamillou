@@ -484,13 +484,13 @@ div#show_my_cart div.page-heading h3 {
     }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (max-width: 991px) {
-    /* Razem */
+    /* Razem 
     #show_my_cart section.shopping-cart .item .table-cell.desc .product_price_total, 
     #show_my_cart #show_order_products_block .item .table-cell.desc .product_price_total, 
     #order_last_step section.shopping-cart .item .table-cell.desc .product_price_total, 
     #order_last_step #show_order_products_block .item .table-cell.desc .product_price_total {
         bottom: -70px!important;
-    }
+    }*/
   #show_my_cart section.shopping-cart .item .table-cell.desc .qnt-count, 
   #show_my_cart #show_order_products_block .item .table-cell.desc .qnt-count, 
   #order_last_step section.shopping-cart .item .table-cell.desc .qnt-count, 
