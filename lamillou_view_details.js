@@ -303,11 +303,12 @@ function showArrows() {
 }
 /* sklad i sposob pielegnacji */
 $('.page-block .mobile-navi').before('<h2 class="washing" style="margin-top: 20px;">SKŁAD I SPOSÓB PIELĘGNACJI</h2>');
-$('.product_details .title').each(function() {
-	console.log("here");
-	var str = $(this).innerHTML; 
-	var res = str.replace(" z ", "<span> z </span>");
-	$(this).innerHTML = res;
+/* Spojniki mala litera */
+$( document ).ready(function() {
+	var str = $('.product_details .title').innerHTML;
+	console.log("here1");
+	var res = str.replace(" z ", '<span style="text-transform: lowercase;"> z </span>');
+	$('.product_details .title').innerHTML = res;
 });
 
 /* Carousel above a fold 
