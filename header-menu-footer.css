@@ -247,7 +247,7 @@
 }
 .nav>li>a:hover, .nav>li>a:focus {
     background-color: unset;
-    color: var(--color-hover);
+    opacity: var(--opacity-hover);
 }
 
 .search-trigger {
