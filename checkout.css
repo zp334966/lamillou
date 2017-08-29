@@ -155,7 +155,7 @@ nav.menu {
     color: #16407d!important;
     padding: 12px 24px 14px 24px!important;
 }
-#registration_form .cms_buttons input.register_button:hover {
+#registration_form .cms_buttons input.register_button:hover, #registration_form .cms_buttons input.register_button:focus {
     color: #16407d!important;
     padding: 12px 24px 14px 24px!important;
 }
