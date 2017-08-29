@@ -151,6 +151,10 @@ nav.menu {
     transition-timing-function: ease;
     transition-property: color;
 }
+#order_last_step a.btn:hover, #order_last_step a.btn:focus {
+    color: #16407d!important;
+    padding: 12px 24px 14px 24px!important;
+}
 #registration_form .cms_buttons input.register_button:hover {
     color: #16407d!important;
     padding: 12px 24px 14px 24px!important;
