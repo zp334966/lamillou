@@ -249,7 +249,13 @@
     background-color: unset;
     opacity: var(--opacity-hover);
 }
-
+.nav>li.current>a:hover, .nav>li.current>a:focus {
+    opacity: 1!important;
+}
+.nav>li.current>a:hover, .nav>li.current>a:focus {
+    background-color: unset;
+    opacity: var(--opacity-hover);
+}
 .search-trigger {
     position: absolute;
     top: 9px;
