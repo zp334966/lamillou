@@ -1129,6 +1129,13 @@ function putPlaceholder(a) {
   //a.style.paddingTop= 'calc((100% - 175px)/2)';
 };
 
+function putPlaceholderProduct(a) {
+  console.log("placeholder");
+  a.src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/placeholder.svg'; 
+  a.style.width='47%';
+  //a.style.paddingTop= 'calc((100% - 175px)/2)';
+};
+
 
 /*Pozytywka
 *************************************************/
