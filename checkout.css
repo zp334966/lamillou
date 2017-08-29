@@ -1419,7 +1419,7 @@ form label {
     -moz-appearance: none;
     box-shadow: none!important;
 }
-.form-control, #login_curtain #password:focus {
+#login_curtain #password:focus {
     border-color: #16407d;
 }
 .form-group {
