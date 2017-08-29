@@ -22,8 +22,7 @@ function cmsRegister () {
     	if (navigator.appName == 'Microsoft Internet Explorer' ||  !!(navigator.userAgent.match(/Trident/) || navigator.userAgent.match(/rv:11/)) || (typeof $.browser !== "undefined" && $.browser.msie == 1)) {
 		console.log("ie");
 		if ($('.cms_register .cms_buttons input').length ) {
-			$('.cms_register .cms_buttons input').nextSibling.remove();
-			$('.cms_register .cms_buttons input').nextSibling.remove();
+			console.log($('.cms_register .cms_buttons input').length );
 		}
 	}
 	else {
