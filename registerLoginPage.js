@@ -92,8 +92,13 @@ function restorePassword () {
           }  
         });
         $('.restore_password input.submit.btn').attr("value", "Prześlij");
-        $('.restore_password input.submit.btn')[0].nextSibling.remove();
-        $('.restore_password input.submit.btn')[0].nextSibling.remove();
+	if (navigator.appName == 'Microsoft Internet Explorer' ||  !!(navigator.userAgent.match(/Trident/) || navigator.userAgent.match(/rv:11/)) || (typeof $.browser !== "undefined" && $.browser.msie == 1)) {
+		console.log("ie");
+	}
+	else {
+		$('.restore_password input.submit.btn')[0].nextSibling.remove();
+        	$('.restore_password input.submit.btn')[0].nextSibling.remove();
+	}
         $('.restore_password input.submit.btn').after("<p class='cancel'>Lub kliknij <a href='/login'>anuluj.</a></p>");
         $('.restore_password .header h2').after("<p class='help'>Podaj adres e-mail użyty podczas zakładania konta.</p>");     
     });
