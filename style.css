@@ -2028,7 +2028,8 @@ div.page-heading.center, div.page-heading {
     }
     .pop-up-lack.pop-up-cart {
         margin-right: calc(((100vw - 1158px) / 2) + 11px);
-        border-top: -48px;
+        border-top: 1px solid #D0D9E5;
+        margin-top: -48px;
     }
     .advertisement-active .pop-up-added-to-cart.desktop, .advertisement-active .pop-up-lack.desktop {
         top: 97px;
