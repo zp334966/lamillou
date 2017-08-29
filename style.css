@@ -63,6 +63,10 @@ a:focus, a:hover {
     -webkit-appearance: none;
     -moz-appearance: none;
 }
+.info-container textarea {
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
 form label {
     font-family: 'Open Sans';
     font-size: 13px;
