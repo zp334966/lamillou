@@ -517,10 +517,10 @@ div#show_my_cart div.page-heading h3 {
     top: 21px;
     left: 9px;
 }
-#show_my_cart section.shopping-cart .qnt-count a.incr-btn:first-child:hover:after, 
-#show_my_cart #show_order_products_block .qnt-count a.incr-btn:first-child:hover:after, 
-#order_last_step section.shopping-cart .qnt-count a.incr-btn:first-child:hover:after, 
-#order_last_step #show_order_products_block .qnt-count a.incr-btn:first-child:hover:after {
+#show_my_cart section.shopping-cart .qnt-count a.incr-btn:not(inactive):first-child:hover:after, 
+#show_my_cart #show_order_products_block .qnt-count a.incr-btn:not(inactive):first-child:hover:after, 
+#order_last_step section.shopping-cart .qnt-count a.incr-btn:not(inactive):first-child:hover:after, 
+#order_last_step #show_order_products_block .qnt-count a.incr-btn:not(inactive):first-child:hover:after {
     content: url(https://cdn.rawgit.com/joanna16/lamillou/373d3d83/ico_minus_gr.svg);
     position: absolute;
     top: 21px;
@@ -547,6 +547,15 @@ div#show_my_cart div.page-heading h3 {
 #order_last_step section.shopping-cart .qnt-count a.incr-btn:last-child:after, 
 #order_last_step #show_order_products_block .qnt-count a.incr-btn:last-child:after {
     content: url(https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/ico_plus_bl.svg);
+    position: absolute;
+    bottom: 8.5px;
+    right: 17px;
+}
+#show_my_cart section.shopping-cart .qnt-count a.incr-btn:last-child:hover:after, 
+#show_my_cart #show_order_products_block .qnt-count a.incr-btn:last-child:hover:after, 
+#order_last_step section.shopping-cart .qnt-count a.incr-btn:last-child:hover:after, 
+#order_last_step #show_order_products_block .qnt-count a.incr-btn:last-child:hover:after {
+    content: url(https://cdn.rawgit.com/joanna16/lamillou/373d3d83/ico_plus_bl.svg);
     position: absolute;
     bottom: 8.5px;
     right: 17px;
