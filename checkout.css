@@ -320,7 +320,7 @@ div#show_my_cart div.page-heading h3 {
 #order_last_step section.shopping-cart .item .table-cell.thumb, 
 #order_last_step #show_order_products_block .item .table-cell.thumb {
      left: 0;
-     top: 0px; 
+     top: 0px!important; 
      width: 95px;
      padding-right: 10px;
      display: block;
