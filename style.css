@@ -1662,7 +1662,7 @@ div.page-heading.center, div.page-heading {
 
 @media (min-width: 768px) and (max-width: 830px) {
     .container {
-        width: unset; 
+        width: auto; 
     }
 }
 @media (min-width: 831px) {
