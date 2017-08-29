@@ -21,14 +21,8 @@ function cmsRegister () {
         });
     	if (navigator.appName == 'Microsoft Internet Explorer' ||  !!(navigator.userAgent.match(/Trident/) || navigator.userAgent.match(/rv:11/)) || (typeof $.browser !== "undefined" && $.browser.msie == 1)) {
 		console.log("ie");
-		var element = $('.cms_register .cms_buttons input');
-		var aElements = element.parent();
-		var index = (aElements.index(element));
-
-		for(i=(index+1);i<aElements.length;i++) {
-			('#'+$(aElements.get(i))).remove();
-			//console.log('#'+$(aElements.get(i)));
-		}
+		var $element = $('.cms_register .cms_buttons input');
+		$element.nextAll().remove();
 	}
 	else {
 		console.log("not ie");
