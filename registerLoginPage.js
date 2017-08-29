@@ -26,8 +26,8 @@ function cmsRegister () {
 		var index = (aElements.index(element));
 
 		for(i=(index+1);i<aElements.length;i++) {
-			//('#'+$(aElements.get(i)).attr('id')).remove();
-			console.log('#'+$(aElements.get(i)));
+			('#'+$(aElements.get(i))).remove();
+			//console.log('#'+$(aElements.get(i)));
 		}
 	}
 	else {
