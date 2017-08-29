@@ -23,7 +23,7 @@ function cmsRegister () {
 		console.log("ie");
 		var $element = $('.cms_register .cms_buttons input');
 		$element.nextAll().remove();
-		$('.cms_register .cms_buttons input').each(function() {
+		$('.cms_register .cms_buttons input').parent().each(function() {
 			var p = $(this).html(); 
 			p = p.replace("lub", "");
 			$(this).html(p);
