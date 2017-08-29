@@ -244,7 +244,8 @@
     cursor: pointer;
 }
 .sidebar a h5:hover, .sidebar a h5:focus, .sidebar .submenu li a:hover, .sidebar .submenu li a:focus {
-    color: var(--color-hover);    
+    color: #16407d;
+    opacity: var(--opacity-hover);
 }
 .nav>li>a:hover, .nav>li>a:focus {
     background-color: unset;
