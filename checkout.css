@@ -526,6 +526,15 @@ div#show_my_cart div.page-heading h3 {
     top: 21px;
     left: 9px;
 }
+#show_my_cart section.shopping-cart .qnt-count a.incr-btn.inactive:first-child:hover:after, 
+#show_my_cart #show_order_products_block .qnt-count a.incr-btn.inactive:first-child:hover:after, 
+#order_last_step section.shopping-cart .qnt-count a.incr-btn.inactive:first-child:hover:after, 
+#order_last_step #show_order_products_block .qnt-count a.incr-btn.inactive:first-child:hover:after {
+    content: url(https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/ico_minus_bl.svg);
+    position: absolute;
+    top: 21px;
+    left: 9px;
+}
 #show_my_cart section.shopping-cart .qnt-count a.incr-btn:last-child, 
 #show_my_cart #show_order_products_block .qnt-count a.incr-btn:last-child, 
 #order_last_step section.shopping-cart .qnt-count a.incr-btn:last-child, 
