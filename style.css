@@ -2099,3 +2099,38 @@ div.page-404 p {
         width: 33%;
     }
 }
+/* Transformacja tekstu */
+.product-extra .info h3 a {
+    visibility: hidden;
+}
+.product-extra .info h3 a.after-transform {
+    visibility: visible;
+}
+
+.product_details .product_title {
+    visibility: hidden;
+}
+.product_details .product_title.after-transform {
+    visibility: visible;
+}
+
+.relate_product .info h3 a {
+    visibility: hidden;
+}
+.relate_product .info h3 a.after-transform {
+    visibility: visible;
+}
+
+#products .container-products .info h3 a {
+    visibility: hidden;
+}
+#products .container-products .info h3 a.after-transform {
+    visibility: visible;
+}
+
+#cart-dropdown span.cart-prod-name {
+    visibility: hidden;
+}
+#cart-dropdown span.cart-prod-name.after-transform {
+    visibility: visible;
+}
