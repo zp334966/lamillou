@@ -169,6 +169,34 @@ return extend(main,{resize:setDimensions,start:start,stop:stop});})();
  *All scripts for Kedavra HTML5 Multipurpose Template
  */
 
+
+if ($( '.product-extra .info h3 a' ).length ){
+	$('.product-extra .info h3 a').each(function() {
+		$(this).css('visibility', 'hidden');
+	});
+};
+if ($( '.product_details .product_title' ).length ){
+	$('.product_details .product_title').each(function() {
+		console.log('here');
+		$(this).css('visibility', 'hidden');
+	});
+};
+ if ($( '.relate_product .info h3 a' ).length ){
+	$('.relate_product .info h3 a').each(function() { 
+		$(this).css('visibility', 'hidden');
+	});
+};
+if ($( '#products .container-products .info h3 a' ).length ){
+	$('.container-products .info h3 a').each(function() {
+		$(this).css('visibility', 'hidden');
+	});
+};
+if ($( '#cart-dropdown span.cart-prod-name' ).length ){
+	$('#cart-dropdown span.cart-prod-name').each(function() {
+		$(this).css('visibility', 'hidden');
+	});
+};
+
 /*Document Ready*////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 jQuery(document).ready(function($) {
   'use strict';
@@ -213,34 +241,7 @@ jQuery(document).ready(function($) {
   var $packageCarousel = $('.package-carousel');
   var $scItemDelete = $('.shopping-cart .item .delete');
   /// ----------------------------------------------------------------
-  
-  
-  if ($( '.product-extra .info h3 a' ).length ){
-	$('.product-extra .info h3 a').each(function() {
-		$(this).css('visibility', 'hidden');
-	});
-};
-if ($( '.product_details .product_title' ).length ){
-	$('.product_details .product_title').each(function() {
-		console.log('here');
-		$(this).css('visibility', 'hidden');
-	});
-};
- if ($( '.relate_product .info h3 a' ).length ){
-	$('.relate_product .info h3 a').each(function() { 
-		$(this).css('visibility', 'hidden');
-	});
-};
-if ($( '#products .container-products .info h3 a' ).length ){
-	$('.container-products .info h3 a').each(function() {
-		$(this).css('visibility', 'hidden');
-	});
-};
-if ($( '#cart-dropdown span.cart-prod-name' ).length ){
-	$('#cart-dropdown span.cart-prod-name').each(function() {
-		$(this).css('visibility', 'hidden');
-	});
-};
+
 
 
   ///////////////////////////////////////////////////////////////////////
