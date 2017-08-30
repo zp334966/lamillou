@@ -169,34 +169,6 @@ return extend(main,{resize:setDimensions,start:start,stop:stop});})();
  *All scripts for Kedavra HTML5 Multipurpose Template
  */
 
-
-if ($( '.product-extra .info h3 a' ).length ){
-	$('.product-extra .info h3 a').each(function() {
-		$(this).css('visibility', 'hidden');
-	});
-};
-if ($( '.product_details .product_title' ).length ){
-	$('.product_details .product_title').each(function() {
-		console.log('here');
-		$(this).css('visibility', 'hidden');
-	});
-};
- if ($( '.relate_product .info h3 a' ).length ){
-	$('.relate_product .info h3 a').each(function() { 
-		$(this).css('visibility', 'hidden');
-	});
-};
-if ($( '#products .container-products .info h3 a' ).length ){
-	$('.container-products .info h3 a').each(function() {
-		$(this).css('visibility', 'hidden');
-	});
-};
-if ($( '#cart-dropdown span.cart-prod-name' ).length ){
-	$('#cart-dropdown span.cart-prod-name').each(function() {
-		$(this).css('visibility', 'hidden');
-	});
-};
-
 /*Document Ready*////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 jQuery(document).ready(function($) {
   'use strict';
@@ -1024,8 +996,8 @@ $(document).ready(function(){ */
 	  var subtitle = ""; 
 	  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
 	  else { subtitle = add(names.category, names.subtitle); }
+	  $(this).addClass('after-transform');
 	  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>');
-	  $(this).css('visibility', 'visible');
 	});
   };
   if ($( '.product_details .product_title' ).length ){
@@ -1035,6 +1007,7 @@ $(document).ready(function(){ */
 	  var subtitle = ""; 
 	  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
 	  else { subtitle = add(names.category, names.subtitle); }
+	  $(this).addClass('after-transform');
 	  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>');
 	  $(this).css('visibility', 'visible');
 	});
@@ -1046,6 +1019,7 @@ $(document).ready(function(){ */
 	  var subtitle = ""; 
 	  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
 	  else { subtitle = add(names.category, names.subtitle); }
+	  $(this).addClass('after-transform');
 	  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>');
 	  $(this).css('visibility', 'visible');
 	});
@@ -1064,6 +1038,7 @@ $(document).ready(function(){ */
 	      else { subtitle = names.subtitle; }  
 	    }
 	  }
+	  $(this).addClass('after-transform');
 	  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>');
 	  $(this).css('visibility', 'visible');
 	});
@@ -1076,6 +1051,7 @@ $(document).ready(function(){ */
 	  var subtitle = ""; 
 	  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
 	  else { subtitle = add(names.category, names.subtitle); }
+	  $(this).addClass('after-transform');
 	  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>');
 	  $(this).css('visibility', 'visible');
 	});
