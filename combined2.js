@@ -1200,7 +1200,7 @@ $(document).ready(function(){
 	/* koszyk 
 	$('#cart-dropdown a').wrapAll( "<div class='scroll-menu' />");*/
 	/* Pod adresem nie ma produktu */
-	console.log('inside1');
+	console.log('inside2');
 	if($('.container .page-heading h3:contains("Pod tym adresem nie ma produktu")').length) {
 		console.log('inside');
 		$(this).after('<div class="cms_user_profile"><div class="photo"><img src="https://cdn.rawgit.com/joanna16/lamillou/81b129e0/Group%208.svg"></div></div>');
