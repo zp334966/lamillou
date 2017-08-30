@@ -996,36 +996,43 @@ $(document).ready(function(){ */
   if ($( '.product-extra .info h3 a' ).length ){
 	$('.product-extra .info h3 a').each(function() {
 	  var full_name = $(this).text();
+	  $(this).css('visibility', 'hidden');
 	  var names = productNames( full_name );    
 	  var subtitle = ""; 
 	  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
 	  else { subtitle = add(names.category, names.subtitle); }
-	  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>'); 
+	  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>');
+	  $(this).css('visibility', 'visible');
 	});
   };
   if ($( '.product_details .product_title' ).length ){
 	$('.product_details .product_title').each(function() { 
-	  var full_name = $(this).text(); 
+	  var full_name = $(this).text();
+	  $(this).css('visibility', 'hidden');
 	  var names = productNames( full_name ); 
 	  var subtitle = ""; 
 	  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
 	  else { subtitle = add(names.category, names.subtitle); }
-	  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>'); 
+	  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>');
+	  $(this).css('visibility', 'visible');
 	});
   };
   if ($( '.relate_product .info h3 a' ).length ){
 	$('.relate_product .info h3 a').each(function() { 
 	  var full_name = $(this).text();
+	  $(this).css('visibility', 'hidden');
 	  var names = productNames( full_name );    
 	  var subtitle = ""; 
 	  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
 	  else { subtitle = add(names.category, names.subtitle); }
-	  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>'); 
+	  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>');
+	  $(this).css('visibility', 'visible');
 	});
   };
   if ($( '#products .container-products .info h3 a' ).length ){
 	$('.container-products .info h3 a').each(function() { 
 	  var full_name = $(this).text();
+	  $(this).css('visibility', 'hidden');
 	  var names = productNames( full_name );    
 	  var subtitle = "";
 	  if ( $('.page-heading h2').length ) {
@@ -1037,17 +1044,20 @@ $(document).ready(function(){ */
 	      else { subtitle = names.subtitle; }  
 	    }
 	  }
-	  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>'); 
+	  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>');
+	  $(this).css('visibility', 'visible');
 	});
   };
   if ($( '#cart-dropdown span.cart-prod-name' ).length ){
 	$('#cart-dropdown span.cart-prod-name').each(function() {
 	  var full_name = $(this).text();
+	  $(this).css('visibility', 'hidden');
 	  var names = productNames( full_name );    
 	  var subtitle = ""; 
 	  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
 	  else { subtitle = add(names.category, names.subtitle); }
-	  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>'); 
+	  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>');
+	  $(this).css('visibility', 'visible');
 	});
   };
   /* Cart Dropdown */
@@ -1055,11 +1065,13 @@ $(document).ready(function(){ */
     if ($( '#cart-dropdown span.cart-prod-name' ).length &&  !$( '#cart-dropdown span.cart-prod-name .title' ).length ){
 	$('#cart-dropdown span.cart-prod-name').each(function() { 
 	  var full_name = $(this).text();
+	  $(this).css('visibility', 'hidden');
 	  var names = productNames( full_name );    
 	  var subtitle = ""; 
 	  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
 	  else { subtitle = add(names.category, names.subtitle); }
-	  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>'); 
+	  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>');
+	  $(this).css('visibility', 'visible');
 	});
     };
     if ( !$( '#cart-dropdown h4' ).length ){
