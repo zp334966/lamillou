@@ -1022,8 +1022,9 @@ $(document).ready(function(){ */
 	  var subtitle = ""; 
 	  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
 	  else { subtitle = add(names.category, names.subtitle); }
+	  var res = names.title.replace(/ z /g, "<span style='text-transform: lowercase;'> z </span>");
 	  $(this).addClass('after-transform');
-	  $(this).html('<div class="title">' + names.title + '</div>' + '<div class="subtitle">' + subtitle + '</div>');
+	  $(this).html('<div class="title">' + res + '</div>' + '<div class="subtitle">' + subtitle + '</div>');
 	  $(this).css('visibility', 'visible');
 	});
   };
