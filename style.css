@@ -2101,29 +2101,29 @@ div.page-404 p {
 }
 /* Transformacja tekstu */
 .product-extra .info h3 a {
-    visibility: hidden;
+    visibility: hidden!important;
 }
 .product-extra .info h3 a.after-transform {
-    visibility: visible;
+    visibility: visible!important;
 }
 
 .product_details .product_title {
-    visibility: hidden;
+    visibility: hidden!important;
 }
 .product_details .product_title.after-transform {
-    visibility: visible;
+    visibility: visible!important;
 }
 
 .relate_product .info h3 a {
-    visibility: hidden;
+    visibility: hidden!important;
 }
 .relate_product .info h3 a.after-transform {
-    visibility: visible;
+    visibility: visible!important;
 }
 
 #products .container-products .info h3 a {
-    visibility: hidden;
+    visibility: hidden!important;
 }
 #products .container-products .info h3 a.after-transform {
-    visibility: visible;
+    visibility: visible!important;
 }
