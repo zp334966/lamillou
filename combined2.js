@@ -215,7 +215,32 @@ jQuery(document).ready(function($) {
   /// ----------------------------------------------------------------
   
   
-  
+  if ($( '.product-extra .info h3 a' ).length ){
+	$('.product-extra .info h3 a').each(function() {
+		$(this).css('visibility', 'hidden');
+	});
+};
+if ($( '.product_details .product_title' ).length ){
+	$('.product_details .product_title').each(function() {
+		console.log('here');
+		$(this).css('visibility', 'hidden');
+	});
+};
+ if ($( '.relate_product .info h3 a' ).length ){
+	$('.relate_product .info h3 a').each(function() { 
+		$(this).css('visibility', 'hidden');
+	});
+};
+if ($( '#products .container-products .info h3 a' ).length ){
+	$('.container-products .info h3 a').each(function() {
+		$(this).css('visibility', 'hidden');
+	});
+};
+if ($( '#cart-dropdown span.cart-prod-name' ).length ){
+	$('#cart-dropdown span.cart-prod-name').each(function() {
+		$(this).css('visibility', 'hidden');
+	});
+};
 
 
   ///////////////////////////////////////////////////////////////////////
@@ -988,31 +1013,6 @@ function properTitle(word) {
   var l = word.trim().length - d;
   if (l > d) {return true; }
   else {return false;}
-};
-if ($( '.product-extra .info h3 a' ).length ){
-	$('.product-extra .info h3 a').each(function() {
-		$(this).css('visibility', 'hidden');
-	});
-};
-if ($( '.product_details .product_title' ).length ){
-	$('.product_details .product_title').each(function() { 
-		$(this).css('visibility', 'hidden');
-	});
-};
- if ($( '.relate_product .info h3 a' ).length ){
-	$('.relate_product .info h3 a').each(function() { 
-		$(this).css('visibility', 'hidden');
-	});
-};
-if ($( '#products .container-products .info h3 a' ).length ){
-	$('.container-products .info h3 a').each(function() {
-		$(this).css('visibility', 'hidden');
-	});
-};
-if ($( '#cart-dropdown span.cart-prod-name' ).length ){
-	$('#cart-dropdown span.cart-prod-name').each(function() {
-		$(this).css('visibility', 'hidden');
-	});
 };
 /*slider nie dzialal wtedy
 $(document).ready(function(){ */
