@@ -1203,8 +1203,8 @@ $(document).ready(function(){
 	console.log('inside2');
 	if($('.container .page-heading h3:contains("Pod tym adresem nie ma produktu")').length) {
 		console.log('inside');
-		$(this).after('<div class="cms_user_profile"><div class="photo"><img src="https://cdn.rawgit.com/joanna16/lamillou/81b129e0/Group%208.svg"></div></div>');
-		$(this).addClass('no-product');
-		$(this).next().addClass('no-product');
+		$('.container .page-heading h3:contains("Pod tym adresem nie ma produktu")').addClass('no-product');
+		$('.container .page-heading h3:contains("Pod tym adresem nie ma produktu")').next().addClass('no-product');
+		$('.container .page-heading h3:contains("Pod tym adresem nie ma produktu")').after('<div class="cms_user_profile"><div class="photo"><img src="https://cdn.rawgit.com/joanna16/lamillou/81b129e0/Group%208.svg"></div></div>');	
 	}
 });
