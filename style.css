@@ -1950,6 +1950,11 @@ div.page-heading.center, div.page-heading {
         display: none !important;
     }
 }
+@media (max-width: 1024px) and (min-width: 580px) {
+    .small-container-moonboard .col-lg-3, .small-container-moonboard .col-xl-3 {
+        padding-top: 9px;
+    }
+}
 @media (min-width: 1025px){ 
     .category-node .category-image {
         max-width: 561px;
@@ -1985,6 +1990,9 @@ div.page-heading.center, div.page-heading {
     }
     .img-responsive, .img-wrapper-big {
         margin-bottom: 18px;
+    }
+    .small-container-moonboard .col-lg-3, .small-container-moonboard .col-xl-3 {
+        padding-top: 18px;
     }
 }
 
