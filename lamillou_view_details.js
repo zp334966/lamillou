@@ -195,6 +195,7 @@ function HidePhotoView() {
   $('.advertisement-desktop').css('display', advertDesVisible);
   $(window).trigger('resize');
   $(window).trigger('resize');
+  showArrows();
 };
 
 $( '.sp-slider-photo-view' ).click(photoView);
