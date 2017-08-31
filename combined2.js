@@ -1142,6 +1142,7 @@ function putPlaceholderProduct(a) {
   console.log("placeholder");
   a.src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/placeholder.svg'; 
   a.style.paddingTop= 'calc((100% - 175px)/2)';
+  a.parent().style.background = '#D0D9E5';
 };
 
 
