@@ -204,18 +204,21 @@ $( '.canvas-photo-view' ).click(HidePhotoView);
 
 if ( $('.sp-slider-photo-view').length ) {
 	$(window).load ( function () {
-	    var h = $( '.ms-view.ms-fade-view' ).height();
-	    var hWindow = $( window ).height();
-	    var h2 = $('.sp-slider').height();
-	    $( '.sp-slider-photo-view' ).height(h);
-	    $( '.canvas-photo-view' ).height(hWindow - h2 - 5);
+	    	var h = $( '.ms-view.ms-fade-view' ).height();
+	    	var hWindow = $( window ).height();
+		console.log(hWindow);
+	    	var h2 = $('.sp-slider').height();
+		console.log(h2);
+		console.log(hWindow - h2);
+	    	$( '.sp-slider-photo-view' ).height(h);
+	    	$( '.canvas-photo-view' ).height(hWindow - h2-3);
 	});  
 	$(window).on('resize', function(){
 	    var h = $( '.ms-view.ms-fade-view' ).height();
  	    var hWindow = $( window ).height();
 	    var h2 = $('.sp-slider').height();
 	    $( '.sp-slider-photo-view' ).height(h);
-	    $( '.canvas-photo-view' ).height(hWindow - h2 - 5);
+	    $( '.canvas-photo-view' ).height(hWindow - h2-3);
 	});
 };
 
@@ -304,13 +307,3 @@ function showArrows() {
 }
 /* sklad i sposob pielegnacji */
 $('.page-block .mobile-navi').before('<h2 class="washing" style="margin-top: 20px;">SKŁAD I SPOSÓB PIELĘGNACJI</h2>');
-
-/* Carousel above a fold 
-function carouselUp() {
-	var height = $(window).height();
-	console.log(height);
-	if (height < 640) {
-		$('.sp-slider .ms-thumb-list').css('bottom', 600 - height);
-	}
-}
-$(window).on('resize', carouselUp);*/
