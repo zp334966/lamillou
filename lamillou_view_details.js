@@ -205,7 +205,7 @@ $( '.canvas-photo-view' ).click(HidePhotoView);
 if ( $('.sp-slider-photo-view').length ) {
 	$(window).load ( function () {
 	    	var h = $( '.ms-view.ms-fade-view' ).height();
-	    	var hWindow = $( window ).height();
+	    	var hWindow = $( document ).height();
 		console.log(hWindow);
 	    	var h2 = $('.sp-slider').height();
 		console.log(h2);
