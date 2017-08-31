@@ -151,17 +151,16 @@ $( document ).ready(function() {
       var delivery = $(this).text();
       var names;
       if ( $(this).text().indexOf("GLS") != -1 ){
-        names = delivery.split('-');$(this).html(names[0] + '</br><span>' + names[1] + '</span>');
+        names = delivery.split('-');
       } 
       if ( delivery.indexOf("Odbiór osobisty") != -1 ){   
         var preIndex = delivery.indexOf("(");
         names = [ delivery.substring(0, preIndex), delivery.substring(preIndex) ];
-        alert(names[0]);
       } 
       if ( delivery.indexOf("Poczta Polska") != -1 ){  
-        names = delivery.split('-');$(this).html(names[0] + '</br><span>' + names[1] + '</span>');
+        names = delivery.split('-');
       } 
-      //$(this).html(names[0] + '</br><span>' + names[1] + '</span>');
+      $(this).html(names[0] + '</br><span>' + names[1] + '</span>');
     });  
     
     var $payu = $('#payment_kind_selector input[value=platnosci_pl]').parent().next();
