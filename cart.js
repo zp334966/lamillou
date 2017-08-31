@@ -173,6 +173,11 @@ $( document ).ready(function() {
     $paypal.addClass('payment-gateway-paypal');
     $paypal.html('<img class="paypal" alt="PayU">');     
 
+    //var $przelewy24 = $('#payment_kind_selector option[value=przelewy24]');
+    
+    //$przelewy24.html('<img class="przelewy24" alt="Przelewy24" src=""/>');
+    
+    
     $('input[name="shop_order[personal_data_clause]"]').each(function() {
         $(this).prop('value', 1); 
     });
