@@ -220,7 +220,7 @@ if ( $('.sp-slider-photo-view').length ) {
 };
 
 $(document).mouseup(function(e) {
-    	var container1 = $(".sp-slider-photo-view.active");
+    	var container1 = $(".ms-slide-bgcont");
 	var container2 = $(".ms-thumb-list");
     	if (!container1.is(e.target) && container1.has(e.target).length === 0 && !container2.is(e.target) && container2.has(e.target).length === 0) {
         	HidePhotoView();
