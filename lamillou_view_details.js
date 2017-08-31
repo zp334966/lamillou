@@ -202,7 +202,7 @@ $( '.sp-slider-photo-view' ).click(photoView);
 $( '#exit-photo-view' ).click(HidePhotoView);
 //$( '.canvas-photo-view' ).click(HidePhotoView);
 
-if ( $('.sp-slider-photo-view').length ) {
+if ( $('.sp-slider-photo-view.active').length ) {
 	$(window).load ( function () {
 	    	//var h = $( '.ms-view.ms-fade-view' ).height();
 	    	//var hWindow = $( window ).height();
@@ -218,11 +218,12 @@ if ( $('.sp-slider-photo-view').length ) {
 	    //$( '.canvas-photo-view' ).height(hWindow - h2-3);
 	});
 };
-
+console.log('ver1');
 $(document).mouseup(function(e) {
     	var container1 = $(".ms-slide-bgcont");
 	var container2 = $(".ms-thumb-list");
-    	if (!container1.is(e.target) && container1.has(e.target).length === 0 && !container2.is(e.target) && container2.has(e.target).length === 0) {
+	var container3 = $(".sp-slider-photo-view");
+    	if (!container1.is(e.target) && container1.has(e.target).length === 0 && !container2.is(e.target) && container2.has(e.target).length === 0 && !container3.is(e.target) && container3.has(e.target).length === 0) {
         	HidePhotoView();
     	}
 });
