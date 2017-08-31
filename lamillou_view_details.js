@@ -207,14 +207,14 @@ if ( $('.sp-slider-photo-view').length ) {
 	    	//var h = $( '.ms-view.ms-fade-view' ).height();
 	    	//var hWindow = $( window ).height();
 	    	//var h2 = $('.sp-slider').height();
-	    	$( '.sp-slider-photo-view' ).height(0);
+	    	$( '.sp-slider-photo-view.active' ).height(0);
 	    	//$( '.canvas-photo-view' ).height(hWindow - h2-3);
 	});  
 	$(window).on('resize', function(){
 	    //var h = $( '.ms-view.ms-fade-view' ).height();
  	    //var hWindow = $( window ).height();
 	    //var h2 = $('.sp-slider').height();
-	    $( '.sp-slider-photo-view' ).height(0);
+	    $( '.sp-slider-photo-view.active' ).height(0);
 	    //$( '.canvas-photo-view' ).height(hWindow - h2-3);
 	});
 };
