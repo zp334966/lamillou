@@ -151,15 +151,15 @@ $( document ).ready(function() {
       var delivery = $(this).text();
       var names;
       if ( $(this).text().indexOf("GLS") != -1 ){
-        names = delivery.split('-');
+        names = delivery.split('-');$(this).html(names[0] + '</br><span>' + names[1] + '</span>');
       } 
       if ( delivery.indexOf("Odbiór osobisty") != -1 ){   
 
       } 
       if ( delivery.indexOf("Poczta Polska") != -1 ){  
-        names = delivery.split('-');
+        names = delivery.split('-');$(this).html(names[0] + '</br><span>' + names[1] + '</span>');
       } 
-      $(this).html(names[0] + '</br><span>' + names[1] + '</span>');
+      //$(this).html(names[0] + '</br><span>' + names[1] + '</span>');
     });  
     
     //$('label[for="shop_order[delivery_option_id]"]:nth-last-of-type(2)').html('<strong>Kurier GLS</strong><br><span>na terenie Polski (14 zł)</span>');
