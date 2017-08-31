@@ -154,8 +154,7 @@ $( document ).ready(function() {
         names = delivery.split('-');
       } 
       if ( delivery.indexOf("Odbiór osobisty") != -1 ){   
-        names[0] = delivery.split(/((.+)/)[0];
-        names[1] = delivery.split(/((.+)/)[1];
+
       } 
       if ( delivery.indexOf("Poczta Polska") != -1 ){  
         names = delivery.split('-');
