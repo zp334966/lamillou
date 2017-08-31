@@ -147,11 +147,20 @@ $( document ).ready(function() {
     });
 
     
-
+    $('label[for="shop_order[delivery_option_id]"]').each(function() { 
+      var delivery = $(this).text();
+      if ( $(this).text().indexOf("GLS") != -1 ){
+        var names = delivery.split('-');
+        $(this).html(names[0] + '<span>' + names[1] + '</span>');
+      } 
+      if ( delivery.indexOf("Odbiór osobisty") != -1 ){           
+      } 
+      if ( delivery.indexOf("Poczta Polska") != -1 ){            
+      } 
+    });  
     //$('label[for="shop_order[delivery_option_id]"]:nth-last-of-type(2)').html('<strong>Kurier GLS</strong><br><span>na terenie Polski (14 zł)</span>');
     //$('label[for="shop_order[delivery_option_id]"]:last-of-type').html('<strong>Odbiór osobisty</strong><br><span>ul. Ruczaj 89, Warszawa (0 zł)</span>');
 
-    //var $payu = $('label[for="shop_order[payment_kind]"]:nth-of-type(2)');
     var $payu = $('#payment_kind_selector input[value=platnosci_pl]').parent().next();
 
     $payu.addClass('payment-gateway-payu');
