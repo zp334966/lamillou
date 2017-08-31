@@ -204,17 +204,17 @@ $( '#exit-photo-view' ).click(HidePhotoView);
 
 if ( $('.sp-slider-photo-view').length ) {
 	$(window).load ( function () {
-	    	var h = $( '.ms-view.ms-fade-view' ).height();
+	    	//var h = $( '.ms-view.ms-fade-view' ).height();
 	    	//var hWindow = $( window ).height();
 	    	//var h2 = $('.sp-slider').height();
-	    	$( '.sp-slider-photo-view' ).height(h);
+	    	$( '.sp-slider-photo-view' ).height(0);
 	    	//$( '.canvas-photo-view' ).height(hWindow - h2-3);
 	});  
 	$(window).on('resize', function(){
-	    var h = $( '.ms-view.ms-fade-view' ).height();
+	    //var h = $( '.ms-view.ms-fade-view' ).height();
  	    //var hWindow = $( window ).height();
 	    //var h2 = $('.sp-slider').height();
-	    $( '.sp-slider-photo-view' ).height(h);
+	    $( '.sp-slider-photo-view' ).height(0);
 	    //$( '.canvas-photo-view' ).height(hWindow - h2-3);
 	});
 };
