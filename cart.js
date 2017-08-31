@@ -149,15 +149,20 @@ $( document ).ready(function() {
     
     $('label[for="shop_order[delivery_option_id]"]').each(function() { 
       var delivery = $(this).text();
+      var names;
       if ( $(this).text().indexOf("GLS") != -1 ){
-        var names = delivery.split('-');
-        $(this).html(names[0] + '<span>' + names[1] + '</span>');
+        names = delivery.split('-');
       } 
-      if ( delivery.indexOf("Odbiór osobisty") != -1 ){           
+      if ( delivery.indexOf("Odbiór osobisty") != -1 ){   
+        names[0] = delivery.split(/((.+)/)[0];
+        names[1] = delivery.split(/((.+)/)[1];
       } 
-      if ( delivery.indexOf("Poczta Polska") != -1 ){            
+      if ( delivery.indexOf("Poczta Polska") != -1 ){  
+        names = delivery.split('-');
       } 
+      $(this).html(names[0] + '</br><span>' + names[1] + '</span>');
     });  
+    
     //$('label[for="shop_order[delivery_option_id]"]:nth-last-of-type(2)').html('<strong>Kurier GLS</strong><br><span>na terenie Polski (14 zł)</span>');
     //$('label[for="shop_order[delivery_option_id]"]:last-of-type').html('<strong>Odbiór osobisty</strong><br><span>ul. Ruczaj 89, Warszawa (0 zł)</span>');
 
