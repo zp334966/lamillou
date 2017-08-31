@@ -200,28 +200,32 @@ function HidePhotoView() {
 
 $( '.sp-slider-photo-view' ).click(photoView);
 $( '#exit-photo-view' ).click(HidePhotoView);
-$( '.canvas-photo-view' ).click(HidePhotoView);
+//$( '.canvas-photo-view' ).click(HidePhotoView);
 
 if ( $('.sp-slider-photo-view').length ) {
 	$(window).load ( function () {
 	    	var h = $( '.ms-view.ms-fade-view' ).height();
-	    	var hWindow = $( document ).height();
-		console.log(hWindow);
-	    	var h2 = $('.sp-slider').height();
-		console.log(h2);
-		console.log(hWindow - h2);
+	    	//var hWindow = $( window ).height();
+	    	//var h2 = $('.sp-slider').height();
 	    	$( '.sp-slider-photo-view' ).height(h);
-	    	$( '.canvas-photo-view' ).height(hWindow - h2-3);
+	    	//$( '.canvas-photo-view' ).height(hWindow - h2-3);
 	});  
 	$(window).on('resize', function(){
 	    var h = $( '.ms-view.ms-fade-view' ).height();
- 	    var hWindow = $( window ).height();
-	    var h2 = $('.sp-slider').height();
+ 	    //var hWindow = $( window ).height();
+	    //var h2 = $('.sp-slider').height();
 	    $( '.sp-slider-photo-view' ).height(h);
-	    $( '.canvas-photo-view' ).height(hWindow - h2-3);
+	    //$( '.canvas-photo-view' ).height(hWindow - h2-3);
 	});
 };
 
+$(document).mouseup(function(e) {
+    	var container1 = $(".sp-slider-photo-view.active");
+	var container2 = $(".ms-thumb-list");
+    	if (!container1.is(e.target) && container1.has(e.target).length === 0 && !container2.is(e.target) && container2.has(e.target).length === 0) {
+        	HidePhotoView();
+    	}
+});
 
 /*Pop up add to cart
 *************************************************/
