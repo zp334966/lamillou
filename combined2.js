@@ -1142,7 +1142,7 @@ function putPlaceholderProduct(a) {
   console.log("placeholder");
   a.src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/placeholder.svg'; 
   a.style.paddingTop= 'calc((100% - 175px)/2)';
-  a.parentNode.style.background = '#D0D9E5';
+  a.parentNode.style.background = '#F2F5F9';
 };
 
 
