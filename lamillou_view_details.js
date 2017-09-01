@@ -119,7 +119,7 @@ $( document ).ready(function() {
 
 /* Load more relate products
 *************************************************/ 
-console.log('ver3');
+console.log('ver4');
 var heightAtStart = 0;
 var originalHeight; 
   
@@ -157,15 +157,15 @@ $('#learn-more').on("click", function(e) {
 });
 */
 $('#learn-more').toggle(function() {
-	console.log('111');
 	$('.product_right_tab .block-devider .tab-pane').animate({ height: originalHeight }, 300);
     	$('.product_right_tab .block-devider .tab-pane').height('auto');
-	$('#learn-more img').css("transform", "rotate(180deg)");
+	$(this).find('span').html('Zwiń');
+	$(this).find('img').css("transform", "rotate(180deg)");
   }, function() {
-	console.log('222');
 	$('#learn-more').show();
     	$('.product_right_tab .block-devider .tab-pane').animate({ height: heightAtStart }, 300);
-	$('#learn-more img').css("transform", "rotate(180deg)");
+	$(this).find('span').html('Rozwiń');
+	$(this).find('img').css("transform", "rotate(360deg)");
 });
 /*
 $('#learn-more-undo').on("click", function(e) {
