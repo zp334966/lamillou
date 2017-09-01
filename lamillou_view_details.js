@@ -165,7 +165,7 @@ $('#learn-more').toggle(function() {
 	$('#learn-more').show();
     	$('.product_right_tab .block-devider .tab-pane').animate({ height: heightAtStart }, 300);
 	$(this).find('span').html('Rozwiń');
-	$(this).find('img').css("transform", "rotate(360deg)");
+	$(this).find('img').css("transform", "rotate(0deg)");
 });
 /*
 $('#learn-more-undo').on("click", function(e) {
