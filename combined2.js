@@ -1074,7 +1074,7 @@ $(document).ready(function(){ */
     };
     if ( !$( '#cart-dropdown h4' ).length ){
       $('#cart-dropdown').prepend( "<h4>ZAWARTOŚĆ KOSZYKA</h4>" );   
-    }; /** todo **/
+    };
     if ( !$( '#cart-dropdown .products-scroll' ).length ){
       $('#cart-dropdown h4').after( "<div class='products-scroll'></div>" ); 
       $('#cart-dropdown a.row').each(function() { 
