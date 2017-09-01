@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Besom';
-    src: url('https://cdn.rawgit.com/zp334966/lamillou/f2ca4b82/Besom-extended.ttf');
+    src: url('https://cdn.rawgit.com/zp334966/lamillou/f2ca4b82/Besom-extended.ttf') format('truetype');
 }
 
 .container {
