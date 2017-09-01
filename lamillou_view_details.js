@@ -204,28 +204,34 @@ $( '#exit-photo-view' ).click(HidePhotoView);
 
 if ( $('.sp-slider-photo-view.active').length ) {
 	$(window).load ( function () {
-	    	//var h = $( '.ms-view.ms-fade-view' ).height();
-	    	//var hWindow = $( window ).height();
-	    	//var h2 = $('.sp-slider').height();
-	    	$( '.sp-slider-photo-view.active' ).height(0);
-	    	//$( '.canvas-photo-view' ).height(hWindow - h2-3);
+		if ($( '.sp-slider-photo-view' ).hasClass('active')) {
+	    		$( '.sp-slider-photo-view' ).height(0);
+		}
+		else {
+			var h2 = $('.sp-slider').height();
+			$( '.sp-slider-photo-view' ).height(h2);
+		}
 	});  
 	$(window).on('resize', function(){
-	    //var h = $( '.ms-view.ms-fade-view' ).height();
- 	    //var hWindow = $( window ).height();
-	    //var h2 = $('.sp-slider').height();
-	    $( '.sp-slider-photo-view.active' ).height(0);
-	    //$( '.canvas-photo-view' ).height(hWindow - h2-3);
+	    	if ($( '.sp-slider-photo-view' ).hasClass('active')) {
+	    		$( '.sp-slider-photo-view' ).height(0);
+		}
+		else {
+			var h2 = $('.sp-slider').height();
+			$( '.sp-slider-photo-view' ).height(h2);
+		}
 	});
 };
-console.log('ver1');
+console.log('ver2');
 $(document).mouseup(function(e) {
-    	var container1 = $(".ms-slide-bgcont");
-	var container2 = $(".ms-thumb-list");
-	var container3 = $(".sp-slider-photo-view");
-    	if (!container1.is(e.target) && container1.has(e.target).length === 0 && !container2.is(e.target) && container2.has(e.target).length === 0 && !container3.is(e.target) && container3.has(e.target).length === 0) {
-        	HidePhotoView();
-    	}
+	if ($( '.sp-slider-photo-view' ).hasClass('active')) {
+		var container1 = $(".ms-slide-bgcont");
+		var container2 = $(".ms-thumb-list");
+		var container3 = $(".sp-slider-photo-view");
+		if (!container1.is(e.target) && container1.has(e.target).length === 0 && !container2.is(e.target) && container2.has(e.target).length === 0 && !container3.is(e.target) && container3.has(e.target).length === 0) {
+			HidePhotoView();
+		}
+	}
 });
 
 /*Pop up add to cart
