@@ -205,27 +205,23 @@ if ( $('.sp-slider-photo-view').length ) {
 	$(window).load ( function () {
 		if ($( '.sp-slider-photo-view' ).hasClass('active')) {
 	    		$( '.sp-slider-photo-view' ).height(0);
-			console.log('hasclass');
 		}
 		else {
 			var h2 = $('.ms-slide-bgcont').height();
 			$( '.sp-slider-photo-view' ).height(h2);
-			console.log('dont have class');
 		}
 	});  
 	$(window).on('resize', function(){
 	    	if ($( '.sp-slider-photo-view' ).hasClass('active')) {
 	    		$( '.sp-slider-photo-view' ).height(0);
-			console.log('hasclass');
 		}
 		else {
 			var h2 = $('.ms-slide-bgcont').height();
 			$( '.sp-slider-photo-view' ).height(h2);
-			console.log('dont have class');
 		}
 	});
 };
-console.log('ver5');
+
 $(document).mouseup(function(e) {
 	if ($( '.sp-slider-photo-view' ).hasClass('active')) {
 		var container1 = $(".ms-slide-bgcont");
