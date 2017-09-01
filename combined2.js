@@ -1214,8 +1214,10 @@ $(document).ready(function(){
 		$('.container .page-heading h3:contains("Pod tym adresem nie ma produktu")').parent().addClass('no-product');
 	}
 	/* Change img when default */
-	if ($('.item .thumb img').attr('src') == '/assets/missing/shop/products_images_medium.png') {
-		console.log('change src');
-		$this.attr('src','https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/placeholder.svg');
-	}
+	$('img').each(function() {
+		if ($(this).attr('src') == '/assets/missing/shop/products_images_medium.png') {
+			console.log('change src');
+			$(this).attr('src','https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/placeholder.svg');
+		}
+	});
 });
