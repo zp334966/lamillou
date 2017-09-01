@@ -201,28 +201,34 @@ function HidePhotoView() {
 $( '.sp-slider-photo-view' ).click(photoView);
 $( '#exit-photo-view' ).click(HidePhotoView);
 //$( '.canvas-photo-view' ).click(HidePhotoView);
+var h2 = $('.sp-slider').height();
+$( '.sp-slider-photo-view' ).height(h2);
 
 if ( $('.sp-slider-photo-view.active').length ) {
 	$(window).load ( function () {
 		if ($( '.sp-slider-photo-view' ).hasClass('active')) {
 	    		$( '.sp-slider-photo-view' ).height(0);
+			console.log('hasclass');
 		}
 		else {
 			var h2 = $('.sp-slider').height();
 			$( '.sp-slider-photo-view' ).height(h2);
+			console.log('dont have class');
 		}
 	});  
 	$(window).on('resize', function(){
 	    	if ($( '.sp-slider-photo-view' ).hasClass('active')) {
 	    		$( '.sp-slider-photo-view' ).height(0);
+			console.log('hasclass');
 		}
 		else {
 			var h2 = $('.sp-slider').height();
 			$( '.sp-slider-photo-view' ).height(h2);
+			console.log('dont have class');
 		}
 	});
 };
-console.log('ver2');
+console.log('ver3');
 $(document).mouseup(function(e) {
 	if ($( '.sp-slider-photo-view' ).hasClass('active')) {
 		var container1 = $(".ms-slide-bgcont");
