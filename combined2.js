@@ -1081,7 +1081,7 @@ $(document).ready(function(){ */
         var p = $(this).detach();
 	$( '#cart-dropdown .products-scroll' ).append(p);
       });
-      var h = $(window).height() - 320;
+      var h = $(window).height() - 430;
       if ( $(window).height() < $( '#cart-dropdown' ).height() + 100 ) {
         $( '#cart-dropdown .products-scroll' ).css( "height", h );
       } else {
