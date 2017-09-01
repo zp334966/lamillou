@@ -119,7 +119,7 @@ $( document ).ready(function() {
 
 /* Load more relate products
 *************************************************/ 
-console.log('ver2');
+console.log('ver3');
 var heightAtStart = 0;
 var originalHeight; 
   
