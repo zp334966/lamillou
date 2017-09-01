@@ -174,9 +174,9 @@ $( document ).ready(function() {
     $paypal.addClass('payment-gateway-paypal');
     $paypal.html('<img class="paypal" alt="PayU">');     
 
-    //var $przelewy24 = $('#payment_kind_selector option[value=przelewy24]');
+    var $przelewy24 = $('#payment_kind_selector option[value=przelewy24]');
     
-    //$przelewy24.html('<img class="przelewy24" alt="Przelewy24" src=""/>');
+    $przelewy24.html('<img class="przelewy24" alt="Przelewy24" src="https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/ikonki%20-%20zakupy/logo-przelewy-24.svg"/>');
     
     
     $('input[name="shop_order[personal_data_clause]"]').each(function() {
