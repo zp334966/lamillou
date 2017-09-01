@@ -565,6 +565,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     padding: 14px 0 4px 21px;
     margin: 0;
 }
+#cart-dropdown .products-scroll {
+    overflow-y: auto;
+}
 #cart-dropdown .cart-dropdown-image {
     width: 74px;
     margin: 2px 7px 8px 0;
