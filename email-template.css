@@ -24,6 +24,7 @@ p {
 }
 img.delivery {
   max-height: 228px;
+  max-width: 100%;
 }
 .bolder {
   font-weight: 600; 
