@@ -1217,7 +1217,7 @@ $(document).ready(function(){
 	$('img').each(function() {
 		if ($(this).attr('src') == '/assets/missing/shop/products_images_medium.png') {
 			console.log('change src');
-			putPlaceholderProduct($(this));
+			putPlaceholderProduct(this);
 		}
 	});
 });
