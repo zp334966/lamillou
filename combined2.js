@@ -1080,14 +1080,14 @@ $(document).ready(function(){ */
       $('#cart-dropdown a.row').each(function() { 
         var p = $(this).detach();
 	$( '#cart-dropdown .products-scroll' ).append(p);
-      });
-      var h = $(window).height() - 430;
-      if ( $(window).height() < $( '#cart-dropdown' ).height() + 100 ) {
-        $( '#cart-dropdown .products-scroll' ).css( "height", h );
-      } else {
-	$( '#cart-dropdown .products-scroll' ).css( "height", "auto" );   
-      }
+      });      
     };
+    var h = $(window).height() - 430;
+    if ( $(window).height() < $( '#cart-dropdown' ).height() + 100 ) {
+      $( '#cart-dropdown .products-scroll' ).css( "height", h );
+    } else {
+      $( '#cart-dropdown .products-scroll' ).css( "height", "auto" );   
+    }
     if ( $('#cart-dropdown').text().indexOf("Koszyk jest pusty") != -1 ){
       $('#cart-dropdown p').hide();
       if (! $( '#cart-dropdown .empty-cart' ).length ) {
