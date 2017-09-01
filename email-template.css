@@ -52,5 +52,14 @@ img.delivery {
   font-weight: 600; 
 }
 footer {
+  margin-top: 55px;
   background: #16407D;
+  padding-top: 48px;
+  padding-bottom: 83px;
+}
+footer p {
+  font-size: 13px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 25px;
 }
