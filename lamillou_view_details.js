@@ -208,7 +208,7 @@ if ( $('.sp-slider-photo-view').length ) {
 			console.log('hasclass');
 		}
 		else {
-			var h2 = $('.sp-slider').height();
+			var h2 = $('.ms-slide-bgcont').height();
 			$( '.sp-slider-photo-view' ).height(h2);
 			console.log('dont have class');
 		}
@@ -219,13 +219,13 @@ if ( $('.sp-slider-photo-view').length ) {
 			console.log('hasclass');
 		}
 		else {
-			var h2 = $('.sp-slider').height();
+			var h2 = $('.ms-slide-bgcont').height();
 			$( '.sp-slider-photo-view' ).height(h2);
 			console.log('dont have class');
 		}
 	});
 };
-console.log('ver4');
+console.log('ver5');
 $(document).mouseup(function(e) {
 	if ($( '.sp-slider-photo-view' ).hasClass('active')) {
 		var container1 = $(".ms-slide-bgcont");
