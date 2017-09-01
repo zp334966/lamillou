@@ -1786,10 +1786,10 @@ div.page-heading.center, div.page-heading {
     .product_right_tab #learn-more img {
         padding-top: 2.5px;
         padding-bottom: 2.5px;
-        -webkit-transition: 1s ease-in-out;
-        -moz-transition: 1s ease-in-out;
-        -o-transition: 1s ease-in-out;
-        transition: 1s ease-in-out;
+        -webkit-transition: 0.3s ease-in-out;
+        -moz-transition: 0.3s ease-in-out;
+        -o-transition: 0.3s ease-in-out;
+        transition: 0.3s ease-in-out;
     }
     .sp-slider .ms-thumb-list {
         margin-right: 0;
