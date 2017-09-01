@@ -482,7 +482,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .mega-open a {
     border-bottom: 5px solid #15407D;
 }
-.menu ul li.has-mega-menu div.subcategories a {
+.menu ul li.has-mega-menu div.subcategories a, .menu ul li.has-mega-menu a.without-category {
     font-size: 12px!important;
     letter-spacing: 0;
     line-height: 18px!important;
