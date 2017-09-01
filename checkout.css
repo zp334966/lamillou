@@ -844,6 +844,9 @@ div#order_last_step div#show_order_products_block {
   margin-top: -3px;
   margin-bottom: 29px; 
 }
+#shop_order_form .credit_cards label {
+  height: 40px;
+}
 #shop_order_delivery_form label[for='shop_order[delivery_option_id]'], 
 #shop_order_form .credit_cards label[for='shop_order[delivery_option_id]'] {
   margin-top: -2px; 
@@ -879,6 +882,8 @@ div#order_last_step div#show_order_products_block {
 #shipping_payments_terms #payment_kind_selector label.payment-gateway-payu img.payu,
 #shipping_payments_terms #payment_kind_selector label.payment-gateway-payu img.payu::after {
     content: url(https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/logo_PayU.svg);
+    height: 23px;
+    width: 46px;
 }
 #shipping_payments_terms #payment_kind_selector label.payment-gateway-payu img.payu::before {
     display: none;
@@ -890,6 +895,10 @@ div#order_last_step div#show_order_products_block {
 #shipping_payments_terms #payment_kind_selector label.payment-gateway-paypal img.paypal::before,
 #shipping_payments_terms #payment_kind_selector:after {
     display: none;   
+}
+#shipping_payments_terms #payment_kind_selector img.przelewy24 {
+    height: 30px;
+    width: 85.7px;
 }
 #shipping_payments_terms input {
     border: 1px solid #d0d9e5;
