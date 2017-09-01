@@ -875,11 +875,12 @@ div.page-heading.center, div.page-heading {
     position: absolute;
     cursor: pointer;
 }
+/*
 @media (min-width: 992px) {
     .photo-view-active, .sp-slider-photo-view {
         height: 714px!important;
     }
-}
+}*/
 .photo-view-active .sp-slider {
     margin: 7px -4px -4px -4px;
 }
