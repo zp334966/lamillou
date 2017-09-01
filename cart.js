@@ -156,6 +156,7 @@ $( document ).ready(function() {
       if ( delivery.indexOf("Odbiór osobisty") != -1 ){   
         var preIndex = delivery.indexOf("(");
         names = [ delivery.substring(0, preIndex), delivery.substring(preIndex) ];
+        names[0] = names[0].replace('(', '').replace(')','');
       } 
       if ( delivery.indexOf("Poczta Polska") != -1 ){  
         names = delivery.split('-');
