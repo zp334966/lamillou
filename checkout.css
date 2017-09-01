@@ -845,7 +845,7 @@ div#order_last_step div#show_order_products_block {
   margin-bottom: 29px; 
 }
 #shop_order_form .credit_cards label {
-  height: 40px;
+  height: 54px;
 }
 #shop_order_delivery_form label[for='shop_order[delivery_option_id]'], 
 #shop_order_form .credit_cards label[for='shop_order[delivery_option_id]'] {
