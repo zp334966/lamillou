@@ -1,3 +1,8 @@
+.container {
+  padding-left: 43px;
+  padding-right: 43px;
+}
+
 h1 {
   font-family: 'Open Sans';
   font-weight: 600;
@@ -18,5 +23,5 @@ p {
   margin-bottom: 42px;
 }
 img.delivery {
-  max-height: 365px;
+  max-height: 228px;
 }
