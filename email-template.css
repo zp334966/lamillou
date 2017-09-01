@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Besom;
+    src: url(https://www.dropbox.com/s/f6qvv4e5x8ahexb/Besom-extended.ttf?dl=0);
+}
+
 .container {
   padding-left: 43px;
   padding-right: 43px;
@@ -10,6 +15,13 @@ h1 {
   color: #16407D;
   letter-spacing: 0;
   line-height: 24px;
+}
+h2 {
+  font-family: Besom;
+  font-size: 24px;
+  color: #FFFFFF;
+  letter-spacing: 0.6px;
+  line-height: 50px;  
 }
 h5 {
   font-family: 'Open Sans';
@@ -38,4 +50,7 @@ img.delivery {
 }
 .bolder {
   font-weight: 600; 
+}
+footer {
+  background: #16407D;
 }
