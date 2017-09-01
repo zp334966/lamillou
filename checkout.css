@@ -922,7 +922,9 @@ div#order_last_step div#show_order_products_block {
 #shop_order_acceptations_block a {
   text-decoration: underline; 
 }
-
+#shop_order_acceptations_block a:focus, #shop_order_acceptations_block a:hover {
+  opacity: var(--opacity-hover);
+}
 #refund {
   padding: 3% 20%; 
 }
