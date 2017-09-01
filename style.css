@@ -1766,7 +1766,7 @@ div.page-heading.center, div.page-heading {
         overflow: hidden;
         margin-bottom: 22px;
     }
-    .product_right_tab #learn-more, .product_right_tab #learn-more-undo {
+    .product_right_tab #learn-more {
         font-size: 14px;
         color: #16407D;
         letter-spacing: 0;
@@ -1774,26 +1774,22 @@ div.page-heading.center, div.page-heading {
         cursor: pointer;
         padding-bottom: 22px;
         font-weight: 700;
-        -webkit-transition: 0.5s ease-in-out;
-        -moz-transition: 0.5s ease-in-out;
-        -o-transition: 0.5s ease-in-out;
-        transition: 0.5s ease-in-out;
+    }
+    .product_right_tab #learn-more span {
+        width: 60px;
+        display: inline-block;
     }
     .product_right_tab #learn-more:hover, .product_right_tab #learn-more-undo:hover, 
     .product_right_tab #learn-more:focus, .product_right_tab #learn-more-undo:focus {
         opacity: var(--opacity-hover)!important;
     }
     .product_right_tab #learn-more img {
-        padding-left: 12px;
-        padding-right: 12px;
-    }
-    .product_right_tab #learn-more-undo img {
-        padding-right: 12px;
-        -o-transform: rotate(180deg);
-        -webkit-transform: rotate(180deg);
-        -moz-transform: rotate(180deg);
-        -ms-transform: rotate(180deg);
-        transform: rotate(180deg);
+        padding-top: 2.5px;
+        padding-bottom: 2.5px;
+        -webkit-transition: 1s ease-in-out;
+        -moz-transition: 1s ease-in-out;
+        -o-transition: 1s ease-in-out;
+        transition: 1s ease-in-out;
     }
     .sp-slider .ms-thumb-list {
         margin-right: 0;
