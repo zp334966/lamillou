@@ -1083,9 +1083,9 @@ $(document).ready(function(){ */
       });
       var h = $(window).height() - 320;
       if ( $(window).height() < $( '#cart-dropdown' ).height() + 100 ) {
-        //$( '#cart-dropdown .products-scroll' ).( "height", h );
+        $( '#cart-dropdown .products-scroll' ).css( "height", h );
       } else {
-	//$( '#cart-dropdown .products-scroll' ).css( "height", "auto" );   
+	$( '#cart-dropdown .products-scroll' ).css( "height", "auto" );   
       }
     };
     if ( $('#cart-dropdown').text().indexOf("Koszyk jest pusty") != -1 ){
