@@ -1213,4 +1213,9 @@ $(document).ready(function(){
 		$('.container .page-heading h3:contains("Pod tym adresem nie ma produktu")').after('<div class="cms_user_profile"><div class="photo"><img src="https://cdn.rawgit.com/joanna16/lamillou/81b129e0/Group%208.svg"></div></div>');	
 		$('.container .page-heading h3:contains("Pod tym adresem nie ma produktu")').parent().addClass('no-product');
 	}
+	/* Change img when default */
+	if ($('.item .thumb img').attr('src') == '/assets/missing/shop/products_images_medium.png') {
+		console.log('change src');
+		$this.attr('src','https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/placeholder.svg');
+	}
 });
