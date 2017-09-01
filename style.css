@@ -1774,6 +1774,10 @@ div.page-heading.center, div.page-heading {
         cursor: pointer;
         padding-bottom: 22px;
         font-weight: 700;
+        -webkit-transition: 0.5s ease-in-out;
+        -moz-transition: 0.5s ease-in-out;
+        -o-transition: 0.5s ease-in-out;
+        transition: 0.5s ease-in-out;
     }
     .product_right_tab #learn-more:hover, .product_right_tab #learn-more-undo:hover, 
     .product_right_tab #learn-more:focus, .product_right_tab #learn-more-undo:focus {
@@ -1781,6 +1785,7 @@ div.page-heading.center, div.page-heading {
     }
     .product_right_tab #learn-more img {
         padding-left: 12px;
+        padding-right: 12px;
     }
     .product_right_tab #learn-more-undo img {
         padding-right: 12px;
