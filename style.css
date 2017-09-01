@@ -2137,9 +2137,9 @@ div.page-404 p {
     visibility: visible!important;
 }
 
-img {
+#products img {
     visibility: hidden!important;
 }
-img.after-transform {
+#products img.after-transform {
     visibility: visible!important;
 }
