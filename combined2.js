@@ -1081,6 +1081,12 @@ $(document).ready(function(){ */
         var p = $(this).detach();
 	$( '#cart-dropdown .products-scroll' ).append(p);
       });
+      var h = $(window).height() - 320;
+      if ( $(window).height() < $( '#cart-dropdown' ).height() + 100 ) {
+        $( '#cart-dropdown .products-scroll' ).( "height", h );
+      } else {
+	$( '#cart-dropdown .products-scroll' ).css( "height", "auto" );   
+      }
     };
     if ( $('#cart-dropdown').text().indexOf("Koszyk jest pusty") != -1 ){
       $('#cart-dropdown p').hide();
