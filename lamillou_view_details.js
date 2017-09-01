@@ -200,11 +200,8 @@ function HidePhotoView() {
 
 $( '.sp-slider-photo-view' ).click(photoView);
 $( '#exit-photo-view' ).click(HidePhotoView);
-//$( '.canvas-photo-view' ).click(HidePhotoView);
-var h2 = $('.sp-slider').height();
-$( '.sp-slider-photo-view' ).height(h2);
 
-if ( $('.sp-slider-photo-view.active').length ) {
+if ( $('.sp-slider-photo-view').length ) {
 	$(window).load ( function () {
 		if ($( '.sp-slider-photo-view' ).hasClass('active')) {
 	    		$( '.sp-slider-photo-view' ).height(0);
@@ -228,7 +225,7 @@ if ( $('.sp-slider-photo-view.active').length ) {
 		}
 	});
 };
-console.log('ver3');
+console.log('ver4');
 $(document).mouseup(function(e) {
 	if ($( '.sp-slider-photo-view' ).hasClass('active')) {
 		var container1 = $(".ms-slide-bgcont");
