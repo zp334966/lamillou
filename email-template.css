@@ -4,5 +4,19 @@ h1 {
   font-size: 20px;
   color: #16407D;
   letter-spacing: 0;
+  line-height: 24px;
+}
+p {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  color: #243C5E;
+  letter-spacing: 0;
   line-height: 20px;
+}
+.logo {
+  margin-left: 20px;  
+  margin-bottom: 42px;
+}
+img.delivery {
+  max-height: 365px;
 }
