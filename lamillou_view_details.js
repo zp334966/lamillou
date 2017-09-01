@@ -160,12 +160,12 @@ $('#learn-more').toggle(function() {
 	console.log('111');
 	$('.product_right_tab .block-devider .tab-pane').animate({ height: originalHeight }, 300);
     	$('.product_right_tab .block-devider .tab-pane').height('auto');
-	$(this).find('img').rotate({ endDeg:180, persist:true });
+	$('#learn-more img').css("transform", "rotate(180deg)");
   }, function() {
 	console.log('222');
 	$('#learn-more').show();
     	$('.product_right_tab .block-devider .tab-pane').animate({ height: heightAtStart }, 300);
-	$(this).find('img').rotate({ endDeg:360 });
+	$('#learn-more img').css("transform", "rotate(180deg)");
 });
 /*
 $('#learn-more-undo').on("click", function(e) {
