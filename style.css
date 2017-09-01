@@ -958,7 +958,7 @@ div.page-heading.center, div.page-heading {
     }
 }
 @media (max-width: 991px) and (min-width: 373px){
-    .catalog-grid.grid-sm .item {
+    .proposed-products .catalog-grid.grid-sm .item {
         width: 173px;
         box-sizing: content-box;
     }
