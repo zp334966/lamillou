@@ -1217,7 +1217,7 @@ $(document).ready(function(){
 	$('img').each(function() {
 		if ($(this).attr('src') == '/assets/missing/shop/products_images_medium.png') {
 			console.log('change src');
-			$(this).attr('src','https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/placeholder.svg');
+			putPlaceholderProduct($(this));
 		}
 	});
 });
