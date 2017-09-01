@@ -1219,5 +1219,6 @@ $(document).ready(function(){
 			console.log('change src');
 			putPlaceholderProduct(this);
 		}
+		$(this).addClass('after-transform');
 	});
 });
