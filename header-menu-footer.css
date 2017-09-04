@@ -83,7 +83,7 @@
     padding-left: 19px;
     padding-right: 20px;
 }
-.mobile-navi-menu ul li img, .mobile-navi ul li img {
+.mobile-navi-menu ul li img, .mobile-navi ul li arrow-open.img {
     position: absolute;
     top: 0;
     right: 0;
@@ -95,7 +95,7 @@
     transition: 0.3s ease-in-out;
     z-index: -1;
 }
-.mobile-navi-menu ul li.active img, .mobile-navi ul li.active img {
+.mobile-navi-menu ul li.active img, .mobile-navi ul li.active arrow-open.img {
     transform: rotate(180deg);
 }
 #nav-toggle {
