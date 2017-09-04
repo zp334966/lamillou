@@ -33,6 +33,7 @@
     width: 28px;
     padding-top: 9px;
 }
+
 .mobile-navi .mobile-search {
     border:none;
     padding: 11px 12px 0 10px;
@@ -81,6 +82,20 @@
 .mobile-navi-menu {
     padding-left: 19px;
     padding-right: 20px;
+}
+.mobile-navi-menu ul li img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: rotate(0deg);
+    padding: 19.5px 6px 19.5px 6px;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+.mobile-navi-menu ul li.active img {
+    transform: rotate(180deg);
 }
 #nav-toggle {
     top: 10px !important;
