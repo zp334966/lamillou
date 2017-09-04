@@ -276,8 +276,8 @@ headroom.init();
       $(this).siblings('ul').removeClass('open');
       $(this).parent().removeClass('active');
     } else {
-      $(this).parent().siblings('li').removeClass('active');
-      $(this).parent().siblings('li').find('ul').removeClass('open');
+      //$(this).parent().siblings('li').removeClass('active');
+      //$(this).parent().siblings('li').find('ul').removeClass('open');
       $(this).siblings('ul').toggleClass('open');
       $(this).parent().toggleClass('active');
     }
