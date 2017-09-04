@@ -365,7 +365,7 @@ header {
     margin: 10px 0px 10px 0px;
 }
 .header-toolbar .tools li a {
-    text-transform: capitalize;
+    text-transform: none;
     font-size: 12px;
     font-weight: 600;
     letter-spacing: 0.3px;   
