@@ -1012,6 +1012,9 @@ footer.footer a:focus img, footer.footer a:hover img {
     .footer .mobile-navi {
         margin-top: 34px;
     }
+    .footer .mobile-navi .arrow-open {
+        display: none;
+    }
     .footer .mobile-navi ul li h5, footer.footer h3 {
         font-family: Besom;
         font-size: 24px !important;
