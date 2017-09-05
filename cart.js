@@ -63,15 +63,17 @@ function showCheckoutProgress()
     $('#order-steps').html('<div class="step-address '+$address_active+'"><a href="javascript:history.back()">1. Adres</a></div>\
                             <div class="step-summary '+$summary_active+'">2. Podsumowanie</div>');   
 }
-/*
+
 function updateSelectDelivery() 
 {
-    var deliveryId = $('#shop_order_delivery_form .iradio_minimal-blue.checked input').val();
-    var deliveryIdSel = 
-    console.log(deliveryId);  
+    var deliveryId = $('#form1 #shop_order_delivery_form .iradio_minimal-blue.checked input').val();
+    var deliveryIdSel = $('select#shop_order_delivery_option_id').find(":selected").val();
+    if (deliveryId != deliveryIdSel) {
+        console.log(deliveryId);  
+    }
 };  
   
-*/
+
 $( document ).ready(function() {   
 
     $('#cart-totals .cart-totals').html('<div class="row cart-totals-label">PODSUMOWANIE</div>' + $('#cart-totals .cart-totals').html());
@@ -210,6 +212,9 @@ $( document ).ready(function() {
     
     $('.page').show();
     
+    if ($( '#shop_order_delivery_form' ).length ){
+        var intervalUpdateSelectDelivery = setInterval(updateSelectDelivery, 100);
+    }
     
 });
 
