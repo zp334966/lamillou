@@ -1079,10 +1079,10 @@ $(document).ready(function(){ */
       $('#cart-dropdown .totals div.row').last().prepend( '<a id="finalize-order" class="btn btn-lg btn-primary btn-block" href="/app/shop/order/new_order">Finalizuj zamówienie</a>' );   
     };
     if ( !$( '#cart-dropdown .products-scroll' ).length ){
-      $('#cart-dropdown h4').after( "<div class='products-scroll'></div>" ); 
+      $('#cart-dropdown h4').after( "<div class='products-scroll'><div class='products-scroll-inner'></div></div>" ); 
       $('#cart-dropdown a.row').each(function() { 
         var p = $(this).detach();
-	$( '#cart-dropdown .products-scroll' ).append(p);
+	$( '#cart-dropdown .products-scroll-inner' ).append(p);
       });      
     };
     var h = $(window).height() - 507;
@@ -1090,7 +1090,7 @@ $(document).ready(function(){ */
       $( '#cart-dropdown .products-scroll' ).css( "height", "auto" ); 	    
     } else {
       $( '#cart-dropdown .products-scroll' ).css( "height", h );
-      $( '#cart-dropdown .products-scroll' ).addClass('scroll');  
+      $( '#cart-dropdown .products-scroll' ).addClass('scroll'); 
     }
     if ( $('#cart-dropdown').text().indexOf("Koszyk jest pusty") != -1 ){
       $('#cart-dropdown p').hide();
