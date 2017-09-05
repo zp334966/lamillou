@@ -150,6 +150,7 @@ $( document ).ready(function() {
     $('label[for="shop_order[payment_kind]"]').each(function() { 
       if ( $(this).text().indexOf("Płatność przy odbiorze") != -1 ){
         $(this).hide();
+        $(this).prev().hide();
       } 
     });   
 /**********/
