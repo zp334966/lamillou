@@ -137,6 +137,7 @@ $( document ).ready(function() {
             });            
         });
         //$select.remove();
+        $select.css( "visibility", "hidden" ).css("position", "absolute").css("z-index", "-1000");
     });   
     
     // prettify checkboxes
