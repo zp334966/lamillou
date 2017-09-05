@@ -68,15 +68,14 @@ function updateRadioPayment() {
     $('select#shop_order_payment_kind option').each(function() { 
         var v = $(this).val();
         var test = $('#form1 #payment_kind_selector input[value="' + v + '"]').parent();
-        console.log(test.html());
         if ($(this).css('display') == 'none') {
-            test.addClass('nn');
-            test.next().addClass('nn');
-            test.next().next().addClass('nn');
+            test.hide();
+            test.next().hide();
+            test.next().next().hide();
         } else {
-            test.addClass('ww');
-            test.next().addClass('ww');
-            test.next().next().addClass('ww');
+            test.show();
+            test.next().show();
+            test.next().next().show();
         }        
     });      
 }
