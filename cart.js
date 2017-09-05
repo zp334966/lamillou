@@ -85,9 +85,10 @@ function updateSelectDelivery()
 {
     var deliveryId = $('#form1 #shop_order_delivery_form .iradio_minimal-blue.checked input').val();
     var deliveryIdSel = $('select#shop_order_delivery_option_id').find(":selected").val();
-    if (deliveryId != deliveryIdSel) {
+    if (deliveryId != deliveryIdSel || $('#form1 #shop_order_delivery_form').attr('updated') != 'true' ) {
         $('select#shop_order_delivery_option_id').val(deliveryId).change();
         updateRadioPayment();
+        $('#form1 #shop_order_delivery_form').attr('updated', 'true');
         console.log(deliveryId);  
     }
 };  
