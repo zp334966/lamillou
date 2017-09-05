@@ -64,12 +64,21 @@ function showCheckoutProgress()
                             <div class="step-summary '+$summary_active+'">2. Podsumowanie</div>');   
 }
 
+function updateRadioPayment() {
+    $('select#shop_order_payment_kind option').each(function() { 
+        var v = $(this).val();
+        var test = $('#form1 #payment_kind_selector').val(v).parent();
+        console.log(test.html());
+    });      
+}
+
 function updateSelectDelivery() 
 {
     var deliveryId = $('#form1 #shop_order_delivery_form .iradio_minimal-blue.checked input').val();
     var deliveryIdSel = $('select#shop_order_delivery_option_id').find(":selected").val();
     if (deliveryId != deliveryIdSel) {
         $('select#shop_order_delivery_option_id').val(deliveryId).change();
+        updateRadioPayment();
         console.log(deliveryId);  
     }
 };  
