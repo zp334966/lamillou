@@ -146,6 +146,13 @@ $( document ).ready(function() {
         increaseArea: '20%'
     });
 
+/* usuwanie platnosci przy odbiorze */
+    $('label[for="shop_order[payment_kind]"]').each(function() { 
+      if ( $(this).text().indexOf("Płatność przy odbiorze") != -1 ){
+        $(this).hide();
+      } 
+    });   
+/**********/
     
     $('label[for="shop_order[delivery_option_id]"]').each(function() { 
       var delivery = $(this).text();
