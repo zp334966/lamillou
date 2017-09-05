@@ -695,7 +695,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     width: 50%;
 }
 #cart-dropdown .totals .row:first-child {
-    padding-top: 34px;
+    padding-top: 17px;
     padding-bottom: 5px;
 }
 #cart-dropdown .totals .row:last-child {
@@ -707,7 +707,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color: #16407D;
     letter-spacing: 0.38px;
     line-height: 50px;
-    padding-bottom: 9px;
+    padding-bottom: 0px;
+    margin-bottom: -10px;
 }
 #cart-dropdown .row.sum::before { /*test*/
     content: "";
