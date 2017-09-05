@@ -141,8 +141,11 @@ $( document ).ready(function() {
                 increaseArea: '20%'
             });            
         });
-        $select.remove();
-        //$select.css( "visibility", "hidden" ).css("position", "absolute").css("z-index", "-1000");
+        //$select.remove();
+        $select.css( "visibility", "hidden" ).css("position", "absolute").css("z-index", "-1000");
+        var s = $select.detach();
+        $("form#form1.new_shop_order").before(s);
+        
     });   
     
     // prettify checkboxes
