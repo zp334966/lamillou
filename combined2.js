@@ -1086,11 +1086,12 @@ $(document).ready(function(){ */
       });      
     };
     var h = $(window).height() - 507;
-    if ( $(window).height() >= $( '#cart-dropdown' ).height() + 100  && !$( '#cart-dropdown .products-scroll' ).hasClass('scroll') ) {
+   // if ( $(window).height() >= $( '#cart-dropdown' ).height() + 100  && !$( '#cart-dropdown .products-scroll' ).hasClass('scroll') ) {
+    if (h >= $( '#cart-dropdown .products-scroll-inner' ).height() ) {
       $( '#cart-dropdown .products-scroll' ).css( "height", "auto" ); 	    
     } else {
       $( '#cart-dropdown .products-scroll' ).css( "height", h );
-      $( '#cart-dropdown .products-scroll' ).addClass('scroll'); 
+      //$( '#cart-dropdown .products-scroll' ).addClass('scroll'); 
     }
     if ( $('#cart-dropdown').text().indexOf("Koszyk jest pusty") != -1 ){
       $('#cart-dropdown p').hide();
