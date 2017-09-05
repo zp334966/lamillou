@@ -655,7 +655,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     background-color: white !important;
     border: solid 2px #16407d!important;
     padding: 12px 3px 14px 3px!important;
-    margin-bottom: 22px!important;
+    margin-bottom: 5px!important;
     margin-top: 12px!important;
 }
 #cart-dropdown #finalize-order + a:hover, #cart-dropdown #finalize-order + a:focus {
@@ -676,7 +676,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     transition-timing-function: ease;
 }
 #cart-dropdown .totals {
-    padding: 0 0 11px 0;
+    padding: 0 0 0 0;
     font-size: 14px;
     letter-spacing: 0.35px;
     margin-top: 10px;
