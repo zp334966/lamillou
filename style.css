@@ -675,6 +675,7 @@ div.page-heading.center, div.page-heading {
     float: right;
     bottom: 0;
     z-index: 1;
+    text-transform: uppercase!important;
 }
 .pagination strong {
     background: #16407D;
