@@ -136,7 +136,7 @@ $( document ).ready(function() {
                 increaseArea: '20%'
             });            
         });
-        $select.remove();
+        //$select.remove();
     });   
     
     // prettify checkboxes
