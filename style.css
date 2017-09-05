@@ -638,7 +638,7 @@ div.page-heading.center, div.page-heading {
     /*text-transform: uppercase;*/
 }
 .product_discount_price {
-    text-transform: lowercase;
+    text-transform: lowercase!important;
 }
 .price-promotion,  .price-promotion h3{
     color: #F1001D !important;
