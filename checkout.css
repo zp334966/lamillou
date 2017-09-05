@@ -876,9 +876,6 @@ div#order_last_step div#show_order_products_block {
 #shipping_payments_terms #payment_kind_selector label.payment-gateway-payu {
     margin-top: -7px; 
 }
-#shipping_payments_terms #payment_kind_selector label.payment-gateway-paypal {
-    margin-top: -2px; 
-}
 #shipping_payments_terms #payment_kind_selector label.payment-gateway-payu img.payu,
 #shipping_payments_terms #payment_kind_selector label.payment-gateway-payu img.payu::after {
     content: url(https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/logo_PayU.svg);
