@@ -67,7 +67,7 @@ function showCheckoutProgress()
 function updateRadioPayment() {
     $('select#shop_order_payment_kind option').each(function() { 
         var v = $(this).val();
-        var test = $('#form1 #payment_kind_selector').val(v).parent();
+        var test = $('#form1 #payment_kind_selector input[value="' + v + '"]').parent();
         console.log(test.html());
         if ($(this).css('display') == 'none') {
             test.addClass('nn');
