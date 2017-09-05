@@ -63,10 +63,15 @@ function showCheckoutProgress()
     $('#order-steps').html('<div class="step-address '+$address_active+'"><a href="javascript:history.back()">1. Adres</a></div>\
                             <div class="step-summary '+$summary_active+'">2. Podsumowanie</div>');   
 }
-
+/*
+function updateSelectDelivery() 
+{
+    var deliveryId = $('#shop_order_delivery_form .iradio_minimal-blue.checked input').val();
+    var deliveryIdSel = 
+    console.log(deliveryId);  
+};  
   
-  
-
+*/
 $( document ).ready(function() {   
 
     $('#cart-totals .cart-totals').html('<div class="row cart-totals-label">PODSUMOWANIE</div>' + $('#cart-totals .cart-totals').html());
@@ -136,8 +141,8 @@ $( document ).ready(function() {
                 increaseArea: '20%'
             });            
         });
-        //$select.remove();
-        $select.css( "visibility", "hidden" ).css("position", "absolute").css("z-index", "-1000");
+        $select.remove();
+        //$select.css( "visibility", "hidden" ).css("position", "absolute").css("z-index", "-1000");
     });   
     
     // prettify checkboxes
