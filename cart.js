@@ -69,6 +69,7 @@ function updateSelectDelivery()
     var deliveryId = $('#form1 #shop_order_delivery_form .iradio_minimal-blue.checked input').val();
     var deliveryIdSel = $('select#shop_order_delivery_option_id').find(":selected").val();
     if (deliveryId != deliveryIdSel) {
+        $('select#shop_order_delivery_option_id').val(deliveryId).change();
         console.log(deliveryId);  
     }
 };  
