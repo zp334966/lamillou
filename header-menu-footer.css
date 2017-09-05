@@ -650,13 +650,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     margin: auto !important;
     margin-top: 27px !important;
 }
-#finalize-order + a {
+#cart-dropdown #finalize-order + a {
     color: #16407d !important;
     background-color: white !important;
     border: solid 2px #16407d!important;
     padding: 12px 3px 14px 3px!important;
 }
-#finalize-order + a:hover, #finalize-order + a:focus {
+#cart-dropdown #finalize-order + a:hover, #cart-dropdown #finalize-order + a:focus {
     border: none !important;
     color: white !important;
     background-color: #16407d !important;
