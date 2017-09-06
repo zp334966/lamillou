@@ -1085,17 +1085,7 @@ $(document).ready(function(){ */
         var p = $(this).detach();
 	$( '#cart-dropdown .products-scroll-inner' ).append(p);
       });      
-    };
-	  /*
-    var h = $(window).height() - 442;
-    if ( $( '#cart-dropdown .products-scroll-inner' ).length ){ 
-        if (h >= $( '#cart-dropdown .products-scroll-inner' ).height() ) {
-          $( '#cart-dropdown .products-scroll' ).css( "height", "auto" ); 	    
-        } else {
-          $( '#cart-dropdown .products-scroll' ).css( "height", h ); 
-        }
-    }*/
-	  
+    };	  
     if ( $('#cart-dropdown').text().indexOf("Koszyk jest pusty") != -1 ){
       $('#cart-dropdown p').hide();
       if (! $( '#cart-dropdown .empty-cart' ).length ) {
