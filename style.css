@@ -1124,7 +1124,8 @@ div.page-heading.center, div.page-heading {
     font-size: 14px;
     color: #243c5e;
     letter-spacing: 0;
-    line-height: 20px !important;  
+    line-height: 20px !important;
+    FONT-WEIGHT: NORMAL;
 }
 .par_content p b {
     font-weight: 600;
