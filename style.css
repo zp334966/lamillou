@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Besom2;
-    src: url(https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/fonts/Besom-extended.otf) format("opentype");
+    font-family: Besom;
+    src: url('https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/fonts/Besom-extended.otf') format("opentype");
 	src:url('https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/fonts/Besom-extended.eot'), /* IE9 Compat Modes */
 		url('https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/fonts/Besom-extended.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
 		url('https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/fonts/Besom-extended.woff2') format('woff2'), /* Super Modern Browsers */
