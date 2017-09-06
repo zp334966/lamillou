@@ -151,8 +151,9 @@ function emptyCart() {
   if (b === 'Koszyk jest pusty') {
     emptyCartElements();   
     $('#empty-cart .page-heading h2').hide();
-    $( '#empty-cart .page-heading h3' ).text('TWOJE ZAMÓWIENIE');
+    $('#empty-cart .page-heading h3' ).text('TWOJE ZAMÓWIENIE');
     $('#empty-cart .page-heading .btn').attr('style','display:none !important');
+    $('#empty-cart .container').attr("id","show_my_cart");
   }
 };
 
