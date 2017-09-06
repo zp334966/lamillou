@@ -1271,6 +1271,8 @@ div.page-heading.center, div.page-heading {
 }
 .pop-up-added-to-cart .product_details .title {
     font-size: 13px;
+    line-height: 16px;
+    padding: 3px 0 3px 0;
 }
 .pop-up-added-to-cart .product_details .price {
     font-size: 13px;
@@ -1944,7 +1946,6 @@ div.page-heading.center, div.page-heading {
         margin-right: calc(-1 * ((100vw / 2)) + 10px);
     }
     .pop-up-added-to-cart .product_details .title {
-        line-height: 22px;
         margin: 0;
     }
     .pop-up-added-to-cart .product_details .subtitle {
