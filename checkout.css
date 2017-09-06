@@ -251,6 +251,7 @@ form.new_user .field_with_errors .validation-error {
     padding: 0;
     margin-bottom: -14px;
     padding-left: 10px;
+    letter-spacing: 0.38px;
 }
 #show_my_cart section.shopping-cart, #show_my_cart #show_order_products_block, #order_last_step section.shopping-cart, 
 #order_last_step #show_order_products_block {
