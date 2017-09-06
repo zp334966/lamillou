@@ -690,10 +690,6 @@ div#order_last_step div#show_order_products_block {
 }
 
 
-#empty-cart .container {
-    padding-left: 10px !important;
-    padding-right: 10px !important;
-}
 #empty-cart .page-heading h3, .order_list.order_history.col-sm-12 h2 {
     font-family: 'Open Sans';
     font-weight: 700;
@@ -706,7 +702,6 @@ div#order_last_step div#show_order_products_block {
     text-transform: uppercase;
 }
 #empty-cart div.page-heading.center {
-    padding-top: 9px;
     padding-bottom: 65px;
 }
 #empty-cart .page-heading h5 {
@@ -720,6 +715,7 @@ div#order_last_step div#show_order_products_block {
 }
 #empty-cart img {
     margin-bottom: 24px;
+    margin-top: 28px;
 }
 
 
