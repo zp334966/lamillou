@@ -583,6 +583,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 #cart-dropdown .products-scroll {
     overflow-y: auto;
+    max-height: calc(100vh - 442px);
 }
 #cart-dropdown .cart-dropdown-image {
     width: 74px;
