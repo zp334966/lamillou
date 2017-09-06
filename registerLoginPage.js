@@ -155,6 +155,22 @@ function emptyCart() {
     $('#empty-cart .container').attr("id","show_my_cart");
   }
 };
+$(document).ready(function(){
+  $('.delete.cart_product_remove_button').on( "click", function() {
+    console.log('usuniecie');
+    window.setTimeout(function(){
+      if ( !$( '#show_my_cart .real-item' ).length ) { 
+        emptyCartElements();
+        $('#empty-cart #cart-totals').hide();  
+        $('#show_my_cart a.btn').hide(); 
+        console.log('nie ma');
+       } else {
+        console.log('jest');
+       }
+    }, 600);
+  });
+});
+
 
 function showMyCart () {
   if ($( '#cart-totals' ).length ) {  
