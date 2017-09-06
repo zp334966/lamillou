@@ -1087,7 +1087,7 @@ $(document).ready(function(){ */
       });      
     };
     var h = $(window).height() - 442;
-    if ( $( '#cart-dropdown .products-scroll-inner' ).length ){
+    if ( $( '#cart-dropdown .products-scroll-inner a' ).length ){ console.log('jest');
         if (h >= $( '#cart-dropdown .products-scroll-inner' ).height() /*&& 
 	    !($( '#cart-dropdown .products-scroll-inner' ).height() == 0)*/ ) {
           $( '#cart-dropdown .products-scroll' ).css( "height", "auto" ); 	    
