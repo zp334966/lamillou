@@ -1077,7 +1077,7 @@ $(document).ready(function(){ */
       $('#cart-dropdown').prepend( "<h4>ZAWARTOŚĆ KOSZYKA (" + amount + ")</h4>" );
     };
     if ( !$( '#cart-dropdown #finalize-order' ).length ){
-      $('#cart-dropdown .totals div.row').last().prepend( '<a id="finalize-order" class="btn btn-lg btn-primary btn-block" href="/app/shop/order/new_order">Finalizuj zamówienie</a>' );   
+      $('#cart-dropdown .totals div.row').last().prepend( '<a id="finalize-order" class="btn btn-lg btn-primary btn-block" href="/app/shop/order/login_or_register">Finalizuj zamówienie</a>' );   
     };
     if ( !$( '#cart-dropdown .products-scroll' ).length ){
       $('#cart-dropdown h4').after( "<div class='products-scroll'><div class='products-scroll-inner'></div></div>" ); 
