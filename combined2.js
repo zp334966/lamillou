@@ -1087,6 +1087,7 @@ $(document).ready(function(){ */
       });      
     };
     var h = $(window).height() - 442;
+    console.log( $( '#cart-dropdown .products-scroll-inner' ).css( "height" ) );
     if (h >= $( '#cart-dropdown .products-scroll-inner' ).height() && 
 	!($( '#cart-dropdown .products-scroll-inner' ).css( "height" ) == 'auto') ) {
       $( '#cart-dropdown .products-scroll' ).css( "height", "auto" ); 	    
