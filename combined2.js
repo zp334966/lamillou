@@ -1073,7 +1073,9 @@ $(document).ready(function(){ */
 	});
     };
     if ( !$( '#cart-dropdown h4' ).length ){
-      $('#cart-dropdown').prepend( "<h4>ZAWARTOŚĆ KOSZYKA</h4>" );   
+      var amount = $( '#lm-cart span.shop_cart_simple' ).text();
+      console.log(amount);
+      $('#cart-dropdown').prepend( "<h4>ZAWARTOŚĆ KOSZYKA</h4>" );
     };
     if ( !$( '#cart-dropdown #finalize-order' ).length ){
       $('#cart-dropdown .totals div.row').last().prepend( '<a id="finalize-order" class="btn btn-lg btn-primary btn-block" href="/app/shop/order/new_order">Finalizuj zamówienie</a>' );   
