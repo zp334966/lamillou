@@ -1074,7 +1074,6 @@ $(document).ready(function(){ */
     };
     if ( !$( '#cart-dropdown h4' ).length ){
       var amount = $( '#lm-cart span.shop_cart_simple' ).text().trim();
-      console.log(amount);
       $('#cart-dropdown').prepend( "<h4>ZAWARTOŚĆ KOSZYKA (" + amount + ")</h4>" );
     };
     if ( !$( '#cart-dropdown #finalize-order' ).length ){
@@ -1088,7 +1087,8 @@ $(document).ready(function(){ */
       });      
     };
     var h = $(window).height() - 442;
-    if (h >= $( '#cart-dropdown .products-scroll-inner' ).height() ) {
+    if (h >= $( '#cart-dropdown .products-scroll-inner' ).height() && 
+	!($( '#cart-dropdown .products-scroll-inner' ).height() == 'auto') ) {
       $( '#cart-dropdown .products-scroll' ).css( "height", "auto" ); 	    
     } else {
       $( '#cart-dropdown .products-scroll' ).css( "height", h ); 
