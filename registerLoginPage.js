@@ -140,6 +140,7 @@ function showOrders() {
 showOrders();
 
 function emptyCartElements() {
+    $('.page').attr("id","empty-cart");
     $( '#empty-cart .page-heading h3' ).after("<img src='https://cdn.rawgit.com/zp334966/lamillou/f45ff1bf/assets/koszyk.svg'/>");
     $( '#empty-cart .page-heading img' ).after("<h5>W Twoim koszyku nie ma jeszcze żadnych produktów.</h5>");  
     $('#empty-cart .page-heading .btn').attr('style','display:none !important');
@@ -149,10 +150,9 @@ function emptyCartElements() {
 function emptyCart() {
   var b = $( '.page-heading h3' ).text();
   if (b === 'Koszyk jest pusty') {
-    $('.page').attr("id","empty-cart");
+    emptyCartElements();   
     $('#empty-cart .page-heading h2').hide();
     $( '#empty-cart .page-heading h3' ).text('TWOJE ZAMÓWIENIE');
-    emptyCartElements();    
   }
 };
 
