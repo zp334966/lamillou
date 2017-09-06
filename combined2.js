@@ -1087,7 +1087,7 @@ $(document).ready(function(){ */
       });      
     };
     var h = $(window).height() - 442;
-    if ( $( '#cart-dropdown .products-scroll-inner a' ).length ){ console.log('jest');
+    if ( $( '#cart-dropdown .products-scroll-inner' ).length ){ console.log('jest');
         if (h >= $( '#cart-dropdown .products-scroll-inner' ).height() /*&& 
 	    !($( '#cart-dropdown .products-scroll-inner' ).height() == 0)*/ ) {
           $( '#cart-dropdown .products-scroll' ).css( "height", "auto" ); 	    
@@ -1104,11 +1104,7 @@ $(document).ready(function(){ */
           $('#cart-dropdown .empty-cart').append("<h5>W Twoim koszyku nie ma jeszcze żadnych produktów.</h5>");
       }
     };
-  }; /*
-  $(window).load(function() {
-    $('#cart-dropdown').prepend( "<h4>ZAWARTOŚĆ KOSZYKA</h4>" );
-  });*/
-/*});*/
+  };
 
 /*Unavaible products label
 *************************************************/ 
