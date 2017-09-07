@@ -83,6 +83,13 @@ a:focus, a:hover {
 }
 select.text {
     width: 100%;
+    padding: 4px 10px 4px 10px;
+}
+select.text:focus {
+    -webkit-box-shadow: unset;
+    -moz-box-shadow: unset;
+    box-shadow: unset;
+    border-color: #16407d;
 }
 .info-container textarea {
     padding-bottom: 12px;
