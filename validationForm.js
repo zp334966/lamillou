@@ -1,12 +1,15 @@
 
 
 
-$('.lavina_form .formErrorSiteor').each(function() { 
-  var error;
-  var label = $(this).prev().prev().text();
-  if ( label.indexOf("Firma") != -1 ){
-    error = 'Podaj nazwę firmy';
+$('.lavina_form label').each(function() { 
+  var parentInput = $(this).next();
+  var maybeError = $(this).next().next();
+  if (maybeError.length) {
+    parentInput.addClass('field_with_errors');
+    var error; //obliczyc
+    parentInput.append("<div class='validation-error'>" + error + "</div>");
+  } else {
+    parentInput.removeClass('field_with_errors');
+    parentInput.eq(1).remove();
   }
-  $(this).prev().addClass('field_with_errors');
-  $(this).prev().first().after("<div class='validation-error'>" + error + "</div>");
 });
