@@ -64,14 +64,25 @@ a:focus, a:hover {
 :-moz-placeholder { /* Firefox 18- */
   color: #9AA1AC;
 }
-.form-control {
+.form-control, select.text {
     border: 1px solid #D0D9E5;
     height: 42px;
     color: #243C5E;
     outline: none;
     outline-offset: unset;
+    background-color: transparent;
+    border-radius: 0px;
+    -webkit-border-radius: 0px; 
+    -moz-border-radius: 0px; 
+    font-size: 14px;
+    font-weight: 400;
+}
+.form-control {
     -webkit-appearance: none;
-    -moz-appearance: none;
+    -moz-appearance: none;	
+}
+select.text {
+    width: 100%;
 }
 .info-container textarea {
     padding-bottom: 12px;
