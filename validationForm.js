@@ -3,7 +3,7 @@ var mapForm = {
   'Nazwisko i imię': 'Podaj nazwisko i imię', 
   'E-mail': 'Podaj e-mail',
   'Telefon' : 'Podaj telefon',
-  'Wiadomość' 'Wpisz wiadomość':
+  'Wiadomość' : 'Wpisz wiadomość':
                 };
 
 
