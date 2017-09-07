@@ -246,7 +246,7 @@ function orderLastStep () {
     }
     if (! $( "#order_number_block .shipping_information_title" ).length ) {  
       $( ".buttons.panel" ).after("<div id='shop_order_payment_info'><p>" + 
-        "Masz prawo do odstąpienia od umowy w terminie 14 dni. Koszty zwrotu zamówienia ponosi zamawiający.<br/>" +
+        "Masz prawo do odstąpienia od umowy w terminie 30 dni. Koszty zwrotu zamówienia ponosi zamawiający.<br/>" +
         "<a href='/regulamin'>Przeczytaj więcej</a></p>" + 
         "<p>Złożenie zamówienia wiąże się z obowiązkiem zapłaty.</p></div>");
     }  
