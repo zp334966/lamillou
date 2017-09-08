@@ -3,7 +3,9 @@ var mapForm = {
   'Nazwisko i imię': 'Podaj nazwisko i imię', 
   'E-mail': 'Podaj e-mail',
   'Telefon' : 'Podaj telefon',
-  'Wiadomość' : 'Wpisz wiadomość'
+  'Wiadomość' : 'Wpisz wiadomość',
+  'Temat' : 'Wybierz temat',
+  'Wiadomość lub pytanie' : 'Wpisz wiadomość lub pytanie'
                 };
 
 var intervalCheckErrors = null;
