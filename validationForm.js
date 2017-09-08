@@ -39,3 +39,8 @@ $(document).on('ready',function(){
   });;      
 });
 
+$(window).load(function(){
+  $("#before-loading").css("display", "none");
+  $("#lavina_form_2160").css("display", "block");
+  $("#lavina_form_10244").css("display", "block");
+});
