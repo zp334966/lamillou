@@ -6,6 +6,7 @@ var mapForm = {
   'Wiadomość' : 'Wpisz wiadomość'
                 };
 
+var intervalCheckErrors = null;
 
 function checkErrors() { 
   $('.lavina_form label').each(function() { 
@@ -22,9 +23,16 @@ function checkErrors() {
       parentInput.find('.validation-error').remove();
     }
   });
+  if ( !$('.lavina_form label').length ) {
+      clearInterval(intervalCheckErrors); 
+  }
 };
 
+$(document).on('ready',function(){
+  $('.lavina_form input.button[type="submit"]').on('click', function() {
+    if (intervalCheckErrors == null) {
+      intervalCheckErrors = setInterval(checkErrors,100);
+    }
+  });;      
+});
 
-$('.lavina_form input.button[type="submit"]').on('click', function() {
-  setTimeout(checkErrors, 1000);
-});;
