@@ -1,6 +1,7 @@
 var mapForm = { 
   'Firma': 'Podaj nazwę firmy', 
   'Nazwisko i imię': 'Podaj nazwisko i imię', 
+  'Imię': 'Podaj imię',
   'E-mail': 'Podaj e-mail',
   'Telefon' : 'Podaj telefon',
   'Wiadomość' : 'Wpisz wiadomość',
