@@ -32,7 +32,39 @@ function prettyProduct(element) {
     title = title.toLowerCase();
     $(element).html('<div class="title">' + title + '</div>' + '<div class="subtitle">' + subtitle + '</div>');          
 }
-
+/************************* Extra Products in Cart *************************/
+function extraProducts() {
+    var extra = "<div class='extra-products'><div class='row'>" +
+            "<div class='col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2'>" +
+                "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/gratisy/01.jpg'/>" +
+            "</div>" +
+            "<div class='col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2'>" +
+                "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/gratisy/02.jpg'/>" +
+            "</div>" +
+            "<div class='col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2'>" +
+                "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/gratisy/03.jpg'/>" +
+            "</div>" +
+            "<div class='col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2'>" +
+                "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/gratisy/04.jpg'/>" +
+            "</div>" +
+            "<div class='col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2'>" +
+                "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/gratisy/05.jpg'/>" +
+            "</div>" +
+            "<div class='col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2'>" +
+                "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/gratisy/06.jpg'/>" +
+            "</div>" +
+        "</div></div>"
+    return extra;
+}
+function extraProductsInCart() {
+    if ( $('#empty-cart #show_my_cart h5').length ) {
+        $('#empty-cart #show_my_cart h5').after(extraProducts());
+    }
+    /*if ( $('#empty-cart #show_my_cart .shopping-cart').length ) {
+        
+    }*/
+}
+/*************************  *************************/
 function onShowOrder() {
     
     // move quantity info
@@ -108,7 +140,9 @@ $( document ).ready(function() {
     $('.cart_product_remove_button').each(function() {        
         $(this).text("Usuń");
     });
-        
+    
+    extraProductsInCart();
+    
     if (window.location.href.indexOf("/app/shop/order/login_or_register") > -1) {
         $('#login_box h2:first a').text('Zamów bez zakładania konta');        
         $('<a class="btn just_order" href="/app/shop/order/new_order?without_registration=true">Zamawiam</a>').insertAfter($('#login_box h2:first a'));
