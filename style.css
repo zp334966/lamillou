@@ -1,12 +1,12 @@
 @font-face {
     font-family: Besom;
     	src: url('https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/fonts/Besom-extended.otf') format("opentype");
-	src: url('https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/fonts/Besom-extended.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	src: url('https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/fonts/Besom-extended.eot'), /* IE9 Compat Modes */
+		url('https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/fonts/Besom-extended.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
 		url('https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/fonts/Besom-extended.woff2') format('woff2'), /* Super Modern Browsers */
 		url('https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/fonts/Besom-extended.woff') format('woff'), /* Pretty Modern Browsers */
-		url('https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/fonts/Besom-extended.ttf')  format('embedded-opentype'), /* Safari, Android, iOS */
 		url('https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/fonts/Besom-extended.svg#svgFontName') format('svg'); /* Legacy iOS */
-	src: url('https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/fonts/Besom-extended.eot'); /* IE9 Compat Modes */	
+	src: url('https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/fonts/Besom-extended.ttf')  format('embedded-opentype'); /* Safari, Android, iOS */
 }
 body {
     font-family: .AppleSystemUIFont, 'Open Sans', Helvetica, Arial, sans-serif;  
