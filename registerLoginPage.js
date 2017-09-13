@@ -177,9 +177,14 @@ function showMyCart () {
     $( document ).ready(function() {
       $( ' #cart-totals .btn' ).detach().insertAfter( "#cart-totals" );
 	$( ' #show_my_cart .btn' ).each(function() {
-  		console.log($(this).text());
+		if($(this).text() == "Przejdź do kasy") {
+			$(this).text("Zamawiam");
+		}
+		if($(this).text() == "Kontynuuj zakupy") {
+			$(this).hide();
+		}
 	});
-      $( ' #show_my_cart .btn' ).first().text("Zamawiam");
+      //$( '#show_my_cart .btn' ).first().text("Zamawiam");
     });
   } /*
   if ($( '#show_my_cart' ).length ) {  
