@@ -55,7 +55,7 @@ function loginBottom () {
         }); 
 
         $('.login_bottom .forgot').each(function() {      
-          $('.login_bottom .cms_buttons').before("<div class='forgot'><a class='forgot' href='/user/forgot_password'>Forgot your password?</a></div>");
+          $('.login_bottom .cms_buttons').before("<div class='forgot'><a class='forgot' href='/user/forgot_password'>Forgotten password?</a></div>");
           $(this).remove();
         });
 
