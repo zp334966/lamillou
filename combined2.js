@@ -1094,14 +1094,6 @@ $(document).ready(function(){ */
           $('#cart-dropdown .empty-cart').append("<h5>W Twoim koszyku nie ma jeszcze żadnych produktów.</h5>");
       }
     };
-    if ( $('#cart-dropdown').text().indexOf("Your cart is empty") != -1 ){
-      $('#cart-dropdown p').hide();
-      if (! $( '#cart-dropdown .empty-cart' ).length ) {
-	  $('#cart-dropdown').append("<div class='empty-cart'></div>");
-          $('#cart-dropdown .empty-cart').append("<img src='https://cdn.rawgit.com/zp334966/lamillou/f45ff1bf/assets/koszyk.svg'>");
-          $('#cart-dropdown .empty-cart').append("<h5>There are no products in your cart.</h5>");
-      }
-    };
   };
 
 /*Unavaible products label
