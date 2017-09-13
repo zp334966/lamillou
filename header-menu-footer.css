@@ -1228,3 +1228,10 @@ footer.footer a:focus img, footer.footer a:hover img {
         border: none;
     }
 }
+.sidebar .submenu2 li {
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+.sidebar .submenu2 li a {
+    line-height: 18px!important;
+}
