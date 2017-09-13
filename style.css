@@ -2041,6 +2041,7 @@ div.page-heading.center, div.page-heading {
     }
     #products_list_page {
         padding-right: 4px;
+	padding-left: 30px; /* usunac po zmienie kategorii */
     }
     .container .container-detail-product {
         padding-left: 9px;
