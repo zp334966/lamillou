@@ -176,6 +176,9 @@ function showMyCart () {
   if ($( '#cart-totals' ).length ) {  
     $( document ).ready(function() {
       $( ' #cart-totals .btn' ).detach().insertAfter( "#cart-totals" );
+	$( ' #show_my_cart .btn' ).each(function() {
+  		console.log($(this).text());
+	});
       $( ' #show_my_cart .btn' ).first().text("Zamawiam");
     });
   } /*
