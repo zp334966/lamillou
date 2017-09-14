@@ -111,20 +111,20 @@ $( document ).ready(function() {
     });
     
     if (window.location.href.indexOf("/app/shop/order/login_or_register") > -1) {
-        $('#login_box h2:first a').text('Zamów bez zakładania konta');        
-        $('<a class="btn just_order" href="/app/shop/order/new_order?without_registration=true">Zamawiam</a>').insertAfter($('#login_box h2:first a'));
+        $('#login_box h2:first a').text('SKIP CREATING AN ACCOUNT');        
+        $('<a class="btn just_order" href="/app/shop/order/new_order?without_registration=true">Order</a>').insertAfter($('#login_box h2:first a'));
         
-        $('<h3>ZALOGUJ SIĘ</h3>').insertBefore($('#login_box h2:nth-of-type(2)'));
+        $('<h3>LOG IN</h3>').insertBefore($('#login_box h2:nth-of-type(2)'));
         
         $('#login_box p.small:first').hide();
-        $('label[for="Login___np._adres_e-mail_"]').text('Email');
+        $('label[for="Login___eg_e-mail_address_"]').text('Email');
         $('a.forgot').each(function() {
             $(this).insertBefore($(this).parent().find('input[type=submit]'));
-            $(this).text('Zapomniałeś hasła?')
+            $(this).text('Forgotten password?')
         });
         $('a#registration_link').addClass("btn");
         
-        $('<p class="login-or-register">LUB</p>').insertBefore($('.login_info'));
+        $('<p class="login-or-register">OR</p>').insertBefore($('.login_info'));
     }
         
     showCheckoutProgress();
