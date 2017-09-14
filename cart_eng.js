@@ -61,8 +61,8 @@ function showCheckoutProgress()
         var $address_active = 'active';
         var $summary_active = '';     
     }
-    $('#order-steps').html('<div class="step-address '+$address_active+'"><a href="javascript:history.back()">1. Adres</a></div>\
-                            <div class="step-summary '+$summary_active+'">2. Podsumowanie</div>');   
+    $('#order-steps').html('<div class="step-address '+$address_active+'"><a href="javascript:history.back()">1. Address</a></div>\
+                            <div class="step-summary '+$summary_active+'">2. Summary</div>');   
 }
 
 function updateRadioPayment() {
@@ -96,7 +96,7 @@ function updateSelectDelivery()
 
 $( document ).ready(function() {   
 
-    $('#cart-totals .cart-totals').html('<div class="row cart-totals-label">PODSUMOWANIE</div>' + $('#cart-totals .cart-totals').html());
+    $('#cart-totals .cart-totals').html('<div class="row cart-totals-label">SUMMARY</div>' + $('#cart-totals .cart-totals').html());
 
     $('.product_price_total').each(function() {
         $(this).html($(this).html().replace("Razem: ", "RAZEM:<br/>"));
@@ -107,7 +107,7 @@ $( document ).ready(function() {
 
 
     $('.cart_product_remove_button').each(function() {        
-        $(this).text("Usuń");
+        $(this).text("Remove");
     });
     
     if (window.location.href.indexOf("/app/shop/order/login_or_register") > -1) {
