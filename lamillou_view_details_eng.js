@@ -159,12 +159,12 @@ $('#learn-more').on("click", function(e) {
 $('#learn-more').toggle(function() {
 	$('.product_right_tab .block-devider .tab-pane').animate({ height: originalHeight }, 300);
     	$('.product_right_tab .block-devider .tab-pane').height('auto');
-	$(this).find('span').html('Zwiń');
+	$(this).find('span').html('Less');
 	$(this).find('img').css("transform", "rotate(180deg)");
   }, function() {
 	$('#learn-more').show();
     	$('.product_right_tab .block-devider .tab-pane').animate({ height: heightAtStart }, 300);
-	$(this).find('span').html('Rozwiń');
+	$(this).find('span').html('More');
 	$(this).find('img').css("transform", "rotate(0deg)");
 });
 /*
