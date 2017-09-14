@@ -74,10 +74,10 @@ function loginBottom () {
         $('.login_bottom .form-group input').each(function() {      
           $(this).attr("placeholder", "");
         });
-        $('.login_bottom .cms_buttons').after("<p class='separate-buttons'>LUB</p>");   
+        $('.login_bottom .cms_buttons').after("<p class='separate-buttons'>OR</p>");   
         $('#registration_link').each(function() {      
           if ($(this).text() === "Zarejestruj się" ){
-            $(this).text("Stwórz konto");   
+            $(this).text("Register");   
           }     
         }); 
 	//w htmlu jest 15px important
@@ -112,7 +112,7 @@ function restorePassword () {
 		$('.restore_password input.submit.btn')[0].nextSibling.remove();
         	$('.restore_password input.submit.btn')[0].nextSibling.remove();
 	}
-        $('.restore_password input.submit.btn').after("<p class='cancel'>Lub kliknij <a href='/login'>anuluj.</a></p>");
+        $('.restore_password input.submit.btn').after("<p class='cancel'>Or <a href='/login'>cancel.</a></p>");
         $('.restore_password .header h2').after("<p class='help'>Podaj adres e-mail użyty podczas zakładania konta.</p>");     
     });
   }    
@@ -144,7 +144,7 @@ showOrders();
 function emptyCartElements() {
     $('.page').attr("id","empty-cart");
     $( '#empty-cart .page-heading.center h3' ).after("<img src='https://cdn.rawgit.com/zp334966/lamillou/f45ff1bf/assets/koszyk.svg'/>");
-    $( '#empty-cart .page-heading img' ).after("<h5>W Twoim koszyku nie ma jeszcze żadnych produktów.</h5>");  
+    $( '#empty-cart .page-heading img' ).after("<h5>Your cart is empty.</h5>");  
     $('#empty-cart br').remove();	
 };
 
