@@ -182,7 +182,7 @@ function showMyCart () {
 		if($(this).text() == "Przejdź do kasy") {
 			$(this).text("Zamawiam");
 		}
-		if($(this).text() == "Kontynuuj zakupy") {
+		if($(this).text() == "Continue shopping") {
 			$(this).hide();
 		}
 	});
