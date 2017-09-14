@@ -99,7 +99,7 @@ $( document ).ready(function() {
     $('#cart-totals .cart-totals').html('<div class="row cart-totals-label">SUMMARY</div>' + $('#cart-totals .cart-totals').html());
 
     $('.product_price_total').each(function() {
-        $(this).html($(this).html().replace("Razem: ", "RAZEM:<br/>"));
+        $(this).html($(this).html().replace("Subtotal: ", "Subtotal:<br/>"));
     });
         
     $('.shopping-cart h4 a').each(function() { prettyProduct($(this)); });
