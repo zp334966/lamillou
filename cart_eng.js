@@ -218,7 +218,7 @@ $( document ).ready(function() {
     });    
     
     $('.form_accept_checks a:first-of-type').prop('outerHTML',
-                                                  'I hereby agree to the <a href="/regulations">Terms and Conditions</a> and <a href="/regulations#privacy-policy">Privacy policy</a>.');
+                                                  '<span style="position: absolute;">I hereby agree to the <a href="/regulations">Terms and Conditions</a> and <a href="/regulations#privacy-policy">Privacy Policy</a>.</span>');
 
     $('a.continue_with_order').text('Zamawiam');
     
