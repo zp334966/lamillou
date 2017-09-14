@@ -117,7 +117,8 @@ $( document ).ready(function() {
         $('<h3>LOG IN</h3>').insertBefore($('#login_box h2:nth-of-type(2)'));
         
         $('#login_box p.small:first').hide();
-        $('label[for="Login___eg_e-mail_address_"]').text('Email');
+        $('label[for="Login___eg_e-mail_address_"]').text('E-mail');
+        $('label[for="Log_in"]').text('E-mail');
         $('a.forgot').each(function() {
             $(this).insertBefore($(this).parent().find('input[type=submit]'));
             $(this).text('Forgotten password?')
