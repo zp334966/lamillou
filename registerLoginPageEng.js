@@ -93,11 +93,11 @@ function restorePassword () {
   if ( $( ".restore_password" ).length ) { 
     $(document).ready(function(){
         $('.restore_password label').each(function() {      
-          if ($(this).text() === "Podaj e-mail lub login" ){
+          if ($(this).text() === "Enter e-mail account or login" ){
             $(this).text("Email");   
           }  
         });
-        $('.restore_password input.submit.btn').attr("value", "Prześlij");
+        $('.restore_password input.submit.btn').attr("value", "Recover password");
 	if (navigator.appName == 'Microsoft Internet Explorer' ||  !!(navigator.userAgent.match(/Trident/) || navigator.userAgent.match(/rv:11/)) || (typeof $.browser !== "undefined" && $.browser.msie == 1)) {
 		console.log("ie");
 		var $element = $('.restore_password input.submit.btn');
@@ -113,7 +113,7 @@ function restorePassword () {
         	$('.restore_password input.submit.btn')[0].nextSibling.remove();
 	}
         $('.restore_password input.submit.btn').after("<p class='cancel'>Or <a href='/login'>cancel.</a></p>");
-        $('.restore_password .header h2').after("<p class='help'>Podaj adres e-mail użyty podczas zakładania konta.</p>");     
+        $('.restore_password .header h2').after("<p class='help'>Please enter the email address you used to create your account.</p>");     
     });
   }    
   return;
