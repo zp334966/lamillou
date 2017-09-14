@@ -60,7 +60,7 @@ function loginBottom () {
         });
 
         $('.login_bottom .sign-up').each(function() {      
-          $(this).html("<a href='/signup' class='btn btn-lam btn-lam-dark-blue'>Create account</a><div class='note'></div>");    
+          $(this).html("<a href='/signup' class='btn btn-lam btn-lam-dark-blue'>Register</a><div class='note'></div>");    
         });   
 
         $(function(){
