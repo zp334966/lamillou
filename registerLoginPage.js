@@ -541,12 +541,15 @@ $( document ).ready(function() {
 		$( '.field_with_errors .icheckbox_minimal-blue' ).addClass("obligatory");
 	}
 	$('#extra_info_gratis').hide();
+	/*
 	if($('#new_user').length ) {
 		$(".form_accept_checks:not(:first)").each(function() {
 			console.log('inside');
 			$(this).find("ins").trigger( "click" );
 		});
 	}
+	*/
+	$('#registration_link').prop("href", "/signup");
 });
 
 
