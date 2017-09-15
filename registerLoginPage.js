@@ -547,11 +547,16 @@ $( document ).ready(function() {
 $( "[for=shop_order_edit_shipping_address]" ).click(function() {
     $("#shop_order_show_shipping_address").hide();
     $("#shop_order_edit_shipping_address_form").slideDown(500)    
-}); 
+});
 
+$(".form_accept_checks:not(:first)").each(function() {
+		console.log('inside');
+		$(this).find("ins").trigger( "click" );
+});
+/*
 function allCheckboxes () {
      console.log('all checkboxes');
-     $(".form_accept_checks").on("click", "ins", function(){
+     $(".form_accept_checks").on("click", ".iCheck-helper", function(){
 	console.log('click');
        	$(".form_accept_checks:not(:first)").each(function() {
 		console.log('inside');
@@ -560,3 +565,4 @@ function allCheckboxes () {
      });
 };
 allCheckboxes ();
+*/
