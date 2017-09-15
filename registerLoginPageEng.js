@@ -533,10 +533,11 @@ function IsImageOk(img) {
 /*********************/
 
 $( document ).ready(function() {
-  if ($( '.field_with_errors .icheckbox_minimal-blue' ).length ) {
-    $( '.field_with_errors .icheckbox_minimal-blue' ).addClass("obligatory");
-  }
+  	if ($( '.field_with_errors .icheckbox_minimal-blue' ).length ) {
+    		$( '.field_with_errors .icheckbox_minimal-blue' ).addClass("obligatory");
+  	}
 	$('#extra_info_gratis').hide();
+	$('#registration_link').prop("href", "/signup");
 });
 
 
