@@ -144,7 +144,7 @@ function emptyCartElements() {
     $( '#empty-cart .page-heading.center h3' ).after("<img src='https://cdn.rawgit.com/zp334966/lamillou/f45ff1bf/assets/koszyk.svg'/>");
     $( '#empty-cart .page-heading img' ).after("<h5>W Twoim koszyku nie ma jeszcze żadnych produktów.</h5>");  
     //$('#empty-cart br').remove();
-    $("#empty-cart #show_my_cart br").each(function() {
+    $("#empty-cart br").each(function() {
 	    if(!$(this).has('div.extra-products')) {
 		    $(this).remove(); 
 	    } 
