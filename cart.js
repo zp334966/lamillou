@@ -216,10 +216,10 @@ $( document ).ready(function() {
     $('input[name="user[user_settings_attributes][0][personal_data_clause]"]').each(function() {
         $(this).prop('value', 1); 
     });    
-    
+    /*
     $('.form_accept_checks a:first-of-type').prop('outerHTML',
                                                   'Akceptuję <a href="/regulamin">Regulamin</a> i <a href="/regulamin#polityka-prywatności">Politykę Prywatności</a>.');
-
+    */
     $('a.continue_with_order').text('Zamawiam');
     
     $('.page').show();
