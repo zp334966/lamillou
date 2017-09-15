@@ -145,7 +145,12 @@ function emptyCartElements() {
     $('.page').attr("id","empty-cart");
     $( '#empty-cart .page-heading.center h3' ).after("<img src='https://cdn.rawgit.com/zp334966/lamillou/f45ff1bf/assets/koszyk.svg'/>");
     $( '#empty-cart .page-heading img' ).after("<h5>Your cart is empty.</h5>");  
-    $('#empty-cart br').remove();	
+    //$('#empty-cart br').remove();
+    $("#empty-cart br").each(function() {
+	    if(!$(this).parents('div.extra-products').length) {
+		    $(this).remove(); 
+	    } 
+    });
 };
 
 function emptyCart() {
