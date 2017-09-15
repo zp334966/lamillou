@@ -268,16 +268,16 @@ function orderLastStep () {
   };
   $('#order_last_step h4').each(function() {      
           if ($(this).text() === "Zamówione artykuły" ){
-            $(this).text("TWOJE ZAMÓWIENIE");              
+            $(this).text("YOUR ORDER");              
           }  
           if ($(this).text() === "Adres dostawy" ){
-            $(this).text("DANE ADRESOWE");              
+            $(this).text("SHIPPING");              
           } 
           if ( $(this).text().indexOf("Dostawa") != -1 ){
-            $(this).text("SPOSÓB DOSTAWY");              
+            $(this).text("DELIVERY");              
           } 
           if ( $(this).text().indexOf("Płatność") != -1 ){
-            $(this).text("SPOSÓB PŁATNOŚCI");              
+            $(this).text("PAYMENT");              
           } 
   });    
 };
