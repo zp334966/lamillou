@@ -84,6 +84,10 @@ a:focus, a:hover {
 select.text {
     width: 100%;
     padding: 4px 10px 4px 10px;
+    border: 0;
+    outline: 1px solid #D0D9E5;
+    -moz-outline: 1px solid #D0D9E5;
+    -webkit-outline: 1px solid #D0D9E5;
 }
 select.text:focus {
     -webkit-box-shadow: unset;
