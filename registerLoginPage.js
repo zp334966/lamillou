@@ -549,7 +549,8 @@ $( "[for=shop_order_edit_shipping_address]" ).click(function() {
     $("#shop_order_edit_shipping_address_form").slideDown(500)    
 }); 
 
-function allCheckboxes () {    
+function allCheckboxes () {
+     console.log('all checkboxes');
      $(".form_accept_checks").on("click", "ins", function(){
 	console.log('click');
        	$(".form_accept_checks:not(:first)").each(function() {
