@@ -73,8 +73,10 @@ function updateRadioPayment() {
             test.hide();
             test.next().hide();
             test.next().next().hide();
-            test.removeClass('checked');
-            $('#form1 #payment_kind_selector input[value="manual_transfer"]').next().trigger( "click" );
+            if (test.hasClass('checked')) {
+              test.removeClass('checked');
+              $('#form1 #payment_kind_selector input[value="manual_transfer"]').next().trigger( "click" );
+            }
         } else {
             test.show();
             test.next().show();
