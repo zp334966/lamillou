@@ -541,17 +541,16 @@ $( document ).ready(function() {
     $( '.field_with_errors .icheckbox_minimal-blue' ).addClass("obligatory");
   }
 	$('#extra_info_gratis').hide();
+	$(".form_accept_checks:not(:first)").each(function() {
+		console.log('inside');
+		$(this).find("ins").trigger( "click" );
+	});
 });
 
 
 $( "[for=shop_order_edit_shipping_address]" ).click(function() {
     $("#shop_order_show_shipping_address").hide();
     $("#shop_order_edit_shipping_address_form").slideDown(500)    
-});
-
-$(".form_accept_checks:not(:first)").each(function() {
-		console.log('inside');
-		$(this).find("ins").trigger( "click" );
 });
 /*
 function allCheckboxes () {
