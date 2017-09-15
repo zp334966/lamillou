@@ -146,10 +146,10 @@ function emptyCartElements() {
     //$('#empty-cart br').remove();
 	console.log('emptyCartElements');
     $("#empty-cart br").each(function() {
-	    if(!$(this).has('div.extra-products')) {
+	    if(!$(this).parents('div.extra-products').length) {
 		    $(this).remove(); 
 	    } 
-    });
+    });  
 };
 
 function emptyCart() {
