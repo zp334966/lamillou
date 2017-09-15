@@ -261,9 +261,9 @@ function orderLastStep () {
     }
     if (! $( "#order_number_block .shipping_information_title" ).length ) {  
       $( ".buttons.panel" ).after("<div id='shop_order_payment_info'><p>" + 
-        "Masz prawo do odstąpienia od umowy w terminie 30 dni. Koszty zwrotu zamówienia ponosi zamawiający.<br/>" +
-        "<a href='/regulamin'>Przeczytaj więcej</a></p>" + 
-        "<p>Złożenie zamówienia wiąże się z obowiązkiem zapłaty.</p></div>");
+        "You can return goods within 30 days.<br/>" +
+        "<a href='/regulations'>Read more</a></p>" + 
+        "<p>You are liable to pay for your purchase.</p></div>");
     }  
   };
   $('#order_last_step h4').each(function() {      
