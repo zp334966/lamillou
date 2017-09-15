@@ -537,14 +537,16 @@ function IsImageOk(img) {
 /*********************/
 
 $( document ).ready(function() {
-  if ($( '.field_with_errors .icheckbox_minimal-blue' ).length ) {
-    $( '.field_with_errors .icheckbox_minimal-blue' ).addClass("obligatory");
-  }
+	if ($( '.field_with_errors .icheckbox_minimal-blue' ).length ) {
+		$( '.field_with_errors .icheckbox_minimal-blue' ).addClass("obligatory");
+	}
 	$('#extra_info_gratis').hide();
-	$(".form_accept_checks:not(:first)").each(function() {
-		console.log('inside');
-		$(this).find("ins").trigger( "click" );
-	});
+	if($('#new_user').length ) {
+		$(".form_accept_checks:not(:first)").each(function() {
+			console.log('inside');
+			$(this).find("ins").trigger( "click" );
+		});
+	}
 });
 
 
@@ -552,16 +554,3 @@ $( "[for=shop_order_edit_shipping_address]" ).click(function() {
     $("#shop_order_show_shipping_address").hide();
     $("#shop_order_edit_shipping_address_form").slideDown(500)    
 });
-/*
-function allCheckboxes () {
-     console.log('all checkboxes');
-     $(".form_accept_checks").on("click", ".iCheck-helper", function(){
-	console.log('click');
-       	$(".form_accept_checks:not(:first)").each(function() {
-		console.log('inside');
-		$(this).find("ins").trigger( "click" );
-	});
-     });
-};
-allCheckboxes ();
-*/
