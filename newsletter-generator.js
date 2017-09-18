@@ -12,8 +12,30 @@ $('#add-title button').on('click', function(){
   var html = genTitle(title);
   addElement(html);
 });
-
-
+$('#add-subtitle button').on('click', function(){
+  var subtitle = $('#subtitle-form').val();
+  var html = genSubtitle(subtitle);
+  addElement(html);
+});
+$('#add-img button').on('click', function(){
+  var imgLink = $('#img-form').val();
+  var link = $('#img-href-form').val();
+  var html = genImgCategory(imgLink, link);
+  addElement(html);
+});
+$('#add-button button').on('click', function(){
+  var link = $('#button-form').val();
+  var html = genButton(link);
+  addElement(html);
+});
+/*
+$('#add-small-img button').on('click', function(){
+  var link = $('#img1-small-form').val();
+  
+  var html = genButton(link);
+  addElement(html);
+});
+*/
 
 
 function addElement(elem) {
