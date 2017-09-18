@@ -346,8 +346,7 @@ function userProfile() {
   };
   if ( $( '.order_list.order_history' ).length ){
     $('.order_list.order_history .list-group-item .waiting_for_payment').each(function() {      
-          if ( $(this).text().indexOf("Oczek. na płatność") != -1 ){
-            $(this).text("Oczekuje na płatność");   
+          if ( $(this).text().indexOf("Waiting for payment") != -1 ){ 
             $(this).parent().prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/pending_ico.svg'/>" );
           } 
     });
