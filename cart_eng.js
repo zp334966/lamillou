@@ -137,6 +137,9 @@ $( document ).ready(function() {
     if (window.location.href.indexOf("/login") > -1) {
         $('.form-group label[for="Log_in"]').text('E-mail');
     }
+    if (window.location.href.indexOf("/user/create") > -1) {
+        $('.form-group label[for="user_email"]').text('E-mail');
+    }
     showCheckoutProgress();
 
     $('#shop_order_email_confirmation').parent().hide();
