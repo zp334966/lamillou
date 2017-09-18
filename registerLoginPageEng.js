@@ -476,6 +476,11 @@ function thankForOrder () {
 		    $(this).text('Summary');
 		}
 	});
+	$('#shop_order_payment .row .totals_summary p').each(function () {
+		if ($(this).text().indexOf("Wartość zamówienia") != -1) {
+		    $(this).text('SUBTOTAL:');
+		}
+	});
     }); 
     $( ".buttons.panel" ).after("<div id='shop_order_payment_info'><p>" + 
         "You can return goods within 30 days.<br/>" +
