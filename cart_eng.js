@@ -137,7 +137,7 @@ $( document ).ready(function() {
     if (window.location.href.indexOf("/login") > -1) {
         $('.form-group label[for="Log_in"]').text('E-mail');
     }
-    if (window.location.href.indexOf("/user/create") > -1) {
+    if (window.location.href.indexOf("/signup") > -1) {
         $('.form-group label[for="user_email"]').text('E-mail');
     }
     showCheckoutProgress();
