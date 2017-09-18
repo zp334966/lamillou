@@ -470,19 +470,17 @@ function thankForOrder () {
     $('#thank_you_for_ordering .buttons').append("<div id='order-number'></div>");
     $('#thank_you_for_ordering .buttons').append("<div id='summary'></div>");
     $('#thank_you_for_ordering #order-number').load(order + ' #order_number_block h2');  
-    $('#thank_you_for_ordering #summary').load(order + ' #shop_order_payment'); 
-	  
-    $( ".buttons.panel" ).after("<div id='shop_order_payment_info'><p>" + 
-        "You can return goods within 30 days.<br/>" +
-        "<a href='/regulations'>Read more</a></p>" + 
-        "<p>You are liable to pay for your purchase.</p></div>"); 
-    $(window).bind('load', function() {
-	$('#shop_order_payment .row h4').each(function () {
+    $('#thank_you_for_ordering #summary').load(order + ' #shop_order_payment', function() {
+    	$('#shop_order_payment .row h4').each(function () {
 		if ($(this).text().indexOf("Total") != -1) {
 		    $(this).text('Summary');
 		}
 	});
-    });	  
+    }); 
+    $( ".buttons.panel" ).after("<div id='shop_order_payment_info'><p>" + 
+        "You can return goods within 30 days.<br/>" +
+        "<a href='/regulations'>Read more</a></p>" + 
+        "<p>You are liable to pay for your purchase.</p></div>");   
   }
   return;
 };
