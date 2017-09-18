@@ -77,4 +77,32 @@ function genButton(link) {
       "</a></td></tr>";
   return html;
 };
+/*
+function genThreeProducts(linkI, linkII, linkIII) {
+  
+};
+*/
+function genProduct(link, img, title, subtitle, priceI, priceII) {
+  var html = "<td><table cellpadding='0' cellspacing='0' border='0'><tr>" +
+    "<td class='product'><a href='" + link "'><img src='" + img + "'></a></td></tr>" +
+    "<tr><td class='product-title'>" + title + "</td></tr>" +
+    "<tr><td class='product-subtitle'>" + subtitle + "</td></tr>" +
+    genPrice (priceI, priceII) +
+    "</table></td>";
+  return html;
+};
 
+function genPrice (priceI, priceII) {
+  var html;
+  if (priceII === '') {
+    html = "<tr><td class='product-price'>" + priceI + "</td></tr>";
+  } else {
+    html = "<tr><td class='product-price'><table cellpadding='0' cellspacing='0' border='0'>" + 
+    "<tr><td class='price-promotion'>" + priceI + "</td><td class='old-price'>" + priceII + "</td></tr>" +
+    "</table></td></tr>";
+  }
+  return html;
+};
+
+
+  
