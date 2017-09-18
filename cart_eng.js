@@ -214,7 +214,7 @@ $( document ).ready(function() {
     var $payu = $('#payment_kind_selector input[value=platnosci_pl]').parent().next();
 
     $payu.addClass('payment-gateway-payu');
-    $payu.html('<img class="payu" alt="PayU"><br>Online / karta płatnicza'); 
+    $payu.html('<img class="payu" alt="PayU"><br>Online / credit card'); 
 
     var $paypal = $('#payment_kind_selector input[value=paypal]').parent().next();
 
