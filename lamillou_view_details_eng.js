@@ -253,7 +253,7 @@ $(document).mouseup(function(e) {
 function checkPopUp() {
   if ( $( ".jGrowl-notification .message" ).length ) {
     $( ".jGrowl-notification .message" ).each(function() {
-      if ( $(this).text().indexOf("Niestety zapasy") != -1 ){
+      if ( $(this).text().indexOf("Unfortunately, supplies") != -1 ){
         $( ".pop-up-lack" ).each(function() {
           $(this).show().delay( 5000 ).hide( 400 );
         });
