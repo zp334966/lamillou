@@ -123,7 +123,7 @@ restorePassword ();
 
 function loginBox () {
   if ( $( "#login_box" ).length ) { 
-    $('.login_bottom label[for="Login"]').text('E-mail');
+    $('.login_bottom label[for="Login"]').text('Email');
   }
 };
 loginBox (); 
