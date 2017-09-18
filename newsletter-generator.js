@@ -1,7 +1,7 @@
 $('#zaladuj').on('click', function(){
-  var mainImg = $('#main-image-form').text();
-  var mainT = $('#main-title-form').text();
-  var mainST = $('#main-subtitle-form').text();
+  var mainImg = $('#main-image-form').value();
+  var mainT = $('#main-title-form').value();
+  var mainST = $('#main-subtitle-form').value();
   alert(mainImg);
   
 });
