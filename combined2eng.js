@@ -1090,7 +1090,7 @@ $(document).ready(function(){ */
       if (! $( '#cart-dropdown .empty-cart' ).length ) {
 	        $('#cart-dropdown').append("<div class='empty-cart'></div>");
           $('#cart-dropdown .empty-cart').append("<img src='https://cdn.rawgit.com/zp334966/lamillou/f45ff1bf/assets/koszyk.svg'>");
-          $('#cart-dropdown .empty-cart').append("<h5>There are no products in your cart.</h5>");
+          $('#cart-dropdown .empty-cart').append("<h5>Your cart is empty.</h5>");
       }
     };
   };
