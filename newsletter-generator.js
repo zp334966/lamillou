@@ -53,9 +53,16 @@ function genSubtitle(subtitle) {
 };
 
 function genImgCategory(imgLink, link) {
-  var html = "<tr><td><a href='" + link + "'>" +
-      "<img class='img-category' src='" + imgLink + "'/>" +      
-      "</a></td></tr>";
+  var html;
+  if (link === '') {
+    html = "<tr><td>" +
+        "<img class='img-category' src='" + imgLink + "'/>" +      
+        "</td></tr>";      
+  } else {
+    html = "<tr><td><a href='" + link + "'>" +
+        "<img class='img-category' src='" + imgLink + "'/>" +      
+        "</a></td></tr>";
+  }
   return html;
 };
 
