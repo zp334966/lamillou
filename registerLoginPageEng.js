@@ -132,8 +132,7 @@ function showOrders() {
   if ( $( '#order_last_step #order_number_block.panel .shipping_information_title' ).length ){
     $('#order_last_step').addClass("order-show");
     $('.order-show .shipping_information_title').each(function() {      
-          if ( $(this).text().indexOf("Status: oczek. na płatność") != -1 ){
-            $(this).text("Status: Oczekuje na płatność");  
+          if ( $(this).text().indexOf("Waiting for payment") != -1 ){
 	    $(this).prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/pending_ico.svg'/>" );
           } 
     }); 
