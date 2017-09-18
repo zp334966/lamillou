@@ -475,7 +475,12 @@ function thankForOrder () {
     $( ".buttons.panel" ).after("<div id='shop_order_payment_info'><p>" + 
         "You can return goods within 30 days.<br/>" +
         "<a href='/regulations'>Read more</a></p>" + 
-        "<p>You are liable to pay for your purchase.</p></div>");     
+        "<p>You are liable to pay for your purchase.</p></div>");  
+    $('#shop_order_payment .row h4').each(function() {
+    	if ($(this).text().indexOf("Wartość zamówienia") != -1) {
+            $(this).text('SUBTOTAL:');
+        }
+    });
   }
   return;
 };
