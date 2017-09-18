@@ -37,6 +37,10 @@ $('#add-small-img button').on('click', function(){
 });
 */
 
+$('button#usun').on('click', function(){
+  ('#newsletter-generated #news-content tr:last-child').remove();
+});
+
 
 function addElement(elem) {
   $('#newsletter-generated #news-content').append(elem);
