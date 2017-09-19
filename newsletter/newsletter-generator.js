@@ -97,7 +97,6 @@ function loadElement(link, number) {
 	  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
 	  else { subtitle = add(names.category, names.subtitle); }
     var title = names.title;
-    console.log(title);
     if ( $(result).find('.product_right_tab .price-promotion').length ) {
       priceI = $(result).find('.product_right_tab .price-promotion:eq(0)').text();
       priceII = $(result).find('.product_right_tab .old-price:eq(0)').text();
@@ -116,7 +115,7 @@ function loadElement(link, number) {
       var html = "<table cellpadding='0' cellspacing='0' border='0'><tr>" + 
 	  "<td class='price-promotion'>" + priceI + "</td>" +
 	  "<td class='old-price'>" + priceII + "</td></tr></table>";
-      $(l + ' .product-price').append(html);console.log(priceII);
+      $(l + ' .product-price').append(html);
     }
   });	
 };
@@ -141,74 +140,7 @@ function genProduct(number) {
   return html;	
 };
 
-/*
-var site;
-var isPaused;
-function genThreeProducts2(linkI, linkII, linkIII) {
-  var p1 = genProduct2(linkI); console.log(site.title); 
-  var p2 = genProduct(linkII);
-  var p3; = genProduct(linkIII);
-  var html = "<tr class='element'><td><table cellpadding='0' cellspacing='0' border='0'><tr>" +
-    p1 + p1 + p1 + "</tr></table></td></tr>";
-  return html;
-};
 
-
-function genProduct2(link) {
-  var img; var title; var subtitle = ''; var priceI; var priceII = '';
-  isPaused = true;
-  var s = $.get(link, parseProductSite );
-  
-  function waitForIt(){
-        if (isPaused) {
-            setTimeout(function(){waitForIt()},100);
-        } else {
-            // go do that thing
-	  console.log(site.title); 
-  var html = "<td><table cellpadding='0' cellspacing='0' border='0'><tr>" +
-    "<td class='product'><a href='" + site.link + "'><img src='" + site.img + "'></a></td></tr>" +
-    "<tr><td class='product-title'>" + site.title + "</td></tr>" +
-    "<tr><td class='product-subtitle'>" + site.subtitle + "</td></tr>" +
-    genPrice(site.priceI, site.priceII) +
-    "</table></td>";	
-  return html;	
-        };
-    }
-
-};
-
-function genPrice2 (priceI, priceII) {
-  var html;
-  if (priceII === '') {
-    html = "<tr><td class='product-price'>" + priceI + "</td></tr>";
-  } else {
-    html = "<tr><td class='product-price'><table cellpadding='0' cellspacing='0' border='0'>" + 
-    "<tr><td class='price-promotion'>" + priceI + "</td><td class='old-price'>" + priceII + "</td></tr>" +
-    "</table></td></tr>";
-  }
-  return html;
-};
-*/
-function parseProductSite(result){
-    var priceI; 
-    var priceII = '';
-    var subtitle ='';
-    var img = $(result).find('.pop-up-added-to-cart.desktop img').attr('src'); 
-    var full_name = $(result).find('h2.product_title:eq(0)').text();
-    var names = productNames( full_name );    
-	  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
-	  else { subtitle = add(names.category, names.subtitle); }
-    var title = names.title;
-    console.log(title);
-    if ( $(result).find('.product_right_tab .price-promotion').length ) {
-      priceI = $(result).find('.product_right_tab .price-promotion:eq(0)').text();
-      priceII = $(result).find('.product_right_tab .old-price:eq(0)').text();
-    } else {
-      priceI = $(result).find('.product_right_tab .price span:eq(0)').text();
-    }
-    site = { img: img, title: title, subtitle: subtitle, priceI: priceI, priceII: priceII };
-    console.log(site);
-};
 
 /*Name Product
 *************************************************/
