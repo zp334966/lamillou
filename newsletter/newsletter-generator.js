@@ -88,7 +88,7 @@ function genProduct(link, img, title, subtitle, priceI, priceII) {
     "<td class='product'><a href='" + link "'><img src='" + img + "'></a></td></tr>" +
     "<tr><td class='product-title'>" + title + "</td></tr>" +
     "<tr><td class='product-subtitle'>" + subtitle + "</td></tr>" +
-    genPrice (priceI, priceII) +
+    genPrice(priceI, priceII) +
     "</table></td>";
   return html;
 };
