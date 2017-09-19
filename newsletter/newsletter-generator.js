@@ -94,7 +94,7 @@ function genProduct(link) {
   //var s = $.get(link, parseProductSite );
   var result = $('<div>');
   result.load(link + ' h2.product_title:eq(0)', function(){});
-  var full_name = result[0].text(); console.log(result[0].html());
+  var full_name = result.text(); console.log(result.html());
   
     //var img = result.find('.ms-slide-bgcont img').html()//attr('src'); 
     //var full_name = result.find('h2.product_title:eq(0)').text();
