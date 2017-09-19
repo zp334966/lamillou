@@ -80,7 +80,7 @@ function genButton(link) {
 };
 
 function genThreeProducts(linkI, linkII, linkIII) {
-  var p1 = genProduct(linkI);
+  var p1 = genProduct(linkI);console.log(site.title); 
   //var p2 = genProduct(linkII);
   //var p3; = genProduct(linkIII);
   var html = "<tr class='element'><td><table cellpadding='0' cellspacing='0' border='0'><tr>" +
