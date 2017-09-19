@@ -105,6 +105,7 @@ function genProduct(link) {
       priceI = $(result).find('.product_right_tab .price span').text();
     }
   });
+console.log(title);
   var html = "<td><table cellpadding='0' cellspacing='0' border='0'><tr>" +
     "<td class='product'><a href='" + link + "'><img src='" + img + "'></a></td></tr>" +
     "<tr><td class='product-title'>" + title + "</td></tr>" +
