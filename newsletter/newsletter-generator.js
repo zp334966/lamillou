@@ -89,13 +89,28 @@ function genThreeProducts(linkI, linkII, linkIII) {
 };
 
 var site;
-var timer = 0;
 function genProduct(link) {
-  var img; var title; var subtitle; var priceI; var priceII = '';
-  var s = $.get(link, parseProductSite );
-  while (timer == 0) {};
-  console.log(timer); timer = 0;
-  console.log(site.title);
+  var img; var title; var subtitle = ''; var priceI; var priceII = '';
+  //var s = $.get(link, parseProductSite );
+  var result = $('<div>');
+  result.load(link, function(){});
+
+    var img = result.find('.ms-slide-bgcont img').html()//attr('src'); 
+    var full_name = result.find('h2.product_title:eq(0)').text();
+    var names = productNames( full_name );    
+	  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
+	  else { subtitle = add(names.category, names.subtitle); }
+    var title = names.title;
+   
+    if ( result.find('.product_right_tab .price-promotion').length ) {
+      priceI = result.find('.product_right_tab .price-promotion:eq(0)').text();
+      priceII = result.find('.product_right_tab .old-price:eq(0)').text();
+    } else {
+      priceI = result.find('.product_right_tab .price span:eq(0)').text();
+    }
+	
+	
+  console.log(title);
   var html = "<td><table cellpadding='0' cellspacing='0' border='0'><tr>" +
     "<td class='product'><a href='" + link + "'><img src='" + img + "'></a></td></tr>" +
     "<tr><td class='product-title'>" + title + "</td></tr>" +
@@ -135,7 +150,6 @@ function parseProductSite(result){
       priceI = $(result).find('.product_right_tab .price span:eq(0)').text();
     }
     site = { img: img, title: title, subtitle: subtitle, priceI: priceI, priceII: priceII };
-    timer++;
 	console.log(site);
 };
 
