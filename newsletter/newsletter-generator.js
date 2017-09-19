@@ -133,6 +133,7 @@ function parseProductSite(result){
       priceI = $(result).find('.product_right_tab .price span').text();
     }
     site = { img: img, title: title, subtitle: subtitle, priceI: priceI, priceII: priceII };
+	console.log(site);
 };
 
 /*Name Product
