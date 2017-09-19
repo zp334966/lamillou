@@ -1,0 +1,154 @@
+body {
+            margin: 0; padding: 0; min-width:100%!important; 
+            
+        }
+        .page {
+            background-color: #f7f7f7;
+            
+        }
+        .content {
+            width: 100%; max-width: 660px;
+            border-style: solid; border-color: #f7f7f7; border-width: 2px;
+            background-color: white;
+            font-family: 'Open Sans', Arial, Helvetica, Verdana, Georgia, 'Times New Roman';
+        }  
+        .logo {
+            margin-left: 20px;
+            
+        }
+        #main-image img {
+            width: 100%;
+        
+        }
+        #main-title {
+            text-align: center;
+            width: 573px;
+            padding-bottom: 10px;
+            margin: auto;
+        }
+        #main-subtitle {
+            text-align: center;
+            width: 321px;
+            margin: auto;
+            padding-bottom: 40px;
+        }
+        .container {
+            padding: 39px 33px 42px 33px;
+        }
+        .h1 {
+            font-weight: 700;
+            font-size: 24px;
+            color: #16407D;
+            letter-spacing: 0.6px;
+            line-height: 40px;
+            padding-bottom: 5px;
+            text-transform: uppercase;
+        }
+        .p {
+            font-size: 14px;
+            color: #243C5E;
+            letter-spacing: 0;
+            line-height: 24px;
+            padding-bottom: 14px;
+        }
+        .img-category {
+            padding-bottom: 35px;
+        }
+        .btn-lam {
+            color: white;
+            background-color: #16407d;
+            font-size: 15px;
+            text-align: center;
+            text-transform: uppercase;
+            width: 240px;
+            letter-spacing: 0.47px;
+            line-height: 20px;
+            font-weight: 700;
+            padding-top: 14px;
+            padding-bottom: 16px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;  
+            text-decoration: none;
+            margin:auto;
+            margin-bottom: 41px;
+        }
+        .product img, .product-title, .product-subtitle, .product-price {
+            width: 188px;
+        }
+        .product img {
+            padding-bottom: 18px;
+        }
+        .product-title {
+            font-size: 13px;
+            color: #16407D;
+            letter-spacing: 0;
+            font-weight: 600;
+            padding-bottom: 4px;
+        }
+        .product-subtitle {
+            opacity: 0.8;
+            font-size: 11px;
+            color: #16407D;
+            letter-spacing: 0;
+            padding-bottom: 3px;
+        }
+        .product-price {
+            font-size: 13px;
+            color: #16407D;
+            letter-spacing: 0;
+            font-weight: 600;
+            padding-bottom: 34px;
+        }
+        .product-price table {
+            width: 100%;
+        }
+        .product-price .price-promotion {
+            font-size: 13px;
+            color: #F1001D;
+            letter-spacing: 0;
+            font-weight: 600;
+        }
+        .product-price .old-price {
+            font-size: 13px;
+            color: #9AA1AC;
+            letter-spacing: 0;
+            font-weight: 600;
+            text-decoration: line-through;
+            text-align: right;
+        }
+        .bolder {
+            font-weight: 600; 
+        }
+        .footer {
+            margin-top: 55px;
+            background: #16407D;
+            padding-top: 48px;
+            padding-bottom: 83px;
+        }
+        .footer .h1 {
+            color: white;
+            font-size: 24px;
+            text-align: left;
+            font-weight: 600;
+        }
+        .footer .p {
+            color: white;
+            font-size: 13px;
+            letter-spacing: 0;
+            line-height: 25px;
+        }
+        .footer a {
+            color: white!important;
+        }
+        .facebook, .pinterest, .google, .instagram, .youtube {
+            height: 21px;
+            padding-right: 25px;
+            padding-bottom: 50px;
+            padding-top: 5px;
+            color: white;
+            display: block;
+        }
+        .facebook {
+            margin-left: -5px;
+        }
