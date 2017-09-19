@@ -81,54 +81,39 @@ function genButton(link) {
 
 function genThreeProducts(linkI, linkII, linkIII) {
   var p1 = genProduct(linkI);
-  var p2 = genProduct(linkII);
-  var p3 = genProduct(linkIII);
+  //var p2 = genProduct(linkII);
+  //var p3; = genProduct(linkIII);
   var html = "<tr class='element'><td><table cellpadding='0' cellspacing='0' border='0'><tr>" +
-    p1 + p2 + p3 + "</tr></table></td></tr>";
+    p1 + p1 + p1 + "</tr></table></td></tr>";
   return html;
 };
 
 var site;
+var isPaused;
 function genProduct(link) {
   var img; var title; var subtitle = ''; var priceI; var priceII = '';
-  //var s = $.get(link, parseProductSite );
-  $('#loaded-site').load(link + ' .ms-slide-bgcont img'); 
+  isPaused = true;
+  var s = $.get(link, parseProductSite );
   
-  $('#loaded-site').load(link + ' h2.product_title:eq(0)'); 
-  var full_name = $('#loaded-site h2').text();
-  var names = productNames( full_name );    
-    if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
-    else { subtitle = add(names.category, names.subtitle); }
-  var title = names.title;	
-	
-  $('#loaded-site').load(link + ' .product_right_tab .price');
-	
-
-	
-  /*
-    var img = result.find('.ms-slide-bgcont img').html()//attr('src'); 
-    var full_name = result.find('h2.product_title:eq(0)').text();
-    var names = productNames( full_name );    
-	  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
-	  else { subtitle = add(names.category, names.subtitle); }
-    var title = names.title;
-   
-    if ( result.find('.product_right_tab .price-promotion').length ) {
-      priceI = result.find('.product_right_tab .price-promotion:eq(0)').text();
-      priceII = result.find('.product_right_tab .old-price:eq(0)').text();
-    } else {
-      priceI = result.find('.product_right_tab .price span:eq(0)').text();
-    }
-	
-*/	
-  console.log(title); 
+  function waitForIt(){
+        if (isPaused) {
+            setTimeout(function(){waitForIt()},100);
+        } else {
+            // go do that thing
+	  console.log(site.title); 
   var html = "<td><table cellpadding='0' cellspacing='0' border='0'><tr>" +
     "<td class='product'><a href='" + link + "'><img src='" + img + "'></a></td></tr>" +
     "<tr><td class='product-title'>" + title + "</td></tr>" +
     "<tr><td class='product-subtitle'>" + subtitle + "</td></tr>" +
     genPrice(priceI, priceII) +
-    "</table></td>";
-  return html;
+    "</table></td>";	
+  return html;	
+        };
+    }
+	
+console.log('poza funkcja'); 
+
+  
 };
 
 function genPrice (priceI, priceII) {
@@ -161,6 +146,7 @@ function parseProductSite(result){
       priceI = $(result).find('.product_right_tab .price span:eq(0)').text();
     }
     site = { img: img, title: title, subtitle: subtitle, priceI: priceI, priceII: priceII };
+	isPaused = false;
 	console.log(site);
 };
 
