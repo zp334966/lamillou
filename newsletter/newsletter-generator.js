@@ -38,7 +38,7 @@ $('#add-small-img button').on('click', function(){
 */
 
 $('button#usun').on('click', function(){
-  $('#newsletter-generated #news-content tbody').children().last().remove();
+  $('#newsletter-generated #news-content .element').last().remove();
 });
 
 
@@ -47,23 +47,23 @@ function addElement(elem) {
 };
 
 function genTitle(title) {
-  var html = "<tr><td class='h1'>" + title + "</td></tr>";
+  var html = "<tr class='element'><td class='h1'>" + title + "</td></tr>";
   return html;
 };
 
 function genSubtitle(subtitle) {
-  var html = "<tr><td class='p'>" + subtitle + "</td></tr>";
+  var html = "<tr class='element'><td class='p'>" + subtitle + "</td></tr>";
   return html;
 };
 
 function genImgCategory(imgLink, link) {
   var html;
   if (link === '') {
-    html = "<tr><td>" +
+    html = "<tr class='element'><td>" +
         "<img class='img-category' src='" + imgLink + "'/>" +      
         "</td></tr>";      
   } else {
-    html = "<tr><td><a href='" + link + "'>" +
+    html = "<tr class='element'><td><a href='" + link + "'>" +
         "<img class='img-category' src='" + imgLink + "'/>" +      
         "</a></td></tr>";
   }
@@ -71,7 +71,7 @@ function genImgCategory(imgLink, link) {
 };
 
 function genButton(link) {
-  var html = "<tr><td><a class='btn-lam' href='" + link + "'>" +
+  var html = "<tr class='element'><td><a class='btn-lam' href='" + link + "'>" +
       "<table class='btn-lam' cellpadding='0' cellspacing='0' border='0'>" +
       "<tr><td>Kup teraz</td></tr></table>" +
       "</a></td></tr>";
