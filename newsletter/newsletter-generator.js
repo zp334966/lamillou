@@ -91,7 +91,8 @@ function genThreeProducts(linkI, linkII, linkIII) {
 var site;
 function genProduct(link) {
   var img; var title; var subtitle; var priceI; var priceII = '';
-  $.get(link, parseProductSite );
+  var s = $.get(link, parseProductSite );
+  console.log(s);
   console.log(site.title);
   var html = "<td><table cellpadding='0' cellspacing='0' border='0'><tr>" +
     "<td class='product'><a href='" + link + "'><img src='" + img + "'></a></td></tr>" +
