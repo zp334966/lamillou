@@ -79,8 +79,10 @@ function genButton(link) {
   return html;
 };
 
+var site;
+var isPaused;
 function genThreeProducts(linkI, linkII, linkIII) {
-  var p1 = genProduct(linkI);console.log(site.title); 
+  var p1 = genProduct(linkI); console.log(site.title); 
   //var p2 = genProduct(linkII);
   //var p3; = genProduct(linkIII);
   var html = "<tr class='element'><td><table cellpadding='0' cellspacing='0' border='0'><tr>" +
@@ -88,8 +90,7 @@ function genThreeProducts(linkI, linkII, linkIII) {
   return html;
 };
 
-var site;
-var isPaused;
+
 function genProduct(link) {
   var img; var title; var subtitle = ''; var priceI; var priceII = '';
   isPaused = true;
@@ -102,10 +103,10 @@ function genProduct(link) {
             // go do that thing
 	  console.log(site.title); 
   var html = "<td><table cellpadding='0' cellspacing='0' border='0'><tr>" +
-    "<td class='product'><a href='" + link + "'><img src='" + img + "'></a></td></tr>" +
-    "<tr><td class='product-title'>" + title + "</td></tr>" +
-    "<tr><td class='product-subtitle'>" + subtitle + "</td></tr>" +
-    genPrice(priceI, priceII) +
+    "<td class='product'><a href='" + site.link + "'><img src='" + site.img + "'></a></td></tr>" +
+    "<tr><td class='product-title'>" + site.title + "</td></tr>" +
+    "<tr><td class='product-subtitle'>" + site.subtitle + "</td></tr>" +
+    genPrice(site.priceI, site.priceII) +
     "</table></td>";	
   return html;	
         };
