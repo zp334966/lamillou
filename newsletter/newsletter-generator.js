@@ -33,8 +33,8 @@ $('#add-small-img button').on('click', function(){
   var linkI = $('#img-small1-form').val();
   var linkII = $('#img-small2-form').val();
   var linkIII = $('#img-small3-form').val();
-  var html = genThreeProducts(linkI, linkII, linkIII)
-  addElement(html);
+  $.when( addElement(genThreeProducts()) ).done( loadElements(linkI, linkII, linkIII) );
+
 });
 
 
@@ -79,19 +79,71 @@ function genButton(link) {
   return html;
 };
 
+
+var threeP = 0;
+function loadElements(linkI, linkII, linkIII) {
+  $.when( loadElement(linkI, 'one'), 
+	 loadElement(linkII, 'two'), 
+	 loadElement(linkIII, 'three') ).done(threeP++);
+}
+function loadElement(link, number) {
+  $.get(link, function(result) {
+    var priceI; 
+    var priceII = '';
+    var subtitle ='';
+    var img = $(result).find('.pop-up-added-to-cart.desktop img').attr('src'); 
+    var full_name = $(result).find('h2.product_title:eq(0)').text();
+    var names = productNames( full_name );    
+	  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
+	  else { subtitle = add(names.category, names.subtitle); }
+    var title = names.title;
+    console.log(title);
+    if ( $(result).find('.product_right_tab .price-promotion').length ) {
+      priceI = $(result).find('.product_right_tab .price-promotion:eq(0)').text();
+      priceII = $(result).find('.product_right_tab .old-price:eq(0)').text();
+    } else {
+      priceI = $(result).find('.product_right_tab .price span:eq(0)').text();
+    }
+    
+    var l = "#" + threeP + " ." + number;
+    $(l+'.product a').href(link);
+  });	
+};
+
+function genThreeProductsTemplate() {
+  var p1 = genProduct('one'); 
+  var p2 = genProduct('two');
+  var p3 = genProduct('three');
+  var html = "<tr class='element' id='" + threeP + "'><td><table cellpadding='0' cellspacing='0' border='0'><tr>" +
+    p1 + p2 + p3 + "</tr></table></td></tr>";
+  return html;
+};
+
+
+function genProduct(number) {
+  var html = "<td class='" + number + "'><table cellpadding='0' cellspacing='0' border='0'><tr>" +
+    "<td class='product'><a><img/></a></td></tr>" +
+    "<tr><td class='product-title'></td></tr>" +
+    "<tr><td class='product-subtitle'></td></tr>" +
+    "<tr><td class='product-price'></td></tr>" +
+    "</table></td>";	
+  return html;	
+};
+
+/*
 var site;
 var isPaused;
-function genThreeProducts(linkI, linkII, linkIII) {
-  var p1 = genProduct(linkI); console.log(site.title); 
-  //var p2 = genProduct(linkII);
-  //var p3; = genProduct(linkIII);
+function genThreeProducts2(linkI, linkII, linkIII) {
+  var p1 = genProduct2(linkI); console.log(site.title); 
+  var p2 = genProduct(linkII);
+  var p3; = genProduct(linkIII);
   var html = "<tr class='element'><td><table cellpadding='0' cellspacing='0' border='0'><tr>" +
     p1 + p1 + p1 + "</tr></table></td></tr>";
   return html;
 };
 
 
-function genProduct(link) {
+function genProduct2(link) {
   var img; var title; var subtitle = ''; var priceI; var priceII = '';
   isPaused = true;
   var s = $.get(link, parseProductSite );
@@ -111,13 +163,10 @@ function genProduct(link) {
   return html;	
         };
     }
-	
-console.log('poza funkcja'); 
 
-  
 };
 
-function genPrice (priceI, priceII) {
+function genPrice2 (priceI, priceII) {
   var html;
   if (priceII === '') {
     html = "<tr><td class='product-price'>" + priceI + "</td></tr>";
@@ -128,12 +177,12 @@ function genPrice (priceI, priceII) {
   }
   return html;
 };
-
+*/
 function parseProductSite(result){
     var priceI; 
     var priceII = '';
     var subtitle ='';
-    var img = $(result).find('.ms-slide-bgcont img').html()//attr('src'); 
+    var img = $(result).find('.pop-up-added-to-cart.desktop img').attr('src'); 
     var full_name = $(result).find('h2.product_title:eq(0)').text();
     var names = productNames( full_name );    
 	  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
@@ -147,8 +196,7 @@ function parseProductSite(result){
       priceI = $(result).find('.product_right_tab .price span:eq(0)').text();
     }
     site = { img: img, title: title, subtitle: subtitle, priceI: priceI, priceII: priceII };
-	isPaused = false;
-	console.log(site);
+    console.log(site);
 };
 
 /*Name Product
