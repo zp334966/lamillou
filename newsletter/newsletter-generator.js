@@ -100,12 +100,11 @@ function loadElement(link, number) {
     console.log(title);
     if ( $(result).find('.product_right_tab .price-promotion').length ) {
       priceI = $(result).find('.product_right_tab .price-promotion:eq(0)').text();
-      priceII = $(result).find('.product_right_tab .old-price:eq(0)').text();
+      priceII = $(result).find('.product_right_tab .old-price:eq(0)').text(); console.log(priceII);
     } else {
       priceI = $(result).find('.product_right_tab .price span:eq(0)').text();
     }
-    
-	  
+    	  
     var l = "#news-content #prod" + (threeP - 1) + " ." + number;
     $(l + ' .product img').attr('src', img);
     $(l + ' .product a').attr('href', link);
