@@ -89,23 +89,9 @@ function genThreeProducts(linkI, linkII, linkIII) {
 };
 
 function genProduct(link) {
-  var img; var title; var subtitle = ''; var priceI; var priceII = '';
-  $.get(link, function(result){
-    img = $(result).find('.sp-slider .ms-slide-bgcont img:eq(0)').attr('src'); 
-    var full_name = $(result).find('h2.product_title:eq(0)').text();
-    var names = productNames( full_name );    
-	  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
-	  else { subtitle = add(names.category, names.subtitle); }
-    title = names.title;
-    console.log(title);
-    if ( $(result).find('.product_right_tab .price-promotion').length ) {
-      priceI = $(result).find('.product_right_tab .price-promotion').text();
-      priceII = $(result).find('.product_right_tab .old-price').text();
-    } else {
-      priceI = $(result).find('.product_right_tab .price span').text();
-    }
-  });
-console.log(title);
+  var img; var title; var subtitle; var priceI; var priceII = '';
+  var site = $.get(link, parseProductSite(result) );
+  console.log(site.title);
   var html = "<td><table cellpadding='0' cellspacing='0' border='0'><tr>" +
     "<td class='product'><a href='" + link + "'><img src='" + img + "'></a></td></tr>" +
     "<tr><td class='product-title'>" + title + "</td></tr>" +
@@ -127,7 +113,25 @@ function genPrice (priceI, priceII) {
   return html;
 };
 
-
+function parseProductSite(result){
+    var priceI; 
+    var priceII = '';
+    var subtitle ='';
+    var img = $(result).find('.sp-slider .ms-slide-bgcont img:eq(0)').attr('src'); 
+    var full_name = $(result).find('h2.product_title:eq(0)').text();
+    var names = productNames( full_name );    
+	  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
+	  else { subtitle = add(names.category, names.subtitle); }
+    var title = names.title;
+    console.log(title);
+    if ( $(result).find('.product_right_tab .price-promotion').length ) {
+      priceI = $(result).find('.product_right_tab .price-promotion').text();
+      priceII = $(result).find('.product_right_tab .old-price').text();
+    } else {
+      priceI = $(result).find('.product_right_tab .price span').text();
+    }
+    return { img: img, title: title, subtitle: subtitle, priceI: priceI, priceII: priceII };
+};
 
 /*Name Product
 *************************************************/
