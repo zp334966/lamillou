@@ -89,10 +89,12 @@ function genThreeProducts(linkI, linkII, linkIII) {
 };
 
 var site;
-
+var timer = 0;
 function genProduct(link) {
   var img; var title; var subtitle; var priceI; var priceII = '';
-  var s = $.when($.get(link, parseProductSite )).done(function(a){								 								 								
+  var s = $.get(link, parseProductSite );
+  while (timer == 0) {};
+  console.log(timer); timer = 0;
   console.log(site.title);
   var html = "<td><table cellpadding='0' cellspacing='0' border='0'><tr>" +
     "<td class='product'><a href='" + link + "'><img src='" + img + "'></a></td></tr>" +
@@ -101,7 +103,6 @@ function genProduct(link) {
     genPrice(priceI, priceII) +
     "</table></td>";
   return html;
-  }) ;
 };
 
 function genPrice (priceI, priceII) {
@@ -134,6 +135,7 @@ function parseProductSite(result){
       priceI = $(result).find('.product_right_tab .price span:eq(0)').text();
     }
     site = { img: img, title: title, subtitle: subtitle, priceI: priceI, priceII: priceII };
+    timer++;
 	console.log(site);
 };
 
