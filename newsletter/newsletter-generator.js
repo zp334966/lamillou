@@ -28,14 +28,15 @@ $('#add-button button').on('click', function(){
   var html = genButton(link);
   addElement(html);
 });
-/*
+
 $('#add-small-img button').on('click', function(){
-  var link = $('#img1-small-form').val();
-  
-  var html = genButton(link);
+  var linkI = $('#img-small1-form').val();
+  var linkII = $('#img-small2-form').val();
+  var linkIII = $('#img-small3-form').val();
+  var html = genThreeProducts(linkI, linkII, linkIII)
   addElement(html);
 });
-*/
+
 
 $('button#usun').on('click', function(){
   $('#newsletter-generated #news-content .element').last().remove();
@@ -77,13 +78,15 @@ function genButton(link) {
       "</a></td></tr>";
   return html;
 };
-/*
+
 function genThreeProducts(linkI, linkII, linkIII) {
-  
+  var p1 = genProduct(linkI);
+  var p2 = genProduct(linkII);
+  var p3 = genProduct(linkIII);
+  var html = "<tr class='element'><td><table cellpadding='0' cellspacing='0' border='0'><tr>" +
+    p1 + p2 + p3 + "</tr></table></td></tr>";
+  return html;
 };
-*/
-
-
 
 function genProduct(link) {
   var img; var title; var subtitle = ''; var priceI; var priceII = '';
