@@ -106,12 +106,12 @@ function loadElement(link, number) {
     }
     
 	  
-    var lImg = "#news-content #prod" + threeP + " ." + number + " .product img"; alert(lImg);
+    var l = "#news-content #prod" + (threeP - 1) + " ." + number; alert(l);
 	  if ($('#news-content #prod0 .one .product img').length) {alert('jest');} else {alert('nie ma')};
-    $(lImg).attr('src', img);
-    //$(l+' .product a').attr('href', link); console.log(link);console.log(img);
-    //$(l+' .product-title').text(title);
-    //$(l+' .product-subtitle').text(subtitle);
+    $(l + + ' .product img').attr('src', img);
+    $(l+' .product a').attr('href', link); console.log(link);console.log(img);
+    $(l+' .product-title').text(title);
+    $(l+' .product-subtitle').text(subtitle);
   });	
 };
 
