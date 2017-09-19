@@ -107,7 +107,7 @@ function loadElement(link, number) {
     
 	  
     var l = "#news-content #prod" + threeP + " ." + number;
-	  if ($(l+' .product img').length) {alert('jest');} else {alert('nie ma')};
+	  if ($('#news-content #prod0 .one .product img').length) {alert('jest');} else {alert('nie ma')};
     $(l+' .product img').attr('src', img);
     $(l+' .product a').attr('href', link); console.log(link);console.log(img);
     $(l+' .product-title').text(title);
