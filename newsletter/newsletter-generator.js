@@ -92,10 +92,8 @@ var site;
 
 function genProduct(link) {
   var img; var title; var subtitle; var priceI; var priceII = '';
-  var s = $.when($.get(link, parseProductSite )).done(function(a){console.log(site.title);}) ;
-
+  var s = $.when($.get(link, parseProductSite )).done(function(a){								 								 								
   console.log(site.title);
-
   var html = "<td><table cellpadding='0' cellspacing='0' border='0'><tr>" +
     "<td class='product'><a href='" + link + "'><img src='" + img + "'></a></td></tr>" +
     "<tr><td class='product-title'>" + title + "</td></tr>" +
@@ -103,6 +101,7 @@ function genProduct(link) {
     genPrice(priceI, priceII) +
     "</table></td>";
   return html;
+  }) ;
 };
 
 function genPrice (priceI, priceII) {
@@ -121,7 +120,7 @@ function parseProductSite(result){
     var priceI; 
     var priceII = '';
     var subtitle ='';
-    var img = $(result).find('.ms-slide-bgcont img:eq(0)').attr('src'); 
+    var img = $(result).find('.ms-slide-bgcont img').html()//attr('src'); 
     var full_name = $(result).find('h2.product_title:eq(0)').text();
     var names = productNames( full_name );    
 	  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
