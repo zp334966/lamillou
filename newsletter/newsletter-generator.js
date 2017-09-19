@@ -90,7 +90,7 @@ function genThreeProducts(linkI, linkII, linkIII) {
 
 function genProduct(link) {
   var img; var title; var subtitle = ''; var priceI; var priceII = '';
-  var site = $.get(link, function(result){
+  $.get(link, function(result){
     img = $(result).find('.sp-slider .ms-slide-bgcont img:eq(0)').attr('src'); 
     var full_name = $(result).find('h2.product_title:eq(0)').text();
     var names = productNames( full_name );    
