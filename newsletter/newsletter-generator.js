@@ -92,7 +92,7 @@ var site;
 function genProduct(link) {
   var img; var title; var subtitle = ''; var priceI; var priceII = '';
   //var s = $.get(link, parseProductSite );
-  $('#rubbish').load(link + ' h2.product_title:eq(0)'); 
+  $('#loaded-site').load(link + ' h2.product_title:eq(0)'); 
   //var result = $('<div>');
   //result.load(link + ' h2.product_title:eq(0)', function(){});
   //var full_name = result.text(); 
