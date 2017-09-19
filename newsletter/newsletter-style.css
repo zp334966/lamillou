@@ -81,6 +81,10 @@ body {
 .product img {
   padding-bottom: 18px;
 }
+.element .two {
+  padding-left:24px; 
+  padding-right:24px;
+}
 .product-title {
   font-size: 13px;
   color: #16407D;
