@@ -100,7 +100,7 @@ function loadElement(link, number) {
     console.log(title);
     if ( $(result).find('.product_right_tab .price-promotion').length ) {
       priceI = $(result).find('.product_right_tab .price-promotion:eq(0)').text();
-      priceII = $(result).find('.product_right_tab .old-price:eq(0)').text(); console.log(priceII);
+      priceII = $(result).find('.product_right_tab .old-price:eq(0)').text();
     } else {
       priceI = $(result).find('.product_right_tab .price span:eq(0)').text();
     }
@@ -110,13 +110,13 @@ function loadElement(link, number) {
     $(l + ' .product a').attr('href', link);
     $(l + ' .product-title').text(title);
     $(l + ' .product-subtitle').text(subtitle);
-    if (priceII = '') {
+    if (priceII == '') {
       $(l + ' .product-price').text(priceI);
     } else {
       var html = "<table cellpadding='0' cellspacing='0' border='0'><tr>" + 
 	  "<td class='price-promotion'>" + priceI + "</td>" +
 	  "<td class='old-price'>" + priceII + "</td></tr></table>";
-      $(l + ' .product-price').append(html);
+      $(l + ' .product-price').append(html);console.log(priceII);
     }
   });	
 };
