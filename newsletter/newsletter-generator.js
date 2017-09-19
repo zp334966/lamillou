@@ -92,7 +92,7 @@ function loadElement(link, number) {
     var priceII = '';
     var subtitle ='';
     var img = $(result).find('.pop-up-added-to-cart.desktop img').attr('src'); 
-    var full_name = $(result).find('h2.product_title:eq(0)').remove('small').text();
+    var full_name = $(result).find('h2.product_title:eq(0)').remove('small').text(); console.log(full_name);
     var names = productNames( full_name );    
 	  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
 	  else { subtitle = add(names.category, names.subtitle); }
