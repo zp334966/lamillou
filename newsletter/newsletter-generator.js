@@ -92,9 +92,16 @@ var site;
 function genProduct(link) {
   var img; var title; var subtitle = ''; var priceI; var priceII = '';
   //var s = $.get(link, parseProductSite );
-  $('#loaded-site').load(link + ' .ms-slide-bgcont img'); console.log($('#loaded-site').html());
-  $('#loaded-site').load(link + ' h2.product_title:eq(0)'); console.log($('#loaded-site').html());
-  $('#loaded-site').load(link + ' .product_right_tab .price span:eq(0)'); console.log($('#loaded-site').html());
+  $('#loaded-site').load(link + ' .ms-slide-bgcont img'); 
+  
+  $('#loaded-site').load(link + ' h2.product_title:eq(0)'); 
+  var full_name = $('#loaded-site h2').text();
+  var names = productNames( full_name );    
+    if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
+    else { subtitle = add(names.category, names.subtitle); }
+  var title = names.title;	
+	
+  $('#loaded-site').load(link + ' .product_right_tab .price');
 	
 
 	
