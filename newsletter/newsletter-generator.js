@@ -38,7 +38,7 @@ $('#add-small-img button').on('click', function(){
 */
 
 $('button#usun').on('click', function(){
-  $('#newsletter-generated #news-content').children().last().remove();
+  $('#newsletter-generated #news-content tbody').children().last().remove();
 });
 
 
