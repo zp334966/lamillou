@@ -36,11 +36,11 @@ $('#add-small-img button').on('click', function(){
   addElement(html);
 });
 */
-/*
+
 $('button#usun').on('click', function(){
   $('#newsletter-generated #news-content tbody').children().last().remove();
 });
-*/
+
 
 function addElement(elem) {
   $('#newsletter-generated #news-content').append(elem);
