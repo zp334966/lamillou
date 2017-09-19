@@ -106,12 +106,19 @@ function loadElement(link, number) {
     }
     
 	  
-    var l = "#news-content #prod" + (threeP - 1) + " ." + number; alert(l);
-	  if ($('#news-content #prod0 .one .product img').length) {alert('jest');} else {alert('nie ma')};
-    $(l + + ' .product img').attr('src', img);
-    $(l+' .product a').attr('href', link); console.log(link);console.log(img);
-    $(l+' .product-title').text(title);
-    $(l+' .product-subtitle').text(subtitle);
+    var l = "#news-content #prod" + (threeP - 1) + " ." + number;
+    $(l + ' .product img').attr('src', img);
+    $(l + ' .product a').attr('href', link);
+    $(l + ' .product-title').text(title);
+    $(l + ' .product-subtitle').text(subtitle);
+    if (priceII = '') {
+      $(l + ' .product-price').text(priceI);
+    } else {
+      var html = "<table cellpadding='0' cellspacing='0' border='0'><tr>" + 
+	  "<td class='price-promotion'>" + priceI + "</td>" +
+	  "<td class='old-price'>" + priceII + "</td></tr></table>";
+      $(l + ' .product-price').append(html);
+    }
   });	
 };
 
