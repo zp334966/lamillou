@@ -157,7 +157,7 @@ function productNames(full_name) {
   var title = "";
   var subtitle = "";
   while (names.length > i) {
-    if (names[i].match(/[a-z]/i) && names[i].indexOf('#') == -1 ) {
+    if (names[i].match(/[a-z]/i) /*&& names[i].indexOf('#') == -1*/ ) {
       if (categories.some(function(v) {return names[i].includes(v);})) {
         category = names[i];
       } else {
