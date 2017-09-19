@@ -119,7 +119,7 @@ function parseProductSite(result){
     var priceI; 
     var priceII = '';
     var subtitle ='';
-    var img = $(result).find('.sp-slider .ms-slide-bgcont img:eq(0)').attr('src'); 
+    var img = $(result).find('.sp-slider .ms-slide-bgcont img').attr('src'); 
     var full_name = $(result).find('h2.product_title:eq(0)').text();
     var names = productNames( full_name );    
 	  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
@@ -127,10 +127,10 @@ function parseProductSite(result){
     var title = names.title;
     console.log(title);
     if ( $(result).find('.product_right_tab .price-promotion').length ) {
-      priceI = $(result).find('.product_right_tab .price-promotion').text();
-      priceII = $(result).find('.product_right_tab .old-price').text();
+      priceI = $(result).find('.product_right_tab .price-promotion:eq(0)').text();
+      priceII = $(result).find('.product_right_tab .old-price:eq(0)').text();
     } else {
-      priceI = $(result).find('.product_right_tab .price span').text();
+      priceI = $(result).find('.product_right_tab .price span:eq(0)').text();
     }
     site = { img: img, title: title, subtitle: subtitle, priceI: priceI, priceII: priceII };
 	console.log(site);
