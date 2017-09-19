@@ -33,7 +33,7 @@ $('#add-small-img button').on('click', function(){
   var linkI = $('#img-small1-form').val();
   var linkII = $('#img-small2-form').val();
   var linkIII = $('#img-small3-form').val();
-  $.when( addElement(genThreeProducts()) ).done( loadElements(linkI, linkII, linkIII) );
+  $.when( addElement( genThreeProductsTemplate() ) ).done( loadElements(linkI, linkII, linkIII) );
 
 });
 
@@ -106,7 +106,7 @@ function loadElement(link, number) {
     }
     
     var l = "#" + threeP + " ." + number;
-    $(l+'.product a').href(link);
+    $(l+'.product a').attr('href', link);
   });	
 };
 
