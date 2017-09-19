@@ -92,10 +92,7 @@ function loadElement(link, number) {
     var priceII = '';
     var subtitle ='';
     var img = $(result).find('.pop-up-added-to-cart.desktop img').attr('src'); 
-    var full_name = $(result).find('h2.product_title:eq(0)').remove('small').text(); 
-	  console.log( $(result).find('h2.product_title:eq(0)') );
-	  var z = $(result).find('h2.product_title:eq(0)');
-	  z.remove('small'); alert(z.text());
+    var full_name = $(result).find('h2.product_title:eq(0)').text(); 
     var names = productNames( full_name );    
 	  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
 	  else { subtitle = add(names.category, names.subtitle); }
@@ -160,7 +157,10 @@ function productNames(full_name) {
   var title = "";
   var subtitle = "";
   while (names.length > i) {
-    if (names[i].match(/[a-z]/i) /*&& names[i].indexOf('#') == -1*/ ) {
+    if (names[i].match(/[a-z]/i) ) {
+      if (names[i].indexOf('#') != -1) {
+        names[i] = names[i].split('#')[0];
+      }
       if (categories.some(function(v) {return names[i].includes(v);})) {
         category = names[i];
       } else {
