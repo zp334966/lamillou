@@ -84,7 +84,7 @@ var threeP = 0;
 function loadElements(linkI, linkII, linkIII) {
   $.when( loadElement(linkI, 'one'), 
 	 loadElement(linkII, 'two'), 
-	 loadElement(linkIII, 'three') ).done(threeP++);console.log('ee');
+	 loadElement(linkIII, 'three') ).done(threeP++);
 }
 function loadElement(link, number) {
   $.get(link, function(result) {
@@ -110,7 +110,7 @@ function loadElement(link, number) {
     $(l+' .product a').attr('href', link); console.log(link);console.log(img);
     $(l+' .product-title').text(title);
     $(l+' .product-subtitle').text(subtitle);
-    
+    alert('load');
   });	
 };
 
@@ -119,7 +119,7 @@ function genThreeProductsTemplate() {
   var p2 = genProduct('two');
   var p3 = genProduct('three');
   var html = "<tr class='element' id='" + threeP + "'><td><table cellpadding='0' cellspacing='0' border='0'><tr>" +
-    p1 + p2 + p3 + "</tr></table></td></tr>";console.log('dd');
+    p1 + p2 + p3 + "</tr></table></td></tr>";
   return html;
 };
 
@@ -130,7 +130,7 @@ function genProduct(number) {
     "<tr><td class='product-title'></td></tr>" +
     "<tr><td class='product-subtitle'></td></tr>" +
     "<tr><td class='product-price'></td></tr>" +
-    "</table></td>";	
+    "</table></td>";	alert('genprod');
   return html;	
 };
 
