@@ -92,7 +92,7 @@ function genProduct(link, img, title, subtitle, priceI, priceII) {
     "</table></td>";
   return html;
 };
-
+*/
 function genPrice (priceI, priceII) {
   var html;
   if (priceII === '') {
@@ -104,7 +104,7 @@ function genPrice (priceI, priceII) {
   }
   return html;
 };
-*/
+
 
 
   
