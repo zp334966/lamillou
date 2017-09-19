@@ -105,12 +105,12 @@ function loadElement(link, number) {
       priceI = $(result).find('.product_right_tab .price span:eq(0)').text();
     }
     
+	  if ($(l+' .product img').length) {alert('jest');} else {alert('nie ma')};
     var l = "#news-content #" + threeP + " ." + number;
     $(l+' .product img').attr('src', img);
     $(l+' .product a').attr('href', link); console.log(link);console.log(img);
     $(l+' .product-title').text(title);
     $(l+' .product-subtitle').text(subtitle);
-    alert('load');
   });	
 };
 
@@ -130,7 +130,7 @@ function genProduct(number) {
     "<tr><td class='product-title'></td></tr>" +
     "<tr><td class='product-subtitle'></td></tr>" +
     "<tr><td class='product-price'></td></tr>" +
-    "</table></td>";	alert('genprod');
+    "</table></td>";
   return html;	
 };
 
