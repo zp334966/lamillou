@@ -88,9 +88,10 @@ function genThreeProducts(linkI, linkII, linkIII) {
   return html;
 };
 
+var site;
 function genProduct(link) {
   var img; var title; var subtitle; var priceI; var priceII = '';
-  var site = $.get(link, parseProductSite );
+  $.get(link, parseProductSite );
   console.log(site.title);
   var html = "<td><table cellpadding='0' cellspacing='0' border='0'><tr>" +
     "<td class='product'><a href='" + link + "'><img src='" + img + "'></a></td></tr>" +
@@ -130,7 +131,7 @@ function parseProductSite(result){
     } else {
       priceI = $(result).find('.product_right_tab .price span').text();
     }
-    return { img: img, title: title, subtitle: subtitle, priceI: priceI, priceII: priceII };
+    site = { img: img, title: title, subtitle: subtitle, priceI: priceI, priceII: priceII };
 };
 
 /*Name Product
