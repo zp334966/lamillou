@@ -85,7 +85,7 @@ function genThreeProducts(linkI, linkII, linkIII) {
 
 function genProduct(link, img, title, subtitle, priceI, priceII) {
   var html = "<td><table cellpadding='0' cellspacing='0' border='0'><tr>" +
-    "<td class='product'><a href='" + link "'><img src='" + img + "'></a></td></tr>" +
+    "<td class='product'><a href='" + link + "'><img src='" + img + "'></a></td></tr>" +
     "<tr><td class='product-title'>" + title + "</td></tr>" +
     "<tr><td class='product-subtitle'>" + subtitle + "</td></tr>" +
     genPrice(priceI, priceII) +
