@@ -106,7 +106,7 @@ function loadElement(link, number) {
     }
     
     var l = "#" + threeP + " ." + number;
-    $(l+'.product a').attr('href', link);
+    $(l+' .product a').attr('href', link);
   });	
 };
 
