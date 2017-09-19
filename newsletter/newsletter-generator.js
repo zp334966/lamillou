@@ -93,8 +93,8 @@ function genProduct(link) {
   var img; var title; var subtitle = ''; var priceI; var priceII = '';
   //var s = $.get(link, parseProductSite );
   var result = $('<div>');
-  result.load(link, function(){});
-
+  result.load(link + ' h2.product_title:eq(0)', function(){});
+/*
     var img = result.find('.ms-slide-bgcont img').html()//attr('src'); 
     var full_name = result.find('h2.product_title:eq(0)').text();
     var names = productNames( full_name );    
@@ -109,8 +109,8 @@ function genProduct(link) {
       priceI = result.find('.product_right_tab .price span:eq(0)').text();
     }
 	
-	
-  console.log(title);
+*/	
+  console.log(title); 
   var html = "<td><table cellpadding='0' cellspacing='0' border='0'><tr>" +
     "<td class='product'><a href='" + link + "'><img src='" + img + "'></a></td></tr>" +
     "<tr><td class='product-title'>" + title + "</td></tr>" +
