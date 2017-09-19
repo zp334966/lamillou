@@ -105,8 +105,9 @@ function loadElement(link, number) {
       priceI = $(result).find('.product_right_tab .price span:eq(0)').text();
     }
     
+	  
+    var l = "#news-content #prod" + threeP + " ." + number;
 	  if ($(l+' .product img').length) {alert('jest');} else {alert('nie ma')};
-    var l = "#news-content #" + threeP + " ." + number;
     $(l+' .product img').attr('src', img);
     $(l+' .product a').attr('href', link); console.log(link);console.log(img);
     $(l+' .product-title').text(title);
@@ -118,7 +119,7 @@ function genThreeProductsTemplate() {
   var p1 = genProduct('one'); 
   var p2 = genProduct('two');
   var p3 = genProduct('three');
-  var html = "<tr class='element' id='" + threeP + "'><td><table cellpadding='0' cellspacing='0' border='0'><tr>" +
+  var html = "<tr class='element' id='prod" + threeP + "'><td><table cellpadding='0' cellspacing='0' border='0'><tr>" +
     p1 + p2 + p3 + "</tr></table></td></tr>";
   return html;
 };
