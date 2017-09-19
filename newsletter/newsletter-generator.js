@@ -107,7 +107,7 @@ function loadElement(link, number) {
     
     var l = "#" + threeP + " ." + number;
     $(l+' .product a').attr('href', link); console.log(link);console.log(img);
-    con$(l+' .product a').attr('href', link); 
+    $('#newsletter-generated #news-content').append('sssssssssssss');
   });	
 };
 
