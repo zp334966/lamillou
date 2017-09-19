@@ -76,14 +76,14 @@ body {
   margin-bottom: 41px;
 }
 .product img, .product-title, .product-subtitle, .product-price {
-  width: 188px;
+  width: 178px;
 }
 .product img {
   padding-bottom: 18px;
 }
 .element .two {
-  padding-left: 13px; 
-  padding-right: 13px;
+  padding-left: 24px; 
+  padding-right: 24px;
 }
 .product-title {
   font-size: 13px;
