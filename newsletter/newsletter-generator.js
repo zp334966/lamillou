@@ -33,7 +33,7 @@ $('#add-small-img button').on('click', function(){
   var linkI = $('#img-small1-form').val();
   var linkII = $('#img-small2-form').val();
   var linkIII = $('#img-small3-form').val();
-  $.when( addElement( genThreeProductsTemplate(); console.log('dd'); ) ).done( loadElements(linkI, linkII, linkIII);console.log('ee'); );
+  $.when( addElement( genThreeProductsTemplate() ) ).done( loadElements(linkI, linkII, linkIII) );
 
 });
 
@@ -84,7 +84,7 @@ var threeP = 0;
 function loadElements(linkI, linkII, linkIII) {
   $.when( loadElement(linkI, 'one'), 
 	 loadElement(linkII, 'two'), 
-	 loadElement(linkIII, 'three') ).done(threeP++);
+	 loadElement(linkIII, 'three') ).done(threeP++);console.log('ee');
 }
 function loadElement(link, number) {
   $.get(link, function(result) {
@@ -119,7 +119,7 @@ function genThreeProductsTemplate() {
   var p2 = genProduct('two');
   var p3 = genProduct('three');
   var html = "<tr class='element' id='" + threeP + "'><td><table cellpadding='0' cellspacing='0' border='0'><tr>" +
-    p1 + p2 + p3 + "</tr></table></td></tr>";
+    p1 + p2 + p3 + "</tr></table></td></tr>";console.log('dd');
   return html;
 };
 
