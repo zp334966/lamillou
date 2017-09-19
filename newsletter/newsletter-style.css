@@ -91,6 +91,7 @@ body {
   letter-spacing: 0;
   font-weight: 600;
   padding-bottom: 4px;
+  text-transform: capitalize;
 }
 .product-subtitle {
   opacity: 0.8;
