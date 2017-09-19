@@ -94,14 +94,15 @@ function genProduct(link) {
   //var s = $.get(link, parseProductSite );
   var result = $('<div>');
   result.load(link + ' h2.product_title:eq(0)', function(){});
-/*
-    var img = result.find('.ms-slide-bgcont img').html()//attr('src'); 
-    var full_name = result.find('h2.product_title:eq(0)').text();
+  var full_name = result.text(); console.log(full_name);
+  
+    //var img = result.find('.ms-slide-bgcont img').html()//attr('src'); 
+    //var full_name = result.find('h2.product_title:eq(0)').text();
     var names = productNames( full_name );    
 	  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
 	  else { subtitle = add(names.category, names.subtitle); }
     var title = names.title;
-   
+   /*
     if ( result.find('.product_right_tab .price-promotion').length ) {
       priceI = result.find('.product_right_tab .price-promotion:eq(0)').text();
       priceII = result.find('.product_right_tab .old-price:eq(0)').text();
