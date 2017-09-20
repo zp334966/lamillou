@@ -1485,7 +1485,7 @@ form label {
 .form_accept_checks span {
     position: static;
     left: 36px;
-    padding-top: 17px;
+    padding-top: 20px;
 }
 .container.restore_password .header {
     z-index: 1;
