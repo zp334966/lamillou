@@ -1484,13 +1484,16 @@ form label {
 }
 .form_accept_checks span {
     position: static;
-    left: 36px;
     padding-top: 20px;
 }
 #new_user .form_accept_checks span {
     position: absolute;
     left: 36px;
     padding-top: 20px;
+}
+.edit_user .form_accept_checks span {
+    position: absolute;
+    padding-top: 19px;
 }
 .container.restore_password .header {
     z-index: 1;
