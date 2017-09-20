@@ -132,7 +132,15 @@ $( document ).ready(function() {
     }
         
     showCheckoutProgress();
-
+    
+    if (window.location.href.indexOf("/signup") > -1) {
+        $('#new_user label[for="user_password"]').text('Hasło (min. 6 znaków)');
+    }
+    if (window.location.href.indexOf("/user/create") > -1) {
+        $('#new_user label[for="user_password"]').text('Hasło (min. 6 znaków)');
+    }
+    
+    
     $('#shop_order_email_confirmation').parent().hide();
     $('#shop_order_form #form1').submit(function() {       
         $('#shop_order_email_confirmation').val($('#shop_order_email').val());
