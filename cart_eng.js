@@ -139,11 +139,11 @@ $( document ).ready(function() {
     }
     if (window.location.href.indexOf("/signup") > -1) {
         $('#new_user label[for="user_email"]').text('E-mail');
-        $('#new_user label[for="user_password"]').text('Password (minimum 8 characters)');
+        $('#new_user label[for="user_password"]').text('Password (minimum 6 characters)');
     }
     if (window.location.href.indexOf("/user/create") > -1) {
         $('#new_user label[for="user_email"]').text('E-mail');
-        $('#new_user label[for="user_password"]').text('Password (minimum 8 characters)');
+        $('#new_user label[for="user_password"]').text('Password (minimum 6 characters)');
     }
     showCheckoutProgress();
 
