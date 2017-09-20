@@ -1483,7 +1483,7 @@ form label {
   padding-left: 3px;
 }
 .form_accept_checks span {
-    position: static;
+    position: absolute;
     left: 36px;
     padding-top: 20px;
 }
