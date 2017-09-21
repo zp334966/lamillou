@@ -93,13 +93,13 @@ function updateSelectDelivery()
         $('select#shop_order_delivery_option_id').val(deliveryId).change();
         updateRadioPayment();
         $('#form1 #shop_order_delivery_form').attr('updated', 'true');
-        console.log(deliveryId);  
+        console.log('deliveryId' + deliveryId);  
     }
     if ( $('#form1 #payment_kind_selector input:checked').val() != 
         $('#form1 #payment_kind_selector .iradio_minimal-blue.checked input').val() ) {
+        console.log('realne zaznaczenie: ' + $('#form1 #payment_kind_selector input:checked').val() ); 
         var p = $('#form1 #payment_kind_selector .iradio_minimal-blue.checked input').val();
         $('#form1 #payment_kind_selector input[value="' + p + '"]').next().trigger( "click" );
-        console.log('realne zaznaczenie: ' + $('#form1 #payment_kind_selector input:checked').val() ); 
     }
 };  
   
