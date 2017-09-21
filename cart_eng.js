@@ -164,28 +164,29 @@ $( document ).ready(function() {
     
     //convert select to radio  
     $('#shop_order_form #form1 select').each(function(i, select){
-        var $select = $(select);
-        $select.find('option').each(function(j, option){
-            var $option = $(option);            
-            var $radio = $('<input type="radio" />');            
-            $radio.attr('name', $select.attr('name')).attr('value', $option.val());
-            if ($option.attr('selected')) $radio.attr('checked', 'checked');
-            $select.before($radio);
-            $select.before(
-                $("<label />").attr('for', $select.attr('name')).text($option.text())
-            );            
-            $select.before("<br/>");
-            $radio.iCheck({
-                checkboxClass: 'icheckbox_minimal-blue',
-                radioClass: 'iradio_minimal-blue',
-                increaseArea: '20%'
-            });            
-        });
-        //$select.remove();
-        $select.css( "visibility", "hidden" ).css("position", "absolute").css("z-index", "-1000");
-        var s = $select.detach();
-        $("form#form1.new_shop_order").before(s);
-        
+        if(!$(this).parent().is("#country_list")) {
+            var $select = $(select);
+            $select.find('option').each(function(j, option){
+                var $option = $(option);            
+                var $radio = $('<input type="radio" />');            
+                $radio.attr('name', $select.attr('name')).attr('value', $option.val());
+                if ($option.attr('selected')) $radio.attr('checked', 'checked');
+                $select.before($radio);
+                $select.before(
+                    $("<label />").attr('for', $select.attr('name')).text($option.text())
+                );            
+                $select.before("<br/>");
+                $radio.iCheck({
+                    checkboxClass: 'icheckbox_minimal-blue',
+                    radioClass: 'iradio_minimal-blue',
+                    increaseArea: '20%'
+                });            
+            });
+            //$select.remove();
+            $select.css( "visibility", "hidden" ).css("position", "absolute").css("z-index", "-1000");
+            var s = $select.detach();
+            $("form#form1.new_shop_order").before(s);
+        }
     });   
     
     // prettify checkboxes
