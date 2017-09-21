@@ -95,6 +95,9 @@ function updateSelectDelivery()
         $('#form1 #shop_order_delivery_form').attr('updated', 'true');
         console.log(deliveryId);  
     }
+    if ( $( '#form1 #payment_kind_selector input[value="payment_on_delivery"]' ).checked) {
+        console.log('zaznaczone');
+    }
 };  
   
 
