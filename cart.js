@@ -87,6 +87,7 @@ function updateRadioPayment() {
 
 function updateSelectDelivery() 
 {
+    //var d = $('#form1 #payment_kind_selector input:checked').val();
     var deliveryId = $('#form1 #shop_order_delivery_form .iradio_minimal-blue.checked input').val();
     var deliveryIdSel = $('select#shop_order_delivery_option_id').find(":selected").val();
     if (deliveryId != deliveryIdSel || $('#form1 #shop_order_delivery_form').attr('updated') != 'true' ) {
@@ -241,7 +242,8 @@ $( document ).ready(function() {
     if ($( '#shop_order_delivery_form' ).length ){
         var intervalUpdateSelectDelivery = setInterval(updateSelectDelivery, 100);
     }
-    $('#form1 #payment_kind_selector input[value="manual_transfer"]').next().trigger( "click" );
 });
 
-
+$( window ).load(function() { 
+    $('#form1 #payment_kind_selector input[value="manual_transfer"]').next().trigger( "click" );
+}
