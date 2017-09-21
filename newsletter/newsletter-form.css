@@ -8,6 +8,7 @@
   font-size: 36px;
   text-align: left;
   color: #16407d;  
+  text-transform: uppercase;
 }
 
 #form h2 {
@@ -16,5 +17,8 @@
   font-size: 15px;
   text-align: left;
   color: #16407d;
+  text-transform: uppercase;
 }
-
+.col {
+  width: 50%;  
+}
