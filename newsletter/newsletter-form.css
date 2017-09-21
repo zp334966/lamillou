@@ -26,7 +26,7 @@
 }
 #form .heading {
   float: left;
-  margin: 20px 0 10px 0;  
+  margin: 20px 0 5px 0;  
 }
 #form label {
   font-family: 'Open Sans';
@@ -68,10 +68,13 @@
   float: left;
   width: 80%;  
 }
+#form .field .name div {
+  padding: 10px 0 10px 10px;
+} 
 #form .field .action {
   float: left;
   width: 20%;
-  
+  padding-top: 10px;
 }
 #form button {
   width: 102px;
