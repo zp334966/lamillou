@@ -37,9 +37,12 @@ $('#add-small-img button').on('click', function(){
 
 });
 
-
-$('button#usun').on('click', function(){
+$('button#remove').on('click', function(){
   $('#newsletter-generated #news-content .element').last().remove();
+});
+
+$('button#generate').on('click', function(){
+  $('#generated-html').text('cos');
 });
 
 
