@@ -42,7 +42,8 @@ $('button#remove').on('click', function(){
 });
 
 $('button#generate').on('click', function(){
-  $('#generated-html').text('cos');
+  var html = $('#newsletter-generated').html();
+  $('#generated-html').text(html);
 });
 
 
