@@ -1,0 +1,20 @@
+#form  {
+  padding: 20px;
+}
+
+#form h1 {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 36px;
+  text-align: left;
+  color: #16407d;  
+}
+
+#form h2 {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 15px;
+  text-align: left;
+  color: #16407d;
+}
+
