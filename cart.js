@@ -87,7 +87,6 @@ function updateRadioPayment() {
 
 function updateSelectDelivery() 
 {
-    //var d = $('#form1 #payment_kind_selector input:checked').val();
     var deliveryId = $('#form1 #shop_order_delivery_form .iradio_minimal-blue.checked input').val();
     var deliveryIdSel = $('select#shop_order_delivery_option_id').find(":selected").val();
     if (deliveryId != deliveryIdSel || $('#form1 #shop_order_delivery_form').attr('updated') != 'true' ) {
@@ -99,6 +98,11 @@ function updateSelectDelivery()
     if ( $( '#form1 #payment_kind_selector input[value="payment_on_delivery"]' ).prop("checked", true) ) {
         console.log('zaznaczone');
     }
+    if ( $('#form1 #payment_kind_selector input:checked').val() !== 
+        $('#form1 #payment_kind_selector .iradio_minimal-blue.checked input').val() ) {
+        var p = $('#form1 #payment_kind_selector .iradio_minimal-blue.checked input').val();
+        $('#form1 #payment_kind_selector input[value="' + p + '"]').next().trigger( "click" );
+    }    
 };  
   
 
@@ -242,8 +246,4 @@ $( document ).ready(function() {
     if ($( '#shop_order_delivery_form' ).length ){
         var intervalUpdateSelectDelivery = setInterval(updateSelectDelivery, 100);
     }
-});
-
-$( window ).load(function() { 
-    $('#form1 #payment_kind_selector input[value="manual_transfer"]').next().trigger( "click" );
 });
