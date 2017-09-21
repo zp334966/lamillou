@@ -246,4 +246,4 @@ $( document ).ready(function() {
 
 $( window ).load(function() { 
     $('#form1 #payment_kind_selector input[value="manual_transfer"]').next().trigger( "click" );
-}
+});
