@@ -14,7 +14,6 @@
   text-align: left;
   color: #16407d;  
   text-transform: uppercase;
-  padding-bottom: 20px;
 }
 
 #form h2 {
@@ -25,7 +24,10 @@
   color: #16407d;
   text-transform: uppercase;
 }
-
+#form .heading {
+  float: left;
+  margin: 20px 0 10px 0;  
+}
 #form label {
   font-family: 'Open Sans';
   font-size: 13px;
