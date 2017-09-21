@@ -1,9 +1,9 @@
 .col-left {
-  width: 40%;
+  max-width: 40%;
   float: left; 
 }
 .col-right {
-  width: 60%;
+  min-width: 60%;
   float: left; 
 }
 
