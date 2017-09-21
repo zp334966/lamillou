@@ -2,13 +2,19 @@
   padding: 20px;
 }
 
+#form .col {
+  width: 50%;
+  float: left; 
+}
+
 #form h1 {
   font-family: 'Open Sans';
   font-weight: 700;
-  font-size: 36px;
+  font-size: 27px;
   text-align: left;
   color: #16407d;  
   text-transform: uppercase;
+  padding-bottom: 20px;
 }
 
 #form h2 {
@@ -19,7 +25,22 @@
   color: #16407d;
   text-transform: uppercase;
 }
-.col {
-  width: 50%;
-  float: left; 
+
+#form label {
+  font-family: 'Open Sans';
+  font-size: 13px;
+  color: #16407D;
+  letter-spacing: 0;
+  padding: 5px 0px 5px 0px;
+}
+
+#form input {
+    border: 1px solid #D0D9E5;
+    height: 42px;
+    color: #243C5E;
+    outline: none;
+    outline-offset: unset;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    box-shadow: none!important;
 }
