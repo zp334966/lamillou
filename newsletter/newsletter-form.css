@@ -62,14 +62,16 @@
 }
 
 
-#form .field {
+#form .field, #form .action-field {
   display: block;
   float: left;
   width: 100%;
   background-color: #f7f7f7;
   margin-bottom: 25px;
 }
-
+#form .action-field {
+  background-color: transparent;  
+}
 #form .field .name {
   float: left;
   width: 80%;  
