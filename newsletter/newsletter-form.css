@@ -20,5 +20,6 @@
   text-transform: uppercase;
 }
 .col {
-  width: 50%;  
+  width: 50%;
+  float: left; 
 }
