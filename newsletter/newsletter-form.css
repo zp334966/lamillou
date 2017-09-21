@@ -1,7 +1,12 @@
-.col {
-  width: 50%;
+.col-left {
+  width: 40%;
   float: left; 
 }
+.col-right {
+  width: 60%;
+  float: left; 
+}
+
 
 #form  {
   padding: 20px;
