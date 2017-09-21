@@ -35,18 +35,34 @@
 }
 
 #form input {
-    border: 1px solid #D0D9E5;
-    height: 35px;
-    color: #243C5E;
-    outline: none;
-    outline-offset: unset;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    box-shadow: none!important;
-    display: block;
-    width: 100%;
-    margin-bottom: 16px;
-    margin-top: 4px;
-    padding: 5px;
-    font-size: 13px;
+  border: 1px solid #D0D9E5;
+  height: 35px;
+  color: #243C5E;
+  outline: none;
+  outline-offset: unset;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  box-shadow: none!important;
+  display: block;
+  width: 100%;
+  margin-bottom: 16px;
+  margin-top: 4px;
+  padding: 5px;
+  font-size: 13px;
 }
+
+#form .field {
+  display: block;
+}
+
+#form .field .name {
+  float: left;
+  width: 80%;  
+}
+#form .field .action {
+  float: left;
+  width: 20%;
+  
+}
+
+
