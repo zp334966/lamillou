@@ -35,7 +35,12 @@
   letter-spacing: 0;
   padding: 5px 0px 5px 0px;
 }
-
+#form label.title {
+  display: block;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 9px;
+}
 #form input, #form textarea {
   border: 1px solid #D0D9E5;
   height: 35px;
@@ -73,7 +78,7 @@
   padding: 10px 0 10px 10px;
 } 
 #form .field .action {
-  float: left;
+  float: right;
   width: 20%;
   text-align: center;
 }
