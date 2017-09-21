@@ -98,7 +98,7 @@ function updateSelectDelivery()
     if ( $( '#form1 #payment_kind_selector input[value="payment_on_delivery"]' ).prop("checked", true) ) {
         console.log('zaznaczone');
     }
-    if ( $('#form1 #payment_kind_selector input:checked').val() !== 
+    if ( $('#form1 #payment_kind_selector input:checked').val() != 
         $('#form1 #payment_kind_selector .iradio_minimal-blue.checked input').val() ) {
         var p = $('#form1 #payment_kind_selector .iradio_minimal-blue.checked input').val();
         $('#form1 #payment_kind_selector input[value="' + p + '"]').next().trigger( "click" );
