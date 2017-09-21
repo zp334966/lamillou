@@ -241,7 +241,7 @@ $( document ).ready(function() {
     if ($( '#shop_order_delivery_form' ).length ){
         var intervalUpdateSelectDelivery = setInterval(updateSelectDelivery, 100);
     }
-    
+    $('#form1 #payment_kind_selector input[value="manual_transfer"]').next().trigger( "click" );
 });
 
 
