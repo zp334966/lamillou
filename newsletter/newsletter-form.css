@@ -71,6 +71,7 @@
 }
 #form .action-field {
   background-color: transparent;  
+  text-align: center;
 }
 #form .field .name {
   float: left;
@@ -82,11 +83,10 @@
 #form .field .action {
   float: right;
   width: 20%;
-  text-align: center;
+  text-align: right;
 }
 
 #form button {
-  width: 102px;
   padding: 14px 14px 16px 14px;
   color: white;
   background-color: #16407d;
