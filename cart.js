@@ -99,8 +99,8 @@ function updateSelectDelivery()
         $('#form1 #payment_kind_selector .iradio_minimal-blue.checked input').val() ) {
         var p = $('#form1 #payment_kind_selector .iradio_minimal-blue.checked input').val();
         $('#form1 #payment_kind_selector input[value="' + p + '"]').next().trigger( "click" );
-    }  
-    console.log( $('#form1 #payment_kind_selector input:checked').val() );
+        console.log('realne zaznaczenie: ' + $('#form1 #payment_kind_selector input:checked').val() ); 
+    }
 };  
   
 
