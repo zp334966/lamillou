@@ -78,6 +78,7 @@
   padding-top: 10px;
   text-align: center;
 }
+
 #form button {
   width: 102px;
   padding: 14px 14px 16px 14px;
@@ -91,8 +92,14 @@
   font-family: 'Open Sans';
   font-weight: 700;
   border: none;
-  border-radius: 5px;   
+  border-radius: 5px;  
+  cursor: pointer;
 }
 
-
+#form .action button {
+  color: #16407d;
+  background-color: transparent;
+  text-decoration: underline;  
+  padding: 26px 14px 26px 14px;
+}
 
