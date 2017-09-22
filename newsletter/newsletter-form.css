@@ -116,3 +116,6 @@
   width: unset;
 }
 
+#jGrowl {
+  display: none;  
+}
