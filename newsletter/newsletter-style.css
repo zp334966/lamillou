@@ -34,8 +34,11 @@ body {
   margin: auto;
   padding-bottom: 40px;
 }
-.container {
+#news-content {
   padding: 39px 33px 42px 33px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 .h1 {
   font-weight: 700;
