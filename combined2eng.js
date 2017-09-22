@@ -1000,6 +1000,7 @@ function updateCartDelivery() {
 		}
             });
             var price = priceNode.text().replace(/[^0-9.]/g, "");
+		if(price == "") return;
             $( '#cart-totals .totals .row div' ).each(function() {
                 if($(this).text().indexOf("Delivery") != -1 ) {
 			var deliveryNode = $(this).next();
