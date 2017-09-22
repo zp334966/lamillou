@@ -1093,17 +1093,15 @@ $(document).ready(function(){ */
           $('#cart-dropdown .empty-cart').append("<h5>Your cart is empty.</h5>");
       }
     };
-    if ( $( '#cart-dropdown .sum .total_cart_price' ).length ){
+    if ( $('#cart-dropdown').text().indexOf("Your cart is empty") == -1 && $( '#cart-dropdown .sum .total_cart_price' ).length ){
 	    var price = $('#cart-dropdown .sum .total_cart_price').text();
 	    console.log(price);
-	    /*
 	    $( '#cart-dropdown .totals .row div' ).each(function() {
 	    	if($(this).text().indexOf("Delivery")) {
 			var deliveryNode = $(this).next();
 			console.log(deliveryNode.text());
 		}
 	    });
-	    */
     };
   };
 
