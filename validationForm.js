@@ -7,7 +7,15 @@ var mapForm = {
   'Wiadomość' : 'Wpisz wiadomość',
   'Temat' : 'Wybierz temat',
   'Wiadomość lub pytanie' : 'Wpisz wiadomość lub pytanie'
-                };
+};
+
+var mapFormENG = { 
+  'Company' : 'Enter a company',
+  'Name' : 'Enter a first name and a last name',
+  'E-mail': 'Enter a e-mail',
+  'Telephone' : 'Enter a telephone number',
+  'Message' : 'Enter a message'
+};
 
 var intervalCheckErrors = null;
 
