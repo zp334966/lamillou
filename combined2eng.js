@@ -1093,6 +1093,16 @@ $(document).ready(function(){ */
           $('#cart-dropdown .empty-cart').append("<h5>Your cart is empty.</h5>");
       }
     };
+    if ( $( '#cart-dropdown .totals .total_cart_price' ).length ){
+	    var price = Number($(this).text();.replace(/[^0-9\.-]+/g,""));
+	    console.log(price);
+	    $( '#cart-dropdown .totals .row div' ).each(function() {
+	    	if($(this).text().indexOf("Delivery")) {
+			var deliveryNode = $(this).next();
+			console.log(deliveryNode.text());
+		}
+	    });
+    };
   };
 
 /*Unavaible products label
