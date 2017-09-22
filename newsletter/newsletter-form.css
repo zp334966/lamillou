@@ -116,10 +116,12 @@
   color: #16407d;
   background-color: transparent;
   text-decoration: underline;  
-  padding: 15px;
+  padding: 13px;
   width: unset;
 }
-
+#form .action button.edit {
+  display: none;  
+}
 #jGrowl {
   display: none;  
 }
