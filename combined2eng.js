@@ -1095,12 +1095,17 @@ $(document).ready(function(){ */
     };
     if ( $('#cart-dropdown').text().indexOf("Your cart is empty") == -1 && $( '#cart-dropdown .sum .total_cart_price' ).length ){
 	    var price = $('#cart-dropdown .sum .total_cart_price').text().replace(/[^0-9.]/g, "");
-	    console.log(price);
+	    //console.log(price);
 	    $( '#cart-dropdown .totals .row div' ).each(function() {
 	    	if($(this).text().indexOf("Delivery") != -1 ) {
 			var deliveryNode = $(this).next();
-			var deliveryPrice = deliveryNode.text().replace(/[^0-9.]/g, "")
-			console.log(deliveryPrice);
+			//var deliveryPrice = deliveryNode.text().replace(/[^0-9.]/g, "")
+			if (price >= 99.99) {
+				deliveryNode.text("€0.00");
+			}
+			else {
+				deliveryNode.text("€19.90");
+			}
 		}
 	    });
     };
