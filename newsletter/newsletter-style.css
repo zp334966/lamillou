@@ -20,6 +20,7 @@ body {
 }
 #main-image img {
   width: 100%;
+  height: auto;
 }
 #main-title {
   text-align: center;
