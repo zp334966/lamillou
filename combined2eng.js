@@ -1097,7 +1097,12 @@ $(document).ready(function(){ */
 	    var totalNode = $( '#cart-dropdown .sum .total_cart_price' );
 	    var total = totalNode.text().replace(/[^0-9.]/g, "");
 	    console.log(total);
-	    var priceNode = $('#cart-dropdown .totals .row').first().find('div').first();
+	    var priceNode;
+	    $( '#cart-dropdown .totals .row div' ).each(function() {
+	    	if($(this).text().indexOf("Subtotal") != -1 ) {
+			var priceNode = $(this).next();
+		}
+	    });
 	    var price = priceNode.text().replace(/[^0-9.]/g, "");
 	    console.log(price);
 	    $( '#cart-dropdown .totals .row div' ).each(function() {
