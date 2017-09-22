@@ -1094,7 +1094,7 @@ $(document).ready(function(){ */
       }
     };
     if ( $( '#cart-dropdown .sum .total_cart_price' ).length ){
-	    var price = Number($(this).text().replace(/[^0-9\.-]+/g,""));
+	    var price = $(this).text();
 	    console.log(price);
 	    /*
 	    $( '#cart-dropdown .totals .row div' ).each(function() {
