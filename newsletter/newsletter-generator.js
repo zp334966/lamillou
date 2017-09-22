@@ -1,8 +1,10 @@
 $('#zaladuj').on('click', function(){
   var mainImg = $('#main-image-form').val();
+  var mainLink = $('#main-link-form').val();
   var mainT = $('#main-title-form').val();
   var mainST = $('#main-subtitle-form').val();
   $('#newsletter-generated #main-image img').attr('src', mainImg);
+  $('#newsletter-generated #main-image a').attr('href', mainLink);
   $('#newsletter-generated #main-title .h1').text(mainT);
   $('#newsletter-generated #main-subtitle .p').text(mainST);
 });
