@@ -476,7 +476,7 @@ $(window).on('load', function(){
         if($positions.length === 1) {
           $('.shopping-cart header').remove();
           $('.shopping-cart').parents('.container').find('.sidebar').remove();
-          $('.shopping-cart').parents('.container').find('.page-heading h3').html('Twój koszyk jest pusty<span></span>');
+          //$('.shopping-cart').parents('.container').find('.page-heading h3').html('Twój koszyk jest pusty<span></span>');
         }
       });
     });
