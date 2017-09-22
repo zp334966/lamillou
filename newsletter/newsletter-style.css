@@ -34,7 +34,7 @@ body {
   margin: auto;
   padding-bottom: 40px;
 }
-#news-content {
+#news-content, .footer-content {
   padding: 39px 33px 42px 33px;
   margin-left: auto;
   margin-right: auto;
