@@ -1094,12 +1094,13 @@ $(document).ready(function(){ */
       }
     };
     if ( $('#cart-dropdown').text().indexOf("Your cart is empty") == -1 && $( '#cart-dropdown .sum .total_cart_price' ).length ){
-	    var price = $('#cart-dropdown .sum .total_cart_price').text();
+	    var price = $('#cart-dropdown .sum .total_cart_price').text().replace(/[^0-9.]/g, "");
 	    console.log(price);
 	    $( '#cart-dropdown .totals .row div' ).each(function() {
 	    	if($(this).text().indexOf("Delivery") != -1 ) {
 			var deliveryNode = $(this).next();
-			console.log(deliveryNode.text());
+			var deliveryPrice = deliveryNode.text().replace(/[^0-9.]/g, "")
+			console.log(deliveryPrice);
 		}
 	    });
     };
