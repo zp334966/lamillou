@@ -1005,7 +1005,7 @@ function updateCartDelivery() {
                 if($(this).text().indexOf("Delivery") != -1 ) {
 			var deliveryNode = $(this).next();
 			//var deliveryPrice = deliveryNode.text().replace(/[^0-9.]/g, "")
-			if (price >= 99.90) {
+			if (price >= 90.90) {
 			    deliveryNode.text("€0.00");
 			}
 			else {
@@ -1142,7 +1142,7 @@ $(document).ready(function(){ */
 	    	if($(this).text().indexOf("Delivery") != -1 ) {
 			var deliveryNode = $(this).next();
 			//var deliveryPrice = deliveryNode.text().replace(/[^0-9.]/g, "")
-			if (price >= 99.90) {
+			if (price >= 90.90) {
 				deliveryNode.text("€0.00");
 				updateCartDelivery();
 			}
