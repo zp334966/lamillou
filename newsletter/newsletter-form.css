@@ -69,9 +69,15 @@
   background-color: #f7f7f7;
   margin-bottom: 25px;
 }
+#form .field.result {
+  background-color: transparent;
+}
 #form .action-field {
   background-color: transparent;  
   text-align: center;
+}
+#form .action-field .action {
+  text-align: right;
 }
 #form .field .name {
   float: left;
