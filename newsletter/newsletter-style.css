@@ -92,6 +92,10 @@ body {
   font-weight: 600;
   padding-bottom: 4px;
   text-transform: capitalize;
+  max-width: 178px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .product-subtitle {
   opacity: 0.8;
