@@ -1100,7 +1100,7 @@ $(document).ready(function(){ */
 	    var priceNode;
 	    $( '#cart-dropdown .totals .row div' ).each(function() {
 	    	if($(this).text().indexOf("Subtotal") != -1 ) {
-			var priceNode = $(this).next();
+			priceNode = $(this).next();
 		}
 	    });
 	    var price = priceNode.text().replace(/[^0-9.]/g, "");
