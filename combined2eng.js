@@ -1096,8 +1096,10 @@ $(document).ready(function(){ */
     if ( $('#cart-dropdown').text().indexOf("Your cart is empty") == -1 && $( '#cart-dropdown .sum .total_cart_price' ).length ){
 	    var totalNode = $( '#cart-dropdown .sum .total_cart_price' );
 	    var total = totalNode.text().replace(/[^0-9.]/g, "");
+	    console.log(total);
 	    var priceNode = $('#cart-dropdown .totals .row').first().find('div').first();
 	    var price = priceNode.text().replace(/[^0-9.]/g, "");
+	    console.log(price);
 	    $( '#cart-dropdown .totals .row div' ).each(function() {
 	    	if($(this).text().indexOf("Delivery") != -1 ) {
 			var deliveryNode = $(this).next();
