@@ -1,6 +1,10 @@
 .col {
   width: 50%;
   float: left; 
+  box-sizing: border-box;
+}
+.col:first-child {
+  border-right: 1px solid #C1C0C0;
 }
 
 #form  {
