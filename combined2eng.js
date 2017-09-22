@@ -1116,7 +1116,7 @@ $(document).ready(function(){ */
 				deliveryNode.text("€19.90");
 				var sum = Number(19.90) + Number(price);
 				if (total != sum) {
-					totalNode.text("€" + sum.toFixed(2););
+					totalNode.text("€" + sum.toFixed(2));
 				}
 			}
 		}
