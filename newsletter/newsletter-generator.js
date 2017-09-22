@@ -10,7 +10,7 @@ $('#zaladuj').on('click', function(){
 $('#add-title button').on('click', function(){
   var title = $('#title-form').val();
   var html = genTitle(title);
-  addElement(html);
+  $.when( addElement(html) ).done( addEdition() );
 });
 $('#add-subtitle button').on('click', function(){
   var subtitle = $('#subtitle-form').val();
@@ -34,7 +34,6 @@ $('#add-small-img button').on('click', function(){
   var linkII = $('#img-small2-form').val();
   var linkIII = $('#img-small3-form').val();
   $.when( addElement( genThreeProductsTemplate() ) ).done( loadElements(linkI, linkII, linkIII) );
-
 });
 
 $('button#remove').on('click', function(){
@@ -150,6 +149,34 @@ function genProduct(number) {
 
 
 
+
+/*** EDYCJA TREŚCI ***/
+var elementChecked;
+
+function addEdition() {
+  $(this).on('click', checkElement() );	
+};
+
+function checkElement() {
+  elementChecked = $(this).index(); console.log('klik');
+  if ( $(this).hasClass('newsletter-title') ) {
+    $('#add-title .edit').show();	  
+  }
+}
+
+$('#add-title .edit').on('click', function(){
+  var newTitle = $('#title-form').val();
+  $('#newsletter-generated #news-content .element').eq(elementChecked).find('.h1').text(newTitle);
+  $('#add-title .edit').hide();  console.log('edit');
+});
+
+	
+
+
+
+
+
+
 /*Name Product
 *************************************************/
 function productNames(full_name) {
@@ -202,3 +229,5 @@ function properTitle(word) {
   if (l > d) {return true; }
   else {return false;}
 };  
+/*************************************************/
+
