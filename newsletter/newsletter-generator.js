@@ -7,29 +7,29 @@ $('#zaladuj').on('click', function(){
   $('#newsletter-generated #main-subtitle .p').text(mainST);
 });
 
-$('#add-title button').on('click', function(){
+$('#add-title button.add').on('click', function(){
   var title = $('#title-form').val();
   var html = genTitle(title);
   addElement(html);
 });
-$('#add-subtitle button').on('click', function(){
+$('#add-subtitle button.add').on('click', function(){
   var subtitle = $('#subtitle-form').val();
   var html = genSubtitle(subtitle);
   addElement(html);
 });
-$('#add-img button').on('click', function(){
+$('#add-img button.add').on('click', function(){
   var imgLink = $('#img-form').val();
   var link = $('#img-href-form').val();
   var html = genImgCategory(imgLink, link);
   addElement(html);
 });
-$('#add-button button').on('click', function(){
+$('#add-button button.add').on('click', function(){
   var link = $('#button-form').val();
   var html = genButton(link);
   addElement(html);
 });
 
-$('#add-small-img button').on('click', function(){
+$('#add-small-img button.add').on('click', function(){
   var linkI = $('#img-small1-form').val();
   var linkII = $('#img-small2-form').val();
   var linkIII = $('#img-small3-form').val();
