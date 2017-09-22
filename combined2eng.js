@@ -1094,7 +1094,7 @@ $(document).ready(function(){ */
       }
     };
     if ( $( '#cart-dropdown .totals .total_cart_price' ).length ){
-	    var price = Number($(this).text();.replace(/[^0-9\.-]+/g,""));
+	    var price = Number($(this).text().replace(/[^0-9\.-]+/g,""));
 	    console.log(price);
 	    $( '#cart-dropdown .totals .row div' ).each(function() {
 	    	if($(this).text().indexOf("Delivery")) {
