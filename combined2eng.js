@@ -1097,7 +1097,7 @@ $(document).ready(function(){ */
 	    var price = $('#cart-dropdown .sum .total_cart_price').text();
 	    console.log(price);
 	    $( '#cart-dropdown .totals .row div' ).each(function() {
-	    	if($(this).text().indexOf("Delivery")) {
+	    	if($(this).text().indexOf("Delivery") != -1 ) {
 			var deliveryNode = $(this).next();
 			console.log(deliveryNode.text());
 		}
