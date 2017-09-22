@@ -10,7 +10,7 @@ $('#zaladuj').on('click', function(){
 $('#add-title button').on('click', function(){
   var title = $('#title-form').val();
   var html = genTitle(title);
-  $.when( addElement(html) ).done( addEdition() );
+  addElement(html);
 });
 $('#add-subtitle button').on('click', function(){
   var subtitle = $('#subtitle-form').val();
@@ -152,18 +152,26 @@ function genProduct(number) {
 
 /*** EDYCJA TREŚCI ***/
 var elementChecked;
-
+/*
 function addEdition() {
   $(this).on('click', checkElement() );	
 };
-
+*/
+$('body').on('click', '#news-content .element', function() {
+    // do something
+  elementChecked = $(this).index(); console.log('klik ' + elementChecked);
+  if ( $(this).hasClass('newsletter-title') ) {
+    $('#add-title .edit').show();	  
+  }
+});
+/*
 function checkElement() {
-  elementChecked = $(this).index(); console.log('klik');
+  elementChecked = $(this).index(); console.log('klik ' + elementChecked);
   if ( $(this).hasClass('newsletter-title') ) {
     $('#add-title .edit').show();	  
   }
 }
-
+*/
 $('#add-title .edit').on('click', function(){
   var newTitle = $('#title-form').val();
   $('#newsletter-generated #news-content .element').eq(elementChecked).find('.h1').text(newTitle);
