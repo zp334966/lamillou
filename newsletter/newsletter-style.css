@@ -103,6 +103,8 @@ body {
   color: #16407D;
   letter-spacing: 0;
   padding-bottom: 3px;
+  line-height: 15px;
+  height: 30px;
 }
 .product-price {
   font-size: 13px;
