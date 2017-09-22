@@ -56,23 +56,23 @@ function addElement(elem) {
 };
 
 function genTitle(title) {
-  var html = "<tr class='element'><td class='h1'>" + title + "</td></tr>";
+  var html = "<tr class='element newsletter-title'><td class='h1'>" + title + "</td></tr>";
   return html;
 };
 
 function genSubtitle(subtitle) {
-  var html = "<tr class='element'><td class='p'>" + subtitle + "</td></tr>";
+  var html = "<tr class='element newsletter-subtitle'><td class='p'>" + subtitle + "</td></tr>";
   return html;
 };
 
 function genImgCategory(imgLink, link) {
   var html;
   if (link === '') {
-    html = "<tr class='element'><td>" +
+    html = "<tr class='element newsletter-img-cat'><td>" +
         "<img class='img-category' src='" + imgLink + "'/>" +      
         "</td></tr>";      
   } else {
-    html = "<tr class='element'><td><a href='" + link + "'>" +
+    html = "<tr class='element newsletter-img-cat'><td><a href='" + link + "'>" +
         "<img class='img-category' src='" + imgLink + "'/>" +      
         "</a></td></tr>";
   }
@@ -80,7 +80,7 @@ function genImgCategory(imgLink, link) {
 };
 
 function genButton(link) {
-  var html = "<tr class='element'><td><a class='btn-lam' href='" + link + "'>" +
+  var html = "<tr class='element newsletter-button'><td><a class='btn-lam' href='" + link + "'>" +
       "<table class='btn-lam' cellpadding='0' cellspacing='0' border='0'>" +
       "<tr><td>Kup teraz</td></tr></table>" +
       "</a></td></tr>";
@@ -132,7 +132,7 @@ function genThreeProductsTemplate() {
   var p1 = genProduct('one'); 
   var p2 = genProduct('two');
   var p3 = genProduct('three');
-  var html = "<tr class='element' id='prod" + threeP + "'><td><table cellpadding='0' cellspacing='0' border='0'><tr>" +
+  var html = "<tr class='element newsletter-three-prod' id='prod" + threeP + "'><td><table cellpadding='0' cellspacing='0' border='0'><tr>" +
     p1 + p2 + p3 + "</tr></table></td></tr>";
   return html;
 };
