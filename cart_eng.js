@@ -248,34 +248,4 @@ $( document ).ready(function() {
     if ($( '#shop_order_delivery_form' ).length ){
         var intervalUpdateSelectDelivery = setInterval(updateSelectDelivery, 100);
     }
-    if (window.location.href.indexOf("/cart") > -1) {
-        if ( $('#cart-dropdown').text().indexOf("Your cart is empty") == -1 && $( '#cart-totals .sum .total_cart_price' ).length ){
-            var totalNode = $( '#cart-totals .sum .total_cart_price' );
-            var total = totalNode.text().replace(/[^0-9.]/g, "");
-            var priceNode;
-            $( '#cart-totals .totals .row div' ).each(function() {
-                if($(this).text().indexOf("Subtotal") != -1 ) {
-                priceNode = $(this).next();
-            }
-            });
-            var price = priceNode.text().replace(/[^0-9.]/g, "");
-            $( '#cart-totals .totals .row div' ).each(function() {
-                if($(this).text().indexOf("Delivery") != -1 ) {
-                var deliveryNode = $(this).next();
-                //var deliveryPrice = deliveryNode.text().replace(/[^0-9.]/g, "")
-                if (price >= 99.99) {
-                    deliveryNode.text("€0.00");
-                }
-                else {
-                    deliveryNode.text("€19.90");
-                    var sum = Number(19.90) + Number(price);
-                    if (total != sum) {
-                        totalNode.text("€" + sum.toFixed(2));
-                    }
-                }
-            }
-            });
-        };
-    }
-    
 });
