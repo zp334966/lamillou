@@ -22,7 +22,8 @@ body {
 }
 #main-image table {
   background-repeat: no-repeat;
-  background-position: top 92px center;
+  background-position: top 92px center;   
+  background-size: 660px auto;
   background-color: white;
   margin: 0;
   padding: 0;
