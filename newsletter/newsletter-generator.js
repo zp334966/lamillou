@@ -4,7 +4,7 @@ $('#zaladuj').on('click', function(){
   var mainT = $('#main-title-form').val();
   var mainST = $('#main-subtitle-form').val();
   $('#newsletter-generated #main-image table').attr('background', mainImg);
-  $('#newsletter-generated #main-image table').css('background-image', 'url:(' + mainImg + ')');
+  $('#newsletter-generated #main-image table').css('background-image', 'url:("' + mainImg + '")');
   $('#newsletter-generated #main-image a').attr('href', mainLink);
   $('#newsletter-generated #main-title .h1').text(mainT);
   $('#newsletter-generated #main-subtitle .p').text(mainST);
