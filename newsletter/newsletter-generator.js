@@ -76,16 +76,13 @@ function genSubtitle(subtitle) {
 };
 
 function genImgCategory(imgLink, link) {
-  var html;
-  if (link === '') {
-    html = "<tr class='element newsletter-img-cat'><td>" +
-        "<img class='img-category' src='" + imgLink + "'/>" +      
-        "</td></tr>";      
-  } else {
-    html = "<tr class='element newsletter-img-cat'><td><a href='" + link + "'>" +
-        "<img class='img-category' src='" + imgLink + "'/>" +      
-        "</a></td></tr>";
-  }
+  var html = "<tr class='element newsletter-img-cat'><td><a href='" + link + "'>" +
+    "<table class='image' cellpadding='0' cellspacing='0' border='0' background=" + imgLink + 
+    "style='background-image:url(" + imgLink + ");'>" + 
+    "<tr><td><table class='btn-lam btn-lam-small' cellpadding='0' cellspacing='0' border='0'>" +
+    "<tr><td>Zobacz</td></tr>" +
+    "</table></td></tr>" + "
+    "</table></a></td></tr>";
   return html;
 };
 
