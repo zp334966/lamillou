@@ -43,9 +43,10 @@ $('button#remove').on('click', function(){
 });
 
 $('button#generate').on('click', function(){
-  $("#newsletter-generated").inlineStyler( );
+  //$("#newsletter-generated").inlineStyler( );
   var html = "<html xmlns='http://www.w3.org/1999/xhtml'><head>" + 
     "<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;subset=latin-ext' rel='stylesheet'/>" +
+    "<link href='https://cdn.rawgit.com/zp334966/lamillou/22ea1be8/newsletter/newsletter-style.css' rel='stylesheet' type='text/css' />" +
     "<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />" +
     "<title>A Simple Responsive HTML Email</title>" +
     "</head><body>" + $('#newsletter-generated').html() + "</body></html>";
