@@ -29,6 +29,9 @@ body {
   height:418px; 
   width:100%  
 }
+#main-image td {
+  vertical-align: top;
+}
 #main-title {
   text-align: center;
   width: 573px;
