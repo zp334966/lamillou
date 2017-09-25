@@ -239,7 +239,7 @@ function orderLastStep () {
     $( "#order_last_step #form1 .buttons.panel .continue_with_order" ).clone().attr('id', 'button-with-price').insertAfter("#order_number_block") ;
     $( "#button-with-price" ).addClass("btn btn-lam btn-lam-blue");
     var price = $( "#order_last_step #shop_order_payment .totals_summary .sum p.nowrap strong" ).html();
-    var withPrice = "KUPUJĘ ZA " + price;
+    var withPrice = "BUY FOR " + price;
     $(document).ready(function(){ $( "#button-with-price" ).text(withPrice); });
     $( '#shop_order_addresses' ).detach().insertAfter( "#show_order_products_block" );
     $( '#shop_order_addresses' ).after("<div id='shop_order_delivery'></div>");
