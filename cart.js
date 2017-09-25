@@ -108,7 +108,8 @@ function checkDeliveryAndPaymentInResume() {
     var delivery = $('#shop_order_payment .row-eq-height .item p:eq(0)').text();
     var payment = $('#shop_order_payment .row-eq-height .item:eq(1) p:eq(0)').text();
     console.log(delivery); console.log(payment);
-    if (delivery.indexOf('Kurier GLS') != -1 && payment.indexOf('Płatność przy odbiorze' ) != -1) {
+    if ( ( delivery.indexOf('Kurier GLS') != -1 || delivery.indexOf('Poczta Polska') != -1 ) &&
+          payment.indexOf('Płatność przy odbiorze' ) != -1) {
       window.history.back();
     }
   }
