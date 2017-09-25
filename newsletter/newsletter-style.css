@@ -136,6 +136,15 @@ body {
   text-decoration: line-through;
   text-align: right;
 }
+.newsletter-img-cat table {
+  background-repeat: repeat-y no-repeat;
+  background-position: top center;
+  background-color: #C1C0C0;
+  margin: 0;
+  padding: 0;
+  height:280px; 
+  width:100%
+}
 .bolder {
   font-weight: 600; 
 }
