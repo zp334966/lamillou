@@ -80,6 +80,10 @@ body {
   margin :auto;
   margin-bottom: 41px;
 }
+.btn-lam-small {
+  width: 102px;
+  margin: 176px 0px 0px 447px;  
+}
 .product img, .product-title, .product-subtitle, .product-price {
   width: 181px;
 }
@@ -144,6 +148,9 @@ body {
   padding: 0;
   height:280px; 
   width:100%
+}
+.newsletter-img-cat a {
+  text-decoration: none;  
 }
 .bolder {
   font-weight: 600; 
