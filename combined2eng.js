@@ -1290,11 +1290,4 @@ $(document).ready(function(){
 		}
 		$(this).addClass('after-transform');
 	});
-	/* newsletter fixed 
-	if($('#fancybox-wrap #pp_newsletter').length ) {
-		$('#fancybox-wrap').css("position", "fixed");
-	}*/
-	$('#fancybox-content').bind("DOMSubtreeModified",function(){
-  		console.log('changed');
-	});
 });
