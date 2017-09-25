@@ -55,7 +55,7 @@ $('button#generate').on('click', function(){
 function changeMainImage(mainImg, mainLink) {
   var html = '<a href="' + mainLink + '">' +
     '<table cellpadding="0" cellspacing="0" border="0" background=' + mainImg + 
-    ' style="background-image:url(' + mainImg + ')">' +
+    ' style="background-image:url(' + mainImg + ')" >' +
     '<tr><td><img class="logo" src="https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/LaMilllou_logo_desktop.png"/>' +
     '</td></tr></table></a>';
   $('#newsletter-generated #main-image').html(html);
