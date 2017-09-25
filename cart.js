@@ -95,12 +95,12 @@ function updateSelectDelivery()
         $('#form1 #shop_order_delivery_form').attr('updated', 'true');
         console.log('deliveryId: ' + deliveryId);  
     }
-    if ( $('#form1 #payment_kind_selector input:checked').val() != 
+    /*if ( $('#form1 #payment_kind_selector input:checked').val() != 
         $('#form1 #payment_kind_selector .iradio_minimal-blue.checked input').val() ) {
         console.log('realne zaznaczenie: ' + $('#form1 #payment_kind_selector input:checked').val() ); 
         var p = $('#form1 #payment_kind_selector .iradio_minimal-blue.checked input').val();
         $('#form1 #payment_kind_selector input[value="' + p + '"]').next().trigger( "click" );
-    }
+    }*/
 };  
 
 function checkDeliveryAndPaymentInResume() {
@@ -108,7 +108,7 @@ function checkDeliveryAndPaymentInResume() {
     var delivery = $('#shop_order_payment .row-eq-height .item p:eq(0)').text();
     var payment = $('#shop_order_payment .row-eq-height .item:eq(1) p:eq(0)').text();
     console.log(delivery); console.log(payment);
-    if (delivery.indexOf('Kurier GLS') != -1 && payment.indexOf('Płatność przelewem' /*przy odbiorze */) != -1) {
+    if (delivery.indexOf('Kurier GLS') != -1 && payment.indexOf('Płatność przy odbiorze' ) != -1) {
       window.history.back();
     }
   }
