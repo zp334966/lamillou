@@ -78,7 +78,7 @@ function genSubtitle(subtitle) {
 function genImgCategory(imgLink, link) {
   var html = "<tr class='element newsletter-img-cat'><td><a href='" + link + "'>" +
     "<table class='image' cellpadding='0' cellspacing='0' border='0' background=" + imgLink + 
-    "style='background-image:url(" + imgLink + ");'>" + 
+    " style='background-image:url(" + imgLink + ");'>" + 
     "<tr><td><table class='btn-lam btn-lam-small' cellpadding='0' cellspacing='0' border='0'>" +
     "<tr><td>Zobacz</td></tr>" +
     "</table></td></tr>" +
