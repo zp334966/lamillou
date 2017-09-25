@@ -3,9 +3,7 @@ $('#zaladuj').on('click', function(){
   var mainLink = $('#main-link-form').val();
   var mainT = $('#main-title-form').val();
   var mainST = $('#main-subtitle-form').val();
-  $('#newsletter-generated #main-image table').attr('background', mainImg);
-  $('#newsletter-generated #main-image table').css('background-image', 'url:(' + encodeURIComponent(mainImg) + ')');
-  $('#newsletter-generated #main-image a').attr('href', mainLink);
+  changeMainImage(mainImg);
   $('#newsletter-generated #main-title .h1').text(mainT);
   $('#newsletter-generated #main-subtitle .p').text(mainST);
 });
@@ -53,6 +51,17 @@ $('button#generate').on('click', function(){
     "</head><body>" + $('#newsletter-generated').html() + "</body></html>";
   $('#generated-html').text(html);
 });
+
+function changeMainImage(mainImg, mainLink) {
+ // $('#newsletter-generated #main-image table').attr('background', mainImg);
+  //$('#newsletter-generated #main-image table').css('background-image', 'url:(' + encodeURIComponent(mainImg) + ')');	
+  var html = '<a href="' + mainLink + '">' +
+    '<table cellpadding="0" cellspacing="0" border="0" background=' + mainImg + 
+    ' style="background-image:url(' + mainImg + ')">' +
+    '<tr><td><img class="logo" src="https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/LaMilllou_logo_desktop.png"/>' +
+    '</td></tr></table></a>';
+  $('#newsletter-generated #main-image').html(html);
+};
 
 function addElement(elem) {
   $('#newsletter-generated #news-content').append(elem);
