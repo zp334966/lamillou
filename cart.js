@@ -103,11 +103,14 @@ function updateSelectDelivery()
     }
 };  
 
-function checkDeliveryAndPaymentInShowing() {
+function checkDeliveryAndPaymentInResume() {
   if ( $('#order_last_step #shop_order_payment').length ) {
     var delivery = $('#shop_order_payment .row-eq-height .item p:eq(0)').text();
     var payment = $('#shop_order_payment .row-eq-height .item:eq(1) p:eq(0)').text();
     console.log(delivery); console.log(payment);
+    if (delivery.indexOf('Kurier GLS') != -1 && payment.indexOf('Płatność przy odbiorze') != -1) {
+      window.history.back();
+    }
   }
 };
 
@@ -248,7 +251,7 @@ $( document ).ready(function() {
     
     $('.page').show();
     
-    checkDeliveryAndPaymentInShowing();
+    checkDeliveryAndPaymentInResume();
     if ($( '#shop_order_delivery_form' ).length ){
         var intervalUpdateSelectDelivery = setInterval(updateSelectDelivery, 100);
     }
