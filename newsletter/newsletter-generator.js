@@ -3,7 +3,7 @@ $('#zaladuj').on('click', function(){
   var mainLink = $('#main-link-form').val();
   var mainT = $('#main-title-form').val();
   var mainST = $('#main-subtitle-form').val();
-  changeMainImage(mainImg);
+  changeMainImage(mainImg, mainLink);
   $('#newsletter-generated #main-title .h1').text(mainT);
   $('#newsletter-generated #main-subtitle .p').text(mainST);
 });
@@ -53,8 +53,6 @@ $('button#generate').on('click', function(){
 });
 
 function changeMainImage(mainImg, mainLink) {
- // $('#newsletter-generated #main-image table').attr('background', mainImg);
-  //$('#newsletter-generated #main-image table').css('background-image', 'url:(' + encodeURIComponent(mainImg) + ')');	
   var html = '<a href="' + mainLink + '">' +
     '<table cellpadding="0" cellspacing="0" border="0" background=' + mainImg + 
     ' style="background-image:url(' + mainImg + ')">' +
