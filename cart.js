@@ -102,7 +102,14 @@ function updateSelectDelivery()
         $('#form1 #payment_kind_selector input[value="' + p + '"]').next().trigger( "click" );
     }
 };  
-  
+
+function checkDeliveryAndPaymentInShowing() {
+  if ( $('#order_last_step #shop_order_payment').length ) {
+    var delivery = $('#shop_order_payment .row-eq-height .item p:eq(0)').text();
+    var payment = $('#shop_order_payment .row-eq-height .item:eq(1) p:eq(0)').text();
+    console.log(delivery); console.log(payment);
+  }
+};
 
 $( document ).ready(function() {   
 
@@ -241,6 +248,7 @@ $( document ).ready(function() {
     
     $('.page').show();
     
+    checkDeliveryAndPaymentInShowing();
     if ($( '#shop_order_delivery_form' ).length ){
         var intervalUpdateSelectDelivery = setInterval(updateSelectDelivery, 100);
     }
