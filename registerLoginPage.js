@@ -156,7 +156,7 @@ function emptyCart() {
   var b = $( '.page-heading h3' ).text();
   if (b === 'Koszyk jest pusty') {
     emptyCartElements();   
-    $('#empty-cart .page-heading h3' ).text('TWOJE ZAMÓWIENIE');
+    $('#empty-cart .page-heading h3:first' ).text('TWOJE ZAMÓWIENIE');
     $('#empty-cart .page-heading .btn').attr('style','display:none !important');
     $('#empty-cart .container').attr("id","show_my_cart");
   }
