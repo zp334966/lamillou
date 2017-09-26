@@ -154,9 +154,9 @@ body {
   text-decoration: line-through;
   text-align: right;
 }
-.newsletter-img-cat table.image {
+.newsletter-img-cat .image {
   background-position: top center;
-  background-color: #C1C0C0;
+  /*background-color: #C1C0C0;*/
   background-size: 600px auto;
   margin: 0;
   padding: 0;
