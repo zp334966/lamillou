@@ -95,6 +95,9 @@ body {
   width: 102px;
   margin: 176px 0px 0px 465px;
 }
+.btn-lam-small td {
+  color: white;  
+}
 .product img, .product-title, .product-subtitle, .product-price {
   width: 181px;
 }
