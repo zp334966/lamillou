@@ -1291,3 +1291,10 @@ $(document).ready(function(){
 		$(this).addClass('after-transform');
 	});
 });
+function fixNewsletter() {
+	$('#fancybox-wrap').css('position','fixed!important');
+	console.log('zmienione');
+}
+$("#lm_pu2").fancybox().click(function() {
+	window.setTimeout(fixNewsletter(), 1000);
+});
