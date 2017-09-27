@@ -1100,7 +1100,7 @@ $(document).ready(function(){ */
 *************************************************/ 
 $(document).ready(function(){
   $('.unavaible-products div').each(function() {
-    if (! $( '.unavaible-products a' ).length ){
+    if (! $( '.unavaible-products div a' ).length ){
       $('.unavaible-products').css( "display", "none" );
     }
   });
