@@ -8,7 +8,7 @@ body {
 }
 .content {
   width: 100%; 
-  max-width: 660px;
+  max-width: 640px;
   border-style: solid; 
   border-color: #f7f7f7; 
   border-width: 2px;
@@ -99,7 +99,7 @@ body {
   color: white;  
 }
 .product img, .product-title, .product-subtitle, .product-price {
-  width: 181px;
+  width: 175px;
 }
 .product img {
   padding-bottom: 18px;
