@@ -215,7 +215,7 @@ function HidePhotoView() {
 
 $( '.sp-slider-photo-view' ).click(photoView);
 $( '#exit-photo-view' ).click(HidePhotoView);
-
+console.log('test1');
 if ( $('.sp-slider-photo-view').length ) {
 	$(window).load ( function () {
 		if ($( '.sp-slider-photo-view' ).hasClass('active')) {
@@ -232,6 +232,7 @@ if ( $('.sp-slider-photo-view').length ) {
 		}
 		else {
 			var h2 = $('.ms-slide-bgcont').height();
+			console.log(h2);
 			$( '.sp-slider-photo-view' ).height(h2);
 		}
 	});
