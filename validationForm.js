@@ -12,6 +12,8 @@ var mapForm = {
 var mapFormENG = { 
   'Company' : 'Enter a company',
   'Name' : 'Enter a first name and a last name',
+  'First and last name' : 'Enter a first name and a last name',
+  'Topic' : 'Select a topic',
   'E-mail': 'Enter a e-mail',
   'Telephone' : 'Enter a telephone number',
   'Message' : 'Enter a message'
