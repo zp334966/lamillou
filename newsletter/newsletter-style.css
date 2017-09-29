@@ -52,7 +52,6 @@ body {
   width: 100%;
 }
 .h1 {
-  font-weight: 700;
   font-size: 24px;
   color: #16407D;
   letter-spacing: 0.6px;
@@ -181,7 +180,6 @@ body {
   color: white;
   font-size: 24px;
   text-align: left;
-  font-weight: 600;
 }
 .footer .p {
   color: white;
