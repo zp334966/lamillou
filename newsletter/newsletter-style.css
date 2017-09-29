@@ -49,7 +49,7 @@ body {
   padding-bottom: 40px;
 }
 #news-content, .footer-content {
-  padding: 39px 33px 42px 33px;
+  padding: 39px 33px 39px 33px;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
@@ -58,9 +58,8 @@ body {
   font-size: 24px;
   color: #16407D;
   letter-spacing: 0.6px;
-  line-height: 40px;
+  line-height: 35px;
   padding-bottom: 5px;
-  text-transform: uppercase;
 }
 .p {
   font-size: 14px;
@@ -100,7 +99,9 @@ body {
 .btn-lam-small td {
   color: white;  
 }
-
+.btn-collection .btn-lam {
+  margin-bottom: 91px;  
+}
 .product img, .product-title, .product-subtitle, .product-price {
   width: 175px;
 }
@@ -191,6 +192,7 @@ body {
   font-size: 13px;
   letter-spacing: 0;
   line-height: 25px;
+  padding-bottom: 26px;
 }
 .footer a {
   color: white!important;
@@ -198,7 +200,7 @@ body {
 .facebook, .pinterest, .google, .instagram, .youtube {
   height: 21px;
   padding-right: 25px;
-  padding-bottom: 50px;
+  padding-bottom: 26px;
   padding-top: 5px;
   color: white;
   display: block;
