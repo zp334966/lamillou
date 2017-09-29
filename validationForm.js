@@ -43,13 +43,12 @@ function checkErrors() {
 
 
 
-$(window).load(function(){
-  console.log('przed');
-  $('.lavina_form input.button[type="submit"]').on('click', function() {console.log('klik');
+$(window).load(function(){ /*zrobic click dla kazdego id i inna funckje dla angielskiej wersji*/
+  $('.lavina_form input.button[type="submit"]').on('click', function() {
     if (intervalCheckErrors == null) {
-      intervalCheckErrors = setInterval(checkErrors ,100); console.log('odpala');
+      intervalCheckErrors = setInterval(checkErrors ,100); 
     };
-  });; 
+  });
   $("#before-loading").css("display", "none");
   $("#lavina_form_2160").css("display", "block");
   $("#lavina_form_10244").css("display", "block");
