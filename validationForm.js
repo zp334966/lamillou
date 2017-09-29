@@ -41,17 +41,15 @@ function checkErrors() {
   }
 };
 
-$(document).on('ready',function(){
-  $('.lavina_form input.button[type="submit"]').on('click', function() {
-    if (intervalCheckErrors) {
-      intervalCheckErrors = setInterval(checkErrors,100);
-    }
-  });;  
-  
-  
-});
+
 
 $(window).load(function(){
+  
+  $('.lavina_form input.button[type="submit"]').on('click', function() {
+    if (intervalCheckErrors) {
+      intervalCheckErrors = setInterval(checkErrors ,100);
+    };
+  });  
   $("#before-loading").css("display", "none");
   $("#lavina_form_2160").css("display", "block");
   $("#lavina_form_10244").css("display", "block");
