@@ -44,12 +44,12 @@ function checkErrors() {
 
 
 $(window).load(function(){
-  
-  $('.lavina_form input.button[type="submit"]').on('click', function() {
+  console.log('przed');
+  $('.lavina_form input.button[type="submit"]').on('click', function() {console.log('klik');
     if (intervalCheckErrors) {
-      intervalCheckErrors = setInterval(checkErrors ,100);
+      intervalCheckErrors = setInterval(checkErrors ,100); console.log('odpala');
     };
-  });  
+  });; 
   $("#before-loading").css("display", "none");
   $("#lavina_form_2160").css("display", "block");
   $("#lavina_form_10244").css("display", "block");
