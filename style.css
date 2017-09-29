@@ -2191,4 +2191,7 @@ div.page-404 p {
 	.products_in_category_number .bottom-line {
 		margin-right: 7px;
 	}
+	section.temporarily-out-of-stock {
+		margin-left: 11.5px!important;
+	}
 }
