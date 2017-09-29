@@ -97,6 +97,9 @@ body {
 .btn-lam-small td {
   color: white;  
 }
+.btn-collection {
+  vertical-align: bottom;  
+}
 .product img, .product-title, .product-subtitle, .product-price {
   width: 175px;
 }
@@ -165,7 +168,7 @@ body {
   width: 100%;
   margin-bottom: 35px;
 }
-.newsletter-img-cat a {
+.newsletter-img-cat a, #main-image a {
   text-decoration: none;  
 }
 .bolder {
