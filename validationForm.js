@@ -42,16 +42,11 @@ function checkErrors() {
 };
 
 $(document).on('ready',function(){
-  $('#lavina_form_2160 input.button[type="submit"]').on('click', function() {
+  $('.lavina_form input.button[type="submit"]').on('click', function() {
     if (intervalCheckErrors) {
       intervalCheckErrors = setInterval(checkErrors,100);
     }
   });  
-  $('#lavina_form_10245 input.button[type="submit"]').on('click', function() {
-    if (intervalCheckErrors) {
-      intervalCheckErrors = setInterval(checkErrors,100);
-    }
-  });   
   
   
 });
