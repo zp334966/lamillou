@@ -46,7 +46,7 @@ function checkErrors() {
 $(window).load(function(){
   console.log('przed');
   $('.lavina_form input.button[type="submit"]').on('click', function() {console.log('klik');
-    if (intervalCheckErrors) {
+    if (intervalCheckErrors == null) {
       intervalCheckErrors = setInterval(checkErrors ,100); console.log('odpala');
     };
   });; 
