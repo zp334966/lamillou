@@ -33,6 +33,9 @@ body {
 #main-image td {
   vertical-align: top;
 }
+#main-image .btn-collection {
+  vertical-align: bottom;  
+}
 #main-title {
   text-align: center;
   width: 573px;
@@ -97,9 +100,7 @@ body {
 .btn-lam-small td {
   color: white;  
 }
-.btn-collection {
-  vertical-align: bottom;  
-}
+
 .product img, .product-title, .product-subtitle, .product-price {
   width: 175px;
 }
