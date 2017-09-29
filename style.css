@@ -2184,3 +2184,8 @@ div.page-404 p {
     		margin-right: -9px;
 	}
 }
+@media (min-width: 992px) {
+	.catalog-grid .shop_description, .temporarily-out-of-stock {
+		margin-left: 7px;
+	}
+}
