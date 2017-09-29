@@ -56,12 +56,6 @@ function changeMainImage(mainImg, mainLink) {
   $('#newsletter-generated #main-image a').attr("href", mainLink);
   $('#newsletter-generated #main-image .background').attr("background", mainImg);
   $('#newsletter-generated #main-image .background').css("background-image", "url(" + mainImg + ")");
-  /*var html = '<a href="' + mainLink + '">' +
-    '<table cellpadding="0" cellspacing="0" border="0" background=' + mainImg + 
-    ' style="background-image:url(' + mainImg + ')" >' +
-    '<tr><td><img class="logo" src="https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/LaMilllou_logo_desktop.png"/>' +
-    '</td></tr></table></a>';
-  $('#newsletter-generated #main-image').html(html);*/
 };
 
 function addElement(elem) {
@@ -82,8 +76,8 @@ function genImgCategory(imgLink, link) {
   var html = "<tr class='element newsletter-img-cat'><td><a href='" + link + "'>" +
     "<table class='image' cellpadding='0' cellspacing='0' border='0' background=" + imgLink + 
     " style='background-image:url(" + imgLink + ");'>" + 
-    "<tr><td><table class='btn-lam btn-lam-small' cellpadding='0' cellspacing='0' border='0'>" +
-    "<tr><td>Zobacz</td></tr>" +
+    "<tr><td class='btn-collection'><table class='btn-lam' cellpadding='0' cellspacing='0' border='0'>" +
+    "<tr><td>Zobacz kolekcję</td></tr>" +
     "</table></td></tr>" +
     "</table></a></td></tr>";
   return html;
