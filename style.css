@@ -2178,3 +2178,9 @@ div.page-404 p {
 #products img.after-transform {
     visibility: visible!important;
 }
+@media (min-width: 831px) {
+	.container.container-detail-product {
+		margin-left: -9px;
+    		margin-right: -9px;
+	}
+}
