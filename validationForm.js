@@ -21,14 +21,14 @@ var mapFormENG = {
 
 var intervalCheckErrors = null;
 
-function checkErrors() { 
+function checkErrors(map) { 
   $('.lavina_form label').each(function() { 
     var parentInput = $(this).next();
     var maybeError = $(this).next().next();
     if ( maybeError.length ) {
       if (! parentInput.hasClass('field_with_errors') ) {
         parentInput.addClass('field_with_errors');
-        var error = mapForm[ $(this).text() ]; 
+        var error = map[ $(this).text() ]; 
         parentInput.append("<div class='validation-error'>" + error + "</div>");
       }
     } else {
@@ -44,7 +44,7 @@ function checkErrors() {
 $(document).on('ready',function(){
   $('.lavina_form input.button[type="submit"]').on('click', function() {
     if (intervalCheckErrors == null) {
-      intervalCheckErrors = setInterval(checkErrors,100);
+      intervalCheckErrors = setInterval(checkErrors(mapForm),100);
     }
   });;      
 });
