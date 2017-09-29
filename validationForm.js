@@ -46,7 +46,7 @@ $(document).on('ready',function(){
     if (intervalCheckErrors) {
       intervalCheckErrors = setInterval(checkErrors,100);
     }
-  });  
+  });;  
   
   
 });
