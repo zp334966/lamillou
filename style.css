@@ -1966,7 +1966,7 @@ div.page-heading.center, div.page-heading {
         margin-bottom: 34px !important;
     }
     .pop-up-added-to-cart.mobile, .pop-up-lack.mobile {
-        margin-right: calc(-1 * ((100vw / 2)) + 10px);
+        margin-right: calc(-1 * ((100vw / 2)) + 8px);
     }
     .pop-up-added-to-cart .product_details .title {
         margin: 0;
