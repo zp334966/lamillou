@@ -817,6 +817,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     line-height: 20px;
     padding-top: 15px !important;
     padding-bottom: 15px !important;
+    transition-property: color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
 }
 .btn {
     -webkit-border-radius: 5px;
