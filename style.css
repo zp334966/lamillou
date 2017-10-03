@@ -1254,7 +1254,7 @@ div.page-heading.center, div.page-heading {
     position: absolute;
     background: white;
     right: 0;
-    margin-right: calc(-1 * ((100vw - 100%) / 2) + 10px);
+    margin-right: calc(-1 * ((100vw - 100%) / 2) + 8px);
 }
 .pop-up-added-to-cart .content {
     padding: 0 10px 0 10px;
