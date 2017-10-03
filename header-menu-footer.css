@@ -823,14 +823,14 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     -moz-border-radius: 5px;
     border-radius: 5px;   
 }
-
+/*
 .btn, .btn:hover {
     -webkit-transition: color 200ms ease, color 200ms ease, stroke 200ms ease;
     -moz-transition: color 200ms ease, color 200ms ease, stroke 200ms ease;
     -o-transition: color 200ms ease, color 200ms ease, stroke 200ms ease;
     -ms-transition: color 200ms ease, color 200ms ease, stroke 200ms ease, ;
     transition: color 200ms ease, color 200ms ease, stroke 200ms ease;
-}
+} */
 .btn-lam {
     font-size: 15px !important;
     text-align: center;
