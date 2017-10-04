@@ -60,6 +60,7 @@ $('#import-html button').on('click', function(){
   var html = $('#import-form').val();
   $('#cookiediv').html(html);
   $('#newsletter-generated .page').html( $('#cookiediv .page').html() );
+  threeP = $('#newsletter-generated [id*="prod"]').last().attr('id').replace('prod',''); console.log(threeP);
 });
 
 
