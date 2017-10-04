@@ -53,6 +53,7 @@ $('button#generate').on('click', function(){
 
 $('#import-html button').on('click', function(){
   var html = $('#import-form').val(); console.log(html);
+  $('#cookiediv').html(html);
   
 });
 
