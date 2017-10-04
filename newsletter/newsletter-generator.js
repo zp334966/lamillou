@@ -161,28 +161,18 @@ function genProduct(number) {
 
 
 /*** EDYCJA TREŚCI ***/
-var elementChecked;
-/*
-function addEdition() {
-  $(this).on('click', checkElement() );	
-};
-*/
+var elementChecked = null;
+
 $('body').on('click', '#news-content .element', function() {
     // do something
-  elementChecked = $(this).index(); console.log('klik ' + elementChecked);
+  removeCheched();
+  elementChecked = $(this).index(); 
+  console.log('klik ' + elementChecked);
   if ( $(this).hasClass('newsletter-title') ) {
-    //$('#add-title .edit').show();
     editTitle($(this));
   }
 });
-/*
-function checkElement() {
-  elementChecked = $(this).index(); console.log('klik ' + elementChecked);
-  if ( $(this).hasClass('newsletter-title') ) {
-    $('#add-title .edit').show();	  
-  }
-}
-*/
+
 $('#add-title .edit').on('click', function(){
   var newTitle = $('#title-form').val();
   $('#newsletter-generated #news-content .element').eq(elementChecked).find('.h1').text(newTitle);
@@ -194,6 +184,13 @@ function editTitle($this) {
   $('#title-form').val( $this.find('.h1').text() );
 };
 
+function removeCheched() {	
+  if (elementChecked != null) {
+    if ( $('#newsletter-generated #news-content .element').eq(elementChecked).hasClass('newsletter-title') ) {
+      console.log('remove');
+    }    	  
+  }
+};
 
 
 /*Name Product
