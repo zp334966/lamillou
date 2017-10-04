@@ -173,15 +173,15 @@ $('body').on('click', '#news-content .element', function() {
     // do something
   removeCheched();
   elementChecked = $(this).index(); 
-  console.log('klik ' + elementChecked);
+  console.log('klik ' + elementChecked); /*
   if ( $(this).hasClass('newsletter-title') ) {
     editTitle($(this));
   }
   if ( $(this).hasClass('newsletter-subtitle') ) {
     editSubtitle($(this));
-  }
+  }*/
 });
-/*
+
 $('#add-title .edit').on('click', function(){
   var newTitle = $('#title-form').val();
   $('#newsletter-generated #news-content .element').eq(elementChecked).find('.h1').text(newTitle);
@@ -193,7 +193,7 @@ $('#add-subtitle .edit').on('click', function(){
   $('#newsletter-generated #news-content .element').eq(elementChecked).find('.p').text(newTitle);
   $('#add-subtitle .edit').hide(); 
 });
-*/
+
 function removeCheched() {	
   if (elementChecked != null) {
     if ( $('#newsletter-generated #news-content .element').eq(elementChecked).hasClass('newsletter-title') ) {
