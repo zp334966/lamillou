@@ -171,7 +171,8 @@ $('body').on('click', '#news-content .element', function() {
     // do something
   elementChecked = $(this).index(); console.log('klik ' + elementChecked);
   if ( $(this).hasClass('newsletter-title') ) {
-    $('#add-title .edit').show();	  
+    //$('#add-title .edit').show();
+    editTitle($(this));
   }
 });
 /*
@@ -188,10 +189,10 @@ $('#add-title .edit').on('click', function(){
   $('#add-title .edit').hide();  console.log('edit');
 });
 
-	
-
-
-
+function editTitle($this) {	
+  $('#add-title .edit').show();
+  $('#title-form').val( $this.find('.h1').text() );
+};
 
 
 
