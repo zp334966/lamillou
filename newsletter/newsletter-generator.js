@@ -3,9 +3,15 @@ $('#zaladuj').on('click', function(){
   var mainLink = $('#main-link-form').val();
   var mainT = $('#main-title-form').val();
   var mainST = $('#main-subtitle-form').val();
-  changeMainImage(mainImg, mainLink);
-  $('#newsletter-generated #main-title .h1').text(mainT);
-  $('#newsletter-generated #main-subtitle .p').text(mainST);
+  if (mainImg != '') {
+    changeMainImage(mainImg, mainLink);
+  }
+  if (mainT != '') {
+    $('#newsletter-generated #main-title .h1').text(mainT);
+  }
+  if (mainST != '') {
+    $('#newsletter-generated #main-subtitle .p').text(mainST);
+  }
 });
 
 $('#add-title button.add').on('click', function(){
