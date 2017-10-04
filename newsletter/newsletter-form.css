@@ -125,3 +125,7 @@
 #jGrowl {
   display: none;  
 }
+
+#news-content .element.editing td:first-child {
+    border: 1px solid #D0D9E5;  
+}
