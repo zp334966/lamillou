@@ -172,6 +172,7 @@ var elementChecked = null;
 $('body').on('click', '#news-content .element', function() {
     // do something
   removeCheched();
+  $(this).addClass('editing');	
   elementChecked = $(this).index(); 
   console.log('klik ' + elementChecked);
   if ( $(this).hasClass('newsletter-title') ) {
@@ -196,6 +197,7 @@ $('#add-subtitle .edit').on('click', function(){
 
 function removeCheched() {	
   if (elementChecked != null) {
+    $('#newsletter-generated #news-content .element').eq(elementChecked).removeClass('editing');
     if ( $('#newsletter-generated #news-content .element').eq(elementChecked).hasClass('newsletter-title') ) {
       console.log('remove');
       noEditTitle();
