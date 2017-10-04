@@ -243,8 +243,8 @@ function noEditSubtitle() {
 };
 function editImgCategory($this) {	
   $('#add-img .edit').show();
-  $('#img-form').val( $this.find('a').attr('href') );
-  $('#img-href-form').val( $this.find('.image').css('background-image') );
+  $('#img-href-form').val( $this.find('a').attr('href').replace('url("', '').replace('")', '') );
+  $('#img-form').val( $this.find('.image').css('background-image') );
 };
 function noEditImgCategory() {	
   $('#add-img .edit').hide();
