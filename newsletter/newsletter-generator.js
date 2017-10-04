@@ -33,9 +33,6 @@ $('#add-button button.add').on('click', function(){
 $('#add-small-img button.add').on('click', function(){
   var linki = $('#imgs-small-form').val();
   linki = linki.split('\n');	
-  //var linkI = $('#img-small1-form').val();
-  //var linkII = $('#img-small2-form').val();
- //var linkIII = $('#img-small3-form').val();
   $.when( addElement( genThreeProductsTemplate() ) ).done( loadElements(linki[0], linki[1], linki[2]) );
 });
 
