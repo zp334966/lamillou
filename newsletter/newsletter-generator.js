@@ -52,7 +52,7 @@ $('button#generate').on('click', function(){
 });
 
 $('#import-html button').on('click', function(){
-  var html = $('#import-form').val(); console.log(html);
+  var html = $('#import-form').val();
   $('#cookiediv').html(html);
   $('#newsletter-generated .page').html( $('#cookiediv .page').html() );
 });
