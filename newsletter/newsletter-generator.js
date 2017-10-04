@@ -243,8 +243,8 @@ function noEditSubtitle() {
 };
 function editImgCategory($this) {	
   $('#add-img .edit').show();
-  $('#img-href-form').val( $this.find('a').attr('href').replace('url("', '').replace('")', '') );
-  $('#img-form').val( $this.find('.image').css('background-image') );
+  $('#img-href-form').val( $this.find('a').attr('href') );
+  $('#img-form').val( $this.find('.image').css('background-image').replace('url("', '').replace('")', '') );
 };
 function noEditImgCategory() {	
   $('#add-img .edit').hide();
