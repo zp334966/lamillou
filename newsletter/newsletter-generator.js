@@ -60,10 +60,8 @@ $('#import-html button').on('click', function(){
   var html = $('#import-form').val();
   $('#cookiediv').html(html);
   $('#newsletter-generated .page').html( $('#cookiediv .page').html() );
-	console.log( $('#newsletter-generated [id*="prod"]').last());
-	console.log( $('#newsletter-generated [id*="prod"]').last().attr('id'));
-	console.log($('#newsletter-generated [id*="prod"]'));
-  var t = $('#newsletter-generated [id*="prod"]').last().attr('id').replace('prod',''); console.log(t);
+  threeP = $('#newsletter-generated [id*="prod"]').last().attr('id').replace('prod',''); 
+  threeP++;console.log(threeP);
 });
 
 
