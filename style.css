@@ -1950,7 +1950,7 @@ div.page-heading.center, div.page-heading {
     }
     #fancybox-wrap {
         left: unset !important;
-        top: 25% !important;
+        top: calc((100vh - 484px)/2) !important;
     }
     #pp_newsletter img {
         max-height: 338px;
