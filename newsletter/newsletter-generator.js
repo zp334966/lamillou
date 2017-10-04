@@ -173,13 +173,13 @@ $('body').on('click', '#news-content .element', function() {
     // do something
   removeCheched();
   elementChecked = $(this).index(); 
-  console.log('klik ' + elementChecked); /*
+  console.log('klik ' + elementChecked);
   if ( $(this).hasClass('newsletter-title') ) {
     editTitle($(this));
   }
   if ( $(this).hasClass('newsletter-subtitle') ) {
     editSubtitle($(this));
-  }*/
+  }
 });
 
 $('#add-title .edit').on('click', function(){
