@@ -41,9 +41,27 @@ function checkErrors() {
   }
 };
 
+function checkErrorsENG() { 
+  $('.lavina_form label').each(function() { 
+    var parentInput = $(this).next();
+    var maybeError = $(this).next().next();
+    if ( maybeError.length ) {
+      if (! parentInput.hasClass('field_with_errors') ) {
+        parentInput.addClass('field_with_errors');
+        var error = mapFormENG[ $(this).text() ]; 
+        parentInput.append("<div class='validation-error'>" + error + "</div>");
+      }
+    } else {
+      parentInput.removeClass('field_with_errors');
+      parentInput.find('.validation-error').remove();
+    }
+  });
+  if ( !$('.lavina_form label').length ) {
+      clearInterval(intervalCheckErrors); 
+  }
+};
 
-
-$(window).load(function(){ /*zrobic click dla kazdego id i inna funckje dla angielskiej wersji*/
+$(window).load(function(){ 
   $('#lavina_form_2160 input.button[type="submit"]').on('click', function() {
     if (intervalCheckErrors == null) {
       intervalCheckErrors = setInterval(checkErrors ,100); 
@@ -55,8 +73,22 @@ $(window).load(function(){ /*zrobic click dla kazdego id i inna funckje dla angi
       intervalCheckErrors = setInterval(checkErrors ,100); 
     };
   });
+
+  $('#lavina_form_9745 input.button[type="submit"]').on('click', function() {
+    if (intervalCheckErrors == null) {
+      intervalCheckErrors = setInterval(checkErrorsENG ,100); 
+    };
+  });
+
+  $('#lavina_form_10244 input.button[type="submit"]').on('click', function() {
+    if (intervalCheckErrors == null) {
+      intervalCheckErrors = setInterval(checkErrorsENG ,100); 
+    };
+  });
   
   $("#before-loading").css("display", "none");
   $("#lavina_form_2160").css("display", "block");
+  $("#lavina_form_10245").css("display", "block");
+  $("#lavina_form_9745").css("display", "block");
   $("#lavina_form_10244").css("display", "block");
 });
