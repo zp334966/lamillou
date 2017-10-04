@@ -179,19 +179,24 @@ $('#add-title .edit').on('click', function(){
   $('#add-title .edit').hide();  console.log('edit');
 });
 
-function editTitle($this) {	
-  $('#add-title .edit').show();
-  $('#title-form').val( $this.find('.h1').text() );
-};
 
 function removeCheched() {	
   if (elementChecked != null) {
     if ( $('#newsletter-generated #news-content .element').eq(elementChecked).hasClass('newsletter-title') ) {
       console.log('remove');
+      noEditTitle();
     }    	  
   }
 };
 
+function editTitle($this) {	
+  $('#add-title .edit').show();
+  $('#title-form').val( $this.find('.h1').text() );
+};
+function noEditTitle() {	
+  $('#add-title .edit').hide();
+  $('#title-form').val('');
+};
 
 /*Name Product
 *************************************************/
