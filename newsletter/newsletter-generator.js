@@ -42,7 +42,6 @@ $('button#remove').on('click', function(){
 });
 
 $('button#generate').on('click', function(){
-  //$("#newsletter-generated").inlineStyler( );
   var html = "<html xmlns='http://www.w3.org/1999/xhtml'><head>" + 
     "<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;subset=latin-ext' rel='stylesheet'/>" +
     "<link href='https://cdn.rawgit.com/zp334966/lamillou/b90258ed/newsletter/newsletter-style.css' rel='stylesheet' type='text/css' />" +
@@ -51,6 +50,12 @@ $('button#generate').on('click', function(){
     "</head><body>" + $('#newsletter-generated').html() + "</body></html>";
   $('#generated-html').text(html);
 });
+
+$('#import-html button').on('click', function(){
+  var html = $('#import-form').val(); console.log(html);
+  
+});
+
 
 function changeMainImage(mainImg, mainLink) {
   $('#newsletter-generated #main-image a').attr("href", mainLink);
