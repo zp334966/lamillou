@@ -44,11 +44,18 @@ function checkErrors() {
 
 
 $(window).load(function(){ /*zrobic click dla kazdego id i inna funckje dla angielskiej wersji*/
-  $('.lavina_form input.button[type="submit"]').on('click', function() {
+  $('#lavina_form_2160 input.button[type="submit"]').on('click', function() {
     if (intervalCheckErrors == null) {
       intervalCheckErrors = setInterval(checkErrors ,100); 
     };
   });
+  
+  $('#lavina_form_10245 input.button[type="submit"]').on('click', function() {
+    if (intervalCheckErrors == null) {
+      intervalCheckErrors = setInterval(checkErrors ,100); 
+    };
+  });
+  
   $("#before-loading").css("display", "none");
   $("#lavina_form_2160").css("display", "block");
   $("#lavina_form_10244").css("display", "block");
