@@ -291,7 +291,7 @@ $( "#lm-cart" ).hover(function() {
 *************************************************/
 var elementsInCart = null;
 var addToCartClicked = false;
-function checkPopUp2() {
+function checkPopUp2(chance) {
   if (elementsInCart != null) {
     if (addToCartClicked) { 
       var nowInCart = parseInt( $('#res-cart .shop_cart_simple').text() );
@@ -300,15 +300,24 @@ function checkPopUp2() {
         $( ".pop-up-added-to-cart" ).each(function() {
           $( "#cart-dropdown" ).removeClass('open');
           $(this).show().delay( 5000 ).hide( 400 ); console.log('jest');
-        });		    
-      } else {
-        $( ".pop-up-lack" ).each(function() {
-          $(this).show().delay( 5000 ).hide( 400 );
         });
-	$( ".pop-up-added-to-cart" ).each(hide);console.log('brak');
-      }
-      addToCartClicked = false;
-      elementsInCart = nowInCart;    
+	addToCartClicked = false;
+        elementsInCart = nowInCart;
+      } else {
+	if (chance < 1) {
+	  checkPopUp2(chance--); console.log('chance');  	
+	} else {
+          $( ".pop-up-lack" ).each(function() {
+            $(this).show().delay( 5000 ).hide( 400 );
+          });
+	  $( ".pop-up-added-to-cart" ).each(function() {
+            $(this).hide();
+          });
+	  addToCartClicked = false;
+          elementsInCart = nowInCart;
+	      console.log('brak');
+	}
+      }    
     }
   } else {
     elementsInCart = parseInt( $('#res-cart .shop_cart_simple').text() ); 
@@ -319,8 +328,10 @@ $( ".add_to_cart_button .add" ).click(function() {
   addToCartClicked = true; console.log('klik');
 });   
 $( window ).load(function() {
-  setInterval(checkPopUp2, 500);
+  setInterval(checkPopUp2(3), 400);
 });
+
+
 
 /*Notify when available
 *************************************************/
