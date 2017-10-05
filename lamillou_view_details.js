@@ -284,6 +284,9 @@ function popUp(lack) {
         $( ".pop-up-lack" ).each(function() {
           $(this).show().delay( 5000 ).hide( 400 );
         });
+	$( ".pop-up-added-to-cart" ).each(function() {
+          $(this).hide(); 
+        });  
   } else {
         $( ".pop-up-added-to-cart" ).each(function() {
 	  $( "#cart-dropdown" ).removeClass('open');
@@ -295,7 +298,7 @@ function popUp(lack) {
 function checkLack() {
 console.log('g');
   $( ".jGrowl-notification .message" ).each(function() {
-    if ( $(this).text().indexOf("Niestety zapasy") != -1 ){console.log('true');
+    if ( $(this).text().indexOf("Niestety zapasy") != -1 ){
       lack = true;	       
     }
   });		
@@ -325,52 +328,6 @@ $( "#lm-cart" ).hover(function() {
   }); 
 });
 
-/*Pop up add to cart 2
-*************************************************/
-
-
-
-/*
-var elementsInCart = null;
-var addToCartClicked = false;
-function checkPopUp2() {
-  if (elementsInCart != null) {
-    if (addToCartClicked) { 
-      var nowInCart = parseInt( $('#res-cart .shop_cart_simple').text() );
-	    console.log('now ' + nowInCart);
-      if (nowInCart > elementsInCart) {
-        $( ".pop-up-added-to-cart" ).each(function() {
-          $( "#cart-dropdown" ).removeClass('open');
-          $(this).show().delay( 5000 ).hide( 400 ); console.log('jest');
-        });
-	addToCartClicked = false;
-        elementsInCart = nowInCart;
-      } else {
-
-          $( ".pop-up-lack" ).each(function() {
-            $(this).show().delay( 5000 ).hide( 400 );
-          });
-	  $( ".pop-up-added-to-cart" ).each(function() {
-            $(this).hide();
-          });
-	  addToCartClicked = false;
-          elementsInCart = nowInCart;
-	      console.log('brak');
-
-      }    
-    }
-  } else {
-    elementsInCart = parseInt( $('#res-cart .shop_cart_simple').text() ); 
-  }
-	  	  	
-};
-$( ".add_to_cart_button .add" ).click(function() {
-  addToCartClicked = true; console.log('klik');
-});   
-$( window ).load(function() {
-  setInterval(checkPopUp2, 400);
-});
-*/
 
 
 /*Notify when available
