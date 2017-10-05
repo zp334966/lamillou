@@ -265,6 +265,7 @@ function checkPopUp() {
         });
       }
     });
+	  
   } else {
     $( ".pop-up-added-to-cart" ).each(function() {
       $( "#cart-dropdown" ).removeClass('open');
@@ -272,11 +273,44 @@ function checkPopUp() {
     });
   }
 };
-  
- 
+   
 $( ".add_to_cart_button .add" ).click(function() {
   setTimeout(checkPopUp, 500);
-});*/
+});
+*/
+function popUp(lack) {
+  if (lack) {
+        $( ".pop-up-lack" ).each(function() {
+          $(this).show().delay( 5000 ).hide( 400 );
+        });
+  } else {
+        $( ".pop-up-added-to-cart" ).each(function() {
+	  $( "#cart-dropdown" ).removeClass('open');
+          $(this).show().delay( 5000 ).hide( 400 ); 
+        });
+  } console.log('pop');	
+};
+
+function checkPopUp() {
+  if ( $( ".jGrowl-notification .message" ).length ) {
+    var lack = false;
+    $.when( function () { console.log('g');
+        $( ".jGrowl-notification .message" ).each(function() {
+          if ( $(this).text().indexOf("Niestety zapasy") != -1 ){
+            lack = true;	       
+          }
+        });
+    }).done(popUp(lack));	  
+  } else {
+    popUp(lack);
+  }
+};
+   
+$( ".add_to_cart_button .add" ).click(function() {
+  setTimeout(checkPopUp, 500);
+});
+
+
 $( "#lm-cart" ).hover(function() {
   $( "#cart-dropdown" ).removeClass('open');
   $( ".pop-up-added-to-cart" ).each(function() {
@@ -289,9 +323,13 @@ $( "#lm-cart" ).hover(function() {
 
 /*Pop up add to cart 2
 *************************************************/
+
+
+
+/*
 var elementsInCart = null;
 var addToCartClicked = false;
-function checkPopUp2(chance) {
+function checkPopUp2() {
   if (elementsInCart != null) {
     if (addToCartClicked) { 
       var nowInCart = parseInt( $('#res-cart .shop_cart_simple').text() );
@@ -304,9 +342,7 @@ function checkPopUp2(chance) {
 	addToCartClicked = false;
         elementsInCart = nowInCart;
       } else {
-	if (chance < 1) {
-	  checkPopUp2(chance--); console.log('chance');  	
-	} else {
+
           $( ".pop-up-lack" ).each(function() {
             $(this).show().delay( 5000 ).hide( 400 );
           });
@@ -316,7 +352,7 @@ function checkPopUp2(chance) {
 	  addToCartClicked = false;
           elementsInCart = nowInCart;
 	      console.log('brak');
-	}
+
       }    
     }
   } else {
@@ -328,9 +364,9 @@ $( ".add_to_cart_button .add" ).click(function() {
   addToCartClicked = true; console.log('klik');
 });   
 $( window ).load(function() {
-  setInterval(checkPopUp2(3), 400);
+  setInterval(checkPopUp2, 400);
 });
-
+*/
 
 
 /*Notify when available
