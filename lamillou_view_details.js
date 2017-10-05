@@ -335,7 +335,8 @@ $( "#lm-cart" ).hover(function() {
 function addNotif() {
   if ( $( ".jGrowl-notification .message" ).length ) {
     $( ".jGrowl-notification .message" ).each(function() {
-      if ( $(this).text().indexOf("Zły adres") != -1 ){
+      if ( $(this).text().indexOf("Zły adres") != -1 ||
+	 $(this).text().indexOf("Wrong e-mail address") != -1 ){
         $('#notify-email-field').addClass('field_with_errors');
       }
     });
