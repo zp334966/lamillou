@@ -940,11 +940,12 @@ function productNames(full_name) {
          return String.prototype.indexOf.apply(this, arguments) !== -1;
      };
   }
-  var categories = ["KOCYK","PODUSIA","ZESTAW","OTULACZ","BLANKET","KOC","WINGS","BAG","KOMPLET","POŚCIEL","PILLOW",
-		    "ORGANIZER","OCHRANIACZ", "POZYTYWKA","HORN","PRZEŚCIERADŁO","PACK","TORBA","PASEK","PRZEWIJAK",
-		    "SASZETKA","ŚPIWOREK","PAD","COVER","KURA","COMBO","ZAWIESZKA","ZABAWKA","WOREK","WOODY BUNNY",
-                    "THERMO","GRZECHOTKA","PLECAK","MAT","KAPELUSZ","CHUSTKA","APASZKA","CZAPA","HAT","OPASKA",
-		    "PACIFIER","CZAPKA","KARTY"];
+  var categories = ["BLANKET","PILLOW","SET","DIAPER","BLANKET","SWADDLE","WINGS","BAG","KOMPLET","BEDDING",
+		    "ORGANIZER","BUMPER", "HORN","BEDSHEET","PACK","TORBA","CLIPS","PRZEWIJAK", "BEDDING",
+		    "SASZETKA","BELT","PAD","COVER","HEN","COMBO","HANGER","ZABAWKA","WOREK","WOODY BUNNY",
+                    "THERMO","GRZECHOTKA","BACKPACK","MAT","KAPELUSZ","CHUSTKA","APASZKA","CZAPA","HAT","HEADBAND",
+		    "PACIFIER","CROWN","CARDS", "KID KIT", "MUSIC BOX", "COVERLET", "PURSE", "SCARF", "NECKERCHIEF", 
+		    "BUNNY", "BOX", "GARLAND", "MUSIC STAR", "FIRST TOUCH"];
   var category = "";
   full_name = full_name.replace(/\–/g, '-');
   var names = full_name.split('-');
