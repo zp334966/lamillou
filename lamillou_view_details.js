@@ -294,7 +294,7 @@ var addToCartClicked = false;
 function checkPopUp2() {
   if (elementsInCart != null) {
     if (addToCartClicked) { 
-      var nowInCart = parseInt( ('#res-cart .shop_cart_simple').text() );
+      var nowInCart = parseInt( $('#res-cart .shop_cart_simple').text() );
 	    console.log('now ' + nowInCart);
       if (nowInCart > elementsInCart) {
         $( ".pop-up-added-to-cart" ).each(function() {
@@ -311,7 +311,7 @@ function checkPopUp2() {
       elementsInCart = nowInCart;    
     }
   } else {
-    elementsInCart = parseInt( ('#res-cart .shop_cart_simple').text() ); 
+    elementsInCart = parseInt( $('#res-cart .shop_cart_simple').text() ); 
   }
 	  	  	
 };
