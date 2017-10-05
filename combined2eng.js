@@ -1223,6 +1223,63 @@ function putPlaceholderProduct(a) {
   a.parentNode.style.background = '#F2F5F9';
 };
 
+/*Pop up add to cart
+*************************************************/
+var lack;
+function popUp(lack) {
+  if (lack) {
+        $( ".pop-up-lack" ).each(function() {
+          $(this).show().delay( 5000 ).hide( 400 );
+        });
+	$( ".pop-up-added-to-cart" ).each(function() {
+          $(this).hide(); 
+        });  
+  } else {
+        $( ".pop-up-added-to-cart" ).each(function() {
+	  $( "#cart-dropdown" ).removeClass('open');
+          $(this).show().delay( 5000 ).hide( 400 ); 
+        });
+  } console.log('pop');	
+};
+
+function checkLack() {
+  $( ".jGrowl-notification .message" ).each(function() {
+    if ( $(this).text().indexOf("Niestety w magazynie") != -1  ||
+       $(this).text().indexOf("out of stack") != -1 ||
+       $(this).text().indexOf("Niestety zapasy") != -1 ||
+       $(this).text().indexOf("Unfortunately, supplies") != -1 ){
+      lack = true;	       
+    }
+  });		
+};
+
+function checkPopUp() {
+  lack = false;	
+  if ( $( ".jGrowl-notification .message" ).length ) { console.log('when');
+    $.when( checkLack() ).done(popUp(lack));	  
+  } else {
+    popUp(lack);
+  }
+};
+   
+$( "#show_my_cart .shopping-cart .qnt-count a.incr-btn" ).click(function() {
+  setTimeout(checkPopUp, 500);
+});
+$( ".add_to_cart_button .add" ).click(function() {
+  setTimeout(checkPopUp, 500);
+});
+
+
+$( "#lm-cart" ).hover(function() {
+  $( "#cart-dropdown" ).removeClass('open');
+  $( ".pop-up-added-to-cart" ).each(function() {
+    $(this).hide(); 
+  }); 
+  $( ".pop-up-lack" ).each(function() {
+    $(this).hide(); 
+  }); 
+});
+
 
 /*Pozytywka
 *************************************************/
