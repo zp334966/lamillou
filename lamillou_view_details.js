@@ -278,6 +278,7 @@ $( ".add_to_cart_button .add" ).click(function() {
   setTimeout(checkPopUp, 500);
 });
 */
+var lack;
 function popUp(lack) {
   if (lack) {
         $( ".pop-up-lack" ).each(function() {
@@ -291,16 +292,19 @@ function popUp(lack) {
   } console.log('pop');	
 };
 
+function checkLack() {
+console.log('g');
+  $( ".jGrowl-notification .message" ).each(function() {
+    if ( $(this).text().indexOf("Niestety zapasy") != -1 ){console.log('true');
+      lack = true;	       
+    }
+  });		
+};
+
 function checkPopUp() {
-  var lack = false;	
+  lack = false;	
   if ( $( ".jGrowl-notification .message" ).length ) { console.log('when');
-    $.when( function () { console.log('g');
-        $( ".jGrowl-notification .message" ).each(function() {
-          if ( $(this).text().indexOf("Niestety zapasy") != -1 ){console.log('true');
-            lack = true;	       
-          }
-        });
-    }).done(popUp(lack));	  
+    $.when( checkLack() ).done(popUp(lack));	  
   } else {
     popUp(lack);
   }
