@@ -296,7 +296,7 @@ function checkPopUp() {
   if ( $( ".jGrowl-notification .message" ).length ) { console.log('when');
     $.when( function () { console.log('g');
         $( ".jGrowl-notification .message" ).each(function() {
-          if ( $(this).text().indexOf("Niestety zapasy") != -1 ){
+          if ( $(this).text().indexOf("Niestety zapasy") != -1 ){console.log('true');
             lack = true;	       
           }
         });
