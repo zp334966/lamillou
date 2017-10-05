@@ -1248,7 +1248,8 @@ function checkLack() {
        $(this).text().indexOf("out of stack") != -1 ||
        $(this).text().indexOf("Niestety zapasy") != -1 ||
        $(this).text().indexOf("Unfortunately, supplies") != -1 ){
-      lack = true;	       
+      lack = true;	
+      $(this).remove();
     }
   });		
 };
