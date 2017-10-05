@@ -1262,7 +1262,7 @@ function checkPopUp() {
   }
 };
    
-$( "#show_my_cart .shopping-cart .qnt-count a.incr-btn" ).click(function() {
+$( "#show_my_cart .shopping-cart .qnt-count a.incr-btn.fa-angle-right" ).click(function() {
   setTimeout(checkPopUp, 500);
 });
 $( ".add_to_cart_button .add" ).click(function() {
