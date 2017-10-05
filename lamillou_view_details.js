@@ -251,33 +251,6 @@ $(document).mouseup(function(e) {
 /*Pop up add to cart
 *************************************************/
 /*
-function checkPopUp() {
-  if ( $( ".jGrowl-notification .message" ).length ) {
-    $( ".jGrowl-notification .message" ).each(function() {
-      if ( $(this).text().indexOf("Niestety zapasy") != -1 ){
-        $( ".pop-up-lack" ).each(function() {
-          $(this).show().delay( 5000 ).hide( 400 );
-        });
-      } else {
-        $( ".pop-up-added-to-cart" ).each(function() {
-	  $( "#cart-dropdown" ).removeClass('open');
-          $(this).show().delay( 5000 ).hide( 400 ); 
-        });
-      }
-    });
-	  
-  } else {
-    $( ".pop-up-added-to-cart" ).each(function() {
-      $( "#cart-dropdown" ).removeClass('open');
-      $(this).show().delay( 5000 ).hide( 400 ); 
-    });
-  }
-};
-   
-$( ".add_to_cart_button .add" ).click(function() {
-  setTimeout(checkPopUp, 500);
-});
-*/
 var lack;
 function popUp(lack) {
   if (lack) {
@@ -328,7 +301,7 @@ $( "#lm-cart" ).hover(function() {
   }); 
 });
 
-
+*/
 
 /*Notify when available
 *************************************************/
