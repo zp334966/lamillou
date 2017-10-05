@@ -1071,7 +1071,7 @@ $(document).ready(function(){ */
 	  var names = productNames( full_name );    
 	  var subtitle = "";
 	  if ( $('.page-heading h2').length ) {
-	    if ($('.page-heading h2').html().indexOf("Wyszukiwanie") != -1 ) {
+	    if ($('.page-heading h2').html().indexOf("Search") != -1 ) {
 	      if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
 	      else { subtitle = add(names.category, names.subtitle); }
 	    } else {
