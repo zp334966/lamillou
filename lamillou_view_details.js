@@ -296,9 +296,9 @@ function popUp(lack) {
 };
 
 function checkLack() {
-console.log('g');
   $( ".jGrowl-notification .message" ).each(function() {
-    if ( $(this).text().indexOf("Niestety zapasy") != -1 ){
+    if ( $(this).text().indexOf("Niestety zapasy") != -1  ||
+       $(this).text().indexOf("Unfortunately, supplies") != -1 ){
       lack = true;	       
     }
   });		
