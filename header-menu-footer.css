@@ -73,11 +73,6 @@
     right: 2px;
     top: 8px;
 }
-#addsearch-results.addsearch-t {
-    width: 100%;
-    border: none;
-}
-
 .form-control:focus {
     -webkit-box-shadow: unset;
     -moz-box-shadow: unset;
