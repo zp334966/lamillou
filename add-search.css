@@ -30,6 +30,8 @@
   left: unset !important;
   box-shadow: none;
   border-bottom: 1px solid #D0D9E5;
+  z-index: 5;
+  height: 546px !important;
 }
 #addsearch-results-mid {
   background: none;  
