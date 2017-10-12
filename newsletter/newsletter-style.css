@@ -23,7 +23,7 @@ body {
 #main-image .background {
   background-repeat: no-repeat;
   background-position: top center;   
-  background-size: 660px auto;
+  background-size: auto auto;
   background-color: white;
   margin: 0;
   padding: 0;
