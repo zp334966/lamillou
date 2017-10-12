@@ -133,7 +133,26 @@ function showOrders() {
           if ( $(this).text().indexOf("Status: oczek. na płatność") != -1 ){
             $(this).text("Status: Oczekuje na płatność");  
 	    $(this).prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/pending_ico.svg'/>" );
-          } 
+          }
+	  else if ( $(this).text().indexOf("Status: kompletowane") != -1 ){
+            $(this).text("Status: Kompletowanie");  
+	    $(this).prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/status%20wysyłki/kompletowane_ico.svg'/>" );
+          }
+	  else if ( $(this).text().indexOf("Status: opłacone") != -1 ){
+            $(this).text("Status: Opłacone");  
+	    $(this).prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/status%20wysyłki/oplacone_ico.svg'/>" );
+          }
+	  else if ( $(this).text().indexOf("Status: Rezerwacja") != -1 ){
+	    $(this).prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/status%20wysyłki/rezerwacje_ico.svg'/>" );
+          }
+	  else if ( $(this).text().indexOf("Status: wycofane z realizacji") != -1 ){
+            $(this).text("Status: Wycofane z realizacji");  
+	    $(this).prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/status%20wysyłki/wycofane_ico.svg'/>" );
+          }
+	  else if ( $(this).text().indexOf("Status: zamówione") != -1 ){
+            $(this).text("Status: Zamówione");  
+	    $(this).prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/status%20wysy%C5%82ki/zamo_wione.svg'/>" );
+          }
     }); 
   };
 };
