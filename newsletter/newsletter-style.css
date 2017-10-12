@@ -22,6 +22,16 @@ body {
 }
 #main-image .background {
   background-repeat: no-repeat;
+  background-position: top center;   
+  background-size: 660px auto;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  height: 418px; 
+  width: 100%;  
+}
+#main-image .background-no-white {
+  background-repeat: no-repeat;
   background-position: top 78px center;   
   background-size: 660px auto;
   background-color: white;
