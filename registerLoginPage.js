@@ -353,22 +353,22 @@ function userProfile() {
           }
 	  else if ( $(this).text().indexOf("kompletowane") != -1 ){
             $(this).text("Kompletowanie");  
-	    $(this).prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/status%20wysyłki/kompletowane_ico.svg'/>" );
+	    $(this).parent().prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/status%20wysyłki/kompletowane_ico.svg'/>" );
           }
 	  else if ( $(this).text().indexOf("opłacone") != -1 ){
             $(this).text("Opłacone");  
-	    $(this).prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/status%20wysyłki/oplacone_ico.svg'/>" );
+	    $(this).parent().prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/status%20wysyłki/oplacone_ico.svg'/>" );
           }
 	  else if ( $(this).text().indexOf("Rezerwacja") != -1 ){
-	    $(this).prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/status%20wysyłki/rezerwacje_ico.svg'/>" );
+	    $(this).parent().prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/status%20wysyłki/rezerwacje_ico.svg'/>" );
           }
 	  else if ( $(this).text().indexOf("wycofane z realizacji") != -1 ){
             $(this).text("Wycofane z realizacji");  
-	    $(this).prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/status%20wysyłki/wycofane_ico.svg'/>" );
+	    $(this).parent().prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/status%20wysyłki/wycofane_ico.svg'/>" );
           }
 	  else if ( $(this).text().indexOf("zamówione") != -1 ){
             $(this).text("Zamówione");  
-	    $(this).prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/status%20wysy%C5%82ki/zamo_wione.svg'/>" );
+	    $(this).parent().prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/status%20wysy%C5%82ki/zamo_wione.svg'/>" );
           }
     });
     $('.order_list.order_history i.fa.fa-shopping-cart').each(function() {      
