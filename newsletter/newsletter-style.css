@@ -183,8 +183,18 @@ body {
   width: 100%;
   margin-bottom: 35px;
 }
-.newsletter-img-cat a, #main-image a {
+.newsletter-img-cat a, #main-image a, .newsletter-img-square a {
   text-decoration: none;  
+}
+.newsletter-img-square .image {
+  background-position: top center;
+  background-color: #C1C0C0;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 570px;
+  margin-bottom: 35px;
 }
 .bolder {
   font-weight: 600; 
