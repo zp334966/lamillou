@@ -216,6 +216,7 @@ body {
   letter-spacing: 0;
   line-height: 25px;
   padding-bottom: 26px;
+  text-decoration: none !important;
 }
 .footer a {
   color: white!important;
