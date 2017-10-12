@@ -82,9 +82,6 @@
 
 
 @media (min-width: 1201px) {
-  #addsearch-results {
-    display: none !important;
-  }
   #addsearch-results.addsearch-d { 
     width: 810px;
     border-left: 1px solid #D0D9E5;
