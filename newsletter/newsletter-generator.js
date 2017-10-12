@@ -30,6 +30,12 @@ $('#add-img button.add').on('click', function(){
   var html = genImgCategory(imgLink, link);
   addElement(html);
 });
+$('#add-img-square' button.add').on('click', function(){
+  var imgLink = $('#img-square-form').val();
+  var link = $('#img-square-href-form').val();
+  var html = genImgSquare(imgLink, link);
+  addElement(html);
+});
 $('#add-button button.add').on('click', function(){
   var link = $('#button-form').val();
   var html = genButton(link);
@@ -87,6 +93,16 @@ function genSubtitle(subtitle) {
 
 function genImgCategory(imgLink, link) {
   var html = "<tr class='element newsletter-img-cat'><td><a href='" + link + "'>" +
+    "<table class='image' cellpadding='0' cellspacing='0' border='0' background=" + imgLink + 
+    " style='background-image:url(" + imgLink + ");'>" + 
+    "<tr><td class='btn-collection'><table class='btn-lam' cellpadding='0' cellspacing='0' border='0'>" +
+    "<tr><td>Zobacz kolekcję</td></tr>" +
+    "</table></td></tr>" +
+    "</table></a></td></tr>";
+  return html;
+};
+function genImgSquare(imgLink, link) {
+  var html = "<tr class='element newsletter-img-square'><td><a href='" + link + "'>" +
     "<table class='image' cellpadding='0' cellspacing='0' border='0' background=" + imgLink + 
     " style='background-image:url(" + imgLink + ");'>" + 
     "<tr><td class='btn-collection'><table class='btn-lam' cellpadding='0' cellspacing='0' border='0'>" +
