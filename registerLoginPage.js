@@ -346,6 +346,16 @@ function userProfile() {
     });
   };
   if ( $( '.order_list.order_history' ).length ){
+    $('.order_list.order_history .list-group-item div span').each(function() {
+          if ( $(this).text().indexOf("Oczek. na płatność") != -1 ){
+            $(this).text("Oczekuje na płatność");   
+            $(this).parent().prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/pending_ico.svg'/>" );
+          }
+	  if ( $(this).text().indexOf("Wycofane z realizacji") != -1 ){
+	    $(this).parent().prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/status%20wysyłki/wycofane_ico.svg'/>" );
+          }
+    });
+	  /*
     $('.order_list.order_history .list-group-item .waiting_for_payment').each(function() {
           if ( $(this).text().indexOf("Oczek. na płatność") != -1 ){
             $(this).text("Oczekuje na płatność");   
@@ -358,6 +368,7 @@ function userProfile() {
 	    $(this).parent().prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/status%20wysyłki/wycofane_ico.svg'/>" );
           } 
     });
+    */
     $('.order_list.order_history i.fa.fa-shopping-cart').each(function() {      
           $(this).hide();              
     });
