@@ -2195,3 +2195,7 @@ div.page-404 p {
 		margin-left: 11.5px!important;
 	}
 }
+/* Przycisk minus nieaktywny */
+.shopping-cart .qnt-count .incr-btn.inactive {
+    pointer-events: none;
+}
