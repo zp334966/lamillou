@@ -60,6 +60,7 @@
 #addsearch-results .addsearch-result-item-sub,
 #addsearch-results .addsearch-result-item-sub-active {
   width: calc(100vw - 240px);  
+  background-position: 10px 10px;
 }
 #addsearch-results .addsearch-result-item-sub-active div {
     background: none;
@@ -79,8 +80,26 @@
   display: none!important;  
 }
 
-/*
-@media (min-width: 1201px) {
 
+@media (min-width: 1201px) {
+  #addsearch-results.addsearch-d { 
+    width: 810px;
+    border-left: 1px solid #D0D9E5;
+    border-right: 1px solid #D0D9E5;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    left: 312px !important;
+    right: 0 !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #addsearch-results-right {
+    margin-left: 588px;
+  } 
+  #addsearch-results .addsearch-result-item-sub, 
+  #addsearch-results .addsearch-result-item-sub-active {
+    width: 588px;
+  }
 }
-*/
+
