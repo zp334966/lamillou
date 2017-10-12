@@ -351,8 +351,20 @@ function userProfile() {
             $(this).text("Oczekuje na płatność");   
             $(this).parent().prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/pending_ico.svg'/>" );
           }
-	  if ( $(this).text().indexOf("wycofane z realizacji") != -1 ){
+	  else if ( $(this).text().indexOf("Wycofane z realizacji") != -1 ){
 	    $(this).parent().prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/status%20wysyłki/wycofane_ico.svg'/>" );
+          }
+	  else if ( $(this).text().indexOf("Kompletowane") != -1 ){
+	    $(this).parent().prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/status%20wysyłki/kompletowane_ico.svg'/>" );
+	  }
+	  else if ( $(this).text().indexOf("Opłacone") != -1 ){
+	    $(this).parent().prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/status%20wysyłki/oplacone_ico.svg'/>" );
+          }
+	  else if ( $(this).text().indexOf("Rezerwacja") != -1 ){
+	    $(this).parent().prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/status%20wysyłki/rezerwacje_ico.svg'/>" );
+          }
+	  else if ( $(this).text().indexOf("Zamówione") != -1 ){
+	    $(this).parent().prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/status%20wysy%C5%82ki/zamo_wione.svg'/>" );
           }
     });
 	  /*
