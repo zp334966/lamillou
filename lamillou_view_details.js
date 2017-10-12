@@ -348,5 +348,3 @@ function showArrows() {
 		$('.ms-skin-default .ms-nav-prev').attr('style', 'visibility:visible!important');
 	});
 }
-/* sklad i sposob pielegnacji */
-$('.page-block .mobile-navi').before('<h2 class="washing" style="margin-top: 20px;">SKŁAD I SPOSÓB PIELĘGNACJI</h2>');
