@@ -367,20 +367,6 @@ function userProfile() {
 	    $(this).parent().prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/status%20wysy%C5%82ki/zamo_wione.svg'/>" );
           }
     });
-	  /*
-    $('.order_list.order_history .list-group-item .waiting_for_payment').each(function() {
-          if ( $(this).text().indexOf("Oczek. na płatność") != -1 ){
-            $(this).text("Oczekuje na płatność");   
-            $(this).parent().prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/pending_ico.svg'/>" );
-          }
-    });
-    $('.order_list.order_history .list-group-item .canceled').each(function() {
-	  if ( $(this).text().indexOf("Wycofane z realizacji") != -1 ){
-	    console.log('Wycofane');
-	    $(this).parent().prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/status%20wysyłki/wycofane_ico.svg'/>" );
-          } 
-    });
-    */
     $('.order_list.order_history i.fa.fa-shopping-cart').each(function() {      
           $(this).hide();              
     });
