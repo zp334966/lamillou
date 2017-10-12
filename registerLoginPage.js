@@ -346,14 +346,15 @@ function userProfile() {
     });
   };
   if ( $( '.order_list.order_history' ).length ){
-    $('.order_list.order_history .list-group-item .status span').each(function() {
-	  console.log($(this).text());
+    $('.order_list.order_history .list-group-item .waiting_for_payment').each(function() {
           if ( $(this).text().indexOf("Oczek. na płatność") != -1 ){
             $(this).text("Oczekuje na płatność");   
             $(this).parent().prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/pending_ico.svg'/>" );
           }
+    });
+    $('.order_list.order_history .list-group-item .canceled').each(function() {
 	  if ( $(this).text().indexOf("Wycofane z realizacji") != -1 ){
-		  console.log('Wycofane');
+	    console.log('Wycofane');
 	    $(this).parent().prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/status%20wysyłki/wycofane_ico.svg'/>" );
           } 
     });
