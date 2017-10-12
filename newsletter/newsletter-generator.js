@@ -30,7 +30,7 @@ $('#add-img button.add').on('click', function(){
   var html = genImgCategory(imgLink, link);
   addElement(html);
 });
-$('#add-img-square' button.add').on('click', function(){
+$('#add-img-square button.add').on('click', function(){
   var imgLink = $('#img-square-form').val();
   var link = $('#img-square-href-form').val();
   var html = genImgSquare(imgLink, link);
