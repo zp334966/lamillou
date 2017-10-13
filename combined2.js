@@ -1298,7 +1298,7 @@ function hideAfterLoadPage() {
 $( window ).load(function() {
   addSearchInterval = setInterval(hideAfterLoadPage, 20);  
 });
-*************************************************/
+/*************************************************/
 
 $(document).ready(function(){
 	/* : po Powiadom kiedy dostepny */
