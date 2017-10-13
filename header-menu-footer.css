@@ -804,7 +804,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     left: -1000px;
     z-index: 1;
 }
-
+.search-desktop-overlay {
+  display: none;    
+}
 
 .buttons-wide {
     margin-top: 35.5px;
