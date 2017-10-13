@@ -1275,7 +1275,31 @@ function newsletterValid() {
   
 $( "#pp_newsletter input[type=submit]" ).click(function() {
   intervalNewsletter = setInterval(newsletterValid, 50);
-}); 
+});
+
+
+/*AddSearch
+*************************************************/
+$(window).scroll(function() {
+  $('#addsearch-results').attr('style','display: none !important');
+});
+  
+var hideAddSearch = 0;  
+var addSearchInterval;  
+function hideAfterLoadPage() {
+  $('#addsearch-results').attr('style','display: none !important');
+  if (hideAddSearch > 20) {
+    clearInterval(addSearchInterval);
+  } else{
+    hideAddSearch++;
+  }
+};
+  
+$( window ).load(function() {
+  addSearchInterval = setInterval(hideAfterLoadPage, 20);  
+});
+*************************************************/
+
 $(document).ready(function(){
 	/* : po Powiadom kiedy dostepny */
     	$('.footer-subscribe-widget.light-version.notify_prod p').append(":");
