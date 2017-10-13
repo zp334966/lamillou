@@ -921,15 +921,18 @@ function searchDesktop() {
   $( ".has-mega-menu" ).hide();
   $( "form.search-desktop" ).show("slide", { direction: "right" }, 200);
   $( ".search-trigger-desktop" ).addClass('active');
+  $( ".search-desktop-overlay" ).show();
   $("#query").focus();
 };
 function hideSearchDesktop() {  
   $( "form.search-desktop" ).hide("slide", { direction: "right" }, 200);
   $( ".has-mega-menu" ).show();
   $( ".search-trigger-desktop" ).removeClass('active');
+  $( ".search-desktop-overlay" ).hide();
 };  
 $( ".search-trigger-desktop" ).on( "click", searchDesktop );
 $( ".search-desktop .overlay" ).on( "click",  hideSearchDesktop );
+$( ".search-desktop-overlay" ).on( "click",  hideSearchDesktop );
 
 /*Name Product
 *************************************************/
