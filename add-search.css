@@ -15,8 +15,10 @@
 #addsearch-results .addsearch-result-item-sub-active {
   background-color: rgba(34, 116, 172, 0.15);
 }
-#addsearch-results .addsearch-result-item-sub p, #addsearch-results em, #addsearch-results p em {
-  color: #243C5E;
+#addsearch-results .addsearch-result-item-sub p, #addsearch-results em, #addsearch-results p em,
+#addsearch-results .addsearch-result-item-sub p em.fuzzy {
+  color: #243C5E;    
+  font-style: normal;
 }
 #addsearch-results .addsearch-result-item-sub {
   border-bottom: 1px solid #D0D9E5;
