@@ -2048,8 +2048,8 @@ div.page-heading.center, div.page-heading {
 	padding-left: 30px; /* usunac po zmienie kategorii */
     }
     .container .container-detail-product {
-        padding-left: 9px;
-        padding-right: 26px;
+        padding-left: 18px;
+        padding-right: 18px;
     }
     .item-narrow {
         height: calc((((1140px)/2) - 36px)/2);
