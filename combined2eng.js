@@ -1033,7 +1033,7 @@ $(document).ready(function(){ */
 	  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
 	  else { subtitle = add(names.category, names.subtitle); }
 	  var res = names.title.replace(/ z /g, "<span style='text-transform: lowercase;'> z </span>");
-	  res = res.replace(/\sii\s/g, "<span style='text-transform: uppercase;'> II </span>");
+	  res = res.replace(/ ii/g, "<span style='text-transform: uppercase;'> II </span>");
 	  $(this).addClass('after-transform');
 	  $(this).html('<div class="title">' + res + '</div>' + '<div class="subtitle">' + subtitle + '</div>');
 	});
@@ -1046,7 +1046,7 @@ $(document).ready(function(){ */
 	  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
 	  else { subtitle = add(names.category, names.subtitle); }
 	  var res = names.title.replace(/ z /g, "<span style='text-transform: lowercase;'> z </span>");
-	  res = res.replace(/\sii\s/g, "<span style='text-transform: uppercase;'> II </span>");
+	  res = res.replace(/ ii/g, "<span style='text-transform: uppercase;'> II </span>");
 	  $(this).addClass('after-transform');
 	  $(this).html('<div class="title">' + res + '</div>' + '<div class="subtitle">' + subtitle + '</div>');
 	  $(this).css('visibility', 'visible');
@@ -1060,7 +1060,7 @@ $(document).ready(function(){ */
 	  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
 	  else { subtitle = add(names.category, names.subtitle); }
 	  var res = names.title.replace(/ z /g, "<span style='text-transform: lowercase;'> z </span>");
-	  res = res.replace(/\sii\s/g, "<span style='text-transform: uppercase;'> II </span>");
+	  res = res.replace(/ ii/g, "<span style='text-transform: uppercase;'> II </span>");
 	  $(this).addClass('after-transform');
 	  $(this).html('<div class="title">' + res + '</div>' + '<div class="subtitle">' + subtitle + '</div>');
 	  $(this).css('visibility', 'visible');
@@ -1081,7 +1081,7 @@ $(document).ready(function(){ */
 	    }
 	  }
 	  var res = names.title.replace(/ z /g, "<span style='text-transform: lowercase;'> z </span>");
-	  res = res.replace(/\sii\s/g, "<span style='text-transform: uppercase;'> II </span>");
+	  res = res.replace(/ ii/g, "<span style='text-transform: uppercase;'> II </span>");
 	  $(this).addClass('after-transform');
 	  $(this).html('<div class="title">' + res + '</div>' + '<div class="subtitle">' + subtitle + '</div>');
 	  $(this).css('visibility', 'visible');
@@ -1096,7 +1096,7 @@ $(document).ready(function(){ */
 	  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
 	  else { subtitle = add(names.category, names.subtitle); }
 	  var res = names.title.replace(/ z /g, "<span style='text-transform: lowercase;'> z </span>");
-	  res = res.replace(/\sii\s/g, "<span style='text-transform: uppercase;'> II </span>");
+	  res = res.replace(/ ii/g, "<span style='text-transform: uppercase;'> II </span>");
 	  $(this).addClass('after-transform');
 	  $(this).html('<div class="title">' + res + '</div>' + '<div class="subtitle">' + subtitle + '</div>');
 	  $(this).css('visibility', 'visible');
@@ -1112,7 +1112,7 @@ $(document).ready(function(){ */
 	  if (! names.subtitle.match(/[a-z]/i)) {subtitle = names.category;} 
 	  else { subtitle = add(names.category, names.subtitle); }
 	  var res = names.title.replace(/ z /g, "<span style='text-transform: lowercase;'> z </span>");
-	  res = res.replace(/\sii\s/g, "<span style='text-transform: uppercase;'> II </span>");
+	  res = res.replace(/ ii/g, "<span style='text-transform: uppercase;'> II </span>");
 	  $(this).html('<div class="title">' + res + '</div>' + '<div class="subtitle">' + subtitle + '</div>');
 	});
     };
