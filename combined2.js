@@ -985,6 +985,7 @@ function countDigits(word) {
 };
 
 function properTitle(word) {
+  if (word.indexOf(" x ") >= 0) {return false;}
   var d = countDigits(word);
   var l = word.trim().length - d;
   if (l > d) {return true; }
