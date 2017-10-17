@@ -440,7 +440,7 @@ function editProfile() {
       email = $( '#user_email').val();
     };
     $( '.cms_edit_profile').prepend("<a class='cms_user_details' href='" + back + "' >" + 
-       "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/myprofile_ico.svg'/>" +
+       "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/VISLA/Profil/myprofile_ico.svg'/>" +
        "<img class='arrow' src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/VISLA/Profil/arrow_left.svg'/><h5>TWOJE KONTO</h5>" +
        "<h6>" + email + "</h6></a>");
     $( '.cms_edit_profile .cms_buttons a').hide(); 
