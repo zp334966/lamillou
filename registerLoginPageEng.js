@@ -133,7 +133,7 @@ function showOrders() {
     $('#order_last_step').addClass("order-show");
     $('.order-show .shipping_information_title').each(function() {      
           if ( $(this).text().indexOf("Waiting for payment") != -1 ){
-	    $(this).prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/pending_ico.svg'/>" );
+	    $(this).prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/VISLA/Statusy%20wysy%C5%82ki/oczekiwanie_ico.svg'/>" );
           } 
     }); 
   };
