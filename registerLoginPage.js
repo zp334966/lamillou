@@ -132,7 +132,7 @@ function showOrders() {
     $('.order-show .shipping_information_title').each(function() {      
           if ( $(this).text().indexOf("Status: oczek. na płatność") != -1 ){
             $(this).text("Status: Oczekuje na płatność");  
-	    $(this).prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/pending_ico.svg'/>" );
+	    $(this).prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/VISLA/Statusy%20wysyłki/oczekiwanie_ico.svg'/>" );
           }
 	  
     }); 
