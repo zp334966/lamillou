@@ -143,7 +143,7 @@ showOrders();
 function emptyCartElements() {
     $('#show_my_cart .extra-products').hide();
     $('.page').attr("id","empty-cart");
-    $( '#empty-cart .page-heading.center h3' ).after("<img src='https://cdn.rawgit.com/zp334966/lamillou/f45ff1bf/assets/koszyk.svg'/>");
+    $( '#empty-cart .page-heading.center h3' ).after("<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/VISLA/Koszyk/koszyk.svg'/>");
     $( '#empty-cart .page-heading img' ).after("<h5>Your cart is empty.</h5>" + extraProducts(false));  
     //$('#empty-cart br').remove();
     $("#empty-cart br").each(function() {
@@ -307,7 +307,7 @@ function userProfile() {
     var email = $('.cms_user_profile div.cms_user_details p:nth-child(3) strong' ).html();
     $('.cms_user_profile div.cms_user_details' ).prepend( "<h6>" + email + "</h6>" );
     $('.cms_user_profile div.cms_user_details' ).prepend( "<h5>TWOJE KONTO</h5>" );
-    $('.cms_user_profile div.cms_user_details' ).prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/myprofile_ico.svg'/>" );
+    $('.cms_user_profile div.cms_user_details' ).prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/VISLA/Profil/myprofile_ico.svg'/>" );
 
     $('.cms_user_profile .cms_user_details .btn-group a' ).removeClass("btn btn-default"); 
     $('.cms_user_profile .cms_user_details .btn-group a:nth-child(1)' ).addClass("edit-profile");   
@@ -320,13 +320,13 @@ function userProfile() {
             $(this).text("Twój Adres");              
           } 
     });  
-    $('.cms_user_profile .cms_user_details .btn-group .edit-profile').prepend( "<img class='icon' src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/profile_ico.svg'/>" );  
-    $('.cms_user_profile .cms_user_details .btn-group .edit-address').prepend( "<img class='icon' src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/edit_adress_ico.svg'/>" );
-    $('.cms_user_profile .cms_user_details .btn-group .edit-profile').append( "<img class='arrow' src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/arrow_right.svg'/>" );  
-    $('.cms_user_profile .cms_user_details .btn-group .edit-address').append( "<img class='arrow' src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/arrow_right.svg'/>" );	  
+    $('.cms_user_profile .cms_user_details .btn-group .edit-profile').prepend( "<img class='icon' src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/VISLA/Profil/profile_ico.svg'/>" );  
+    $('.cms_user_profile .cms_user_details .btn-group .edit-address').prepend( "<img class='icon' src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/VISLA/Profil/edit_adress_ico.svg'/>" );
+    $('.cms_user_profile .cms_user_details .btn-group .edit-profile').append( "<img class='arrow' src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/VISLA/Profil/arrow_right.svg'/>" );  
+    $('.cms_user_profile .cms_user_details .btn-group .edit-address').append( "<img class='arrow' src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/VISLA/Profil/arrow_right.svg'/>" );	  
     $("<div class='logout'></div>" ).appendTo(".cms_user_profile"); 
     $('.cms_user_profile .cms_user_details .btn-group a:nth-child(3)' ).detach().appendTo(".logout");
-    $('.cms_user_profile .logout' ).prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/logout_ico.svg'/>" );
+    $('.cms_user_profile .logout' ).prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/VISLA/Profil/logout_ico.svg'/>" );
     $('.cms_user_profile .logout a').each(function() {      
           if ( $(this).text().indexOf("Wyloguj") != -1 ){
             $(this).text("Wyloguj się");              
@@ -347,7 +347,7 @@ function userProfile() {
   if ( $( '.order_list.order_history' ).length ){
     $('.order_list.order_history .list-group-item div span').each(function() {      
           if ( $(this).text().indexOf("Waiting for payment") != -1 ){ 
-            $(this).parent().prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/pending_ico.svg'/>" );
+            $(this).parent().prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/VISLA/Statusy%20wysyłki/oczekiwanie_ico.svg'/>" );
           } 
 	  else if ( $(this).text().indexOf("Canceled") != -1 ){
 	    $(this).parent().prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/VISLA/Statusy%20wysyłki/wycofane_ico.svg'/>" );
@@ -438,8 +438,8 @@ function editProfile() {
       email = $( '#user_email').val();
     };
     $( '.cms_edit_profile').prepend("<a class='cms_user_details' href='" + back + "' >" + 
-       "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/myprofile_ico.svg'/>" +
-       "<img class='arrow' src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/arrow_left.svg'/><h5>TWOJE KONTO</h5>" +
+       "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/VISLA/Profil/myprofile_ico.svg'/>" +
+       "<img class='arrow' src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/VISLA/Profil/arrow_left.svg'/><h5>TWOJE KONTO</h5>" +
        "<h6>" + email + "</h6></a>");
     $( '.cms_edit_profile .cms_buttons a').hide(); 
     $($( '.cms_edit_profile .cms_buttons input')[0].nextSibling).remove();
