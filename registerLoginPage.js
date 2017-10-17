@@ -143,7 +143,7 @@ showOrders();
 function emptyCartElements() {
     $('#show_my_cart .extra-products').hide();
     $('.page').attr("id","empty-cart");
-    $( '#empty-cart .page-heading.center h3' ).after("<img src='https://cdn.rawgit.com/zp334966/lamillou/f45ff1bf/assets/koszyk.svg'/>");
+    $( '#empty-cart .page-heading.center h3' ).after("<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/VISLA/Koszyk/koszyk.svg'/>");
     $( '#empty-cart .page-heading img' ).after("<h5>W Twoim koszyku nie ma jeszcze żadnych produktów.</h5>" + extraProducts(false));  
     //$('#empty-cart br').remove();
     $("#empty-cart br").each(function() {
