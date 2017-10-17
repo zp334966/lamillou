@@ -308,7 +308,7 @@ function userProfile() {
     var email = $('.cms_user_profile div.cms_user_details p:nth-child(3) strong' ).html();
     $('.cms_user_profile div.cms_user_details' ).prepend( "<h6>" + email + "</h6>" );
     $('.cms_user_profile div.cms_user_details' ).prepend( "<h5>TWOJE KONTO</h5>" );
-    $('.cms_user_profile div.cms_user_details' ).prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/myprofile_ico.svg'/>" );
+    $('.cms_user_profile div.cms_user_details' ).prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/VISLA/Profil/myprofile_ico.svg'/>" );
 
     $('.cms_user_profile .cms_user_details .btn-group a' ).removeClass("btn btn-default"); 
     $('.cms_user_profile .cms_user_details .btn-group a:nth-child(1)' ).addClass("edit-profile");   
@@ -321,13 +321,13 @@ function userProfile() {
             $(this).text("Twój Adres");              
           } 
     });  
-    $('.cms_user_profile .cms_user_details .btn-group .edit-profile').prepend( "<img class='icon' src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/profile_ico.svg'/>" );  
-    $('.cms_user_profile .cms_user_details .btn-group .edit-address').prepend( "<img class='icon' src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/edit_adress_ico.svg'/>" );
-    $('.cms_user_profile .cms_user_details .btn-group .edit-profile').append( "<img class='arrow' src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/arrow_right.svg'/>" );  
-    $('.cms_user_profile .cms_user_details .btn-group .edit-address').append( "<img class='arrow' src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/arrow_right.svg'/>" );	  
+    $('.cms_user_profile .cms_user_details .btn-group .edit-profile').prepend( "<img class='icon' src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/VISLA/Profil/profile_ico.svg'/>" );  
+    $('.cms_user_profile .cms_user_details .btn-group .edit-address').prepend( "<img class='icon' src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/VISLA/Profil/edit_adress_ico.svg'/>" );
+    $('.cms_user_profile .cms_user_details .btn-group .edit-profile').append( "<img class='arrow' src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/VISLA/Profil/arrow_right.svg'/>" );  
+    $('.cms_user_profile .cms_user_details .btn-group .edit-address').append( "<img class='arrow' src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/VISLA/Profil/arrow_right.svg'/>" );	  
     $("<div class='logout'></div>" ).appendTo(".cms_user_profile"); 
     $('.cms_user_profile .cms_user_details .btn-group a:nth-child(3)' ).detach().appendTo(".logout");
-    $('.cms_user_profile .logout' ).prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/logout_ico.svg'/>" );
+    $('.cms_user_profile .logout' ).prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/VISLA/Profil/logout_ico.svg'/>" );
     $('.cms_user_profile .logout a').each(function() {      
           if ( $(this).text().indexOf("Wyloguj") != -1 ){
             $(this).text("Wyloguj się");              
@@ -441,7 +441,7 @@ function editProfile() {
     };
     $( '.cms_edit_profile').prepend("<a class='cms_user_details' href='" + back + "' >" + 
        "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/myprofile_ico.svg'/>" +
-       "<img class='arrow' src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/arrow_left.svg'/><h5>TWOJE KONTO</h5>" +
+       "<img class='arrow' src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/VISLA/Profil/arrow_left.svg'/><h5>TWOJE KONTO</h5>" +
        "<h6>" + email + "</h6></a>");
     $( '.cms_edit_profile .cms_buttons a').hide(); 
     $($( '.cms_edit_profile .cms_buttons input')[0].nextSibling).remove();
