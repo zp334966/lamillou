@@ -345,10 +345,25 @@ function userProfile() {
     });
   };
   if ( $( '.order_list.order_history' ).length ){
-    $('.order_list.order_history .list-group-item .waiting_for_payment').each(function() {      
+    $('.order_list.order_history .list-group-item div span').each(function() {      
           if ( $(this).text().indexOf("Waiting for payment") != -1 ){ 
             $(this).parent().prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/pending_ico.svg'/>" );
           } 
+	  else if ( $(this).text().indexOf("Canceled") != -1 ){
+	    $(this).parent().prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/VISLA/Statusy%20wysyłki/wycofane_ico.svg'/>" );
+          }
+	  else if ( $(this).text().indexOf("In realization") != -1 ){
+	    $(this).parent().prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/VISLA/Statusy%20wysyłki/kompletowane_ico.svg'/>" );
+	  }
+	  else if ( $(this).text().indexOf("Payed") != -1 ){
+	    $(this).parent().prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/VISLA/Statusy%20wysyłki/oplacone_ico.svg'/>" );
+          }
+	  else if ( $(this).text().indexOf("Partial") != -1 ){
+	    $(this).parent().prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/VISLA/Statusy%20wysyłki/rezerwacje_ico.svg'/>" );
+          }
+	  else if ( $(this).text().indexOf("Ordered") != -1 ){
+	    $(this).parent().prepend( "<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/VISLA/Statusy%20wysyłki/zamo_wione.svg'/>" );
+          }
     });
     $('.order_list.order_history i.fa.fa-shopping-cart').each(function() {      
           $(this).hide();              
