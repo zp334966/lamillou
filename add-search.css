@@ -1,14 +1,19 @@
 #addsearch-results {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
+#addsearch-results.addsearch-m {
+    top: 40px;
+}
 #addsearch-results .addsearch-result-item-sub h1 a,
-#addsearch-results .addsearch-result-item-sub h2 a {
+#addsearch-results .addsearch-result-item-sub h2 a,
+#addsearch-results.addsearch-m .addsearch-result-item-sub h1 a {
   font-size: 18px;
   color: #243C5E;
   letter-spacing: 0;
   font-weight: 400;
 }
-#addsearch-results .addsearch-result-item-sub h1 a {
+#addsearch-results .addsearch-result-item-sub h1 a,
+#addsearch-results.addsearch-m .addsearch-result-item-sub h1 a {
   padding: 10px;
 }
 #addsearch-results .addsearch-result-item-sub p {
@@ -49,7 +54,8 @@
 */
 #addsearch-results.addsearch-t .addsearch-result-item-sub div, 
 #addsearch-results .addsearch-result-item-sub div,
-#addsearch-results.addsearch-t .addsearch-result-item-sub {
+#addsearch-results.addsearch-t .addsearch-result-item-sub,
+#addsearch-results.addsearch-m .addsearch-result-item-sub div {
   width: 100%;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -65,7 +71,9 @@
   border-right: none;
 }
 #addsearch-results .addsearch-result-item-sub,
-#addsearch-results .addsearch-result-item-sub-active {
+#addsearch-results .addsearch-result-item-sub-active,
+#addsearch-results.addsearch-m .addsearch-result-item-sub,
+#addsearch-results.addsearch-m .addsearch-result-item-sub-active {
   width: 100%;
   background-position: 10px 10px;
   background-image: none!important;
