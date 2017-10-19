@@ -15,7 +15,8 @@
   padding: 0;
 }
 #addsearch-results .addsearch-result-item-sub-active {
-  background-color: rgba(34, 116, 172, 0.15);
+  background-color: white;
+  opacity: 0.6;
 }
 #addsearch-results .addsearch-result-item-sub p, #addsearch-results em, #addsearch-results p em,
 #addsearch-results .addsearch-result-item-sub p em.fuzzy {
