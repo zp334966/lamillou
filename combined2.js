@@ -938,7 +938,6 @@ $( ".search-desktop-overlay" ).on( "click",  hideSearchDesktop );
 *************************************************/
 function productNames(full_name) {
  if (!String.prototype.includes) {
-     console.log("prototype function");
      String.prototype.includes = function() {
          'use strict';
          return String.prototype.indexOf.apply(this, arguments) !== -1;
@@ -948,7 +947,7 @@ function productNames(full_name) {
 		    "ORGANIZER","OCHRANIACZ", "POZYTYWKA","HORN","PRZEŚCIERADŁO","PACK","TORBA","PASEK","PRZEWIJAK",
 		    "SASZETKA","ŚPIWOREK","PAD","COVER","KURA","COMBO","ZAWIESZKA","ZABAWKA","WOREK","WOODY BUNNY",
                     "THERMO","GRZECHOTKA","PLECAK","MAT","KAPELUSZ","CHUSTKA","APASZKA","CZAPA","HAT","OPASKA",
-		    "PACIFIER","CZAPKA","KARTY"];
+		    "PACIFIER","CZAPKA","KARTY", "PIELUSZKA"];
   var category = "";
   full_name = full_name.replace(/\–/g, '-');
   var names = full_name.split('-');
@@ -1034,6 +1033,7 @@ $(document).ready(function(){ */
 	  $(this).css('visibility', 'visible');
 	});
   };
+  /* Wyszukiwanie */
   if ($( '#products .container-products .info h3 a' ).length ){
 	$('.container-products .info h3 a').each(function() { 
 	  var full_name = $(this).text();
