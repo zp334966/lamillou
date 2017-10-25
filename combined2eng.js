@@ -1340,6 +1340,15 @@ function newsletterValid() {
 $( "#pp_newsletter input[type=submit]" ).click(function() {
   intervalNewsletter = setInterval(newsletterValid, 50);
 }); 
+
+
+/*lm-tools-log display after load
+*************************************************/
+$(window).load(function() {
+  $('#lm-tools-log').css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1.0}, 500);
+}); 
+
+/*************************************************/
 $(document).ready(function(){
 	/* : po Powiadom kiedy dostepny */
     	$('.footer-subscribe-widget.light-version.notify_prod p').append(":");
