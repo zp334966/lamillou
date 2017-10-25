@@ -247,12 +247,12 @@
     font-size: 13px;
     line-height: 14px;
     font-weight: 700;
-    margin: 3px 0 3px 0;
-    padding-left: 13px;
+    margin: 3px 0 3px 4px;
+    padding-left: 9px;
 }
 .sidebar h5.current {
     border-left: 3px solid;
-    padding-left: 10px;    
+    padding-left: 6px;    
 }
 .sidebar .submenu li a {
     color: #16407d;
