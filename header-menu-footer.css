@@ -1084,7 +1084,8 @@ footer.footer a:focus img, footer.footer a:hover img {
         opacity: 0.2;
         letter-spacing: -0.31px;
         line-height: 18px;
-        margin-left: 8.5px;
+        width: 15px;
+        display: inline-block;
     }
     .cart img {
         width: 16px;
