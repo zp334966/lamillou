@@ -1102,7 +1102,7 @@ $(document).ready(function(){ */
       $('#cart-dropdown p').hide();
       if (! $( '#cart-dropdown .empty-cart' ).length ) {
 	  $('#cart-dropdown').append("<div class='empty-cart'></div>");
-          $('#cart-dropdown .empty-cart').append("<img src='https://cdn.rawgit.com/zp334966/lamillou/f45ff1bf/assets/koszyk.svg'>");
+          $('#cart-dropdown .empty-cart').append("<img src='https://fs.siteor.com/lamillou/files/VISLA/Koszyk/koszyk.svg'>");
           $('#cart-dropdown .empty-cart').append("<h5>W Twoim koszyku nie ma jeszcze żadnych produktów.</h5>");
       }
     };
@@ -1140,10 +1140,10 @@ $(document).ready(function(){
   $('.pagination a').each(function() {
     var t = $(this).html();
     if (t.localeCompare('→') == 0 ){
-      $(this).html("<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/arrow_right.svg'/>");                      
+      $(this).html("<img src='https://fs.siteor.com/lamillou/files/VISLA/Ikony/Arrows/arrow_right.svg'/>");                      
     }
     if (t.localeCompare('←') == 0 ){
-      $(this).html("<img src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/arrow_left.svg'/>");                      
+      $(this).html("<img src='https://fs.siteor.com/lamillou/files/VISLA/Ikony/Arrows/arrow_left.svg'/>");                      
     }              
   });  			
 });
@@ -1153,13 +1153,13 @@ $(document).ready(function(){
 *************************************************/ 
 function putPlaceholder(a) {
   console.log("placeholder");
-  a.src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/placeholder.svg'; 
+  a.src='https://fs.siteor.com/lamillou/files/VISLA/Placeholder/placeholder.svg'; 
   a.style.width='47%';
 };
 
 function putPlaceholderProduct(a) {
   console.log("placeholder");
-  a.src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/placeholder.svg'; 
+  a.src='https://fs.siteor.com/lamillou/files/VISLA/Placeholder/placeholder.svg'; 
   a.style.paddingTop= 'calc((100% - 175px)/2)';
   a.parentNode.style.background = '#F2F5F9';
 };
@@ -1322,7 +1322,7 @@ $(document).ready(function(){
 	$('#cart-dropdown a').wrapAll( "<div class='scroll-menu' />");*/
 	/* Pod adresem nie ma produktu */
 	if($('.container .page-heading h3:contains("Pod tym adresem nie ma produktu")').length) {
-		$('.container .page-heading h3:contains("Pod tym adresem nie ma produktu")').after('<div class="cms_user_profile"><div class="photo"><img src="https://cdn.rawgit.com/joanna16/lamillou/81b129e0/Group%208.svg"></div></div>');	
+		$('.container .page-heading h3:contains("Pod tym adresem nie ma produktu")').after('<div class="cms_user_profile"><div class="photo"><img src="https://fs.siteor.com/lamillou/files/VISLA/Koszyk/koszyk.svg"></div></div>');	
 		$('.container .page-heading h3:contains("Pod tym adresem nie ma produktu")').parent().addClass('no-product');
 	}
 	/* Change img when default */
