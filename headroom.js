@@ -143,7 +143,11 @@
   
   function countOffsetAnim () {
     if ($(window).width() >= 1201) {
-      return 180;
+      if ( $(".advertisement-desktop").css('display') == 'none') {
+        return 50;
+      } else { 
+        return 90;
+      } 
     }
     if ($(window).width() >= 1025) {
       if ( $(".advertisement-desktop").css('display') == 'none') {
