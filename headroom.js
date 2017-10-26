@@ -133,6 +133,24 @@
     }
     if ($(window).width() < 1025) return 0;
   }
+
+  function countShouldPin () {
+    if ($(window).width() >= 1201) {
+      if ( $(".advertisement-desktop").css('display') == 'none') {
+        return 50;
+      } else { 
+        return 90;
+      } 
+    }
+    if ($(window).width() >= 1025) {
+      if ( $(".advertisement-desktop").css('display') == 'none') {
+        return 120;
+      } else { 
+        return 160;
+      } 
+    }
+    if ($(window).width() < 1025) return 120;
+  }  
   
   function countOffsetTop () {
     if ( $(".advertisement-desktop").css('display') == 'none') {
@@ -475,7 +493,7 @@
      */
     shouldPin : function (currentScrollY, toleranceExceeded) {
       var scrollingUp  = currentScrollY < this.lastKnownScrollY,
-        pastOffset = currentScrollY >= countOffsetAnim();/*this.offset;*/
+        pastOffset = currentScrollY >= countShouldPin();/*this.offset;*/
   
       return (scrollingUp && toleranceExceeded && pastOffset) /* || pastOffset*/;
     },
