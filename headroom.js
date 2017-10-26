@@ -137,19 +137,19 @@
   function countShouldPin () {
     if ($(window).width() >= 1201) {
       if ( $(".advertisement-desktop").css('display') == 'none') {
-        return 50;
+        return 60;
       } else { 
-        return 90;
+        return 100;
       } 
     }
     if ($(window).width() >= 1025) {
       if ( $(".advertisement-desktop").css('display') == 'none') {
-        return 120;
+        return 130;
       } else { 
-        return 160;
+        return 170;
       } 
     }
-    if ($(window).width() < 1025) return 120;
+    if ($(window).width() < 1025) return 130;
   }  
   
   function countOffsetTop () {
