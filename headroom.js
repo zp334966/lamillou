@@ -328,7 +328,7 @@
       var classList = this.elem.classList,
         classes = this.classes;
       
-      if(!classList.contains(classes.animUnpin)) {
+      if(!classList.contains(classes.animUnpin) && classList.contains(classes.pinned)) {
         classList.add(classes.animUnpin);
         this.onAnimUnpin && this.onAnimUnpin.call(this);
       }
