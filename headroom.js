@@ -521,7 +521,7 @@
       } else {
         this.nieTop(); 
       }
-      if (currentScrollY <= countOffset()) {
+      if (currentScrollY <= countInOffset()) {
         this.notTop();
       } else {
         this.nieNotTop();
