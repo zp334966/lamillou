@@ -117,6 +117,7 @@
   #addsearch-results-mid,
   #addsearch-results.addsearch-d {
     height: 172px !important;
+    z-index: 2;
   }
 }
 
