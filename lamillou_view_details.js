@@ -1,6 +1,6 @@
 function putPlaceholderProduct(a) {
 console.log("put placeholder");
-  a.src='https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/layout/placeholder.svg'; 
+  a.src='https://fs.siteor.com/lamillou/files/VISLA/Placeholder/placeholder.svg'; 
   a.style.paddingTop= 'calc((100% - 175px)/2)';
 };
 
