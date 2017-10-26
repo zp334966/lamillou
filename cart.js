@@ -236,7 +236,7 @@ $( document ).ready(function() {
 
     var $przelewy24 = $('#payment_kind_selector input[value=przelewy24]').parent().next();
     
-    $przelewy24.html('<img class="przelewy24" alt="Przelewy24" src="https://d1dmfej9n5lgmh.cloudfront.net/lamillou/files/ikonki%20-%20zakupy/logo-przelewy-24.svg"/>');
+    $przelewy24.html('<img class="przelewy24" alt="Przelewy24" src="https://fs.siteor.com/lamillou/files/VISLA/Koszyk/logo-przelewy-24.svg"/>');
     
     
     $('input[name="shop_order[personal_data_clause]"]').each(function() {
