@@ -475,7 +475,7 @@
      */
     shouldPin : function (currentScrollY, toleranceExceeded) {
       var scrollingUp  = currentScrollY < this.lastKnownScrollY,
-        pastOffset = currentScrollY >= countOffset();/*this.offset;*/
+        pastOffset = currentScrollY >= countOffsetAnim();/*this.offset;*/
   
       return (scrollingUp && toleranceExceeded && pastOffset) /* || pastOffset*/;
     },
