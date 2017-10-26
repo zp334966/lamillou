@@ -141,6 +141,19 @@
     } 
   } 
   
+  function countOffsetAnim () {
+    if ($(window).width() >= 1201) {
+      return 180;
+    }
+    if ($(window).width() >= 1025) {
+      if ( $(".advertisement-desktop").css('display') == 'none') {
+        return 0;
+      } else { 
+        return 40;
+      } 
+    }
+    if ($(window).width() < 1025) return 0;
+  }  
   /**
    * UI enhancement for fixed headers.
    * Hides header when scrolling down
@@ -165,6 +178,7 @@
     this.onNotTop         = options.onNotTop;
     this.onBottom         = options.onBottom;
     this.onNotBottom      = options.onNotBottom;
+    this.onAnimUnpin      = options.onAnimUnpin;
   }
   Headroom.prototype = {
     constructor : Headroom,
@@ -310,7 +324,24 @@
         this.onNotBottom && this.onNotBottom.call(this);
       }
     },
-  
+    animUnpin : function() {
+      var classList = this.elem.classList,
+        classes = this.classes;
+      
+      if(!classList.contains(classes.animUnpin)) {
+        classList.add(classes.animUnpin);
+        this.onAnimUnpin && this.onAnimUnpin.call(this);
+      }
+    },  
+    notAnimUnpin : function() {
+      var classList = this.elem.classList,
+        classes = this.classes;
+      
+      if(classList.contains(classes.animUnpin)) {
+        classList.remove(classes.animUnpin);
+        //this.onAnimUnpin && this.onAnimUnpin.call(this);
+      }
+    },
     /**
      * Gets the Y scroll position
      * @see https://developer.mozilla.org/en-US/docs/Web/API/Window.scrollY
@@ -472,6 +503,11 @@
       } else {
         this.nieNotTop();
       }
+      if (currentScrollY >= countOffsetAnim() ) {
+        this.animUnpin();
+      } else {
+        this.notAnimUnpin();
+      }
       /*if(currentScrollY + this.getViewportHeight() >= this.getScrollerHeight()) {
         this.bottom();
       }
@@ -514,6 +550,7 @@
       notTop : 'headroom--in-offset',
       bottom : 'headroom--bottom',
       notBottom : 'headroom--not-bottom',
+      animUnpin : 'headroom--anim-unpin',
       initial : 'headroom'
     }
   };
