@@ -144,12 +144,12 @@
     }
     if ($(window).width() >= 1025) {
       if ( $(".advertisement-desktop").css('display') == 'none') {
-        return 130;
+        return 160;
       } else { 
-        return 170;
+        return 200;
       } 
     }
-    if ($(window).width() < 1025) return 130;
+    if ($(window).width() < 1025) return 160;
   }  
   
   function countOffsetTop () {
