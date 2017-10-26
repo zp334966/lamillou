@@ -1,3 +1,21 @@
+@-webkit-keyframes slideDownMenu {
+    from { top: -94px; }
+      to { top: 0; }
+}  
+@keyframes slideDownMenu {
+    from { top: -94px; }
+      to { top: 0; }
+}  
+@-webkit-keyframes slideUpMenu {
+    from { top: 0;}
+      to { top: -94px;}
+}  
+@keyframes slideUpMenu {
+    from { top: 0;}
+      to { top: -94px;}
+}
+
+
 .mobile-navi ul li a, .mobile-navi ul li h5 {
     border-bottom: none;
     display: block;
@@ -330,18 +348,27 @@
     display: block;
     left: 0;
     top: 0;
+    -webkit-animation: slideDownMenu 0.3s;
+    animation: slideDownMenu 0.3s;    
 }
 .headroom--unpinned {
     position: absolute !important;
     top: 0;
     left: 0;
     display: block;
-    transition: all 1s linear;
-    -moz-transition: all 1s linear;
-    -webkit-transition: all 1s linear;
 }
 .headroom--top {
     position: absolute !important;
+}
+.headroom--pinned .logo-big-header {
+    -webkit-animation: slideDownMenu 0.3s;
+    animation: slideDownMenu 0.3s;  
+}  
+.headroom--unpinned.headroom--anim-unpin {
+    -webkit-animation: slideUpMenu 0.5s;
+    animation: slideUpMenu 0.5s;  
+    position: fixed !important;
+    top: -64px;  
 }
 header {
      transition: all 0.3s linear;
@@ -1200,6 +1227,17 @@ footer.footer a:focus img, footer.footer a:hover img {
     }
     .headroom--top .logo-big-header, .headroom--bottom .logo-big-header {
       position: absolute !important;
+    }
+    .headroom--unpinned.headroom--anim-unpin .header-toolbar {
+      display: none;
+    }  
+    .headroom--unpinned.headroom--anim-unpin .logo-big-header {
+      position: fixed !important;
+      top: -94px;
+      -webkit-animation: slideUpMenu 0.5s;
+      animation: slideUpMenu 0.5s; 
+      width: 101px;
+      height: 94px;
     }
     .header-toolbar {
         height: 48px;
