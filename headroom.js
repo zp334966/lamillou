@@ -151,12 +151,12 @@
     }
     if ($(window).width() >= 1025) {
       if ( $(".advertisement-desktop").css('display') == 'none') {
-        return 0;
+        return 90;
       } else { 
-        return 40;
+        return 130;
       } 
     }
-    if ($(window).width() < 1025) return 0;
+    if ($(window).width() < 1025) return 90;
   }  
   /**
    * UI enhancement for fixed headers.
