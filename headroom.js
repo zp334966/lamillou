@@ -133,6 +133,25 @@
     }
     if ($(window).width() < 1025) return 0;
   }
+
+  function countInOffset () {
+    if ($(window).width() >= 1201) {
+      if ( $(".advertisement-desktop").css('display') == 'none') {
+        return 50;
+      } else { 
+        return 90;
+      } 
+    }
+    if ($(window).width() >= 1025) {
+      if ( $(".advertisement-desktop").css('display') == 'none') {
+        return 64;
+      } else { 
+        return 104;
+      } 
+    }
+    if ($(window).width() < 1025) return 64;
+  }
+  
   function countOffsetTop () {
     if ( $(".advertisement-desktop").css('display') == 'none') {
       return 0;
