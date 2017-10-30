@@ -2294,4 +2294,7 @@ div.page-404 p {
     #view_main_list .category-list.half-width.right-img .category-node {
     	margin-left: 5px;
     }
+    #view_main_list .category-node {
+	margin-bottom: 10px;	
+    }
 }
