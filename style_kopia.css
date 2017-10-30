@@ -2280,6 +2280,9 @@ div.page-404 p {
     #view_main_list .category-list.half-width.right-img .category-node {
     	margin-left: 10px;
     }
+    #view_main_list .category-node .img-overlay .btn:hover {
+    	padding: 4px 9px 3px 13px!important;
+    }
 }
 @media (max-width: 991px) {
     #view_main_list .category-list.half-width .category-node {
@@ -2293,9 +2296,6 @@ div.page-404 p {
     }
     #view_main_list .category-node {
 	margin-bottom: 10px;	
-    }
-    #view_main_list .category-node .img-overlay .btn:hover {
-    	padding: 4px 9px 3px 13px!important;
     }
 }
 @media (min-width: 831px) and (max-width: 991px) {
