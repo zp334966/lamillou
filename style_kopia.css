@@ -2357,6 +2357,8 @@ div.page-404 p {
 	#view_main_list .catalog-grid .half-width .shop_description .main-category-name .rectangle h1 {
 		font-size: 31px!important;
     		letter-spacing: 0.24px;
+		width: calc(50vw - 18px);
+		bottom: 75px;
 	}
 	#view_main_list .catalog-grid .half-width .shop_description .main-category-name .rectangle img {
 		width: 45vw;
@@ -2365,5 +2367,6 @@ div.page-404 p {
 	#view_main_list .catalog-grid .half-width .shop_description .main-category-name {
 		top: 37%;
     		left: 0px;
+		width: calc(50vw - 18px);
 	}
 }
