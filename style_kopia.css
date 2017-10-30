@@ -2365,8 +2365,17 @@ div.page-404 p {
     		height: 90px;
 	}
 	#view_main_list .catalog-grid .half-width .shop_description .main-category-name {
-		top: 37%;
     		left: 0px;
 		width: calc(50vw - 18px);
+	}
+}
+@media (max-width: 400px) {
+	#view_main_list .catalog-grid .half-width .shop_description .main-category-name {
+		top: 20%;
+	}
+}
+@media (min-width: 401px) and (max-width: 830px){
+	#view_main_list .catalog-grid .half-width .shop_description .main-category-name {
+		top: 16vw;
 	}
 }
