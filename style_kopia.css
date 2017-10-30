@@ -2242,9 +2242,6 @@ div.page-404 p {
     padding-top: 6px!important;
     padding-bottom: 5px!important;
 }
-#view_main_list .category-node .img-overlay .btn:hover {
-    padding: 4px 9px 3px 13px!important;
-}
 #view_main_list .category-list.half-width {
     margin: 0;
     float: left;	
@@ -2297,6 +2294,9 @@ div.page-404 p {
     #view_main_list .category-node {
 	margin-bottom: 10px;	
     }
+    #view_main_list .category-node .img-overlay .btn:hover {
+    	padding: 4px 9px 3px 13px!important;
+    }
 }
 @media (min-width: 831px) and (max-width: 991px) {
 	#view_main_list .half-width .category-node .img-overlay {
@@ -2304,6 +2304,9 @@ div.page-404 p {
 	}
 	#view_main_list .category-list.half-width .main-category-img {
 		height: 361px;
+	}
+	#view_main_list .category-node .img-overlay .btn:hover {
+    		padding: 4px 9px 3px 13px!important;
 	}
 }
 @media (max-width: 830px) {
@@ -2317,6 +2320,9 @@ div.page-404 p {
 		background-color: transparent!important;
 		border: none!important;
 		color: white!important;
+	}
+	 #view_main_list .category-node .img-overlay .btn:hover span.arrow svg g {
+		stroke: white; 
 	}
 	#view_main_list .half-width .category-node .img-overlay .btn {
 		display: none;
