@@ -1020,8 +1020,8 @@ div.page-heading.center, div.page-heading {
     margin-bottom: 7px;
 }
 .category-node {
-    margin-bottom: 10px;
-    margin-top: 26px;
+    margin-bottom: 20px;
+    /*margin-top: 26px;*/
     display: block;
 }
 .category-node .page-heading {
@@ -1675,8 +1675,8 @@ div.page-heading.center, div.page-heading {
 	margin-bottom: 9px;
     }
     section.catalog-grid {
-        padding-right: 5px;
-        padding-left: 5px; 
+        /*padding-right: 5px;*/
+        /*padding-left: 5px;*/ 
     }
 }
 
@@ -1890,8 +1890,8 @@ div.page-heading.center, div.page-heading {
         text-align: center;
     }
     .category-node {
-        margin-top: 38px;
-        padding-bottom: 10px;
+        /*margin-top: 38px;*/
+        /*padding-bottom: 10px;*/
     }
     #products_list_page .category-leaf {
         margin-top: 30px;
@@ -2246,4 +2246,10 @@ div.page-404 p {
 .category-list.half-width .main-category-img {
     width: 416px!important;
     height: 416px;
+}
+.category-list.half-width .img-overlay {
+    width: 416px;
+}
+.category-list.half-width .category-node:first-of-type {
+    margin-right: 20px;
 }
