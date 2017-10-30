@@ -2250,6 +2250,6 @@ div.page-404 p {
 .category-list.half-width .img-overlay {
     width: 416px;
 }
-.category-list.half-width .category-node:first-of-type {
+.category-list.half-width.left-img .category-node {
     margin-right: 20px;
 }
