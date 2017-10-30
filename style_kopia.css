@@ -2316,4 +2316,7 @@ div.page-404 p {
 	#view_main_list .category-node .img-overlay .btn, #view_main_list .category-node .img-overlay .btn:hover {
 		background-color: transparent;
 	}
+	#view_main_list .half-width .category-node .img-overlay .btn {
+		display: none;
+	}
 }
