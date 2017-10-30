@@ -2224,6 +2224,7 @@ div.page-404 p {
     letter-spacing: 0.83px;
     padding-bottom: 14px!important;
     padding-top: 14px!important;
+    text-align: center!important;
 }
 #view_main_list .category-node .img-overlay {
     /*width: 851px;*/
@@ -2283,7 +2284,6 @@ div.page-404 p {
     }
     #view_main_list .catalog-grid .shop_description .main-category-name .rectangle h1 {
 	top: 60px;
-    	left: 37px;
     }
 }
 @media (max-width: 991px) {
@@ -2311,8 +2311,7 @@ div.page-404 p {
     		padding: 4px 9px 3px 13px!important;
 	}
 	#view_main_list .catalog-grid .shop_description .main-category-name .rectangle h1 {
-		top: 60px;
-    		left: 37px;
+		top: 60px; 		
 	}
 }
 @media (max-width: 830px) {
