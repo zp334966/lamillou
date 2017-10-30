@@ -249,7 +249,10 @@ headroom.init();
       close_on_click : true
     }
   });
-  
+ 
+	
+var intervalAddSearch; //AddSearch	
+	
   /*Mobile Navigation
   *******************************************/
   //Breakpoints
@@ -301,6 +304,7 @@ $('.search-trigger').on('click', function(e) {
    if(e.currentTarget.className === 'search-trigger') {
       $('.off-canvas-searchbar').removeClass('hidden');
       $('.off-canvas-searchbar input').focus();
+      intervalAddSearch = setInterval(addSearchActive, 200); //AddSearch
    };
    
    var that = $(this);
@@ -923,6 +927,7 @@ function searchDesktop() {
   $( ".search-trigger-desktop" ).addClass('active');
   $( ".search-desktop-overlay" ).show();
   $("#query").focus();
+  intervalAddSearch = setInterval(addSearchActive, 200); //AddSearch
 };
 function hideSearchDesktop() {  
   $( "form.search-desktop" ).hide("slide", { direction: "right" }, 200);
@@ -1302,6 +1307,14 @@ function hideAfterLoadPage() {
 $( window ).load(function() {
   addSearchInterval = setInterval(hideAfterLoadPage, 20);  
 });
+
+function addSearchActive() {     
+  if (! $('.addsearch-result-item-sub-active').length ){
+    if ( $('#addsearch-results-mid .addsearch-result-item-sub').length ){
+      $('#addsearch-results-mid #addsearch-result-item-1').trigger('mouseover');
+    }
+  }
+};
 
 
 /*lm-tools-log display after load
