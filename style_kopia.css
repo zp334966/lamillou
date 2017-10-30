@@ -2201,7 +2201,7 @@ div.page-404 p {
 }
 /* Nowe kategorie */
 #view_main_list .catalog-grid .shop_description .main-category-img {
-    width: 851px!important;
+    /*width: 851px!important;*/
     height: 416px;
     max-width: unset!important;
     object-fit: cover;
