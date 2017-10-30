@@ -1035,7 +1035,7 @@ div.page-heading.center, div.page-heading {
     margin-bottom: 9px !important;
 }
 .category-list {
-    max-width: 561px;
+    /*max-width: 561px;*/
     margin: auto;
 }
 .catalog-grid .shop_description {
@@ -2238,4 +2238,12 @@ div.page-404 p {
     font-size: 18px!important;
     padding-top: 6px!important;
     padding-bottom: 5px!important;
+}
+.category-list.half-width {
+    margin: 0;
+    float: left;	
+}
+.category-list.half-width .main-category-img {
+    width: 416px!important;
+    height: 416px;
 }
