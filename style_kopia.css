@@ -2261,8 +2261,6 @@ div.page-404 p {
     left: 0px;
 }
 #view_main_list .catalog-grid .half-width .shop_description .main-category-name .rectangle h1 {
-    top: 30px;
-    left: 55px;
     font-size: 68px!important;
     letter-spacing: 0.52px;
 }
@@ -2285,6 +2283,9 @@ div.page-404 p {
     }
     #view_main_list .catalog-grid .shop_description .main-category-name .rectangle h1 {
 	top: 60px;
+    }
+    #view_main_list .catalog-grid .half-width .shop_description .main-category-name .rectangle h1 {
+	top: 30px;
     }
 }
 @media (max-width: 991px) {
@@ -2313,6 +2314,9 @@ div.page-404 p {
 	}
 	#view_main_list .catalog-grid .shop_description .main-category-name .rectangle h1 {
 		top: 60px; 		
+	}
+	#view_main_list .catalog-grid .half-width .shop_description .main-category-name .rectangle h1 {
+		top: 30px;
 	}
 }
 @media (max-width: 830px) {
@@ -2349,5 +2353,17 @@ div.page-404 p {
 	#view_main_list .catalog-grid .shop_description .main-category-name .rectangle img {
 		height: 120px;
 		width: 65vw;
+	}
+	#view_main_list .catalog-grid .half-width .shop_description .main-category-name .rectangle h1 {
+		font-size: 31px!important;
+    		letter-spacing: 0.24px;
+	}
+	#view_main_list .catalog-grid .half-width .shop_description .main-category-name .rectangle img {
+		width: 45vw;
+    		height: 90px;
+	}
+	#view_main_list .catalog-grid .half-width .shop_description .main-category-name {
+		top: 37%;
+    		left: 0px;
 	}
 }
