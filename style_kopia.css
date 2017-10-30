@@ -2209,7 +2209,8 @@ div.page-404 p {
 #view_main_list .catalog-grid .shop_description .main-category-name {
     position: absolute;
     top: 121.5px;
-    left: 145px;
+    left: 210.5px;
+    width: 430px;
     transform: rotate(-10deg);
 }
 #view_main_list .catalog-grid .shop_description .main-category-name .rectangle img {
