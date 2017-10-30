@@ -2328,3 +2328,18 @@ div.page-404 p {
 		display: none;
 	}
 }
+@media (max-width: 800px) {
+	#view_main_list .catalog-grid .shop_description .main-category-name {
+		top: 145px;
+    		left: calc(50% - 215px);
+    		width: 430px;
+	}
+	#view_main_list .catalog-grid .shop_description .main-category-name .rectangle h1 {
+		width: 430px;
+    		text-align: center!important;
+    		font-size: 50px!important;
+		letter-spacing: 2.17px;
+		position: relative;
+    		bottom: 89px;
+	}
+}
