@@ -2250,7 +2250,7 @@ div.page-404 p {
     float: left;	
 }
 #view_main_list .category-list.half-width .main-category-img {
-    width: 416px!important;
+    /*width: 416px!important;*/
 }
 #view_main_list .category-list.half-width .img-overlay {
     width: 416px;
