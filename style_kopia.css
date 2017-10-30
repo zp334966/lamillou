@@ -1994,7 +1994,7 @@ div.page-heading.center, div.page-heading {
 
 @media (min-width: 1025px){ 
     .category-node .category-image {
-        max-width: 561px;
+        /*max-width: 561px;*/
     }
     .sp-slider .category-icon img {
         width: 69px;
@@ -2204,6 +2204,7 @@ div.page-404 p {
     width: 851px!important;
     height: 416px;
     max-width: unset!important;
+    object-fit: cover;
 }
 #view_main_list .catalog-grid .shop_description .main-category-name {
     position: absolute;
@@ -2248,7 +2249,6 @@ div.page-404 p {
 }
 #view_main_list .category-list.half-width .main-category-img {
     width: 416px!important;
-    height: 416px;
 }
 #view_main_list .category-list.half-width .img-overlay {
     width: 416px;
