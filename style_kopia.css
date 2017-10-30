@@ -2298,3 +2298,11 @@ div.page-404 p {
 	margin-bottom: 10px;	
     }
 }
+@media (min-width: 831px) and (max-width: 991px) {
+	#view_main_list .category-node .img-overlay {
+    		height: 361px;
+	}
+	#view_main_list .category-list.half-width .main-category-img {
+		height: 361px;
+	}
+}
