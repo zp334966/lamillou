@@ -2346,4 +2346,8 @@ div.page-404 p {
 		position: relative;
     		bottom: 89px;
 	}
+	#view_main_list .catalog-grid .shop_description .main-category-name .rectangle img {
+		height: 120px;
+		width: 65vw;
+	}
 }
