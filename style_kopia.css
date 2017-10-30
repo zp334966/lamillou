@@ -2219,8 +2219,6 @@ div.page-404 p {
 }
 #view_main_list .catalog-grid .shop_description .main-category-name .rectangle h1 {
     position: absolute;
-    top: 60px;
-    left: 37px;
     font-size: 108px!important;
     color: white!important;
     letter-spacing: 0.83px;
@@ -2283,6 +2281,10 @@ div.page-404 p {
     #view_main_list .category-node .img-overlay .btn:hover {
     	padding: 4px 9px 3px 13px!important;
     }
+    #view_main_list .catalog-grid .shop_description .main-category-name .rectangle h1 {
+	top: 60px;
+    	left: 37px;
+    }
 }
 @media (max-width: 991px) {
     #view_main_list .category-list.half-width .category-node {
@@ -2307,6 +2309,10 @@ div.page-404 p {
 	}
 	#view_main_list .category-node .img-overlay .btn:hover {
     		padding: 4px 9px 3px 13px!important;
+	}
+	#view_main_list .catalog-grid .shop_description .main-category-name .rectangle h1 {
+		top: 60px;
+    		left: 37px;
 	}
 }
 @media (max-width: 830px) {
