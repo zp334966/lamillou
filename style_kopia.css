@@ -2327,8 +2327,6 @@ div.page-404 p {
 	#view_main_list .half-width .category-node .img-overlay .btn {
 		display: none;
 	}
-}
-@media (max-width: 800px) {
 	#view_main_list .catalog-grid .shop_description .main-category-name {
 		top: 145px;
     		left: calc(50% - 215px);
