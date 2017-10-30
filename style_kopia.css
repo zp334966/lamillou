@@ -2314,7 +2314,7 @@ div.page-404 p {
 		height: calc(50vw - 20px);
 	}
 	#view_main_list .category-node .img-overlay .btn, #view_main_list .category-node .img-overlay .btn:hover {
-		background-color: transparent;
+		background-color: transparent!important;
 	}
 	#view_main_list .half-width .category-node .img-overlay .btn {
 		display: none;
