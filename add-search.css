@@ -44,6 +44,7 @@
 }
 #addsearch-results-mid, #addsearch-results.addsearch-t .addsearch-result-item-sub-active {
   width: 100%;
+  text-transform: uppercase;
 }
 /*
 #addsearch-results-mid::-webkit-scrollbar {
