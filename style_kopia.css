@@ -2225,6 +2225,7 @@ div.page-404 p {
     padding-bottom: 14px!important;
     padding-top: 14px!important;
     text-align: center!important;
+    left: 0;
 }
 #view_main_list .category-node .img-overlay {
     /*width: 851px;*/
