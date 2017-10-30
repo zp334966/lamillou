@@ -2258,7 +2258,7 @@ div.page-404 p {
     margin-bottom: -5px;
 }
 #view_main_list .category-list.half-width.left-img .category-node {
-    margin-right: 20px;
+    margin-right: 19px;
 }
 #view_main_list .catalog-grid .half-width .shop_description .main-category-name .rectangle img {
     width: 399px;
@@ -2273,4 +2273,8 @@ div.page-404 p {
     left: 55px;
     font-size: 68px!important;
     letter-spacing: 0.52px;
+}
+#view_main_list {
+    max-width: 851px;
+    margin: 0 auto;	
 }
