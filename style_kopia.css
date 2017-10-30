@@ -2228,7 +2228,7 @@ div.page-404 p {
     padding-top: 14px!important;
 }
 #view_main_list .category-node .img-overlay {
-    width: 851px;
+    /*width: 851px;*/
 }
 #view_main_list .category-node .img-overlay .btn {
     margin-right: 22px!important;
