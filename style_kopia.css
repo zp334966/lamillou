@@ -2209,7 +2209,7 @@ div.page-404 p {
 #view_main_list .catalog-grid .shop_description .main-category-name {
     position: absolute;
     top: 121.5px;
-    left: 210.5px;
+    left: calc(50% - 215px);
     width: 430px;
     transform: rotate(-10deg);
 }
@@ -2254,9 +2254,6 @@ div.page-404 p {
 #view_main_list .category-list.half-width .img-overlay {
     width: 416px;
 }
-#view_main_list .category-list.half-width .category-node {
-    margin-bottom: -5px;
-}
 #view_main_list .category-list.half-width.left-img .category-node {
     margin-right: 19px;
 }
@@ -2277,4 +2274,14 @@ div.page-404 p {
 #view_main_list {
     max-width: 851px;
     margin: 0 auto;	
+}
+@media (min-width: 992px) {
+    #view_main_list .category-list.half-width .category-node {
+    	margin-bottom: -5px;
+    }
+}
+@media (max-width: 991px) {
+    #view_main_list .category-list.half-width .category-node {
+    	margin-bottom: 27px;
+    }
 }
