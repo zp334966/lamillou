@@ -2229,6 +2229,7 @@ div.page-404 p {
 }
 #view_main_list .category-node .img-overlay {
     /*width: 851px;*/
+    height: 416px;
 }
 #view_main_list .category-node .img-overlay .btn {
     margin-right: 22px!important;
