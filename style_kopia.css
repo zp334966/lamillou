@@ -2253,3 +2253,17 @@ div.page-404 p {
 .category-list.half-width.left-img .category-node {
     margin-right: 20px;
 }
+.catalog-grid .half-width .shop_description .main-category-name .rectangle img {
+    width: 399px;
+    height: 115px;
+}
+.catalog-grid .half-width .shop_description .main-category-name {
+    top: 155px;
+    left: 0px;
+}
+.catalog-grid .half-width .shop_description .main-category-name .rectangle h1 {
+    top: 30px;
+    left: 45px;
+    font-size: 68px!important;
+    letter-spacing: 0.52px;
+}
