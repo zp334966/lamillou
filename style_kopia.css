@@ -2418,6 +2418,15 @@ div.page-404 p {
 	#view_main_list .catalog-grid .half-width .shop_description .main-category-name {
 		top: 20%;
 	}
+	#view_main_list .catalog-grid .shop_description .main-category-img {
+		height: 356px;
+	}
+	#view_main_list .catalog-grid .shop_description .main-category-name {
+		top: 120px;
+	}
+	#view_main_list .category-node .img-overlay {
+		height: 356px;
+	}
 }
 @media (min-width: 401px) and (max-width: 830px){
 	#view_main_list .catalog-grid .half-width .shop_description .main-category-name {
