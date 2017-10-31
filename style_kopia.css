@@ -2200,6 +2200,9 @@ div.page-404 p {
     pointer-events: none;
 }
 /* Nowe kategorie */
+#products_list_page .page-heading h2 {
+	margin-bottom: 8px!important;
+}
 #view_main_list .catalog-grid .shop_description .main-category-img,
 #products_list_page .catalog-grid .shop_description .main-category-img {
     /*width: 851px!important;*/
@@ -2280,6 +2283,11 @@ div.page-404 p {
 @media (min-width: 992px) {
     #view_main_list .category-list.half-width .category-node {
     	margin-bottom: -5px;
+    }
+    #view_main_list .category-list.half-width .category-node {
+	margin-bottom: -5px;
+	margin-left: 10px;
+    	margin-right: 10px;    
     }
     #view_main_list .category-list.half-width.left-img .category-node {
     	margin-right: 10px;
