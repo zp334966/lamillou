@@ -2252,6 +2252,21 @@ div.page-404 p {
     padding-top: 6px!important;
     padding-bottom: 5px!important;
 }
+#view_main_list .half-width .category-node .img-overlay .btn {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+    width: 240px!important;
+    line-height: 46px!important;
+    font-size: 15px!important;
+    padding-top: 2px!important;
+    padding-bottom: 2px!important;
+    letter-spacing: 0.47px;
+    margin: 0 auto!important;
+    margin-bottom: 64px!important;
+}
+#view_main_list .half-width .category-node .img-overlay .btn:hover {
+    padding: 0!important;
+}
 #view_main_list .category-list.half-width {
     /*margin: 0;*/
     /*float: left;*/	
