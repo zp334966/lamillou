@@ -2502,7 +2502,7 @@ div.page-404 p {
 		margin-bottom: 10px;
 	}
 	#products_list_page .page-heading h2 {
-		padding-top: 12px;
+		padding-top: 12px!important;
 	}
 }
 @media (max-width: 440px) {
