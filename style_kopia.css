@@ -2414,6 +2414,11 @@ div.page-404 p {
 		width: calc(50vw - 18px);
 	}
 }
+@media (min-width: 401px) and (max-width: 830px){
+	#view_main_list .catalog-grid .half-width .shop_description .main-category-name {
+		top: 16vw;
+	}
+}
 @media (max-width: 400px) {
 	#view_main_list .catalog-grid .half-width .shop_description .main-category-name {
 		top: 20%;
@@ -2427,9 +2432,10 @@ div.page-404 p {
 	#view_main_list .category-node .img-overlay {
 		height: 356px;
 	}
-}
-@media (min-width: 401px) and (max-width: 830px){
-	#view_main_list .catalog-grid .half-width .shop_description .main-category-name {
-		top: 16vw;
+	#view_main_list .catalog-grid .half-width .shop_description .main-category-name .rectangle h1 {
+		font-size: 7vw!important;
+	}
+	#view_main_list .catalog-grid .shop_description .main-category-name .rectangle h1 {
+		font-size: 14vw!important;
 	}
 }
