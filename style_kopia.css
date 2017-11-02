@@ -2497,6 +2497,14 @@ div.page-404 p {
     		margin-right: 0px;
 	}
 }
+@media (max-width: 729px) {
+	#products_list_page {
+		margin-bottom: 10px;
+	}
+	#products_list_page .page-heading h2 {
+		padding-top: 12px;
+	}
+}
 @media (max-width: 440px) {
 	#products_list_page .catalog-grid .shop_description .main-category-img {
     		height: 90vw;
@@ -2509,13 +2517,5 @@ div.page-404 p {
 	}
 	#products_list_page .category-node .img-overlay .btn {
 		display: none;
-	}
-}
-@media (max-width: 729px) {
-	#products_list_page {
-		margin-bottom: 10px;
-	}
-	#products_list_page .page-heading h1 {
-		padding-top: 12px;
 	}
 }
