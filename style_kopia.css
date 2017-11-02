@@ -2504,5 +2504,6 @@ div.page-404 p {
 	#products_list_page .catalog-grid .half-width .shop_description .main-category-name .rectangle h1 {
 		font-size: 30px!important;
     		letter-spacing: 1.3px;
+		transform: translateY(-350%) rotate(-10deg);
 	}
 }
