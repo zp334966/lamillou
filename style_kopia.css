@@ -2440,7 +2440,7 @@ div.page-404 p {
 		font-size: 14vw!important;
 	}
 }
-@media (max-width: 300px) {
+@media (max-width: 360px) {
 	#view_main_list .catalog-grid .half-width .shop_description .main-category-name {
 		top: 12%;
 	}
