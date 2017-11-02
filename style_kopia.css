@@ -2275,6 +2275,9 @@ div.page-404 p {
     letter-spacing: 0.52px;
 }
 @media (min-width: 992px) {
+    #view_main_list {
+        max-width: 914px;
+    }
     #view_main_list .category-list.half-width .category-node {
     	margin-bottom: -5px;
     }
@@ -2286,9 +2289,6 @@ div.page-404 p {
     }
     #view_main_list .category-node .img-overlay .btn:hover {
     	padding: 4px 9px 3px 13px!important;
-    }
-    #view_main_list .catalog-grid .half-width .shop_description .main-category-name .rectangle h1 {
-	top: 30px;
     }
 }
 @media (max-width: 991px) {
