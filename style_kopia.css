@@ -2499,6 +2499,10 @@ div.page-404 p {
 }
 @media (max-width: 440px) {
 	#products_list_page .catalog-grid .shop_description .main-category-img {
-    		height: 356px;
+    		height: 90vw;
+	}
+	#products_list_page .catalog-grid .half-width .shop_description .main-category-name .rectangle h1 {
+		font-size: 30px!important;
+    		letter-spacing: 1.3px;
 	}
 }
