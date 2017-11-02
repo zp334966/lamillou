@@ -2211,8 +2211,7 @@ div.page-404 p {
     max-width: unset!important;
     object-fit: cover;
 }
-#view_main_list .catalog-grid .shop_description .main-category-name,
-#products_list_page .catalog-grid .shop_description .main-category-name {
+#view_main_list .catalog-grid .shop_description .main-category-name {
     position: absolute;
     top: 121.5px;
     left: calc(50% - 215px);
@@ -2453,7 +2452,7 @@ div.page-404 p {
     line-height: 39px;
     background-repeat: no-repeat;
     padding-top: 19px!important;
-    transform: translateY(-190px) rotate(-10deg);
+    transform: translateY(-370px) rotate(-10deg);
     font-size: 48px!important;
     letter-spacing: 2.08px;
     color: white!important;
@@ -2474,5 +2473,6 @@ div.page-404 p {
     padding-bottom: 0!important;
     padding-left: 0!important;
     padding-right: 0!important;
-    padding-top: 0!important	
+    padding-top: 0!important;
+    border: none!important;
 }
