@@ -2476,6 +2476,11 @@ div.page-404 p {
     padding-top: 0!important;
     border: none!important;
 }
+@media (min-width: 992px) and (max-width: 1199px){
+	#products_list_page {
+		max-width: unset;
+	}
+}
 @media (min-width: 992px) {
 	#products_list_page {
 		margin-bottom: -34px;
