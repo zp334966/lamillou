@@ -2439,6 +2439,9 @@ div.page-404 p {
     max-width: 878px;
     margin: 0 auto;	
 }
+#products_list_page .page-heading h2 {
+    margin-left: 14.5px!important;
+}
 #products_list_page .catalog-grid .half-width .shop_description .main-category-name .rectangle h1 {
     width: fit-content;
     max-width: 300px;
@@ -2463,7 +2466,7 @@ div.page-404 p {
     height: 410px;
 }
 #products_list_page .category-node .img-overlay .btn {
-    margin-right: 33px!important;
+    margin-right: 37.5px!important;
     margin-bottom: 13px!important;
     width: 80px!important;
     line-height: 48px!important;
