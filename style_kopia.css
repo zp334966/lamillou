@@ -2445,6 +2445,11 @@ div.page-404 p {
 		margin-bottom: 10px;
 	}
 }
+@media (min-width: 730px) and (max-width: 991px) {
+	#products_list_page, #view_main_list {
+		margin-bottom: 29px;
+	}
+}
 @media (max-width: 729px) {
 	#products_list_page {
 		margin-bottom: 29px;
