@@ -2422,6 +2422,7 @@ div.page-404 p {
 @media (max-width: 400px) {
 	#view_main_list .catalog-grid .half-width .shop_description .main-category-name {
 		top: 20%;
+		width: calc(50vw - 12px);
 	}
 	#view_main_list .catalog-grid .shop_description .main-category-img {
 		height: 356px;
@@ -2437,5 +2438,10 @@ div.page-404 p {
 	}
 	#view_main_list .catalog-grid .shop_description .main-category-name .rectangle h1 {
 		font-size: 14vw!important;
+	}
+}
+@media (max-width: 300px) {
+	#view_main_list .catalog-grid .half-width .shop_description .main-category-name {
+		top: 12%;
 	}
 }
