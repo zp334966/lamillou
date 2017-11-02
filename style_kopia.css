@@ -2315,10 +2315,8 @@ div.page-404 p {
 	}
 }
 @media (max-width: 830px) {
+	#view_main_list .category-list.half-width .main-category-img,
 	#view_main_list .half-width .category-node .img-overlay {
-    		height: calc(50vw - 20px);
-	}
-	#view_main_list .category-list.half-width .main-category-img {
 		height: calc(50vw - 20px)!important;
 	}
 	#view_main_list .category-node .img-overlay .btn, #view_main_list .category-node .img-overlay .btn:hover {
@@ -2344,20 +2342,20 @@ div.page-404 p {
 	#view_main_list .catalog-grid .half-width .shop_description .main-category-name .rectangle h1 {
 		font-size: 31px!important;
     		letter-spacing: 0.24px;
+		bottom: calc(25vw - 10px);
+		line-height: 28px;
+		padding-bottom: 0px!important;
+		padding-top: 5px!important;
 	}
 }
 @media (max-width: 400px) {
-	#view_main_list .catalog-grid .shop_description .main-category-img {
-		height: 356px;
-	}
+	#view_main_list .catalog-grid .shop_description .main-category-img,
 	#view_main_list .category-node .img-overlay {
 		height: 356px;
 	}
 	#view_main_list .catalog-grid .half-width .shop_description .main-category-name .rectangle h1 {
 		font-size: 7vw!important;
-		bottom: calc(25vw - 10px);
 		line-height: 10vw;
-		padding-bottom: 0px!important;
     		padding-top: 3px!important;
 	}
 	#view_main_list .catalog-grid .shop_description .main-category-name .rectangle h1 {
