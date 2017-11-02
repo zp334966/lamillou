@@ -2511,3 +2511,11 @@ div.page-404 p {
 		display: none;
 	}
 }
+@media (max-width: 729px) {
+	#products_list_page {
+		margin-bottom: 10px;
+	}
+	#products_list_page .page-heading h1 {
+		padding-top: 12px;
+	}
+}
