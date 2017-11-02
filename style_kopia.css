@@ -2468,7 +2468,7 @@ div.page-404 p {
     width: 80px!important;
     line-height: 48px!important;
     font-size: 15px!important;
-    background-color: transparent;
+    background-color: transparent!important;
     letter-spacing: 0.38px;
     padding-bottom: 0!important;
     padding-left: 0!important;
