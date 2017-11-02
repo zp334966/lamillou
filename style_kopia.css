@@ -2224,8 +2224,7 @@ div.page-404 p {
     width: 430px;
     height: 163px;
 }
-#view_main_list .catalog-grid .shop_description .main-category-name .rectangle h1,
-#products_list_page .catalog-grid .shop_description .main-category-name .rectangle h1 {
+#view_main_list .catalog-grid .shop_description .main-category-name .rectangle h1 {
     position: absolute;
     font-size: 108px!important;
     color: white!important;
@@ -2240,8 +2239,7 @@ div.page-404 p {
     /*width: 851px;*/
     height: 416px;
 }
-#view_main_list .category-node .img-overlay .btn,
-#products_list_page .category-node .img-overlay .btn {
+#view_main_list .category-node .img-overlay .btn {
     margin-right: 22px!important;
     margin-bottom: 20px!important;
     padding-left: 15px!important;
@@ -2287,8 +2285,7 @@ div.page-404 p {
     top: 155px;
     left: 0px;
 }
-#view_main_list .catalog-grid .half-width .shop_description .main-category-name .rectangle h1,
-#products_list_page .catalog-grid .half-width .shop_description .main-category-name .rectangle h1 {
+#view_main_list .catalog-grid .half-width .shop_description .main-category-name .rectangle h1 {
     font-size: 68px!important;
     letter-spacing: 0.52px;
 }
@@ -2310,16 +2307,13 @@ div.page-404 p {
     #view_main_list .category-list.half-width.right-img .category-node {
     	margin-left: 10px;
     }
-    #view_main_list .category-node .img-overlay .btn:hover,
-    #products_list_page .category-node .img-overlay .btn:hover {
+    #view_main_list .category-node .img-overlay .btn:hover {
     	padding: 4px 9px 3px 13px!important;
     }
-    #view_main_list .catalog-grid .shop_description .main-category-name .rectangle h1,
-    #products_list_page .catalog-grid .shop_description .main-category-name .rectangle h1{
+    #view_main_list .catalog-grid .shop_description .main-category-name .rectangle h1 {
 	top: 60px;
     }
-    #view_main_list .catalog-grid .half-width .shop_description .main-category-name .rectangle h1,
-    #products_list_page .catalog-grid .half-width .shop_description .main-category-name .rectangle h1 {
+    #view_main_list .catalog-grid .half-width .shop_description .main-category-name .rectangle h1 {
 	top: 30px;
     }
 }
@@ -2447,11 +2441,38 @@ div.page-404 p {
 }
 /* Level 2/3 */
 #products_list_page .catalog-grid .half-width .shop_description .main-category-name .rectangle h1 {
+    width: fit-content;
+    max-width: 300px;
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+    position: absolute;
+    left: 30px;
     background-image: url(https://cdn.rawgit.com/joanna16/lamillou/627c21f0/tlo.svg);
     background-size: 100% 100%;
     background-position: center center;
-    width: 90%;
-    line-height: 52px;
+    line-height: 39px;
     background-repeat: no-repeat;
     padding-top: 19px!important;
+    transform: translateY(-190px) rotate(-10deg);
+    font-size: 48px!important;
+    letter-spacing: 2.08px;
+    color: white!important;
+    padding-bottom: 14px!important;
+    text-align: center!important;
+}
+#products_list_page .catalog-grid .shop_description .main-category-img {
+    height: 405px;
+}
+#products_list_page .category-node .img-overlay .btn {
+    margin-right: 33px!important;
+    margin-bottom: 13px!important;
+    width: 80px!important;
+    line-height: 48px!important;
+    font-size: 15px!important;
+    background-color: transparent;
+    letter-spacing: 0.38px;
+    padding-bottom: 0!important;
+    padding-left: 0!important;
+    padding-right: 0!important;
+    padding-top: 0!important	
 }
