@@ -2287,6 +2287,9 @@ div.page-404 p {
     }
 }
 @media (max-width: 991px) {
+    #view_main_list .catalog-grid .shop_description .main-category-img {
+	height: 356px;   
+    }
     #view_main_list {
         max-width: 712px;
     }
