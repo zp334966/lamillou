@@ -2228,7 +2228,7 @@ div.page-404 p {
     background-position: center center;
     line-height: 79px;
     background-repeat: no-repeat;
-    transform: translateY(-50%) translateX(-50%) rotate(-10deg);
+    transform: translateY(50%) translateX(-50%) rotate(-10deg);
     max-width: 650px;
     bottom: 208px;
     width: auto;
