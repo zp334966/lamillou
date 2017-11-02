@@ -2502,10 +2502,10 @@ div.page-404 p {
     		height: 90vw;
 	}
 	#products_list_page .catalog-grid .half-width .shop_description .main-category-name .rectangle h1 {
-		font-size: 30px!important;
+		font-size: 9vw!important;
     		letter-spacing: 1.3px;
-		transform: translateY(-330%) rotate(-10deg);
-		left: 5px;
+		transform: translateY(-83vw) rotate(-10deg);
+		left: 3%;
 	}
 	#products_list_page .category-node .img-overlay .btn {
 		display: none;
