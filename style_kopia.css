@@ -2230,6 +2230,10 @@ div.page-404 p {
     background-repeat: no-repeat;
     transform: translateY(-50%) translateX(-50%) rotate(-10deg);
     max-width: 650px;
+    bottom: 208px;
+    width: auto;
+    padding-left: 15px!important;
+    padding-right: 15px!important;
 }
 #view_main_list .category-node .img-overlay,
 #products_list_page .category-node .img-overlay {
@@ -2260,12 +2264,12 @@ div.page-404 p {
 }
 #view_main_list .half-width .category-node .img-overlay .btn:hover {
     padding: 0!important;
-}
+}/*
 #view_main_list .catalog-grid .half-width .shop_description .main-category-name,
 #products_list_page .catalog-grid .half-width .shop_description .main-category-name {
     top: 155px;
     left: 0px;
-}
+}*/
 #view_main_list .catalog-grid .half-width .shop_description .main-category-name .rectangle h1 {
     font-size: 68px!important;
     letter-spacing: 0.52px;
@@ -2282,9 +2286,6 @@ div.page-404 p {
     }
     #view_main_list .category-node .img-overlay .btn:hover {
     	padding: 4px 9px 3px 13px!important;
-    }
-    #view_main_list .catalog-grid .shop_description .main-category-name .rectangle h1 {
-	top: 60px;
     }
     #view_main_list .catalog-grid .half-width .shop_description .main-category-name .rectangle h1 {
 	top: 30px;
