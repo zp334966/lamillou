@@ -2445,3 +2445,8 @@ div.page-404 p {
 		top: 12%;
 	}
 }
+#products_list_page .catalog-grid .half-width .shop_description .main-category-name .rectangle h1 {
+    background: transparent url(https://fs.siteor.com/lamillou/files/VISLA/Kategorie/Tło/tlo.svg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
