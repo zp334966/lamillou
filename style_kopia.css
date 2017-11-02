@@ -2445,8 +2445,13 @@ div.page-404 p {
 		top: 12%;
 	}
 }
+/* Level 2/3 */
 #products_list_page .catalog-grid .half-width .shop_description .main-category-name .rectangle h1 {
-    background: transparent url(https://fs.siteor.com/lamillou/files/VISLA/Kategorie/Tło/tlo.svg) no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-image: url(https://cdn.rawgit.com/joanna16/lamillou/627c21f0/tlo.svg);
+    background-size: 100% 100%;
+    background-position: center center;
+    width: 90%;
+    line-height: 52px;
+    background-repeat: no-repeat;
+    padding-top: 19px!important;
 }
