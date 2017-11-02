@@ -2341,14 +2341,21 @@ div.page-404 p {
 	#view_main_list .catalog-grid .shop_description .main-category-name .rectangle h1 {
     		font-size: 50px!important;
 		letter-spacing: 2.17px;
+		line-height: 49px;
 	}
 	#view_main_list .catalog-grid .half-width .shop_description .main-category-name .rectangle h1 {
-		font-size: 31px!important;
+		font-size: 52px!important;
     		letter-spacing: 0.24px;
 		bottom: calc(25vw - 10px);
-		line-height: 28px;
+		line-height: 58px;
 		padding-bottom: 0px!important;
 		padding-top: 5px!important;
+	}
+}
+@media (min-width: 580px) and (min-width: 729px) {
+	#view_main_list {
+		padding-left: 5px;
+    		padding-right: 5px;
 	}
 }
 @media (max-width: 400px) {
