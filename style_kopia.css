@@ -2484,3 +2484,8 @@ div.page-404 p {
     margin-right: 14.5px;
     margin-bottom: 29px;
 }
+@media (min-width: 992px) {
+	#products_list_page {
+		margin-bottom: -34px;
+	}
+}
