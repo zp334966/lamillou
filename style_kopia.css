@@ -2493,8 +2493,8 @@ div.page-404 p {
 }
 @media (max-width: 991px) {
 	#products_list_page .category-list.half-width .category-node {
-    		margin-left: 0px;
-    		margin-right: 0px;
+    		margin-left: 5px;
+    		margin-right: 5px;
 	}
 	#products_list_page .category-list.half-width .category-node {
     		margin-bottom: 10px;
@@ -2506,6 +2506,12 @@ div.page-404 p {
 	}
 	#products_list_page .page-heading h2 {
 		padding-top: 12px!important;
+	}
+}
+@media (max-width: 580px) {
+	#products_list_page .category-list.half-width .category-node {
+    		margin-left: 0px;
+    		margin-right: 0px;
 	}
 }
 @media (max-width: 440px) {
