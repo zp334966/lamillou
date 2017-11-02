@@ -2352,7 +2352,7 @@ div.page-404 p {
 		padding-top: 5px!important;
 	}
 }
-@media (min-width: 580px) and (min-width: 729px) {
+@media (min-width: 580px) and (max-width: 729px) {
 	#view_main_list {
 		padding-left: 5px;
     		padding-right: 5px;
