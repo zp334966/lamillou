@@ -2311,12 +2311,7 @@ div.page-404 p {
     		padding: 4px 9px 3px 13px!important;
 	}
 	#view_main_list .catalog-grid .half-width .shop_description .main-category-name .rectangle h1 {
-		top: 30px;
 		font-size: 55px!important;
-	}
-	#view_main_list .catalog-grid .half-width .shop_description .main-category-name {
-		top: 123px;
-		width: 361px;
 	}
 }
 @media (max-width: 830px) {
