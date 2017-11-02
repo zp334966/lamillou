@@ -2344,7 +2344,7 @@ div.page-404 p {
 		line-height: 49px;
 	}
 	#view_main_list .catalog-grid .half-width .shop_description .main-category-name .rectangle h1 {
-		font-size: 52px!important;
+		font-size: 7.5vw!important;
     		letter-spacing: 0.24px;
 		bottom: calc(25vw - 10px);
 		line-height: 58px;
@@ -2367,6 +2367,8 @@ div.page-404 p {
 		font-size: 7vw!important;
 		line-height: 10vw;
     		padding-top: 3px!important;
+		padding-left: 7px!important;
+    		padding-right: 7px!important;
 	}
 	#view_main_list .catalog-grid .shop_description .main-category-name .rectangle h1 {
 		font-size: 14vw!important;
@@ -2427,28 +2429,24 @@ div.page-404 p {
 	#products_list_page .category-list.half-width .category-node {
     		margin-left: 14.5px;
     		margin-right: 14.5px;
+		margin-bottom: 29px;
 	}
 	#products_list_page .page-heading h2 {
     		margin-left: 14.5px!important;
-	}
-	#products_list_page .category-list.half-width .category-node {
-    		margin-bottom: 29px;
 	}
 }
 @media (max-width: 991px) {
 	#products_list_page .category-list.half-width .category-node {
     		margin-left: 5px;
     		margin-right: 5px;
-	}
-	#products_list_page .category-list.half-width .category-node {
-    		margin-bottom: 10px;
+		margin-bottom: 10px;
 	}
 }
 @media (max-width: 729px) {
 	#products_list_page {
 		margin-bottom: 29px;
 	}
-	#products_list_page .page-heading h2 {
+	#products_list_page .page-heading h2, #view_main_list .page-heading h2 {
 		padding-top: 12px!important;
 	}
 }
